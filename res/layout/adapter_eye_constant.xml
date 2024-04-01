@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/adapter_eye_constant_0" android:layout_width="630.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/eye_constant_layout" android:background="#cc2d393e" android:layout_width="fill_parent" android:layout_height="160.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/left_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="105.0dip" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/right_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="430.0dip" />
+        <TextView android:id="@id/eye_type_label" android:text="@string/msg_eye_cr_freqtype" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="@id/eye_type_radioGroup" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/eye_type_radioGroup" style="@style/App.Text" />
+        <TextView android:id="@id/eye_dataRate_value" android:tag="binding_1" android:layout_marginTop="30.0dip" android:layout_marginBottom="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/right_guideline" app:layout_constraintTop_toBottomOf="@id/eye_type_radioGroup" app:layout_constraintVertical_bias="0.0" style="@style/App.EditText.Large" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/eye_type_radioGroup" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginTop="30.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/left_guideline" app:layout_constraintTop_toTopOf="parent">
+            <RadioButton android:id="@id/eye_type_atuo_radioButton" android:tag="binding_3" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/App.RadioButton" />
+            <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/eye_type_semiauto_radioButton" android:tag="binding_4" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/App.RadioButton" />
+            <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/eye_type_manual_radioButton" android:tag="binding_5" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/App.RadioButton" />
+        </RadioGroup>
+        <TextView android:id="@id/eye_dataRate_label" android:tag="binding_6" android:text="@string/msg_eye_cr_datefreq" app:layout_constraintBottom_toBottomOf="@id/eye_dataRate_value" app:layout_constraintStart_toStartOf="@id/eye_type_label" app:layout_constraintTop_toTopOf="@id/eye_dataRate_value" style="@style/App.Text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

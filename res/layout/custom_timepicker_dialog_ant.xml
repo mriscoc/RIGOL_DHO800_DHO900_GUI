@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/custom_timepicker_dialog_ant_0" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/App.PopupWindow.Date"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/included" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <TimePicker android:id="@id/timePicker" android:background="@color/popup_view_background" android:layout_width="fill_parent" android:layout_height="180.0dip" android:numbersSelectorColor="@color/white" android:timePickerMode="spinner" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/included" style="@android:style/Widget.Material.Light.TimePicker" />
+    <Button android:id="@id/confirmButton" android:layout_width="120.0dip" android:layout_marginTop="15.0dip" android:text="@string/msg_gui_menu_ask" app:layout_constraintEnd_toEndOf="@id/timePicker" app:layout_constraintStart_toStartOf="@id/timePicker" app:layout_constraintTop_toBottomOf="@id/timePicker" style="@style/App.Button.Large" />
+</androidx.constraintlayout.widget.ConstraintLayout>

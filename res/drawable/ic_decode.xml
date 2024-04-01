@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="23.0dip" android:width="40.0dip" android:viewportWidth="55.9" android:viewportHeight="33.7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#00000000" android:pathData="M1.1,32.8l5.1,0l0,-32l12.7,0l0,31.8l6.7,0l0,-31.6l12.4,0l0,31.4l6.8,0l0,-31.3l6.3,0l0,31.5l4.6,0" android:strokeColor="#ffb0b0b0" android:strokeWidth="1.6898" android:strokeAlpha="0.8" android:fillAlpha="0.8" />
+    <path android:fillColor="@drawable/$ic_decode__0" android:pathData="M5.4,0l-2.2,0l0,29l2.2,3z" />
+    <path android:fillColor="@drawable/$ic_decode__1" android:pathData="M18.2,1.7l-2.3,0l0,28.9l2.3,3.1z" />
+    <path android:fillColor="#ffffffff" android:pathData="M24.2,16.4l-3.2,-5.9l-15.3,0l-3.2,5.9l-0.2,0.4l0.3,0.6l3.1,5.8l15.3,0l3.2,-5.8l0.3,-0.6z" />
+    <path android:fillColor="#00000000" android:pathData="M49.5,16.4l-3.2,-5.9l-15.3,0l-3.2,5.9l-0.3,0.4l0.3,0.6l3.2,5.8l15.3,0l3.1,-5.8l0.3,-0.6z" android:strokeColor="#ffffffff" android:strokeWidth="1.0" />
+    <path android:fillColor="#ffffffff" android:pathData="M24.4,10.4h2.8v12.8h-2.8z" />
+    <path android:fillColor="#ffffffff" android:pathData="M50.2,10.4h2.8v12.8h-2.8z" />
+    <path android:fillColor="#ffffffff" android:pathData="M28.2,17.8l-28.2,0l0,-1.9l28.3,0" />
+    <path android:fillColor="#ffffffff" android:pathData="M49.2,15.9l6.7,0l0,1.9l-6.6,0" />
+    <path android:fillColor="@drawable/$ic_decode__2" android:pathData="M1,32l-0.7,-2.8l3,0l2.1,2.8z" />
+    <path android:fillColor="@drawable/$ic_decode__3" android:pathData="M24.7,0l-2.2,0l0,29l2.2,2.8z" />
+    <path android:fillColor="@drawable/$ic_decode__4" android:pathData="M19.7,31.8l0,-2.7l2.9,0.1l2.1,2.6z" />
+    <path android:fillColor="@drawable/$ic_decode__5" android:pathData="M43.9,0.2l-2.2,0l0,28.7l2.2,2.7z" />
+    <path android:fillColor="@drawable/$ic_decode__6" android:pathData="M38.9,31.6l-0.1,-2.7l2.9,0l2.2,2.7z" />
+    <path android:fillColor="@drawable/$ic_decode__7" android:pathData="M37.2,1.8l-2.3,0l0,28.6l2.3,2.9z" />
+    <path android:fillColor="@drawable/$ic_decode__8" android:pathData="M50.3,1.9l-2.3,0l0,28.7l2.3,2.9z" />
+</vector>

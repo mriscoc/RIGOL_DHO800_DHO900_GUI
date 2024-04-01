@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_vertical_0" style="@style/App.PopupWindow.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="wrap_content" android:layout_height="30.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" app:tabMinWidth="96.0dip" style="@style/App.TabLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

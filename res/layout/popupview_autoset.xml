@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_autoset_0" style="@style/App.PopupWindow.AutoSet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/App.RecyclerView.Linear" />
+</androidx.constraintlayout.widget.ConstraintLayout>

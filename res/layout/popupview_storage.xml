@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_storage_0" style="@style/App.PopupWindow.Storage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" app:tabMinWidth="140.0dip" style="@style/App.TabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/disk_manage" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+    <Button android:id="@id/disk_manage" android:layout_marginBottom="33.0dip" android:text="@string/msg_storage_disk_manage" android:drawableStart="@drawable/ic_arrow_left" android:layout_marginStart="33.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/App.Button" />
+    <TextView android:text="@string/inf_upgrade_storage_leave_mem" android:layout_marginEnd="3.0dip" app:layout_constraintBottom_toBottomOf="@id/disk_manage" app:layout_constraintEnd_toStartOf="@id/tv_mem" app:layout_constraintTop_toTopOf="@id/disk_manage" style="@style/App.Text" />
+    <TextView android:id="@id/tv_mem" android:layout_marginEnd="33.0dip" app:layout_constraintBottom_toBottomOf="@id/disk_manage" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/disk_manage" style="@style/App.Text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/bode_result_popuwin_0" android:layout_width="200.0dip" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.3" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_center2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.06" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_center12" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.72" />
+    <TextView android:id="@id/nothing_text" android:tag="binding_1" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" app:layout_constraintStart_toStartOf="@id/guideline_center2" app:layout_constraintTop_toBottomOf="@id/title_layout" style="@style/App.Text" />
+    <TextView android:id="@id/nothing_text1" android:layout_marginTop="10.0dip" android:text="Freq:" app:layout_constraintStart_toStartOf="@id/guideline_center2" app:layout_constraintTop_toBottomOf="@id/nothing_text" style="@style/App.Text" />
+    <TextView android:tag="binding_2" app:layout_constraintBottom_toBottomOf="@id/nothing_text1" app:layout_constraintStart_toEndOf="@id/guideline_center" app:layout_constraintTop_toTopOf="@id/nothing_text1" style="@style/App.Text" />
+    <TextView android:id="@id/nothing_text2" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="Phase:" app:layout_constraintStart_toStartOf="@id/guideline_center2" app:layout_constraintTop_toBottomOf="@id/nothing_text1" style="@style/App.Text" />
+    <TextView android:tag="binding_3" app:layout_constraintBottom_toBottomOf="@id/nothing_text2" app:layout_constraintStart_toEndOf="@id/guideline_center" app:layout_constraintTop_toTopOf="@id/nothing_text2" style="@style/App.Text" />
+    <TextView android:id="@id/nothing_text6" android:layout_marginTop="10.0dip" android:text="GM(°)" app:layout_constraintStart_toStartOf="@id/nothing_text12" app:layout_constraintTop_toBottomOf="@id/title_layout" style="@style/App.Text" />
+    <TextView android:id="@id/nothing_text12" android:layout_marginTop="10.0dip" android:text="Freq:" app:layout_constraintEnd_toEndOf="@id/guideline_center12" app:layout_constraintTop_toBottomOf="@id/nothing_text" style="@style/App.Text" />
+    <TextView android:tag="binding_4" app:layout_constraintBottom_toBottomOf="@id/nothing_text12" app:layout_constraintStart_toEndOf="@id/guideline_center12" app:layout_constraintTop_toTopOf="@id/nothing_text12" style="@style/App.Text" />
+    <TextView android:id="@id/nothing_text21" android:layout_marginTop="10.0dip" android:text="Gain:" app:layout_constraintEnd_toEndOf="@id/guideline_center12" app:layout_constraintTop_toBottomOf="@id/nothing_text1" style="@style/App.Text" />
+    <TextView android:tag="binding_5" app:layout_constraintBottom_toBottomOf="@id/nothing_text21" app:layout_constraintStart_toEndOf="@id/guideline_center12" app:layout_constraintTop_toTopOf="@id/nothing_text21" style="@style/App.Text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

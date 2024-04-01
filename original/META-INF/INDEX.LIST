@@ -1,0 +1,17 @@
+JarIndex-Version: 1.0
+
+jmdns-3.5.7.jar
+META-INF
+META-INF/maven
+META-INF/maven/org.jmdns
+META-INF/maven/org.jmdns/jmdns
+javax
+javax/jmdns
+javax/jmdns/impl
+javax/jmdns/impl/constants
+javax/jmdns/impl/tasks
+javax/jmdns/impl/tasks/resolver
+javax/jmdns/impl/tasks/state
+javax/jmdns/impl/util
+version.properties
+

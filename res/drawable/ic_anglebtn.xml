@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="84.19998dip" android:width="84.19998dip" android:viewportWidth="84.2" android:viewportHeight="84.2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff73caff" android:pathData="M42.1,76.1c-18.7,0 -34,-15.2 -34,-34s15.2,-34 34,-34s34,15.2 34,34S60.9,76.1 42.1,76.1zM42.1,8.8c-18.4,0 -33.4,15 -33.4,33.4s15,33.4 33.4,33.4s33.4,-15 33.4,-33.4S60.5,8.8 42.1,8.8z" />
+    <path android:fillColor="@drawable/$ic_anglebtn__0" android:pathData="M42.1,84.2c-9.3,0 -18.7,-3.1 -26.4,-9.4C6.9,67.8 1.5,57.7 0.3,46.5c-1.2,-11.2 2.1,-22.1 9.1,-30.9C16.5,6.9 26.6,1.5 37.7,0.3c11.2,-1.2 22.1,2.1 30.9,9.1c8.7,7.1 14.2,17.1 15.4,28.3c1.2,11.2 -2.1,22.1 -9.1,30.9l0,0C66.5,78.9 54.4,84.2 42.1,84.2zM42.2,2.5c-1.4,0 -2.8,0.1 -4.2,0.2C27.5,3.8 18,9 11.3,17.2c-6.7,8.2 -9.7,18.6 -8.6,29.1c1.1,10.5 6.2,20 14.5,26.7c17,13.8 42,11.1 55.7,-5.8c6.7,-8.2 9.7,-18.6 8.6,-29.1c-1.1,-10.5 -6.2,-20 -14.5,-26.7C60,5.6 51.3,2.5 42.2,2.5z" />
+</vector>

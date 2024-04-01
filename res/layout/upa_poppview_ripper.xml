@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/upa_poppview_ripper_0" style="@style/App.PopupWindow.popuview_upa_tip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <ImageView android:layout_width="700.0dip" android:layout_height="400.0dip" android:src="@drawable/icon_quality" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

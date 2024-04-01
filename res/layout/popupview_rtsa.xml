@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_rtsa_0" style="@style/App.PopupWindow.RTSA"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/rtsa_tabs" android:layout_width="800.0dip" android:layout_height="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" app:tabMaxWidth="400.0dip" app:tabMinWidth="400.0dip" style="@style/App.TabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/rtsa_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rtsa_tabs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

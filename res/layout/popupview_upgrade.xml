@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_upgrade_0" style="@style/App.PopupWindow.BoardTest"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/adapter_item_rtsa_0" android:focusable="true" android:clickable="true" android:layout_width="200.0dip" android:layout_height="125.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:foreground="?android:selectableItemBackgroundBorderless" />
+    <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/title" android:tag="binding_1" android:layout_width="55.0dip" android:layout_height="18.0dip" android:layout_marginTop="1.0dip" android:text="@string/msg_fft" android:includeFontPadding="false" android:layout_marginStart="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:id="@id/center" android:tag="binding_2" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingHorizontal="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+    <TextView android:textSize="16.0sp" android:id="@id/span" android:tag="binding_3" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/center" />
+</androidx.constraintlayout.widget.ConstraintLayout>

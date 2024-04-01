@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/adapter_eye_explicit_0" android:layout_width="630.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/eye_explicit_layout" android:background="#cc2d393e" android:layout_width="fill_parent" android:layout_height="80.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/right_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="430.0dip" />
+        <TextView android:id="@id/eye_external_clock_source_label" android:text="@string/msg_eye_source" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="@id/eye_external_clock_source_value" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/eye_external_clock_source_value" style="@style/App.Text" />
+        <TextView android:id="@id/eye_external_clock_source_value" android:tag="binding_1" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/right_guideline" app:layout_constraintTop_toTopOf="parent" style="@style/App.Spinner.Large" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rigol.scope.views.resultItem.ResultItemConstraintLayout android:tag="layout/adapter_item_result_measure_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/title_layout" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ResultItemTitleLayout">
+        <ImageView android:id="@id/icon" android:tag="binding_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/App.Image.ResultItem" />
+    </LinearLayout>
+    <TextView android:id="@id/title" app:layout_constraintTop_toBottomOf="@id/title_layout" style="@style/App.Title.ResultItem" />
+    <com.rigol.scope.views.DisableTouchEventRecyclerView android:id="@id/result_list" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/App.RecyclerView.Linear" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/current_result" android:tag="binding_3" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:paddingHorizontal="5.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+    <ImageView android:id="@id/arrow" android:tag="binding_4" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.rigol.scope.views.resultItem.ResultItemConstraintLayout>

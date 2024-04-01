@@ -1,0 +1,4585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="debug_msg_list">
+        <item>@string/debug_msg_debug_gpu_plot</item>
+        <item>@string/debug_msg_debug_adc_clock</item>
+        <item>@string/debug_msg_debug_ddr_io</item>
+        <item>@string/debug_msg_debug_adc_ser</item>
+        <item>@string/debug_msg_debug_logcat</item>
+    </string-array>
+    <string-array name="dis_decode_1553b">
+        <item>{v: 1, si: vdecode_1119}</item>
+        <item>{v: 2, si: vdecode_1120}</item>
+        <item>{v: 1, si: vdecode_1121}</item>
+        <item>{v: 3, si: vdecode_1122}</item>
+        <item>{v: 0, si: vdecode_1123}</item>
+        <item>{v: 1, si: vdecode_1124}</item>
+        <item>{v: 2, si: vdecode_1125}</item>
+        <item>{v: 1, si: vdecode_1126}</item>
+        <item>{v: 0, si: vdecode_1127}</item>
+        <item>{v: 1, si: vdecode_1128}</item>
+        <item>{v: 1, si: vdecode_1129}</item>
+        <item>{v: 1, si: vdecode_1130}</item>
+        <item>{v: 2, si: vdecode_1131}</item>
+        <item>{v: 2, si: vdecode_1132}</item>
+        <item>{v: 1, si: vdecode_1133}</item>
+        <item>{v: 2, si: vdecode_1134}</item>
+    </string-array>
+    <string-array name="dis_decode_arinc429">
+        <item>{v: 1, si: vdecode_1136}</item>
+        <item>{v: 2, si: vdecode_1137}</item>
+        <item>{v: 0, si: vdecode_1138}</item>
+        <item>{v: 1, si: vdecode_1139}</item>
+        <item>{v: 3, si: vdecode_1140}</item>
+        <item>{v: 3, si: vdecode_1141}</item>
+        <item>{v: 1, si: vdecode_1142}</item>
+        <item>{v: 1, si: vdecode_1143}</item>
+        <item>{v: 1, si: vdecode_1144}</item>
+        <item>{v: 0, si: vdecode_1145}</item>
+        <item>{v: 1, si: vdecode_1146}</item>
+        <item>{v: 2, si: vdecode_1147}</item>
+        <item>{v: 1, si: vdecode_1148}</item>
+        <item>{v: 0, si: vdecode_1149}</item>
+        <item>{v: 1, si: vdecode_1150}</item>
+        <item>{v: 1, si: vdecode_1151}</item>
+        <item>{v: 1, si: vdecode_1152}</item>
+        <item>{v: 2, si: vdecode_1153}</item>
+        <item>{v: 2, si: vdecode_1154}</item>
+        <item>{v: 1, si: vdecode_1155}</item>
+        <item>{v: 2, si: vdecode_1156}</item>
+    </string-array>
+    <string-array name="dis_decode_can">
+        <item>{v: 1, si: vdecode_1044}</item>
+        <item>{v: 2, si: vdecode_1045}</item>
+        <item>{v: 1, si: vdecode_1046}</item>
+        <item>{v: 3, si: vdecode_1047}</item>
+        <item>{v: 0, si: vdecode_1048}</item>
+        <item>{v: 1, si: vdecode_1049}</item>
+        <item>{v: 1, si: vdecode_1050}</item>
+        <item>{v: 3, si: vdecode_1051}</item>
+        <item>{v: 1, si: vdecode_1052}</item>
+        <item>{v: 3, si: vdecode_1053}</item>
+        <item>{v: 0, si: vdecode_1054}</item>
+        <item>{v: 1, si: vdecode_1055}</item>
+        <item>{v: 2, si: vdecode_1056}</item>
+        <item>{v: 1, si: vdecode_1057}</item>
+        <item>{v: 0, si: vdecode_1058}</item>
+        <item>{v: 1, si: vdecode_1059}</item>
+        <item>{v: 1, si: vdecode_1060}</item>
+        <item>{v: 1, si: vdecode_1061}</item>
+        <item>{v: 2, si: vdecode_1062}</item>
+        <item>{v: 2, si: vdecode_1063}</item>
+        <item>{v: 1, si: vdecode_1064}</item>
+        <item>{v: 2, si: vdecode_1065}</item>
+    </string-array>
+    <string-array name="dis_decode_flexray">
+        <item>{v: 1, si: vdecode_1067}</item>
+        <item>{v: 2, si: vdecode_1068}</item>
+        <item>{v: 1, si: vdecode_1069}</item>
+        <item>{v: 3, si: vdecode_1070}</item>
+        <item>{v: 0, si: vdecode_1071}</item>
+        <item>{v: 1, si: vdecode_1072}</item>
+        <item>{v: 1, si: vdecode_1073}</item>
+        <item>{v: 1, si: vdecode_1074}</item>
+        <item>{v: 3, si: vdecode_1075}</item>
+        <item>{v: 0, si: vdecode_1076}</item>
+        <item>{v: 1, si: vdecode_1077}</item>
+        <item>{v: 2, si: vdecode_1078}</item>
+        <item>{v: 1, si: vdecode_1079}</item>
+        <item>{v: 0, si: vdecode_1080}</item>
+        <item>{v: 1, si: vdecode_1081}</item>
+        <item>{v: 1, si: vdecode_1082}</item>
+        <item>{v: 1, si: vdecode_1083}</item>
+        <item>{v: 2, si: vdecode_1084}</item>
+        <item>{v: 2, si: vdecode_1085}</item>
+        <item>{v: 1, si: vdecode_1086}</item>
+        <item>{v: 2, si: vdecode_1087}</item>
+    </string-array>
+    <string-array name="dis_decode_i2c">
+        <item>{v: 1, si: vdecode_969}</item>
+        <item>{v: 2, si: vdecode_970}</item>
+        <item>{v: 0, si: vdecode_971}</item>
+        <item>{v: 1, si: vdecode_972}</item>
+        <item>{v: 3, si: vdecode_973}</item>
+        <item>{v: 1, si: vdecode_974}</item>
+        <item>{v: 3, si: vdecode_975}</item>
+        <item>{v: 2, si: vdecode_976}</item>
+        <item>{v: 1, si: vdecode_977}</item>
+        <item>{v: 0, si: vdecode_978}</item>
+        <item>{v: 1, si: vdecode_979}</item>
+        <item>{v: 2, si: vdecode_980}</item>
+        <item>{v: 1, si: vdecode_981}</item>
+        <item>{v: 0, si: vdecode_982}</item>
+        <item>{v: 1, si: vdecode_983}</item>
+        <item>{v: 1, si: vdecode_984}</item>
+        <item>{v: 1, si: vdecode_985}</item>
+        <item>{v: 2, si: vdecode_986}</item>
+        <item>{v: 2, si: vdecode_987}</item>
+        <item>{v: 1, si: vdecode_988}</item>
+        <item>{v: 2, si: vdecode_989}</item>
+    </string-array>
+    <string-array name="dis_decode_i2s">
+        <item>{v: 1, si: vdecode_1089}</item>
+        <item>{v: 2, si: vdecode_1090}</item>
+        <item>{v: 0, si: vdecode_1091}</item>
+        <item>{v: 1, si: vdecode_1092}</item>
+        <item>{v: 3, si: vdecode_1093}</item>
+        <item>{v: 1, si: vdecode_1094}</item>
+        <item>{v: 1, si: vdecode_1095}</item>
+        <item>{v: 3, si: vdecode_1096}</item>
+        <item>{v: 1, si: vdecode_1097}</item>
+        <item>{v: 3, si: vdecode_1098}</item>
+        <item>{v: 0, si: vdecode_1099}</item>
+        <item>{v: 3, si: vdecode_1100}</item>
+        <item>{v: 3, si: vdecode_1101}</item>
+        <item>{v: 1, si: vdecode_1102}</item>
+        <item>{v: 1, si: vdecode_1103}</item>
+        <item>{v: 1, si: vdecode_1104}</item>
+        <item>{v: 1, si: vdecode_1105}</item>
+        <item>{v: 0, si: vdecode_1106}</item>
+        <item>{v: 1, si: vdecode_1107}</item>
+        <item>{v: 2, si: vdecode_1108}</item>
+        <item>{v: 1, si: vdecode_1109}</item>
+        <item>{v: 0, si: vdecode_1110}</item>
+        <item>{v: 1, si: vdecode_1111}</item>
+        <item>{v: 1, si: vdecode_1112}</item>
+        <item>{v: 1, si: vdecode_1113}</item>
+        <item>{v: 2, si: vdecode_1114}</item>
+        <item>{v: 2, si: vdecode_1115}</item>
+        <item>{v: 1, si: vdecode_1116}</item>
+        <item>{v: 2, si: vdecode_1117}</item>
+    </string-array>
+    <string-array name="dis_decode_lin">
+        <item>{v: 1, si: vdecode_1023}</item>
+        <item>{v: 2, si: vdecode_1024}</item>
+        <item>{v: 1, si: vdecode_1025}</item>
+        <item>{v: 3, si: vdecode_1026}</item>
+        <item>{v: 0, si: vdecode_1027}</item>
+        <item>{v: 1, si: vdecode_1028}</item>
+        <item>{v: 1, si: vdecode_1029}</item>
+        <item>{v: 1, si: vdecode_1030}</item>
+        <item>{v: 0, si: vdecode_1031}</item>
+        <item>{v: 1, si: vdecode_1032}</item>
+        <item>{v: 2, si: vdecode_1033}</item>
+        <item>{v: 1, si: vdecode_1034}</item>
+        <item>{v: 0, si: vdecode_1035}</item>
+        <item>{v: 1, si: vdecode_1036}</item>
+        <item>{v: 1, si: vdecode_1037}</item>
+        <item>{v: 1, si: vdecode_1038}</item>
+        <item>{v: 2, si: vdecode_1039}</item>
+        <item>{v: 2, si: vdecode_1040}</item>
+        <item>{v: 1, si: vdecode_1041}</item>
+        <item>{v: 2, si: vdecode_1042}</item>
+    </string-array>
+    <string-array name="dis_decode_most">
+        <item>{v: 1, si: vdecode_1184}</item>
+        <item>{v: 2, si: vdecode_1185}</item>
+        <item>{v: 0, si: vdecode_1186}</item>
+        <item>{v: 1, si: vdecode_1187}</item>
+        <item>{v: 3, si: vdecode_1188}</item>
+        <item>{v: 1, si: vdecode_1189}</item>
+        <item>{v: 0, si: vdecode_1190}</item>
+        <item>{v: 1, si: vdecode_1191}</item>
+        <item>{v: 2, si: vdecode_1192}</item>
+        <item>{v: 1, si: vdecode_1193}</item>
+        <item>{v: 0, si: vdecode_1194}</item>
+        <item>{v: 1, si: vdecode_1195}</item>
+        <item>{v: 1, si: vdecode_1196}</item>
+        <item>{v: 1, si: vdecode_1197}</item>
+        <item>{v: 2, si: vdecode_1198}</item>
+        <item>{v: 2, si: vdecode_1199}</item>
+        <item>{v: 1, si: vdecode_1200}</item>
+        <item>{v: 2, si: vdecode_1201}</item>
+    </string-array>
+    <string-array name="dis_decode_parallel">
+        <item>{v: 1, si: vdecode_912}</item>
+        <item>{v: 2, si: vdecode_913}</item>
+        <item>{v: 0, si: vdecode_914}</item>
+        <item>{v: 1, si: vdecode_915}</item>
+        <item>{v: 1, si: vdecode_916}</item>
+        <item>{v: 3, si: vdecode_917}</item>
+        <item>{v: 0, si: vdecode_918}</item>
+        <item>{v: 1, si: vdecode_919}</item>
+        <item>{v: 3, si: vdecode_920}</item>
+        <item>{v: 3, si: vdecode_921}</item>
+        <item>{v: 1, si: vdecode_922}</item>
+        <item>{v: 3, si: vdecode_923}</item>
+        <item>{v: 1, si: vdecode_924}</item>
+        <item>{v: 1, si: vdecode_925}</item>
+        <item>{v: 0, si: vdecode_926}</item>
+        <item>{v: 1, si: vdecode_927}</item>
+        <item>{v: 2, si: vdecode_928}</item>
+        <item>{v: 1, si: vdecode_929}</item>
+        <item>{v: 0, si: vdecode_930}</item>
+        <item>{v: 1, si: vdecode_931}</item>
+        <item>{v: 1, si: vdecode_932}</item>
+        <item>{v: 1, si: vdecode_933}</item>
+        <item>{v: 2, si: vdecode_934}</item>
+        <item>{v: 2, si: vdecode_935}</item>
+        <item>{v: 1, si: vdecode_936}</item>
+        <item>{v: 0, si: vdecode_937}</item>
+        <item>{v: 3, si: vdecode_938}</item>
+    </string-array>
+    <string-array name="dis_decode_rs232">
+        <item>{v: 1, si: vdecode_940}</item>
+        <item>{v: 2, si: vdecode_941}</item>
+        <item>{v: 1, si: vdecode_942}</item>
+        <item>{v: 0, si: vdecode_943}</item>
+        <item>{v: 1, si: vdecode_944}</item>
+        <item>{v: 3, si: vdecode_945}</item>
+        <item>{v: 1, si: vdecode_946}</item>
+        <item>{v: 3, si: vdecode_947}</item>
+        <item>{v: 1, si: vdecode_948}</item>
+        <item>{v: 0, si: vdecode_949}</item>
+        <item>{v: 1, si: vdecode_950}</item>
+        <item>{v: 2, si: vdecode_951}</item>
+        <item>{v: 1, si: vdecode_952}</item>
+        <item>{v: 0, si: vdecode_953}</item>
+        <item>{v: 1, si: vdecode_954}</item>
+        <item>{v: 1, si: vdecode_955}</item>
+        <item>{v: 1, si: vdecode_956}</item>
+        <item>{v: 2, si: vdecode_957}</item>
+        <item>{v: 2, si: vdecode_958}</item>
+        <item>{v: 1, si: vdecode_959}</item>
+        <item>{v: 0, si: vdecode_960}</item>
+        <item>{v: 1, si: vdecode_961}</item>
+        <item>{v: 1, si: vdecode_962}</item>
+        <item>{v: 1, si: vdecode_963}</item>
+        <item>{v: 1, si: vdecode_964}</item>
+        <item>{v: 1, si: vdecode_965}</item>
+        <item>{v: 1, si: vdecode_966}</item>
+        <item>{v: 2, si: vdecode_967}</item>
+    </string-array>
+    <string-array name="dis_decode_sent">
+        <item>{v: 1, si: vdecode_1158}</item>
+        <item>{v: 2, si: vdecode_1159}</item>
+        <item>{v: 0, si: vdecode_1160}</item>
+        <item>{v: 1, si: vdecode_1161}</item>
+        <item>{v: 3, si: vdecode_1162}</item>
+        <item>{v: 3, si: vdecode_1163}</item>
+        <item>{v: 3, si: vdecode_1164}</item>
+        <item>{v: 3, si: vdecode_1165}</item>
+        <item>{v: 1, si: vdecode_1166}</item>
+        <item>{v: 1, si: vdecode_1167}</item>
+        <item>{v: 1, si: vdecode_1168}</item>
+        <item>{v: 0, si: vdecode_1169}</item>
+        <item>{v: 1, si: vdecode_1170}</item>
+        <item>{v: 0, si: vdecode_1171}</item>
+        <item>{v: 1, si: vdecode_1172}</item>
+        <item>{v: 2, si: vdecode_1173}</item>
+        <item>{v: 1, si: vdecode_1174}</item>
+        <item>{v: 0, si: vdecode_1175}</item>
+        <item>{v: 1, si: vdecode_1176}</item>
+        <item>{v: 1, si: vdecode_1177}</item>
+        <item>{v: 1, si: vdecode_1178}</item>
+        <item>{v: 2, si: vdecode_1179}</item>
+        <item>{v: 2, si: vdecode_1180}</item>
+        <item>{v: 1, si: vdecode_1181}</item>
+        <item>{v: 2, si: vdecode_1182}</item>
+    </string-array>
+    <string-array name="dis_decode_spi">
+        <item>{v: 1, si: vdecode_991}</item>
+        <item>{v: 2, si: vdecode_992}</item>
+        <item>{v: 0, si: vdecode_993}</item>
+        <item>{v: 3, si: vdecode_994}</item>
+        <item>{v: 1, si: vdecode_995}</item>
+        <item>{v: 1, si: vdecode_996}</item>
+        <item>{v: 3, si: vdecode_997}</item>
+        <item>{v: 0, si: vdecode_998}</item>
+        <item>{v: 1, si: vdecode_999}</item>
+        <item>{v: 3, si: vdecode_1000}</item>
+        <item>{v: 1, si: vdecode_1001}</item>
+        <item>{v: 1, si: vdecode_1002}</item>
+        <item>{v: 3, si: vdecode_1003}</item>
+        <item>{v: 1, si: vdecode_1004}</item>
+        <item>{v: 3, si: vdecode_1005}</item>
+        <item>{v: 0, si: vdecode_1006}</item>
+        <item>{v: 1, si: vdecode_1007}</item>
+        <item>{v: 2, si: vdecode_1008}</item>
+        <item>{v: 1, si: vdecode_1009}</item>
+        <item>{v: 0, si: vdecode_1010}</item>
+        <item>{v: 1, si: vdecode_1011}</item>
+        <item>{v: 1, si: vdecode_1012}</item>
+        <item>{v: 1, si: vdecode_1013}</item>
+        <item>{v: 2, si: vdecode_1014}</item>
+        <item>{v: 2, si: vdecode_1015}</item>
+        <item>{v: 1, si: vdecode_1016}</item>
+        <item>{v: 0, si: vdecode_1017}</item>
+        <item>{v: 1, si: vdecode_1018}</item>
+        <item>{v: 1, si: vdecode_1019}</item>
+        <item>{v: 3, si: vdecode_1020}</item>
+        <item>{v: 2, si: vdecode_1021}</item>
+    </string-array>
+    <string-array name="dis_decode_usb">
+        <item>{v: 1, si: vdecode_1203}</item>
+        <item>{v: 2, si: vdecode_1204}</item>
+        <item>{v: 0, si: vdecode_1205}</item>
+        <item>{v: 1, si: vdecode_1206}</item>
+        <item>{v: 3, si: vdecode_1207}</item>
+        <item>{v: 1, si: vdecode_1208}</item>
+        <item>{v: 3, si: vdecode_1209}</item>
+        <item>{v: 1, si: vdecode_1210}</item>
+        <item>{v: 3, si: vdecode_1211}</item>
+        <item>{v: 3, si: vdecode_1212}</item>
+        <item>{v: 1, si: vdecode_1213}</item>
+        <item>{v: 0, si: vdecode_1214}</item>
+        <item>{v: 1, si: vdecode_1215}</item>
+        <item>{v: 2, si: vdecode_1216}</item>
+        <item>{v: 1, si: vdecode_1217}</item>
+        <item>{v: 0, si: vdecode_1218}</item>
+        <item>{v: 1, si: vdecode_1219}</item>
+        <item>{v: 1, si: vdecode_1220}</item>
+        <item>{v: 1, si: vdecode_1221}</item>
+        <item>{v: 2, si: vdecode_1222}</item>
+        <item>{v: 2, si: vdecode_1223}</item>
+        <item>{v: 1, si: vdecode_1224}</item>
+        <item>{v: 2, si: vdecode_1225}</item>
+    </string-array>
+    <string-array name="ids_decode4">
+        <item>{}</item>
+    </string-array>
+    <string-array name="inf_scpi_toasts">
+        <item>{v: 1, si: guiserve_283}</item>
+        <item>{v: 2, si: guiserve_284}</item>
+        <item>{v: 3, si: guiserve_285}</item>
+        <item>{v: 4, si: guiserve_286}</item>
+        <item>{v: 5, si: guiserve_287}</item>
+        <item>{v: 6, si: guiserve_288}</item>
+        <item>{v: 7, si: guiserve_289}</item>
+        <item>{v: 8, si: guiserve_290}</item>
+        <item>{v: 9, si: guiserve_291}</item>
+        <item>{v: 10, si: guiserve_292}</item>
+        <item>{v: 11, si: guiserve_293}</item>
+        <item>{v: 12, si: guiserve_294}</item>
+        <item>{v: 13, si: guiserve_295}</item>
+        <item>{v: 14, si: guiserve_296}</item>
+        <item>{v: 15, si: guiserve_297}</item>
+        <item>{v: 16, si: guiserve_298}</item>
+        <item>{v: 17, si: guiserve_299}</item>
+    </string-array>
+    <string-array name="layout_io">
+        <item>{si: ioset_47}</item>
+        <item>{si: ioset_48}</item>
+        <item>{si: ioset_49}</item>
+        <item>{si: ioset_50}</item>
+        <item>{si: ioset_51}</item>
+        <item>{si: ioset_52}</item>
+    </string-array>
+    <string-array name="msg_acq_anti_aliasing">
+        <item>{v: 0, si: horizontal_33}</item>
+        <item>{v: 1, si: horizontal_34}</item>
+    </string-array>
+    <string-array name="msg_acq_highres_bit">
+        <item>{v: 4, si: horizontal_88}</item>
+        <item>{v: 6, si: horizontal_90}</item>
+        <item>{v: 8, si: horizontal_92}</item>
+    </string-array>
+    <string-array name="msg_acq_interleave_on">
+        <item>{v: 0, si: horizontal_30}</item>
+        <item>{v: 1, si: horizontal_31}</item>
+    </string-array>
+    <string-array name="msg_acq_memdepth">
+        <item>{v: 0, si: horizontal_16}</item>
+        <item>{v: 1, si: horizontal_17}</item>
+        <item>{v: 2, si: horizontal_18}</item>
+        <item>{v: 3, si: horizontal_19}</item>
+        <item>{v: 4, si: horizontal_20}</item>
+        <item>{v: 5, si: horizontal_21}</item>
+        <item>{v: 6, si: horizontal_22}</item>
+        <item>{v: 7, si: horizontal_23}</item>
+        <item>{v: 8, si: horizontal_24}</item>
+        <item>{v: 9, si: horizontal_25}</item>
+        <item>{v: 10, si: horizontal_26}</item>
+        <item>{v: 11, si: horizontal_27}</item>
+        <item>{v: 12, si: horizontal_28}</item>
+    </string-array>
+    <string-array name="msg_acq_mode">
+        <item>{v: 0, pi: normal, si: horizontal_5}</item>
+        <item>{v: 2, pi: average, si: horizontal_6}</item>
+        <item>{v: 1, pi: peak, si: horizontal_7}</item>
+        <item>{v: 3, pi: hres, si: horizontal_8}</item>
+        <item>{v: 7, pi: ultra, si: horizontal_9}</item>
+    </string-array>
+    <string-array name="msg_acq_ultra_displaymode">
+        <item>{v: 0, si: horizontal_110}</item>
+        <item>{v: 1, si: horizontal_111}</item>
+        <item>{v: 2, si: horizontal_112}</item>
+        <item>{v: 3, si: horizontal_113}</item>
+        <item>{v: 4, si: horizontal_114}</item>
+    </string-array>
+    <string-array name="msg_afg_mod_pic">
+        <item>{v: 0, pi: adf_am19, si: afg_153}</item>
+        <item>{v: 1, pi: adf_am14, si: afg_154}</item>
+        <item>{v: 2, pi: adf_am15, si: afg_155}</item>
+        <item>{v: 3, pi: adf_am16, si: afg_156}</item>
+        <item>{v: 4, pi: adf_am17, si: afg_157}</item>
+        <item>{v: 5, pi: adf_am18, si: afg_158}</item>
+        <item>{v: 6, pi: adf_am7, si: afg_159}</item>
+        <item>{v: 7, pi: adf_am8, si: afg_160}</item>
+        <item>{v: 8, pi: adf_am3, si: afg_161}</item>
+        <item>{v: 9, pi: adf_am4, si: afg_162}</item>
+        <item>{v: 10, pi: adf_am5, si: afg_163}</item>
+        <item>{v: 11, pi: adf_am6, si: afg_164}</item>
+        <item>{v: 12, pi: adf_am13, si: afg_165}</item>
+        <item>{v: 13, pi: adf_am2, si: afg_166}</item>
+        <item>{v: 14, pi: adf_am9, si: afg_167}</item>
+        <item>{v: 15, pi: adf_am10, si: afg_168}</item>
+        <item>{v: 16, pi: adf_am11, si: afg_169}</item>
+        <item>{v: 17, pi: adf_am12, si: afg_170}</item>
+        <item>{v: 18, pi: afg_fm18, si: afg_171}</item>
+        <item>{v: 19, pi: afg_fm13, si: afg_172}</item>
+        <item>{v: 20, pi: afg_fm14, si: afg_173}</item>
+        <item>{v: 21, pi: afg_fm15, si: afg_174}</item>
+        <item>{v: 22, pi: afg_fm16, si: afg_175}</item>
+        <item>{v: 23, pi: afg_fm17, si: afg_176}</item>
+        <item>{v: 24, pi: afg_fm6, si: afg_177}</item>
+        <item>{v: 25, pi: afg_fm1, si: afg_178}</item>
+        <item>{v: 26, pi: afg_fm2, si: afg_179}</item>
+        <item>{v: 27, pi: afg_fm3, si: afg_180}</item>
+        <item>{v: 28, pi: afg_fm4, si: afg_181}</item>
+        <item>{v: 29, pi: afg_fm5, si: afg_182}</item>
+        <item>{v: 30, pi: afg_fm12, si: afg_183}</item>
+        <item>{v: 31, pi: afg_fm7, si: afg_184}</item>
+        <item>{v: 32, pi: afg_fm8, si: afg_185}</item>
+        <item>{v: 33, pi: afg_fm9, si: afg_186}</item>
+        <item>{v: 34, pi: afg_fm10, si: afg_187}</item>
+        <item>{v: 35, pi: afg_fm11, si: afg_188}</item>
+        <item>{v: 36, pi: afg_pm18, si: afg_189}</item>
+        <item>{v: 37, pi: afg_pm13, si: afg_190}</item>
+        <item>{v: 38, pi: afg_pm14, si: afg_191}</item>
+        <item>{v: 39, pi: afg_pm15, si: afg_192}</item>
+        <item>{v: 40, pi: afg_pm16, si: afg_193}</item>
+        <item>{v: 41, pi: afg_pm17, si: afg_194}</item>
+        <item>{v: 42, pi: afg_pm6, si: afg_195}</item>
+        <item>{v: 43, pi: afg_pm1, si: afg_196}</item>
+        <item>{v: 44, pi: afg_pm2, si: afg_197}</item>
+        <item>{v: 45, pi: afg_pm3, si: afg_198}</item>
+        <item>{v: 46, pi: afg_pm4, si: afg_199}</item>
+        <item>{v: 47, pi: afg_pm5, si: afg_200}</item>
+        <item>{v: 48, pi: afg_pm12, si: afg_201}</item>
+        <item>{v: 49, pi: afg_pm7, si: afg_202}</item>
+        <item>{v: 50, pi: afg_pm8, si: afg_203}</item>
+        <item>{v: 51, pi: afg_pm9, si: afg_204}</item>
+        <item>{v: 52, pi: afg_pm10, si: afg_205}</item>
+        <item>{v: 53, pi: afg_pm11, si: afg_206}</item>
+    </string-array>
+    <string-array name="msg_afg_mode_function">
+        <item>{v: 0, si: afg_2}</item>
+        <item>{v: 1, si: afg_3}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_function">
+        <item>{v: 0, pi: afg_sine, si: afg_5}</item>
+        <item>{v: 1, pi: afg_square, si: afg_6}</item>
+        <item>{v: 2, pi: afg_ramp, si: afg_7}</item>
+        <item>{v: 4, pi: afg_noise, si: afg_9}</item>
+        <item>{v: 5, pi: afg_dc, si: afg_10}</item>
+        <item>{v: 6, pi: afg_arb, si: afg_11}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_function1">
+        <item>{v: 0, pi: afg_5, si: afg_145}</item>
+        <item>{v: 1, pi: afg_6, si: afg_146}</item>
+        <item>{v: 2, pi: afg_7, si: afg_147}</item>
+        <item>{v: 4, pi: afg_9, si: afg_149}</item>
+        <item>{v: 5, pi: afg_11, si: afg_150}</item>
+        <item>{v: 6, pi: afg_10, si: afg_151}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_am_shape">
+        <item>{v: 0, si: afg_79}</item>
+        <item>{v: 1, si: afg_80}</item>
+        <item>{v: 2, si: afg_81}</item>
+        <item>{v: 3, si: afg_82}</item>
+        <item>{v: 4, si: afg_83}</item>
+        <item>{v: 5, si: afg_84}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_fm_shape">
+        <item>{v: 0, si: afg_86}</item>
+        <item>{v: 1, si: afg_87}</item>
+        <item>{v: 2, si: afg_88}</item>
+        <item>{v: 3, si: afg_89}</item>
+        <item>{v: 4, si: afg_90}</item>
+        <item>{v: 5, si: afg_91}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_pm_shape">
+        <item>{v: 0, si: afg_93}</item>
+        <item>{v: 1, si: afg_94}</item>
+        <item>{v: 2, si: afg_95}</item>
+        <item>{v: 3, si: afg_96}</item>
+        <item>{v: 4, si: afg_97}</item>
+        <item>{v: 5, si: afg_98}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_signal_occurs">
+        <item>{v: 0, si: afg_76}</item>
+        <item>{v: 1, si: afg_77}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_source_am">
+        <item>{si: afg_64}</item>
+        <item>{si: afg_65}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_source_fm">
+        <item>{si: afg_67}</item>
+        <item>{si: afg_68}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_source_pm">
+        <item>{si: afg_70}</item>
+        <item>{si: afg_71}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_mod_type">
+        <item>{v: 0, si: afg_60}</item>
+        <item>{v: 1, si: afg_61}</item>
+        <item>{v: 2, si: afg_62}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_sweep_marker">
+        <item>{si: afg_45}</item>
+        <item>{si: afg_46}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_sweep_trig_in">
+        <item>{si: afg_56}</item>
+        <item>{si: afg_57}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_sweep_trig_out">
+        <item>{si: afg_52}</item>
+        <item>{si: afg_53}</item>
+        <item>{si: afg_54}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_sweep_trig_source">
+        <item>{si: afg_49}</item>
+        <item>{si: afg_50}</item>
+    </string-array>
+    <string-array name="msg_afg_wave_sweep_type">
+        <item>{si: afg_32}</item>
+        <item>{si: afg_33}</item>
+        <item>{si: afg_34}</item>
+    </string-array>
+    <string-array name="msg_analyse_type_list">
+        <item>{v: 0, si: usbanalyse_83}</item>
+        <item>{v: 1, si: usbanalyse_84}</item>
+    </string-array>
+    <string-array name="msg_app_display_item">
+        <item>{si: display_38}</item>
+        <item>{si: display_39}</item>
+        <item>{si: display_40}</item>
+        <item>{si: display_41}</item>
+        <item>{si: display_42}</item>
+        <item>{si: display_43}</item>
+        <item>{si: display_44}</item>
+        <item>{si: display_45}</item>
+    </string-array>
+    <string-array name="msg_app_help_language">
+        <item>{v: 0, pi: English_Language}</item>
+        <item>{v: 1, pi: Simplified_Chinese}</item>
+        <item>{v: 2, pi: Traditional_Chinese}</item>
+        <item>{v: 3, pi: Portuguese_Language}</item>
+        <item>{v: 4, pi: German_Language}</item>
+        <item>{v: 5, pi: Polish_Language}</item>
+        <item>{v: 6, pi: Korea_Language}</item>
+        <item>{v: 7, pi: Japan_Language}</item>
+        <item>{v: 8, pi: French_Language}</item>
+        <item>{v: 9, pi: Russia_Language}</item>
+        <item>{v: 10, pi: spanish}</item>
+        <item>{v: 11, pi: tailand}</item>
+        <item>{v: 12, pi: Indonesia}</item>
+    </string-array>
+    <string-array name="msg_app_meas1_srca_tek">
+        <item>{si: measure_245}</item>
+        <item>{si: measure_246}</item>
+        <item>{si: measure_247}</item>
+        <item>{si: measure_248}</item>
+    </string-array>
+    <string-array name="msg_app_meas_add_menu">
+        <item>{si: measure_3}</item>
+        <item>{si: measure_4}</item>
+        <item>{si: measure_5}</item>
+        <item>{si: measure_6}</item>
+        <item>{si: measure_7}</item>
+        <item>{si: measure_8}</item>
+    </string-array>
+    <string-array name="msg_app_meas_all_src">
+        <item>{v: 0, si: measure_103}</item>
+        <item>{v: 1, si: measure_104}</item>
+        <item>{v: 2, si: measure_105}</item>
+        <item>{v: 3, si: measure_106}</item>
+        <item>{v: 4, si: measure_107}</item>
+        <item>{v: 38, si: measure_108}</item>
+        <item>{v: 39, si: measure_109}</item>
+        <item>{v: 40, si: measure_110}</item>
+        <item>{v: 41, si: measure_111}</item>
+    </string-array>
+    <string-array name="msg_app_meas_all_type">
+        <item>{v: 76, si: meastype_54}</item>
+    </string-array>
+    <string-array name="msg_app_meas_cat">
+        <item>{v: 1, si: measure_93}</item>
+        <item>{v: 0, si: measure_94}</item>
+        <item>{v: 2, si: measure_95}</item>
+    </string-array>
+    <string-array name="msg_app_meas_counter_type">
+        <item>{v: 71, si: meastype_50}</item>
+    </string-array>
+    <string-array name="msg_app_meas_cursor_type">
+        <item>{v: 72, si: meastype_46}</item>
+    </string-array>
+    <string-array name="msg_app_meas_dvm_type">
+        <item>{v: 70, si: meastype_52}</item>
+    </string-array>
+    <string-array name="msg_app_meas_eye_type">
+        <item>{v: 63, si: meastype_56}</item>
+    </string-array>
+    <string-array name="msg_app_meas_histo_type">
+        <item>{v: 73, si: meastype_48}</item>
+    </string-array>
+    <string-array name="msg_app_meas_hor_type">
+        <item>{v: 1, si: meastype_2}</item>
+        <item>{v: 2, si: meastype_3}</item>
+        <item>{v: 3, si: meastype_4}</item>
+        <item>{v: 4, si: meastype_5}</item>
+        <item>{v: 5, si: meastype_6}</item>
+        <item>{v: 6, si: meastype_7}</item>
+        <item>{v: 7, si: meastype_8}</item>
+        <item>{v: 8, si: meastype_9}</item>
+        <item>{v: 9, si: meastype_10}</item>
+        <item>{v: 10, si: meastype_11}</item>
+        <item>{v: 11, si: meastype_12}</item>
+        <item>{v: 12, si: meastype_13}</item>
+        <item>{v: 13, si: meastype_14}</item>
+        <item>{v: 14, si: meastype_15}</item>
+        <item>{v: 15, si: meastype_16}</item>
+        <item>{v: 16, si: meastype_17}</item>
+    </string-array>
+    <string-array name="msg_app_meas_indicator">
+        <item>{v: 0, si: measure_181}</item>
+        <item>{v: 1, si: measure_182}</item>
+    </string-array>
+    <string-array name="msg_app_meas_jitter_type">
+        <item>{v: 69, si: meastype_58}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker1_type">
+        <item>{v: 78, si: meastype_62}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker2_type">
+        <item>{v: 79, si: meastype_64}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker3_type">
+        <item>{v: 80, si: meastype_66}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker4_type">
+        <item>{v: 81, si: meastype_68}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker5_type">
+        <item>{v: 82, si: meastype_70}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker6_type">
+        <item>{v: 83, si: meastype_72}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker7_type">
+        <item>{v: 84, si: meastype_74}</item>
+    </string-array>
+    <string-array name="msg_app_meas_marker8_type">
+        <item>{v: 85, si: meastype_76}</item>
+        <item>{}</item>
+    </string-array>
+    <string-array name="msg_app_meas_mask_type">
+        <item>{v: 77, si: meastype_60}</item>
+    </string-array>
+    <string-array name="msg_app_meas_other_type">
+        <item>{v: 38, si: meastype_37}</item>
+        <item>{v: 39, si: meastype_38}</item>
+        <item>{v: 40, si: meastype_39}</item>
+        <item>{v: 41, si: meastype_40}</item>
+        <item>{v: 42, si: meastype_41}</item>
+        <item>{v: 43, si: meastype_42}</item>
+        <item>{v: 44, si: meastype_43}</item>
+        <item>{v: 45, si: meastype_44}</item>
+    </string-array>
+    <string-array name="msg_app_meas_range_mode">
+        <item>{v: 0, si: measure_169}</item>
+        <item>{v: 1, si: measure_170}</item>
+    </string-array>
+    <string-array name="msg_app_meas_region">
+        <item>{v: 0, si: measure_172}</item>
+        <item>{v: 1, si: measure_173}</item>
+    </string-array>
+    <string-array name="msg_app_meas_set_base_method">
+        <item>{v: 0, si: measure_166}</item>
+        <item>{v: 1, si: measure_167}</item>
+    </string-array>
+    <string-array name="msg_app_meas_set_state_method">
+        <item>{v: 0, si: measure_160}</item>
+        <item>{v: 1, si: measure_161}</item>
+    </string-array>
+    <string-array name="msg_app_meas_set_top_method">
+        <item>{v: 0, si: measure_163}</item>
+        <item>{v: 1, si: measure_164}</item>
+    </string-array>
+    <string-array name="msg_app_meas_set_type">
+        <item>{v: 1, si: measure_124}</item>
+        <item>{v: 2, si: measure_125}</item>
+        <item>{v: 3, si: measure_126}</item>
+    </string-array>
+    <string-array name="msg_app_meas_srca">
+        <item>{v: 1, si: measure_13}</item>
+        <item>{v: 2, si: measure_14}</item>
+        <item>{v: 3, si: measure_15}</item>
+        <item>{v: 4, si: measure_16}</item>
+        <item>{v: 38, si: measure_17}</item>
+        <item>{v: 39, si: measure_18}</item>
+        <item>{v: 40, si: measure_19}</item>
+        <item>{v: 41, si: measure_20}</item>
+        <item>{v: 9, si: measure_31}</item>
+        <item>{v: 10, si: measure_32}</item>
+        <item>{v: 11, si: measure_33}</item>
+        <item>{v: 12, si: measure_34}</item>
+        <item>{v: 13, si: measure_35}</item>
+        <item>{v: 14, si: measure_36}</item>
+        <item>{v: 15, si: measure_37}</item>
+        <item>{v: 16, si: measure_38}</item>
+        <item>{v: 17, si: measure_39}</item>
+        <item>{v: 18, si: measure_40}</item>
+        <item>{v: 19, si: measure_41}</item>
+        <item>{v: 20, si: measure_42}</item>
+        <item>{v: 21, si: measure_43}</item>
+        <item>{v: 22, si: measure_44}</item>
+        <item>{v: 23, si: measure_45}</item>
+        <item>{v: 24, si: measure_46}</item>
+    </string-array>
+    <string-array name="msg_app_meas_srcb">
+        <item>{v: 1, si: measure_48}</item>
+        <item>{v: 2, si: measure_49}</item>
+        <item>{v: 3, si: measure_50}</item>
+        <item>{v: 4, si: measure_51}</item>
+        <item>{v: 38, si: measure_52}</item>
+        <item>{v: 39, si: measure_53}</item>
+        <item>{v: 40, si: measure_54}</item>
+        <item>{v: 41, si: measure_55}</item>
+        <item>{v: 9, si: measure_66}</item>
+        <item>{v: 10, si: measure_67}</item>
+        <item>{v: 11, si: measure_68}</item>
+        <item>{v: 12, si: measure_69}</item>
+        <item>{v: 13, si: measure_70}</item>
+        <item>{v: 14, si: measure_71}</item>
+        <item>{v: 15, si: measure_72}</item>
+        <item>{v: 16, si: measure_73}</item>
+        <item>{v: 17, si: measure_74}</item>
+        <item>{v: 18, si: measure_75}</item>
+        <item>{v: 19, si: measure_76}</item>
+        <item>{v: 20, si: measure_77}</item>
+        <item>{v: 21, si: measure_78}</item>
+        <item>{v: 22, si: measure_79}</item>
+        <item>{v: 23, si: measure_80}</item>
+        <item>{v: 24, si: measure_81}</item>
+    </string-array>
+    <string-array name="msg_app_meas_srcc">
+        <item>{v: 0, si: measure_83}</item>
+        <item>{v: 1, si: measure_84}</item>
+        <item>{v: 2, si: measure_85}</item>
+        <item>{v: 3, si: measure_86}</item>
+        <item>{v: 4, si: measure_87}</item>
+        <item>{v: 38, si: measure_88}</item>
+        <item>{v: 39, si: measure_89}</item>
+        <item>{v: 40, si: measure_90}</item>
+        <item>{v: 41, si: measure_91}</item>
+    </string-array>
+    <string-array name="msg_app_meas_stat_enable">
+        <item>{v: 0, si: measure_184}</item>
+        <item>{v: 1, si: measure_185}</item>
+    </string-array>
+    <string-array name="msg_app_meas_th_high_type">
+        <item>{v: 0, si: measure_147}</item>
+        <item>{v: 1, si: measure_148}</item>
+    </string-array>
+    <string-array name="msg_app_meas_th_low_type">
+        <item>{v: 0, si: measure_153}</item>
+        <item>{v: 1, si: measure_154}</item>
+    </string-array>
+    <string-array name="msg_app_meas_th_mid_type">
+        <item>{v: 0, si: measure_150}</item>
+        <item>{v: 1, si: measure_151}</item>
+    </string-array>
+    <string-array name="msg_app_meas_th_src">
+        <item>{v: 1, si: measure_128}</item>
+        <item>{v: 2, si: measure_129}</item>
+        <item>{v: 3, si: measure_130}</item>
+        <item>{v: 4, si: measure_131}</item>
+        <item>{v: 38, si: measure_132}</item>
+        <item>{v: 39, si: measure_133}</item>
+        <item>{v: 40, si: measure_134}</item>
+        <item>{v: 41, si: measure_135}</item>
+    </string-array>
+    <string-array name="msg_app_meas_th_type">
+        <item>{v: 0, si: measure_156}</item>
+        <item>{v: 1, si: measure_157}</item>
+    </string-array>
+    <string-array name="msg_app_meas_threshold">
+        <item>{v: 0, si: measure_222}</item>
+        <item>{v: 1, si: measure_223}</item>
+    </string-array>
+    <string-array name="msg_app_meas_trend_enable">
+        <item>{v: 0, si: measure_187}</item>
+        <item>{v: 1, si: measure_188}</item>
+    </string-array>
+    <string-array name="msg_app_meas_vertical_type">
+        <item>{v: 19, si: meastype_19}</item>
+        <item>{v: 20, si: meastype_20}</item>
+        <item>{v: 21, si: meastype_21}</item>
+        <item>{v: 22, si: meastype_22}</item>
+        <item>{v: 23, si: meastype_23}</item>
+        <item>{v: 24, si: meastype_24}</item>
+        <item>{v: 25, si: meastype_25}</item>
+        <item>{v: 26, si: meastype_26}</item>
+        <item>{v: 27, si: meastype_27}</item>
+        <item>{v: 28, si: meastype_28}</item>
+        <item>{v: 29, si: meastype_29}</item>
+        <item>{v: 30, si: meastype_30}</item>
+        <item>{v: 35, si: meastype_31}</item>
+        <item>{v: 31, si: meastype_32}</item>
+        <item>{v: 32, si: meastype_33}</item>
+        <item>{v: 33, si: meastype_34}</item>
+        <item>{v: 34, si: meastype_35}</item>
+    </string-array>
+    <string-array name="msg_app_panel_list">
+        <item>{v: 38, pi: ic_horizontal, si: display_100}</item>
+        <item>{v: 35, pi: ic_trigger, si: display_101}</item>
+        <item>{v: 20, pi: ic_auto2, si: display_102}</item>
+        <item>{v: 44, pi: ic_zoom2, si: display_103}</item>
+        <item>{v: 1, pi: ic_measure, si: display_104}</item>
+        <item>{v: 33, pi: ic_single, si: display_105}</item>
+        <item>{v: 41, pi: ic_intensity, si: display_106}</item>
+        <item>{v: 40, pi: ic_clean2, si: display_107}</item>
+        <item>{v: 34, pi: ic_force, si: display_108}</item>
+        <item>{v: 3, pi: ic_cursor, si: display_109}</item>
+        <item>{v: 25, pi: ic_storage, si: display_110}</item>
+        <item>{v: 28, pi: ic_utility, si: display_111}</item>
+        <item>{v: 19, pi: ic_record, si: display_112}</item>
+        <item>{v: 21, pi: ic_display, si: display_114}</item>
+        <item>{v: 6, pi: ic_math, si: display_115}</item>
+        <item>{v: 16, pi: ic_mask, si: display_116}</item>
+        <item>{v: 13, pi: ic_decode, si: display_117}</item>
+        <item>{v: 7, pi: ic_ref, si: display_118}</item>
+    </string-array>
+    <string-array name="msg_app_shortcut">
+        <item>{v: 32, pi: ic_run_stop, si: display_48}</item>
+        <item>{v: 1, pi: ic_measure, si: display_49}</item>
+        <item>{v: 37, pi: ic_default, si: display_50}</item>
+        <item>{v: 46, pi: ic_flex_knob_intensity, si: display_52}</item>
+        <item>{v: 5, pi: ic_multi_window, si: display_54}</item>
+        <item>{v: 3, pi: ic_cursor, si: display_55}</item>
+        <item>{v: 6, pi: ic_math, si: display_56}</item>
+        <item>{v: 45, pi: ic_xy, si: display_57}</item>
+        <item>{v: 25, pi: ic_storage, si: display_59}</item>
+        <item>{v: 9, pi: ic_counter, si: display_60}</item>
+        <item>{v: 10, pi: ic_dvm, si: display_61}</item>
+        <item>{v: 13, pi: ic_decode, si: display_63}</item>
+        <item>{v: 19, pi: ic_record, si: display_64}</item>
+        <item>{v: 47, pi: ic_navigate, si: display_65}</item>
+    </string-array>
+    <string-array name="msg_app_start_menu">
+        <item>{v: 1, si: display_67}</item>
+        <item>{v: 2, si: display_68}</item>
+        <item>{v: 3, si: display_69}</item>
+        <item>{v: 5, si: display_70}</item>
+        <item>{v: 6, si: display_71}</item>
+        <item>{v: 45, si: display_72}</item>
+        <item>{v: 7, si: display_73}</item>
+        <item>{v: 9, si: display_75}</item>
+        <item>{v: 10, si: display_76}</item>
+        <item>{v: 13, si: display_79}</item>
+        <item>{v: 14, si: display_80}</item>
+        <item>{v: 16, si: display_82}</item>
+        <item>{v: 49, si: display_83}</item>
+        <item>{v: 17, si: display_84}</item>
+        <item>{v: 19, si: display_86}</item>
+        <item>{v: 20, si: display_87}</item>
+        <item>{v: 21, si: display_88}</item>
+        <item>{v: 40, si: display_90}</item>
+        <item>{v: 23, si: display_91}</item>
+        <item>{v: 25, si: display_93}</item>
+        <item>{v: 26, si: display_94}</item>
+        <item>{v: 27, si: display_95}</item>
+        <item>{v: 28, si: display_96}</item>
+        <item>{v: 30, si: display_97}</item>
+        <item>{v: 31, si: display_98}</item>
+    </string-array>
+    <string-array name="msg_app_start_menu1">
+        <item>{v: 10, si: display_132}</item>
+        <item>{v: 9, si: display_133}</item>
+        <item>{v: 19, si: display_134}</item>
+        <item>{v: 16, si: display_135}</item>
+    </string-array>
+    <string-array name="msg_app_upa_query_power_data">
+        <item>{v: 48, si: meastype_79}</item>
+        <item>{v: 52, si: meastype_80}</item>
+        <item>{v: 53, si: meastype_81}</item>
+        <item>{v: 54, si: meastype_82}</item>
+        <item>{v: 55, si: meastype_83}</item>
+        <item>{v: 56, si: meastype_84}</item>
+        <item>{v: 57, si: meastype_85}</item>
+        <item>{v: 58, si: meastype_86}</item>
+        <item>{v: 59, si: meastype_87}</item>
+        <item>{v: 60, si: meastype_88}</item>
+        <item>{v: 61, si: meastype_89}</item>
+    </string-array>
+    <string-array name="msg_app_upa_query_ripple_data">
+        <item>{v: 21, si: meastype_91}</item>
+    </string-array>
+    <string-array name="msg_app_utility_auxout">
+        <item>{v: 0, si: utility_26}</item>
+        <item>{v: 1, si: utility_27}</item>
+    </string-array>
+    <string-array name="msg_app_utility_basesetting">
+        <item>{si: utility_122}</item>
+        <item>{si: utility_123}</item>
+        <item>{si: utility_124}</item>
+        <item>{si: utility_125}</item>
+        <item>{si: utility_126}</item>
+        <item>{si: utility_127}</item>
+        <item>{si: utility_128}</item>
+        <item>{si: utility_129}</item>
+    </string-array>
+    <string-array name="msg_app_utility_beeper">
+        <item>{v: 0, si: utility_4}</item>
+        <item>{v: 1, si: utility_5}</item>
+    </string-array>
+    <string-array name="msg_app_utility_default_imp">
+        <item>{v: 0, si: utility_99}</item>
+        <item>{v: 1, si: utility_100}</item>
+    </string-array>
+    <string-array name="msg_app_utility_hdmi">
+        <item>{v: 0, si: ioset_24}</item>
+        <item>{v: 1, si: ioset_25}</item>
+    </string-array>
+    <string-array name="msg_app_utility_hdmi_ratio">
+        <item>{v: 0, si: utility_163}</item>
+        <item>{v: 1, si: utility_164}</item>
+        <item>{v: 2, si: utility_165}</item>
+        <item>{v: 3, si: utility_166}</item>
+        <item>{v: 4, si: utility_167}</item>
+        <item>{v: 5, si: utility_168}</item>
+        <item>{v: 6, si: utility_169}</item>
+        <item>{v: 7, si: utility_170}</item>
+    </string-array>
+    <string-array name="msg_app_utility_hdmi_res">
+        <item>{v: 0, si: ioset_27}</item>
+        <item>{v: 2, si: ioset_28}</item>
+        <item>{v: 7, si: ioset_29}</item>
+    </string-array>
+    <string-array name="msg_app_utility_language">
+        <item>{v: 0, si: utility_7}</item>
+        <item>{v: 1, si: utility_8}</item>
+        <item>{v: 2, si: utility_9}</item>
+        <item>{v: 3, si: utility_10}</item>
+        <item>{v: 4, si: utility_11}</item>
+        <item>{v: 5, si: utility_12}</item>
+        <item>{v: 6, si: utility_13}</item>
+        <item>{v: 7, si: utility_14}</item>
+        <item>{v: 8, si: utility_15}</item>
+        <item>{v: 9, si: utility_16}</item>
+        <item>{v: 10, si: utility_17}</item>
+        <item>{v: 11, si: utility_18}</item>
+        <item>{v: 12, si: utility_19}</item>
+    </string-array>
+    <string-array name="msg_app_utility_lock_auto">
+        <item>{v: 0, si: utility_36}</item>
+        <item>{v: 1, si: utility_37}</item>
+    </string-array>
+    <string-array name="msg_app_utility_lock_kb">
+        <item>{v: 0, si: utility_46}</item>
+        <item>{v: 1, si: utility_47}</item>
+    </string-array>
+    <string-array name="msg_app_utility_lock_keys">
+        <item>{v: 0, si: utility_49}</item>
+        <item>{v: 1, si: utility_50}</item>
+    </string-array>
+    <string-array name="msg_app_utility_lxi_cfg">
+        <item>{v: 0, si: ioset_9}</item>
+        <item>{v: 1, si: ioset_10}</item>
+        <item>{v: 2, si: ioset_11}</item>
+    </string-array>
+    <string-array name="msg_app_utility_lxi_mdns">
+        <item>{v: 0, si: ioset_19}</item>
+        <item>{v: 1, si: ioset_20}</item>
+    </string-array>
+    <string-array name="msg_app_utility_model_open_zoom_text">
+        <item>{v: 0, si: utility_180}</item>
+        <item>{v: 1, si: utility_181}</item>
+    </string-array>
+    <string-array name="msg_app_utility_power_on_set">
+        <item>{v: 0, si: utility_40}</item>
+        <item>{v: 1, si: utility_41}</item>
+    </string-array>
+    <string-array name="msg_app_utility_power_status">
+        <item>{v: 0, si: utility_43}</item>
+        <item>{v: 1, si: utility_44}</item>
+    </string-array>
+    <string-array name="msg_app_utility_print_menu">
+        <item>{}</item>
+    </string-array>
+    <string-array name="msg_app_utility_ref_clock">
+        <item>{v: 1, si: utility_93}</item>
+        <item>{v: 0, si: utility_94}</item>
+        <item>{v: 3, si: utility_95}</item>
+    </string-array>
+    <string-array name="msg_app_utility_screen_select">
+        <item>{v: 0, si: utility_53}</item>
+        <item>{v: 1, si: utility_54}</item>
+        <item>{v: 2, si: utility_55}</item>
+    </string-array>
+    <string-array name="msg_app_utility_show_time">
+        <item>{v: 0, si: utility_77}</item>
+        <item>{v: 1, si: utility_78}</item>
+    </string-array>
+    <string-array name="msg_app_utility_title">
+        <item>{v: 0, si: utility_107}</item>
+        <item>{v: 1, si: utility_108}</item>
+        <item>{v: 2, si: utility_109}</item>
+        <item>{v: 3, si: utility_110}</item>
+        <item>{v: 4, si: utility_111}</item>
+        <item>{v: 5, si: utility_112}</item>
+        <item>{v: 6, si: utility_113}</item>
+        <item>{v: 7, si: utility_114}</item>
+        <item>{v: 9, si: utility_116}</item>
+        <item>{v: 12, si: utility_119}</item>
+        <item>{v: 13, si: utility_120}</item>
+    </string-array>
+    <string-array name="msg_app_utility_usbtmc_menu">
+        <item>{v: 0, si: ioset_5}</item>
+        <item>{v: 1, si: ioset_6}</item>
+    </string-array>
+    <string-array name="msg_auto_chan">
+        <item>{v: 1, si: autoset_16}</item>
+        <item>{v: 0, si: autoset_17}</item>
+    </string-array>
+    <string-array name="msg_auto_keepcoup">
+        <item>{v: 0, si: autoset_23}</item>
+        <item>{v: 1, si: autoset_24}</item>
+    </string-array>
+    <string-array name="msg_auto_list">
+        <item>{v: 0, pi: ic_single_cycle, si: autoset_38}</item>
+        <item>{v: 1, pi: ic_multi_cycles, si: autoset_39}</item>
+        <item>{v: 2, pi: ic_rising_edge, si: autoset_40}</item>
+        <item>{v: 3, pi: ic_falling_edge, si: autoset_41}</item>
+        <item>{v: 6, pi: ic_cancel2, si: autoset_42}</item>
+        <item>{v: 5, pi: ic_setting, si: autoset_43}</item>
+    </string-array>
+    <string-array name="msg_auto_lock">
+        <item>{v: 0, si: autoset_10}</item>
+        <item>{v: 1, si: autoset_11}</item>
+    </string-array>
+    <string-array name="msg_auto_overlay">
+        <item>{v: 0, si: autoset_20}</item>
+        <item>{v: 1, si: autoset_21}</item>
+    </string-array>
+    <string-array name="msg_auto_range">
+        <item>{v: 0, si: autoset_13}</item>
+        <item>{v: 1, si: autoset_14}</item>
+    </string-array>
+    <string-array name="msg_bode_disp_type">
+        <item>{v: 0, si: bode_9}</item>
+        <item>{v: 1, si: bode_10}</item>
+    </string-array>
+    <string-array name="msg_bode_enable">
+        <item>{v: 0, si: bode_3}</item>
+        <item>{v: 1, si: bode_4}</item>
+    </string-array>
+    <string-array name="msg_bode_impedance">
+        <item>{v: 1, si: bode_29}</item>
+        <item>{v: 0, si: bode_30}</item>
+    </string-array>
+    <string-array name="msg_bode_runstop">
+        <item>{v: 0, si: bode_6}</item>
+        <item>{v: 1, si: bode_7}</item>
+    </string-array>
+    <string-array name="msg_bode_source_in">
+        <item>{v: 1, si: bode_16}</item>
+        <item>{v: 2, si: bode_17}</item>
+        <item>{v: 3, si: bode_18}</item>
+        <item>{v: 4, si: bode_19}</item>
+    </string-array>
+    <string-array name="msg_bode_source_out">
+        <item>{v: 1, si: bode_21}</item>
+        <item>{v: 2, si: bode_22}</item>
+        <item>{v: 3, si: bode_23}</item>
+        <item>{v: 4, si: bode_24}</item>
+    </string-array>
+    <string-array name="msg_bode_sweep_type">
+        <item>{v: 0, si: bode_13}</item>
+        <item>{v: 1, si: bode_14}</item>
+    </string-array>
+    <string-array name="msg_bode_table">
+        <item>{v: 0, si: bode_44}</item>
+        <item>{v: 1, si: bode_45}</item>
+        <item>{v: 2, si: bode_46}</item>
+    </string-array>
+    <string-array name="msg_bode_varamp">
+        <item>{si: bode_26}</item>
+        <item>{si: bode_27}</item>
+    </string-array>
+    <string-array name="msg_cal_items">
+        <item>{v: 0, si: selfcal_9}</item>
+        <item>{v: 1, si: selfcal_10}</item>
+        <item>{v: 2, si: selfcal_11}</item>
+        <item>{v: 4, si: selfcal_13}</item>
+        <item>{v: 10, si: selfcal_14}</item>
+        <item>{v: 5, si: selfcal_15}</item>
+        <item>{v: 6, si: selfcal_16}</item>
+        <item>{v: 7, si: selfcal_17}</item>
+        <item>{v: 8, si: selfcal_18}</item>
+        <item>{v: 11, si: selfcal_20}</item>
+        <item>{v: 12, si: selfcal_21}</item>
+        <item>{v: 13, si: selfcal_22}</item>
+    </string-array>
+    <string-array name="msg_carrier_en">
+        <item>{v: 0, si: carrier_3}</item>
+        <item>{v: 1, si: carrier_4}</item>
+    </string-array>
+    <string-array name="msg_carrier_mode">
+        <item>{v: 0, si: carrier_11}</item>
+        <item>{v: 1, si: carrier_12}</item>
+    </string-array>
+    <string-array name="msg_carrier_set_disp">
+        <item>{v: 0, si: carrier_8}</item>
+        <item>{v: 1, si: carrier_9}</item>
+    </string-array>
+    <string-array name="msg_carrier_storage_mode">
+        <item>{v: 0, si: carrier_19}</item>
+        <item>{v: 1, si: carrier_20}</item>
+    </string-array>
+    <string-array name="msg_chan_bwlimit">
+        <item>{v: 1, si: chan1_10}</item>
+        <item>{v: 2, si: chan1_11}</item>
+        <item>{v: 9, si: chan1_12}</item>
+        <item>{v: 15, si: chan1_13}</item>
+        <item>{v: 16, si: chan1_14}</item>
+    </string-array>
+    <string-array name="msg_chan_coup">
+        <item>{v: 0, pi: ic_coupling_dc, si: chan1_6}</item>
+        <item>{v: 1, pi: ic_coupling_ac, si: chan1_7}</item>
+        <item>{v: 2, pi: ic_coupling_gnd, si: chan1_8}</item>
+    </string-array>
+    <string-array name="msg_chan_fine">
+        <item>{v: 0, si: chan1_56}</item>
+        <item>{v: 1, si: chan1_57}</item>
+    </string-array>
+    <string-array name="msg_chan_impedance">
+        <item>{v: 0, si: chan1_95}</item>
+        <item>{v: 1, si: chan1_96}</item>
+    </string-array>
+    <string-array name="msg_chan_invert">
+        <item>{v: 0, si: chan1_53}</item>
+        <item>{v: 1, si: chan1_54}</item>
+    </string-array>
+    <string-array name="msg_chan_label_name">
+        <item>{v: 0, si: chan1_64}</item>
+        <item>{v: 1, si: chan1_65}</item>
+        <item>{v: 2, si: chan1_66}</item>
+        <item>{v: 3, si: chan1_67}</item>
+        <item>{v: 4, si: chan1_68}</item>
+        <item>{v: 5, si: chan1_69}</item>
+        <item>{v: 6, si: chan1_70}</item>
+        <item>{v: 7, si: chan1_71}</item>
+        <item>{v: 8, si: chan1_72}</item>
+        <item>{v: 9, si: chan1_73}</item>
+        <item>{v: 10, si: chan1_74}</item>
+        <item>{v: 11, si: chan1_75}</item>
+        <item>{v: 12, si: chan1_76}</item>
+        <item>{v: 13, si: chan1_77}</item>
+        <item>{v: 14, si: chan1_78}</item>
+        <item>{v: 15, si: chan1_79}</item>
+    </string-array>
+    <string-array name="msg_chan_label_show">
+        <item>{v: 0, si: chan1_61}</item>
+        <item>{v: 1, si: chan1_62}</item>
+    </string-array>
+    <string-array name="msg_chan_list">
+        <item>{v: 1, si: chan1_130}</item>
+        <item>{v: 2, si: chan1_131}</item>
+        <item>{v: 3, si: chan1_132}</item>
+        <item>{v: 4, si: chan1_133}</item>
+    </string-array>
+    <string-array name="msg_chan_list2">
+        <item>{v: 0, si: chan1_135}</item>
+        <item>{v: 1, si: chan1_136}</item>
+        <item>{v: 2, si: chan1_137}</item>
+        <item>{v: 3, si: chan1_138}</item>
+        <item>{v: 4, si: chan1_139}</item>
+    </string-array>
+    <string-array name="msg_chan_probe">
+        <item>{v: 3, si: chan1_19}</item>
+        <item>{v: 4, si: chan1_20}</item>
+        <item>{v: 5, si: chan1_21}</item>
+        <item>{v: 6, si: chan1_22}</item>
+        <item>{v: 7, si: chan1_23}</item>
+        <item>{v: 8, si: chan1_24}</item>
+        <item>{v: 9, si: chan1_25}</item>
+        <item>{v: 10, si: chan1_26}</item>
+        <item>{v: 11, si: chan1_27}</item>
+        <item>{v: 12, si: chan1_28}</item>
+        <item>{v: 13, si: chan1_29}</item>
+        <item>{v: 14, si: chan1_30}</item>
+        <item>{v: 15, si: chan1_31}</item>
+        <item>{v: 16, si: chan1_32}</item>
+        <item>{v: 17, si: chan1_33}</item>
+        <item>{v: 18, si: chan1_34}</item>
+        <item>{v: 19, si: chan1_35}</item>
+        <item>{v: 20, si: chan1_36}</item>
+        <item>{v: 21, si: chan1_37}</item>
+        <item>{v: 22, si: chan1_38}</item>
+        <item>{v: 23, si: chan1_39}</item>
+        <item>{v: 24, si: chan1_40}</item>
+        <item>{v: 25, si: chan1_41}</item>
+        <item>{v: 26, si: chan1_42}</item>
+        <item>{v: 27, si: chan1_43}</item>
+        <item>{v: 28, si: chan1_44}</item>
+        <item>{v: 29, si: chan1_45}</item>
+        <item>{v: 30, si: chan1_46}</item>
+    </string-array>
+    <string-array name="msg_chan_probe_model">
+        <item>{v: 0, si: chan1_88}</item>
+        <item>{v: 1, si: chan1_89}</item>
+    </string-array>
+    <string-array name="msg_chan_sparrow_list">
+        <item>{v: 1, si: chan1_162}</item>
+        <item>{v: 2, si: chan1_163}</item>
+        <item>{v: 3, si: chan1_164}</item>
+        <item>{v: 4, si: chan1_165}</item>
+    </string-array>
+    <string-array name="msg_chan_unit">
+        <item>{v: 1, si: chan1_48}</item>
+        <item>{v: 2, si: chan1_49}</item>
+        <item>{v: 3, si: chan1_50}</item>
+        <item>{v: 4, si: chan1_51}</item>
+    </string-array>
+    <string-array name="msg_chan_ver_expand">
+        <item>{v: 0, pi: gnd, si: chan1_99}</item>
+        <item>{v: 1, pi: screen, si: chan1_100}</item>
+    </string-array>
+    <string-array name="msg_counter_1_enable">
+        <item>{v: 0, si: counter_3}</item>
+        <item>{v: 1, si: counter_4}</item>
+    </string-array>
+    <string-array name="msg_counter_1_meas_type">
+        <item>{v: 1, si: counter_29}</item>
+        <item>{v: 2, si: counter_30}</item>
+        <item>{v: 3, si: counter_31}</item>
+    </string-array>
+    <string-array name="msg_counter_1_src">
+        <item>{v: 1, si: counter_6}</item>
+        <item>{v: 2, si: counter_7}</item>
+        <item>{v: 3, si: counter_8}</item>
+        <item>{v: 4, si: counter_9}</item>
+        <item>{v: 9, si: counter_10}</item>
+        <item>{v: 10, si: counter_11}</item>
+        <item>{v: 11, si: counter_12}</item>
+        <item>{v: 12, si: counter_13}</item>
+        <item>{v: 13, si: counter_14}</item>
+        <item>{v: 14, si: counter_15}</item>
+        <item>{v: 15, si: counter_16}</item>
+        <item>{v: 16, si: counter_17}</item>
+        <item>{v: 17, si: counter_18}</item>
+        <item>{v: 18, si: counter_19}</item>
+        <item>{v: 19, si: counter_20}</item>
+        <item>{v: 20, si: counter_21}</item>
+        <item>{v: 21, si: counter_22}</item>
+        <item>{v: 22, si: counter_23}</item>
+        <item>{v: 23, si: counter_24}</item>
+        <item>{v: 24, si: counter_25}</item>
+        <item>{v: 26, si: counter_26}</item>
+    </string-array>
+    <string-array name="msg_counter_1_stat">
+        <item>{v: 0, si: counter_34}</item>
+        <item>{v: 1, si: counter_35}</item>
+    </string-array>
+    <string-array name="msg_counter_quick_popup">
+        <item>{v: 1, si: counter_41}</item>
+        <item>{v: 3, si: counter_42}</item>
+        <item>{v: 2, si: counter_43}</item>
+    </string-array>
+    <string-array name="msg_cursor_area">
+        <item>{v: 0, si: cursor_13}</item>
+        <item>{v: 1, si: cursor_14}</item>
+    </string-array>
+    <string-array name="msg_cursor_autoitem">
+        <item>{v: 0, si: cursor_99}</item>
+        <item>{v: 1, si: cursor_100}</item>
+        <item>{v: 2, si: cursor_101}</item>
+        <item>{v: 3, si: cursor_102}</item>
+        <item>{v: 4, si: cursor_103}</item>
+        <item>{v: 5, si: cursor_104}</item>
+    </string-array>
+    <string-array name="msg_cursor_indicator_onoff">
+        <item>{v: 0, si: cursor_134}</item>
+        <item>{v: 1, si: cursor_135}</item>
+    </string-array>
+    <string-array name="msg_cursor_latype">
+        <item>{v: 0, si: cursor_53}</item>
+        <item>{v: 1, si: cursor_54}</item>
+    </string-array>
+    <string-array name="msg_cursor_manualsrc">
+        <item>{v: 0, si: cursor_16}</item>
+        <item>{v: 1, si: cursor_17}</item>
+        <item>{v: 2, si: cursor_18}</item>
+        <item>{v: 3, si: cursor_19}</item>
+        <item>{v: 4, si: cursor_20}</item>
+        <item>{v: 38, si: cursor_32}</item>
+        <item>{v: 39, si: cursor_33}</item>
+        <item>{v: 40, si: cursor_34}</item>
+        <item>{v: 41, si: cursor_35}</item>
+    </string-array>
+    <string-array name="msg_cursor_mode">
+        <item>{v: 1, si: cursor_4}</item>
+        <item>{v: 2, si: cursor_5}</item>
+        <item>{v: 4, si: cursor_7}</item>
+    </string-array>
+    <string-array name="msg_cursor_quick_popup">
+        <item>{v: 3, si: cursor_166}</item>
+        <item>{v: 2, si: cursor_167}</item>
+    </string-array>
+    <string-array name="msg_cursor_sync_area">
+        <item>{v: 0, si: cursor_241}</item>
+        <item>{v: 38, si: cursor_242}</item>
+        <item>{v: 39, si: cursor_243}</item>
+        <item>{v: 40, si: cursor_244}</item>
+        <item>{v: 41, si: cursor_245}</item>
+    </string-array>
+    <string-array name="msg_cursor_tasrc">
+        <item>{v: 0, si: cursor_56}</item>
+        <item>{v: 1, si: cursor_57}</item>
+        <item>{v: 2, si: cursor_58}</item>
+        <item>{v: 3, si: cursor_59}</item>
+        <item>{v: 4, si: cursor_60}</item>
+        <item>{v: 38, si: cursor_71}</item>
+        <item>{v: 39, si: cursor_72}</item>
+        <item>{v: 40, si: cursor_73}</item>
+        <item>{v: 41, si: cursor_74}</item>
+    </string-array>
+    <string-array name="msg_cursor_tbsrc">
+        <item>{v: 0, si: cursor_76}</item>
+        <item>{v: 1, si: cursor_77}</item>
+        <item>{v: 2, si: cursor_78}</item>
+        <item>{v: 3, si: cursor_79}</item>
+        <item>{v: 4, si: cursor_80}</item>
+        <item>{v: 38, si: cursor_91}</item>
+        <item>{v: 39, si: cursor_92}</item>
+        <item>{v: 40, si: cursor_93}</item>
+        <item>{v: 41, si: cursor_94}</item>
+    </string-array>
+    <string-array name="msg_cursor_timeunit">
+        <item>{v: 5, si: cursor_37}</item>
+        <item>{v: 6, si: cursor_38}</item>
+        <item>{v: 7, si: cursor_39}</item>
+        <item>{v: 8, si: cursor_40}</item>
+    </string-array>
+    <string-array name="msg_cursor_track_mode">
+        <item>{v: 0, si: cursor_128}</item>
+        <item>{v: 1, si: cursor_129}</item>
+    </string-array>
+    <string-array name="msg_cursor_type">
+        <item>{v: 0, pi: Select_X, si: cursor_10}</item>
+        <item>{v: 1, pi: Select_Y, si: cursor_11}</item>
+    </string-array>
+    <string-array name="msg_cursor_vunit">
+        <item>{v: 3, si: cursor_46}</item>
+        <item>{v: 8, si: cursor_47}</item>
+    </string-array>
+    <string-array name="msg_cursor_xy_mode">
+        <item>{v: 0, si: cursor_122}</item>
+        <item>{v: 1, si: cursor_123}</item>
+    </string-array>
+    <string-array name="msg_cursor_xy_src_x">
+        <item>{v: 0, si: cursor_173}</item>
+        <item>{v: 1, si: cursor_174}</item>
+        <item>{v: 2, si: cursor_175}</item>
+        <item>{v: 3, si: cursor_176}</item>
+        <item>{v: 4, si: cursor_177}</item>
+    </string-array>
+    <string-array name="msg_cursor_xy_src_y">
+        <item>{v: 0, si: cursor_194}</item>
+        <item>{v: 1, si: cursor_195}</item>
+        <item>{v: 2, si: cursor_196}</item>
+        <item>{v: 3, si: cursor_197}</item>
+        <item>{v: 4, si: cursor_198}</item>
+    </string-array>
+    <string-array name="msg_cursor_xy_vals">
+        <item>{v: 0, si: cursor_106}</item>
+        <item>{v: 1, si: cursor_107}</item>
+        <item>{v: 2, si: cursor_108}</item>
+        <item>{v: 3, si: cursor_109}</item>
+        <item>{v: 4, si: cursor_110}</item>
+        <item>{v: 5, si: cursor_111}</item>
+        <item>{v: 6, si: cursor_112}</item>
+        <item>{v: 7, si: cursor_113}</item>
+    </string-array>
+    <string-array name="msg_cursor_xysrc">
+        <item>{v: 0, si: cursor_215}</item>
+        <item>{v: 1, si: cursor_216}</item>
+    </string-array>
+    <string-array name="msg_debug_logcat_grade">
+        <item>{v: 0, si: debug_7}</item>
+        <item>{v: 1, si: debug_8}</item>
+        <item>{v: 2, si: debug_9}</item>
+        <item>{v: 3, si: debug_10}</item>
+        <item>{v: 4, si: debug_11}</item>
+    </string-array>
+    <string-array name="msg_decode_1553b_pol">
+        <item>{v: 0, pi: Negative, si: vdecode_697}</item>
+        <item>{v: 1, pi: Positive, si: vdecode_698}</item>
+    </string-array>
+    <string-array name="msg_decode_1553b_src">
+        <item>{v: 1, si: vdecode_692}</item>
+        <item>{v: 2, si: vdecode_693}</item>
+        <item>{v: 3, si: vdecode_694}</item>
+        <item>{v: 4, si: vdecode_695}</item>
+    </string-array>
+    <string-array name="msg_decode_arinc429_baud">
+        <item>{v: 12500, si: vdecode_823}</item>
+        <item>{v: 100000, si: vdecode_824}</item>
+        <item>{v: 0, si: vdecode_825}</item>
+    </string-array>
+    <string-array name="msg_decode_arinc429_byte_format">
+        <item>{v: 0, si: vdecode_831}</item>
+        <item>{v: 1, si: vdecode_832}</item>
+        <item>{v: 2, si: vdecode_833}</item>
+    </string-array>
+    <string-array name="msg_decode_arinc429_signal_type">
+        <item>{v: 1, si: vdecode_827}</item>
+        <item>{v: 2, si: vdecode_828}</item>
+        <item>{v: 3, si: vdecode_829}</item>
+    </string-array>
+    <string-array name="msg_decode_arinc429_src">
+        <item>{v: 1, si: vdecode_816}</item>
+        <item>{v: 2, si: vdecode_817}</item>
+        <item>{v: 3, si: vdecode_818}</item>
+        <item>{v: 4, si: vdecode_819}</item>
+    </string-array>
+    <string-array name="msg_decode_bus_bitx">
+        <item>{v: 0, si: vdecode_64}</item>
+        <item>{v: 1, si: vdecode_65}</item>
+        <item>{v: 2, si: vdecode_66}</item>
+        <item>{v: 3, si: vdecode_67}</item>
+        <item>{v: 4, si: vdecode_68}</item>
+        <item>{v: 5, si: vdecode_69}</item>
+        <item>{v: 6, si: vdecode_70}</item>
+        <item>{v: 7, si: vdecode_71}</item>
+        <item>{v: 8, si: vdecode_72}</item>
+        <item>{v: 9, si: vdecode_73}</item>
+        <item>{v: 10, si: vdecode_74}</item>
+        <item>{v: 11, si: vdecode_75}</item>
+        <item>{v: 12, si: vdecode_76}</item>
+        <item>{v: 13, si: vdecode_77}</item>
+        <item>{v: 14, si: vdecode_78}</item>
+        <item>{v: 15, si: vdecode_79}</item>
+        <item>{v: 16, si: vdecode_80}</item>
+        <item>{v: 17, si: vdecode_81}</item>
+        <item>{v: 18, si: vdecode_82}</item>
+        <item>{v: 19, si: vdecode_83}</item>
+    </string-array>
+    <string-array name="msg_decode_bus_ch">
+        <item>{v: 1, si: vdecode_85}</item>
+        <item>{v: 2, si: vdecode_86}</item>
+        <item>{v: 3, si: vdecode_87}</item>
+        <item>{v: 4, si: vdecode_88}</item>
+        <item>{v: 9, si: vdecode_89}</item>
+        <item>{v: 10, si: vdecode_90}</item>
+        <item>{v: 11, si: vdecode_91}</item>
+        <item>{v: 12, si: vdecode_92}</item>
+        <item>{v: 13, si: vdecode_93}</item>
+        <item>{v: 14, si: vdecode_94}</item>
+        <item>{v: 15, si: vdecode_95}</item>
+        <item>{v: 16, si: vdecode_96}</item>
+        <item>{v: 17, si: vdecode_97}</item>
+        <item>{v: 18, si: vdecode_98}</item>
+        <item>{v: 19, si: vdecode_99}</item>
+        <item>{v: 20, si: vdecode_100}</item>
+        <item>{v: 21, si: vdecode_101}</item>
+        <item>{v: 22, si: vdecode_102}</item>
+        <item>{v: 23, si: vdecode_103}</item>
+        <item>{v: 24, si: vdecode_104}</item>
+    </string-array>
+    <string-array name="msg_decode_bus_graph">
+        <item>{v: 0, si: vdecode_114}</item>
+        <item>{v: 1, si: vdecode_115}</item>
+    </string-array>
+    <string-array name="msg_decode_can_baud">
+        <item>{v: 10000, si: vdecode_531}</item>
+        <item>{v: 19200, si: vdecode_532}</item>
+        <item>{v: 20000, si: vdecode_533}</item>
+        <item>{v: 33300, si: vdecode_534}</item>
+        <item>{v: 38400, si: vdecode_535}</item>
+        <item>{v: 50000, si: vdecode_536}</item>
+        <item>{v: 57600, si: vdecode_537}</item>
+        <item>{v: 62500, si: vdecode_538}</item>
+        <item>{v: 83300, si: vdecode_539}</item>
+        <item>{v: 100000, si: vdecode_540}</item>
+        <item>{v: 115200, si: vdecode_541}</item>
+        <item>{v: 125000, si: vdecode_542}</item>
+        <item>{v: 230400, si: vdecode_543}</item>
+        <item>{v: 250000, si: vdecode_544}</item>
+        <item>{v: 460800, si: vdecode_545}</item>
+        <item>{v: 500000, si: vdecode_546}</item>
+        <item>{v: 800000, si: vdecode_547}</item>
+        <item>{v: 921600, si: vdecode_548}</item>
+        <item>{v: 1000000, si: vdecode_549}</item>
+        <item>{v: 2000000, si: vdecode_550}</item>
+        <item>{v: 3000000, si: vdecode_551}</item>
+        <item>{v: 4000000, si: vdecode_552}</item>
+        <item>{v: 5000000, si: vdecode_553}</item>
+        <item>{v: 0, si: vdecode_554}</item>
+    </string-array>
+    <string-array name="msg_decode_can_signal">
+        <item>{v: 0, si: vdecode_502}</item>
+        <item>{v: 1, si: vdecode_503}</item>
+        <item>{v: 2, si: vdecode_504}</item>
+        <item>{v: 3, si: vdecode_505}</item>
+        <item>{v: 4, si: vdecode_506}</item>
+    </string-array>
+    <string-array name="msg_decode_can_src">
+        <item>{v: 1, si: vdecode_509}</item>
+        <item>{v: 2, si: vdecode_510}</item>
+        <item>{v: 3, si: vdecode_511}</item>
+        <item>{v: 4, si: vdecode_512}</item>
+        <item>{v: 9, si: vdecode_513}</item>
+        <item>{v: 10, si: vdecode_514}</item>
+        <item>{v: 11, si: vdecode_515}</item>
+        <item>{v: 12, si: vdecode_516}</item>
+        <item>{v: 13, si: vdecode_517}</item>
+        <item>{v: 14, si: vdecode_518}</item>
+        <item>{v: 15, si: vdecode_519}</item>
+        <item>{v: 16, si: vdecode_520}</item>
+        <item>{v: 17, si: vdecode_521}</item>
+        <item>{v: 18, si: vdecode_522}</item>
+        <item>{v: 19, si: vdecode_523}</item>
+        <item>{v: 20, si: vdecode_524}</item>
+        <item>{v: 21, si: vdecode_525}</item>
+        <item>{v: 22, si: vdecode_526}</item>
+        <item>{v: 23, si: vdecode_527}</item>
+        <item>{v: 24, si: vdecode_528}</item>
+    </string-array>
+    <string-array name="msg_decode_canfd_baud">
+        <item>{v: 1000000, si: vdecode_556}</item>
+        <item>{v: 2000000, si: vdecode_557}</item>
+        <item>{v: 3000000, si: vdecode_558}</item>
+        <item>{v: 4000000, si: vdecode_559}</item>
+        <item>{v: 5000000, si: vdecode_560}</item>
+        <item>{v: 6000000, si: vdecode_561}</item>
+        <item>{v: 7000000, si: vdecode_562}</item>
+        <item>{v: 8000000, si: vdecode_563}</item>
+        <item>{v: 9000000, si: vdecode_564}</item>
+        <item>{v: 10000000, si: vdecode_565}</item>
+        <item>{v: 0, si: vdecode_566}</item>
+    </string-array>
+    <string-array name="msg_decode_clk_edge">
+        <item>{v: 0, pi: Rising, si: vdecode_421}</item>
+        <item>{v: 1, pi: Falling, si: vdecode_422}</item>
+    </string-array>
+    <string-array name="msg_decode_cs_pol">
+        <item>{v: 0, pi: Negative2, si: vdecode_427}</item>
+        <item>{v: 1, pi: Positive2, si: vdecode_428}</item>
+    </string-array>
+    <string-array name="msg_decode_dat_pol">
+        <item>{v: 0, pi: Negative, si: vdecode_424}</item>
+        <item>{v: 1, pi: Positive, si: vdecode_425}</item>
+    </string-array>
+    <string-array name="msg_decode_evt">
+        <item>{v: 0, si: vdecode_133}</item>
+        <item>{v: 1, si: vdecode_134}</item>
+    </string-array>
+    <string-array name="msg_decode_evt_busx">
+        <item>{v: 0, si: vdecode_143}</item>
+        <item>{v: 1, si: vdecode_144}</item>
+        <item>{v: 2, si: vdecode_145}</item>
+        <item>{v: 3, si: vdecode_146}</item>
+    </string-array>
+    <string-array name="msg_decode_evt_format">
+        <item>{v: 0, si: vdecode_138}</item>
+        <item>{v: 1, si: vdecode_139}</item>
+        <item>{v: 2, si: vdecode_140}</item>
+        <item>{v: 3, si: vdecode_141}</item>
+    </string-array>
+    <string-array name="msg_decode_evt_view">
+        <item>{v: 0, si: vdecode_148}</item>
+        <item>{v: 1, si: vdecode_149}</item>
+        <item>{v: 2, si: vdecode_150}</item>
+    </string-array>
+    <string-array name="msg_decode_flex_baud">
+        <item>{v: 2500000, si: vdecode_592}</item>
+        <item>{v: 5000000, si: vdecode_593}</item>
+        <item>{v: 10000000, si: vdecode_594}</item>
+    </string-array>
+    <string-array name="msg_decode_flex_channel">
+        <item>{v: 0, si: vdecode_602}</item>
+        <item>{v: 1, si: vdecode_603}</item>
+    </string-array>
+    <string-array name="msg_decode_flex_signal">
+        <item>{v: 0, si: vdecode_598}</item>
+        <item>{v: 1, si: vdecode_599}</item>
+        <item>{v: 2, si: vdecode_600}</item>
+    </string-array>
+    <string-array name="msg_decode_flex_src">
+        <item>{v: 1, si: vdecode_570}</item>
+        <item>{v: 2, si: vdecode_571}</item>
+        <item>{v: 3, si: vdecode_572}</item>
+        <item>{v: 4, si: vdecode_573}</item>
+        <item>{v: 9, si: vdecode_574}</item>
+        <item>{v: 10, si: vdecode_575}</item>
+        <item>{v: 11, si: vdecode_576}</item>
+        <item>{v: 12, si: vdecode_577}</item>
+        <item>{v: 13, si: vdecode_578}</item>
+        <item>{v: 14, si: vdecode_579}</item>
+        <item>{v: 15, si: vdecode_580}</item>
+        <item>{v: 16, si: vdecode_581}</item>
+        <item>{v: 17, si: vdecode_582}</item>
+        <item>{v: 18, si: vdecode_583}</item>
+        <item>{v: 19, si: vdecode_584}</item>
+        <item>{v: 20, si: vdecode_585}</item>
+        <item>{v: 21, si: vdecode_586}</item>
+        <item>{v: 22, si: vdecode_587}</item>
+        <item>{v: 23, si: vdecode_588}</item>
+        <item>{v: 24, si: vdecode_589}</item>
+    </string-array>
+    <string-array name="msg_decode_format">
+        <item>{v: 0, si: vdecode_123}</item>
+        <item>{v: 1, si: vdecode_124}</item>
+        <item>{v: 2, si: vdecode_125}</item>
+        <item>{v: 3, si: vdecode_126}</item>
+    </string-array>
+    <string-array name="msg_decode_i2c_exc">
+        <item>{v: 0, si: vdecode_319}</item>
+        <item>{v: 1, si: vdecode_320}</item>
+    </string-array>
+    <string-array name="msg_decode_i2c_rw">
+        <item>{v: 0, si: vdecode_322}</item>
+        <item>{v: 1, si: vdecode_323}</item>
+    </string-array>
+    <string-array name="msg_decode_i2c_scl">
+        <item>{v: 1, si: vdecode_275}</item>
+        <item>{v: 2, si: vdecode_276}</item>
+        <item>{v: 3, si: vdecode_277}</item>
+        <item>{v: 4, si: vdecode_278}</item>
+        <item>{v: 9, si: vdecode_279}</item>
+        <item>{v: 10, si: vdecode_280}</item>
+        <item>{v: 11, si: vdecode_281}</item>
+        <item>{v: 12, si: vdecode_282}</item>
+        <item>{v: 13, si: vdecode_283}</item>
+        <item>{v: 14, si: vdecode_284}</item>
+        <item>{v: 15, si: vdecode_285}</item>
+        <item>{v: 16, si: vdecode_286}</item>
+        <item>{v: 17, si: vdecode_287}</item>
+        <item>{v: 18, si: vdecode_288}</item>
+        <item>{v: 19, si: vdecode_289}</item>
+        <item>{v: 20, si: vdecode_290}</item>
+        <item>{v: 21, si: vdecode_291}</item>
+        <item>{v: 22, si: vdecode_292}</item>
+        <item>{v: 23, si: vdecode_293}</item>
+        <item>{v: 24, si: vdecode_294}</item>
+    </string-array>
+    <string-array name="msg_decode_i2c_sda">
+        <item>{v: 1, si: vdecode_296}</item>
+        <item>{v: 2, si: vdecode_297}</item>
+        <item>{v: 3, si: vdecode_298}</item>
+        <item>{v: 4, si: vdecode_299}</item>
+        <item>{v: 9, si: vdecode_300}</item>
+        <item>{v: 10, si: vdecode_301}</item>
+        <item>{v: 11, si: vdecode_302}</item>
+        <item>{v: 12, si: vdecode_303}</item>
+        <item>{v: 13, si: vdecode_304}</item>
+        <item>{v: 14, si: vdecode_305}</item>
+        <item>{v: 15, si: vdecode_306}</item>
+        <item>{v: 16, si: vdecode_307}</item>
+        <item>{v: 17, si: vdecode_308}</item>
+        <item>{v: 18, si: vdecode_309}</item>
+        <item>{v: 19, si: vdecode_310}</item>
+        <item>{v: 20, si: vdecode_311}</item>
+        <item>{v: 21, si: vdecode_312}</item>
+        <item>{v: 22, si: vdecode_313}</item>
+        <item>{v: 23, si: vdecode_314}</item>
+        <item>{v: 24, si: vdecode_315}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_align">
+        <item>{v: 0, si: vdecode_678}</item>
+        <item>{v: 1, si: vdecode_679}</item>
+        <item>{v: 2, si: vdecode_680}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_data">
+        <item>{v: 1, si: vdecode_649}</item>
+        <item>{v: 2, si: vdecode_650}</item>
+        <item>{v: 3, si: vdecode_651}</item>
+        <item>{v: 4, si: vdecode_652}</item>
+        <item>{v: 9, si: vdecode_653}</item>
+        <item>{v: 10, si: vdecode_654}</item>
+        <item>{v: 11, si: vdecode_655}</item>
+        <item>{v: 12, si: vdecode_656}</item>
+        <item>{v: 13, si: vdecode_657}</item>
+        <item>{v: 14, si: vdecode_658}</item>
+        <item>{v: 15, si: vdecode_659}</item>
+        <item>{v: 16, si: vdecode_660}</item>
+        <item>{v: 17, si: vdecode_661}</item>
+        <item>{v: 18, si: vdecode_662}</item>
+        <item>{v: 19, si: vdecode_663}</item>
+        <item>{v: 20, si: vdecode_664}</item>
+        <item>{v: 21, si: vdecode_665}</item>
+        <item>{v: 22, si: vdecode_666}</item>
+        <item>{v: 23, si: vdecode_667}</item>
+        <item>{v: 24, si: vdecode_668}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_endian">
+        <item>{v: 0, si: vdecode_685}</item>
+        <item>{v: 1, si: vdecode_686}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_pol">
+        <item>{v: 0, pi: Negative, si: vdecode_688}</item>
+        <item>{v: 1, pi: Positive, si: vdecode_689}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_sclk">
+        <item>{v: 1, si: vdecode_607}</item>
+        <item>{v: 2, si: vdecode_608}</item>
+        <item>{v: 3, si: vdecode_609}</item>
+        <item>{v: 4, si: vdecode_610}</item>
+        <item>{v: 9, si: vdecode_611}</item>
+        <item>{v: 10, si: vdecode_612}</item>
+        <item>{v: 11, si: vdecode_613}</item>
+        <item>{v: 12, si: vdecode_614}</item>
+        <item>{v: 13, si: vdecode_615}</item>
+        <item>{v: 14, si: vdecode_616}</item>
+        <item>{v: 15, si: vdecode_617}</item>
+        <item>{v: 16, si: vdecode_618}</item>
+        <item>{v: 17, si: vdecode_619}</item>
+        <item>{v: 18, si: vdecode_620}</item>
+        <item>{v: 19, si: vdecode_621}</item>
+        <item>{v: 20, si: vdecode_622}</item>
+        <item>{v: 21, si: vdecode_623}</item>
+        <item>{v: 22, si: vdecode_624}</item>
+        <item>{v: 23, si: vdecode_625}</item>
+        <item>{v: 24, si: vdecode_626}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_sclkedge">
+        <item>{v: 0, pi: Rising, si: vdecode_673}</item>
+        <item>{v: 1, pi: Falling, si: vdecode_674}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_ws">
+        <item>{v: 1, si: vdecode_628}</item>
+        <item>{v: 2, si: vdecode_629}</item>
+        <item>{v: 3, si: vdecode_630}</item>
+        <item>{v: 4, si: vdecode_631}</item>
+        <item>{v: 9, si: vdecode_632}</item>
+        <item>{v: 10, si: vdecode_633}</item>
+        <item>{v: 11, si: vdecode_634}</item>
+        <item>{v: 12, si: vdecode_635}</item>
+        <item>{v: 13, si: vdecode_636}</item>
+        <item>{v: 14, si: vdecode_637}</item>
+        <item>{v: 15, si: vdecode_638}</item>
+        <item>{v: 16, si: vdecode_639}</item>
+        <item>{v: 17, si: vdecode_640}</item>
+        <item>{v: 18, si: vdecode_641}</item>
+        <item>{v: 19, si: vdecode_642}</item>
+        <item>{v: 20, si: vdecode_643}</item>
+        <item>{v: 21, si: vdecode_644}</item>
+        <item>{v: 22, si: vdecode_645}</item>
+        <item>{v: 23, si: vdecode_646}</item>
+        <item>{v: 24, si: vdecode_647}</item>
+    </string-array>
+    <string-array name="msg_decode_i2s_wslow">
+        <item>{v: 0, si: vdecode_682}</item>
+        <item>{v: 1, si: vdecode_683}</item>
+    </string-array>
+    <string-array name="msg_decode_label">
+        <item>{v: 0, si: vdecode_129}</item>
+        <item>{v: 1, si: vdecode_130}</item>
+    </string-array>
+    <string-array name="msg_decode_lin_baud">
+        <item>{v: 2400, si: vdecode_458}</item>
+        <item>{v: 4800, si: vdecode_459}</item>
+        <item>{v: 9600, si: vdecode_460}</item>
+        <item>{v: 10000, si: vdecode_461}</item>
+        <item>{v: 19200, si: vdecode_462}</item>
+        <item>{v: 20000, si: vdecode_463}</item>
+        <item>{v: 33300, si: vdecode_464}</item>
+        <item>{v: 38400, si: vdecode_465}</item>
+        <item>{v: 50000, si: vdecode_466}</item>
+        <item>{v: 57600, si: vdecode_467}</item>
+        <item>{v: 62500, si: vdecode_468}</item>
+        <item>{v: 83300, si: vdecode_469}</item>
+        <item>{v: 100000, si: vdecode_470}</item>
+        <item>{v: 115200, si: vdecode_471}</item>
+        <item>{v: 125000, si: vdecode_472}</item>
+        <item>{v: 230400, si: vdecode_473}</item>
+        <item>{v: 250000, si: vdecode_474}</item>
+        <item>{v: 460800, si: vdecode_475}</item>
+        <item>{v: 500000, si: vdecode_476}</item>
+        <item>{v: 800000, si: vdecode_477}</item>
+        <item>{v: 921600, si: vdecode_478}</item>
+        <item>{v: 1000000, si: vdecode_479}</item>
+        <item>{v: 2000000, si: vdecode_480}</item>
+        <item>{v: 3000000, si: vdecode_481}</item>
+        <item>{v: 4000000, si: vdecode_482}</item>
+        <item>{v: 5000000, si: vdecode_483}</item>
+        <item>{v: 6000000, si: vdecode_484}</item>
+        <item>{v: 7000000, si: vdecode_485}</item>
+        <item>{v: 8000000, si: vdecode_486}</item>
+        <item>{v: 9000000, si: vdecode_487}</item>
+        <item>{v: 10000000, si: vdecode_488}</item>
+        <item>{v: 20000000, si: vdecode_489}</item>
+        <item>{v: 0, si: vdecode_490}</item>
+    </string-array>
+    <string-array name="msg_decode_lin_parity">
+        <item>{v: 0, si: vdecode_499}</item>
+        <item>{v: 1, si: vdecode_500}</item>
+    </string-array>
+    <string-array name="msg_decode_lin_pol">
+        <item>{v: 0, pi: Negative, si: vdecode_492}</item>
+        <item>{v: 1, pi: Positive, si: vdecode_493}</item>
+    </string-array>
+    <string-array name="msg_decode_lin_src">
+        <item>{v: 1, si: vdecode_435}</item>
+        <item>{v: 2, si: vdecode_436}</item>
+        <item>{v: 3, si: vdecode_437}</item>
+        <item>{v: 4, si: vdecode_438}</item>
+        <item>{v: 9, si: vdecode_439}</item>
+        <item>{v: 10, si: vdecode_440}</item>
+        <item>{v: 11, si: vdecode_441}</item>
+        <item>{v: 12, si: vdecode_442}</item>
+        <item>{v: 13, si: vdecode_443}</item>
+        <item>{v: 14, si: vdecode_444}</item>
+        <item>{v: 15, si: vdecode_445}</item>
+        <item>{v: 16, si: vdecode_446}</item>
+        <item>{v: 17, si: vdecode_447}</item>
+        <item>{v: 18, si: vdecode_448}</item>
+        <item>{v: 19, si: vdecode_449}</item>
+        <item>{v: 20, si: vdecode_450}</item>
+        <item>{v: 21, si: vdecode_451}</item>
+        <item>{v: 22, si: vdecode_452}</item>
+        <item>{v: 23, si: vdecode_453}</item>
+        <item>{v: 24, si: vdecode_454}</item>
+    </string-array>
+    <string-array name="msg_decode_lin_ver">
+        <item>{v: 0, si: vdecode_495}</item>
+        <item>{v: 1, si: vdecode_496}</item>
+        <item>{v: 2, si: vdecode_497}</item>
+    </string-array>
+    <string-array name="msg_decode_list">
+        <item>{v: 42, si: vdecode_1227}</item>
+        <item>{v: 43, si: vdecode_1228}</item>
+        <item>{v: 44, si: vdecode_1229}</item>
+        <item>{v: 45, si: vdecode_1230}</item>
+    </string-array>
+    <string-array name="msg_decode_most_signal_type">
+        <item>{v: 1, si: vdecode_803}</item>
+        <item>{v: 2, si: vdecode_804}</item>
+        <item>{v: 3, si: vdecode_805}</item>
+    </string-array>
+    <string-array name="msg_decode_most_src">
+        <item>{v: 1, si: vdecode_797}</item>
+        <item>{v: 2, si: vdecode_798}</item>
+        <item>{v: 3, si: vdecode_799}</item>
+        <item>{v: 4, si: vdecode_800}</item>
+    </string-array>
+    <string-array name="msg_decode_onoff">
+        <item>{v: 0, si: vdecode_17}</item>
+        <item>{v: 1, si: vdecode_18}</item>
+    </string-array>
+    <string-array name="msg_decode_pal_bus">
+        <item>{v: 1, si: vdecode_51}</item>
+        <item>{v: 2, si: vdecode_52}</item>
+        <item>{v: 3, si: vdecode_53}</item>
+        <item>{v: 4, si: vdecode_54}</item>
+        <item>{v: 9, si: vdecode_55}</item>
+        <item>{v: 10, si: vdecode_56}</item>
+        <item>{v: 11, si: vdecode_57}</item>
+        <item>{v: 12, si: vdecode_58}</item>
+        <item>{v: 13, si: vdecode_59}</item>
+        <item>{v: 14, si: vdecode_60}</item>
+        <item>{v: 33, si: vdecode_61}</item>
+    </string-array>
+    <string-array name="msg_decode_pal_clk">
+        <item>{v: 0, si: vdecode_22}</item>
+        <item>{v: 1, si: vdecode_23}</item>
+        <item>{v: 2, si: vdecode_24}</item>
+        <item>{v: 3, si: vdecode_25}</item>
+        <item>{v: 4, si: vdecode_26}</item>
+        <item>{v: 9, si: vdecode_27}</item>
+        <item>{v: 10, si: vdecode_28}</item>
+        <item>{v: 11, si: vdecode_29}</item>
+        <item>{v: 12, si: vdecode_30}</item>
+        <item>{v: 13, si: vdecode_31}</item>
+        <item>{v: 14, si: vdecode_32}</item>
+        <item>{v: 15, si: vdecode_33}</item>
+        <item>{v: 16, si: vdecode_34}</item>
+        <item>{v: 17, si: vdecode_35}</item>
+        <item>{v: 18, si: vdecode_36}</item>
+        <item>{v: 19, si: vdecode_37}</item>
+        <item>{v: 20, si: vdecode_38}</item>
+        <item>{v: 21, si: vdecode_39}</item>
+        <item>{v: 22, si: vdecode_40}</item>
+        <item>{v: 23, si: vdecode_41}</item>
+        <item>{v: 24, si: vdecode_42}</item>
+    </string-array>
+    <string-array name="msg_decode_pal_clk_edge">
+        <item>{v: 0, pi: Rising, si: vdecode_44}</item>
+        <item>{v: 1, pi: Falling, si: vdecode_45}</item>
+        <item>{v: 2, pi: EDGE_ALL, si: vdecode_46}</item>
+    </string-array>
+    <string-array name="msg_decode_pal_endian">
+        <item>{v: 0, si: vdecode_109}</item>
+        <item>{v: 1, si: vdecode_110}</item>
+    </string-array>
+    <string-array name="msg_decode_pal_nrj">
+        <item>{v: 0, si: vdecode_106}</item>
+        <item>{v: 1, si: vdecode_107}</item>
+    </string-array>
+    <string-array name="msg_decode_polarity">
+        <item>{v: 0, pi: Negative, si: vdecode_117}</item>
+        <item>{v: 1, pi: Positive, si: vdecode_118}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_baud">
+        <item>{v: 50, si: vdecode_152}</item>
+        <item>{v: 75, si: vdecode_153}</item>
+        <item>{v: 110, si: vdecode_154}</item>
+        <item>{v: 134, si: vdecode_155}</item>
+        <item>{v: 150, si: vdecode_156}</item>
+        <item>{v: 300, si: vdecode_157}</item>
+        <item>{v: 600, si: vdecode_158}</item>
+        <item>{v: 1000, si: vdecode_159}</item>
+        <item>{v: 1200, si: vdecode_160}</item>
+        <item>{v: 1800, si: vdecode_161}</item>
+        <item>{v: 2000, si: vdecode_162}</item>
+        <item>{v: 2400, si: vdecode_163}</item>
+        <item>{v: 4800, si: vdecode_164}</item>
+        <item>{v: 9600, si: vdecode_165}</item>
+        <item>{v: 10000, si: vdecode_166}</item>
+        <item>{v: 19200, si: vdecode_167}</item>
+        <item>{v: 20000, si: vdecode_168}</item>
+        <item>{v: 33300, si: vdecode_169}</item>
+        <item>{v: 38400, si: vdecode_170}</item>
+        <item>{v: 50000, si: vdecode_171}</item>
+        <item>{v: 57600, si: vdecode_172}</item>
+        <item>{v: 62500, si: vdecode_173}</item>
+        <item>{v: 83300, si: vdecode_174}</item>
+        <item>{v: 100000, si: vdecode_175}</item>
+        <item>{v: 115200, si: vdecode_176}</item>
+        <item>{v: 125000, si: vdecode_177}</item>
+        <item>{v: 230400, si: vdecode_178}</item>
+        <item>{v: 250000, si: vdecode_179}</item>
+        <item>{v: 460800, si: vdecode_180}</item>
+        <item>{v: 500000, si: vdecode_181}</item>
+        <item>{v: 800000, si: vdecode_182}</item>
+        <item>{v: 921600, si: vdecode_183}</item>
+        <item>{v: 1000000, si: vdecode_184}</item>
+        <item>{v: 2000000, si: vdecode_185}</item>
+        <item>{v: 3000000, si: vdecode_186}</item>
+        <item>{v: 4000000, si: vdecode_187}</item>
+        <item>{v: 5000000, si: vdecode_188}</item>
+        <item>{v: 6000000, si: vdecode_189}</item>
+        <item>{v: 7000000, si: vdecode_190}</item>
+        <item>{v: 8000000, si: vdecode_191}</item>
+        <item>{v: 9000000, si: vdecode_192}</item>
+        <item>{v: 10000000, si: vdecode_193}</item>
+        <item>{v: 20000000, si: vdecode_194}</item>
+        <item>{v: 0, si: vdecode_195}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_endian">
+        <item>{v: 0, si: vdecode_266}</item>
+        <item>{v: 1, si: vdecode_267}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_packen">
+        <item>{v: 0, si: vdecode_263}</item>
+        <item>{v: 1, si: vdecode_264}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_packend">
+        <item>{v: 10, si: vdecode_269}</item>
+        <item>{v: 13, si: vdecode_270}</item>
+        <item>{v: 32, si: vdecode_271}</item>
+        <item>{v: 0, si: vdecode_272}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_parity">
+        <item>{v: 0, si: vdecode_259}</item>
+        <item>{v: 1, si: vdecode_260}</item>
+        <item>{v: 2, si: vdecode_261}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_pol">
+        <item>{v: 0, pi: RS232_N, si: vdecode_246}</item>
+        <item>{v: 1, pi: RS232_P, si: vdecode_247}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_rx">
+        <item>{v: 0, si: vdecode_222}</item>
+        <item>{v: 1, si: vdecode_223}</item>
+        <item>{v: 2, si: vdecode_224}</item>
+        <item>{v: 3, si: vdecode_225}</item>
+        <item>{v: 4, si: vdecode_226}</item>
+        <item>{v: 9, si: vdecode_227}</item>
+        <item>{v: 10, si: vdecode_228}</item>
+        <item>{v: 11, si: vdecode_229}</item>
+        <item>{v: 12, si: vdecode_230}</item>
+        <item>{v: 13, si: vdecode_231}</item>
+        <item>{v: 14, si: vdecode_232}</item>
+        <item>{v: 15, si: vdecode_233}</item>
+        <item>{v: 16, si: vdecode_234}</item>
+        <item>{v: 17, si: vdecode_235}</item>
+        <item>{v: 18, si: vdecode_236}</item>
+        <item>{v: 19, si: vdecode_237}</item>
+        <item>{v: 20, si: vdecode_238}</item>
+        <item>{v: 21, si: vdecode_239}</item>
+        <item>{v: 22, si: vdecode_240}</item>
+        <item>{v: 23, si: vdecode_241}</item>
+        <item>{v: 24, si: vdecode_242}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_stop">
+        <item>{v: 0, si: vdecode_255}</item>
+        <item>{v: 2, si: vdecode_256}</item>
+        <item>{v: 1, si: vdecode_257}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_tx">
+        <item>{v: 0, si: vdecode_200}</item>
+        <item>{v: 1, si: vdecode_201}</item>
+        <item>{v: 2, si: vdecode_202}</item>
+        <item>{v: 3, si: vdecode_203}</item>
+        <item>{v: 4, si: vdecode_204}</item>
+        <item>{v: 9, si: vdecode_205}</item>
+        <item>{v: 10, si: vdecode_206}</item>
+        <item>{v: 11, si: vdecode_207}</item>
+        <item>{v: 12, si: vdecode_208}</item>
+        <item>{v: 13, si: vdecode_209}</item>
+        <item>{v: 14, si: vdecode_210}</item>
+        <item>{v: 15, si: vdecode_211}</item>
+        <item>{v: 16, si: vdecode_212}</item>
+        <item>{v: 17, si: vdecode_213}</item>
+        <item>{v: 18, si: vdecode_214}</item>
+        <item>{v: 19, si: vdecode_215}</item>
+        <item>{v: 20, si: vdecode_216}</item>
+        <item>{v: 21, si: vdecode_217}</item>
+        <item>{v: 22, si: vdecode_218}</item>
+        <item>{v: 23, si: vdecode_219}</item>
+        <item>{v: 24, si: vdecode_220}</item>
+    </string-array>
+    <string-array name="msg_decode_rs232_width">
+        <item>{v: 5, si: vdecode_249}</item>
+        <item>{v: 6, si: vdecode_250}</item>
+        <item>{v: 7, si: vdecode_251}</item>
+        <item>{v: 8, si: vdecode_252}</item>
+        <item>{v: 9, si: vdecode_253}</item>
+    </string-array>
+    <string-array name="msg_decode_sent_crc">
+        <item>{v: 0, si: vdecode_782}</item>
+        <item>{v: 1, si: vdecode_783}</item>
+    </string-array>
+    <string-array name="msg_decode_sent_idle">
+        <item>{v: 0, si: vdecode_779}</item>
+        <item>{v: 1, si: vdecode_780}</item>
+    </string-array>
+    <string-array name="msg_decode_sent_pause">
+        <item>{v: 0, si: vdecode_785}</item>
+        <item>{v: 1, si: vdecode_786}</item>
+    </string-array>
+    <string-array name="msg_decode_sent_signal_type">
+        <item>{v: 0, si: vdecode_763}</item>
+        <item>{v: 1, si: vdecode_764}</item>
+        <item>{v: 2, si: vdecode_765}</item>
+        <item>{v: 3, si: vdecode_766}</item>
+        <item>{v: 4, si: vdecode_767}</item>
+        <item>{v: 5, si: vdecode_768}</item>
+    </string-array>
+    <string-array name="msg_decode_sent_src">
+        <item>{v: 1, si: vdecode_772}</item>
+        <item>{v: 2, si: vdecode_773}</item>
+        <item>{v: 3, si: vdecode_774}</item>
+        <item>{v: 4, si: vdecode_775}</item>
+    </string-array>
+    <string-array name="msg_decode_spi_clk">
+        <item>{v: 1, si: vdecode_352}</item>
+        <item>{v: 2, si: vdecode_353}</item>
+        <item>{v: 3, si: vdecode_354}</item>
+        <item>{v: 4, si: vdecode_355}</item>
+        <item>{v: 9, si: vdecode_356}</item>
+        <item>{v: 10, si: vdecode_357}</item>
+        <item>{v: 11, si: vdecode_358}</item>
+        <item>{v: 12, si: vdecode_359}</item>
+        <item>{v: 13, si: vdecode_360}</item>
+        <item>{v: 14, si: vdecode_361}</item>
+        <item>{v: 15, si: vdecode_362}</item>
+        <item>{v: 16, si: vdecode_363}</item>
+        <item>{v: 17, si: vdecode_364}</item>
+        <item>{v: 18, si: vdecode_365}</item>
+        <item>{v: 19, si: vdecode_366}</item>
+        <item>{v: 20, si: vdecode_367}</item>
+        <item>{v: 21, si: vdecode_368}</item>
+        <item>{v: 22, si: vdecode_369}</item>
+        <item>{v: 23, si: vdecode_370}</item>
+        <item>{v: 24, si: vdecode_371}</item>
+    </string-array>
+    <string-array name="msg_decode_spi_cs">
+        <item>{v: 1, si: vdecode_331}</item>
+        <item>{v: 2, si: vdecode_332}</item>
+        <item>{v: 3, si: vdecode_333}</item>
+        <item>{v: 4, si: vdecode_334}</item>
+        <item>{v: 9, si: vdecode_335}</item>
+        <item>{v: 10, si: vdecode_336}</item>
+        <item>{v: 11, si: vdecode_337}</item>
+        <item>{v: 12, si: vdecode_338}</item>
+        <item>{v: 13, si: vdecode_339}</item>
+        <item>{v: 14, si: vdecode_340}</item>
+        <item>{v: 15, si: vdecode_341}</item>
+        <item>{v: 16, si: vdecode_342}</item>
+        <item>{v: 17, si: vdecode_343}</item>
+        <item>{v: 18, si: vdecode_344}</item>
+        <item>{v: 19, si: vdecode_345}</item>
+        <item>{v: 20, si: vdecode_346}</item>
+        <item>{v: 21, si: vdecode_347}</item>
+        <item>{v: 22, si: vdecode_348}</item>
+        <item>{v: 23, si: vdecode_349}</item>
+        <item>{v: 24, si: vdecode_350}</item>
+    </string-array>
+    <string-array name="msg_decode_spi_endian">
+        <item>{v: 0, si: vdecode_432}</item>
+        <item>{v: 1, si: vdecode_433}</item>
+    </string-array>
+    <string-array name="msg_decode_spi_miso">
+        <item>{v: 0, si: vdecode_373}</item>
+        <item>{v: 1, si: vdecode_374}</item>
+        <item>{v: 2, si: vdecode_375}</item>
+        <item>{v: 3, si: vdecode_376}</item>
+        <item>{v: 4, si: vdecode_377}</item>
+        <item>{v: 9, si: vdecode_378}</item>
+        <item>{v: 10, si: vdecode_379}</item>
+        <item>{v: 11, si: vdecode_380}</item>
+        <item>{v: 12, si: vdecode_381}</item>
+        <item>{v: 13, si: vdecode_382}</item>
+        <item>{v: 14, si: vdecode_383}</item>
+        <item>{v: 15, si: vdecode_384}</item>
+        <item>{v: 16, si: vdecode_385}</item>
+        <item>{v: 17, si: vdecode_386}</item>
+        <item>{v: 18, si: vdecode_387}</item>
+        <item>{v: 19, si: vdecode_388}</item>
+        <item>{v: 20, si: vdecode_389}</item>
+        <item>{v: 21, si: vdecode_390}</item>
+        <item>{v: 22, si: vdecode_391}</item>
+        <item>{v: 23, si: vdecode_392}</item>
+        <item>{v: 24, si: vdecode_393}</item>
+    </string-array>
+    <string-array name="msg_decode_spi_mode">
+        <item>{v: 0, si: vdecode_328}</item>
+        <item>{v: 1, si: vdecode_329}</item>
+    </string-array>
+    <string-array name="msg_decode_spi_mosi">
+        <item>{v: 0, si: vdecode_395}</item>
+        <item>{v: 1, si: vdecode_396}</item>
+        <item>{v: 2, si: vdecode_397}</item>
+        <item>{v: 3, si: vdecode_398}</item>
+        <item>{v: 4, si: vdecode_399}</item>
+        <item>{v: 9, si: vdecode_400}</item>
+        <item>{v: 10, si: vdecode_401}</item>
+        <item>{v: 11, si: vdecode_402}</item>
+        <item>{v: 12, si: vdecode_403}</item>
+        <item>{v: 13, si: vdecode_404}</item>
+        <item>{v: 14, si: vdecode_405}</item>
+        <item>{v: 15, si: vdecode_406}</item>
+        <item>{v: 16, si: vdecode_407}</item>
+        <item>{v: 17, si: vdecode_408}</item>
+        <item>{v: 18, si: vdecode_409}</item>
+        <item>{v: 19, si: vdecode_410}</item>
+        <item>{v: 20, si: vdecode_411}</item>
+        <item>{v: 21, si: vdecode_412}</item>
+        <item>{v: 22, si: vdecode_413}</item>
+        <item>{v: 23, si: vdecode_414}</item>
+        <item>{v: 24, si: vdecode_415}</item>
+    </string-array>
+    <string-array name="msg_decode_type">
+        <item>{v: 0, si: vdecode_3}</item>
+        <item>{v: 1, si: vdecode_4}</item>
+        <item>{v: 2, si: vdecode_5}</item>
+        <item>{v: 3, si: vdecode_6}</item>
+        <item>{v: 4, si: vdecode_7}</item>
+        <item>{v: 5, si: vdecode_8}</item>
+        <item>{v: 6, si: vdecode_9}</item>
+        <item>{v: 7, si: vdecode_10}</item>
+        <item>{v: 8, si: vdecode_11}</item>
+    </string-array>
+    <string-array name="msg_decode_type1">
+        <item>{v: 0, si: vdecode_1240}</item>
+        <item>{v: 1, si: vdecode_1241}</item>
+        <item>{v: 2, si: vdecode_1242}</item>
+        <item>{v: 3, si: vdecode_1243}</item>
+        <item>{v: 4, si: vdecode_1244}</item>
+        <item>{v: 5, si: vdecode_1245}</item>
+        <item>{v: 101, si: vdecode_1246}</item>
+        <item>{v: 102, si: vdecode_1247}</item>
+        <item>{v: 103, si: vdecode_1248}</item>
+        <item>{v: 104, si: vdecode_1249}</item>
+        <item>{v: 105, si: vdecode_1250}</item>
+        <item>{v: 106, si: vdecode_1251}</item>
+        <item>{v: 107, si: vdecode_1252}</item>
+        <item>{v: 108, si: vdecode_1253}</item>
+        <item>{v: 109, si: vdecode_1254}</item>
+        <item>{v: 110, si: vdecode_1255}</item>
+    </string-array>
+    <string-array name="msg_decode_usb_diff">
+        <item>{v: 1, si: vdecode_880}</item>
+        <item>{v: 2, si: vdecode_881}</item>
+        <item>{v: 3, si: vdecode_882}</item>
+        <item>{v: 4, si: vdecode_883}</item>
+    </string-array>
+    <string-array name="msg_decode_usb_dp">
+        <item>{v: 1, si: vdecode_836}</item>
+        <item>{v: 2, si: vdecode_837}</item>
+        <item>{v: 3, si: vdecode_838}</item>
+        <item>{v: 4, si: vdecode_839}</item>
+    </string-array>
+    <string-array name="msg_decode_usb_ds">
+        <item>{v: 1, si: vdecode_857}</item>
+        <item>{v: 2, si: vdecode_858}</item>
+        <item>{v: 3, si: vdecode_859}</item>
+        <item>{v: 4, si: vdecode_860}</item>
+    </string-array>
+    <string-array name="msg_decode_usb_rate">
+        <item>{v: 0, si: vdecode_903}</item>
+        <item>{v: 1, si: vdecode_904}</item>
+        <item>{v: 2, si: vdecode_905}</item>
+    </string-array>
+    <string-array name="msg_dg_amp_level">
+        <item>{v: 0, si: source_21}</item>
+        <item>{v: 1, si: source_22}</item>
+    </string-array>
+    <string-array name="msg_dg_arb_chan_select">
+        <item>{v: 1, si: source_95}</item>
+        <item>{v: 2, si: source_96}</item>
+        <item>{v: 3, si: source_97}</item>
+        <item>{v: 4, si: source_98}</item>
+    </string-array>
+    <string-array name="msg_dg_arb_linear">
+        <item>{v: 0, si: source_111}</item>
+        <item>{v: 1, si: source_112}</item>
+    </string-array>
+    <string-array name="msg_dg_arb_region">
+        <item>{v: 0, si: source_100}</item>
+        <item>{v: 1, si: source_101}</item>
+    </string-array>
+    <string-array name="msg_dg_arb_zoom">
+        <item>{v: 0, si: source_108}</item>
+        <item>{v: 1, si: source_109}</item>
+    </string-array>
+    <string-array name="msg_dg_burst_type">
+        <item>{v: 0, si: source_43}</item>
+        <item>{v: 1, si: source_44}</item>
+    </string-array>
+    <string-array name="msg_dg_freq_period">
+        <item>{v: 0, si: source_18}</item>
+        <item>{v: 1, si: source_19}</item>
+    </string-array>
+    <string-array name="msg_dg_impedance">
+        <item>{v: 0, si: source_35}</item>
+        <item>{v: 1, si: source_36}</item>
+    </string-array>
+    <string-array name="msg_dg_mod_bur_sweep">
+        <item>{v: 0, si: source_38}</item>
+        <item>{v: 1, si: source_39}</item>
+        <item>{v: 2, si: source_40}</item>
+        <item>{v: 3, si: source_41}</item>
+    </string-array>
+    <string-array name="msg_dg_mod_fsk_polarity">
+        <item>{v: 0, si: source_76}</item>
+        <item>{v: 1, si: source_77}</item>
+    </string-array>
+    <string-array name="msg_dg_mod_shape">
+        <item>{v: 0, si: source_79}</item>
+        <item>{v: 1, si: source_80}</item>
+        <item>{v: 2, si: source_81}</item>
+        <item>{v: 3, si: source_82}</item>
+    </string-array>
+    <string-array name="msg_dg_mod_type">
+        <item>{v: 0, si: source_67}</item>
+        <item>{v: 1, si: source_68}</item>
+        <item>{v: 2, si: source_69}</item>
+    </string-array>
+    <string-array name="msg_dg_mod_type_ramp">
+        <item>{v: 0, si: source_71}</item>
+        <item>{v: 1, si: source_72}</item>
+        <item>{v: 2, si: source_73}</item>
+    </string-array>
+    <string-array name="msg_dg_offset_level">
+        <item>{v: 0, si: source_24}</item>
+        <item>{v: 1, si: source_25}</item>
+    </string-array>
+    <string-array name="msg_dg_sweep_type">
+        <item>{v: 0, si: source_55}</item>
+        <item>{v: 1, si: source_56}</item>
+        <item>{v: 2, si: source_57}</item>
+    </string-array>
+    <string-array name="msg_dg_trigsrc">
+        <item>{v: 1, si: source_47}</item>
+        <item>{v: 2, si: source_48}</item>
+        <item>{v: 3, si: source_49}</item>
+    </string-array>
+    <string-array name="msg_dg_wave">
+        <item>{v: 0, si: source_3}</item>
+        <item>{v: 1, si: source_4}</item>
+        <item>{v: 2, si: source_5}</item>
+        <item>{v: 3, si: source_6}</item>
+        <item>{v: 4, si: source_7}</item>
+        <item>{v: 5, si: source_8}</item>
+        <item>{v: 6, si: source_9}</item>
+        <item>{v: 7, si: source_10}</item>
+        <item>{v: 8, si: source_11}</item>
+        <item>{v: 9, si: source_12}</item>
+        <item>{v: 10, si: source_13}</item>
+        <item>{v: 11, si: source_14}</item>
+        <item>{v: 12, si: source_15}</item>
+        <item>{v: 13, si: source_16}</item>
+    </string-array>
+    <string-array name="msg_display_10x8_10x10">
+        <item>{v: 1, si: display_27}</item>
+        <item>{v: 0, si: display_28}</item>
+    </string-array>
+    <string-array name="msg_display_freeze">
+        <item>{si: display_35}</item>
+        <item>{si: display_36}</item>
+    </string-array>
+    <string-array name="msg_display_grid">
+        <item>{v: 0, si: display_17}</item>
+        <item>{v: 1, si: display_18}</item>
+        <item>{v: 2, si: display_19}</item>
+    </string-array>
+    <string-array name="msg_display_palette">
+        <item>{v: 0, si: display_31}</item>
+        <item>{v: 1, si: display_32}</item>
+    </string-array>
+    <string-array name="msg_display_persistime">
+        <item>{v: 0, si: display_6}</item>
+        <item>{v: 1, si: display_7}</item>
+        <item>{v: 2, si: display_8}</item>
+        <item>{v: 3, si: display_9}</item>
+        <item>{v: 4, si: display_10}</item>
+        <item>{v: 5, si: display_11}</item>
+        <item>{v: 6, si: display_12}</item>
+        <item>{v: 7, si: display_13}</item>
+        <item>{v: 8, si: display_14}</item>
+    </string-array>
+    <string-array name="msg_display_rulers">
+        <item>{v: 0, si: display_23}</item>
+        <item>{v: 1, si: display_24}</item>
+    </string-array>
+    <string-array name="msg_display_type">
+        <item>{v: 0, si: display_3}</item>
+        <item>{v: 1, si: display_4}</item>
+    </string-array>
+    <string-array name="msg_dvm_beep_enable">
+        <item>{v: 0, si: dvm_16}</item>
+        <item>{v: 1, si: dvm_17}</item>
+    </string-array>
+    <string-array name="msg_dvm_enable">
+        <item>{v: 0, si: dvm_3}</item>
+        <item>{v: 1, si: dvm_4}</item>
+    </string-array>
+    <string-array name="msg_dvm_limit_type">
+        <item>{v: 0, si: dvm_19}</item>
+        <item>{v: 1, si: dvm_20}</item>
+    </string-array>
+    <string-array name="msg_dvm_mode">
+        <item>{v: 0, si: dvm_11}</item>
+        <item>{v: 1, si: dvm_12}</item>
+        <item>{v: 2, si: dvm_13}</item>
+    </string-array>
+    <string-array name="msg_dvm_quick_popup">
+        <item>{v: 3, si: dvm_27}</item>
+        <item>{v: 2, si: dvm_28}</item>
+    </string-array>
+    <string-array name="msg_dvm_src">
+        <item>{v: 1, si: dvm_6}</item>
+        <item>{v: 2, si: dvm_7}</item>
+        <item>{v: 3, si: dvm_8}</item>
+        <item>{v: 4, si: dvm_9}</item>
+    </string-array>
+    <string-array name="msg_email_attachment">
+        <item>{v: 0, si: email_4}</item>
+        <item>{v: 1, si: email_5}</item>
+        <item>{v: 2, si: email_6}</item>
+        <item>{v: 3, si: email_7}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_100baset_clk">
+        <item>{v: 1, si: ethanalyse_14}</item>
+        <item>{v: 2, si: ethanalyse_15}</item>
+        <item>{v: 3, si: ethanalyse_16}</item>
+        <item>{v: 4, si: ethanalyse_17}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_100baset_eyeui">
+        <item>{si: ethanalyse_19}</item>
+        <item>{si: ethanalyse_20}</item>
+        <item>{si: ethanalyse_21}</item>
+        <item>{si: ethanalyse_22}</item>
+        <item>{si: ethanalyse_23}</item>
+        <item>{si: ethanalyse_24}</item>
+        <item>{si: ethanalyse_25}</item>
+        <item>{si: ethanalyse_26}</item>
+        <item>{si: ethanalyse_27}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_100baset_result_table_col">
+        <item>{v: 0, si: ethanalyse_60}</item>
+        <item>{v: 1, si: ethanalyse_61}</item>
+        <item>{v: 2, si: ethanalyse_62}</item>
+        <item>{v: 3, si: ethanalyse_63}</item>
+        <item>{v: 4, si: ethanalyse_64}</item>
+        <item>{v: 5, si: ethanalyse_65}</item>
+        <item>{v: 6, si: ethanalyse_66}</item>
+        <item>{v: 7, si: ethanalyse_67}</item>
+        <item>{v: 8, si: ethanalyse_68}</item>
+        <item>{v: 9, si: ethanalyse_69}</item>
+        <item>{v: 10, si: ethanalyse_70}</item>
+        <item>{v: 11, si: ethanalyse_71}</item>
+        <item>{v: 12, si: ethanalyse_72}</item>
+        <item>{v: 13, si: ethanalyse_73}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_100baset_result_table_row">
+        <item>{v: 0, si: ethanalyse_54}</item>
+        <item>{v: 1, si: ethanalyse_55}</item>
+        <item>{v: 2, si: ethanalyse_56}</item>
+        <item>{v: 3, si: ethanalyse_57}</item>
+        <item>{v: 4, si: ethanalyse_58}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_low_full_usb_result_table_col">
+        <item>{si: usbanalyse_64}</item>
+        <item>{si: usbanalyse_65}</item>
+        <item>{si: usbanalyse_66}</item>
+        <item>{si: usbanalyse_67}</item>
+        <item>{si: usbanalyse_68}</item>
+        <item>{si: usbanalyse_69}</item>
+        <item>{si: usbanalyse_70}</item>
+        <item>{si: usbanalyse_71}</item>
+        <item>{si: usbanalyse_72}</item>
+        <item>{si: usbanalyse_73}</item>
+        <item>{si: usbanalyse_74}</item>
+        <item>{si: usbanalyse_75}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_signal">
+        <item>{v: 1, si: ethanalyse_6}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_src">
+        <item>{v: 1, si: ethanalyse_9}</item>
+        <item>{v: 2, si: ethanalyse_10}</item>
+        <item>{v: 3, si: ethanalyse_11}</item>
+        <item>{v: 4, si: ethanalyse_12}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_usb_result_table_col">
+        <item>{si: usbanalyse_51}</item>
+        <item>{si: usbanalyse_52}</item>
+        <item>{si: usbanalyse_53}</item>
+        <item>{si: usbanalyse_54}</item>
+        <item>{si: usbanalyse_55}</item>
+        <item>{si: usbanalyse_56}</item>
+        <item>{si: usbanalyse_57}</item>
+        <item>{si: usbanalyse_58}</item>
+        <item>{si: usbanalyse_59}</item>
+        <item>{si: usbanalyse_60}</item>
+        <item>{si: usbanalyse_61}</item>
+        <item>{si: usbanalyse_62}</item>
+    </string-array>
+    <string-array name="msg_eth_analyse_usb_result_table_row">
+        <item>{v: 0, si: usbanalyse_45}</item>
+        <item>{v: 1, si: usbanalyse_46}</item>
+        <item>{v: 2, si: usbanalyse_47}</item>
+        <item>{v: 3, si: usbanalyse_48}</item>
+        <item>{v: 4, si: usbanalyse_49}</item>
+    </string-array>
+    <string-array name="msg_eye_cr_freqtype">
+        <item>{v: 0, si: eye_25}</item>
+        <item>{v: 1, si: eye_26}</item>
+        <item>{v: 2, si: eye_27}</item>
+    </string-array>
+    <string-array name="msg_eye_cr_pllorder">
+        <item>{v: 0, si: eye_30}</item>
+        <item>{v: 1, si: eye_31}</item>
+    </string-array>
+    <string-array name="msg_eye_cr_selmethod">
+        <item>{v: 0, si: eye_21}</item>
+        <item>{v: 1, si: eye_22}</item>
+        <item>{v: 2, si: eye_23}</item>
+    </string-array>
+    <string-array name="msg_eye_external_clock_src">
+        <item>{v: 1, si: eye_9}</item>
+        <item>{v: 2, si: eye_10}</item>
+        <item>{v: 3, si: eye_11}</item>
+        <item>{v: 4, si: eye_12}</item>
+    </string-array>
+    <string-array name="msg_eye_move_rate_select">
+        <item>{v: 0, si: eye_52}</item>
+        <item>{v: 1, si: eye_53}</item>
+    </string-array>
+    <string-array name="msg_eye_quick_popup">
+        <item>{v: 3, si: eye_74}</item>
+        <item>{v: 2, si: eye_75}</item>
+    </string-array>
+    <string-array name="msg_eye_source">
+        <item>{v: 1, si: eye_4}</item>
+        <item>{v: 2, si: eye_5}</item>
+        <item>{v: 3, si: eye_6}</item>
+        <item>{v: 4, si: eye_7}</item>
+    </string-array>
+    <string-array name="msg_eye_template">
+        <item>{v: 0, si: eye_60}</item>
+        <item>{v: 1, si: eye_61}</item>
+        <item>{v: 2, si: eye_62}</item>
+        <item>{v: 3, si: eye_63}</item>
+        <item>{v: 4, si: eye_64}</item>
+        <item>{v: 5, si: eye_65}</item>
+        <item>{v: 6, si: eye_66}</item>
+    </string-array>
+    <string-array name="msg_eye_template_status">
+        <item>{v: 0, si: eye_68}</item>
+        <item>{v: 1, si: eye_69}</item>
+    </string-array>
+    <string-array name="msg_eye_thre_type">
+        <item>{v: 0, si: eye_14}</item>
+        <item>{v: 1, si: eye_15}</item>
+    </string-array>
+    <string-array name="msg_fft_1m_unit">
+        <item>{v: 41, si: fft_16}</item>
+        <item>{v: 42, si: fft_17}</item>
+        <item>{v: 3, si: fft_18}</item>
+    </string-array>
+    <string-array name="msg_fft_list">
+        <item>{v: 17, si: math_266}</item>
+        <item>{v: 18, si: math_267}</item>
+        <item>{v: 19, si: math_268}</item>
+        <item>{v: 20, si: math_269}</item>
+    </string-array>
+    <string-array name="msg_fft_module">
+        <item>{v: 0, si: fft_40}</item>
+        <item>{v: 1, si: fft_41}</item>
+    </string-array>
+    <string-array name="msg_fft_peak_enable">
+        <item>{v: 0, si: fft_133}</item>
+        <item>{v: 1, si: fft_134}</item>
+    </string-array>
+    <string-array name="msg_fft_peak_tabelorder">
+        <item>{v: 0, si: fft_139}</item>
+        <item>{v: 1, si: fft_140}</item>
+    </string-array>
+    <string-array name="msg_fft_peak_table_en">
+        <item>{v: 0, si: fft_142}</item>
+        <item>{v: 1, si: fft_143}</item>
+    </string-array>
+    <string-array name="msg_fft_rbw_auto">
+        <item>{v: 0, si: fft_46}</item>
+        <item>{v: 1, si: fft_47}</item>
+    </string-array>
+    <string-array name="msg_fft_rbwlist_10g">
+        <item>{v: 0, si: fft_109}</item>
+        <item>{v: 1, si: fft_110}</item>
+        <item>{v: 2, si: fft_111}</item>
+        <item>{v: 3, si: fft_112}</item>
+        <item>{v: 4, si: fft_113}</item>
+        <item>{v: 5, si: fft_114}</item>
+        <item>{v: 6, si: fft_115}</item>
+        <item>{v: 7, si: fft_116}</item>
+    </string-array>
+    <string-array name="msg_fft_rbwlist_1g">
+        <item>{v: 0, si: fft_82}</item>
+        <item>{v: 1, si: fft_83}</item>
+        <item>{v: 2, si: fft_84}</item>
+        <item>{v: 3, si: fft_85}</item>
+        <item>{v: 4, si: fft_86}</item>
+        <item>{v: 5, si: fft_87}</item>
+        <item>{v: 6, si: fft_88}</item>
+        <item>{v: 7, si: fft_89}</item>
+    </string-array>
+    <string-array name="msg_fft_rbwlist_2g">
+        <item>{v: 0, si: fft_91}</item>
+        <item>{v: 1, si: fft_92}</item>
+        <item>{v: 2, si: fft_93}</item>
+        <item>{v: 3, si: fft_94}</item>
+        <item>{v: 4, si: fft_95}</item>
+        <item>{v: 5, si: fft_96}</item>
+        <item>{v: 6, si: fft_97}</item>
+        <item>{v: 7, si: fft_98}</item>
+    </string-array>
+    <string-array name="msg_fft_rbwlist_500m">
+        <item>{v: 0, si: fft_73}</item>
+        <item>{v: 1, si: fft_74}</item>
+        <item>{v: 2, si: fft_75}</item>
+        <item>{v: 3, si: fft_76}</item>
+        <item>{v: 4, si: fft_77}</item>
+        <item>{v: 5, si: fft_78}</item>
+        <item>{v: 6, si: fft_79}</item>
+        <item>{v: 7, si: fft_80}</item>
+    </string-array>
+    <string-array name="msg_fft_rbwlist_5g">
+        <item>{v: 0, si: fft_100}</item>
+        <item>{v: 1, si: fft_101}</item>
+        <item>{v: 2, si: fft_102}</item>
+        <item>{v: 3, si: fft_103}</item>
+        <item>{v: 4, si: fft_104}</item>
+        <item>{v: 5, si: fft_105}</item>
+        <item>{v: 6, si: fft_106}</item>
+        <item>{v: 7, si: fft_107}</item>
+    </string-array>
+    <string-array name="msg_fft_src">
+        <item>{v: 1, si: fft_4}</item>
+        <item>{v: 2, si: fft_5}</item>
+        <item>{v: 3, si: fft_6}</item>
+        <item>{v: 4, si: fft_7}</item>
+    </string-array>
+    <string-array name="msg_fft_unit">
+        <item>{v: 10, si: fft_10}</item>
+        <item>{v: 41, si: fft_11}</item>
+        <item>{v: 42, si: fft_12}</item>
+        <item>{v: 3, si: fft_13}</item>
+        <item>{v: 1, si: fft_14}</item>
+    </string-array>
+    <string-array name="msg_fft_window">
+        <item>{v: 0, si: fft_25}</item>
+        <item>{v: 1, si: fft_26}</item>
+        <item>{v: 2, si: fft_27}</item>
+        <item>{v: 3, si: fft_28}</item>
+        <item>{v: 4, si: fft_29}</item>
+        <item>{v: 5, si: fft_30}</item>
+    </string-array>
+    <string-array name="msg_flex_knob_manual">
+        <item>{v: 45, pi: ic_flex_knob_intensity, si: flexknob_2}</item>
+        <item>{v: 44, pi: ic_flex_knob_cursor, si: flexknob_3}</item>
+        <item>{v: 38, pi: ic_flex_knob_math1, si: flexknob_4}</item>
+        <item>{v: 39, pi: ic_flex_knob_math2, si: flexknob_5}</item>
+        <item>{v: 40, pi: ic_flex_knob_math3, si: flexknob_6}</item>
+        <item>{v: 41, pi: ic_flex_knob_math4, si: flexknob_7}</item>
+        <item>{v: 50, pi: ic_flex_knob_la, si: flexknob_8}</item>
+        <item>{v: 42, pi: ic_flex_knob_g1, si: flexknob_9}</item>
+        <item>{v: 43, pi: ic_flex_knob_g2, si: flexknob_10}</item>
+        <item>{v: 28, pi: ic_flex_knob_ref1, si: flexknob_11}</item>
+        <item>{v: 29, pi: ic_flex_knob_ref2, si: flexknob_12}</item>
+        <item>{v: 30, pi: ic_flex_knob_ref3, si: flexknob_13}</item>
+        <item>{v: 31, pi: ic_flex_knob_ref4, si: flexknob_14}</item>
+        <item>{v: 32, pi: ic_flex_knob_ref5, si: flexknob_15}</item>
+        <item>{v: 33, pi: ic_flex_knob_ref6, si: flexknob_16}</item>
+        <item>{v: 34, pi: ic_flex_knob_ref7, si: flexknob_17}</item>
+        <item>{v: 35, pi: ic_flex_knob_ref8, si: flexknob_18}</item>
+        <item>{v: 36, pi: ic_flex_knob_ref9, si: flexknob_19}</item>
+        <item>{v: 37, pi: ic_flex_knob_ref10, si: flexknob_20}</item>
+        <item>{v: 46, pi: ic_flex_knob_decoder1, si: flexknob_21}</item>
+        <item>{v: 47, pi: ic_flex_knob_decoder2, si: flexknob_22}</item>
+        <item>{v: 48, pi: ic_flex_knob_decoder3, si: flexknob_23}</item>
+        <item>{v: 49, pi: ic_flex_knob_decoder4, si: flexknob_24}</item>
+    </string-array>
+    <string-array name="msg_format">
+        <item>{v: 0, si: trigger_870}</item>
+        <item>{v: 1, si: trigger_871}</item>
+    </string-array>
+    <string-array name="msg_histo_en">
+        <item>{v: 0, si: histogram_3}</item>
+        <item>{v: 1, si: histogram_4}</item>
+    </string-array>
+    <string-array name="msg_histo_quick_popup">
+        <item>{v: 3, si: histogram_39}</item>
+        <item>{v: 2, si: histogram_40}</item>
+        <item>{v: 1, si: histogram_41}</item>
+    </string-array>
+    <string-array name="msg_histo_source">
+        <item>{v: 0, si: histogram_11}</item>
+        <item>{v: 1, si: histogram_12}</item>
+        <item>{v: 2, si: histogram_13}</item>
+        <item>{v: 3, si: histogram_14}</item>
+        <item>{v: 4, si: histogram_15}</item>
+    </string-array>
+    <string-array name="msg_histo_statisen">
+        <item>{v: 0, si: histogram_24}</item>
+        <item>{v: 1, si: histogram_25}</item>
+    </string-array>
+    <string-array name="msg_histo_type">
+        <item>{v: 0, si: histogram_6}</item>
+        <item>{v: 1, si: histogram_7}</item>
+    </string-array>
+    <string-array name="msg_hor_auto_roll">
+        <item>{v: 1, si: horizontal_53}</item>
+        <item>{v: 0, si: horizontal_54}</item>
+    </string-array>
+    <string-array name="msg_hor_expand">
+        <item>{v: 0, si: horizontal_63}</item>
+        <item>{v: 1, si: horizontal_64}</item>
+        <item>{v: 2, si: horizontal_65}</item>
+        <item>{v: 3, si: horizontal_66}</item>
+        <item>{v: 4, si: horizontal_67}</item>
+    </string-array>
+    <string-array name="msg_hor_fine_on">
+        <item>{v: 0, si: horizontal_47}</item>
+        <item>{v: 1, si: horizontal_48}</item>
+    </string-array>
+    <string-array name="msg_hor_run">
+        <item>{v: 0, si: horizontal_50}</item>
+        <item>{v: 1, si: horizontal_51}</item>
+    </string-array>
+    <string-array name="msg_hor_time_mode">
+        <item>{v: 0, si: horizontal_39}</item>
+        <item>{v: 1, si: horizontal_40}</item>
+        <item>{v: 2, si: horizontal_41}</item>
+    </string-array>
+    <string-array name="msg_hor_zoom_on">
+        <item>{v: 0, si: horizontal_43}</item>
+        <item>{v: 1, si: horizontal_44}</item>
+    </string-array>
+    <string-array name="msg_jitter_cr_freqtype">
+        <item>{v: 0, si: jitter_22}</item>
+        <item>{v: 1, si: jitter_23}</item>
+        <item>{v: 2, si: jitter_24}</item>
+    </string-array>
+    <string-array name="msg_jitter_cr_pllorder">
+        <item>{v: 0, si: jitter_27}</item>
+        <item>{v: 1, si: jitter_28}</item>
+    </string-array>
+    <string-array name="msg_jitter_cr_selmethod">
+        <item>{v: 0, si: jitter_18}</item>
+        <item>{v: 1, si: jitter_19}</item>
+        <item>{v: 2, si: jitter_20}</item>
+    </string-array>
+    <string-array name="msg_jitter_external_clock_src">
+        <item>{v: 1, si: jitter_9}</item>
+        <item>{v: 2, si: jitter_10}</item>
+        <item>{v: 3, si: jitter_11}</item>
+        <item>{v: 4, si: jitter_12}</item>
+    </string-array>
+    <string-array name="msg_jitter_quick_popup">
+        <item>{v: 3, si: jitter_59}</item>
+        <item>{v: 2, si: jitter_60}</item>
+    </string-array>
+    <string-array name="msg_jitter_source">
+        <item>{v: 1, si: jitter_4}</item>
+        <item>{v: 2, si: jitter_5}</item>
+        <item>{v: 3, si: jitter_6}</item>
+        <item>{v: 4, si: jitter_7}</item>
+    </string-array>
+    <string-array name="msg_jitter_tie_slope">
+        <item>{v: 0, si: jitter_68}</item>
+        <item>{v: 1, si: jitter_69}</item>
+        <item>{v: 2, si: jitter_70}</item>
+    </string-array>
+    <string-array name="msg_la_auto_set">
+        <item>{v: 0, si: la_37}</item>
+        <item>{v: 1, si: la_38}</item>
+    </string-array>
+    <string-array name="msg_la_cal_status">
+        <item>{v: 0, si: la_129}</item>
+        <item>{v: 1, si: la_130}</item>
+        <item>{v: 2, si: la_131}</item>
+    </string-array>
+    <string-array name="msg_la_current_chan">
+        <item>{v: 0, si: la_12}</item>
+        <item>{v: 1, si: la_13}</item>
+        <item>{v: 2, si: la_14}</item>
+        <item>{v: 3, si: la_15}</item>
+        <item>{v: 4, si: la_16}</item>
+        <item>{v: 5, si: la_17}</item>
+        <item>{v: 6, si: la_18}</item>
+        <item>{v: 7, si: la_19}</item>
+        <item>{v: 8, si: la_20}</item>
+        <item>{v: 9, si: la_21}</item>
+        <item>{v: 10, si: la_22}</item>
+        <item>{v: 11, si: la_23}</item>
+        <item>{v: 12, si: la_24}</item>
+        <item>{v: 13, si: la_25}</item>
+        <item>{v: 14, si: la_26}</item>
+        <item>{v: 15, si: la_27}</item>
+    </string-array>
+    <string-array name="msg_la_enable">
+        <item>{si: la_3}</item>
+        <item>{si: la_4}</item>
+    </string-array>
+    <string-array name="msg_la_group_set">
+        <item>{v: 0, si: la_75}</item>
+        <item>{v: 1, si: la_76}</item>
+        <item>{v: 2, si: la_77}</item>
+        <item>{v: 3, si: la_78}</item>
+    </string-array>
+    <string-array name="msg_la_high_color">
+        <item>{v: 0, si: la_41}</item>
+        <item>{v: 1, si: la_42}</item>
+        <item>{v: 2, si: la_43}</item>
+        <item>{v: 3, si: la_44}</item>
+        <item>{v: 4, si: la_45}</item>
+        <item>{v: 5, si: la_46}</item>
+        <item>{v: 6, si: la_47}</item>
+    </string-array>
+    <string-array name="msg_la_label_select_chan">
+        <item>{v: 0, si: la_54}</item>
+        <item>{v: 1, si: la_55}</item>
+        <item>{v: 2, si: la_56}</item>
+        <item>{v: 3, si: la_57}</item>
+        <item>{v: 4, si: la_58}</item>
+        <item>{v: 5, si: la_59}</item>
+        <item>{v: 6, si: la_60}</item>
+        <item>{v: 7, si: la_61}</item>
+        <item>{v: 8, si: la_62}</item>
+        <item>{v: 9, si: la_63}</item>
+        <item>{v: 10, si: la_64}</item>
+        <item>{v: 11, si: la_65}</item>
+        <item>{v: 12, si: la_66}</item>
+        <item>{v: 13, si: la_67}</item>
+        <item>{v: 14, si: la_68}</item>
+        <item>{v: 15, si: la_69}</item>
+    </string-array>
+    <string-array name="msg_la_label_view_select">
+        <item>{v: 0, si: la_82}</item>
+        <item>{v: 1, si: la_83}</item>
+        <item>{v: 2, si: la_84}</item>
+        <item>{v: 3, si: la_85}</item>
+        <item>{v: 4, si: la_86}</item>
+        <item>{v: 5, si: la_87}</item>
+        <item>{v: 6, si: la_88}</item>
+        <item>{v: 7, si: la_89}</item>
+        <item>{v: 8, si: la_90}</item>
+        <item>{v: 9, si: la_91}</item>
+        <item>{v: 10, si: la_92}</item>
+        <item>{v: 11, si: la_93}</item>
+        <item>{v: 12, si: la_94}</item>
+        <item>{v: 13, si: la_95}</item>
+        <item>{v: 14, si: la_96}</item>
+        <item>{v: 15, si: la_97}</item>
+        <item>{v: 16, si: la_98}</item>
+        <item>{v: 17, si: la_99}</item>
+        <item>{v: 18, si: la_100}</item>
+        <item>{v: 19, si: la_101}</item>
+        <item>{v: 20, si: la_102}</item>
+        <item>{v: 21, si: la_103}</item>
+        <item>{v: 22, si: la_104}</item>
+        <item>{v: 23, si: la_105}</item>
+        <item>{v: 24, si: la_106}</item>
+        <item>{v: 25, si: la_107}</item>
+        <item>{v: 26, si: la_108}</item>
+        <item>{v: 27, si: la_109}</item>
+        <item>{v: 28, si: la_110}</item>
+        <item>{v: 29, si: la_111}</item>
+        <item>{v: 30, si: la_112}</item>
+        <item>{v: 31, si: la_113}</item>
+        <item>{v: 32, si: la_114}</item>
+        <item>{v: 33, si: la_115}</item>
+        <item>{v: 34, si: la_116}</item>
+        <item>{v: 35, si: la_117}</item>
+        <item>{v: 36, si: la_118}</item>
+        <item>{v: 37, si: la_119}</item>
+    </string-array>
+    <string-array name="msg_la_settype">
+        <item>{v: 1, si: la_71}</item>
+        <item>{v: 3, si: la_73}</item>
+    </string-array>
+    <string-array name="msg_la_wave_size">
+        <item>{v: 0, si: la_6}</item>
+        <item>{v: 1, si: la_7}</item>
+        <item>{v: 2, si: la_8}</item>
+    </string-array>
+    <string-array name="msg_mask_enable">
+        <item>{v: 0, si: mask_3}</item>
+        <item>{v: 1, si: mask_4}</item>
+    </string-array>
+    <string-array name="msg_mask_err_action">
+        <item>{v: 0, si: mask_25}</item>
+        <item>{v: 1, si: mask_26}</item>
+        <item>{v: 2, si: mask_27}</item>
+        <item>{v: 3, si: mask_28}</item>
+        <item>{v: 4, si: mask_29}</item>
+        <item>{v: 5, si: mask_30}</item>
+    </string-array>
+    <string-array name="msg_mask_operate">
+        <item>{v: 0, pi: start_icon}</item>
+        <item>{v: 1, pi: stop_icon}</item>
+    </string-array>
+    <string-array name="msg_mask_out_event">
+        <item>{v: 0, si: mask_39}</item>
+        <item>{v: 1, si: mask_40}</item>
+    </string-array>
+    <string-array name="msg_mask_out_hl">
+        <item>{v: 0, pi: negative, si: mask_46}</item>
+        <item>{v: 1, pi: positive, si: mask_47}</item>
+    </string-array>
+    <string-array name="msg_mask_out_onoff">
+        <item>{v: 0, si: mask_42}</item>
+        <item>{v: 1, si: mask_43}</item>
+    </string-array>
+    <string-array name="msg_mask_quick_popup">
+        <item>{v: 1, si: mask_64}</item>
+        <item>{v: 3, si: mask_65}</item>
+        <item>{v: 2, si: mask_66}</item>
+    </string-array>
+    <string-array name="msg_mask_range">
+        <item>{v: 0, si: mask_16}</item>
+        <item>{v: 1, si: mask_17}</item>
+    </string-array>
+    <string-array name="msg_mask_show_stat">
+        <item>{v: 0, si: mask_32}</item>
+        <item>{v: 1, si: mask_33}</item>
+    </string-array>
+    <string-array name="msg_mask_source">
+        <item>{v: 1, si: mask_6}</item>
+        <item>{v: 2, si: mask_7}</item>
+        <item>{v: 3, si: mask_8}</item>
+        <item>{v: 4, si: mask_9}</item>
+    </string-array>
+    <string-array name="msg_math_color_onoff">
+        <item>{v: 0, si: math_222}</item>
+        <item>{v: 1, si: math_223}</item>
+    </string-array>
+    <string-array name="msg_math_en">
+        <item>{v: 0, si: math_3}</item>
+        <item>{v: 1, si: math_4}</item>
+    </string-array>
+    <string-array name="msg_math_expand">
+        <item>{v: 0, si: math_219}</item>
+        <item>{v: 1, si: math_220}</item>
+    </string-array>
+    <string-array name="msg_math_fft_dc_suppress">
+        <item>{v: 1, si: math_110}</item>
+        <item>{v: 0, si: math_111}</item>
+    </string-array>
+    <string-array name="msg_math_fft_peak_enable">
+        <item>{v: 0, si: math_114}</item>
+        <item>{v: 1, si: math_115}</item>
+    </string-array>
+    <string-array name="msg_math_fft_peak_tabelorder">
+        <item>{v: 0, si: math_120}</item>
+        <item>{v: 1, si: math_121}</item>
+    </string-array>
+    <string-array name="msg_math_fft_s32scr">
+        <item>{v: 0, si: math_101}</item>
+        <item>{v: 1, si: math_102}</item>
+    </string-array>
+    <string-array name="msg_math_fft_s32src">
+        <item>{v: 1, si: math_70}</item>
+        <item>{v: 2, si: math_71}</item>
+        <item>{v: 3, si: math_72}</item>
+        <item>{v: 4, si: math_73}</item>
+    </string-array>
+    <string-array name="msg_math_fft_s32unit">
+        <item>{v: 1, si: math_104}</item>
+        <item>{v: 0, si: math_105}</item>
+    </string-array>
+    <string-array name="msg_math_fft_s32window">
+        <item>{v: 0, si: math_94}</item>
+        <item>{v: 1, si: math_95}</item>
+        <item>{v: 2, si: math_96}</item>
+        <item>{v: 3, si: math_97}</item>
+        <item>{v: 4, si: math_98}</item>
+        <item>{v: 5, si: math_99}</item>
+    </string-array>
+    <string-array name="msg_math_fft_x_type">
+        <item>{v: 0, si: math_107}</item>
+        <item>{v: 1, si: math_108}</item>
+    </string-array>
+    <string-array name="msg_math_label_index">
+        <item>{v: 0, si: math_185}</item>
+        <item>{v: 1, si: math_186}</item>
+        <item>{v: 2, si: math_187}</item>
+        <item>{v: 3, si: math_188}</item>
+        <item>{v: 4, si: math_189}</item>
+        <item>{v: 5, si: math_190}</item>
+        <item>{v: 6, si: math_191}</item>
+        <item>{v: 7, si: math_192}</item>
+        <item>{v: 8, si: math_193}</item>
+        <item>{v: 9, si: math_194}</item>
+        <item>{v: 10, si: math_195}</item>
+        <item>{v: 11, si: math_196}</item>
+        <item>{v: 12, si: math_197}</item>
+        <item>{v: 13, si: math_198}</item>
+        <item>{v: 14, si: math_199}</item>
+        <item>{v: 15, si: math_200}</item>
+        <item>{v: 16, si: math_201}</item>
+        <item>{v: 17, si: math_202}</item>
+        <item>{v: 18, si: math_203}</item>
+        <item>{v: 19, si: math_204}</item>
+        <item>{v: 20, si: math_205}</item>
+    </string-array>
+    <string-array name="msg_math_list">
+        <item>{v: 17, si: math_257}</item>
+        <item>{v: 18, si: math_258}</item>
+        <item>{v: 19, si: math_259}</item>
+        <item>{v: 20, si: math_260}</item>
+    </string-array>
+    <string-array name="msg_math_list2">
+        <item>{si: math_287}</item>
+        <item>{si: math_288}</item>
+        <item>{si: math_289}</item>
+        <item>{si: math_290}</item>
+    </string-array>
+    <string-array name="msg_math_logic_scale">
+        <item>{v: 0, si: math_212}</item>
+        <item>{v: 1, si: math_213}</item>
+        <item>{v: 2, si: math_214}</item>
+    </string-array>
+    <string-array name="msg_math_operator">
+        <item>{v: 0, si: math_6}</item>
+        <item>{v: 1, si: math_7}</item>
+        <item>{v: 2, si: math_8}</item>
+        <item>{v: 3, si: math_9}</item>
+        <item>{v: 8, si: math_10}</item>
+        <item>{v: 4, si: math_11}</item>
+        <item>{v: 5, si: math_12}</item>
+        <item>{v: 6, si: math_13}</item>
+        <item>{v: 7, si: math_14}</item>
+        <item>{v: 9, si: math_15}</item>
+        <item>{v: 10, si: math_16}</item>
+        <item>{v: 11, si: math_17}</item>
+        <item>{v: 12, si: math_18}</item>
+        <item>{v: 13, si: math_19}</item>
+        <item>{v: 14, si: math_20}</item>
+        <item>{v: 15, si: math_21}</item>
+        <item>{v: 16, si: math_22}</item>
+        <item>{v: 17, si: math_23}</item>
+        <item>{v: 18, si: math_24}</item>
+        <item>{v: 19, si: math_25}</item>
+        <item>{v: 20, si: math_26}</item>
+    </string-array>
+    <string-array name="msg_math_s32aritha">
+        <item>{v: 1, si: math_32}</item>
+        <item>{v: 2, si: math_33}</item>
+        <item>{v: 3, si: math_34}</item>
+        <item>{v: 4, si: math_35}</item>
+        <item>{v: 28, si: math_36}</item>
+        <item>{v: 29, si: math_37}</item>
+        <item>{v: 30, si: math_38}</item>
+        <item>{v: 31, si: math_39}</item>
+        <item>{v: 32, si: math_40}</item>
+        <item>{v: 33, si: math_41}</item>
+        <item>{v: 34, si: math_42}</item>
+        <item>{v: 35, si: math_43}</item>
+        <item>{v: 36, si: math_44}</item>
+        <item>{v: 37, si: math_45}</item>
+        <item>{v: 38, si: math_46}</item>
+        <item>{v: 39, si: math_47}</item>
+        <item>{v: 40, si: math_48}</item>
+        <item>{v: 41, si: math_49}</item>
+    </string-array>
+    <string-array name="msg_math_s32arithb">
+        <item>{v: 1, si: math_51}</item>
+        <item>{v: 2, si: math_52}</item>
+        <item>{v: 3, si: math_53}</item>
+        <item>{v: 4, si: math_54}</item>
+        <item>{v: 28, si: math_55}</item>
+        <item>{v: 29, si: math_56}</item>
+        <item>{v: 30, si: math_57}</item>
+        <item>{v: 31, si: math_58}</item>
+        <item>{v: 32, si: math_59}</item>
+        <item>{v: 33, si: math_60}</item>
+        <item>{v: 34, si: math_61}</item>
+        <item>{v: 35, si: math_62}</item>
+        <item>{v: 36, si: math_63}</item>
+        <item>{v: 37, si: math_64}</item>
+        <item>{v: 38, si: math_65}</item>
+        <item>{v: 39, si: math_66}</item>
+        <item>{v: 40, si: math_67}</item>
+        <item>{v: 41, si: math_68}</item>
+    </string-array>
+    <string-array name="msg_math_s32invert">
+        <item>{v: 0, si: math_29}</item>
+        <item>{v: 1, si: math_30}</item>
+    </string-array>
+    <string-array name="msg_math_s32logica">
+        <item>{v: 1, si: math_124}</item>
+        <item>{v: 2, si: math_125}</item>
+        <item>{v: 3, si: math_126}</item>
+        <item>{v: 4, si: math_127}</item>
+        <item>{v: 9, si: math_128}</item>
+        <item>{v: 10, si: math_129}</item>
+        <item>{v: 11, si: math_130}</item>
+        <item>{v: 12, si: math_131}</item>
+        <item>{v: 13, si: math_132}</item>
+        <item>{v: 14, si: math_133}</item>
+        <item>{v: 15, si: math_134}</item>
+        <item>{v: 16, si: math_135}</item>
+        <item>{v: 17, si: math_136}</item>
+        <item>{v: 18, si: math_137}</item>
+        <item>{v: 19, si: math_138}</item>
+        <item>{v: 20, si: math_139}</item>
+        <item>{v: 21, si: math_140}</item>
+        <item>{v: 22, si: math_141}</item>
+        <item>{v: 23, si: math_142}</item>
+        <item>{v: 24, si: math_143}</item>
+    </string-array>
+    <string-array name="msg_math_s32logicb">
+        <item>{v: 1, si: math_145}</item>
+        <item>{v: 2, si: math_146}</item>
+        <item>{v: 3, si: math_147}</item>
+        <item>{v: 4, si: math_148}</item>
+        <item>{v: 9, si: math_149}</item>
+        <item>{v: 10, si: math_150}</item>
+        <item>{v: 11, si: math_151}</item>
+        <item>{v: 12, si: math_152}</item>
+        <item>{v: 13, si: math_153}</item>
+        <item>{v: 14, si: math_154}</item>
+        <item>{v: 15, si: math_155}</item>
+        <item>{v: 16, si: math_156}</item>
+        <item>{v: 17, si: math_157}</item>
+        <item>{v: 18, si: math_158}</item>
+        <item>{v: 19, si: math_159}</item>
+        <item>{v: 20, si: math_160}</item>
+        <item>{v: 21, si: math_161}</item>
+        <item>{v: 22, si: math_162}</item>
+        <item>{v: 23, si: math_163}</item>
+        <item>{v: 24, si: math_164}</item>
+    </string-array>
+    <string-array name="msg_math_show_s32label">
+        <item>{v: 0, si: math_182}</item>
+        <item>{v: 1, si: math_183}</item>
+    </string-array>
+    <string-array name="msg_math_wave_type">
+        <item>{v: 0, si: math_274}</item>
+        <item>{v: 1, si: math_275}</item>
+    </string-array>
+    <string-array name="msg_meas_quick_popup">
+        <item>{v: 0, si: measure_210}</item>
+        <item>{v: 3, si: measure_211}</item>
+        <item>{v: 1, si: measure_212}</item>
+        <item>{v: 2, si: measure_213}</item>
+        <item>{v: 4, si: measure_214}</item>
+    </string-array>
+    <string-array name="msg_navigate_enable">
+        <item>{v: 0, si: navigate_2}</item>
+        <item>{v: 1, si: navigate_3}</item>
+    </string-array>
+    <string-array name="msg_navigate_framedraw_displaymode">
+        <item>{v: 0, si: navigate_30}</item>
+        <item>{v: 1, si: navigate_31}</item>
+        <item>{v: 2, si: navigate_32}</item>
+        <item>{v: 3, si: navigate_33}</item>
+        <item>{v: 4, si: navigate_34}</item>
+    </string-array>
+    <string-array name="msg_navigate_framedraw_speed">
+        <item>{v: 1, si: navigate_26}</item>
+        <item>{v: 2, si: navigate_27}</item>
+        <item>{v: 3, si: navigate_28}</item>
+    </string-array>
+    <string-array name="msg_navigate_mode">
+        <item>{v: 1, si: navigate_5}</item>
+        <item>{v: 2, pi: ic_event, si: navigate_6}</item>
+        <item>{v: 3, pi: ic_frame_segment, si: navigate_7}</item>
+        <item>{}</item>
+        <item>{}</item>
+    </string-array>
+    <string-array name="msg_navigate_timeoffset_speed">
+        <item>{v: 1, si: navigate_11}</item>
+        <item>{v: 2, si: navigate_12}</item>
+        <item>{v: 3, si: navigate_13}</item>
+    </string-array>
+    <string-array name="msg_other_fun_list">
+        <item>{v: 8, si: fft_118}</item>
+    </string-array>
+    <string-array name="msg_printer_invert">
+        <item>{v: 0, si: print_17}</item>
+        <item>{v: 1, si: print_18}</item>
+    </string-array>
+    <string-array name="msg_printer_palette">
+        <item>{v: 0, si: print_7}</item>
+        <item>{v: 1, si: print_8}</item>
+    </string-array>
+    <string-array name="msg_printer_paper_size">
+        <item>{v: 0, si: print_10}</item>
+        <item>{v: 1, si: print_11}</item>
+        <item>{v: 2, si: print_12}</item>
+        <item>{v: 3, si: print_13}</item>
+        <item>{v: 4, si: print_14}</item>
+    </string-array>
+    <string-array name="msg_printer_range">
+        <item>{v: 0, si: print_4}</item>
+        <item>{v: 1, si: print_5}</item>
+    </string-array>
+    <string-array name="msg_printer_vendor">
+        <item>{v: 0, si: print_21}</item>
+        <item>{v: 1, si: print_22}</item>
+        <item>{v: 2, si: print_23}</item>
+        <item>{v: 3, si: print_24}</item>
+    </string-array>
+    <string-array name="msg_quick_channel">
+        <item>{v: 1, si: quick_38}</item>
+        <item>{v: 2, si: quick_39}</item>
+        <item>{v: 3, si: quick_40}</item>
+        <item>{v: 4, si: quick_41}</item>
+    </string-array>
+    <string-array name="msg_quick_csv_sequence">
+        <item>{v: 0, si: quick_46}</item>
+        <item>{v: 1, si: quick_47}</item>
+    </string-array>
+    <string-array name="msg_quick_image_color">
+        <item>{v: 0, si: quick_28}</item>
+        <item>{v: 1, si: quick_29}</item>
+    </string-array>
+    <string-array name="msg_quick_image_format">
+        <item>{v: 0, si: quick_19}</item>
+        <item>{v: 1, si: quick_20}</item>
+        <item>{v: 2, si: quick_21}</item>
+    </string-array>
+    <string-array name="msg_quick_image_invert">
+        <item>{v: 0, si: quick_25}</item>
+        <item>{v: 1, si: quick_26}</item>
+    </string-array>
+    <string-array name="msg_quick_meas_all_src">
+        <item>{v: 1, si: quick_53}</item>
+        <item>{v: 2, si: quick_54}</item>
+        <item>{v: 3, si: quick_55}</item>
+        <item>{v: 4, si: quick_56}</item>
+    </string-array>
+    <string-array name="msg_quick_operation">
+        <item>{v: 0, si: quick_3}</item>
+        <item>{v: 1, si: quick_4}</item>
+        <item>{v: 2, si: quick_5}</item>
+        <item>{v: 6, si: quick_9}</item>
+        <item>{v: 7, si: quick_10}</item>
+        <item>{v: 12, si: quick_15}</item>
+        <item>{v: 13, si: quick_16}</item>
+    </string-array>
+    <string-array name="msg_quick_select_save">
+        <item>{v: 0, si: quick_75}</item>
+        <item>{v: 1, si: quick_76}</item>
+        <item>{v: 2, si: quick_77}</item>
+    </string-array>
+    <string-array name="msg_quick_stat_reset">
+        <item>{v: 0, si: quick_72}</item>
+        <item>{v: 1, si: quick_73}</item>
+    </string-array>
+    <string-array name="msg_quick_wave_from">
+        <item>{v: 0, si: quick_49}</item>
+        <item>{v: 1, si: quick_50}</item>
+    </string-array>
+    <string-array name="msg_quick_wave_mem_format">
+        <item>{v: 0, si: quick_34}</item>
+        <item>{v: 1, si: quick_35}</item>
+        <item>{v: 2, si: quick_36}</item>
+    </string-array>
+    <string-array name="msg_quick_wave_scr_format">
+        <item>{v: 0, si: quick_31}</item>
+        <item>{v: 1, si: quick_32}</item>
+    </string-array>
+    <string-array name="msg_rec_play_back">
+        <item>{v: 0, si: record_42}</item>
+        <item>{v: 1, si: record_43}</item>
+    </string-array>
+    <string-array name="msg_rec_play_next">
+        <item>{v: 0, si: record_45}</item>
+        <item>{v: 1, si: record_46}</item>
+    </string-array>
+    <string-array name="msg_record_beeper">
+        <item>{v: 0, pi: BeepOff_icon}</item>
+        <item>{v: 1, pi: BeepOn_icon}</item>
+    </string-array>
+    <string-array name="msg_record_framestart">
+        <item>{v: 0, pi: first, si: record_33}</item>
+        <item>{v: 1, pi: tail, si: record_34}</item>
+    </string-array>
+    <string-array name="msg_record_onoff">
+        <item>{v: 0, si: record_3}</item>
+        <item>{v: 1, si: record_4}</item>
+    </string-array>
+    <string-array name="msg_record_option">
+        <item>{v: 0, si: record_12}</item>
+        <item>{v: 1, si: record_13}</item>
+    </string-array>
+    <string-array name="msg_record_play">
+        <item>{v: 0, pi: start_icon}</item>
+        <item>{v: 1, pi: pause_icon}</item>
+    </string-array>
+    <string-array name="msg_record_playdir">
+        <item>{v: 0, pi: ply_clw, si: record_27}</item>
+        <item>{v: 1, pi: ply_cclw, si: record_28}</item>
+    </string-array>
+    <string-array name="msg_record_playmode">
+        <item>{v: 0, pi: start2stop_icon, si: record_24}</item>
+        <item>{v: 1, pi: cycle_replay, si: record_25}</item>
+    </string-array>
+    <string-array name="msg_record_start">
+        <item>{v: 0, pi: rec_ing}</item>
+        <item>{v: 1, pi: stop_icon}</item>
+    </string-array>
+    <string-array name="msg_ref_channel">
+        <item>{v: 0, si: ref_32}</item>
+        <item>{v: 1, si: ref_33}</item>
+        <item>{v: 2, si: ref_34}</item>
+        <item>{v: 3, si: ref_35}</item>
+        <item>{v: 4, si: ref_36}</item>
+        <item>{v: 5, si: ref_37}</item>
+        <item>{v: 6, si: ref_38}</item>
+        <item>{v: 7, si: ref_39}</item>
+        <item>{v: 8, si: ref_40}</item>
+        <item>{v: 9, si: ref_41}</item>
+    </string-array>
+    <string-array name="msg_ref_color">
+        <item>{v: 0, pi: gray, si: ref_64}</item>
+        <item>{v: 1, pi: green, si: ref_65}</item>
+        <item>{v: 2, pi: lightblue, si: ref_66}</item>
+        <item>{v: 3, pi: red, si: ref_67}</item>
+        <item>{v: 4, pi: Orange, si: ref_68}</item>
+    </string-array>
+    <string-array name="msg_ref_disptype">
+        <item>{v: 0, si: ref_71}</item>
+        <item>{v: 1, si: ref_72}</item>
+    </string-array>
+    <string-array name="msg_ref_label_name">
+        <item>{v: 0, si: ref_50}</item>
+        <item>{v: 1, si: ref_51}</item>
+        <item>{v: 2, si: ref_52}</item>
+        <item>{v: 3, si: ref_53}</item>
+        <item>{v: 4, si: ref_54}</item>
+        <item>{v: 5, si: ref_55}</item>
+        <item>{v: 6, si: ref_56}</item>
+        <item>{v: 7, si: ref_57}</item>
+        <item>{v: 8, si: ref_58}</item>
+        <item>{v: 9, si: ref_59}</item>
+        <item>{v: 10, si: ref_60}</item>
+        <item>{v: 11, si: ref_61}</item>
+        <item>{v: 12, si: ref_62}</item>
+    </string-array>
+    <string-array name="msg_ref_label_onoff">
+        <item>{v: 0, si: ref_47}</item>
+        <item>{v: 1, si: ref_48}</item>
+    </string-array>
+    <string-array name="msg_ref_source">
+        <item>{v: 1, si: ref_3}</item>
+        <item>{v: 2, si: ref_4}</item>
+        <item>{v: 3, si: ref_5}</item>
+        <item>{v: 4, si: ref_6}</item>
+        <item>{v: 9, si: ref_11}</item>
+        <item>{v: 10, si: ref_12}</item>
+        <item>{v: 11, si: ref_13}</item>
+        <item>{v: 12, si: ref_14}</item>
+        <item>{v: 13, si: ref_15}</item>
+        <item>{v: 14, si: ref_16}</item>
+        <item>{v: 15, si: ref_17}</item>
+        <item>{v: 16, si: ref_18}</item>
+        <item>{v: 17, si: ref_19}</item>
+        <item>{v: 18, si: ref_20}</item>
+        <item>{v: 19, si: ref_21}</item>
+        <item>{v: 20, si: ref_22}</item>
+        <item>{v: 21, si: ref_23}</item>
+        <item>{v: 22, si: ref_24}</item>
+        <item>{v: 23, si: ref_25}</item>
+        <item>{v: 24, si: ref_26}</item>
+        <item>{v: 38, si: ref_27}</item>
+        <item>{v: 39, si: ref_28}</item>
+        <item>{v: 40, si: ref_29}</item>
+        <item>{v: 41, si: ref_30}</item>
+    </string-array>
+    <string-array name="msg_search_edge_slope">
+        <item>{v: 0, pi: EdgeRise, si: search_51}</item>
+        <item>{v: 1, pi: EdgeFall, si: search_52}</item>
+        <item>{v: 3, pi: Either, si: search_53}</item>
+    </string-array>
+    <string-array name="msg_search_edge_source">
+        <item>{v: 1, si: search_46}</item>
+        <item>{v: 2, si: search_47}</item>
+        <item>{v: 3, si: search_48}</item>
+        <item>{v: 4, si: search_49}</item>
+    </string-array>
+    <string-array name="msg_search_en">
+        <item>{v: 0, si: search_3}</item>
+        <item>{v: 1, si: search_4}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_addrdata_bits">
+        <item>{v: 0, si: search_179}</item>
+        <item>{v: 2, si: search_180}</item>
+        <item>{v: 1, si: search_181}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_addrtype">
+        <item>{v: 0, si: search_175}</item>
+        <item>{v: 2, si: search_176}</item>
+        <item>{v: 1, si: search_177}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_data">
+        <item>{v: 0, si: search_185}</item>
+        <item>{v: 1, si: search_186}</item>
+        <item>{v: 2, si: search_187}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_direction">
+        <item>{v: 0, si: search_189}</item>
+        <item>{v: 1, si: search_190}</item>
+        <item>{v: 2, si: search_191}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_scl">
+        <item>{v: 1, si: search_157}</item>
+        <item>{v: 2, si: search_158}</item>
+        <item>{v: 3, si: search_159}</item>
+        <item>{v: 4, si: search_160}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_sda">
+        <item>{v: 1, si: search_162}</item>
+        <item>{v: 2, si: search_163}</item>
+        <item>{v: 3, si: search_164}</item>
+        <item>{v: 4, si: search_165}</item>
+    </string-array>
+    <string-array name="msg_search_i2c_when">
+        <item>{v: 0, si: search_167}</item>
+        <item>{v: 1, si: search_168}</item>
+        <item>{v: 2, si: search_169}</item>
+        <item>{v: 3, si: search_170}</item>
+        <item>{v: 4, si: search_171}</item>
+        <item>{v: 5, si: search_172}</item>
+        <item>{v: 6, si: search_173}</item>
+    </string-array>
+    <string-array name="msg_search_mark_tabel_en">
+        <item>{v: 0, si: search_22}</item>
+        <item>{v: 1, si: search_23}</item>
+    </string-array>
+    <string-array name="msg_search_pulse_polarity">
+        <item>{v: 0, pi: Positive, si: search_61}</item>
+        <item>{v: 1, pi: Negative, si: search_62}</item>
+    </string-array>
+    <string-array name="msg_search_pulse_source">
+        <item>{v: 1, si: search_56}</item>
+        <item>{v: 2, si: search_57}</item>
+        <item>{v: 3, si: search_58}</item>
+        <item>{v: 4, si: search_59}</item>
+    </string-array>
+    <string-array name="msg_search_pulse_when">
+        <item>{v: 1, pi: when_1, si: search_64}</item>
+        <item>{v: 2, pi: when_2, si: search_65}</item>
+        <item>{v: 3, pi: when_3, si: search_66}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_baudrate">
+        <item>{v: 50, si: search_112}</item>
+        <item>{v: 75, si: search_113}</item>
+        <item>{v: 110, si: search_114}</item>
+        <item>{v: 134, si: search_115}</item>
+        <item>{v: 150, si: search_116}</item>
+        <item>{v: 300, si: search_117}</item>
+        <item>{v: 600, si: search_118}</item>
+        <item>{v: 1200, si: search_119}</item>
+        <item>{v: 1800, si: search_120}</item>
+        <item>{v: 2000, si: search_121}</item>
+        <item>{v: 2400, si: search_122}</item>
+        <item>{v: 4800, si: search_123}</item>
+        <item>{v: 9600, si: search_124}</item>
+        <item>{v: 19200, si: search_125}</item>
+        <item>{v: 38400, si: search_126}</item>
+        <item>{v: 57600, si: search_127}</item>
+        <item>{v: 115200, si: search_128}</item>
+        <item>{v: 230400, si: search_129}</item>
+        <item>{v: 460800, si: search_130}</item>
+        <item>{v: 921600, si: search_131}</item>
+        <item>{v: 1000000, si: search_132}</item>
+        <item>{v: 2000000, si: search_133}</item>
+        <item>{v: 5000000, si: search_134}</item>
+        <item>{v: 10000000, si: search_135}</item>
+        <item>{v: 20000000, si: search_136}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_check">
+        <item>{v: 0, si: search_148}</item>
+        <item>{v: 1, si: search_149}</item>
+        <item>{v: 2, si: search_150}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_datawidth">
+        <item>{v: 4, si: search_143}</item>
+        <item>{v: 5, si: search_144}</item>
+        <item>{v: 6, si: search_145}</item>
+        <item>{v: 7, si: search_146}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_polarity">
+        <item>{v: 0, pi: RS232_P, si: search_109}</item>
+        <item>{v: 1, pi: RS232_n, si: search_110}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_source">
+        <item>{v: 1, si: search_104}</item>
+        <item>{v: 2, si: search_105}</item>
+        <item>{v: 3, si: search_106}</item>
+        <item>{v: 4, si: search_107}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_stopbit">
+        <item>{v: 0, si: search_152}</item>
+        <item>{v: 1, si: search_153}</item>
+    </string-array>
+    <string-array name="msg_search_rs232_when">
+        <item>{v: 0, si: search_138}</item>
+        <item>{v: 1, si: search_139}</item>
+        <item>{v: 2, si: search_140}</item>
+        <item>{v: 3, si: search_141}</item>
+    </string-array>
+    <string-array name="msg_search_runt_polarity">
+        <item>{v: 0, pi: RuntPositive, si: search_77}</item>
+        <item>{v: 1, pi: RuntNegtive, si: search_78}</item>
+    </string-array>
+    <string-array name="msg_search_runt_qualifier">
+        <item>{v: 0, si: search_80}</item>
+        <item>{v: 1, pi: when_1, si: search_81}</item>
+        <item>{v: 2, pi: when_2, si: search_82}</item>
+        <item>{v: 3, pi: when_3, si: search_83}</item>
+    </string-array>
+    <string-array name="msg_search_runt_source">
+        <item>{v: 1, si: search_72}</item>
+        <item>{v: 2, si: search_73}</item>
+        <item>{v: 3, si: search_74}</item>
+        <item>{v: 4, si: search_75}</item>
+    </string-array>
+    <string-array name="msg_search_slope_polarity">
+        <item>{v: 0, pi: Rising, si: search_93}</item>
+        <item>{v: 1, pi: Falling, si: search_94}</item>
+    </string-array>
+    <string-array name="msg_search_slope_source">
+        <item>{v: 1, si: search_88}</item>
+        <item>{v: 2, si: search_89}</item>
+        <item>{v: 3, si: search_90}</item>
+        <item>{v: 4, si: search_91}</item>
+    </string-array>
+    <string-array name="msg_search_slope_when">
+        <item>{v: 1, pi: when_1, si: search_96}</item>
+        <item>{v: 2, pi: when_2, si: search_97}</item>
+        <item>{v: 3, pi: when_3, si: search_98}</item>
+    </string-array>
+    <string-array name="msg_search_spi_cs">
+        <item>{v: 1, si: search_205}</item>
+        <item>{v: 2, si: search_206}</item>
+        <item>{v: 3, si: search_207}</item>
+        <item>{v: 4, si: search_208}</item>
+    </string-array>
+    <string-array name="msg_search_spi_csmode">
+        <item>{v: 0, pi: Positive2, si: search_214}</item>
+        <item>{v: 1, pi: Negative2, si: search_215}</item>
+    </string-array>
+    <string-array name="msg_search_spi_data">
+        <item>{v: 0, si: search_219}</item>
+        <item>{v: 1, si: search_220}</item>
+        <item>{v: 2, si: search_221}</item>
+    </string-array>
+    <string-array name="msg_search_spi_scl">
+        <item>{v: 1, si: search_195}</item>
+        <item>{v: 2, si: search_196}</item>
+        <item>{v: 3, si: search_197}</item>
+        <item>{v: 4, si: search_198}</item>
+    </string-array>
+    <string-array name="msg_search_spi_sda">
+        <item>{v: 1, si: search_200}</item>
+        <item>{v: 2, si: search_201}</item>
+        <item>{v: 3, si: search_202}</item>
+        <item>{v: 4, si: search_203}</item>
+    </string-array>
+    <string-array name="msg_search_spi_when">
+        <item>{v: 0, si: search_211}</item>
+        <item>{v: 1, si: search_212}</item>
+    </string-array>
+    <string-array name="msg_search_type">
+        <item>{v: 0, si: search_6}</item>
+        <item>{v: 1, si: search_7}</item>
+    </string-array>
+    <string-array name="msg_storage_channel">
+        <item>{v: 1, si: storage_50}</item>
+        <item>{v: 2, si: storage_51}</item>
+        <item>{v: 3, si: storage_52}</item>
+        <item>{v: 4, si: storage_53}</item>
+        <item>{v: 24, si: storage_54}</item>
+        <item>{v: 25, si: storage_55}</item>
+    </string-array>
+    <string-array name="msg_storage_dialog_visible">
+        <item>{v: 0, si: storage_31}</item>
+        <item>{v: 1, si: storage_32}</item>
+    </string-array>
+    <string-array name="msg_storage_filetype">
+        <item>{v: 17, si: storage_73}</item>
+        <item>{v: 0, si: storage_74}</item>
+        <item>{v: 1, si: storage_75}</item>
+        <item>{v: 2, si: storage_76}</item>
+        <item>{v: 3, si: storage_77}</item>
+        <item>{v: 4, si: storage_78}</item>
+        <item>{v: 5, si: storage_79}</item>
+        <item>{v: 6, si: storage_80}</item>
+        <item>{v: 7, si: storage_81}</item>
+        <item>{v: 8, si: storage_82}</item>
+        <item>{v: 9, si: storage_83}</item>
+        <item>{v: 10, si: storage_84}</item>
+        <item>{v: 11, si: storage_85}</item>
+        <item>{v: 12, si: storage_86}</item>
+        <item>{v: 13, si: storage_87}</item>
+        <item>{v: 14, si: storage_88}</item>
+        <item>{v: 15, si: storage_89}</item>
+        <item>{v: 16, si: storage_90}</item>
+        <item>{v: 18, si: storage_91}</item>
+    </string-array>
+    <string-array name="msg_storage_image_color">
+        <item>{v: 0, si: storage_25}</item>
+        <item>{v: 1, si: storage_26}</item>
+    </string-array>
+    <string-array name="msg_storage_image_footer">
+        <item>{v: 0, si: storage_34}</item>
+        <item>{v: 1, si: storage_35}</item>
+    </string-array>
+    <string-array name="msg_storage_image_format">
+        <item>{v: 0, si: storage_17}</item>
+        <item>{v: 1, si: storage_18}</item>
+        <item>{v: 2, si: storage_19}</item>
+    </string-array>
+    <string-array name="msg_storage_image_header">
+        <item>{v: 0, si: storage_28}</item>
+        <item>{v: 1, si: storage_29}</item>
+    </string-array>
+    <string-array name="msg_storage_image_invert">
+        <item>{v: 0, si: storage_22}</item>
+        <item>{v: 1, si: storage_23}</item>
+    </string-array>
+    <string-array name="msg_storage_load_option">
+        <item>{v: 2, si: storage_143}</item>
+    </string-array>
+    <string-array name="msg_storage_load_setup">
+        <item>{v: 9, si: storage_10}</item>
+    </string-array>
+    <string-array name="msg_storage_load_wave">
+        <item>{v: 7, si: storage_8}</item>
+    </string-array>
+    <string-array name="msg_storage_mem_csv_time">
+        <item>{v: 0, si: storage_95}</item>
+        <item>{v: 1, si: storage_96}</item>
+    </string-array>
+    <string-array name="msg_storage_operation">
+        <item>{v: 0, si: storage_145}</item>
+        <item>{v: 1, si: storage_146}</item>
+        <item>{v: 2, si: storage_147}</item>
+    </string-array>
+    <string-array name="msg_storage_option_parasave">
+        <item>{v: 0, si: storage_47}</item>
+        <item>{v: 1, si: storage_48}</item>
+    </string-array>
+    <string-array name="msg_storage_overlay">
+        <item>{v: 1, si: storage_116}</item>
+        <item>{v: 0, si: storage_117}</item>
+    </string-array>
+    <string-array name="msg_storage_save_option">
+        <item>{v: 0, si: storage_138}</item>
+        <item>{v: 1, si: storage_139}</item>
+        <item>{v: 2, si: storage_140}</item>
+    </string-array>
+    <string-array name="msg_storage_scr_format">
+        <item>{v: 5, si: storage_44}</item>
+        <item>{v: 6, si: storage_45}</item>
+    </string-array>
+    <string-array name="msg_storage_setup_format">
+        <item>{v: 9, si: storage_150}</item>
+    </string-array>
+    <string-array name="msg_storage_wave_depth">
+        <item>{v: 0, si: storage_37}</item>
+        <item>{v: 1, si: storage_38}</item>
+    </string-array>
+    <string-array name="msg_storage_wave_format">
+        <item>{v: 5, si: storage_40}</item>
+        <item>{v: 6, si: storage_41}</item>
+        <item>{v: 7, si: storage_42}</item>
+    </string-array>
+    <string-array name="msg_storage_wfm_channel">
+        <item>{si: storage_98}</item>
+        <item>{si: storage_99}</item>
+    </string-array>
+    <string-array name="msg_touch_enable">
+        <item>{v: 0, si: utility_72}</item>
+        <item>{v: 1, si: utility_73}</item>
+    </string-array>
+    <string-array name="msg_trig_zone_a_enable">
+        <item>{v: 0, si: zonetrigger_3}</item>
+        <item>{v: 1, si: zonetrigger_4}</item>
+    </string-array>
+    <string-array name="msg_trig_zone_a_intersect">
+        <item>{v: 1, si: zonetrigger_11}</item>
+        <item>{v: 0, si: zonetrigger_12}</item>
+    </string-array>
+    <string-array name="msg_trig_zone_a_source">
+        <item>{v: 1, si: zonetrigger_6}</item>
+        <item>{v: 2, si: zonetrigger_7}</item>
+        <item>{v: 3, si: zonetrigger_8}</item>
+        <item>{v: 4, si: zonetrigger_9}</item>
+    </string-array>
+    <string-array name="msg_trig_zone_b_enable">
+        <item>{v: 0, si: zonetrigger_14}</item>
+        <item>{v: 1, si: zonetrigger_15}</item>
+    </string-array>
+    <string-array name="msg_trig_zone_b_intersect">
+        <item>{v: 1, si: zonetrigger_22}</item>
+        <item>{v: 0, si: zonetrigger_23}</item>
+    </string-array>
+    <string-array name="msg_trig_zone_b_source">
+        <item>{v: 1, si: zonetrigger_17}</item>
+        <item>{v: 2, si: zonetrigger_18}</item>
+        <item>{v: 3, si: zonetrigger_19}</item>
+        <item>{v: 4, si: zonetrigger_20}</item>
+    </string-array>
+    <string-array name="msg_trigger_1553b_data_comp">
+        <item>{v: 0, si: trigger_792}</item>
+        <item>{v: 1, si: trigger_793}</item>
+        <item>{v: 2, si: trigger_794}</item>
+        <item>{v: 3, si: trigger_795}</item>
+        <item>{v: 4, si: trigger_796}</item>
+        <item>{v: 5, si: trigger_797}</item>
+    </string-array>
+    <string-array name="msg_trigger_1553b_err_type">
+        <item>{v: 0, si: trigger_804}</item>
+        <item>{v: 1, si: trigger_805}</item>
+    </string-array>
+    <string-array name="msg_trigger_1553b_sync_type">
+        <item>{v: 0, si: trigger_788}</item>
+        <item>{v: 1, si: trigger_789}</item>
+        <item>{v: 2, si: trigger_790}</item>
+    </string-array>
+    <string-array name="msg_trigger_1553b_when">
+        <item>{v: 0, si: trigger_781}</item>
+        <item>{v: 1, si: trigger_782}</item>
+        <item>{v: 2, si: trigger_783}</item>
+        <item>{v: 3, si: trigger_784}</item>
+        <item>{v: 4, si: trigger_785}</item>
+    </string-array>
+    <string-array name="msg_trigger_ab_a_type">
+        <item>{v: 0, si: trigger_117}</item>
+        <item>{v: 1, si: trigger_118}</item>
+    </string-array>
+    <string-array name="msg_trigger_ab_when">
+        <item>{v: 1, pi: when_1}</item>
+        <item>{v: 2, pi: when_2}</item>
+        <item>{v: 3, pi: when_3}</item>
+        <item>{v: 4, pi: when_4}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_baud">
+        <item>{v: 10000, si: trigger_572}</item>
+        <item>{v: 20000, si: trigger_573}</item>
+        <item>{v: 33300, si: trigger_574}</item>
+        <item>{v: 50000, si: trigger_575}</item>
+        <item>{v: 62500, si: trigger_576}</item>
+        <item>{v: 83300, si: trigger_577}</item>
+        <item>{v: 100000, si: trigger_578}</item>
+        <item>{v: 125000, si: trigger_579}</item>
+        <item>{v: 250000, si: trigger_580}</item>
+        <item>{v: 460800, si: trigger_581}</item>
+        <item>{v: 500000, si: trigger_582}</item>
+        <item>{v: 800000, si: trigger_583}</item>
+        <item>{v: 1000000, si: trigger_584}</item>
+        <item>{v: 2000000, si: trigger_585}</item>
+        <item>{v: 4000000, si: trigger_586}</item>
+        <item>{v: 5000000, si: trigger_587}</item>
+        <item>{v: 0, si: trigger_588}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_define">
+        <item>{v: 0, si: trigger_561}</item>
+        <item>{v: 1, si: trigger_562}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_id_extended">
+        <item>{v: 0, si: trigger_556}</item>
+        <item>{v: 1, si: trigger_557}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_id_filter">
+        <item>{v: 0, si: trigger_564}</item>
+        <item>{v: 1, si: trigger_565}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_singnal">
+        <item>{v: 0, si: trigger_567}</item>
+        <item>{v: 1, si: trigger_568}</item>
+        <item>{v: 2, si: trigger_569}</item>
+        <item>{v: 3, si: trigger_570}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_standard">
+        <item>{v: 0, si: trigger_591}</item>
+        <item>{v: 1, si: trigger_592}</item>
+    </string-array>
+    <string-array name="msg_trigger_can_when">
+        <item>{v: 0, si: trigger_541}</item>
+        <item>{v: 1, si: trigger_542}</item>
+        <item>{v: 2, si: trigger_543}</item>
+        <item>{v: 3, si: trigger_544}</item>
+        <item>{v: 4, si: trigger_545}</item>
+        <item>{v: 5, si: trigger_546}</item>
+        <item>{v: 6, si: trigger_547}</item>
+        <item>{v: 7, si: trigger_548}</item>
+        <item>{v: 8, si: trigger_549}</item>
+        <item>{v: 9, si: trigger_550}</item>
+        <item>{v: 10, si: trigger_551}</item>
+        <item>{v: 11, si: trigger_552}</item>
+        <item>{v: 12, si: trigger_553}</item>
+    </string-array>
+    <string-array name="msg_trigger_canfd_baud">
+        <item>{v: 1000000, si: trigger_988}</item>
+        <item>{v: 2000000, si: trigger_989}</item>
+        <item>{v: 3000000, si: trigger_990}</item>
+        <item>{v: 4000000, si: trigger_991}</item>
+        <item>{v: 5000000, si: trigger_992}</item>
+        <item>{v: 6000000, si: trigger_993}</item>
+        <item>{v: 7000000, si: trigger_994}</item>
+        <item>{v: 8000000, si: trigger_995}</item>
+        <item>{v: 9000000, si: trigger_996}</item>
+        <item>{v: 10000000, si: trigger_997}</item>
+        <item>{v: 0, si: trigger_998}</item>
+    </string-array>
+    <string-array name="msg_trigger_code">
+        <item>{v: 0, si: trigger_197}</item>
+        <item>{v: 1, si: trigger_198}</item>
+        <item>{v: 2, si: trigger_199}</item>
+        <item>{v: 3, pi: Rising, si: trigger_200}</item>
+        <item>{v: 4, pi: Falling, si: trigger_201}</item>
+    </string-array>
+    <string-array name="msg_trigger_coupling">
+        <item>{v: 0, si: trigger_141}</item>
+        <item>{v: 1, si: trigger_142}</item>
+        <item>{v: 3, si: trigger_143}</item>
+        <item>{v: 4, si: trigger_144}</item>
+    </string-array>
+    <string-array name="msg_trigger_delay_srca">
+        <item>{v: 1, si: trigger_236}</item>
+        <item>{v: 2, si: trigger_237}</item>
+        <item>{v: 3, si: trigger_238}</item>
+        <item>{v: 4, si: trigger_239}</item>
+        <item>{v: 9, si: trigger_240}</item>
+        <item>{v: 10, si: trigger_241}</item>
+        <item>{v: 11, si: trigger_242}</item>
+        <item>{v: 12, si: trigger_243}</item>
+        <item>{v: 13, si: trigger_244}</item>
+        <item>{v: 14, si: trigger_245}</item>
+        <item>{v: 15, si: trigger_246}</item>
+        <item>{v: 16, si: trigger_247}</item>
+        <item>{v: 17, si: trigger_248}</item>
+        <item>{v: 18, si: trigger_249}</item>
+        <item>{v: 19, si: trigger_250}</item>
+        <item>{v: 20, si: trigger_251}</item>
+        <item>{v: 21, si: trigger_252}</item>
+        <item>{v: 22, si: trigger_253}</item>
+        <item>{v: 23, si: trigger_254}</item>
+        <item>{v: 24, si: trigger_255}</item>
+    </string-array>
+    <string-array name="msg_trigger_delay_srcb">
+        <item>{v: 1, si: trigger_260}</item>
+        <item>{v: 2, si: trigger_261}</item>
+        <item>{v: 3, si: trigger_262}</item>
+        <item>{v: 4, si: trigger_263}</item>
+        <item>{v: 9, si: trigger_264}</item>
+        <item>{v: 10, si: trigger_265}</item>
+        <item>{v: 11, si: trigger_266}</item>
+        <item>{v: 12, si: trigger_267}</item>
+        <item>{v: 13, si: trigger_268}</item>
+        <item>{v: 14, si: trigger_269}</item>
+        <item>{v: 15, si: trigger_270}</item>
+        <item>{v: 16, si: trigger_271}</item>
+        <item>{v: 17, si: trigger_272}</item>
+        <item>{v: 18, si: trigger_273}</item>
+        <item>{v: 19, si: trigger_274}</item>
+        <item>{v: 20, si: trigger_275}</item>
+        <item>{v: 21, si: trigger_276}</item>
+        <item>{v: 22, si: trigger_277}</item>
+        <item>{v: 23, si: trigger_278}</item>
+        <item>{v: 24, si: trigger_279}</item>
+    </string-array>
+    <string-array name="msg_trigger_delay_when">
+        <item>{v: 0, si: trigger_231}</item>
+        <item>{v: 1, si: trigger_232}</item>
+        <item>{v: 2, si: trigger_233}</item>
+        <item>{v: 3, si: trigger_234}</item>
+    </string-array>
+    <string-array name="msg_trigger_duration_when">
+        <item>{v: 0, si: trigger_204}</item>
+        <item>{v: 1, si: trigger_205}</item>
+        <item>{v: 2, si: trigger_206}</item>
+        <item>{v: 3, si: trigger_207}</item>
+    </string-array>
+    <string-array name="msg_trigger_edge_a">
+        <item>{v: 0, pi: Rising, si: trigger_103}</item>
+        <item>{v: 1, pi: Falling, si: trigger_104}</item>
+        <item>{v: 3, pi: Either, si: trigger_106}</item>
+    </string-array>
+    <string-array name="msg_trigger_edge_b">
+        <item>{v: 0, pi: Rising, si: trigger_108}</item>
+        <item>{v: 1, pi: Falling, si: trigger_109}</item>
+        <item>{v: 3, pi: Either, si: trigger_111}</item>
+    </string-array>
+    <string-array name="msg_trigger_edgea">
+        <item>{v: 0, pi: Rising, si: trigger_257}</item>
+        <item>{v: 1, pi: Falling, si: trigger_258}</item>
+    </string-array>
+    <string-array name="msg_trigger_edgeb">
+        <item>{v: 0, pi: Rising, si: trigger_281}</item>
+        <item>{v: 1, pi: Falling, si: trigger_282}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_baud">
+        <item>{v: 2500000, si: trigger_765}</item>
+        <item>{v: 5000000, si: trigger_766}</item>
+        <item>{v: 10000000, si: trigger_767}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_ch_a_b">
+        <item>{v: 0, si: trigger_769}</item>
+        <item>{v: 1, si: trigger_770}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_cyc_comp">
+        <item>{v: 0, si: trigger_758}</item>
+        <item>{v: 1, si: trigger_759}</item>
+        <item>{v: 2, si: trigger_760}</item>
+        <item>{v: 3, si: trigger_761}</item>
+        <item>{v: 4, si: trigger_762}</item>
+        <item>{v: 5, si: trigger_763}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_define">
+        <item>{v: 0, si: trigger_776}</item>
+        <item>{v: 1, si: trigger_777}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_error_type">
+        <item>{v: 0, si: trigger_746}</item>
+        <item>{v: 1, si: trigger_747}</item>
+        <item>{v: 2, si: trigger_748}</item>
+        <item>{v: 3, si: trigger_749}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_frame_type">
+        <item>{v: 0, si: trigger_738}</item>
+        <item>{v: 1, si: trigger_739}</item>
+        <item>{v: 2, si: trigger_740}</item>
+        <item>{v: 3, si: trigger_741}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_id_comp">
+        <item>{v: 0, si: trigger_751}</item>
+        <item>{v: 1, si: trigger_752}</item>
+        <item>{v: 2, si: trigger_753}</item>
+        <item>{v: 3, si: trigger_754}</item>
+        <item>{v: 4, si: trigger_755}</item>
+        <item>{v: 5, si: trigger_756}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_post_type">
+        <item>{v: 0, si: trigger_733}</item>
+        <item>{v: 1, si: trigger_734}</item>
+        <item>{v: 2, si: trigger_735}</item>
+        <item>{v: 3, si: trigger_736}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_symbol_type">
+        <item>{v: 0, si: trigger_743}</item>
+        <item>{v: 1, si: trigger_744}</item>
+    </string-array>
+    <string-array name="msg_trigger_flexray_when">
+        <item>{v: 0, si: trigger_728}</item>
+        <item>{v: 1, si: trigger_729}</item>
+        <item>{v: 2, si: trigger_730}</item>
+        <item>{v: 3, si: trigger_731}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_addrdata_bits">
+        <item>{v: 0, si: trigger_442}</item>
+        <item>{v: 2, si: trigger_443}</item>
+        <item>{v: 1, si: trigger_444}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_addrtype">
+        <item>{v: 0, si: trigger_438}</item>
+        <item>{v: 2, si: trigger_439}</item>
+        <item>{v: 1, si: trigger_440}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_data">
+        <item>{v: 0, si: trigger_449}</item>
+        <item>{v: 1, si: trigger_450}</item>
+        <item>{v: 2, si: trigger_451}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_direction">
+        <item>{v: 0, si: trigger_454}</item>
+        <item>{v: 1, si: trigger_455}</item>
+        <item>{v: 2, si: trigger_456}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_scl">
+        <item>{v: 1, si: trigger_388}</item>
+        <item>{v: 2, si: trigger_389}</item>
+        <item>{v: 3, si: trigger_390}</item>
+        <item>{v: 4, si: trigger_391}</item>
+        <item>{v: 9, si: trigger_392}</item>
+        <item>{v: 10, si: trigger_393}</item>
+        <item>{v: 11, si: trigger_394}</item>
+        <item>{v: 12, si: trigger_395}</item>
+        <item>{v: 13, si: trigger_396}</item>
+        <item>{v: 14, si: trigger_397}</item>
+        <item>{v: 15, si: trigger_398}</item>
+        <item>{v: 16, si: trigger_399}</item>
+        <item>{v: 17, si: trigger_400}</item>
+        <item>{v: 18, si: trigger_401}</item>
+        <item>{v: 19, si: trigger_402}</item>
+        <item>{v: 20, si: trigger_403}</item>
+        <item>{v: 21, si: trigger_404}</item>
+        <item>{v: 22, si: trigger_405}</item>
+        <item>{v: 23, si: trigger_406}</item>
+        <item>{v: 24, si: trigger_407}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_sda">
+        <item>{v: 1, si: trigger_409}</item>
+        <item>{v: 2, si: trigger_410}</item>
+        <item>{v: 3, si: trigger_411}</item>
+        <item>{v: 4, si: trigger_412}</item>
+        <item>{v: 9, si: trigger_413}</item>
+        <item>{v: 10, si: trigger_414}</item>
+        <item>{v: 11, si: trigger_415}</item>
+        <item>{v: 12, si: trigger_416}</item>
+        <item>{v: 13, si: trigger_417}</item>
+        <item>{v: 14, si: trigger_418}</item>
+        <item>{v: 15, si: trigger_419}</item>
+        <item>{v: 16, si: trigger_420}</item>
+        <item>{v: 17, si: trigger_421}</item>
+        <item>{v: 18, si: trigger_422}</item>
+        <item>{v: 19, si: trigger_423}</item>
+        <item>{v: 20, si: trigger_424}</item>
+        <item>{v: 21, si: trigger_425}</item>
+        <item>{v: 22, si: trigger_426}</item>
+        <item>{v: 23, si: trigger_427}</item>
+        <item>{v: 24, si: trigger_428}</item>
+    </string-array>
+    <string-array name="msg_trigger_i2c_when">
+        <item>{v: 0, si: trigger_430}</item>
+        <item>{v: 1, si: trigger_431}</item>
+        <item>{v: 2, si: trigger_432}</item>
+        <item>{v: 3, si: trigger_433}</item>
+        <item>{v: 4, si: trigger_434}</item>
+        <item>{v: 5, si: trigger_435}</item>
+        <item>{v: 6, si: trigger_436}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_alignment">
+        <item>{v: 0, si: trigger_722}</item>
+        <item>{v: 1, si: trigger_723}</item>
+        <item>{v: 2, si: trigger_724}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_sclk">
+        <item>{v: 1, si: trigger_636}</item>
+        <item>{v: 2, si: trigger_637}</item>
+        <item>{v: 3, si: trigger_638}</item>
+        <item>{v: 4, si: trigger_639}</item>
+        <item>{v: 9, si: trigger_641}</item>
+        <item>{v: 10, si: trigger_642}</item>
+        <item>{v: 11, si: trigger_643}</item>
+        <item>{v: 12, si: trigger_644}</item>
+        <item>{v: 13, si: trigger_645}</item>
+        <item>{v: 14, si: trigger_646}</item>
+        <item>{v: 15, si: trigger_647}</item>
+        <item>{v: 16, si: trigger_648}</item>
+        <item>{v: 17, si: trigger_649}</item>
+        <item>{v: 18, si: trigger_650}</item>
+        <item>{v: 19, si: trigger_651}</item>
+        <item>{v: 20, si: trigger_652}</item>
+        <item>{v: 21, si: trigger_653}</item>
+        <item>{v: 22, si: trigger_654}</item>
+        <item>{v: 23, si: trigger_655}</item>
+        <item>{v: 24, si: trigger_656}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_sda">
+        <item>{v: 1, si: trigger_687}</item>
+        <item>{v: 2, si: trigger_688}</item>
+        <item>{v: 3, si: trigger_689}</item>
+        <item>{v: 4, si: trigger_690}</item>
+        <item>{v: 9, si: trigger_692}</item>
+        <item>{v: 10, si: trigger_693}</item>
+        <item>{v: 11, si: trigger_694}</item>
+        <item>{v: 12, si: trigger_695}</item>
+        <item>{v: 13, si: trigger_696}</item>
+        <item>{v: 14, si: trigger_697}</item>
+        <item>{v: 15, si: trigger_698}</item>
+        <item>{v: 16, si: trigger_699}</item>
+        <item>{v: 17, si: trigger_700}</item>
+        <item>{v: 18, si: trigger_701}</item>
+        <item>{v: 19, si: trigger_702}</item>
+        <item>{v: 20, si: trigger_703}</item>
+        <item>{v: 21, si: trigger_704}</item>
+        <item>{v: 22, si: trigger_705}</item>
+        <item>{v: 23, si: trigger_706}</item>
+        <item>{v: 24, si: trigger_707}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_slope">
+        <item>{v: 0, pi: Rising, si: trigger_658}</item>
+        <item>{v: 1, pi: Falling, si: trigger_659}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_when">
+        <item>{v: 0, si: trigger_709}</item>
+        <item>{v: 1, si: trigger_710}</item>
+        <item>{v: 2, si: trigger_711}</item>
+        <item>{v: 3, si: trigger_712}</item>
+        <item>{v: 4, si: trigger_713}</item>
+        <item>{v: 5, si: trigger_714}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_ws">
+        <item>{v: 1, si: trigger_661}</item>
+        <item>{v: 2, si: trigger_662}</item>
+        <item>{v: 3, si: trigger_663}</item>
+        <item>{v: 4, si: trigger_664}</item>
+        <item>{v: 9, si: trigger_666}</item>
+        <item>{v: 10, si: trigger_667}</item>
+        <item>{v: 11, si: trigger_668}</item>
+        <item>{v: 12, si: trigger_669}</item>
+        <item>{v: 13, si: trigger_670}</item>
+        <item>{v: 14, si: trigger_671}</item>
+        <item>{v: 15, si: trigger_672}</item>
+        <item>{v: 16, si: trigger_673}</item>
+        <item>{v: 17, si: trigger_674}</item>
+        <item>{v: 18, si: trigger_675}</item>
+        <item>{v: 19, si: trigger_676}</item>
+        <item>{v: 20, si: trigger_677}</item>
+        <item>{v: 21, si: trigger_678}</item>
+        <item>{v: 22, si: trigger_679}</item>
+        <item>{v: 23, si: trigger_680}</item>
+        <item>{v: 24, si: trigger_681}</item>
+    </string-array>
+    <string-array name="msg_trigger_iis_ws_low">
+        <item>{v: 0, si: trigger_683}</item>
+        <item>{v: 1, si: trigger_684}</item>
+        <item>{v: 2, si: trigger_685}</item>
+    </string-array>
+    <string-array name="msg_trigger_levelselect">
+        <item>{v: 0, si: trigger_168}</item>
+        <item>{v: 1, si: trigger_169}</item>
+        <item>{v: 2, si: trigger_170}</item>
+    </string-array>
+    <string-array name="msg_trigger_lin_baud">
+        <item>{v: 1200, si: trigger_616}</item>
+        <item>{v: 2400, si: trigger_617}</item>
+        <item>{v: 4800, si: trigger_618}</item>
+        <item>{v: 9600, si: trigger_619}</item>
+        <item>{v: 19200, si: trigger_620}</item>
+        <item>{v: 38400, si: trigger_621}</item>
+        <item>{v: 57600, si: trigger_622}</item>
+        <item>{v: 115200, si: trigger_623}</item>
+        <item>{v: 230400, si: trigger_624}</item>
+        <item>{v: 460800, si: trigger_625}</item>
+        <item>{v: 921600, si: trigger_626}</item>
+        <item>{v: 1000000, si: trigger_627}</item>
+        <item>{v: 2000000, si: trigger_628}</item>
+        <item>{v: 5000000, si: trigger_629}</item>
+        <item>{v: 10000000, si: trigger_630}</item>
+        <item>{v: 20000000, si: trigger_631}</item>
+        <item>{v: 0, si: trigger_632}</item>
+    </string-array>
+    <string-array name="msg_trigger_lin_err_type">
+        <item>{v: 0, si: trigger_603}</item>
+        <item>{v: 1, si: trigger_604}</item>
+        <item>{v: 2, si: trigger_605}</item>
+    </string-array>
+    <string-array name="msg_trigger_lin_version">
+        <item>{v: 0, si: trigger_612}</item>
+        <item>{v: 1, si: trigger_613}</item>
+        <item>{v: 2, si: trigger_614}</item>
+    </string-array>
+    <string-array name="msg_trigger_lin_when">
+        <item>{v: 0, si: trigger_595}</item>
+        <item>{v: 1, si: trigger_596}</item>
+        <item>{v: 2, si: trigger_597}</item>
+        <item>{v: 3, si: trigger_598}</item>
+        <item>{v: 4, si: trigger_599}</item>
+        <item>{v: 5, si: trigger_600}</item>
+        <item>{v: 6, si: trigger_601}</item>
+    </string-array>
+    <string-array name="msg_trigger_noise">
+        <item>{v: 0, si: trigger_147}</item>
+        <item>{v: 1, si: trigger_148}</item>
+    </string-array>
+    <string-array name="msg_trigger_over_pos">
+        <item>{v: 0, si: trigger_222}</item>
+        <item>{v: 1, si: trigger_223}</item>
+        <item>{v: 2, si: trigger_224}</item>
+    </string-array>
+    <string-array name="msg_trigger_over_slope">
+        <item>{v: 0, pi: Rising, si: trigger_227}</item>
+        <item>{v: 1, pi: Falling, si: trigger_228}</item>
+        <item>{v: 2, pi: Either, si: trigger_229}</item>
+    </string-array>
+    <string-array name="msg_trigger_polarity">
+        <item>{v: 0, pi: Positive, si: trigger_150}</item>
+        <item>{v: 1, pi: Negative, si: trigger_151}</item>
+    </string-array>
+    <string-array name="msg_trigger_pulse_when">
+        <item>{v: 0, si: trigger_158}</item>
+        <item>{v: 1, si: trigger_159}</item>
+        <item>{v: 2, si: trigger_160}</item>
+    </string-array>
+    <string-array name="msg_trigger_rs232_baudrate">
+        <item>{v: 50, si: trigger_355}</item>
+        <item>{v: 75, si: trigger_356}</item>
+        <item>{v: 110, si: trigger_357}</item>
+        <item>{v: 134, si: trigger_358}</item>
+        <item>{v: 150, si: trigger_359}</item>
+        <item>{v: 300, si: trigger_360}</item>
+        <item>{v: 600, si: trigger_361}</item>
+        <item>{v: 1200, si: trigger_362}</item>
+        <item>{v: 1800, si: trigger_363}</item>
+        <item>{v: 2000, si: trigger_364}</item>
+        <item>{v: 2400, si: trigger_365}</item>
+        <item>{v: 4800, si: trigger_366}</item>
+        <item>{v: 9600, si: trigger_367}</item>
+        <item>{v: 19200, si: trigger_368}</item>
+        <item>{v: 38400, si: trigger_369}</item>
+        <item>{v: 57600, si: trigger_370}</item>
+        <item>{v: 115200, si: trigger_371}</item>
+        <item>{v: 230400, si: trigger_372}</item>
+        <item>{v: 460800, si: trigger_373}</item>
+        <item>{v: 921600, si: trigger_374}</item>
+        <item>{v: 1000000, si: trigger_375}</item>
+        <item>{v: 2000000, si: trigger_376}</item>
+        <item>{v: 5000000, si: trigger_377}</item>
+        <item>{v: 10000000, si: trigger_378}</item>
+        <item>{v: 20000000, si: trigger_379}</item>
+        <item>{v: 0, si: trigger_380}</item>
+    </string-array>
+    <string-array name="msg_trigger_rs232_check">
+        <item>{v: 0, si: trigger_351}</item>
+        <item>{v: 1, si: trigger_352}</item>
+        <item>{v: 2, si: trigger_353}</item>
+    </string-array>
+    <string-array name="msg_trigger_rs232_datawidth">
+        <item>{v: 4, si: trigger_382}</item>
+        <item>{v: 5, si: trigger_383}</item>
+        <item>{v: 6, si: trigger_384}</item>
+        <item>{v: 7, si: trigger_385}</item>
+    </string-array>
+    <string-array name="msg_trigger_rs232_polarity">
+        <item>{v: 0, pi: RS232_P, si: trigger_344}</item>
+        <item>{v: 1, pi: RS232_N, si: trigger_345}</item>
+    </string-array>
+    <string-array name="msg_trigger_rs232_stopbit">
+        <item>{v: 0, si: trigger_347}</item>
+        <item>{v: 2, si: trigger_348}</item>
+        <item>{v: 1, si: trigger_349}</item>
+    </string-array>
+    <string-array name="msg_trigger_rs232_when">
+        <item>{v: 0, si: trigger_339}</item>
+        <item>{v: 1, si: trigger_340}</item>
+        <item>{v: 2, si: trigger_341}</item>
+        <item>{v: 3, si: trigger_342}</item>
+    </string-array>
+    <string-array name="msg_trigger_runt_when">
+        <item>{v: 0, si: trigger_210}</item>
+        <item>{v: 1, si: trigger_211}</item>
+        <item>{v: 2, si: trigger_212}</item>
+        <item>{v: 3, si: trigger_213}</item>
+    </string-array>
+    <string-array name="msg_trigger_setup_data">
+        <item>{v: 0, si: trigger_327}</item>
+        <item>{v: 1, si: trigger_328}</item>
+    </string-array>
+    <string-array name="msg_trigger_setup_scl">
+        <item>{v: 1, si: trigger_306}</item>
+        <item>{v: 2, si: trigger_307}</item>
+        <item>{v: 3, si: trigger_308}</item>
+        <item>{v: 4, si: trigger_309}</item>
+        <item>{v: 9, si: trigger_310}</item>
+        <item>{v: 10, si: trigger_311}</item>
+        <item>{v: 11, si: trigger_312}</item>
+        <item>{v: 12, si: trigger_313}</item>
+        <item>{v: 13, si: trigger_314}</item>
+        <item>{v: 14, si: trigger_315}</item>
+        <item>{v: 15, si: trigger_316}</item>
+        <item>{v: 16, si: trigger_317}</item>
+        <item>{v: 17, si: trigger_318}</item>
+        <item>{v: 18, si: trigger_319}</item>
+        <item>{v: 19, si: trigger_320}</item>
+        <item>{v: 20, si: trigger_321}</item>
+        <item>{v: 21, si: trigger_322}</item>
+        <item>{v: 22, si: trigger_323}</item>
+        <item>{v: 23, si: trigger_324}</item>
+        <item>{v: 24, si: trigger_325}</item>
+    </string-array>
+    <string-array name="msg_trigger_setup_sda">
+        <item>{v: 1, si: trigger_285}</item>
+        <item>{v: 2, si: trigger_286}</item>
+        <item>{v: 3, si: trigger_287}</item>
+        <item>{v: 4, si: trigger_288}</item>
+        <item>{v: 9, si: trigger_289}</item>
+        <item>{v: 10, si: trigger_290}</item>
+        <item>{v: 11, si: trigger_291}</item>
+        <item>{v: 12, si: trigger_292}</item>
+        <item>{v: 13, si: trigger_293}</item>
+        <item>{v: 14, si: trigger_294}</item>
+        <item>{v: 15, si: trigger_295}</item>
+        <item>{v: 16, si: trigger_296}</item>
+        <item>{v: 17, si: trigger_297}</item>
+        <item>{v: 18, si: trigger_298}</item>
+        <item>{v: 19, si: trigger_299}</item>
+        <item>{v: 20, si: trigger_300}</item>
+        <item>{v: 21, si: trigger_301}</item>
+        <item>{v: 22, si: trigger_302}</item>
+        <item>{v: 23, si: trigger_303}</item>
+        <item>{v: 24, si: trigger_304}</item>
+    </string-array>
+    <string-array name="msg_trigger_setup_when">
+        <item>{v: 0, si: trigger_330}</item>
+        <item>{v: 1, si: trigger_331}</item>
+        <item>{v: 2, si: trigger_332}</item>
+    </string-array>
+    <string-array name="msg_trigger_slope_polarity">
+        <item>{v: 0, pi: Rising, si: trigger_155}</item>
+        <item>{v: 1, pi: Falling, si: trigger_156}</item>
+    </string-array>
+    <string-array name="msg_trigger_slope_when">
+        <item>{v: 0, si: trigger_163}</item>
+        <item>{v: 1, si: trigger_164}</item>
+        <item>{v: 2, si: trigger_165}</item>
+    </string-array>
+    <string-array name="msg_trigger_source">
+        <item>{v: 1, si: trigger_98}</item>
+        <item>{v: 2, si: trigger_99}</item>
+        <item>{v: 3, si: trigger_100}</item>
+        <item>{v: 4, si: trigger_101}</item>
+    </string-array>
+    <string-array name="msg_trigger_source_la">
+        <item>{v: 1, si: trigger_77}</item>
+        <item>{v: 2, si: trigger_78}</item>
+        <item>{v: 3, si: trigger_79}</item>
+        <item>{v: 4, si: trigger_80}</item>
+        <item>{v: 9, si: trigger_81}</item>
+        <item>{v: 10, si: trigger_82}</item>
+        <item>{v: 11, si: trigger_83}</item>
+        <item>{v: 12, si: trigger_84}</item>
+        <item>{v: 13, si: trigger_85}</item>
+        <item>{v: 14, si: trigger_86}</item>
+        <item>{v: 15, si: trigger_87}</item>
+        <item>{v: 16, si: trigger_88}</item>
+        <item>{v: 17, si: trigger_89}</item>
+        <item>{v: 18, si: trigger_90}</item>
+        <item>{v: 19, si: trigger_91}</item>
+        <item>{v: 20, si: trigger_92}</item>
+        <item>{v: 21, si: trigger_93}</item>
+        <item>{v: 22, si: trigger_94}</item>
+        <item>{v: 23, si: trigger_95}</item>
+        <item>{v: 24, si: trigger_96}</item>
+    </string-array>
+    <string-array name="msg_trigger_source_la_ext">
+        <item>{v: 1, si: trigger_54}</item>
+        <item>{v: 2, si: trigger_55}</item>
+        <item>{v: 3, si: trigger_56}</item>
+        <item>{v: 4, si: trigger_57}</item>
+        <item>{v: 26, si: trigger_58}</item>
+        <item>{v: 9, si: trigger_60}</item>
+        <item>{v: 10, si: trigger_61}</item>
+        <item>{v: 11, si: trigger_62}</item>
+        <item>{v: 12, si: trigger_63}</item>
+        <item>{v: 13, si: trigger_64}</item>
+        <item>{v: 14, si: trigger_65}</item>
+        <item>{v: 15, si: trigger_66}</item>
+        <item>{v: 16, si: trigger_67}</item>
+        <item>{v: 17, si: trigger_68}</item>
+        <item>{v: 18, si: trigger_69}</item>
+        <item>{v: 19, si: trigger_70}</item>
+        <item>{v: 20, si: trigger_71}</item>
+        <item>{v: 21, si: trigger_72}</item>
+        <item>{v: 22, si: trigger_73}</item>
+        <item>{v: 23, si: trigger_74}</item>
+        <item>{v: 24, si: trigger_75}</item>
+    </string-array>
+    <string-array name="msg_trigger_source_la_ext_ac">
+        <item>{v: 1, si: trigger_30}</item>
+        <item>{v: 2, si: trigger_31}</item>
+        <item>{v: 3, si: trigger_32}</item>
+        <item>{v: 4, si: trigger_33}</item>
+        <item>{v: 26, si: trigger_35}</item>
+        <item>{v: 9, si: trigger_37}</item>
+        <item>{v: 10, si: trigger_38}</item>
+        <item>{v: 11, si: trigger_39}</item>
+        <item>{v: 12, si: trigger_40}</item>
+        <item>{v: 13, si: trigger_41}</item>
+        <item>{v: 14, si: trigger_42}</item>
+        <item>{v: 15, si: trigger_43}</item>
+        <item>{v: 16, si: trigger_44}</item>
+        <item>{v: 17, si: trigger_45}</item>
+        <item>{v: 18, si: trigger_46}</item>
+        <item>{v: 19, si: trigger_47}</item>
+        <item>{v: 20, si: trigger_48}</item>
+        <item>{v: 21, si: trigger_49}</item>
+        <item>{v: 22, si: trigger_50}</item>
+        <item>{v: 23, si: trigger_51}</item>
+        <item>{v: 24, si: trigger_52}</item>
+    </string-array>
+    <string-array name="msg_trigger_spi_cs">
+        <item>{v: 1, si: trigger_504}</item>
+        <item>{v: 2, si: trigger_505}</item>
+        <item>{v: 3, si: trigger_506}</item>
+        <item>{v: 4, si: trigger_507}</item>
+        <item>{v: 9, si: trigger_508}</item>
+        <item>{v: 10, si: trigger_509}</item>
+        <item>{v: 11, si: trigger_510}</item>
+        <item>{v: 12, si: trigger_511}</item>
+        <item>{v: 13, si: trigger_512}</item>
+        <item>{v: 14, si: trigger_513}</item>
+        <item>{v: 15, si: trigger_514}</item>
+        <item>{v: 16, si: trigger_515}</item>
+        <item>{v: 17, si: trigger_516}</item>
+        <item>{v: 18, si: trigger_517}</item>
+        <item>{v: 19, si: trigger_518}</item>
+        <item>{v: 20, si: trigger_519}</item>
+        <item>{v: 21, si: trigger_520}</item>
+        <item>{v: 22, si: trigger_521}</item>
+        <item>{v: 23, si: trigger_522}</item>
+        <item>{v: 24, si: trigger_523}</item>
+    </string-array>
+    <string-array name="msg_trigger_spi_csmode">
+        <item>{v: 0, pi: RS232_P, si: trigger_529}</item>
+        <item>{v: 1, pi: RS232_N, si: trigger_530}</item>
+    </string-array>
+    <string-array name="msg_trigger_spi_data">
+        <item>{v: 0, si: trigger_535}</item>
+        <item>{v: 1, si: trigger_536}</item>
+        <item>{v: 2, si: trigger_537}</item>
+    </string-array>
+    <string-array name="msg_trigger_spi_scl">
+        <item>{v: 1, si: trigger_462}</item>
+        <item>{v: 2, si: trigger_463}</item>
+        <item>{v: 3, si: trigger_464}</item>
+        <item>{v: 4, si: trigger_465}</item>
+        <item>{v: 9, si: trigger_466}</item>
+        <item>{v: 10, si: trigger_467}</item>
+        <item>{v: 11, si: trigger_468}</item>
+        <item>{v: 12, si: trigger_469}</item>
+        <item>{v: 13, si: trigger_470}</item>
+        <item>{v: 14, si: trigger_471}</item>
+        <item>{v: 15, si: trigger_472}</item>
+        <item>{v: 16, si: trigger_473}</item>
+        <item>{v: 17, si: trigger_474}</item>
+        <item>{v: 18, si: trigger_475}</item>
+        <item>{v: 19, si: trigger_476}</item>
+        <item>{v: 20, si: trigger_477}</item>
+        <item>{v: 21, si: trigger_478}</item>
+        <item>{v: 22, si: trigger_479}</item>
+        <item>{v: 23, si: trigger_480}</item>
+        <item>{v: 24, si: trigger_481}</item>
+    </string-array>
+    <string-array name="msg_trigger_spi_sda">
+        <item>{v: 1, si: trigger_483}</item>
+        <item>{v: 2, si: trigger_484}</item>
+        <item>{v: 3, si: trigger_485}</item>
+        <item>{v: 4, si: trigger_486}</item>
+        <item>{v: 9, si: trigger_487}</item>
+        <item>{v: 10, si: trigger_488}</item>
+        <item>{v: 11, si: trigger_489}</item>
+        <item>{v: 12, si: trigger_490}</item>
+        <item>{v: 13, si: trigger_491}</item>
+        <item>{v: 14, si: trigger_492}</item>
+        <item>{v: 15, si: trigger_493}</item>
+        <item>{v: 16, si: trigger_494}</item>
+        <item>{v: 17, si: trigger_495}</item>
+        <item>{v: 18, si: trigger_496}</item>
+        <item>{v: 19, si: trigger_497}</item>
+        <item>{v: 20, si: trigger_498}</item>
+        <item>{v: 21, si: trigger_499}</item>
+        <item>{v: 22, si: trigger_500}</item>
+        <item>{v: 23, si: trigger_501}</item>
+        <item>{v: 24, si: trigger_502}</item>
+    </string-array>
+    <string-array name="msg_trigger_spi_when">
+        <item>{v: 0, si: trigger_526}</item>
+        <item>{v: 1, si: trigger_527}</item>
+    </string-array>
+    <string-array name="msg_trigger_sweep">
+        <item>{v: 0, si: trigger_113}</item>
+        <item>{v: 1, si: trigger_114}</item>
+        <item>{v: 2, si: trigger_115}</item>
+    </string-array>
+    <string-array name="msg_trigger_type">
+        <item>{v: 0, si: trigger_3}</item>
+        <item>{v: 1, si: trigger_4}</item>
+        <item>{v: 2, si: trigger_5}</item>
+        <item>{v: 3, si: trigger_6}</item>
+        <item>{v: 4, si: trigger_7}</item>
+        <item>{v: 5, si: trigger_8}</item>
+        <item>{v: 6, si: trigger_9}</item>
+        <item>{v: 7, si: trigger_10}</item>
+        <item>{v: 8, si: trigger_11}</item>
+        <item>{v: 10, si: trigger_13}</item>
+        <item>{v: 11, si: trigger_14}</item>
+        <item>{v: 12, si: trigger_15}</item>
+        <item>{v: 13, si: trigger_16}</item>
+        <item>{v: 14, si: trigger_17}</item>
+        <item>{v: 15, si: trigger_18}</item>
+        <item>{v: 16, si: trigger_19}</item>
+        <item>{v: 18, si: trigger_21}</item>
+        <item>{v: 19, si: trigger_22}</item>
+        <item>{v: 20, si: trigger_23}</item>
+        <item>{v: 22, si: trigger_25}</item>
+    </string-array>
+    <string-array name="msg_trigger_video_standard">
+        <item>{v: 0, si: trigger_177}</item>
+        <item>{v: 1, si: trigger_178}</item>
+        <item>{v: 2, si: trigger_179}</item>
+        <item>{v: 3, si: trigger_180}</item>
+        <item>{v: 4, si: trigger_181}</item>
+        <item>{v: 5, si: trigger_182}</item>
+        <item>{v: 6, si: trigger_183}</item>
+        <item>{v: 7, si: trigger_184}</item>
+        <item>{v: 8, si: trigger_185}</item>
+        <item>{v: 9, si: trigger_186}</item>
+        <item>{v: 10, si: trigger_187}</item>
+        <item>{v: 11, si: trigger_188}</item>
+        <item>{v: 12, si: trigger_189}</item>
+        <item>{v: 13, si: trigger_190}</item>
+        <item>{v: 14, si: trigger_191}</item>
+        <item>{v: 15, si: trigger_192}</item>
+    </string-array>
+    <string-array name="msg_trigger_video_sync">
+        <item>{v: 0, si: trigger_172}</item>
+        <item>{v: 1, si: trigger_173}</item>
+        <item>{v: 2, si: trigger_174}</item>
+        <item>{v: 3, si: trigger_175}</item>
+    </string-array>
+    <string-array name="msg_trigger_window_pos">
+        <item>{v: 0, si: trigger_217}</item>
+        <item>{v: 1, si: trigger_218}</item>
+        <item>{v: 2, si: trigger_219}</item>
+    </string-array>
+    <string-array name="msg_upa_power_curr">
+        <item>{v: 1, si: upa_12}</item>
+        <item>{v: 2, si: upa_13}</item>
+        <item>{v: 3, si: upa_14}</item>
+        <item>{v: 4, si: upa_15}</item>
+    </string-array>
+    <string-array name="msg_upa_power_disp">
+        <item>{v: 0, si: upa_31}</item>
+        <item>{v: 1, si: upa_32}</item>
+    </string-array>
+    <string-array name="msg_upa_power_fref">
+        <item>{v: 0, si: upa_34}</item>
+        <item>{v: 1, si: upa_35}</item>
+    </string-array>
+    <string-array name="msg_upa_power_volt">
+        <item>{v: 1, si: upa_7}</item>
+        <item>{v: 2, si: upa_8}</item>
+        <item>{v: 3, si: upa_9}</item>
+        <item>{v: 4, si: upa_10}</item>
+    </string-array>
+    <string-array name="msg_upa_refl_type">
+        <item>{v: 0, si: upa_18}</item>
+        <item>{v: 1, si: upa_19}</item>
+    </string-array>
+    <string-array name="msg_upa_ripple_disp">
+        <item>{v: 0, si: upa_46}</item>
+        <item>{v: 1, si: upa_47}</item>
+    </string-array>
+    <string-array name="msg_upa_ripple_source">
+        <item>{v: 1, si: upa_40}</item>
+        <item>{v: 2, si: upa_41}</item>
+        <item>{v: 3, si: upa_42}</item>
+        <item>{v: 4, si: upa_43}</item>
+    </string-array>
+    <string-array name="msg_upa_type">
+        <item>{v: 0, si: upa_3}</item>
+        <item>{v: 1, si: upa_4}</item>
+    </string-array>
+    <string-array name="msg_usb_analyse_diff">
+        <item>{v: 1, si: usbanalyse_15}</item>
+        <item>{v: 2, si: usbanalyse_16}</item>
+        <item>{v: 3, si: usbanalyse_17}</item>
+        <item>{v: 4, si: usbanalyse_18}</item>
+    </string-array>
+    <string-array name="msg_usb_analyse_dp">
+        <item>{v: 1, si: usbanalyse_5}</item>
+        <item>{v: 2, si: usbanalyse_6}</item>
+        <item>{v: 3, si: usbanalyse_7}</item>
+        <item>{v: 4, si: usbanalyse_8}</item>
+    </string-array>
+    <string-array name="msg_usb_analyse_ds">
+        <item>{v: 1, si: usbanalyse_10}</item>
+        <item>{v: 2, si: usbanalyse_11}</item>
+        <item>{v: 3, si: usbanalyse_12}</item>
+        <item>{v: 4, si: usbanalyse_13}</item>
+    </string-array>
+    <string-array name="msg_usb_analyse_point">
+        <item>{v: 0, si: usbanalyse_27}</item>
+        <item>{v: 1, si: usbanalyse_28}</item>
+    </string-array>
+    <string-array name="msg_usb_analyse_type">
+        <item>{v: 0, si: usbanalyse_20}</item>
+        <item>{v: 1, si: usbanalyse_21}</item>
+        <item>{v: 2, si: usbanalyse_22}</item>
+        <item>{v: 3, si: usbanalyse_23}</item>
+        <item>{v: 4, si: usbanalyse_24}</item>
+        <item>{v: 5, si: usbanalyse_25}</item>
+    </string-array>
+    <string-array name="tek_msg_hor_delay_sample">
+        <item>{v: 0, si: horizontal_124}</item>
+        <item>{v: 1, si: horizontal_125}</item>
+    </string-array>
+    <string-array name="window_type_list">
+        <item>{v: 1, si: multiwindow_6}</item>
+        <item>{v: 3, si: multiwindow_7}</item>
+        <item>{v: 4, si: multiwindow_8}</item>
+        <item>{v: 5, si: multiwindow_9}</item>
+        <item>{v: 6, si: multiwindow_10}</item>
+        <item>{v: 7, si: multiwindow_11}</item>
+        <item>{v: 8, si: multiwindow_12}</item>
+        <item>{v: 9, si: multiwindow_13}</item>
+        <item>{v: 10, si: multiwindow_14}</item>
+        <item>{v: 11, si: multiwindow_15}</item>
+        <item>{v: 12, si: multiwindow_16}</item>
+        <item>{v: 13, si: multiwindow_17}</item>
+        <item>{v: 14, si: multiwindow_18}</item>
+        <item>{v: 15, si: multiwindow_19}</item>
+        <item>{v: 16, si: multiwindow_20}</item>
+        <item>{v: 17, si: multiwindow_21}</item>
+        <item>{v: 18, si: multiwindow_22}</item>
+        <item>{v: 19, si: multiwindow_23}</item>
+        <item>{v: 20, si: multiwindow_24}</item>
+        <item>{v: 21, si: multiwindow_25}</item>
+        <item>{v: 23, si: multiwindow_26}</item>
+        <item>{v: 24, si: multiwindow_27}</item>
+        <item>{v: 25, si: multiwindow_28}</item>
+        <item>{v: 26, si: multiwindow_29}</item>
+        <item>{v: 27, si: multiwindow_30}</item>
+    </string-array>
+</resources>

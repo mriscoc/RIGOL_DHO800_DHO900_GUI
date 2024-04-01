@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rigol.scope.views.resultItem.ResultItemConstraintLayout android:tag="layout/adapter_item_result_histogram_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/title_layout" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ResultItemTitleLayout">
+        <ImageView android:id="@id/icon" android:tag="binding_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/App.Image.ResultItem" />
+        <TextView android:id="@id/title" android:tag="binding_2" app:layout_constraintBottom_toBottomOf="@id/icon" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="@id/icon" style="@style/App.Title.ResultItem" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.rigol.scope.views.DisableTouchEventRecyclerView android:id="@id/result_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" style="@style/App.RecyclerView.Linear" />
+</com.rigol.scope.views.resultItem.ResultItemConstraintLayout>

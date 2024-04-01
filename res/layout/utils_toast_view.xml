@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="@drawable/utils_toast_bg" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.blankj.utilcode.util.ToastUtils$UtilsMaxWidthRelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/utvLeftIconView" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <View android:id="@id/utvTopIconView" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/utvRightIconView" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/utvBottomIconView" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="4.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#de000000" android:gravity="center" android:id="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/utvRightIconView" android:layout_toRightOf="@id/utvLeftIconView" android:layout_above="@id/utvBottomIconView" android:layout_below="@id/utvTopIconView" android:layout_centerInParent="true" android:lineSpacingExtra="2.0dip" android:fontFamily="sans-serif" />
+</view>

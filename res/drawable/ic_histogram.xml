@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.399994dip" android:width="42.5dip" android:viewportWidth="42.5" android:viewportHeight="36.4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_histogram__0" android:pathData="M1.2,35.2v-2.3c0,0 9.6,-2.4 11.8,-9S17.7,1.2 21,1.2s6.7,20 9,23.8c1.9,3 4.7,8.1 11.2,7.9c0,2.3 0,2.3 0,2.3H1.2z" android:strokeAlpha="0.8" android:fillAlpha="0.8" />
+    <path android:fillColor="#00000000" android:pathData="M1.2,35.2v-2.3c0,0 9.6,-2.4 11.8,-9S17.7,1.2 21,1.2s6.7,20 9,23.8c1.9,3 4.7,8.1 11.2,7.9c0,2.3 0,2.3 0,2.3H1.2z" android:strokeColor="#ffffffff" android:strokeWidth="2.4286" android:strokeAlpha="0.8" android:fillAlpha="0.8" />
+</vector>

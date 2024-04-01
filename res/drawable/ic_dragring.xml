@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="72.0dip" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_dragring__0" android:pathData="M36.1,60.2c-13.6,0 -24.6,-11 -24.6,-24.6C11.6,22 22.6,11 36.1,11c13.6,0 24.6,11 24.6,24.6C60.7,49.1 49.7,60.2 36.1,60.2z" />
+    <path android:fillColor="#ff023b6c" android:pathData="M36.1,11.6c13.2,0 24,10.8 24,24s-10.8,24 -24,24s-24,-10.8 -24,-24S22.9,11.6 36.1,11.6M36.1,10.4c-13.9,0 -25.2,11.3 -25.2,25.2s11.3,25.2 25.2,25.2s25.2,-11.3 25.2,-25.2S50.1,10.4 36.1,10.4L36.1,10.4z" />
+    <path android:fillColor="@drawable/$ic_dragring__1" android:pathData="M36.1,49.1c-7.4,0 -13.5,-6.1 -13.5,-13.5c0,-7.4 6.1,-13.5 13.5,-13.5c7.4,0 13.5,6.1 13.5,13.5C49.6,43 43.6,49.1 36.1,49.1z" />
+    <path android:fillColor="#ff6cc6d6" android:pathData="M36.1,22.7c7.1,0 12.9,5.8 12.9,12.9c0,7.1 -5.8,12.9 -12.9,12.9c-7.1,0 -12.9,-5.8 -12.9,-12.9C23.3,28.5 29,22.7 36.1,22.7M36.1,21.5c-7.8,0 -14.1,6.3 -14.1,14.1s6.3,14.1 14.1,14.1s14.1,-6.3 14.1,-14.1S43.9,21.5 36.1,21.5L36.1,21.5z" />
+</vector>

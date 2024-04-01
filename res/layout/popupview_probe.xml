@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_probe_0" style="@style/App.PopupWindow.Probe"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" app:tabMaxWidth="120.0dip" style="@style/App.TabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/vertical_setting" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+    <Button android:id="@id/vertical_setting" android:tag="binding_1" android:layout_marginBottom="20.0dip" android:text="@string/msg_vertical" android:drawableEnd="@drawable/ic_arrow_right" android:layout_marginStart="460.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/App.Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

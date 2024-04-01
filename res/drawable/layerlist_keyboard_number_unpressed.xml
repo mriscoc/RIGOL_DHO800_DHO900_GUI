@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="10.0dip" />
+            <solid android:color="@color/keyboard_number_outer" />
+        </shape>
+    </item>
+    <item android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="10.0dip" />
+            <solid android:color="@color/keyboard_number_inner" />
+        </shape>
+    </item>
+</layer-list>

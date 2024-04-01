@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_screen_flip_0" style="@style/App.PopupWindow.ScreenFlip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_screen_flip_bg" />
+    <TextView android:textSize="36.0sp" android:textStyle="bold" android:textColor="#ffe8dc24" android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="105.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

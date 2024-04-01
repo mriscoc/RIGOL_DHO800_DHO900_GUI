@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearance" android:textSize="30.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/lcd_text0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="45.0dip" android:text="@string/lcd_desce" />
+    <TextView android:id="@id/lcd_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="?android:textAppearance" android:textSize="30.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/lcd_text" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Press 'RUN/STOP'3 times to exit" />
+    <TextView android:textAppearance="?android:textAppearance" android:textColor="@color/white" android:gravity="center" android:id="@id/exitText" android:background="@drawable/unselect" android:layout_width="65.0dip" android:layout_height="50.0dip" android:layout_marginTop="50.0dip" android:text="Exit" />
+</FrameLayout>

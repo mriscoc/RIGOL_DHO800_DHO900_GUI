@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_screen_saver_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/Idle_time_LL" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/main_ad_relative_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/main_ad_background" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/logo_r" />
+            <TextView android:textSize="72.0sp" android:textColor="@color/yellow" android:id="@id/main_ad_textview" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

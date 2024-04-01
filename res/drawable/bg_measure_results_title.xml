@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="152.0dip" android:viewportWidth="152.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_measure_results_title__0" android:pathData="M146,40H6c-3.3,0 -6,-2.7 -6,-6V6c0,-3.3 2.7,-6 6,-6h140c3.3,0 6,2.7 6,6v28C152,37.3 149.3,40 146,40z" />
+</vector>

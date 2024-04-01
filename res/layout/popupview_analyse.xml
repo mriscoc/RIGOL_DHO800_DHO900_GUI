@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_analyse_0" style="@style/App.PopupWindow.AnalysePopupView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/analyse_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="@id/title_layout" app:spanCount="5" style="@style/App.RecyclerView.Grid" />
+</androidx.constraintlayout.widget.ConstraintLayout>

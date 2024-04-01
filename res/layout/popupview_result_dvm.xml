@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_result_dvm_0" style="@style/App.PopupWindow.ResultDVM"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_left" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="90.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_right" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="210.0dip" />
+    <TextView android:id="@id/source" android:layout_marginTop="25.0dip" android:text="@string/msg_histo_source" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" style="@style/App.Text" />
+    <TextView android:id="@id/source_spinner" android:tag="binding_1" app:layout_constraintBottom_toBottomOf="@id/source" app:layout_constraintStart_toEndOf="@id/guideline_left" app:layout_constraintTop_toTopOf="@id/source" style="@style/App.Spinner" />
+    <TextView android:id="@id/mode" android:layout_marginTop="45.0dip" android:text="@string/msg_dvm_mode" app:layout_constraintStart_toStartOf="@id/source" app:layout_constraintTop_toBottomOf="@id/source" style="@style/App.Text" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/mode_radio_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/mode" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline_left" app:layout_constraintTop_toTopOf="@id/mode">
+        <RadioButton android:gravity="center" android:id="@id/mode_ac_radio_button" android:tag="binding_2" android:layout_weight="5.0" style="@style/App.RadioButton" />
+        <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4.0" />
+        <RadioButton android:gravity="center" android:id="@id/mode_dc_radio_button" android:tag="binding_3" android:layout_weight="5.0" style="@style/App.RadioButton" />
+        <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4.0" />
+        <RadioButton android:gravity="center" android:id="@id/mode_ac_dc_radio_button" android:tag="binding_4" android:layout_weight="5.0" style="@style/App.RadioButton" />
+    </RadioGroup>
+    <TextView android:id="@id/beeper" android:layout_marginTop="45.0dip" android:text="@string/msg_dvm_beep_enable" app:layout_constraintStart_toStartOf="@id/source" app:layout_constraintTop_toBottomOf="@id/mode" style="@style/App.Text" />
+    <com.rigol.scope.views.SwitchButton android:id="@id/beeper_switch" android:tag="binding_5" app:layout_constraintBottom_toBottomOf="@id/beeper" app:layout_constraintStart_toEndOf="@id/guideline_left" app:layout_constraintTop_toTopOf="@id/beeper" style="@style/App.Switch" />
+    <TextView android:id="@id/limit_type" android:text="@string/msg_dvm_limit_type" android:layout_marginStart="16.0dip" app:layout_constraintStart_toEndOf="@id/guideline_center" app:layout_constraintTop_toTopOf="@id/beeper" style="@style/App.Text" />
+    <com.rigol.scope.views.SwitchButton android:id="@id/limit_type_switch" android:tag="binding_6" app:layout_constraintBottom_toBottomOf="@id/limit_type" app:layout_constraintStart_toEndOf="@id/guideline_right" app:layout_constraintTop_toTopOf="@id/limit_type" style="@style/App.Switch.150" />
+    <TextView android:id="@id/upper" android:layout_marginTop="45.0dip" android:text="@string/msg_dvm_limit_upper" app:layout_constraintStart_toStartOf="@id/source" app:layout_constraintTop_toBottomOf="@id/beeper" style="@style/App.Text" />
+    <EditText android:id="@id/upper_edit_text" android:tag="binding_7" app:layout_constraintBottom_toBottomOf="@id/upper" app:layout_constraintStart_toEndOf="@id/guideline_left" app:layout_constraintTop_toTopOf="@id/upper" style="@style/App.EditText" />
+    <TextView android:id="@id/lower" android:text="@string/msg_dvm_limit_lower" app:layout_constraintStart_toStartOf="@id/limit_type" app:layout_constraintTop_toTopOf="@id/upper" style="@style/App.Text" />
+    <EditText android:id="@id/lower_edit_text" android:tag="binding_8" app:layout_constraintBottom_toBottomOf="@id/lower" app:layout_constraintStart_toEndOf="@id/guideline_right" app:layout_constraintTop_toTopOf="@id/lower" style="@style/App.EditText" />
+    <TextView android:id="@id/delete" android:visibility="invisible" android:layout_marginTop="45.0dip" android:text="@string/msg_app_meas_clear_one" app:layout_constraintStart_toStartOf="@id/source" app:layout_constraintTop_toBottomOf="@id/upper_edit_text" style="@style/App.Text" />
+    <Button android:id="@id/delete_button" android:background="@color/red" android:text="@string/msg_app_meas_clear_one" app:layout_constraintBottom_toBottomOf="@id/delete" app:layout_constraintStart_toEndOf="@id/guideline_left" app:layout_constraintTop_toTopOf="@id/delete" style="@style/App.Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

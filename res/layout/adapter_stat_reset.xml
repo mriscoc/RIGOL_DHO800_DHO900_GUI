@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/adapter_stat_reset_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/tv_stat_reset" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/msg_quick_stat_reset" android:layout_marginStart="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/statReset_radio_group" android:background="@drawable/bg_rectangle_normal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_stat_reset">
+        <RadioButton android:theme="@style/App.RadioButton" android:textSize="16.0sp" android:id="@id/radioButton_measure" android:tag="binding_1" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" style="@style/App.RadioButton" />
+        <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <RadioButton android:theme="@style/App.RadioButton" android:textSize="16.0sp" android:id="@id/radioButton_mask" android:tag="binding_2" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" style="@style/App.RadioButton" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

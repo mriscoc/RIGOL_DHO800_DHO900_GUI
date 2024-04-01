@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background2">
+        <vector android:height="43.0dip" android:width="135.0dip" android:viewportWidth="135.0" android:viewportHeight="43.0">
+            <path android:fillColor="#ff000000" android:pathData="M4,42.5c-1.93,0 -3.5,-1.57 -3.5,-3.5V4c0,-1.93 1.57,-3.5 3.5,-3.5h127c1.93,0 3.5,1.57 3.5,3.5v35c0,1.93 -1.57,3.5 -3.5,3.5H4z" />
+        </vector>
+    </item>
+    <item android:id="@id/background">
+        <vector android:height="43.0dip" android:width="135.0dip" android:viewportWidth="135.0" android:viewportHeight="43.0">
+            <path android:fillColor="#ff7b888f" android:pathData="M131,1c1.65,0 3,1.35 3,3v35c0,1.65 -1.35,3 -3,3H4c-1.65,0 -3,-1.35 -3,-3V4c0,-1.65 1.35,-3 3,-3H131M131,0H4C1.8,0 0,1.8 0,4v35c0,2.2 1.8,4 4,4h127c2.2,0 4,-1.8 4,-4V4C135,1.8 133.2,0 131,0L131,0z" />
+        </vector>
+    </item>
+    <item android:id="@id/background1">
+        <vector android:height="43.0dip" android:width="135.0dip" android:viewportWidth="135.0" android:viewportHeight="43.0">
+            <path android:fillColor="#ff2d393e" android:pathData="M130.6,40.2H35.98V2.8h94.62c1.1,0 2,0.9 2,2V38.2C132.6,39.3 131.7,40.2 130.6,40.2z" />
+        </vector>
+    </item>
+</layer-list>

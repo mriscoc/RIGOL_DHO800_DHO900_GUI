@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="37.0dip" android:width="65.69998dip" android:viewportWidth="65.7" android:viewportHeight="37.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_auto__0" android:pathData="M14.8,4.3l-5.3,18l6.5,-0.3l0,-20.2z" />
+    <path android:fillColor="@drawable/$ic_auto__1" android:pathData="M17.2,4.3l5.3,18l-6.5,-0.3l0,-20.2z" />
+    <path android:fillColor="@drawable/$ic_auto__2" android:pathData="M9.9,27.7l3.1,8.4l-5.5,0.9z" />
+    <path android:fillColor="@drawable/$ic_auto__3" android:pathData="M22.1,27.4l-2.8,8.5l5.6,1z" />
+    <path android:fillColor="@drawable/$ic_auto__4" android:pathData="M9.7,27.4l12.4,0l-2.8,8.5l-6.3,0.2z" />
+    <path android:fillColor="#ffffff00" android:pathData="M22.1,27.5h-12L7.5,37H0L11.9,0h8.7l11.9,37h-7.7L22.1,27.5zM20.5,21.7l-1.1,-4c-1.1,-3.9 -2.1,-8.1 -3.2,-12.1H16c-0.9,4 -2,8.2 -3.1,12.1l-1.1,4H20.5z" />
+    <path android:fillColor="@drawable/$ic_auto__5" android:pathData="M31.6,22.9v-7.7h3.2v7.3c0,1.9 0.5,2.6 1.7,2.6c1,0 1.7,-0.4 2.5,-1.5v-8.3h3.2v12.3h-2.6l-0.2,-1.8h-0.1c-1.1,1.3 -2.2,2.1 -3.9,2.1C32.8,27.8 31.6,26 31.6,22.9z" />
+    <path android:fillColor="@drawable/$ic_auto__6" android:pathData="M46.2,23.2v-5.5h-1.7v-2.4l1.9,-0.2l0.4,-3.3h2.7v3.3h3v2.6h-3v5.5c0,1.4 0.6,2.1 1.7,2.1c0.4,0 0.9,-0.1 1.2,-0.3l0.5,2.4c-0.7,0.2 -1.5,0.5 -2.6,0.5C47.4,27.8 46.2,26 46.2,23.2z" />
+    <path android:fillColor="@drawable/$ic_auto__7" android:pathData="M53.8,21.4c0,-4.1 2.8,-6.5 5.9,-6.5c3.1,0 5.9,2.4 5.9,6.5c0,4.1 -2.8,6.4 -5.9,6.4C56.7,27.8 53.8,25.4 53.8,21.4zM62.4,21.4c0,-2.3 -0.9,-3.9 -2.6,-3.9c-1.7,0 -2.6,1.5 -2.6,3.9c0,2.3 0.9,3.8 2.6,3.8C61.4,25.2 62.4,23.7 62.4,21.4z" />
+</vector>

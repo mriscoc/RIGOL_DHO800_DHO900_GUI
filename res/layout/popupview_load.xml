@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popupview_load_0" style="@style/App.PopupWindow.Load"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/base_popupview_title" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <TextView android:id="@id/file_format" android:layout_marginTop="35.0dip" android:text="@string/msg_storage_scr_format" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" style="@style/App.Text" />
+    <TextView android:id="@id/file_format_spinner" android:tag="binding_1" android:layout_marginStart="84.0dip" app:layout_constraintBottom_toBottomOf="@id/file_format" app:layout_constraintStart_toStartOf="@id/file_format" app:layout_constraintTop_toTopOf="@id/file_format" style="@style/App.Spinner" />
+    <TextView android:id="@id/file_path" android:layout_marginTop="70.0dip" android:text="@string/msg_storage_filepath" app:layout_constraintStart_toStartOf="@id/file_format" app:layout_constraintTop_toBottomOf="@id/file_format" style="@style/App.Text" />
+    <EditText android:id="@id/file_path_text" android:tag="binding_2" android:layout_width="0.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/file_path" app:layout_constraintEnd_toStartOf="@id/load_btn" app:layout_constraintStart_toStartOf="@id/file_format_spinner" app:layout_constraintTop_toTopOf="@id/file_path" style="@style/App.EditText" />
+    <Button android:id="@id/load_btn" android:background="@drawable/sel_rectangle_gray" android:layout_width="130.0dip" android:layout_height="50.0dip" android:text="@string/msg_storage_load" android:textAllCaps="false" android:layout_marginStart="174.0dip" app:layout_constraintBottom_toBottomOf="@id/file_path" app:layout_constraintStart_toStartOf="@id/guideline_center" app:layout_constraintTop_toTopOf="@id/file_path" />
+</androidx.constraintlayout.widget.ConstraintLayout>

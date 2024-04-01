@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="39.399994dip" android:width="30.399994dip" android:viewportWidth="30.4" android:viewportHeight="39.4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_vertical__0" android:pathData="M21.4,0.8h7.7v37.8h-7.7z" />
+    <path android:fillColor="@drawable/$ic_vertical__1" android:pathData="M15.3,0h4.1v0.8h-4.1z" />
+    <path android:fillColor="@drawable/$ic_vertical__2" android:pathData="M21,0h4.1v0.8h-4.1z" />
+    <path android:fillColor="@drawable/$ic_vertical__3" android:pathData="M27.2,0h3.3v0.8h-3.3z" />
+    <path android:fillColor="@drawable/$ic_vertical__4" android:pathData="M9.5,0h4.1v0.8h-4.1z" />
+    <path android:fillColor="@drawable/$ic_vertical__5" android:pathData="M15.3,38.6h4.1v0.8h-4.1z" />
+    <path android:fillColor="@drawable/$ic_vertical__6" android:pathData="M21,38.6h4.1v0.8h-4.1z" />
+    <path android:fillColor="@drawable/$ic_vertical__7" android:pathData="M27.2,38.6h3.3v0.8h-3.3z" />
+    <path android:fillColor="@drawable/$ic_vertical__8" android:pathData="M9.5,38.6h4.1v0.8h-4.1z" />
+    <path android:fillColor="@drawable/$ic_vertical__9" android:pathData="M6.5,38.6c1.4,-2.2 3.7,-4.8 6.1,-6.5l-4.6,1V6.2l4.6,1C10.2,5.6 8,3 6.5,0.8h0.7V0H4.6v0.8h1.4C4.6,3 2.4,5.6 0,7.3l4.6,-1v26.9l-4.6,-1c2.4,1.7 4.6,4.3 6.1,6.5H4.6v0.8h2.6v-0.8L6.5,38.6L6.5,38.6z" />
+</vector>

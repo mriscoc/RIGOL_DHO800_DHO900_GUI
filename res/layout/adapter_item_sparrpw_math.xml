@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/itemView" android:tag="layout/adapter_item_sparrpw_math_0" android:background="@color/keyboard_number_unit" android:layout_width="36.0dip" android:layout_height="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:ellipsize="marquee" android:gravity="center" android:id="@id/text1" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="24.0dip" android:singleLine="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -94,7 +94,7 @@
 
     const/16 v1, 0x29
 
-    const/16 v2, 0x51e7
+    const/16 v2, 0x4fe7
 
     iget-object v3, p0, Lcom/rigol/scope/adapters/TriggerOverAdapter$5;->this$0:Lcom/rigol/scope/adapters/TriggerOverAdapter;
 

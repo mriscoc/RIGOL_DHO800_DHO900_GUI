@@ -100,7 +100,7 @@
 
     move-result v0
 
-    const/16 v1, 0x900
+    const/16 v1, 0x700
 
     invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -145,7 +145,7 @@
 
     move-result v0
 
-    const/16 v2, 0x901
+    const/16 v2, 0x701
 
     invoke-virtual {p2, v0, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

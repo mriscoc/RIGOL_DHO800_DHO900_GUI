@@ -54,7 +54,7 @@
 
     const/16 v0, 0x16
 
-    const/16 v1, 0x4326
+    const/16 v1, 0x4126
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

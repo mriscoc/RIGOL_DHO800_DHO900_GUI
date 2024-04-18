@@ -399,7 +399,7 @@
 .method public readEth_source()V
     .locals 1
 
-    const/16 v0, 0x1704
+    const/16 v0, 0x1504
 
     .line 176
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->readInt(I)I
@@ -501,7 +501,7 @@
     .line 388
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x1705
+    const/16 v0, 0x1505
 
     .line 389
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveInt(II)I
@@ -520,7 +520,7 @@
     .line 375
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x1707
+    const/16 v0, 0x1507
 
     .line 376
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -534,7 +534,7 @@
     .line 274
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_diff_voltage:Z
 
-    const/16 v0, 0x1708
+    const/16 v0, 0x1508
 
     .line 275
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -548,7 +548,7 @@
     .line 329
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_dutycycle:Z
 
-    const/16 v0, 0x170d
+    const/16 v0, 0x150d
 
     .line 330
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -562,7 +562,7 @@
     .line 340
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_eye:Z
 
-    const/16 v0, 0x170e
+    const/16 v0, 0x150e
 
     .line 341
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -576,7 +576,7 @@
     .line 351
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_eye_ui:Z
 
-    const/16 v0, 0x1706
+    const/16 v0, 0x1506
 
     .line 352
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -590,7 +590,7 @@
     .line 362
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_jitter:Z
 
-    const/16 v0, 0x170f
+    const/16 v0, 0x150f
 
     .line 363
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -604,7 +604,7 @@
     .line 318
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_overshoot:Z
 
-    const/16 v0, 0x170c
+    const/16 v0, 0x150c
 
     .line 319
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -618,7 +618,7 @@
     .line 307
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_rfsymmetry:Z
 
-    const/16 v0, 0x170b
+    const/16 v0, 0x150b
 
     .line 308
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -632,7 +632,7 @@
     .line 296
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_rftime:Z
 
-    const/16 v0, 0x170a
+    const/16 v0, 0x150a
 
     .line 297
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -646,7 +646,7 @@
     .line 285
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_sigas:Z
 
-    const/16 v0, 0x1709
+    const/16 v0, 0x1509
 
     .line 286
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -678,7 +678,7 @@
     .line 231
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth10_different_voltage:Z
 
-    const/16 v0, 0x1714
+    const/16 v0, 0x1514
 
     .line 232
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -692,7 +692,7 @@
     .line 242
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth10_harmonics:Z
 
-    const/16 v0, 0x1715
+    const/16 v0, 0x1515
 
     .line 243
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -706,7 +706,7 @@
     .line 220
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth10_jitter:Z
 
-    const/16 v0, 0x1713
+    const/16 v0, 0x1513
 
     .line 221
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -720,7 +720,7 @@
     .line 187
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth10_link_pluse:Z
 
-    const/16 v0, 0x1710
+    const/16 v0, 0x1510
 
     .line 188
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -734,7 +734,7 @@
     .line 209
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth10_mau:Z
 
-    const/16 v0, 0x1712
+    const/16 v0, 0x1512
 
     .line 210
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -748,7 +748,7 @@
     .line 198
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth10_tp_idl:Z
 
-    const/16 v0, 0x1711
+    const/16 v0, 0x1511
 
     .line 199
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveBool(IZ)I
@@ -767,7 +767,7 @@
     .line 170
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x1704
+    const/16 v0, 0x1504
 
     .line 171
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveInt(II)I
@@ -786,7 +786,7 @@
     .line 157
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x1703
+    const/16 v0, 0x1503
 
     .line 158
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->saveInt(II)I

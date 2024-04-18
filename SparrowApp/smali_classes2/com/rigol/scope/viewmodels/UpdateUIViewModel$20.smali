@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x942
+    const/16 v1, 0x742
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 

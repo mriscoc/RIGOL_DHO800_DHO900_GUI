@@ -66,7 +66,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x351e
+    const/16 v2, 0x331e
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 

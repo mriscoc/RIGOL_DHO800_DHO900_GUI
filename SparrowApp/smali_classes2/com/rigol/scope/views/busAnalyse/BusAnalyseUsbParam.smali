@@ -155,7 +155,7 @@
 .method public readAll()V
     .locals 1
 
-    const/16 v0, 0x5506
+    const/16 v0, 0x5306
 
     .line 175
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->readInt(I)I
@@ -164,7 +164,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_type:I
 
-    const/16 v0, 0x5503
+    const/16 v0, 0x5303
 
     .line 176
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->readInt(I)I
@@ -173,7 +173,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_source_dp:I
 
-    const/16 v0, 0x5504
+    const/16 v0, 0x5304
 
     .line 177
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->readInt(I)I
@@ -182,7 +182,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_source_ds:I
 
-    const/16 v0, 0x5507
+    const/16 v0, 0x5307
 
     .line 178
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->readInt(I)I
@@ -191,7 +191,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_point:I
 
-    const/16 v0, 0x5505
+    const/16 v0, 0x5305
 
     .line 179
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->readInt(I)I
@@ -239,7 +239,7 @@
     .line 138
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_auto_set:Z
 
-    const/16 v0, 0x5502
+    const/16 v0, 0x5302
 
     .line 139
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->saveBool(IZ)I
@@ -258,7 +258,7 @@
     .line 101
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x5505
+    const/16 v0, 0x5305
 
     .line 103
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->saveInt(II)I
@@ -277,7 +277,7 @@
     .line 113
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x5507
+    const/16 v0, 0x5307
 
     .line 114
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->saveInt(II)I
@@ -296,7 +296,7 @@
     .line 158
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x5503
+    const/16 v0, 0x5303
 
     .line 159
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->saveInt(II)I
@@ -315,7 +315,7 @@
     .line 169
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x5504
+    const/16 v0, 0x5304
 
     .line 170
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->saveInt(II)I
@@ -338,7 +338,7 @@
     .line 129
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->setUsb_type(I)V
 
-    const/16 v0, 0x5506
+    const/16 v0, 0x5306
 
     .line 130
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->saveInt(II)I

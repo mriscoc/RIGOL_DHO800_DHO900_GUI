@@ -57,7 +57,7 @@
 
     const/16 v0, 0x30
 
-    const/16 v1, 0x5501
+    const/16 v1, 0x5301
 
     const/4 v2, 0x0
 
@@ -298,7 +298,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5501
+    const/16 v0, 0x5301
 
     const/4 v2, 0x1
 
@@ -548,7 +548,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5502
+    const/16 v0, 0x5302
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/BusAnalyseUsbAdapter;->param:Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;
 

@@ -105,7 +105,7 @@
 
     if-eqz p1, :cond_1
 
-    const-string p2, "34_8990"
+    const-string p2, "34_8478"
 
     .line 1753
     invoke-virtual {p1, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;

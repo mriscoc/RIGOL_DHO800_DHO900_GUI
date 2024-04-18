@@ -304,7 +304,7 @@
 
     const/16 v1, 0x39
 
-    const/16 v2, 0x1f19
+    const/16 v2, 0x1d19
 
     .line 140
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -326,7 +326,7 @@
 
     const/16 v1, 0x16
 
-    const/16 v2, 0x4326
+    const/16 v2, 0x4126
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1194,7 +1194,7 @@
     .line 151
     iget-object p1, p0, Lcom/rigol/scope/views/ref/RefPopupView;->param:Lcom/rigol/scope/data/RefParam;
 
-    const/16 v0, 0x4302
+    const/16 v0, 0x4102
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/RefParam;->readInt(I)I
 

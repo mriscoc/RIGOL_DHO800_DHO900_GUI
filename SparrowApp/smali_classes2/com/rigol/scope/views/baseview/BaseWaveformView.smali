@@ -711,7 +711,7 @@
 
     if-eqz v0, :cond_8
 
-    const/16 v1, 0x5101
+    const/16 v1, 0x4f01
 
     const/16 v2, 0x29
 
@@ -735,7 +735,7 @@
     .line 754
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x51f8
+    const/16 v1, 0x4ff8
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -756,7 +756,7 @@
     .line 767
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x511c
+    const/16 v1, 0x4f1c
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -777,7 +777,7 @@
     .line 780
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2544
+    const/16 v1, 0x2344
 
     const/16 v2, 0xa
 
@@ -800,7 +800,7 @@
     .line 811
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2510
+    const/16 v1, 0x2310
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1630,7 +1630,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5b02
+    const/16 v2, 0x5902
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -3951,7 +3951,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5bae
+    const/16 v3, 0x59ae
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -4558,7 +4558,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b19
+    const/16 v3, 0x5919
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4583,7 +4583,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b01
+    const/16 v3, 0x5901
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4608,7 +4608,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b3e
+    const/16 v3, 0x593e
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4633,7 +4633,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b3d
+    const/16 v3, 0x593d
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4658,7 +4658,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b25
+    const/16 v3, 0x5925
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4683,7 +4683,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b26
+    const/16 v3, 0x5926
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4708,7 +4708,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b18
+    const/16 v3, 0x5918
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4737,7 +4737,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5b02
+    const/16 v3, 0x5902
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -4762,7 +4762,7 @@
 
     move-result v2
 
-    const/16 v3, 0x5bae
+    const/16 v3, 0x59ae
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5040,7 +5040,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x3531
+    const/16 v1, 0x3331
 
     const/16 v2, 0x1c
 
@@ -5066,7 +5066,7 @@
     .line 561
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x3532
+    const/16 v1, 0x3332
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5089,7 +5089,7 @@
     .line 570
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x3533
+    const/16 v1, 0x3333
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5112,7 +5112,7 @@
     .line 580
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x353f
+    const/16 v1, 0x333f
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5177,7 +5177,7 @@
     .line 609
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x3513
+    const/16 v1, 0x3313
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5428,7 +5428,7 @@
 
     move-result v2
 
-    const/16 v3, 0x912
+    const/16 v3, 0x712
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5453,7 +5453,7 @@
 
     move-result v2
 
-    const/16 v3, 0x900
+    const/16 v3, 0x700
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5478,7 +5478,7 @@
 
     move-result v2
 
-    const/16 v3, 0x901
+    const/16 v3, 0x701
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5503,7 +5503,7 @@
 
     move-result v2
 
-    const/16 v3, 0x90e
+    const/16 v3, 0x70e
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5528,7 +5528,7 @@
 
     move-result v2
 
-    const/16 v3, 0x90c
+    const/16 v3, 0x70c
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -5618,9 +5618,9 @@
     .line 726
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    const/16 v1, 0x51e7
+    const/16 v1, 0x4fe7
 
-    const/16 v2, 0x51e6
+    const/16 v2, 0x4fe6
 
     const/16 v3, 0x29
 
@@ -5907,7 +5907,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x51ab
+    const/16 v0, 0x4fab
 
     invoke-static {v3, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -6347,7 +6347,7 @@
 
     move-result v2
 
-    const/16 v3, 0x311a
+    const/16 v3, 0x2f1a
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -6372,7 +6372,7 @@
 
     move-result v2
 
-    const/16 v3, 0x311b
+    const/16 v3, 0x2f1b
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -6397,7 +6397,7 @@
 
     move-result v2
 
-    const/16 v3, 0x311c
+    const/16 v3, 0x2f1c
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -6422,7 +6422,7 @@
 
     move-result v2
 
-    const/16 v3, 0x311d
+    const/16 v3, 0x2f1d
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

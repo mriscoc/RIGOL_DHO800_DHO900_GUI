@@ -1450,7 +1450,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/MathFftAdapter;->serviceId:I
 
-    const/16 v1, 0x3128
+    const/16 v1, 0x2f28
 
     const/4 v2, 0x1
 
@@ -1555,7 +1555,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/MathFftAdapter;->serviceId:I
 
-    const/16 v1, 0x3137
+    const/16 v1, 0x2f37
 
     const/4 v2, 0x1
 
@@ -1961,7 +1961,7 @@
 
     move-result v0
 
-    const/16 v1, 0x3117
+    const/16 v1, 0x2f17
 
     const/4 v2, 0x1
 

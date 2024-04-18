@@ -86,7 +86,7 @@
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x350f
+    const/16 v2, 0x330f
 
     .line 2186
     invoke-virtual {p1, v1, v2, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I

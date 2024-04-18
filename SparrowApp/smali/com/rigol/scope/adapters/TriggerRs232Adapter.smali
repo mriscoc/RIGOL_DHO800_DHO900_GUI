@@ -207,7 +207,7 @@
 
     iget v1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->serviceId:I
 
-    const/16 v2, 0x523d
+    const/16 v2, 0x503d
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -1259,7 +1259,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->serviceId:I
 
-    const/16 v2, 0x511e
+    const/16 v2, 0x4f1e
 
     invoke-virtual {p1, v0, v2, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 

@@ -910,7 +910,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerOverAdapter;->serviceId:I
 
-    const/16 v1, 0x511e
+    const/16 v1, 0x4f1e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1080,7 +1080,7 @@
 
     move-result v1
 
-    const/16 v2, 0x51b2
+    const/16 v2, 0x4fb2
 
     const/16 v3, 0x29
 
@@ -2119,13 +2119,13 @@
     goto/16 :goto_0
 
     :cond_0
-    const/16 v0, 0x5216
+    const/16 v0, 0x5016
 
-    const/16 v1, 0x51e7
+    const/16 v1, 0x4fe7
 
-    const/16 v2, 0x5217
+    const/16 v2, 0x5017
 
-    const/16 v3, 0x51e6
+    const/16 v3, 0x4fe6
 
     const/16 v4, 0x29
 

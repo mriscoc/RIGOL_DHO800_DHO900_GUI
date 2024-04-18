@@ -846,7 +846,7 @@
 .method public final getScaleValue()J
     .locals 2
 
-    const/16 v0, 0x910
+    const/16 v0, 0x710
 
     .line 942
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -956,7 +956,7 @@
 
     const/16 v3, 0x28
 
-    const/16 v4, 0x3b05
+    const/16 v4, 0x3905
 
     .line 809
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -1093,7 +1093,7 @@
 .method public final probeCal()V
     .locals 2
 
-    const/16 v0, 0x91d
+    const/16 v0, 0x71d
 
     const/4 v1, 0x0
 
@@ -1106,7 +1106,7 @@
 .method public final probeDemag()V
     .locals 2
 
-    const/16 v0, 0x933
+    const/16 v0, 0x733
 
     const/4 v1, 0x0
 
@@ -1173,21 +1173,21 @@
     .line 543
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x90f
+    const/16 v1, 0x70f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 545
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->offsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x912
+    const/16 v1, 0x712
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 547
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->positionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x942
+    const/16 v1, 0x742
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1206,7 +1206,7 @@
 .method public final readBandLimit()Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
     .locals 2
 
-    const/16 v0, 0x905
+    const/16 v0, 0x705
 
     .line 657
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1232,7 +1232,7 @@
 .method public final readChanDelay()J
     .locals 2
 
-    const/16 v0, 0x90b
+    const/16 v0, 0x70b
 
     .line 607
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1250,7 +1250,7 @@
 .method public final readCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
     .locals 2
 
-    const/16 v0, 0x904
+    const/16 v0, 0x704
 
     .line 647
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1276,7 +1276,7 @@
 .method public final readFine()Z
     .locals 1
 
-    const/16 v0, 0x909
+    const/16 v0, 0x709
 
     .line 637
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
@@ -1294,7 +1294,7 @@
 .method public final readImpedance()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
     .locals 2
 
-    const/16 v0, 0x917
+    const/16 v0, 0x717
 
     .line 724
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1320,7 +1320,7 @@
 .method public final readInvert()Z
     .locals 1
 
-    const/16 v0, 0x908
+    const/16 v0, 0x708
 
     .line 627
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
@@ -1338,7 +1338,7 @@
 .method public final readLabel()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x90e
+    const/16 v0, 0x70e
 
     .line 734
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readStr(I)Ljava/lang/String;
@@ -1356,7 +1356,7 @@
 .method public final readOffset()J
     .locals 2
 
-    const/16 v0, 0x912
+    const/16 v0, 0x712
 
     .line 587
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1374,7 +1374,7 @@
 .method public final readPosition()J
     .locals 2
 
-    const/16 v0, 0x942
+    const/16 v0, 0x742
 
     .line 597
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1392,7 +1392,7 @@
 .method public final readProbeBias()J
     .locals 2
 
-    const/16 v0, 0x91b
+    const/16 v0, 0x71b
 
     .line 698
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1413,7 +1413,7 @@
     .line 561
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x91b
+    const/16 v1, 0x71b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1423,7 +1423,7 @@
 .method public final readProbeCal()Z
     .locals 1
 
-    const/16 v0, 0x91d
+    const/16 v0, 0x71d
 
     .line 683
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
@@ -1441,7 +1441,7 @@
 .method public final readProbeCurrentBias()J
     .locals 2
 
-    const/16 v0, 0x91b
+    const/16 v0, 0x71b
 
     .line 703
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1459,7 +1459,7 @@
 .method public final readProbeDelay()J
     .locals 2
 
-    const/16 v0, 0x916
+    const/16 v0, 0x716
 
     .line 693
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1480,7 +1480,7 @@
     .line 557
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelayAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x916
+    const/16 v1, 0x716
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1490,7 +1490,7 @@
 .method public final readProbeDetail()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x91c
+    const/16 v0, 0x71c
 
     .line 673
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readStr(I)Ljava/lang/String;
@@ -1508,7 +1508,7 @@
 .method public final readProbeInsert()Z
     .locals 1
 
-    const/16 v0, 0x939
+    const/16 v0, 0x739
 
     .line 688
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
@@ -1526,7 +1526,7 @@
 .method public final readProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
     .locals 2
 
-    const/16 v0, 0x906
+    const/16 v0, 0x706
 
     .line 668
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1552,7 +1552,7 @@
 .method public final readProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
     .locals 2
 
-    const/16 v0, 0x941
+    const/16 v0, 0x741
 
     .line 678
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1578,7 +1578,7 @@
 .method public final readRealScale()J
     .locals 2
 
-    const/16 v0, 0x90f
+    const/16 v0, 0x70f
 
     .line 576
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1596,7 +1596,7 @@
 .method public final readScale()J
     .locals 2
 
-    const/16 v0, 0x90f
+    const/16 v0, 0x70f
 
     .line 570
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
@@ -1614,7 +1614,7 @@
 .method public final readShowLabel()Z
     .locals 1
 
-    const/16 v0, 0x90c
+    const/16 v0, 0x70c
 
     .line 744
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
@@ -1632,7 +1632,7 @@
 .method public final readStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
     .locals 2
 
-    const/16 v0, 0x900
+    const/16 v0, 0x700
 
     .line 617
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1658,7 +1658,7 @@
 .method public final readUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 2
 
-    const/16 v0, 0x907
+    const/16 v0, 0x707
 
     .line 713
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
@@ -1807,7 +1807,7 @@
     .line 862
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->value1:I
 
-    const/16 v0, 0x905
+    const/16 v0, 0x705
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -1830,7 +1830,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setChanDelay(J)V
 
-    const/16 v0, 0x90b
+    const/16 v0, 0x70b
 
     .line 837
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -1851,7 +1851,7 @@
     .line 857
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->value1:I
 
-    const/16 v0, 0x904
+    const/16 v0, 0x704
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -1864,7 +1864,7 @@
     .line 774
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setFine(Z)V
 
-    const/16 v0, 0x909
+    const/16 v0, 0x709
 
     .line 775
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBool(IZ)I
@@ -1885,7 +1885,7 @@
     .line 762
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->value1:I
 
-    const/16 v1, 0x917
+    const/16 v1, 0x717
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -1916,7 +1916,7 @@
     .line 756
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setInvert(Z)V
 
-    const/16 v0, 0x908
+    const/16 v0, 0x708
 
     .line 757
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBool(IZ)I
@@ -1930,7 +1930,7 @@
     .line 892
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setLabel(Ljava/lang/String;)V
 
-    const/16 v0, 0x90e
+    const/16 v0, 0x70e
 
     .line 894
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveStr(ILjava/lang/String;)I
@@ -1987,7 +1987,7 @@
 
     const/16 p2, 0x28
 
-    const/16 v2, 0x3b07
+    const/16 v2, 0x3907
 
     .line 792
     invoke-virtual {p1, p2, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
@@ -2042,7 +2042,7 @@
     .line 818
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setOffset(J)V
 
-    const/16 v0, 0x912
+    const/16 v0, 0x712
 
     .line 819
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -2096,7 +2096,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setPosition(J)V
 
-    const/16 v0, 0x942
+    const/16 v0, 0x742
 
     .line 828
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -2120,7 +2120,7 @@
     .line 876
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeBias(J)V
 
-    const/16 v0, 0x91b
+    const/16 v0, 0x71b
 
     .line 877
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -2134,7 +2134,7 @@
     .line 881
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeCurrentBias(J)V
 
-    const/16 v0, 0x91b
+    const/16 v0, 0x71b
 
     .line 883
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -2148,7 +2148,7 @@
     .line 871
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeDelay(J)V
 
-    const/16 v0, 0x916
+    const/16 v0, 0x716
 
     .line 872
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -2169,7 +2169,7 @@
     .line 867
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
 
-    const/16 v0, 0x906
+    const/16 v0, 0x706
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -2213,7 +2213,7 @@
     .line 851
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setScale(J)V
 
-    const/16 v0, 0x90f
+    const/16 v0, 0x70f
 
     .line 852
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
@@ -2237,7 +2237,7 @@
     .line 898
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setShowLabel(Z)V
 
-    const/16 v0, 0x90c
+    const/16 v0, 0x70c
 
     .line 899
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBool(IZ)I
@@ -2258,7 +2258,7 @@
     .line 752
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->value1:I
 
-    const/16 v0, 0x900
+    const/16 v0, 0x700
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -2278,7 +2278,7 @@
     .line 888
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
-    const/16 v0, 0x907
+    const/16 v0, 0x707
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -2816,7 +2816,7 @@
     .line 470
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->label:Ljava/lang/String;
 
-    const/16 v0, 0x90e
+    const/16 v0, 0x70e
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 
@@ -2876,7 +2876,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x912
+    const/16 p2, 0x712
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 
@@ -3883,7 +3883,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x90f
+    const/16 p2, 0x70f
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 
@@ -3943,7 +3943,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x90c
+    const/16 v0, 0x70c
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 
@@ -3995,7 +3995,7 @@
     .line 124
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    const/16 v0, 0x901
+    const/16 v0, 0x701
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 
@@ -4047,7 +4047,7 @@
     .line 408
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 v0, 0x907
+    const/16 v0, 0x707
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 

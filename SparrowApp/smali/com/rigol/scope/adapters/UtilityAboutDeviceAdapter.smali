@@ -95,7 +95,7 @@
 
     move-result-object v2
 
-    const/16 v3, 0x5933
+    const/16 v3, 0x5733
 
     const/16 v4, 0xb
 
@@ -108,7 +108,7 @@
 
     move-result-object v3
 
-    const/16 v5, 0x596a
+    const/16 v5, 0x576a
 
     invoke-virtual {v3, v4, v5}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -503,7 +503,7 @@
 
     move-result-object v3
 
-    const/16 v5, 0x5947
+    const/16 v5, 0x5747
 
     invoke-virtual {v3, v4, v5}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -588,7 +588,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x5968
+    const/16 v2, 0x5768
 
     invoke-virtual {v1, v4, v2}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 

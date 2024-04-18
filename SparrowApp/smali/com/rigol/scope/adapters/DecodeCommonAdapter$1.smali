@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;Landroid/content/Context;Ljava/util/List;)V
     .locals 0
 
-    .line 132
+    .line 133
     iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter$1;->this$0:Lcom/rigol/scope/adapters/DecodeCommonAdapter;
 
     invoke-direct {p0, p2, p3}, Lcom/rigol/scope/utilities/AorBManager;-><init>(Landroid/content/Context;Ljava/util/List;)V

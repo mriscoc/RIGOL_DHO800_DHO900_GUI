@@ -608,7 +608,7 @@
 
     const/16 v0, 0x15
 
-    const/16 v2, 0xf01
+    const/16 v2, 0xd01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1166,7 +1166,7 @@
 
     const/16 v1, 0x1a
 
-    const/16 v2, 0x1509
+    const/16 v2, 0x1309
 
     invoke-virtual {v0, v1, v2, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1178,7 +1178,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x51b1
+    const/16 v1, 0x4fb1
 
     invoke-virtual {v0, v4, v1, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1199,7 +1199,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x51b0
+    const/16 v1, 0x4fb0
 
     invoke-virtual {v0, v4, v1, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1626,7 +1626,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x508
+    const/16 v1, 0x308
 
     const/16 v2, 0x23
 
@@ -1641,7 +1641,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x500
+    const/16 v1, 0x300
 
     invoke-virtual {v0, v2, v1, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -2262,7 +2262,7 @@
 
     const/16 v1, 0xa
 
-    const/16 v2, 0x2543
+    const/16 v2, 0x2343
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -2382,7 +2382,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x508
+    const/16 v2, 0x308
 
     const/16 v3, 0x23
 
@@ -2397,7 +2397,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x500
+    const/16 v2, 0x300
 
     invoke-virtual {v1, v3, v2, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -4034,7 +4034,7 @@
 
     const/16 v0, 0x39
 
-    const/16 v2, 0x1f06
+    const/16 v2, 0x1d06
 
     invoke-static {v0, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

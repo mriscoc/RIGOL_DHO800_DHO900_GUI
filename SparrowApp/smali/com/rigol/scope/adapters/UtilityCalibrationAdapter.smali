@@ -123,7 +123,7 @@
 
     if-eqz v0, :cond_1
 
-    const/16 v1, 0x4909
+    const/16 v1, 0x4709
 
     const/16 v2, 0x9
 
@@ -143,7 +143,7 @@
     .line 101
     iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityCalibrationAdapter;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x4907
+    const/16 v1, 0x4707
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

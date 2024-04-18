@@ -58,7 +58,7 @@
     .line 709
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$16;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
-    const/16 v0, 0x903
+    const/16 v0, 0x703
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 

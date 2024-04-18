@@ -95,7 +95,7 @@
 
     if-eqz p1, :cond_1
 
-    const/16 v1, 0x3500
+    const/16 v1, 0x3300
 
     invoke-virtual {p1, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -144,7 +144,7 @@
 
     if-eqz p1, :cond_3
 
-    const/16 v1, 0x3502
+    const/16 v1, 0x3302
 
     invoke-virtual {p1, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

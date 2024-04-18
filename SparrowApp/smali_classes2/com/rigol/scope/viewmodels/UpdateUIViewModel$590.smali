@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DisplayParam;)V
     .locals 0
 
-    .line 6667
+    .line 6676
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$590;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$590;->val$param:Lcom/rigol/scope/data/DisplayParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6670
+    .line 6679
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$590;->val$param:Lcom/rigol/scope/data/DisplayParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DisplayParam;->readWindowTransparency()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DisplayParam;->readCursorIntensity()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6667
+    .line 6676
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$590;->onChanged(Ljava/lang/Boolean;)V

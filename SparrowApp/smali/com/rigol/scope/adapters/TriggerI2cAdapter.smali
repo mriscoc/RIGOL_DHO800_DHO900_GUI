@@ -297,7 +297,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x514c
+    const/16 v1, 0x4f4c
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -348,7 +348,7 @@
     .line 225
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 v3, 0x514d
+    const/16 v3, 0x4f4d
 
     if-eq v0, v1, :cond_3
 
@@ -1118,7 +1118,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->serviceId:I
 
-    const/16 v1, 0x511e
+    const/16 v1, 0x4f1e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1967,7 +1967,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->serviceId:I
 
-    const/16 v1, 0x514d
+    const/16 v1, 0x4f4d
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -2010,7 +2010,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->serviceId:I
 
-    const/16 v1, 0x514c
+    const/16 v1, 0x4f4c
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 

@@ -2318,23 +2318,23 @@
     :goto_1b
     iput v6, v1, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
-    const/16 v9, 0x5186
+    const/16 v9, 0x4f86
 
-    const/16 v10, 0x51a0
+    const/16 v10, 0x4fa0
 
-    const/16 v11, 0x5185
+    const/16 v11, 0x4f85
 
-    const/16 v12, 0x51a1
+    const/16 v12, 0x4fa1
 
-    const/16 v13, 0x5187
+    const/16 v13, 0x4f87
 
-    const/16 v14, 0x5178
+    const/16 v14, 0x4f78
 
-    const/16 v15, 0x5163
+    const/16 v15, 0x4f63
 
-    const/16 v5, 0x5153
+    const/16 v5, 0x4f53
 
-    const/16 v0, 0x5229
+    const/16 v0, 0x5029
 
     const/16 v3, 0x29
 
@@ -2535,7 +2535,7 @@
     .line 563
     iget-object v0, v1, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     invoke-virtual {v0, v3, v2, v6}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -2556,7 +2556,7 @@
     .line 567
     iget-object v0, v1, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     invoke-virtual {v0, v3, v2, v6}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -2823,7 +2823,7 @@
 
     const/4 v2, 0x5
 
-    const/16 v4, 0x51a3
+    const/16 v4, 0x4fa3
 
     invoke-virtual {v0, v3, v4, v2}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -2846,7 +2846,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v4, 0x51a4
+    const/16 v4, 0x4fa4
 
     invoke-virtual {v0, v3, v4, v2}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -2899,15 +2899,15 @@
 
     move-result v2
 
-    const/16 v7, 0x5185
+    const/16 v7, 0x4f85
 
-    const/16 v9, 0x5187
+    const/16 v9, 0x4f87
 
-    const/16 v10, 0x5178
+    const/16 v10, 0x4f78
 
-    const/16 v11, 0x5163
+    const/16 v11, 0x4f63
 
-    const/16 v12, 0x5153
+    const/16 v12, 0x4f53
 
     const/16 v13, 0x2d
 
@@ -2915,7 +2915,7 @@
 
     const-string v15, "-"
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v6, 0x29
 
@@ -3247,7 +3247,7 @@
 
     move-result v3
 
-    const/16 v4, 0x5186
+    const/16 v4, 0x4f86
 
     invoke-virtual {v2, v6, v4, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -3279,7 +3279,7 @@
     .line 4578
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v4, 0x51a1
+    const/16 v4, 0x4fa1
 
     invoke-virtual {v2, v6, v4, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -3298,7 +3298,7 @@
     .line 4583
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v4, 0x51a0
+    const/16 v4, 0x4fa0
 
     invoke-virtual {v2, v6, v4, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -3321,7 +3321,7 @@
 
     const/4 v3, 0x5
 
-    const/16 v4, 0x51a3
+    const/16 v4, 0x4fa3
 
     invoke-virtual {v2, v6, v4, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -3344,7 +3344,7 @@
 
     const/16 v3, 0xb
 
-    const/16 v4, 0x51a4
+    const/16 v4, 0x4fa4
 
     invoke-virtual {v2, v6, v4, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4155,7 +4155,7 @@
     .line 4371
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4174,7 +4174,7 @@
     .line 4376
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4195,7 +4195,7 @@
     .line 4381
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4225,7 +4225,7 @@
     .line 4389
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4244,7 +4244,7 @@
     .line 4394
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4265,7 +4265,7 @@
     .line 4399
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4286,7 +4286,7 @@
     .line 4404
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     invoke-virtual {v1, v6, v2, v5}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -4343,7 +4343,7 @@
 
     const/16 v3, 0x20
 
-    const/16 v7, 0x5229
+    const/16 v7, 0x5029
 
     const/16 v8, 0x18
 
@@ -5078,7 +5078,7 @@
     .line 2708
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v6, 0x5153
+    const/16 v6, 0x4f53
 
     iget v12, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -5094,7 +5094,7 @@
     :cond_21
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v6, 0x5153
+    const/16 v6, 0x4f53
 
     iget v12, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -5332,7 +5332,7 @@
     :goto_12
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5163
+    const/16 v3, 0x4f63
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -5367,7 +5367,7 @@
     :cond_2b
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -5571,7 +5571,7 @@
     .line 2841
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -5587,7 +5587,7 @@
     :cond_35
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -5834,7 +5834,7 @@
     .line 2891
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5187
+    const/16 v3, 0x4f87
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -5853,7 +5853,7 @@
     .line 2896
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5185
+    const/16 v3, 0x4f85
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -5874,7 +5874,7 @@
     .line 2901
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5186
+    const/16 v3, 0x4f86
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -5893,7 +5893,7 @@
     .line 2909
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -5928,7 +5928,7 @@
     .line 2914
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -5965,7 +5965,7 @@
     .line 2919
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6013,7 +6013,7 @@
     .line 2931
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6038,7 +6038,7 @@
     .line 2936
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6065,7 +6065,7 @@
     .line 2941
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6094,7 +6094,7 @@
     :cond_46
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x51a4
+    const/16 v3, 0x4fa4
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -6113,7 +6113,7 @@
     .line 2959
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6140,7 +6140,7 @@
     .line 2964
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6169,7 +6169,7 @@
     .line 2969
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -6194,7 +6194,7 @@
     .line 2974
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -8317,7 +8317,7 @@
     .line 3823
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522e
+    const/16 v2, 0x502e
 
     const/16 v3, 0xff
 
@@ -8333,7 +8333,7 @@
     .line 3828
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -8349,7 +8349,7 @@
     :cond_c8
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -8388,7 +8388,7 @@
     .line 3839
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x523f
+    const/16 v3, 0x503f
 
     const/16 v5, 0xff
 
@@ -8607,7 +8607,7 @@
     :goto_43
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5163
+    const/16 v3, 0x4f63
 
     const/16 v4, 0x29
 
@@ -8651,7 +8651,7 @@
     :cond_d2
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -8680,7 +8680,7 @@
     .line 3897
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522a
+    const/16 v2, 0x502a
 
     const/16 v3, 0xff
 
@@ -8709,7 +8709,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     invoke-virtual {v1, v4, v3, v2}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -8793,7 +8793,7 @@
     :goto_46
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -8830,7 +8830,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -8839,7 +8839,7 @@
     goto/16 :goto_f8
 
     :cond_da
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -8879,7 +8879,7 @@
     .line 3965
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x523a
+    const/16 v2, 0x503a
 
     const/16 v3, 0xff
 
@@ -8893,7 +8893,7 @@
     .line 3971
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -8909,7 +8909,7 @@
     :cond_dc
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -8946,7 +8946,7 @@
     .line 3983
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5233
+    const/16 v2, 0x5033
 
     const/16 v3, 0xff
 
@@ -9174,7 +9174,7 @@
     .line 4025
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5187
+    const/16 v3, 0x4f87
 
     const/16 v4, 0x29
 
@@ -9199,7 +9199,7 @@
     .line 4030
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5185
+    const/16 v3, 0x4f85
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -9220,7 +9220,7 @@
     .line 4035
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5186
+    const/16 v3, 0x4f86
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -9239,7 +9239,7 @@
     .line 4043
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9278,7 +9278,7 @@
     .line 4048
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9317,7 +9317,7 @@
     .line 4053
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9354,7 +9354,7 @@
     .line 4061
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5223
+    const/16 v2, 0x5023
 
     const/16 v3, 0xff
 
@@ -9377,7 +9377,7 @@
     .line 4069
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9408,7 +9408,7 @@
     .line 4074
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9435,7 +9435,7 @@
     .line 4079
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9464,7 +9464,7 @@
     :cond_ed
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x51a4
+    const/16 v3, 0x4fa4
 
     const/16 v4, 0x29
 
@@ -9485,7 +9485,7 @@
     .line 4097
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9516,7 +9516,7 @@
     .line 4102
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9549,7 +9549,7 @@
     .line 4107
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -9574,7 +9574,7 @@
     .line 4112
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -11464,7 +11464,7 @@
     .line 944
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     const/4 v3, 0x0
 
@@ -11493,7 +11493,7 @@
     .line 949
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11514,7 +11514,7 @@
     .line 954
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5229
+    const/16 v2, 0x5029
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11535,7 +11535,7 @@
     .line 959
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11565,7 +11565,7 @@
     .line 966
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11586,7 +11586,7 @@
     .line 971
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11607,7 +11607,7 @@
     .line 976
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11637,7 +11637,7 @@
     .line 984
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     const/4 v3, 0x0
 
@@ -11666,7 +11666,7 @@
     .line 989
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11687,7 +11687,7 @@
     .line 994
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11706,7 +11706,7 @@
     .line 999
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -11727,7 +11727,7 @@
     .line 1008
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
@@ -11758,7 +11758,7 @@
     .line 1013
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -11798,7 +11798,7 @@
 
     mul-int/2addr v2, v15
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -11807,7 +11807,7 @@
     goto/16 :goto_70
 
     :cond_155
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -11839,7 +11839,7 @@
     .line 1031
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
@@ -11875,7 +11875,7 @@
     .line 1038
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -11904,7 +11904,7 @@
     .line 1043
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -11929,7 +11929,7 @@
     .line 1048
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -11963,7 +11963,7 @@
     .line 1056
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     const/16 v3, 0x10
 
@@ -11992,7 +11992,7 @@
     .line 1061
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -12013,7 +12013,7 @@
     .line 1066
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     const/4 v3, 0x5
 
@@ -12034,7 +12034,7 @@
     .line 1071
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     const/16 v3, 0xb
 
@@ -12128,7 +12128,7 @@
     .line 1094
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522f
+    const/16 v2, 0x502f
 
     const/16 v3, 0xff
 
@@ -12157,7 +12157,7 @@
     .line 1100
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5240
+    const/16 v2, 0x5040
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -12178,7 +12178,7 @@
     .line 1106
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522c
+    const/16 v2, 0x502c
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -12199,7 +12199,7 @@
     .line 1112
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x523c
+    const/16 v2, 0x503c
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -12220,7 +12220,7 @@
     .line 1118
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5235
+    const/16 v2, 0x5035
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -12241,7 +12241,7 @@
     .line 1124
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5225
+    const/16 v2, 0x5025
 
     invoke-virtual {v1, v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -12315,7 +12315,7 @@
     .line 2550
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522f
+    const/16 v2, 0x502f
 
     const/16 v3, 0xff
 
@@ -12331,7 +12331,7 @@
     .line 2554
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522f
+    const/16 v2, 0x502f
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -12371,7 +12371,7 @@
     .line 2563
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5240
+    const/16 v2, 0x5040
 
     const/16 v3, 0xff
 
@@ -12383,7 +12383,7 @@
     :cond_168
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5240
+    const/16 v2, 0x5040
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -12421,7 +12421,7 @@
     .line 2577
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522c
+    const/16 v2, 0x502c
 
     const/16 v3, 0xff
 
@@ -12433,7 +12433,7 @@
     :cond_16a
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5129
+    const/16 v2, 0x4f29
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -12448,7 +12448,7 @@
     .line 2582
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522c
+    const/16 v2, 0x502c
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -12484,7 +12484,7 @@
     .line 2591
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x523c
+    const/16 v2, 0x503c
 
     const/16 v3, 0xff
 
@@ -12496,7 +12496,7 @@
     :cond_16c
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x523c
+    const/16 v2, 0x503c
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -12534,7 +12534,7 @@
     .line 2605
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5235
+    const/16 v2, 0x5035
 
     const/16 v3, 0xff
 
@@ -12546,7 +12546,7 @@
     :cond_16e
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5235
+    const/16 v2, 0x5035
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -12584,7 +12584,7 @@
     .line 2619
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5225
+    const/16 v2, 0x5025
 
     const/16 v3, 0xff
 
@@ -12596,7 +12596,7 @@
     :cond_170
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5225
+    const/16 v2, 0x5025
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -15893,7 +15893,7 @@
     .line 2197
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522e
+    const/16 v2, 0x502e
 
     const/16 v3, 0xff
 
@@ -15909,7 +15909,7 @@
     .line 2202
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522e
+    const/16 v2, 0x502e
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -15930,7 +15930,7 @@
     .line 2208
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -15946,7 +15946,7 @@
     :cond_212
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -15994,7 +15994,7 @@
     .line 2222
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x523f
+    const/16 v3, 0x503f
 
     const/16 v6, 0xff
 
@@ -16008,7 +16008,7 @@
     :cond_214
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x523f
+    const/16 v3, 0x503f
 
     iget-object v6, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -16232,7 +16232,7 @@
     :goto_b7
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5163
+    const/16 v3, 0x4f63
 
     const/16 v4, 0x29
 
@@ -16274,7 +16274,7 @@
     :cond_21d
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -16314,7 +16314,7 @@
     .line 2289
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522a
+    const/16 v2, 0x502a
 
     const/16 v4, 0xff
 
@@ -16326,7 +16326,7 @@
     :cond_21f
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x522a
+    const/16 v2, 0x502a
 
     iget-object v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -16362,7 +16362,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -16448,7 +16448,7 @@
     :goto_bb
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -16485,7 +16485,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -16494,7 +16494,7 @@
     goto/16 :goto_f8
 
     :cond_226
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -16549,7 +16549,7 @@
     .line 2367
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x523a
+    const/16 v2, 0x503a
 
     const/16 v3, 0xff
 
@@ -16561,7 +16561,7 @@
     :cond_228
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x523a
+    const/16 v2, 0x503a
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -16582,7 +16582,7 @@
     .line 2378
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -16598,7 +16598,7 @@
     :cond_229
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -16644,7 +16644,7 @@
     .line 2392
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5233
+    const/16 v2, 0x5033
 
     const/16 v3, 0xff
 
@@ -16658,7 +16658,7 @@
     :cond_22b
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5233
+    const/16 v2, 0x5033
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -16891,7 +16891,7 @@
     .line 2439
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5187
+    const/16 v3, 0x4f87
 
     const/16 v4, 0x29
 
@@ -16916,7 +16916,7 @@
     .line 2444
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5185
+    const/16 v3, 0x4f85
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -16937,7 +16937,7 @@
     .line 2449
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5186
+    const/16 v3, 0x4f86
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -16956,7 +16956,7 @@
     .line 2457
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -16995,7 +16995,7 @@
     .line 2462
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17034,7 +17034,7 @@
     .line 2467
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17080,7 +17080,7 @@
     .line 2477
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5223
+    const/16 v2, 0x5023
 
     const/16 v3, 0xff
 
@@ -17096,7 +17096,7 @@
     .line 2482
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5223
+    const/16 v2, 0x5023
 
     iget-object v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->strKey:Ljava/lang/String;
 
@@ -17126,7 +17126,7 @@
     .line 2490
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17157,7 +17157,7 @@
     .line 2495
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17184,7 +17184,7 @@
     .line 2500
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17213,7 +17213,7 @@
     :cond_23c
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x51a4
+    const/16 v3, 0x4fa4
 
     const/16 v4, 0x29
 
@@ -17234,7 +17234,7 @@
     .line 2518
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17265,7 +17265,7 @@
     .line 2523
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17298,7 +17298,7 @@
     .line 2528
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17323,7 +17323,7 @@
     .line 2533
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -17949,7 +17949,7 @@
     .line 1164
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18183,7 +18183,7 @@
     :goto_d3
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5163
+    const/16 v3, 0x4f63
 
     const/16 v4, 0x29
 
@@ -18221,7 +18221,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -18307,7 +18307,7 @@
     :goto_d5
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -18330,7 +18330,7 @@
     .line 1253
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18573,7 +18573,7 @@
     .line 1294
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5187
+    const/16 v3, 0x4f87
 
     const/16 v4, 0x29
 
@@ -18598,7 +18598,7 @@
     .line 1299
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5185
+    const/16 v3, 0x4f85
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -18619,7 +18619,7 @@
     .line 1304
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5186
+    const/16 v3, 0x4f86
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -18649,7 +18649,7 @@
     .line 1312
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18680,7 +18680,7 @@
     .line 1317
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18707,7 +18707,7 @@
     .line 1322
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18736,7 +18736,7 @@
     :cond_27b
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x51a4
+    const/16 v3, 0x4fa4
 
     const/16 v4, 0x29
 
@@ -18759,7 +18759,7 @@
     .line 1342
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5153
+    const/16 v2, 0x4f53
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18828,7 +18828,7 @@
     :cond_27f
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -18882,7 +18882,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -18891,7 +18891,7 @@
     goto/16 :goto_f8
 
     :cond_281
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -18931,7 +18931,7 @@
     .line 1373
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -18979,7 +18979,7 @@
     .line 1380
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5187
+    const/16 v2, 0x4f87
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19018,7 +19018,7 @@
     .line 1385
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19057,7 +19057,7 @@
     .line 1390
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19103,7 +19103,7 @@
     .line 1398
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19134,7 +19134,7 @@
     .line 1403
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19167,7 +19167,7 @@
     .line 1408
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19192,7 +19192,7 @@
     .line 1413
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19946,7 +19946,7 @@
     .line 3047
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5153
+    const/16 v3, 0x4f53
 
     iget v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -19966,7 +19966,7 @@
     .line 3052
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5153
+    const/16 v3, 0x4f53
 
     iget v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -20212,7 +20212,7 @@
     :goto_ed
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5163
+    const/16 v3, 0x4f63
 
     const/16 v4, 0x29
 
@@ -20254,7 +20254,7 @@
     :cond_2b8
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -20302,7 +20302,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -20388,7 +20388,7 @@
     :goto_f1
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -20425,7 +20425,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -20460,7 +20460,7 @@
 
     sub-int/2addr v2, v3
 
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -20469,7 +20469,7 @@
     goto :goto_f2
 
     :cond_2c1
-    const/16 v3, 0x5229
+    const/16 v3, 0x5029
 
     const/16 v4, 0x29
 
@@ -20515,7 +20515,7 @@
     .line 3186
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -20535,7 +20535,7 @@
     .line 3191
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5178
+    const/16 v2, 0x4f78
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -20790,7 +20790,7 @@
     .line 3236
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5187
+    const/16 v3, 0x4f87
 
     const/16 v4, 0x29
 
@@ -20815,7 +20815,7 @@
     .line 3241
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5185
+    const/16 v3, 0x4f85
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -20836,7 +20836,7 @@
     .line 3246
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x5186
+    const/16 v3, 0x4f86
 
     invoke-virtual {v2, v4, v3, v1}, Lcom/rigol/scope/data/TriggerParam;->postWay(III)V
 
@@ -20855,7 +20855,7 @@
     .line 3254
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5163
+    const/16 v2, 0x4f63
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -20894,7 +20894,7 @@
     .line 3259
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5185
+    const/16 v2, 0x4f85
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -20933,7 +20933,7 @@
     .line 3264
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x5186
+    const/16 v2, 0x4f86
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -20983,7 +20983,7 @@
     .line 3276
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -21014,7 +21014,7 @@
     .line 3281
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -21041,7 +21041,7 @@
     .line 3286
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -21070,7 +21070,7 @@
     :cond_2d4
     iget-object v2, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v3, 0x51a4
+    const/16 v3, 0x4fa4
 
     const/16 v4, 0x29
 
@@ -21091,7 +21091,7 @@
     .line 3304
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a1
+    const/16 v2, 0x4fa1
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -21122,7 +21122,7 @@
     .line 3309
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a0
+    const/16 v2, 0x4fa0
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -21155,7 +21155,7 @@
     .line 3314
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a3
+    const/16 v2, 0x4fa3
 
     iget v4, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 
@@ -21180,7 +21180,7 @@
     .line 3319
     iget-object v1, v0, Lcom/rigol/scope/views/FormatTransformKey;->param:Lcom/rigol/scope/data/TriggerParam;
 
-    const/16 v2, 0x51a4
+    const/16 v2, 0x4fa4
 
     iget v3, v0, Lcom/rigol/scope/views/FormatTransformKey;->formatIndex:I
 

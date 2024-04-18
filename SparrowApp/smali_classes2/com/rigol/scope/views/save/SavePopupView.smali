@@ -964,7 +964,7 @@
 
     const/16 v1, 0x30
 
-    const/16 v2, 0x551e
+    const/16 v2, 0x531e
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
 
@@ -987,7 +987,7 @@
 
     const/16 v1, 0x31
 
-    const/16 v2, 0x1722
+    const/16 v2, 0x1522
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
 

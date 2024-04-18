@@ -183,7 +183,7 @@
 .method public readIndicator()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x3538
+    const/16 v0, 0x3338
 
     .line 92
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureResultParam;->readStr(I)Ljava/lang/String;
@@ -219,7 +219,7 @@
 
     move-result v0
 
-    const/16 v1, 0x3520
+    const/16 v1, 0x3320
 
     .line 136
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureResultParam;->saveInt(II)I
@@ -401,7 +401,7 @@
 .method public setIndicator(I)V
     .locals 1
 
-    const/16 v0, 0x3538
+    const/16 v0, 0x3338
 
     .line 87
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureResultParam;->saveInt(II)I

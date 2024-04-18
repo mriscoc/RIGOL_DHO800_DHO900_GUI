@@ -176,7 +176,7 @@
 .method public copyFromTrigger()V
     .locals 2
 
-    const/16 v0, 0x470e
+    const/16 v0, 0x450e
 
     const/4 v1, 0x1
 
@@ -189,7 +189,7 @@
 .method public copyToTrigger()V
     .locals 2
 
-    const/16 v0, 0x470d
+    const/16 v0, 0x450d
 
     const/4 v1, 0x1
 
@@ -548,7 +548,7 @@
 .method public readEdgeSlope()V
     .locals 1
 
-    const/16 v0, 0x4722
+    const/16 v0, 0x4522
 
     .line 604
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -567,7 +567,7 @@
 .method public readEdgeSrc()V
     .locals 1
 
-    const/16 v0, 0x4721
+    const/16 v0, 0x4521
 
     .line 587
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -586,7 +586,7 @@
 .method public readEnable()V
     .locals 2
 
-    const/16 v0, 0x4701
+    const/16 v0, 0x4501
 
     .line 487
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readBool(I)Z
@@ -610,7 +610,7 @@
 .method public readMarkTableEn()V
     .locals 1
 
-    const/16 v0, 0x470b
+    const/16 v0, 0x450b
 
     .line 525
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readBool(I)Z
@@ -625,7 +625,7 @@
 .method public readNavigation()I
     .locals 3
 
-    const/16 v0, 0x470a
+    const/16 v0, 0x450a
 
     .line 535
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -640,7 +640,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x476e
+    const/16 v2, 0x456e
 
     invoke-virtual {p0, v2, v1}, Lcom/rigol/scope/data/SearchParam;->syncData(ILjava/lang/Object;)V
 
@@ -653,7 +653,7 @@
     .line 699
     iget-object v0, p0, Lcom/rigol/scope/data/SearchParam;->navigationAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x470a
+    const/16 v1, 0x450a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -663,7 +663,7 @@
 .method public readPolaritySlope()V
     .locals 1
 
-    const/16 v0, 0x4726
+    const/16 v0, 0x4526
 
     .line 210
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -685,7 +685,7 @@
 .method public readPulseMax()V
     .locals 2
 
-    const/16 v0, 0x4727
+    const/16 v0, 0x4527
 
     .line 430
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readLong(I)J
@@ -705,7 +705,7 @@
 .method public readPulsePolarty()V
     .locals 1
 
-    const/16 v0, 0x4725
+    const/16 v0, 0x4525
 
     .line 235
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -723,7 +723,7 @@
 .method public readPulseSrc()V
     .locals 1
 
-    const/16 v0, 0x4724
+    const/16 v0, 0x4524
 
     .line 348
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -745,7 +745,7 @@
 .method public readThre()V
     .locals 2
 
-    const/16 v0, 0x4711
+    const/16 v0, 0x4511
 
     .line 556
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readLong(I)J
@@ -760,7 +760,7 @@
 .method public readThreA()V
     .locals 1
 
-    const/16 v0, 0x4713
+    const/16 v0, 0x4513
 
     .line 566
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -778,7 +778,7 @@
     .line 715
     iget-object v0, p0, Lcom/rigol/scope/data/SearchParam;->threAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x4713
+    const/16 v1, 0x4513
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -791,7 +791,7 @@
     .line 711
     iget-object v0, p0, Lcom/rigol/scope/data/SearchParam;->threAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x4711
+    const/16 v1, 0x4511
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -801,7 +801,7 @@
 .method public readThreB()V
     .locals 1
 
-    const/16 v0, 0x4714
+    const/16 v0, 0x4514
 
     .line 575
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -819,7 +819,7 @@
     .line 719
     iget-object v0, p0, Lcom/rigol/scope/data/SearchParam;->threBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x4714
+    const/16 v1, 0x4514
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -829,7 +829,7 @@
 .method public readType()V
     .locals 1
 
-    const/16 v0, 0x4702
+    const/16 v0, 0x4502
 
     .line 499
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readInt(I)I
@@ -851,7 +851,7 @@
     .line 703
     iget-object v0, p0, Lcom/rigol/scope/data/SearchParam;->lowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x4728
+    const/16 v1, 0x4528
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -864,7 +864,7 @@
     .line 707
     iget-object v0, p0, Lcom/rigol/scope/data/SearchParam;->maxAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x4727
+    const/16 v1, 0x4527
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -874,7 +874,7 @@
 .method public readpulseLower()V
     .locals 2
 
-    const/16 v0, 0x4728
+    const/16 v0, 0x4528
 
     .line 393
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->readLong(I)J
@@ -911,7 +911,7 @@
 
     const/16 v2, 0x19
 
-    const/16 v3, 0x4701
+    const/16 v3, 0x4501
 
     invoke-static {v2, v3}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -935,7 +935,7 @@
     .line 592
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x4721
+    const/16 v0, 0x4521
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
 
@@ -951,7 +951,7 @@
     .line 609
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const/16 v0, 0x4722
+    const/16 v0, 0x4522
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
 
@@ -969,7 +969,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4701
+    const/16 v1, 0x4501
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/SearchParam;->syncData(ILjava/lang/Object;)V
 
@@ -994,7 +994,7 @@
     .line 529
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setMarkTableEn(Z)V
 
-    const/16 v0, 0x470b
+    const/16 v0, 0x450b
 
     .line 530
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveBool(IZ)I
@@ -1015,7 +1015,7 @@
     .line 544
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setNavigation(I)V
 
-    const/16 v0, 0x470a
+    const/16 v0, 0x450a
 
     .line 545
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
@@ -1041,7 +1041,7 @@
     .line 204
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->value1:I
 
-    const/16 v0, 0x4726
+    const/16 v0, 0x4526
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
 
@@ -1059,7 +1059,7 @@
 
     move-result-wide v0
 
-    const/16 p1, 0x4728
+    const/16 p1, 0x4528
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/rigol/scope/data/SearchParam;->saveLong(IJ)I
 
@@ -1087,7 +1087,7 @@
 
     move-result-wide v0
 
-    const/16 p1, 0x4727
+    const/16 p1, 0x4527
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/rigol/scope/data/SearchParam;->saveLong(IJ)I
 
@@ -1100,7 +1100,7 @@
     .line 228
     iput p1, p0, Lcom/rigol/scope/data/SearchParam;->pulsePolarty:I
 
-    const/16 v0, 0x4725
+    const/16 v0, 0x4525
 
     .line 229
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
@@ -1125,7 +1125,7 @@
     .line 598
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x4724
+    const/16 v0, 0x4524
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
 
@@ -1138,7 +1138,7 @@
     .line 250
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setTabelOnOff(Z)V
 
-    const/16 v0, 0x470b
+    const/16 v0, 0x450b
 
     .line 251
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveBool(IZ)I
@@ -1161,7 +1161,7 @@
 
     move-result-wide v0
 
-    const/16 v2, 0x4711
+    const/16 v2, 0x4511
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SearchParam;->saveLong(IJ)I
 
@@ -1177,7 +1177,7 @@
     .line 570
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setThreA(I)V
 
-    const/16 v0, 0x4713
+    const/16 v0, 0x4513
 
     .line 571
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
@@ -1191,7 +1191,7 @@
     .line 579
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setThreB(I)V
 
-    const/16 v0, 0x4714
+    const/16 v0, 0x4514
 
     .line 580
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
@@ -1208,7 +1208,7 @@
     .line 504
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_PULSE:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    const/16 v1, 0x4702
+    const/16 v1, 0x4502
 
     if-ne v0, p1, :cond_0
 
@@ -1237,7 +1237,7 @@
 .method public savenewNavigation(I)V
     .locals 1
 
-    const/16 v0, 0x476e
+    const/16 v0, 0x456e
 
     .line 551
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/SearchParam;->saveInt(II)I
@@ -1543,7 +1543,7 @@
     .line 271
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
 
-    const/16 p1, 0x4701
+    const/16 p1, 0x4501
 
     const/4 v0, 0x0
 

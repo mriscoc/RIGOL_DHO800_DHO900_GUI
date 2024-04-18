@@ -261,7 +261,7 @@
 
     const/16 v1, 0x29
 
-    const/16 v2, 0x5203
+    const/16 v2, 0x5003
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -364,7 +364,7 @@
 
     move-result-object v0
 
-    const/16 v2, 0x51e2
+    const/16 v2, 0x4fe2
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -947,7 +947,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerPatternAdapter;->serviceId:I
 
-    const/16 v1, 0x511e
+    const/16 v1, 0x4f1e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -2349,7 +2349,7 @@
 
     move-result-object v2
 
-    const/16 v3, 0x5967
+    const/16 v3, 0x5767
 
     invoke-virtual {v2, v1, v3}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -3467,7 +3467,7 @@
 
     iget v2, v0, Lcom/rigol/scope/adapters/TriggerPatternAdapter;->serviceId:I
 
-    const/16 v3, 0x5204
+    const/16 v3, 0x5004
 
     invoke-virtual {v1, v2, v3, v12}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 

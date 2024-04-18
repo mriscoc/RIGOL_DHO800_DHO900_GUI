@@ -121,7 +121,7 @@
 
     if-eqz p2, :cond_1
 
-    const-string v0, "31_13076"
+    const-string v0, "31_12564"
 
     .line 1664
     invoke-virtual {p2, v0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;

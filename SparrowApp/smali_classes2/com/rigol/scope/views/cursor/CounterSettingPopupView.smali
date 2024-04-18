@@ -782,7 +782,7 @@
 
     const/16 v0, 0x1d
 
-    const/16 v1, 0xd06
+    const/16 v1, 0xb06
 
     const/4 v2, 0x0
 

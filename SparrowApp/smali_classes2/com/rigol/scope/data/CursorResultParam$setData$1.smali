@@ -80,7 +80,7 @@
 
     move-result-object v1
 
-    const-string v2, "21_3882"
+    const-string v2, "21_3370"
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 

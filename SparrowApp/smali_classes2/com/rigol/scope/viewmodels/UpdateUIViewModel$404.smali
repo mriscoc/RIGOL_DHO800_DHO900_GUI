@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/TriggerParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/DecodeParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/TriggerParam;
+.field final synthetic val$param:Lcom/rigol/scope/data/DecodeParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 4933
+    .line 4960
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->val$param:Lcom/rigol/scope/data/TriggerParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,15 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 4936
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->val$param:Lcom/rigol/scope/data/TriggerParam;
+    .line 4963
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readMilstdCode()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readPal_dat_thres()V
+
+    .line 4964
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->val$param:Lcom/rigol/scope/data/DecodeParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readPalBusThresAttr()V
 
     return-void
 .end method
@@ -62,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 4933
+    .line 4960
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$404;->onChanged(Ljava/lang/Boolean;)V

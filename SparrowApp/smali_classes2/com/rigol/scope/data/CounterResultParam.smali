@@ -219,7 +219,7 @@
     .line 195
     iget-object v0, p0, Lcom/rigol/scope/data/CounterResultParam;->resolutionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0xd04
+    const/16 v1, 0xb04
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/CounterResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -229,7 +229,7 @@
 .method public readCounterSwitch()Z
     .locals 1
 
-    const/16 v0, 0xd05
+    const/16 v0, 0xb05
 
     .line 209
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CounterResultParam;->readBool(I)Z
@@ -247,7 +247,7 @@
 .method public readCounterType()Lcom/rigol/scope/cil/ServiceEnum$CounterType;
     .locals 1
 
-    const/16 v0, 0xd03
+    const/16 v0, 0xb03
 
     .line 214
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CounterResultParam;->readInt(I)I
@@ -273,7 +273,7 @@
 .method public readEnable()Z
     .locals 1
 
-    const/16 v0, 0xd01
+    const/16 v0, 0xb01
 
     .line 204
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CounterResultParam;->readBool(I)Z
@@ -291,7 +291,7 @@
 .method public readResolution()I
     .locals 1
 
-    const/16 v0, 0xd04
+    const/16 v0, 0xb04
 
     .line 221
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CounterResultParam;->readInt(I)I
@@ -312,7 +312,7 @@
 .method public readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0xd02
+    const/16 v0, 0xb02
 
     .line 227
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CounterResultParam;->readInt(I)I
@@ -348,7 +348,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0xd01
+    const/16 v1, 0xb01
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/CounterResultParam;->syncData(ILjava/lang/Object;)V
 
@@ -396,7 +396,7 @@
     .line 247
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->value1:I
 
-    const/16 v0, 0xd03
+    const/16 v0, 0xb03
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CounterResultParam;->saveInt(II)I
 
@@ -409,7 +409,7 @@
     .line 241
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CounterResultParam;->setEnable(Z)V
 
-    const/16 v0, 0xd01
+    const/16 v0, 0xb01
 
     .line 242
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CounterResultParam;->saveInt(II)I
@@ -423,7 +423,7 @@
     .line 256
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CounterResultParam;->setResolution(I)V
 
-    const/16 v0, 0xd04
+    const/16 v0, 0xb04
 
     .line 257
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CounterResultParam;->saveInt(II)I
@@ -440,7 +440,7 @@
     .line 252
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0xd02
+    const/16 v0, 0xb02
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CounterResultParam;->saveInt(II)I
 
@@ -476,7 +476,7 @@
     .line 128
     iput-boolean p1, p0, Lcom/rigol/scope/data/CounterResultParam;->counterSwitch:Z
 
-    const/16 v0, 0xd05
+    const/16 v0, 0xb05
 
     .line 129
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CounterResultParam;->saveBool(IZ)I

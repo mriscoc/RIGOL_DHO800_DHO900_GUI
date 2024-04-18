@@ -69,7 +69,7 @@
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x3501
+    const/16 v2, 0x3301
 
     invoke-virtual {v0, v1, v2, p0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -2652,7 +2652,7 @@
 
     move-result-object v5
 
-    const/16 v6, 0x594b
+    const/16 v6, 0x574b
 
     const/16 v7, 0xb
 
@@ -2665,7 +2665,7 @@
 
     move-result-object v6
 
-    const/16 v8, 0x594c
+    const/16 v8, 0x574c
 
     invoke-virtual {v6, v7, v8}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -2676,7 +2676,7 @@
 
     move-result-object v7
 
-    const/16 v8, 0x253a
+    const/16 v8, 0x233a
 
     const/16 v9, 0xa
 
@@ -2691,7 +2691,7 @@
 
     const/16 v10, 0x3c
 
-    const/16 v11, 0x2b01
+    const/16 v11, 0x2901
 
     invoke-virtual {v8, v10, v11}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -2702,7 +2702,7 @@
 
     move-result-object v10
 
-    const/16 v11, 0x2508
+    const/16 v11, 0x2308
 
     invoke-virtual {v10, v9, v11}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -4593,7 +4593,7 @@
 
     const/16 v3, 0x34
 
-    const/16 v4, 0x292e
+    const/16 v4, 0x272e
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -4604,7 +4604,7 @@
 
     move-result-object v2
 
-    const/16 v6, 0x292f
+    const/16 v6, 0x272f
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -4669,7 +4669,7 @@
 
     const/16 v3, 0x34
 
-    const/16 v4, 0x292c
+    const/16 v4, 0x272c
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -4746,7 +4746,7 @@
 
     const/16 v3, 0x34
 
-    const/16 v4, 0x290a
+    const/16 v4, 0x270a
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -4897,7 +4897,7 @@
 
     const/16 v3, 0x34
 
-    const/16 v4, 0x292a
+    const/16 v4, 0x272a
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -4908,7 +4908,7 @@
 
     move-result-object v2
 
-    const/16 v6, 0x292b
+    const/16 v6, 0x272b
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -5661,7 +5661,7 @@
 
     const/16 v3, 0x22
 
-    const/16 v4, 0x2321
+    const/16 v4, 0x2121
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryDouble(II)D
 
@@ -5672,7 +5672,7 @@
 
     move-result-object v2
 
-    const/16 v6, 0x2322
+    const/16 v6, 0x2122
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryDouble(II)D
 
@@ -5683,7 +5683,7 @@
 
     move-result-object v2
 
-    const/16 v8, 0x2320
+    const/16 v8, 0x2120
 
     invoke-virtual {v2, v3, v8}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -5777,7 +5777,7 @@
 
     const/16 v3, 0x22
 
-    const/16 v4, 0x231f
+    const/16 v4, 0x211f
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -11541,7 +11541,7 @@
 
     aget v1, v1, v2
 
-    const/16 v2, 0x3f00
+    const/16 v2, 0x3d00
 
     const/16 v3, 0x1b
 
@@ -11686,7 +11686,7 @@
 
     const/16 v1, 0xa
 
-    const/16 v5, 0x2503
+    const/16 v5, 0x2303
 
     invoke-virtual {v0, v1, v5}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 

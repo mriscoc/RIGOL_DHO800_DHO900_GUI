@@ -73,7 +73,7 @@
 
     const/16 v3, 0x1f
 
-    const/16 v4, 0x3313
+    const/16 v4, 0x3113
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 

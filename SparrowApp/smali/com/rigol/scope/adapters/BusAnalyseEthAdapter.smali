@@ -57,7 +57,7 @@
 
     const/16 v0, 0x31
 
-    const/16 v1, 0x1701
+    const/16 v1, 0x1501
 
     const/4 v2, 0x0
 
@@ -211,7 +211,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x1702
+    const/16 v0, 0x1502
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/BusAnalyseEthAdapter;->param:Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;
 
@@ -246,7 +246,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x1701
+    const/16 v0, 0x1501
 
     const/4 v2, 0x1
 

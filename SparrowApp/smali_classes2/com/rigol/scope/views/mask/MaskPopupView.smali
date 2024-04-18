@@ -1750,7 +1750,7 @@
 
     const/16 v0, 0x2e
 
-    const/16 v1, 0x2f09
+    const/16 v1, 0x2d09
 
     invoke-virtual {p1, v0, v1, v3}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 

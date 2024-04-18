@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
     .locals 0
 
-    .line 6550
+    .line 6559
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$578;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$578;->val$param:Lcom/rigol/scope/data/NavigateParam;
@@ -49,12 +49,16 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Object;)V
-    .locals 0
+    .locals 1
 
-    .line 6553
+    .line 6562
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$578;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readMaxPage()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readNavMode()I
+
+    move-result v0
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/NavigateParam;->setSelectMode(I)V
 
     return-void
 .end method

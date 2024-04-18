@@ -522,7 +522,7 @@
 
     move-result p2
 
-    const/16 v2, 0x5b33
+    const/16 v2, 0x5933
 
     invoke-virtual {p1, p2, v2}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -551,7 +551,7 @@
 
     move-result p2
 
-    const/16 v2, 0x5b34
+    const/16 v2, 0x5934    # 3.2E-41f
 
     invoke-virtual {p1, p2, v2}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -779,7 +779,7 @@
 
     const/16 p2, 0x2a
 
-    const/16 v0, 0x5b8a
+    const/16 v0, 0x598a
 
     .line 159
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

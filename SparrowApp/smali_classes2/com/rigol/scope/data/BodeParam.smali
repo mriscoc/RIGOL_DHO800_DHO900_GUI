@@ -1296,7 +1296,7 @@
 .method public final readBodeAmpout()J
     .locals 2
 
-    const/16 v0, 0x70d
+    const/16 v0, 0x50d
 
     .line 470
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1317,7 +1317,7 @@
     .line 466
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpoutAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x70d
+    const/16 v1, 0x50d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1327,7 +1327,7 @@
 .method public final readBodeData()Ljava/lang/String;
     .locals 2
 
-    const/16 v0, 0x717
+    const/16 v0, 0x517
 
     .line 339
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readStr(I)Ljava/lang/String;
@@ -1363,7 +1363,7 @@
 .method public final readBodeEnable()Z
     .locals 1
 
-    const/16 v0, 0x701
+    const/16 v0, 0x501
 
     .line 611
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
@@ -1381,7 +1381,7 @@
 .method public final readBodeImpedace()Z
     .locals 1
 
-    const/16 v0, 0x709
+    const/16 v0, 0x509
 
     .line 531
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
@@ -1399,7 +1399,7 @@
 .method public final readBodePointNum()I
     .locals 1
 
-    const/16 v0, 0x70c
+    const/16 v0, 0x50c
 
     .line 568
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
@@ -1420,7 +1420,7 @@
     .line 564
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodePointNumAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x70c
+    const/16 v1, 0x50c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1435,7 +1435,7 @@
 
     move-result v0
 
-    const/16 v1, 0x719
+    const/16 v1, 0x519
 
     invoke-direct {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->queryData(II)[[Ljava/lang/String;
 
@@ -1496,7 +1496,7 @@
 .method public final readBodeRunDispType()I
     .locals 1
 
-    const/16 v0, 0x703
+    const/16 v0, 0x503
 
     .line 600
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
@@ -1514,7 +1514,7 @@
 .method public final readBodeRunStopEnable()Z
     .locals 1
 
-    const/16 v0, 0x702
+    const/16 v0, 0x502
 
     .line 628
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
@@ -1532,7 +1532,7 @@
 .method public final readBodeSourceIn()I
     .locals 1
 
-    const/16 v0, 0x706
+    const/16 v0, 0x506
 
     .line 578
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
@@ -1550,7 +1550,7 @@
 .method public final readBodeSourceOut()I
     .locals 1
 
-    const/16 v0, 0x707
+    const/16 v0, 0x507
 
     .line 588
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
@@ -1568,7 +1568,7 @@
 .method public final readBodeStartFreq()J
     .locals 3
 
-    const/16 v0, 0x70a
+    const/16 v0, 0x50a
 
     .line 503
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1593,7 +1593,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x702
+    const/16 v1, 0x502
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -1615,7 +1615,7 @@
     .line 499
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStartFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x70a
+    const/16 v1, 0x50a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1625,7 +1625,7 @@
 .method public final readBodeStopFreq()J
     .locals 2
 
-    const/16 v0, 0x70b
+    const/16 v0, 0x50b
 
     .line 485
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1652,7 +1652,7 @@
     .line 480
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x70b
+    const/16 v1, 0x50b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1662,7 +1662,7 @@
 .method public final readBodeSweepType()I
     .locals 1
 
-    const/16 v0, 0x705
+    const/16 v0, 0x505
 
     .line 554
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
@@ -1680,7 +1680,7 @@
 .method public final readBodeVaramp()Z
     .locals 1
 
-    const/16 v0, 0x708
+    const/16 v0, 0x508
 
     .line 520
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
@@ -1698,7 +1698,7 @@
 .method public final readBodedispType()I
     .locals 1
 
-    const/16 v0, 0x703
+    const/16 v0, 0x503
 
     .line 541
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
@@ -1716,7 +1716,7 @@
 .method public final readBodevaramp1()J
     .locals 2
 
-    const/16 v0, 0x70e
+    const/16 v0, 0x50e
 
     .line 379
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1737,7 +1737,7 @@
     .line 375
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x70e
+    const/16 v1, 0x50e
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1747,7 +1747,7 @@
 .method public final readBodevaramp2()J
     .locals 2
 
-    const/16 v0, 0x70f
+    const/16 v0, 0x50f
 
     .line 394
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1768,7 +1768,7 @@
     .line 390
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x70f
+    const/16 v1, 0x50f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1778,7 +1778,7 @@
 .method public final readBodevaramp3()J
     .locals 2
 
-    const/16 v0, 0x710
+    const/16 v0, 0x510
 
     .line 404
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1799,7 +1799,7 @@
     .line 351
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x710
+    const/16 v1, 0x510
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1809,7 +1809,7 @@
 .method public final readBodevaramp4()J
     .locals 2
 
-    const/16 v0, 0x711
+    const/16 v0, 0x511
 
     .line 415
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1830,7 +1830,7 @@
     .line 355
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x711
+    const/16 v1, 0x511
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1840,7 +1840,7 @@
 .method public final readBodevaramp5()J
     .locals 2
 
-    const/16 v0, 0x712
+    const/16 v0, 0x512
 
     .line 425
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1861,7 +1861,7 @@
     .line 359
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x712
+    const/16 v1, 0x512
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1871,7 +1871,7 @@
 .method public final readBodevaramp6()J
     .locals 2
 
-    const/16 v0, 0x713
+    const/16 v0, 0x513
 
     .line 436
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1892,7 +1892,7 @@
     .line 363
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x713
+    const/16 v1, 0x513
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1902,7 +1902,7 @@
 .method public final readBodevaramp7()J
     .locals 2
 
-    const/16 v0, 0x714
+    const/16 v0, 0x514
 
     .line 446
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1923,7 +1923,7 @@
     .line 367
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x714
+    const/16 v1, 0x514
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1933,7 +1933,7 @@
 .method public final readBodevaramp8()J
     .locals 2
 
-    const/16 v0, 0x715
+    const/16 v0, 0x515
 
     .line 456
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
@@ -1954,7 +1954,7 @@
     .line 371
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x715
+    const/16 v1, 0x515
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1964,7 +1964,7 @@
 .method public final readFirEnable()V
     .locals 1
 
-    const/16 v0, 0x71c
+    const/16 v0, 0x51c
 
     .line 329
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
@@ -1979,7 +1979,7 @@
 .method public final readbodePmgmData()V
     .locals 2
 
-    const/16 v0, 0x71d
+    const/16 v0, 0x51d
 
     .line 325
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readStr(I)Ljava/lang/String;
@@ -2118,7 +2118,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x701
+    const/16 v2, 0x501
 
     invoke-virtual {p0, v2, v1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -2134,7 +2134,7 @@
     .line 475
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodeAmpout(J)V
 
-    const/16 v0, 0x70d
+    const/16 v0, 0x50d
 
     .line 476
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2148,7 +2148,7 @@
     .line 616
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable(Z)V
 
-    const/16 v0, 0x701
+    const/16 v0, 0x501
 
     .line 617
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
@@ -2169,7 +2169,7 @@
     .line 536
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeImpedace(Z)V
 
-    const/16 v0, 0x709
+    const/16 v0, 0x509
 
     .line 537
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
@@ -2183,7 +2183,7 @@
     .line 573
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodePointNum(I)V
 
-    const/16 v0, 0x70c
+    const/16 v0, 0x50c
 
     .line 574
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
@@ -2197,7 +2197,7 @@
     .line 605
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeRunDispType(I)V
 
-    const/16 v0, 0x703
+    const/16 v0, 0x503
 
     .line 606
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
@@ -2216,7 +2216,7 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    const/16 v0, 0x702
+    const/16 v0, 0x502
 
     .line 635
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
@@ -2237,7 +2237,7 @@
     .line 583
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceIn(I)V
 
-    const/16 v0, 0x706
+    const/16 v0, 0x506
 
     .line 584
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
@@ -2251,7 +2251,7 @@
     .line 594
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceOut(I)V
 
-    const/16 v0, 0x707
+    const/16 v0, 0x507
 
     .line 595
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
@@ -2265,7 +2265,7 @@
     .line 513
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodeStartFreq(J)V
 
-    const/16 v0, 0x70a
+    const/16 v0, 0x50a
 
     .line 515
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2291,11 +2291,11 @@
 
     move-result-object v0
 
-    const/16 v1, 0x70a
+    const/16 v1, 0x50a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
-    const/16 v0, 0x70b
+    const/16 v0, 0x50b
 
     .line 494
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2309,7 +2309,7 @@
     .line 559
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeSweepType(I)V
 
-    const/16 v0, 0x705
+    const/16 v0, 0x505
 
     .line 560
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
@@ -2323,7 +2323,7 @@
     .line 525
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeVaramp(Z)V
 
-    const/16 v0, 0x708
+    const/16 v0, 0x508
 
     .line 526
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
@@ -2337,7 +2337,7 @@
     .line 546
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodedispType(I)V
 
-    const/16 v0, 0x703
+    const/16 v0, 0x503
 
     .line 547
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
@@ -2349,7 +2349,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x701
+    const/16 v0, 0x501
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -2362,7 +2362,7 @@
     .line 384
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp1(J)V
 
-    const/16 v0, 0x70e
+    const/16 v0, 0x50e
 
     .line 386
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2376,7 +2376,7 @@
     .line 399
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp2(J)V
 
-    const/16 v0, 0x70f
+    const/16 v0, 0x50f
 
     .line 400
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2390,7 +2390,7 @@
     .line 409
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp3(J)V
 
-    const/16 v0, 0x710
+    const/16 v0, 0x510
 
     .line 411
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2404,7 +2404,7 @@
     .line 420
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp4(J)V
 
-    const/16 v0, 0x711
+    const/16 v0, 0x511
 
     .line 421
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2418,7 +2418,7 @@
     .line 431
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp5(J)V
 
-    const/16 v0, 0x712
+    const/16 v0, 0x512
 
     .line 432
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2432,7 +2432,7 @@
     .line 441
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp6(J)V
 
-    const/16 v0, 0x713
+    const/16 v0, 0x513
 
     .line 442
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2446,7 +2446,7 @@
     .line 451
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp7(J)V
 
-    const/16 v0, 0x714
+    const/16 v0, 0x514
 
     .line 452
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2460,7 +2460,7 @@
     .line 461
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp8(J)V
 
-    const/16 v0, 0x715
+    const/16 v0, 0x515
 
     .line 462
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
@@ -2474,7 +2474,7 @@
     .line 332
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setFirEnable(Z)V
 
-    const/16 v0, 0x71c
+    const/16 v0, 0x51c
 
     .line 333
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
@@ -2701,7 +2701,7 @@
     .line 622
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable(Z)V
 
-    const/16 v0, 0x701
+    const/16 v0, 0x501
 
     .line 623
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I

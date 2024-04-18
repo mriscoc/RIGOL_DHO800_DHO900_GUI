@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/UpaRippleParam;)V
     .locals 0
 
-    .line 8320
+    .line 8328
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$765;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$765;->val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8323
+    .line 8331
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$765;->val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaRippleParam;->readPowerCurr()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaRippleParam;->readRippleCount()I
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8320
+    .line 8328
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$765;->onChanged(Ljava/lang/Boolean;)V

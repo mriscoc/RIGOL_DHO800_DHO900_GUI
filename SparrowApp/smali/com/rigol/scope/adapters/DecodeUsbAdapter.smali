@@ -256,7 +256,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5bd7
+    const/16 v0, 0x59d7
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -285,7 +285,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5bd8
+    const/16 v0, 0x59d8
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -314,7 +314,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5bda
+    const/16 v0, 0x59da
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -343,7 +343,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5bdb
+    const/16 v0, 0x59db
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -514,7 +514,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5bd7
+    const/16 v2, 0x59d7
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -605,7 +605,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5bd8
+    const/16 v2, 0x59d8
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -696,7 +696,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5bda
+    const/16 v2, 0x59da
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -787,7 +787,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5bdb
+    const/16 v2, 0x59db
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 

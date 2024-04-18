@@ -82,7 +82,7 @@
 
     const/16 v0, 0x3d
 
-    const/16 v1, 0x702
+    const/16 v1, 0x502
 
     .line 3269
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z

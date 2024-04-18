@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 6504
+    .line 6514
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$573;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,14 +47,14 @@
 .method public onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 6508
+    .line 6518
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
 
     const/16 v0, 0x3a
 
-    const/16 v1, 0x3903
+    const/16 v1, 0x3703
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

@@ -176,7 +176,7 @@
 
     const/16 p2, 0x29
 
-    const/16 p3, 0x51e7
+    const/16 p3, 0x4fe7
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/TriggerRuntAdapter$2;->this$0:Lcom/rigol/scope/adapters/TriggerRuntAdapter;
 
@@ -336,7 +336,7 @@
 
     const/16 v0, 0x29
 
-    const/16 v1, 0x51e7
+    const/16 v1, 0x4fe7
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerRuntAdapter$2;->this$0:Lcom/rigol/scope/adapters/TriggerRuntAdapter;
 

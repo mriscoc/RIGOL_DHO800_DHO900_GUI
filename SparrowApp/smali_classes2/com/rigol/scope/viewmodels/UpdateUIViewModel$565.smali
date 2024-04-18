@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/CounterResultParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/DvmResultParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/CounterResultParam;
+.field final synthetic val$param:Lcom/rigol/scope/data/DvmResultParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/CounterResultParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DvmResultParam;)V
     .locals 0
 
-    .line 6415
+    .line 6439
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/CounterResultParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,15 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6418
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/CounterResultParam;
+    .line 6442
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/CounterResultParam;->readCounterSwitch()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readLimitUpper()J
+
+    .line 6443
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/DvmResultParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readUpperAttr()V
 
     return-void
 .end method
@@ -62,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6415
+    .line 6439
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->onChanged(Ljava/lang/Boolean;)V

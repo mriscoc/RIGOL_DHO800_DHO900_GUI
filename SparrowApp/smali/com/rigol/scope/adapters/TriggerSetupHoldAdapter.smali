@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x513d
+    const/16 v1, 0x4f3d
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -287,7 +287,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x513c
+    const/16 v1, 0x4f3c
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -881,7 +881,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerSetupHoldAdapter;->serviceId:I
 
-    const/16 v2, 0x511e
+    const/16 v2, 0x4f1e
 
     invoke-virtual {p1, v0, v2, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1815,7 +1815,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerSetupHoldAdapter;->serviceId:I
 
-    const/16 v1, 0x513c
+    const/16 v1, 0x4f3c
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerSetupHoldAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -1858,7 +1858,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerSetupHoldAdapter;->serviceId:I
 
-    const/16 v1, 0x513d
+    const/16 v1, 0x4f3d
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerSetupHoldAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 

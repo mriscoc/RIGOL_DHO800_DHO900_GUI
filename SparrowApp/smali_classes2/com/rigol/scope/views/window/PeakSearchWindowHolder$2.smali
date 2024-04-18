@@ -97,7 +97,7 @@
 
     move-result v0
 
-    const/16 v1, 0x315d
+    const/16 v1, 0x2f5d
 
     .line 2582
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;

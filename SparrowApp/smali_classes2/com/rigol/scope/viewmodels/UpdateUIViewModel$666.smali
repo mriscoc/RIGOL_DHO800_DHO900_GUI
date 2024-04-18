@@ -31,15 +31,19 @@
 
 .field final synthetic val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
+.field final synthetic val$serviceId:I
+
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;I)V
     .locals 0
 
-    .line 7378
+    .line 7390
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
+
+    iput p3, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->val$serviceId:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,37 +53,41 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 2
 
-    .line 7381
+    .line 7393
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorThreshold()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readStatisticState()Z
 
-    move-result p1
+    .line 7394
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
-    if-eqz p1, :cond_0
+    move-result-object p1
 
-    .line 7382
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
+    iget v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->val$serviceId:I
 
-    const/4 v0, 0x1
+    const/16 v1, 0x333e
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorIndicator(Z)V
+    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
-    .line 7383
-    sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
+    move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/views/baseview/OrientationView$Companion;->setShowThreshold(Z)V
+    const/4 v1, -0x1
 
-    :cond_0
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7378
+    .line 7390
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$666;->onChanged(Ljava/lang/Boolean;)V

@@ -492,7 +492,7 @@
     .line 542
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v2, 0x3916
+    const/16 v2, 0x3716
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/data/NavigateParam;->savePlay(IZ)V
 
@@ -511,7 +511,7 @@
     .line 544
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v2, 0x3903
+    const/16 v2, 0x3703
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/data/NavigateParam;->savePlay(IZ)V
 
@@ -1022,7 +1022,7 @@
 
     const/16 v1, 0x3a
 
-    const/16 v2, 0x3903
+    const/16 v2, 0x3703
 
     .line 107
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -1586,7 +1586,7 @@
     .line 335
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3904
+    const/16 v0, 0x3704
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getTimeSpeed()I
 
@@ -1609,7 +1609,7 @@
     .line 337
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x390a
+    const/16 v0, 0x370a
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getSerchType()I
 
@@ -1623,7 +1623,7 @@
     :cond_8
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3912
+    const/16 v0, 0x3712
 
     invoke-virtual {p1, v0, v3}, Lcom/rigol/scope/data/NavigateParam;->saveStartFrame(II)V
 
@@ -1646,7 +1646,7 @@
     .line 343
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3907
+    const/16 v0, 0x3707
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getTimeSpeed()I
 
@@ -1669,7 +1669,7 @@
     .line 345
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x390d
+    const/16 v0, 0x370d
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getSerchType()I
 
@@ -1683,7 +1683,7 @@
     :cond_b
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3915
+    const/16 v0, 0x3715
 
     invoke-virtual {p1, v0, v3}, Lcom/rigol/scope/data/NavigateParam;->saveEndFrame(II)V
 
@@ -1749,7 +1749,7 @@
     .line 356
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3916
+    const/16 v0, 0x3716
 
     invoke-virtual {p1, v0, v4}, Lcom/rigol/scope/data/NavigateParam;->savePlay(IZ)V
 
@@ -1768,7 +1768,7 @@
     .line 358
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3903
+    const/16 v0, 0x3703
 
     invoke-virtual {p1, v0, v4}, Lcom/rigol/scope/data/NavigateParam;->savePlay(IZ)V
 
@@ -1804,7 +1804,7 @@
     .line 364
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3906
+    const/16 v0, 0x3706
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getTimeSpeed()I
 
@@ -1827,7 +1827,7 @@
     .line 366
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x390c
+    const/16 v0, 0x370c
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getSerchType()I
 
@@ -1841,7 +1841,7 @@
     :cond_12
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3914
+    const/16 v0, 0x3714
 
     invoke-virtual {p1, v0, v3}, Lcom/rigol/scope/data/NavigateParam;->saveEndFrame(II)V
 
@@ -1864,7 +1864,7 @@
     .line 372
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3905
+    const/16 v0, 0x3705
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getTimeSpeed()I
 
@@ -1887,7 +1887,7 @@
     .line 374
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x390b
+    const/16 v0, 0x370b
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->getSerchType()I
 
@@ -1901,7 +1901,7 @@
     :cond_15
     iget-object p1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v0, 0x3913
+    const/16 v0, 0x3713
 
     invoke-virtual {p1, v0, v3}, Lcom/rigol/scope/data/NavigateParam;->saveEndFrame(II)V
 

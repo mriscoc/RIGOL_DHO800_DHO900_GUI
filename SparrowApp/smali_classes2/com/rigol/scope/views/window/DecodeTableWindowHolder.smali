@@ -345,7 +345,7 @@
 
     move-result v0
 
-    const/16 v1, 0x5bad
+    const/16 v1, 0x59ad
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -400,7 +400,7 @@
 
     move-result v0
 
-    const/16 v1, 0x5b02
+    const/16 v1, 0x5902
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -452,7 +452,7 @@
 
     move-result v0
 
-    const/16 v1, 0x5b01
+    const/16 v1, 0x5901
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -613,7 +613,7 @@
 
     move-result p1
 
-    const/16 v1, 0x5bad
+    const/16 v1, 0x59ad
 
     .line 2413
     invoke-virtual {v0, p1, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;

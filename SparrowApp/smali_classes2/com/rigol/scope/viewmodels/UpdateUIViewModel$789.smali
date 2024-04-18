@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/LaParam;)V
     .locals 0
 
-    .line 8486
+    .line 8495
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$789;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$789;->val$laParam:Lcom/rigol/scope/data/LaParam;
@@ -49,23 +49,12 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 0
 
-    .line 8490
+    .line 8499
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$789;->val$laParam:Lcom/rigol/scope/data/LaParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readProbe()V
-
-    .line 8491
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Class;
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismissAll([Ljava/lang/Class;)V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readLaProbeCalPro()V
 
     return-void
 .end method
@@ -73,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8486
+    .line 8495
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$789;->onChanged(Ljava/lang/Boolean;)V

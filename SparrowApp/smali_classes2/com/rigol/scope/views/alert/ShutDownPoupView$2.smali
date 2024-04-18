@@ -79,7 +79,7 @@
 
     const/16 v0, 0xb
 
-    const/16 v1, 0x5952
+    const/16 v1, 0x5752
 
     const/4 v2, 0x0
 

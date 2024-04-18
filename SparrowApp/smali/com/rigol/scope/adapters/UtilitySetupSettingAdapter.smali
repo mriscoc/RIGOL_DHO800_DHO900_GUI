@@ -898,7 +898,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x595e
+    const/16 v3, 0x575e
 
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 

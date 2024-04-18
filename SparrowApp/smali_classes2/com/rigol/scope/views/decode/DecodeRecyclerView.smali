@@ -110,7 +110,7 @@
 .method private aBKeyInit()V
     .locals 8
 
-    .line 342
+    .line 339
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->list_aorbParam:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -123,7 +123,7 @@
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 344
+    .line 341
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->list_aorbParam:Ljava/util/List;
 
@@ -147,7 +147,7 @@
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 345
+    .line 342
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->list_aorbParam:Ljava/util/List;
 
     new-instance v7, Lcom/rigol/scope/data/AorBParam;
@@ -164,7 +164,7 @@
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 346
+    .line 343
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->list_aorbParam:Ljava/util/List;
 
     new-instance v7, Lcom/rigol/scope/data/AorBParam;
@@ -181,7 +181,7 @@
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 347
+    .line 344
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->list_aorbParam:Ljava/util/List;
 
     new-instance v7, Lcom/rigol/scope/data/AorBParam;
@@ -198,7 +198,7 @@
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 348
+    .line 345
     new-instance v0, Lcom/rigol/scope/views/decode/DecodeRecyclerView$1;
 
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->context:Landroid/content/Context;
@@ -209,12 +209,12 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
-    .line 357
+    .line 354
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-nez v0, :cond_1
 
-    .line 358
+    .line 355
     const-class v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -227,7 +227,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 361
+    .line 358
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -331,62 +331,62 @@
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$ofO38GwjpkJ6wlWANx-SxwzrBX8;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
-    .line 274
+    .line 271
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeCopyTrig:Landroid/widget/Button;
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 275
+    .line 272
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeTypeValue:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 276
+    .line 273
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeFormatValue:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 277
+    .line 274
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeEvtFormatValue:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 278
+    .line 275
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeEvtViewValue:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 279
+    .line 276
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeOnOffValue:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 280
+    .line 277
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeLabelValue:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 281
+    .line 278
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeEvtValue:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 282
+    .line 279
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeEvtExport:Landroid/widget/Button;
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 283
+    .line 280
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeEvtJump:Landroid/widget/Button;
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 284
+    .line 281
     iget-object v1, p1, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;->decodeCopyTrig:Landroid/widget/Button;
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 285
+    .line 282
     new-instance v0, Lcom/rigol/scope/adapters/DecodeParallelAdapter;
 
     iget-object v3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -405,7 +405,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeParallelAdapter:Lcom/rigol/scope/adapters/DecodeParallelAdapter;
 
-    .line 286
+    .line 283
     new-instance v0, Lcom/rigol/scope/adapters/DecodeRs232Adapter;
 
     iget-object v9, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -424,7 +424,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeRs232Adapter:Lcom/rigol/scope/adapters/DecodeRs232Adapter;
 
-    .line 287
+    .line 284
     new-instance v0, Lcom/rigol/scope/adapters/DecodeI2CAdapter;
 
     iget-object v2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2CAdapter:Lcom/rigol/scope/adapters/DecodeI2CAdapter;
 
-    .line 288
+    .line 285
     new-instance v0, Lcom/rigol/scope/adapters/DecodeI2SAdapter;
 
     iget-object v8, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -462,7 +462,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2SAdapter:Lcom/rigol/scope/adapters/DecodeI2SAdapter;
 
-    .line 289
+    .line 286
     new-instance v0, Lcom/rigol/scope/adapters/DecodeLinAdapter;
 
     iget-object v2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -481,7 +481,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeLinAdapter:Lcom/rigol/scope/adapters/DecodeLinAdapter;
 
-    .line 290
+    .line 287
     new-instance v0, Lcom/rigol/scope/adapters/DecodeSpiAdapter;
 
     iget-object v8, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -500,7 +500,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeSpiAdapter:Lcom/rigol/scope/adapters/DecodeSpiAdapter;
 
-    .line 291
+    .line 288
     new-instance v0, Lcom/rigol/scope/adapters/DecodeCanAdapter;
 
     iget-object v2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -519,7 +519,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeCanAdapter:Lcom/rigol/scope/adapters/DecodeCanAdapter;
 
-    .line 292
+    .line 289
     new-instance v0, Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;
 
     iget-object v8, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -538,7 +538,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeFlexrayAdapter:Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;
 
-    .line 293
+    .line 290
     new-instance v0, Lcom/rigol/scope/adapters/Decode1553bAdapter;
 
     iget-object v2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
@@ -557,7 +557,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decode1553bAdapter:Lcom/rigol/scope/adapters/Decode1553bAdapter;
 
-    .line 294
+    .line 291
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
@@ -568,10 +568,10 @@
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
 
-    .line 296
+    .line 293
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->aBKeyInit()V
 
-    .line 297
+    .line 294
     const-class v0, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -584,14 +584,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 299
+    .line 296
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
 
     move-result v1
 
-    const/16 v2, 0x5b01
+    const/16 v2, 0x5901
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -614,12 +614,12 @@
 .method private selectEventFormatValue(I)V
     .locals 1
 
-    .line 305
+    .line 302
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     if-eqz v0, :cond_0
 
-    .line 306
+    .line 303
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveEvent_format(I)V
 
     :cond_0
@@ -629,12 +629,12 @@
 .method private selectEventViewValue(I)V
     .locals 1
 
-    .line 311
+    .line 308
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     if-eqz v0, :cond_0
 
-    .line 312
+    .line 309
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveEvent_view(I)V
 
     :cond_0
@@ -644,12 +644,12 @@
 .method private selectFormatValue(I)V
     .locals 1
 
-    .line 317
+    .line 314
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     if-eqz v0, :cond_0
 
-    .line 318
+    .line 315
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveFormat(I)V
 
     :cond_0
@@ -659,7 +659,7 @@
 .method private selectTypeValue(Lcom/rigol/scope/data/MappingObject;)V
     .locals 2
 
-    .line 323
+    .line 320
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     if-eqz v0, :cond_0
@@ -672,7 +672,7 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 324
+    .line 321
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -685,7 +685,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/DecodeParam;->saveType(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;)V
 
-    .line 325
+    .line 322
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->binding:Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -707,49 +707,49 @@
 .method private setIsMOveAdapter()V
     .locals 2
 
-    .line 330
+    .line 327
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeParallelAdapter:Lcom/rigol/scope/adapters/DecodeParallelAdapter;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeParallelAdapter;->setIsMove(Z)V
 
-    .line 331
+    .line 328
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeRs232Adapter:Lcom/rigol/scope/adapters/DecodeRs232Adapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeRs232Adapter;->setIsMove(Z)V
 
-    .line 332
+    .line 329
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2CAdapter:Lcom/rigol/scope/adapters/DecodeI2CAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeI2CAdapter;->setIsMove(Z)V
 
-    .line 333
+    .line 330
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2SAdapter:Lcom/rigol/scope/adapters/DecodeI2SAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeI2SAdapter;->setIsMove(Z)V
 
-    .line 334
+    .line 331
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeLinAdapter:Lcom/rigol/scope/adapters/DecodeLinAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeLinAdapter;->setIsMove(Z)V
 
-    .line 335
+    .line 332
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeSpiAdapter:Lcom/rigol/scope/adapters/DecodeSpiAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeSpiAdapter;->setIsMove(Z)V
 
-    .line 336
+    .line 333
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeCanAdapter:Lcom/rigol/scope/adapters/DecodeCanAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeCanAdapter;->setIsMove(Z)V
 
-    .line 337
+    .line 334
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeFlexrayAdapter:Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;->setIsMove(Z)V
 
-    .line 338
+    .line 335
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decode1553bAdapter:Lcom/rigol/scope/adapters/Decode1553bAdapter;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/Decode1553bAdapter;->setIsMove(Z)V
@@ -760,23 +760,23 @@
 .method private show1553BAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 465
+    .line 462
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 466
+    .line 463
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decode1553bAdapter:Lcom/rigol/scope/adapters/Decode1553bAdapter;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/Decode1553bAdapter;->setIsMove(Z)V
 
-    .line 467
+    .line 464
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->read_1553b_thres1()V
 
-    .line 468
+    .line 465
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->read_1553b_thres2()V
 
-    .line 469
+    .line 466
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decode1553bAdapter:Lcom/rigol/scope/adapters/Decode1553bAdapter;
@@ -789,12 +789,12 @@
 .method private showARINC429Adapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 476
+    .line 473
     new-instance v0, Lcom/rigol/scope/adapters/DecodeArinc429Adapter;
 
     invoke-direct {v0, p1, p3}, Lcom/rigol/scope/adapters/DecodeArinc429Adapter;-><init>(Landroid/view/View;Lcom/rigol/scope/data/DecodeParam;)V
 
-    .line 477
+    .line 474
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -805,20 +805,20 @@
 .method private showCANAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 437
+    .line 434
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 438
+    .line 435
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeCanAdapter:Lcom/rigol/scope/adapters/DecodeCanAdapter;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/DecodeCanAdapter;->setIsMove(Z)V
 
-    .line 439
+    .line 436
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readCan_threas()V
 
-    .line 440
+    .line 437
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeCanAdapter:Lcom/rigol/scope/adapters/DecodeCanAdapter;
@@ -831,20 +831,20 @@
 .method private showFlexRayAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 446
+    .line 443
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 447
+    .line 444
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeFlexrayAdapter:Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;->setIsMove(Z)V
 
-    .line 448
+    .line 445
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readFlex_thres()V
 
-    .line 449
+    .line 446
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeFlexrayAdapter:Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;
@@ -857,20 +857,20 @@
 .method private showI2CAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 408
+    .line 405
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 409
+    .line 406
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readI2c_scl_thres()V
 
-    .line 410
+    .line 407
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2CAdapter:Lcom/rigol/scope/adapters/DecodeI2CAdapter;
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/adapters/DecodeI2CAdapter;->setIsMove(Z)V
 
-    .line 412
+    .line 409
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2CAdapter:Lcom/rigol/scope/adapters/DecodeI2CAdapter;
@@ -883,23 +883,23 @@
 .method private showI2SAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 455
+    .line 452
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 456
+    .line 453
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2SAdapter:Lcom/rigol/scope/adapters/DecodeI2SAdapter;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/DecodeI2SAdapter;->setIsMove(Z)V
 
-    .line 457
+    .line 454
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readI2c_scl_thres()V
 
-    .line 458
+    .line 455
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readI2c_sda_thres()V
 
-    .line 459
+    .line 456
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeI2SAdapter:Lcom/rigol/scope/adapters/DecodeI2SAdapter;
@@ -912,20 +912,20 @@
 .method private showLINAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 428
+    .line 425
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 429
+    .line 426
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeLinAdapter:Lcom/rigol/scope/adapters/DecodeLinAdapter;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/DecodeLinAdapter;->setIsMove(Z)V
 
-    .line 430
+    .line 427
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readLin_thres()V
 
-    .line 431
+    .line 428
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeLinAdapter:Lcom/rigol/scope/adapters/DecodeLinAdapter;
@@ -938,12 +938,12 @@
 .method private showMOSTAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 490
+    .line 487
     new-instance v0, Lcom/rigol/scope/adapters/DecodeMostAdapter;
 
     invoke-direct {v0, p1, p3}, Lcom/rigol/scope/adapters/DecodeMostAdapter;-><init>(Landroid/view/View;Lcom/rigol/scope/data/DecodeParam;)V
 
-    .line 491
+    .line 488
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -954,17 +954,17 @@
 .method private showParallelAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 391
+    .line 388
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 392
+    .line 389
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeParallelAdapter:Lcom/rigol/scope/adapters/DecodeParallelAdapter;
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/adapters/DecodeParallelAdapter;->setIsMove(Z)V
 
-    .line 393
+    .line 390
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeParallelAdapter:Lcom/rigol/scope/adapters/DecodeParallelAdapter;
@@ -977,20 +977,20 @@
 .method private showRS232Adapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 399
+    .line 396
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 400
+    .line 397
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeRs232Adapter:Lcom/rigol/scope/adapters/DecodeRs232Adapter;
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/DecodeRs232Adapter;->setIsMove(Z)V
 
-    .line 401
+    .line 398
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readRs232_tx_thres()V
 
-    .line 402
+    .line 399
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeRs232Adapter:Lcom/rigol/scope/adapters/DecodeRs232Adapter;
@@ -1003,12 +1003,12 @@
 .method private showSENTAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 483
+    .line 480
     new-instance v0, Lcom/rigol/scope/adapters/DecodeSentAdapter;
 
     invoke-direct {v0, p1, p3}, Lcom/rigol/scope/adapters/DecodeSentAdapter;-><init>(Landroid/view/View;Lcom/rigol/scope/data/DecodeParam;)V
 
-    .line 484
+    .line 481
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -1019,23 +1019,23 @@
 .method private showSPIAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 418
+    .line 415
     invoke-direct {p0}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->setIsMOveAdapter()V
 
-    .line 419
+    .line 416
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readSpi_miso_thres()V
 
-    .line 420
+    .line 417
     invoke-virtual {p3}, Lcom/rigol/scope/data/DecodeParam;->readSpi_cs_thres()V
 
-    .line 421
+    .line 418
     iget-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeSpiAdapter:Lcom/rigol/scope/adapters/DecodeSpiAdapter;
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/adapters/DecodeSpiAdapter;->setIsMove(Z)V
 
-    .line 422
+    .line 419
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->decodeSpiAdapter:Lcom/rigol/scope/adapters/DecodeSpiAdapter;
@@ -1048,12 +1048,12 @@
 .method private showUSBAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 1
 
-    .line 497
+    .line 494
     new-instance v0, Lcom/rigol/scope/adapters/DecodeUsbAdapter;
 
     invoke-direct {v0, p1, p3}, Lcom/rigol/scope/adapters/DecodeUsbAdapter;-><init>(Landroid/view/View;Lcom/rigol/scope/data/DecodeParam;)V
 
-    .line 498
+    .line 495
     iget-object p1, p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;->decodeBusTypeView:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -1066,14 +1066,14 @@
 .method public synthetic lambda$aBKeyInit$14$DecodeRecyclerView(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 365
+    .line 362
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 366
+    .line 363
     :cond_0
     invoke-virtual {v0}, Landroid/view/View;->getId()I
 
@@ -1083,25 +1083,25 @@
 
     goto :goto_0
 
-    .line 368
+    .line 365
     :sswitch_0
     invoke-direct {p0, p2}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectTypeValue(Lcom/rigol/scope/data/MappingObject;)V
 
     goto :goto_0
 
-    .line 371
+    .line 368
     :sswitch_1
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectFormatValue(I)V
 
     goto :goto_0
 
-    .line 377
+    .line 374
     :sswitch_2
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventViewValue(I)V
 
     goto :goto_0
 
-    .line 374
+    .line 371
     :sswitch_3
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventFormatValue(I)V
 
@@ -1122,7 +1122,7 @@
 .method public synthetic lambda$aBKeyInit$15$DecodeRecyclerView(Landroid/view/KeyEvent;)V
     .locals 11
 
-    .line 362
+    .line 359
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -1149,7 +1149,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 363
+    .line 360
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     iget-object v3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
@@ -1186,18 +1186,18 @@
 .end method
 
 .method public synthetic lambda$initView$1$DecodeRecyclerView(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
-    .locals 1
+    .locals 4
 
     const/4 v0, 0x1
 
     .line 169
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    move-result-object v0
+    move-result-object v1
 
     if-nez p1, :cond_0
 
-    return-object v0
+    return-object v1
 
     .line 172
     :cond_0
@@ -1211,13 +1211,45 @@
 
     if-nez p1, :cond_1
 
-    return-object v0
+    return-object v1
 
     .line 178
     :cond_1
-    iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->optionParam:Lcom/rigol/scope/data/OptionParam;
+    iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->optionParam:Lcom/rigol/scope/data/OptionParam;
 
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;)Z
+    const-class v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
+
+    move-result v2
+
+    const/16 v3, 0x320
+
+    if-ne v2, v3, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -1231,16 +1263,16 @@
 .method public synthetic lambda$initView$10$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 266
+    .line 263
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 267
+    .line 264
     iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 268
+    .line 265
     iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
 
-    .line 269
+    .line 266
     iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1249,7 +1281,7 @@
 .method public synthetic lambda$initView$11$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 271
+    .line 268
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventViewValue(I)V
 
     return-void
@@ -1272,7 +1304,7 @@
     .line 142
     instance-of v0, p1, Landroid/widget/CompoundButton;
 
-    if-eqz v0, :cond_e
+    if-eqz v0, :cond_c
 
     .line 143
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
@@ -1311,7 +1343,7 @@
 
     move-result p1
 
-    if-eqz p1, :cond_e
+    if-eqz p1, :cond_c
 
     .line 147
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
@@ -1340,7 +1372,7 @@
     .line 151
     instance-of v0, p1, Landroid/widget/CompoundButton;
 
-    if-eqz v0, :cond_e
+    if-eqz v0, :cond_c
 
     .line 152
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
@@ -1363,7 +1395,7 @@
     .line 157
     instance-of v0, p1, Landroid/widget/CompoundButton;
 
-    if-eqz v0, :cond_e
+    if-eqz v0, :cond_c
 
     .line 158
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
@@ -1381,14 +1413,14 @@
     :cond_2
     const v2, 0x7f0a0348
 
-    if-ne v0, v2, :cond_6
+    if-ne v0, v2, :cond_4
 
     .line 164
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->checkModelEDU()Z
 
     move-result v0
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_3
 
     const v0, 0x7f0300f5
 
@@ -1406,73 +1438,7 @@
 
     move-result-object v0
 
-    .line 180
-    invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isDoubleChan()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    const/4 v2, 0x5
-
-    if-ne v1, v2, :cond_3
-
-    .line 181
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    add-int/lit8 v1, v1, -0x1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
-
-    .line 184
-    :cond_3
-    const-class v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/rigol/scope/data/UtilityParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
-
-    move-result v1
-
-    const/16 v2, 0x320
-
-    if-ne v1, v2, :cond_4
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    const/4 v2, 0x6
-
-    if-ne v1, v2, :cond_4
-
-    .line 185
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    add-int/lit8 v1, v1, -0x1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
-
-    .line 190
-    :cond_4
+    .line 187
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$uAkELh_KCmjb4Wu5RwOr2XvOqhs;
@@ -1487,15 +1453,15 @@
 
     goto/16 :goto_0
 
-    :cond_5
+    :cond_3
     const v0, 0x7f0300f6
 
-    .line 199
+    .line 196
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 200
+    .line 197
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$v4g9KV8oDwccLSpVOF1Y7uD5f2Y;
@@ -1510,10 +1476,32 @@
 
     goto/16 :goto_0
 
-    :cond_6
+    :cond_4
     const v2, 0x7f0a0275
 
-    if-ne v0, v2, :cond_7
+    if-ne v0, v2, :cond_5
+
+    .line 209
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v0
+
+    const/16 v2, 0x591d
+
+    invoke-virtual {p1, v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
+
+    goto/16 :goto_0
+
+    :cond_5
+    const v2, 0x7f0a0272
+
+    if-ne v0, v2, :cond_8
 
     .line 212
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -1522,48 +1510,26 @@
 
     iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
+    .line 213
     invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
 
     move-result v0
 
-    const/16 v2, 0x5b1d
+    const/16 v1, 0x59ad
 
-    invoke-virtual {p1, v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
-
-    goto/16 :goto_0
-
-    :cond_7
-    const v2, 0x7f0a0272
-
-    if-ne v0, v2, :cond_a
-
-    .line 215
-    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
-
-    .line 216
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v0
-
-    const/16 v1, 0x5bad
-
-    .line 215
+    .line 212
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 220
+    .line 217
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
-    if-eqz v0, :cond_8
+    if-eqz v0, :cond_6
 
-    .line 221
+    .line 218
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -1582,8 +1548,8 @@
 
     return-void
 
-    .line 225
-    :cond_8
+    .line 222
+    :cond_6
     const-class v0, Lcom/rigol/scope/viewmodels/StorageViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1592,9 +1558,9 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/StorageViewModel;
 
-    if-eqz v0, :cond_9
+    if-eqz v0, :cond_7
 
-    .line 227
+    .line 224
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/StorageViewModel;->getSaveLiveData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -1605,25 +1571,25 @@
 
     check-cast v0, Lcom/rigol/scope/data/StorageSaveParam;
 
-    if-eqz v0, :cond_9
+    if-eqz v0, :cond_7
 
-    .line 230
+    .line 227
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setDecodeDataPath(Ljava/lang/String;)V
 
-    .line 231
+    .line 228
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_DECDAT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 232
+    .line 229
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_CSV:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 237
-    :cond_9
+    .line 234
+    :cond_7
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1634,12 +1600,12 @@
 
     goto :goto_0
 
-    :cond_a
+    :cond_8
     const v2, 0x7f0a026f
 
-    if-ne v0, v2, :cond_b
+    if-ne v0, v2, :cond_9
 
-    .line 239
+    .line 236
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1650,25 +1616,25 @@
 
     move-result v0
 
-    const/16 v2, 0x5b24
+    const/16 v2, 0x5924
 
     invoke-virtual {p1, v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     goto :goto_0
 
-    :cond_b
+    :cond_9
     const v1, 0x7f0a028a
 
-    if-ne v0, v1, :cond_c
+    if-ne v0, v1, :cond_a
 
     const v0, 0x7f0300c3
 
-    .line 243
+    .line 240
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 244
+    .line 241
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$gIE80XjJ1mtZ4-bBpf2YK1xi_Ks;
@@ -1683,19 +1649,19 @@
 
     goto :goto_0
 
-    :cond_c
+    :cond_a
     const v1, 0x7f0a0274
 
-    if-ne v0, v1, :cond_d
+    if-ne v0, v1, :cond_b
 
     const v0, 0x7f0300bd
 
-    .line 253
+    .line 250
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 254
+    .line 251
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$7oWOYR21IdM92T0mvbw3VfeVpjk;
@@ -1710,19 +1676,19 @@
 
     goto :goto_0
 
-    :cond_d
+    :cond_b
     const v1, 0x7f0a0279
 
-    if-ne v0, v1, :cond_e
+    if-ne v0, v1, :cond_c
 
     const v0, 0x7f0300be
 
-    .line 263
+    .line 260
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 264
+    .line 261
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$QZ1AJ0mPHttLnqzrZWwdAiVJbqc;
@@ -1735,7 +1701,7 @@
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
-    :cond_e
+    :cond_c
     :goto_0
     return-void
 .end method
@@ -1743,7 +1709,7 @@
 .method public synthetic lambda$initView$13$DecodeRecyclerView(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;Ljava/lang/Object;)V
     .locals 1
 
-    .line 299
+    .line 296
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
@@ -1760,16 +1726,16 @@
 .method public synthetic lambda$initView$2$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 192
+    .line 189
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 193
+    .line 190
     iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 194
+    .line 191
     iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
 
-    .line 195
+    .line 192
     iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1778,7 +1744,7 @@
 .method public synthetic lambda$initView$3$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 197
+    .line 194
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectTypeValue(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -1787,16 +1753,16 @@
 .method public synthetic lambda$initView$4$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 202
+    .line 199
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 203
+    .line 200
     iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 204
+    .line 201
     iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
 
-    .line 205
+    .line 202
     iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1805,7 +1771,7 @@
 .method public synthetic lambda$initView$5$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 207
+    .line 204
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectTypeValue(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -1814,16 +1780,16 @@
 .method public synthetic lambda$initView$6$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 246
+    .line 243
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 247
+    .line 244
     iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 248
+    .line 245
     iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
 
-    .line 249
+    .line 246
     iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1832,7 +1798,7 @@
 .method public synthetic lambda$initView$7$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 251
+    .line 248
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectFormatValue(I)V
 
     return-void
@@ -1841,16 +1807,16 @@
 .method public synthetic lambda$initView$8$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 256
+    .line 253
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 257
+    .line 254
     iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 258
+    .line 255
     iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
 
-    .line 259
+    .line 256
     iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1859,7 +1825,7 @@
 .method public synthetic lambda$initView$9$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 261
+    .line 258
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventFormatValue(I)V
 
     return-void
@@ -1872,7 +1838,7 @@
 
     return-void
 
-    .line 508
+    .line 505
     :cond_0
     sget-object v0, Lcom/rigol/scope/views/decode/DecodeRecyclerView$2;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$DecodeBusType:[I
 
@@ -1886,7 +1852,7 @@
 
     goto :goto_0
 
-    .line 546
+    .line 543
     :pswitch_0
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1894,7 +1860,7 @@
 
     goto :goto_0
 
-    .line 543
+    .line 540
     :pswitch_1
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1902,7 +1868,7 @@
 
     goto :goto_0
 
-    .line 540
+    .line 537
     :pswitch_2
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1910,7 +1876,7 @@
 
     goto :goto_0
 
-    .line 537
+    .line 534
     :pswitch_3
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1918,7 +1884,7 @@
 
     goto :goto_0
 
-    .line 534
+    .line 531
     :pswitch_4
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1926,7 +1892,7 @@
 
     goto :goto_0
 
-    .line 531
+    .line 528
     :pswitch_5
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1934,7 +1900,7 @@
 
     goto :goto_0
 
-    .line 528
+    .line 525
     :pswitch_6
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1942,7 +1908,7 @@
 
     goto :goto_0
 
-    .line 525
+    .line 522
     :pswitch_7
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1950,7 +1916,7 @@
 
     goto :goto_0
 
-    .line 522
+    .line 519
     :pswitch_8
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1958,7 +1924,7 @@
 
     goto :goto_0
 
-    .line 519
+    .line 516
     :pswitch_9
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1966,7 +1932,7 @@
 
     goto :goto_0
 
-    .line 516
+    .line 513
     :pswitch_a
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1974,7 +1940,7 @@
 
     goto :goto_0
 
-    .line 513
+    .line 510
     :pswitch_b
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
@@ -1982,13 +1948,13 @@
 
     goto :goto_0
 
-    .line 510
+    .line 507
     :pswitch_c
     iget-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
     invoke-direct {p0, p2, p1, p3}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->showParallelAdapter(Landroid/view/View;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
 
-    .line 552
+    .line 549
     :goto_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 

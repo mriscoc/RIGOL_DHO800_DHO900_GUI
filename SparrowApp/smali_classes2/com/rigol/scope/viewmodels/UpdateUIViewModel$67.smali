@@ -110,7 +110,7 @@
 
     move-result v0
 
-    const/16 v1, 0x3102
+    const/16 v1, 0x2f02
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

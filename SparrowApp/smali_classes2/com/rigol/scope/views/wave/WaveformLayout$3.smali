@@ -53,7 +53,7 @@
 
     const/16 v1, 0x28
 
-    const/16 v2, 0x3b04
+    const/16 v2, 0x3904
 
     .line 474
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F

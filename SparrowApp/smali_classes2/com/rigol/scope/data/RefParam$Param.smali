@@ -254,7 +254,7 @@
     .line 381
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x431d
+    const/16 v1, 0x411d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readBool(II)Z
 
@@ -409,7 +409,7 @@
     .line 497
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x4324
+    const/16 v1, 0x4124
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readStr(II)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 .method public readOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 2
 
-    const/16 v0, 0x4314
+    const/16 v0, 0x4114
 
     .line 626
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam$Param;->readLong(I)J
@@ -452,7 +452,7 @@
     .line 557
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x431d
+    const/16 v1, 0x411d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readBool(II)Z
 
@@ -474,7 +474,7 @@
     .line 517
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x4320
+    const/16 v1, 0x4120
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readInt(II)I
 
@@ -501,7 +501,7 @@
     .line 565
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x431e
+    const/16 v1, 0x411e
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readInt(II)I
 
@@ -525,7 +525,7 @@
 .method public readScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 2
 
-    const/16 v0, 0x4313
+    const/16 v0, 0x4113
 
     .line 615
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam$Param;->readLong(I)J
@@ -549,7 +549,7 @@
     .line 422
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x431f
+    const/16 v1, 0x411f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readInt(II)I
 
@@ -576,7 +576,7 @@
     .line 548
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x4317
+    const/16 v1, 0x4117
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readInt(II)I
 
@@ -603,7 +603,7 @@
     .line 538
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x4318
+    const/16 v1, 0x4118
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readStr(II)Ljava/lang/String;
 
@@ -625,7 +625,7 @@
     .line 470
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x4321
+    const/16 v1, 0x4121
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readLong(II)J
 
@@ -647,7 +647,7 @@
     .line 443
     iget v0, p0, Lcom/rigol/scope/data/RefParam$Param;->refIndex:I
 
-    const/16 v1, 0x4322
+    const/16 v1, 0x4122
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam$Param;->readLong(II)J
 
@@ -669,7 +669,7 @@
     .line 507
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->setLabel(Ljava/lang/String;)V
 
-    const/16 v0, 0x430f
+    const/16 v0, 0x410f
 
     .line 508
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/RefParam$Param;->saveStr(ILjava/lang/String;)I
@@ -686,7 +686,7 @@
     .line 529
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->value1:I
 
-    const/16 v0, 0x4309
+    const/16 v0, 0x4109
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/RefParam$Param;->saveInt(II)I
 
@@ -702,7 +702,7 @@
     .line 434
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x4301
+    const/16 v0, 0x4101
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/RefParam$Param;->saveInt(II)I
 
@@ -764,7 +764,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/RefParam$Param;->setVerOffset(J)V
 
-    const/16 v0, 0x4314
+    const/16 v0, 0x4114
 
     .line 488
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/RefParam$Param;->saveLong(IJ)I
@@ -827,7 +827,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/RefParam$Param;->setVerScale(J)V
 
-    const/16 v0, 0x4313
+    const/16 v0, 0x4113
 
     .line 461
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/RefParam$Param;->saveLong(IJ)I
@@ -895,7 +895,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4324
+    const/16 v1, 0x4124
 
     invoke-virtual {p0, v1, p1, v0}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 
@@ -920,7 +920,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x431d
+    const/16 v1, 0x411d
 
     invoke-virtual {p0, v1, p1, v0}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 
@@ -945,7 +945,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4320
+    const/16 v1, 0x4120
 
     invoke-virtual {p0, v1, p1, v0}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 
@@ -965,7 +965,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x431e
+    const/16 v1, 0x411e
 
     invoke-virtual {p0, v1, p1, v0}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 
@@ -990,7 +990,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x431f
+    const/16 v1, 0x411f
 
     invoke-virtual {p0, v1, p1, v0}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 
@@ -1043,7 +1043,7 @@
 
     move-result-object p2
 
-    const/16 v0, 0x4321
+    const/16 v0, 0x4121
 
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 
@@ -1077,7 +1077,7 @@
 
     move-result-object p2
 
-    const/16 v0, 0x4322
+    const/16 v0, 0x4122
 
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/RefParam$Param;->syncData(IILjava/lang/Object;)V
 

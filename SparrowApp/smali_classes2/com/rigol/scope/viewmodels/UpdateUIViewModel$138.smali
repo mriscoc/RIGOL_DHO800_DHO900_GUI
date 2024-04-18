@@ -63,7 +63,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$138;->val$param:Lcom/rigol/scope/data/MaskParam;
 
-    const/16 v1, 0x2f01
+    const/16 v1, 0x2d01
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/MaskParam;->readBool(I)Z
 
@@ -78,7 +78,7 @@
 
     const/16 v0, 0xa
 
-    const/16 v1, 0x2543
+    const/16 v1, 0x2343
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

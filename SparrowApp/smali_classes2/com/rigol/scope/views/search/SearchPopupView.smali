@@ -482,7 +482,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x470b
+    const/16 v1, 0x450b
 
     const/16 v2, 0x19
 
@@ -504,7 +504,7 @@
     .line 188
     iget-object v0, p0, Lcom/rigol/scope/views/search/SearchPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x470a
+    const/16 v1, 0x450a
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -524,7 +524,7 @@
     .line 197
     iget-object v0, p0, Lcom/rigol/scope/views/search/SearchPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x4701
+    const/16 v1, 0x4501
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -889,7 +889,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4701
+    const/16 v0, 0x4501
 
     invoke-static {v3, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -993,7 +993,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x470b
+    const/16 p2, 0x450b
 
     invoke-static {v3, p2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1095,7 +1095,7 @@
 
     const/16 v0, 0x19
 
-    const/16 v1, 0x4760
+    const/16 v1, 0x4560
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 

@@ -575,7 +575,7 @@
     .line 642
     iget-object v0, p0, Lcom/rigol/scope/SettingsBarFragment;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    const/16 v2, 0x61df
+    const/16 v2, 0x5fdf
 
     invoke-virtual {v0, v1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
@@ -592,7 +592,7 @@
     .line 649
     iget-object v0, p0, Lcom/rigol/scope/SettingsBarFragment;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    const/16 v2, 0x61e1
+    const/16 v2, 0x5fe1
 
     invoke-virtual {v0, v1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
@@ -1519,7 +1519,7 @@
 
     const/16 v0, 0x24
 
-    const/16 v1, 0x2d07
+    const/16 v1, 0x2b07
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1538,7 +1538,7 @@
 
     const/16 v0, 0x3c
 
-    const/16 v1, 0x2b01
+    const/16 v1, 0x2901
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

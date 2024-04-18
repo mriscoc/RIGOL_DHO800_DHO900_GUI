@@ -117,7 +117,7 @@
 
     move-result-object p3
 
-    const/16 v0, 0x3500
+    const/16 v0, 0x3300
 
     const/16 v1, 0x1c
 
@@ -152,7 +152,7 @@
 
     move-result-object p3
 
-    const/16 v0, 0x3502
+    const/16 v0, 0x3302
 
     invoke-static {v1, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

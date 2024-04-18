@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;Landroid/content/Context;Ljava/util/List;)V
     .locals 0
 
-    .line 348
+    .line 345
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView$1;->this$0:Lcom/rigol/scope/views/decode/DecodeRecyclerView;
 
     invoke-direct {p0, p2, p3}, Lcom/rigol/scope/utilities/AorBManager;-><init>(Landroid/content/Context;Ljava/util/List;)V

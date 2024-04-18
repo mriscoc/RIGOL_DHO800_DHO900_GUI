@@ -108,7 +108,7 @@
 
     const/16 p3, 0x1a
 
-    const/16 v0, 0x1506
+    const/16 v0, 0x1306
 
     .line 224
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -152,7 +152,7 @@
 
     const/16 p3, 0xa
 
-    const/16 v0, 0x2503
+    const/16 v0, 0x2303
 
     .line 233
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

@@ -760,7 +760,7 @@
 .method public readBathtubCurve()Z
     .locals 1
 
-    const/16 v0, 0x2916
+    const/16 v0, 0x2716
 
     .line 751
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -780,7 +780,7 @@
 .method public readDampFactor()I
     .locals 1
 
-    const/16 v0, 0x290d
+    const/16 v0, 0x270d
 
     .line 655
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -800,7 +800,7 @@
 .method public readDataRate()J
     .locals 2
 
-    const/16 v0, 0x290a
+    const/16 v0, 0x270a
 
     .line 631
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readLong(I)J
@@ -823,7 +823,7 @@
     .line 795
     iget-object v0, p0, Lcom/rigol/scope/data/JitterParam;->dataRateThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x290a
+    const/16 v1, 0x270a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/JitterParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -833,7 +833,7 @@
 .method public readEnable()Z
     .locals 1
 
-    const/16 v0, 0x2901
+    const/16 v0, 0x2701
 
     .line 535
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -853,7 +853,7 @@
 .method public readExternalClock()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2903
+    const/16 v0, 0x2703
 
     .line 679
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -877,7 +877,7 @@
 .method public readHighThres()I
     .locals 1
 
-    const/16 v0, 0x2905
+    const/16 v0, 0x2705
 
     .line 559
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -900,7 +900,7 @@
     .line 775
     iget-object v0, p0, Lcom/rigol/scope/data/JitterParam;->highThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2905
+    const/16 v1, 0x2705
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/JitterParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -910,7 +910,7 @@
 .method public readHistogram()Z
     .locals 1
 
-    const/16 v0, 0x2919
+    const/16 v0, 0x2719
 
     .line 739
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -930,7 +930,7 @@
 .method public readLoopBw()J
     .locals 2
 
-    const/16 v0, 0x290c
+    const/16 v0, 0x270c
 
     .line 667
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -955,7 +955,7 @@
     .line 790
     iget-object v0, p0, Lcom/rigol/scope/data/JitterParam;->loopBwThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x290c
+    const/16 v1, 0x270c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/JitterParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -965,7 +965,7 @@
 .method public readLowThres()I
     .locals 1
 
-    const/16 v0, 0x2907
+    const/16 v0, 0x2707
 
     .line 583
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -988,7 +988,7 @@
     .line 785
     iget-object v0, p0, Lcom/rigol/scope/data/JitterParam;->lowThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2907
+    const/16 v1, 0x2707
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/JitterParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -998,7 +998,7 @@
 .method public readMidThres()I
     .locals 1
 
-    const/16 v0, 0x2906
+    const/16 v0, 0x2706
 
     .line 571
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -1021,7 +1021,7 @@
     .line 780
     iget-object v0, p0, Lcom/rigol/scope/data/JitterParam;->midThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2906
+    const/16 v1, 0x2706
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/JitterParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1031,7 +1031,7 @@
 .method public readPersistance()Z
     .locals 1
 
-    const/16 v0, 0x2911
+    const/16 v0, 0x2711
 
     .line 703
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -1051,7 +1051,7 @@
 .method public readPllOrder()I
     .locals 1
 
-    const/16 v0, 0x290b
+    const/16 v0, 0x270b
 
     .line 643
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -1071,7 +1071,7 @@
 .method public readRecoveryType()I
     .locals 1
 
-    const/16 v0, 0x2908
+    const/16 v0, 0x2708
 
     .line 595
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -1091,7 +1091,7 @@
 .method public readResult()Z
     .locals 1
 
-    const/16 v0, 0x290f
+    const/16 v0, 0x270f
 
     .line 691
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -1111,7 +1111,7 @@
 .method public readSmooth()Z
     .locals 1
 
-    const/16 v0, 0x2931
+    const/16 v0, 0x2731
 
     .line 763
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -1131,7 +1131,7 @@
 .method public readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2902
+    const/16 v0, 0x2702
 
     .line 547
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -1155,7 +1155,7 @@
 .method public readSpectrum()Z
     .locals 1
 
-    const/16 v0, 0x2918
+    const/16 v0, 0x2718
 
     .line 727
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -1175,7 +1175,7 @@
 .method public readTieSlope()I
     .locals 1
 
-    const/16 v0, 0x2930
+    const/16 v0, 0x2730
 
     .line 607
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -1195,7 +1195,7 @@
 .method public readTrack()Z
     .locals 1
 
-    const/16 v0, 0x2917
+    const/16 v0, 0x2717
 
     .line 715
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readBool(I)Z
@@ -1215,7 +1215,7 @@
 .method public readType()I
     .locals 1
 
-    const/16 v0, 0x2909
+    const/16 v0, 0x2709
 
     .line 619
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->readInt(I)I
@@ -1331,7 +1331,7 @@
     .line 757
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setBathtubCurve(Z)V
 
-    const/16 v0, 0x2916
+    const/16 v0, 0x2716
 
     .line 758
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1345,7 +1345,7 @@
     .line 661
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setDampFactor(I)V
 
-    const/16 v0, 0x290d
+    const/16 v0, 0x270d
 
     .line 662
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1359,7 +1359,7 @@
     .line 637
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/JitterParam;->setDataRate(J)V
 
-    const/16 v0, 0x290a
+    const/16 v0, 0x270a
 
     .line 638
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/JitterParam;->saveLong(IJ)I
@@ -1373,7 +1373,7 @@
     .line 541
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setEnabled(Z)V
 
-    const/16 v0, 0x2901
+    const/16 v0, 0x2701
 
     .line 542
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1390,7 +1390,7 @@
     .line 686
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2903
+    const/16 v0, 0x2703
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
 
@@ -1403,7 +1403,7 @@
     .line 565
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setHighThres(I)V
 
-    const/16 v0, 0x2905
+    const/16 v0, 0x2705
 
     .line 566
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1417,7 +1417,7 @@
     .line 745
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setHistogram(Z)V
 
-    const/16 v0, 0x2919
+    const/16 v0, 0x2719
 
     .line 746
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1431,7 +1431,7 @@
     .line 673
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/JitterParam;->setLoopBw(J)V
 
-    const/16 v0, 0x290c
+    const/16 v0, 0x270c
 
     .line 674
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/JitterParam;->saveLong(IJ)I
@@ -1445,7 +1445,7 @@
     .line 589
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setLowThres(I)V
 
-    const/16 v0, 0x2907
+    const/16 v0, 0x2707
 
     .line 590
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1459,7 +1459,7 @@
     .line 577
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setMidThres(I)V
 
-    const/16 v0, 0x2906
+    const/16 v0, 0x2706
 
     .line 578
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1473,7 +1473,7 @@
     .line 709
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setPersistance(Z)V
 
-    const/16 v0, 0x2911
+    const/16 v0, 0x2711
 
     .line 710
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1487,7 +1487,7 @@
     .line 649
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setPllOrder(I)V
 
-    const/16 v0, 0x290b
+    const/16 v0, 0x270b
 
     .line 650
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1501,7 +1501,7 @@
     .line 601
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setRecoveryType(I)V
 
-    const/16 v0, 0x2908
+    const/16 v0, 0x2708
 
     .line 602
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1515,7 +1515,7 @@
     .line 697
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setResult(Z)V
 
-    const/16 v0, 0x290f
+    const/16 v0, 0x270f
 
     .line 698
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1529,7 +1529,7 @@
     .line 769
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setSmooth(Z)V
 
-    const/16 v0, 0x2931
+    const/16 v0, 0x2731
 
     .line 770
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1546,7 +1546,7 @@
     .line 554
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2902
+    const/16 v0, 0x2702
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
 
@@ -1559,7 +1559,7 @@
     .line 733
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setSpectrum(Z)V
 
-    const/16 v0, 0x2918
+    const/16 v0, 0x2718
 
     .line 734
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1573,7 +1573,7 @@
     .line 613
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setTieSlope(I)V
 
-    const/16 v0, 0x2930
+    const/16 v0, 0x2730
 
     .line 614
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1587,7 +1587,7 @@
     .line 721
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setTrack(Z)V
 
-    const/16 v0, 0x2917
+    const/16 v0, 0x2717
 
     .line 722
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveBool(IZ)I
@@ -1601,7 +1601,7 @@
     .line 625
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->setType(I)V
 
-    const/16 v0, 0x2909
+    const/16 v0, 0x2709
 
     .line 626
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->saveInt(II)I
@@ -1630,7 +1630,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0x2916
+    const/16 v0, 0x2716
 
     .line 442
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1687,7 +1687,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x2901
+    const/16 v0, 0x2701
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->syncData(ILjava/lang/Object;)V
 
@@ -1800,7 +1800,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0x2919
+    const/16 v0, 0x2719
 
     .line 425
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1969,7 +1969,7 @@
     .line 214
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x2902
+    const/16 v0, 0x2702
 
     .line 215
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/JitterParam;->syncData(ILjava/lang/Object;)V
@@ -2013,7 +2013,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0x2918
+    const/16 v0, 0x2718
 
     .line 407
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2076,7 +2076,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0x2917
+    const/16 v0, 0x2717
 
     .line 389
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;

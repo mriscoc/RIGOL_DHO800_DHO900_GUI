@@ -211,7 +211,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x5969
+    const/16 v0, 0x5769
 
     iget-object v1, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
@@ -251,7 +251,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x5969
+    const/16 v0, 0x5769
 
     iget-object v1, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
@@ -594,7 +594,7 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x5969
+    const/16 v2, 0x5769
 
     iget-object v3, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
@@ -888,7 +888,7 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x595e
+    const/16 v2, 0x575e
 
     const/4 v3, 0x0
 
@@ -1117,7 +1117,7 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x595e
+    const/16 v2, 0x575e
 
     const/4 v3, 0x0
 
@@ -1306,7 +1306,7 @@
 
     const/4 v0, 0x1
 
-    const/16 v2, 0x901
+    const/16 v2, 0x701
 
     invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -1360,7 +1360,7 @@
 
     const/16 v0, 0xa
 
-    const/16 v2, 0x2513
+    const/16 v2, 0x2313
 
     invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -1373,7 +1373,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x594c
+    const/16 v0, 0x574c
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -1451,7 +1451,7 @@
 
     const/4 v2, 0x0
 
-    const/16 v3, 0x595e
+    const/16 v3, 0x575e
 
     const/16 v4, 0xb
 
@@ -3239,7 +3239,7 @@
 
     const/16 v3, 0xb
 
-    const/16 v4, 0x595e
+    const/16 v4, 0x575e
 
     invoke-virtual {v0, v3, v4, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 

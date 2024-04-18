@@ -167,7 +167,7 @@
 
     const/16 v1, 0x2e
 
-    const/16 v2, 0x2f01
+    const/16 v2, 0x2d01
 
     const/4 v3, 0x0
 

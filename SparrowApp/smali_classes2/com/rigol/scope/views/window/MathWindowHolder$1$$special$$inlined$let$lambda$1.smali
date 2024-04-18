@@ -112,7 +112,7 @@
 
     move-result v0
 
-    const/16 v1, 0x316a
+    const/16 v1, 0x2f6a
 
     .line 989
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z

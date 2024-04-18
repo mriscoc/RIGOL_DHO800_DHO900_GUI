@@ -2044,7 +2044,7 @@
 
     const/16 p2, 0x28
 
-    const/16 v2, 0x3b06
+    const/16 v2, 0x3906
 
     invoke-virtual {p1, p2, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
@@ -2100,7 +2100,7 @@
 
     const/16 p2, 0x28
 
-    const/16 v2, 0x3b06
+    const/16 v2, 0x3906
 
     .line 1175
     invoke-virtual {p1, p2, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
@@ -2218,7 +2218,7 @@
     .line 1072
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->avgTimesAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2506
+    const/16 v1, 0x2306
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2228,7 +2228,7 @@
 .method public final readAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
     .locals 2
 
-    const/16 v0, 0x2503
+    const/16 v0, 0x2303
 
     .line 884
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2393,7 +2393,7 @@
 .method public final readAntiAliasing()Z
     .locals 1
 
-    const/16 v0, 0x250b
+    const/16 v0, 0x230b
 
     .line 955
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
@@ -2411,7 +2411,7 @@
 .method public final readAvgTimes()I
     .locals 1
 
-    const/16 v0, 0x2506
+    const/16 v0, 0x2306
 
     .line 950
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2429,7 +2429,7 @@
 .method public final readDepth()Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
     .locals 2
 
-    const/16 v0, 0x2509
+    const/16 v0, 0x2309
 
     .line 933
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2455,7 +2455,7 @@
 .method public final readDepthValue()J
     .locals 2
 
-    const/16 v0, 0x2508
+    const/16 v0, 0x2308
 
     .line 927
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2473,7 +2473,7 @@
 .method public final readDisplayMode()I
     .locals 1
 
-    const/16 v0, 0x253d
+    const/16 v0, 0x233d
 
     .line 985
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2491,7 +2491,7 @@
 .method public final readDotTime()J
     .locals 2
 
-    const/16 v0, 0x250c
+    const/16 v0, 0x230c
 
     .line 945
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2509,7 +2509,7 @@
 .method public final readExpandGnd()J
     .locals 2
 
-    const/16 v0, 0x252d
+    const/16 v0, 0x232d
 
     .line 970
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2527,7 +2527,7 @@
 .method public final readExpandMode()Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
     .locals 2
 
-    const/16 v0, 0x251b
+    const/16 v0, 0x231b
 
     .line 960
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2553,7 +2553,7 @@
 .method public final readExpandUser()I
     .locals 1
 
-    const/16 v0, 0x251c
+    const/16 v0, 0x231c
 
     .line 965
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2574,7 +2574,7 @@
     .line 1068
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->expandUserAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x251c
+    const/16 v1, 0x231c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2584,7 +2584,7 @@
 .method public final readFilter1()Z
     .locals 1
 
-    const/16 v0, 0x2535
+    const/16 v0, 0x2335
 
     .line 1006
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
@@ -2602,7 +2602,7 @@
 .method public final readFilter2()Z
     .locals 1
 
-    const/16 v0, 0x2534
+    const/16 v0, 0x2334
 
     .line 1011
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
@@ -2620,7 +2620,7 @@
 .method public final readFine()Z
     .locals 1
 
-    const/16 v0, 0x2512
+    const/16 v0, 0x2312
 
     .line 916
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
@@ -2638,7 +2638,7 @@
 .method public final readHighBit()Lcom/rigol/scope/cil/ServiceEnum$HighResBit;
     .locals 2
 
-    const/16 v0, 0x252c
+    const/16 v0, 0x232c
 
     .line 980
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2664,7 +2664,7 @@
 .method public final readHighBw()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2538
+    const/16 v0, 0x2338
 
     .line 990
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readStr(I)Ljava/lang/String;
@@ -2682,7 +2682,7 @@
 .method public final readMainOffset()J
     .locals 2
 
-    const/16 v0, 0x2517
+    const/16 v0, 0x2317
 
     .line 901
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2707,7 +2707,7 @@
 
     const/16 v1, 0x3a
 
-    const/16 v2, 0x3903
+    const/16 v2, 0x3703
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -2724,7 +2724,7 @@
     .line 1056
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->mainOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2517
+    const/16 v1, 0x2317
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2734,7 +2734,7 @@
 .method public final readMainScale()J
     .locals 2
 
-    const/16 v0, 0x2516
+    const/16 v0, 0x2316
 
     .line 895
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2755,7 +2755,7 @@
     .line 1050
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->mainScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2516
+    const/16 v1, 0x2316
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2765,7 +2765,7 @@
 .method public final readMaxFrame()J
     .locals 2
 
-    const/16 v0, 0x253b
+    const/16 v0, 0x233b
 
     .line 1026
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2786,7 +2786,7 @@
     .line 1076
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->maxFrameAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x253b
+    const/16 v1, 0x233b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2796,7 +2796,7 @@
 .method public final readMemEnd()J
     .locals 2
 
-    const/16 v0, 0x2520
+    const/16 v0, 0x2320
 
     .line 854
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2817,7 +2817,7 @@
     .line 1040
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->memEndAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2520
+    const/16 v1, 0x2320
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2827,7 +2827,7 @@
 .method public final readMemStart()J
     .locals 2
 
-    const/16 v0, 0x251f
+    const/16 v0, 0x231f
 
     .line 844
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2848,7 +2848,7 @@
     .line 1036
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->memStartAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x251f
+    const/16 v1, 0x231f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2858,7 +2858,7 @@
 .method public final readRoll()I
     .locals 1
 
-    const/16 v0, 0x2514
+    const/16 v0, 0x2314
 
     .line 975
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2876,7 +2876,7 @@
 .method public final readRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
     .locals 2
 
-    const/16 v0, 0x2513
+    const/16 v0, 0x2313
 
     .line 995
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -2902,7 +2902,7 @@
 .method public final readSample()J
     .locals 2
 
-    const/16 v0, 0x2504
+    const/16 v0, 0x2304
 
     .line 939
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2920,7 +2920,7 @@
 .method public final readScrEnd()J
     .locals 2
 
-    const/16 v0, 0x2522
+    const/16 v0, 0x2322
 
     .line 874
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2941,7 +2941,7 @@
     .line 1046
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->scrEndAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2522
+    const/16 v1, 0x2322
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2951,7 +2951,7 @@
 .method public final readScrStart()J
     .locals 2
 
-    const/16 v0, 0x2521
+    const/16 v0, 0x2321
 
     .line 864
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -2972,7 +2972,7 @@
     .line 1043
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->scrStartAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2521
+    const/16 v1, 0x2321
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2982,7 +2982,7 @@
 .method public final readShowDepth()Z
     .locals 1
 
-    const/16 v0, 0x250e
+    const/16 v0, 0x230e
 
     .line 1021
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
@@ -2997,7 +2997,7 @@
 .method public final readTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
     .locals 2
 
-    const/16 v0, 0x2544
+    const/16 v0, 0x2344
 
     .line 1016
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -3023,7 +3023,7 @@
 .method public final readTimeOut()J
     .locals 2
 
-    const/16 v0, 0x253c
+    const/16 v0, 0x233c
 
     .line 1031
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -3044,7 +3044,7 @@
     .line 1080
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->timeOutAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x253c
+    const/16 v1, 0x233c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -3054,7 +3054,7 @@
 .method public final readTriggerStatus()Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
     .locals 2
 
-    const/16 v0, 0x2526
+    const/16 v0, 0x2326
 
     .line 1001
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readInt(I)I
@@ -3080,7 +3080,7 @@
 .method public final readZoom()Z
     .locals 1
 
-    const/16 v0, 0x2510
+    const/16 v0, 0x2310
 
     .line 921
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
@@ -3098,7 +3098,7 @@
 .method public final readZoomOffset()J
     .locals 2
 
-    const/16 v0, 0x2519
+    const/16 v0, 0x2319
 
     .line 911
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -3119,7 +3119,7 @@
     .line 1064
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->zoomOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2519
+    const/16 v1, 0x2319
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -3129,7 +3129,7 @@
 .method public final readZoomScale()J
     .locals 2
 
-    const/16 v0, 0x2518
+    const/16 v0, 0x2318
 
     .line 906
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/HorizontalParam;->readLong(I)J
@@ -3150,7 +3150,7 @@
     .line 1060
     iget-object v0, p0, Lcom/rigol/scope/data/HorizontalParam;->zoomScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2518
+    const/16 v1, 0x2318
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -3348,7 +3348,7 @@
     .line 1223
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->value1:I
 
-    const/16 v0, 0x2503
+    const/16 v0, 0x2303
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
 
@@ -3370,7 +3370,7 @@
     .line 1199
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setAntiAliasing(Z)V
 
-    const/16 v0, 0x250b
+    const/16 v0, 0x230b
 
     .line 1200
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(IZ)I
@@ -3384,7 +3384,7 @@
     .line 1194
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setAvgTimes(I)V
 
-    const/16 v0, 0x2506
+    const/16 v0, 0x2306
 
     .line 1195
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
@@ -3414,7 +3414,7 @@
     .line 1190
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    const/16 v0, 0x2509
+    const/16 v0, 0x2309
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
 
@@ -3427,7 +3427,7 @@
     .line 1238
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setDisplayMode(I)V
 
-    const/16 v0, 0x253d
+    const/16 v0, 0x233d
 
     .line 1239
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
@@ -3441,7 +3441,7 @@
     .line 1214
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setExpandGnd(J)V
 
-    const/16 v0, 0x252d
+    const/16 v0, 0x232d
 
     .line 1215
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->saveLong(IJ)I
@@ -3462,7 +3462,7 @@
     .line 1205
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->value1:I
 
-    const/16 v0, 0x251b
+    const/16 v0, 0x231b
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
 
@@ -3475,7 +3475,7 @@
     .line 1209
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setExpandUser(I)V
 
-    const/16 v0, 0x251c
+    const/16 v0, 0x231c
 
     .line 1210
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
@@ -3489,7 +3489,7 @@
     .line 1253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setFilter1(Z)V
 
-    const/16 v0, 0x2535
+    const/16 v0, 0x2335
 
     .line 1254
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveBool(IZ)I
@@ -3503,7 +3503,7 @@
     .line 1258
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setFilter2(Z)V
 
-    const/16 v0, 0x2534
+    const/16 v0, 0x2334
 
     .line 1259
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveBool(IZ)I
@@ -3517,7 +3517,7 @@
     .line 1179
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setFine(Z)V
 
-    const/16 v0, 0x2512
+    const/16 v0, 0x2312
 
     .line 1180
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(IZ)I
@@ -3538,7 +3538,7 @@
     .line 1234
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$HighResBit;->value1:I
 
-    const/16 v0, 0x252c
+    const/16 v0, 0x232c
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
 
@@ -3571,7 +3571,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setMainOffset(J)V
 
-    const/16 p1, 0x2517
+    const/16 p1, 0x2317
 
     .line 1135
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->mainOffset:J
@@ -3617,7 +3617,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setMainScale(J)V
 
-    const/16 p1, 0x2516
+    const/16 p1, 0x2316
 
     .line 1128
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->mainScale:J
@@ -3663,7 +3663,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->setMaxFrame(J)V
 
-    const/16 v0, 0x253b
+    const/16 v0, 0x233b
 
     .line 1265
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->saveLong(IJ)I
@@ -3707,7 +3707,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setMemEnd(J)V
 
-    const/16 p1, 0x2520
+    const/16 p1, 0x2320
 
     .line 1104
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->memEnd:J
@@ -3753,7 +3753,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setMemStart(J)V
 
-    const/16 p1, 0x251f
+    const/16 p1, 0x231f
 
     .line 1098
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->memStart:J
@@ -3779,7 +3779,7 @@
     .line 1228
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setRoll(I)V
 
-    const/16 v0, 0x2514
+    const/16 v0, 0x2314
 
     .line 1229
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
@@ -3800,7 +3800,7 @@
     .line 1244
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->value1:I
 
-    const/16 v0, 0x2513
+    const/16 v0, 0x2313
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
 
@@ -3833,7 +3833,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setScrEnd(J)V
 
-    const/16 p1, 0x2522
+    const/16 p1, 0x2322
 
     .line 1116
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->scrEnd:J
@@ -3879,7 +3879,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setScrStart(J)V
 
-    const/16 p1, 0x2521
+    const/16 p1, 0x2321
 
     .line 1110
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->scrStart:J
@@ -3925,7 +3925,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->setTimeOut(J)V
 
-    const/16 v0, 0x253c
+    const/16 v0, 0x233c
 
     .line 1271
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->saveLong(IJ)I
@@ -3956,7 +3956,7 @@
     .line 1249
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->value1:I
 
-    const/16 v0, 0x2526
+    const/16 v0, 0x2326
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(II)I
 
@@ -3969,7 +3969,7 @@
     .line 1184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setZoom(Z)V
 
-    const/16 v0, 0x2510
+    const/16 v0, 0x2310
 
     .line 1185
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->saveInt(IZ)I
@@ -4003,7 +4003,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setZoomOffset(J)V
 
-    const/16 p1, 0x2519
+    const/16 p1, 0x2319
 
     .line 1163
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->zoomOffset:J
@@ -4049,7 +4049,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/HorizontalParam;->setZoomScale(J)V
 
-    const/16 p1, 0x2518
+    const/16 p1, 0x2318
 
     .line 1157
     iget-wide v0, p0, Lcom/rigol/scope/data/HorizontalParam;->zoomScale:J
@@ -4373,7 +4373,7 @@
     .line 463
     iget-object p1, p0, Lcom/rigol/scope/data/HorizontalParam;->expandMode:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    const/16 v0, 0x251b
+    const/16 v0, 0x231b
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -4413,7 +4413,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x251c
+    const/16 v0, 0x231c
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -4624,7 +4624,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x2517
+    const/16 p2, 0x2317
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -4677,7 +4677,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x2516
+    const/16 p2, 0x2316
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -4850,7 +4850,7 @@
     .line 544
     iget-object p1, p0, Lcom/rigol/scope/data/HorizontalParam;->runStop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    const/16 v0, 0x2513
+    const/16 v0, 0x2313
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -5006,7 +5006,7 @@
     .line 589
     iget-object p1, p0, Lcom/rigol/scope/data/HorizontalParam;->timeMode:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    const/16 v0, 0x2544
+    const/16 v0, 0x2344
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -5189,7 +5189,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x2510
+    const/16 v0, 0x2310
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -5265,7 +5265,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x2519
+    const/16 p2, 0x2319
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 
@@ -5349,7 +5349,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x2518
+    const/16 p2, 0x2318
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/HorizontalParam;->syncData(ILjava/lang/Object;)V
 

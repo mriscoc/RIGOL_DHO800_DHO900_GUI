@@ -292,7 +292,7 @@
 
     if-eqz v0, :cond_2
 
-    const-string v1, "28_13610"
+    const-string v1, "28_13098"
 
     .line 177
     invoke-virtual {v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
@@ -1091,7 +1091,7 @@
 
     const/16 p2, 0x1c
 
-    const/16 v0, 0x3500
+    const/16 v0, 0x3300
 
     invoke-static {p2, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1118,7 +1118,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x3502
+    const/16 v0, 0x3302
 
     invoke-static {p2, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1330,7 +1330,7 @@
 
     move-result-object p4
 
-    const/16 v0, 0x3501
+    const/16 v0, 0x3301
 
     new-instance v1, Lcom/rigol/scope/data/TwoTuple;
 

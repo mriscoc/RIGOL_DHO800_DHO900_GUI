@@ -348,7 +348,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x517e
+    const/16 v1, 0x4f7e
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -394,7 +394,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x5180
+    const/16 v1, 0x4f80
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -429,7 +429,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x5182
+    const/16 v1, 0x4f82
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -1467,7 +1467,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->serviceId:I
 
-    const/16 v1, 0x511e
+    const/16 v1, 0x4f1e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -2495,7 +2495,7 @@
 
     iget v1, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->serviceId:I
 
-    const/16 v2, 0x5182
+    const/16 v2, 0x4f82
 
     iget-object v3, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -2538,7 +2538,7 @@
 
     iget v1, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->serviceId:I
 
-    const/16 v2, 0x5180
+    const/16 v2, 0x4f80
 
     iget-object v3, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -2581,7 +2581,7 @@
 
     iget v1, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->serviceId:I
 
-    const/16 v2, 0x517e
+    const/16 v2, 0x4f7e
 
     iget-object v3, p0, Lcom/rigol/scope/adapters/TriggerI2sAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 

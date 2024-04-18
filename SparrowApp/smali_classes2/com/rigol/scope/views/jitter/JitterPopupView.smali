@@ -647,7 +647,7 @@
 
     const/16 v0, 0x34
 
-    const/16 v1, 0x2910
+    const/16 v1, 0x2710
 
     const/4 v2, 0x1
 

@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const/16 p4, 0x505
+    const/16 p4, 0x305
 
     invoke-virtual {p1, p3, p4, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -199,7 +199,7 @@
 
     move-result-object p1
 
-    const/16 p4, 0x50b
+    const/16 p4, 0x30b
 
     invoke-virtual {p1, p3, p4, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -211,7 +211,7 @@
 
     move-result-object p1
 
-    const/16 p4, 0x504
+    const/16 p4, 0x304
 
     invoke-virtual {p1, p3, p4, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    const/16 p4, 0x503
+    const/16 p4, 0x303
 
     invoke-virtual {p1, p3, p4, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -235,7 +235,7 @@
 
     move-result-object p1
 
-    const/16 p4, 0x502
+    const/16 p4, 0x302
 
     invoke-virtual {p1, p3, p4, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -247,7 +247,7 @@
 
     move-result-object p1
 
-    const/16 p4, 0x501
+    const/16 p4, 0x301
 
     invoke-virtual {p1, p3, p4, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 

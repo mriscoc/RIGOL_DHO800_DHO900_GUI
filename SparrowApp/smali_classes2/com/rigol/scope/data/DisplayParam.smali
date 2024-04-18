@@ -347,34 +347,34 @@
 .method public readAll()V
     .locals 0
 
-    .line 232
+    .line 231
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readType()Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
 
-    .line 233
+    .line 232
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readPersisTime()Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 234
+    .line 233
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
-    .line 235
+    .line 234
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readGridType()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 236
+    .line 235
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readGridIntensity()I
 
-    .line 237
+    .line 236
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readRulerEnable()Z
 
-    .line 238
+    .line 237
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readPaletteEnable()Z
 
-    .line 239
+    .line 238
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readWaveFreeze()Z
 
-    .line 240
+    .line 239
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readWindowTransparency()I
 
-    .line 241
+    .line 240
     invoke-virtual {p0}, Lcom/rigol/scope/data/DisplayParam;->readCursorIntensity()V
 
     return-void
@@ -383,9 +383,9 @@
 .method public final readCursorIntensity()V
     .locals 1
 
-    const/16 v0, 0x1519
+    const/16 v0, 0x1319
 
-    .line 266
+    .line 265
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
@@ -398,16 +398,16 @@
 .method public final readGridIntensity()I
     .locals 1
 
-    const/16 v0, 0x1505
+    const/16 v0, 0x1305
 
-    .line 275
+    .line 274
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setGridIntensity(I)V
 
-    .line 276
+    .line 275
     iget v0, p0, Lcom/rigol/scope/data/DisplayParam;->gridIntensity:I
 
     return v0
@@ -416,9 +416,9 @@
 .method public final readGridType()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
     .locals 2
 
-    const/16 v0, 0x1504
+    const/16 v0, 0x1304
 
-    .line 270
+    .line 269
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
@@ -433,7 +433,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setGridType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 271
+    .line 270
     iget-object v0, p0, Lcom/rigol/scope/data/DisplayParam;->gridType:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     return-object v0
@@ -442,16 +442,16 @@
 .method public final readPaletteEnable()Z
     .locals 1
 
-    const/16 v0, 0x150a
+    const/16 v0, 0x130a
 
-    .line 285
+    .line 284
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setPaletteEnable(Z)V
 
-    .line 286
+    .line 285
     iget-boolean v0, p0, Lcom/rigol/scope/data/DisplayParam;->paletteEnable:Z
 
     return v0
@@ -460,9 +460,9 @@
 .method public final readPersisTime()Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
     .locals 2
 
-    const/16 v0, 0x1502
+    const/16 v0, 0x1302
 
-    .line 250
+    .line 249
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
@@ -477,7 +477,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setPersisTime(Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;)V
 
-    .line 251
+    .line 250
     iget-object v0, p0, Lcom/rigol/scope/data/DisplayParam;->persisTime:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     return-object v0
@@ -486,16 +486,16 @@
 .method public final readRulerEnable()Z
     .locals 1
 
-    const/16 v0, 0x1506
+    const/16 v0, 0x1306
 
-    .line 280
+    .line 279
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setRulerEnable(Z)V
 
-    .line 281
+    .line 280
     iget-boolean v0, p0, Lcom/rigol/scope/data/DisplayParam;->rulerEnable:Z
 
     return v0
@@ -504,9 +504,9 @@
 .method public final readType()Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
     .locals 2
 
-    const/16 v0, 0x1501
+    const/16 v0, 0x1301
 
-    .line 245
+    .line 244
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
@@ -521,7 +521,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;)V
 
-    .line 246
+    .line 245
     iget-object v0, p0, Lcom/rigol/scope/data/DisplayParam;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
 
     return-object v0
@@ -530,16 +530,16 @@
 .method public final readWaveFreeze()Z
     .locals 1
 
-    const/16 v0, 0x150c
+    const/16 v0, 0x130c
 
-    .line 290
+    .line 289
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setWaveFreeze(Z)V
 
-    .line 291
+    .line 290
     iget-boolean v0, p0, Lcom/rigol/scope/data/DisplayParam;->waveFreeze:Z
 
     return v0
@@ -548,16 +548,16 @@
 .method public final readWaveIntensity()I
     .locals 1
 
-    const/16 v0, 0x1503
+    const/16 v0, 0x1303
 
-    .line 255
+    .line 254
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setWaveIntensity(I)V
 
-    .line 256
+    .line 255
     iget v0, p0, Lcom/rigol/scope/data/DisplayParam;->waveIntensity:I
 
     return v0
@@ -566,16 +566,16 @@
 .method public final readWindowTransparency()I
     .locals 1
 
-    const/16 v0, 0x1517
+    const/16 v0, 0x1317
 
-    .line 261
+    .line 260
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setWindowTransparency(I)V
 
-    .line 262
+    .line 261
     iget v0, p0, Lcom/rigol/scope/data/DisplayParam;->windowTransparency:I
 
     return v0
@@ -584,17 +584,17 @@
 .method public reset()V
     .locals 3
 
-    .line 359
+    .line 358
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
-    .line 361
+    .line 360
     invoke-static {}, Lcom/rigol/scope/data/DisplayParamKt;->access$getDEFAULT_WAVE_FORMAT$p()Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;)V
 
-    .line 362
+    .line 361
     invoke-static {}, Lcom/rigol/scope/data/DisplayParamKt;->access$getDEFAULT_WAVE_PERSIS$p()Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     move-result-object v0
@@ -603,38 +603,38 @@
 
     const/16 v0, 0x32
 
-    .line 363
+    .line 362
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setWaveIntensity(I)V
 
-    .line 364
+    .line 363
     invoke-static {}, Lcom/rigol/scope/data/DisplayParamKt;->access$getDEFAULT_WAVE_GRID$p()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/DisplayParam;->setGridType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 365
+    .line 364
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setGridIntensity(I)V
 
     const/4 v1, 0x1
 
-    .line 366
+    .line 365
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/DisplayParam;->setRulerEnable(Z)V
 
     const/4 v2, 0x0
 
-    .line 367
+    .line 366
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/DisplayParam;->setPaletteEnable(Z)V
 
-    .line 368
+    .line 367
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/DisplayParam;->setWaveFreeze(Z)V
 
-    .line 369
+    .line 368
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setWindowTransparency(I)V
 
     const/16 v0, 0x50
 
-    .line 370
+    .line 369
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setCursorsIntensity(I)V
 
     return-void
@@ -643,12 +643,12 @@
 .method public final saveCursor(I)V
     .locals 1
 
-    .line 301
+    .line 300
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setCursorsIntensity(I)V
 
-    const/16 v0, 0x1519
+    const/16 v0, 0x1319
 
-    .line 302
+    .line 301
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
     return-void
@@ -657,12 +657,12 @@
 .method public final saveGridIntensity(I)V
     .locals 1
 
-    .line 332
+    .line 331
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setGridIntensity(I)V
 
-    const/16 v0, 0x1505
+    const/16 v0, 0x1305
 
-    .line 333
+    .line 332
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
     return-void
@@ -675,13 +675,13 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 327
+    .line 326
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setGridType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 328
+    .line 327
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->value1:I
 
-    const/16 v0, 0x1504
+    const/16 v0, 0x1304
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
@@ -691,13 +691,13 @@
 .method public final savePaletteEnable(Z)V
     .locals 1
 
-    .line 342
+    .line 341
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setPaletteEnable(Z)V
 
-    .line 344
+    .line 343
     iget-boolean p1, p0, Lcom/rigol/scope/data/DisplayParam;->paletteEnable:Z
 
-    const/16 v0, 0x150a
+    const/16 v0, 0x130a
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(IZ)I
 
@@ -711,13 +711,13 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 306
+    .line 305
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setPersisTime(Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;)V
 
-    .line 307
+    .line 306
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->value1:I
 
-    const/16 v0, 0x1502
+    const/16 v0, 0x1302
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
@@ -727,13 +727,13 @@
 .method public final saveRulerEnable(Z)V
     .locals 1
 
-    .line 337
+    .line 336
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setRulerEnable(Z)V
 
-    .line 338
+    .line 337
     iget-boolean p1, p0, Lcom/rigol/scope/data/DisplayParam;->rulerEnable:Z
 
-    const/16 v0, 0x1506
+    const/16 v0, 0x1306
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(IZ)I
 
@@ -751,13 +751,13 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 296
+    .line 295
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;)V
 
-    .line 297
+    .line 296
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;->value1:I
 
-    const/16 v0, 0x1501
+    const/16 v0, 0x1301
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
@@ -767,12 +767,12 @@
 .method public final saveWaveFreeze(Z)V
     .locals 1
 
-    .line 348
+    .line 347
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setWaveFreeze(Z)V
 
-    const/16 v0, 0x150c
+    const/16 v0, 0x130c
 
-    .line 349
+    .line 348
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(IZ)I
 
     return-void
@@ -783,7 +783,7 @@
 
     if-lez p1, :cond_0
 
-    .line 313
+    .line 312
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setWaveIntensity(I)V
 
     goto :goto_0
@@ -791,13 +791,13 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 315
+    .line 314
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DisplayParam;->setWaveIntensity(I)V
 
     :goto_0
-    const/16 v0, 0x1503
+    const/16 v0, 0x1303
 
-    .line 317
+    .line 316
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
     return-void
@@ -806,14 +806,12 @@
 .method public final saveWindowTransparency(I)V
     .locals 1
 
-    .line 322
+    .line 321
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->setWindowTransparency(I)V
 
-    .line 323
-    iget p1, p0, Lcom/rigol/scope/data/DisplayParam;->waveIntensity:I
+    const/16 v0, 0x1317
 
-    const/16 v0, 0x1517
-
+    .line 322
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->saveInt(II)I
 
     return-void
@@ -852,7 +850,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x1519
+    const/16 v0, 0x1319
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->syncData(ILjava/lang/Object;)V
 
@@ -892,7 +890,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x1505
+    const/16 v0, 0x1305
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->syncData(ILjava/lang/Object;)V
 
@@ -924,7 +922,7 @@
     .line 145
     iget-object p1, p0, Lcom/rigol/scope/data/DisplayParam;->gridType:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    const/16 v0, 0x1504
+    const/16 v0, 0x1304
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->syncData(ILjava/lang/Object;)V
 
@@ -1018,7 +1016,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x1506
+    const/16 v0, 0x1306
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->syncData(ILjava/lang/Object;)V
 
@@ -1156,7 +1154,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x1517
+    const/16 v0, 0x1317
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DisplayParam;->syncData(ILjava/lang/Object;)V
 

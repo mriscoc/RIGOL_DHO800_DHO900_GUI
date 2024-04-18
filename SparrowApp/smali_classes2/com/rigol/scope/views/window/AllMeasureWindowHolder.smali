@@ -168,7 +168,7 @@
 
     if-eqz v0, :cond_1
 
-    const/16 v3, 0x353a
+    const/16 v3, 0x333a
 
     .line 2089
     invoke-virtual {v0, v1, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -380,7 +380,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x350f
+    const/16 v0, 0x330f
 
     .line 2217
     invoke-virtual {p2}, Lcom/rigol/scope/data/WindowParam;->getSource1()Lcom/rigol/scope/cil/ServiceEnum$Chan;

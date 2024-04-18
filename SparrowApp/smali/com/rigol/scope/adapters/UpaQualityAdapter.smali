@@ -885,7 +885,7 @@
 
     const/16 v0, 0x1f
 
-    const/16 v1, 0x530d
+    const/16 v1, 0x510d
 
     const/4 v2, 0x1
 

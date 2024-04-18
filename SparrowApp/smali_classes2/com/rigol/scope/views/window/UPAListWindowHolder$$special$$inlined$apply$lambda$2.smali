@@ -81,7 +81,7 @@
 
     const/16 v0, 0x1f
 
-    const/16 v1, 0x5311
+    const/16 v1, 0x5111
 
     const/4 v2, 0x0
 

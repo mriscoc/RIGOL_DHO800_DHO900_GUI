@@ -35,59 +35,59 @@
 # static fields
 .field public static final CACHED_RESULT_LIST_KEY:Ljava/lang/String; = "cached_result_list"
 
-.field public static final MODULE_KEY_EYE_TEXT_STATUS:Ljava/lang/String; = "51_6952"
+.field public static final MODULE_KEY_EYE_TEXT_STATUS:Ljava/lang/String; = "51_6440"
 
 .field private static final NO_SUCH_INDEX:I = -0x1
 
-.field public static final ON_ITEM_DATA_BODE_KEY:Ljava/lang/String; = "61_1815"
+.field public static final ON_ITEM_DATA_BODE_KEY:Ljava/lang/String; = "61_1303"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_COUNTER:Ljava/lang/String; = "29_3336"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_COUNTER:Ljava/lang/String; = "29_2824"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_CURSOR:Ljava/lang/String; = "21_3882"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_CURSOR:Ljava/lang/String; = "21_3370"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_DVM:Ljava/lang/String; = "30_4361"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_DVM:Ljava/lang/String; = "30_3849"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_EYE:Ljava/lang/String; = "51_6949"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_EYE:Ljava/lang/String; = "51_6437"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_HISTOGRAM:Ljava/lang/String; = "34_8974"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_HISTOGRAM:Ljava/lang/String; = "34_8462"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_JITTER:Ljava/lang/String; = "52_10526"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_JITTER:Ljava/lang/String; = "52_10014"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_MARKER:Ljava/lang/String; = "50_7487"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_MARKER:Ljava/lang/String; = "50_6975"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_MASK:Ljava/lang/String; = "46_12067"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_MASK:Ljava/lang/String; = "46_11555"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_MEASURE:Ljava/lang/String; = "28_13612"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_MEASURE:Ljava/lang/String; = "28_13100"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_MEAS_HISTOGRAM:Ljava/lang/String; = "34_8990"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_MEAS_HISTOGRAM:Ljava/lang/String; = "34_8478"
 
-.field public static final ON_ITEM_DATA_CHANGED_KEY_UPA:Ljava/lang/String; = "31_13075"
+.field public static final ON_ITEM_DATA_CHANGED_KEY_UPA:Ljava/lang/String; = "31_12563"
 
-.field public static final ON_ITEM_DATA_RIPPLE_KEY_UPA:Ljava/lang/String; = "31_13076"
+.field public static final ON_ITEM_DATA_RIPPLE_KEY_UPA:Ljava/lang/String; = "31_12564"
 
-.field public static final ON_ITEM_DATA_SEACH_KEY:Ljava/lang/String; = "25_18272"
+.field public static final ON_ITEM_DATA_SEACH_KEY:Ljava/lang/String; = "25_17760"
 
-.field public static final ON_ITEM_DATA_SEACH_KEY_POS:Ljava/lang/String; = "25_18271"
+.field public static final ON_ITEM_DATA_SEACH_KEY_POS:Ljava/lang/String; = "25_17759"
 
-.field public static final ON_LIST_CHANGED_KEY_COUNTER:Ljava/lang/String; = "29_3337"
+.field public static final ON_LIST_CHANGED_KEY_COUNTER:Ljava/lang/String; = "29_2825"
 
-.field public static final ON_LIST_CHANGED_KEY_CURSOR:Ljava/lang/String; = "21_3883"
+.field public static final ON_LIST_CHANGED_KEY_CURSOR:Ljava/lang/String; = "21_3371"
 
-.field public static final ON_LIST_CHANGED_KEY_DVM:Ljava/lang/String; = "30_4362"
+.field public static final ON_LIST_CHANGED_KEY_DVM:Ljava/lang/String; = "30_3850"
 
-.field public static final ON_LIST_CHANGED_KEY_EYE:Ljava/lang/String; = "51_6948"
+.field public static final ON_LIST_CHANGED_KEY_EYE:Ljava/lang/String; = "51_6436"
 
-.field public static final ON_LIST_CHANGED_KEY_HISTOGRAM:Ljava/lang/String; = "34_8973"
+.field public static final ON_LIST_CHANGED_KEY_HISTOGRAM:Ljava/lang/String; = "34_8461"
 
-.field public static final ON_LIST_CHANGED_KEY_JITTER:Ljava/lang/String; = "52_10527"
+.field public static final ON_LIST_CHANGED_KEY_JITTER:Ljava/lang/String; = "52_10015"
 
-.field public static final ON_LIST_CHANGED_KEY_MARKER:Ljava/lang/String; = "50_7486"
+.field public static final ON_LIST_CHANGED_KEY_MARKER:Ljava/lang/String; = "50_6974"
 
-.field public static final ON_LIST_CHANGED_KEY_MASK:Ljava/lang/String; = "46_12068"
+.field public static final ON_LIST_CHANGED_KEY_MASK:Ljava/lang/String; = "46_11556"
 
-.field public static final ON_LIST_CHANGED_KEY_MEASURE:Ljava/lang/String; = "28_13610"
+.field public static final ON_LIST_CHANGED_KEY_MEASURE:Ljava/lang/String; = "28_13098"
 
-.field public static final ON_LIST_CHANGED_KEY_MEAS_HISTOGRAM:Ljava/lang/String; = "34_8989"
+.field public static final ON_LIST_CHANGED_KEY_MEAS_HISTOGRAM:Ljava/lang/String; = "34_8477"
 
 .field private static final SELECT_ITEM_NONE:I = -0x1
 
@@ -287,7 +287,7 @@
 
     const/16 v0, 0x1c
 
-    const/16 v1, 0x3523
+    const/16 v1, 0x3323
 
     .line 316
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -399,7 +399,7 @@
 
     const/16 v3, 0x1c
 
-    const/16 v4, 0x3500
+    const/16 v4, 0x3300
 
     invoke-static {v3, v4}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -2096,7 +2096,7 @@
 
     const/16 v0, 0x15
 
-    const/16 v2, 0xf01
+    const/16 v2, 0xd01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2119,7 +2119,7 @@
 
     const/16 v0, 0x1e
 
-    const/16 v2, 0x1101
+    const/16 v2, 0xf01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2142,7 +2142,7 @@
 
     const/16 v0, 0x1d
 
-    const/16 v2, 0xd01
+    const/16 v2, 0xb01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2165,7 +2165,7 @@
 
     const/16 v0, 0x22
 
-    const/16 v2, 0x2301
+    const/16 v2, 0x2101
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2209,7 +2209,7 @@
 
     const/16 v0, 0x15
 
-    const/16 v2, 0xf01
+    const/16 v2, 0xd01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2232,7 +2232,7 @@
 
     const/16 v0, 0x1e
 
-    const/16 v2, 0x1101
+    const/16 v2, 0xf01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2255,7 +2255,7 @@
 
     const/16 v0, 0x1d
 
-    const/16 v2, 0xd01
+    const/16 v2, 0xb01
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2278,7 +2278,7 @@
 
     const/16 v0, 0x22
 
-    const/16 v2, 0x2301
+    const/16 v2, 0x2101
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2309,7 +2309,7 @@
 
     const/16 v0, 0x1c
 
-    const/16 v2, 0x35d7
+    const/16 v2, 0x33d7
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2364,7 +2364,7 @@
 
     const/16 p1, 0x1c
 
-    const/16 v0, 0x352c
+    const/16 v0, 0x332c
 
     .line 1348
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2384,7 +2384,7 @@
 
     const/16 p1, 0x15
 
-    const/16 v0, 0xf2a
+    const/16 v0, 0xd2a
 
     .line 1355
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2404,7 +2404,7 @@
 
     const/16 p1, 0x1e
 
-    const/16 v0, 0x1109
+    const/16 v0, 0xf09
 
     .line 1361
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2424,7 +2424,7 @@
 
     const/16 p1, 0x1d
 
-    const/16 v0, 0xd08
+    const/16 v0, 0xb08
 
     .line 1367
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2444,7 +2444,7 @@
 
     if-ne p1, v0, :cond_4
 
-    const/16 p1, 0x230e
+    const/16 p1, 0x210e
 
     .line 1373
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2462,7 +2462,7 @@
 
     if-ne p1, v0, :cond_5
 
-    const/16 p1, 0x231e
+    const/16 p1, 0x211e
 
     .line 1379
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2482,7 +2482,7 @@
 
     const/16 p1, 0x33
 
-    const/16 v0, 0x1b25
+    const/16 v0, 0x1925
 
     .line 1385
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2502,7 +2502,7 @@
 
     const/16 p1, 0x34
 
-    const/16 v0, 0x291e
+    const/16 v0, 0x271e
 
     .line 1391
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2522,7 +2522,7 @@
 
     const/16 p1, 0x2e
 
-    const/16 v0, 0x2f23
+    const/16 v0, 0x2d23
 
     .line 1397
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2542,7 +2542,7 @@
 
     const/16 p1, 0x32
 
-    const/16 v0, 0x1d3f
+    const/16 v0, 0x1b3f
 
     .line 1404
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
@@ -2577,7 +2577,7 @@
 
     const/16 p1, 0x1c
 
-    const/16 v0, 0x352a
+    const/16 v0, 0x332a
 
     .line 1078
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2599,7 +2599,7 @@
 
     const/16 p1, 0x15
 
-    const/16 v0, 0xf2b
+    const/16 v0, 0xd2b
 
     .line 1084
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2621,7 +2621,7 @@
 
     const/16 p1, 0x1e
 
-    const/16 v0, 0x110a
+    const/16 v0, 0xf0a
 
     .line 1090
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2643,7 +2643,7 @@
 
     const/16 p1, 0x1d
 
-    const/16 v0, 0xd09
+    const/16 v0, 0xb09
 
     .line 1096
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2665,7 +2665,7 @@
 
     if-ne p1, v0, :cond_4
 
-    const/16 p1, 0x230d
+    const/16 p1, 0x210d
 
     .line 1102
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2685,7 +2685,7 @@
 
     if-ne p1, v0, :cond_5
 
-    const/16 p1, 0x231d
+    const/16 p1, 0x211d
 
     .line 1108
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2707,7 +2707,7 @@
 
     const/16 p1, 0x33
 
-    const/16 v0, 0x1b24
+    const/16 v0, 0x1924
 
     .line 1114
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2729,7 +2729,7 @@
 
     const/16 p1, 0x34
 
-    const/16 v0, 0x291f
+    const/16 v0, 0x271f
 
     .line 1120
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2751,7 +2751,7 @@
 
     const/16 p1, 0x2e
 
-    const/16 v0, 0x2f24
+    const/16 v0, 0x2d24
 
     .line 1126
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2773,7 +2773,7 @@
 
     const/16 p1, 0x32
 
-    const/16 v0, 0x1d3e
+    const/16 v0, 0x1b3e
 
     .line 1132
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2904,7 +2904,7 @@
 
     check-cast v5, Ljava/lang/String;
 
-    const-string v6, "28_13610"
+    const-string v6, "28_13098"
 
     .line 815
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2915,7 +2915,7 @@
 
     const/16 v5, 0x1c
 
-    const/16 v6, 0x352a
+    const/16 v6, 0x332a
 
     .line 817
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2941,7 +2941,7 @@
     goto :goto_0
 
     :cond_3
-    const-string v6, "21_3883"
+    const-string v6, "21_3371"
 
     .line 827
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2952,7 +2952,7 @@
 
     const/16 v5, 0x15
 
-    const/16 v6, 0xf2b
+    const/16 v6, 0xd2b
 
     .line 829
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -2978,7 +2978,7 @@
     goto :goto_0
 
     :cond_5
-    const-string v6, "30_4362"
+    const-string v6, "30_3850"
 
     .line 839
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2989,7 +2989,7 @@
 
     const/16 v5, 0x1e
 
-    const/16 v6, 0x110a
+    const/16 v6, 0xf0a
 
     .line 841
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -3015,7 +3015,7 @@
     goto :goto_0
 
     :cond_7
-    const-string v6, "29_3337"
+    const-string v6, "29_2825"
 
     .line 851
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3026,7 +3026,7 @@
 
     const/16 v5, 0x1d
 
-    const/16 v6, 0xd09
+    const/16 v6, 0xb09
 
     .line 853
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -3052,7 +3052,7 @@
     goto/16 :goto_0
 
     :cond_9
-    const-string v6, "34_8973"
+    const-string v6, "34_8461"
 
     .line 863
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3063,7 +3063,7 @@
 
     if-eqz v6, :cond_b
 
-    const/16 v5, 0x230d
+    const/16 v5, 0x210d
 
     .line 866
     invoke-direct {v0, v7, v5}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -3089,7 +3089,7 @@
     goto/16 :goto_0
 
     :cond_b
-    const-string v6, "34_8989"
+    const-string v6, "34_8477"
 
     .line 874
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3098,7 +3098,7 @@
 
     if-eqz v6, :cond_d
 
-    const/16 v5, 0x231d
+    const/16 v5, 0x211d
 
     .line 877
     invoke-direct {v0, v7, v5}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -3124,7 +3124,7 @@
     goto/16 :goto_0
 
     :cond_d
-    const-string v6, "51_6948"
+    const-string v6, "51_6436"
 
     .line 885
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3135,7 +3135,7 @@
 
     const/16 v5, 0x33
 
-    const/16 v6, 0x1b24
+    const/16 v6, 0x1924
 
     .line 888
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -3161,7 +3161,7 @@
     goto/16 :goto_0
 
     :cond_f
-    const-string v6, "52_10527"
+    const-string v6, "52_10015"
 
     .line 896
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3172,7 +3172,7 @@
 
     const/16 v5, 0x34
 
-    const/16 v6, 0x291f
+    const/16 v6, 0x271f
 
     .line 899
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
@@ -3721,7 +3721,7 @@
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x3521
+    const/16 v2, 0x3321
 
     const/4 v3, 0x0
 
@@ -3808,7 +3808,7 @@
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x3521
+    const/16 v2, 0x3321
 
     const/4 v3, 0x0
 

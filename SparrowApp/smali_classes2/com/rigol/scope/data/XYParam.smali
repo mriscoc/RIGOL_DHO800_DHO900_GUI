@@ -211,7 +211,7 @@
 
     move-result-object v7
 
-    const/16 v4, 0x3b14
+    const/16 v4, 0x3914
 
     const/4 v6, 0x0
 
@@ -258,7 +258,7 @@
 
     move-result-object v19
 
-    const/16 v16, 0x3b12
+    const/16 v16, 0x3912
 
     const/16 v18, 0x0
 
@@ -303,7 +303,7 @@
 
     move-result-object v7
 
-    const/16 v4, 0x3b13
+    const/16 v4, 0x3913
 
     move-object v2, v1
 
@@ -336,7 +336,7 @@
 
     move-result-object v19
 
-    const/16 v16, 0x3b1b
+    const/16 v16, 0x391b
 
     move-object v14, v1
 
@@ -360,7 +360,7 @@
 
     move-result-object v9
 
-    const/16 v6, 0x3b11
+    const/16 v6, 0x3911
 
     const/4 v8, 0x0
 
@@ -418,7 +418,7 @@
 
     move-result-object v20
 
-    const/16 v17, 0x3b0b
+    const/16 v17, 0x390b
 
     const/16 v22, 0x0
 
@@ -466,7 +466,7 @@
 
     move-result-object v31
 
-    const/16 v28, 0x3b0c
+    const/16 v28, 0x390c
 
     const/16 v32, 0x0
 
@@ -516,7 +516,7 @@
 
     move-result-object v11
 
-    const/16 v8, 0x3b0d
+    const/16 v8, 0x390d
 
     const/4 v13, 0x0
 
@@ -558,7 +558,7 @@
 
     move-result-object v22
 
-    const/16 v19, 0x3b0f
+    const/16 v19, 0x390f
 
     const/16 v24, 0x0
 
@@ -597,7 +597,7 @@
 
     move-result-object v11
 
-    const/16 v8, 0x3b10
+    const/16 v8, 0x3910
 
     const/4 v10, 0x0
 
@@ -639,7 +639,7 @@
 
     move-result-object v22
 
-    const/16 v19, 0x3b0e
+    const/16 v19, 0x390e
 
     move-object/from16 v17, v1
 
@@ -674,7 +674,7 @@
 
     move-result-object v9
 
-    const/16 v6, 0x1504
+    const/16 v6, 0x1304
 
     const/4 v8, 0x0
 

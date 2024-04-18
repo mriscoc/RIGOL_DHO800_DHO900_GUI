@@ -68,7 +68,7 @@
 
     const/4 v1, 0x0
 
-    const/16 v2, 0x2543
+    const/16 v2, 0x2343
 
     const/16 v3, 0xa
 

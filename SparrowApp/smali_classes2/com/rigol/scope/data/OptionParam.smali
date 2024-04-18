@@ -136,7 +136,7 @@
     .line 106
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$OptType;->value1:I
 
-    const/16 v1, 0x2d00
+    const/16 v1, 0x2b00
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/OptionParam;->readLong(II)J
 
@@ -303,7 +303,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x2d07
+    const/16 v1, 0x2b07
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/OptionParam;->syncData(ILjava/lang/Object;)V
 
@@ -313,7 +313,7 @@
 .method public final readInfo()V
     .locals 5
 
-    const/16 v0, 0x2d02
+    const/16 v0, 0x2b02
 
     .line 90
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->readStr(I)Ljava/lang/String;

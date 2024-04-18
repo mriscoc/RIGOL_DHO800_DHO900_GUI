@@ -440,7 +440,7 @@
 
     check-cast p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x3707
+    const/16 v1, 0x3507
 
     const/16 v2, 0x32
 
@@ -527,7 +527,7 @@
 
     :cond_8
     :goto_4
-    const/16 v1, 0x2544
+    const/16 v1, 0x2344
 
     .line 644
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

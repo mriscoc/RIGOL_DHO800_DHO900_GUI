@@ -2889,7 +2889,7 @@
 
     if-eqz v2, :cond_4
 
-    const/16 v0, 0x701
+    const/16 v0, 0x501
 
     const/16 v1, 0x3d
 
@@ -2910,7 +2910,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v0, 0x702
+    const/16 v0, 0x502
 
     .line 677
     invoke-virtual {v2, v1, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -2929,7 +2929,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v0, 0x719
+    const/16 v0, 0x519
 
     .line 699
     invoke-virtual {v2, v1, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -2948,7 +2948,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v0, 0x71d
+    const/16 v0, 0x51d
 
     .line 715
     invoke-virtual {v2, v1, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -2967,7 +2967,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v0, 0x717
+    const/16 v0, 0x517
 
     .line 728
     invoke-virtual {v2, v1, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -2986,7 +2986,7 @@
 
     invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v0, 0x707
+    const/16 v0, 0x507
 
     .line 779
     invoke-virtual {v2, v1, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -3057,7 +3057,7 @@
 
     const/16 v1, 0x3c
 
-    const/16 v2, 0x2b01
+    const/16 v2, 0x2901
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -3180,7 +3180,7 @@
 
     const/16 v1, 0x3d
 
-    const/16 v2, 0x70a
+    const/16 v2, 0x50a
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

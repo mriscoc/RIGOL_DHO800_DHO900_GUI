@@ -12,9 +12,9 @@
 
 .field public static final VERSION_CODE:I = 0xf6180
 
-.field public static final VERSION_NAME:Ljava/lang/String; = "00.01.02.00.00"
+.field public static final VERSION_NAME:Ljava/lang/String; = "00.01.02.00.02"
 
-.field public static final releaseTime:Ljava/lang/String; = "2023/11/09 17:35:40"
+.field public static final releaseTime:Ljava/lang/String; = "2024/01/03 20:10:46"
 
 
 # direct methods

@@ -1364,7 +1364,7 @@
 
     iget v1, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->serviceId:I
 
-    const/16 v2, 0x5101
+    const/16 v2, 0x4f01
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -1898,7 +1898,7 @@
 
     const/4 v1, 0x0
 
-    const/16 v2, 0x595e
+    const/16 v2, 0x575e
 
     const/16 v3, 0xb
 
@@ -2702,18 +2702,18 @@
 .end method
 
 .method public synthetic lambda$onClick$22$TriggerPopupView(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
-    .locals 2
+    .locals 5
 
     const/4 v0, 0x1
 
     .line 447
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    move-result-object v0
+    move-result-object v1
 
     if-nez p1, :cond_0
 
-    return-object v0
+    return-object v1
 
     .line 450
     :cond_0
@@ -2727,28 +2727,28 @@
 
     if-nez p1, :cond_1
 
-    return-object v0
+    return-object v1
 
     .line 457
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isDoubleChan()Z
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_2
+    const/4 v2, 0x0
 
-    iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
+    if-eqz v1, :cond_2
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_FlexRay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+    iget v1, p1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
 
-    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_FlexRay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    if-ne v0, v1, :cond_2
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
 
-    const/4 p1, 0x0
+    if-ne v1, v3, :cond_2
 
     .line 459
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -2756,9 +2756,41 @@
 
     .line 462
     :cond_2
-    iget-object v0, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->optionParam:Lcom/rigol/scope/data/OptionParam;
+    iget-object v1, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->optionParam:Lcom/rigol/scope/data/OptionParam;
 
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->triggerModeEnable(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;)Z
+    const-class v3, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-static {v3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-virtual {v3}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
+
+    move-result v3
+
+    const/16 v4, 0x320
+
+    if-ne v3, v4, :cond_3
+
+    goto :goto_0
+
+    :cond_3
+    move v0, v2
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->triggerModeEnable(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -2797,18 +2829,18 @@
 .end method
 
 .method public synthetic lambda$selectAdapter$25$TriggerPopupView(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
-    .locals 2
+    .locals 5
 
     const/4 v0, 0x1
 
     .line 503
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    move-result-object v0
+    move-result-object v1
 
     if-nez p1, :cond_0
 
-    return-object v0
+    return-object v1
 
     .line 506
     :cond_0
@@ -2822,28 +2854,28 @@
 
     if-nez p1, :cond_1
 
-    return-object v0
+    return-object v1
 
     .line 513
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isDoubleChan()Z
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_2
+    const/4 v2, 0x0
 
-    iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
+    if-eqz v1, :cond_2
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_FlexRay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+    iget v1, p1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
 
-    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_FlexRay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    if-ne v0, v1, :cond_2
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
 
-    const/4 p1, 0x0
+    if-ne v1, v3, :cond_2
 
     .line 515
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -2851,9 +2883,41 @@
 
     .line 518
     :cond_2
-    iget-object v0, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->optionParam:Lcom/rigol/scope/data/OptionParam;
+    iget-object v1, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->optionParam:Lcom/rigol/scope/data/OptionParam;
 
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->triggerModeEnable(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;)Z
+    const-class v3, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-static {v3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-virtual {v3}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
+
+    move-result v3
+
+    const/16 v4, 0x320
+
+    if-ne v3, v4, :cond_3
+
+    goto :goto_0
+
+    :cond_3
+    move v0, v2
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->triggerModeEnable(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -3133,7 +3197,7 @@
 
     const/4 v2, 0x1
 
-    if-eq v0, v1, :cond_3
+    if-eq v0, v1, :cond_2
 
     const v1, 0x7f0a0a0d
 
@@ -3164,7 +3228,7 @@
     .line 441
     iget-object v0, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->anchor:Landroid/view/View;
 
-    if-eqz v0, :cond_4
+    if-eqz v0, :cond_3
 
     const v0, 0x7f030233
 
@@ -3182,48 +3246,7 @@
 
     move-result-object v0
 
-    .line 464
-    const-class v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/rigol/scope/data/UtilityParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
-
-    move-result v1
-
-    const/16 v3, 0x320
-
-    if-ne v1, v3, :cond_2
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    const/16 v3, 0x10
-
-    if-ne v1, v3, :cond_2
-
-    .line 465
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    sub-int/2addr v1, v2
-
-    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
-
     .line 467
-    :cond_2
     iget-object v1, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->anchor:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/trigger/-$$Lambda$TriggerPopupView$b-YLFrUBwLv4ku1JcJ62bpCAAS8;
@@ -3239,12 +3262,12 @@
     goto :goto_0
 
     .line 479
-    :cond_3
+    :cond_2
     iget-object p1, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->context:Landroid/content/Context;
 
     instance-of p1, p1, Landroid/app/Activity;
 
-    if-eqz p1, :cond_4
+    if-eqz p1, :cond_3
 
     .line 480
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -3253,11 +3276,11 @@
 
     const/16 v0, 0x29
 
-    const/16 v1, 0x51b1
+    const/16 v1, 0x4fb1
 
     invoke-virtual {p1, v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    :cond_4
+    :cond_3
     :goto_0
     return-void
 .end method

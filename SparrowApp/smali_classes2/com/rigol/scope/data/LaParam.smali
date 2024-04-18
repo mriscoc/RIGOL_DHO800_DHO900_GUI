@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLaParam.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LaParam.kt\ncom/rigol/scope/data/LaParam\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,930:1\n1517#2:931\n1588#2,3:932\n1517#2:935\n1588#2,3:936\n*E\n*S KotlinDebug\n*F\n+ 1 LaParam.kt\ncom/rigol/scope/data/LaParam\n*L\n425#1:931\n425#1,3:932\n437#1:935\n437#1,3:936\n*E\n"
+    value = "SMAP\nLaParam.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LaParam.kt\ncom/rigol/scope/data/LaParam\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,893:1\n1517#2:894\n1588#2,3:895\n1517#2:898\n1588#2,3:899\n*E\n*S KotlinDebug\n*F\n+ 1 LaParam.kt\ncom/rigol/scope/data/LaParam\n*L\n419#1:894\n419#1,3:895\n429#1:898\n429#1,3:899\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -444,7 +444,7 @@
 
     const/16 v1, 0x1a
 
-    .line 53
+    .line 52
     iput v1, v0, Lcom/rigol/scope/data/LaParam;->laProportion:I
 
     const/16 v1, 0x10
@@ -453,7 +453,7 @@
 
     const/4 v3, 0x0
 
-    .line 56
+    .line 55
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -560,7 +560,7 @@
 
     aput-object v4, v2, v19
 
-    .line 57
+    .line 56
     invoke-static {v2}, Lkotlin/collections/CollectionsKt;->mutableListOf([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -601,7 +601,7 @@
 
     aput-object v4, v2, v19
 
-    .line 58
+    .line 57
     invoke-static {v2}, Lkotlin/collections/CollectionsKt;->mutableListOf([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -642,7 +642,7 @@
 
     aput-object v4, v2, v19
 
-    .line 59
+    .line 58
     invoke-static {v2}, Lkotlin/collections/CollectionsKt;->mutableListOf([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -683,7 +683,7 @@
 
     aput-object v4, v1, v19
 
-    .line 62
+    .line 61
     invoke-static {v1}, Lkotlin/collections/CollectionsKt;->mutableListOf([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -692,21 +692,21 @@
 
     const/16 v1, 0x23
 
-    .line 117
+    .line 116
     iput v1, v0, Lcom/rigol/scope/data/LaParam;->la_spacing_:I
 
-    .line 148
+    .line 147
     iput-boolean v5, v0, Lcom/rigol/scope/data/LaParam;->labelGroup:Z
 
     const-string v1, ""
 
-    .line 253
+    .line 252
     iput-object v1, v0, Lcom/rigol/scope/data/LaParam;->inputLabel:Ljava/lang/String;
 
-    .line 261
+    .line 260
     iput-object v1, v0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
-    .line 269
+    .line 268
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -715,10 +715,10 @@
 
     iput-object v2, v0, Lcom/rigol/scope/data/LaParam;->inputLabellist64:Ljava/util/List;
 
-    .line 278
+    .line 277
     iput-object v1, v0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
-    .line 286
+    .line 285
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -727,16 +727,16 @@
 
     iput-object v2, v0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
-    .line 294
+    .line 293
     iput-object v1, v0, Lcom/rigol/scope/data/LaParam;->groupChanState:Ljava/lang/String;
 
-    .line 320
+    .line 319
     iput-boolean v5, v0, Lcom/rigol/scope/data/LaParam;->la_labels_en:Z
 
-    .line 336
+    .line 335
     iput-object v1, v0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_prostr:Ljava/lang/String;
 
-    .line 344
+    .line 343
     iput-object v1, v0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_data:Ljava/lang/String;
 
     return-void
@@ -749,7 +749,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 164
+    .line 163
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->calibration_Enable:Z
 
     return v0
@@ -760,7 +760,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 278
+    .line 277
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     return-object v0
@@ -780,7 +780,7 @@
         }
     .end annotation
 
-    .line 286
+    .line 285
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     return-object v0
@@ -791,7 +791,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 82
+    .line 81
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7:Z
 
     return v0
@@ -802,7 +802,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 109
+    .line 108
     iget-wide v0, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7_threshold_:J
 
     return-wide v0
@@ -822,7 +822,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 93
+    .line 92
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15:Z
 
     return v0
@@ -833,7 +833,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 101
+    .line 100
     iget-wide v0, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15_threshold_:J
 
     return-wide v0
@@ -859,7 +859,7 @@
         }
     .end annotation
 
-    .line 56
+    .line 55
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     return-object v0
@@ -876,7 +876,7 @@
         }
     .end annotation
 
-    .line 57
+    .line 56
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     return-object v0
@@ -893,7 +893,7 @@
         }
     .end annotation
 
-    .line 58
+    .line 57
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     return-object v0
@@ -910,7 +910,7 @@
         }
     .end annotation
 
-    .line 59
+    .line 58
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     return-object v0
@@ -930,7 +930,7 @@
         }
     .end annotation
 
-    .line 62
+    .line 61
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glistNow:Ljava/util/List;
 
     return-object v0
@@ -941,7 +941,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 294
+    .line 293
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->groupChanState:Ljava/lang/String;
 
     return-object v0
@@ -958,17 +958,17 @@
         }
     .end annotation
 
-    .line 529
+    .line 516
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     if-nez v0, :cond_0
 
-    .line 530
+    .line 517
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setGlistNow(Ljava/util/List;)V
 
-    .line 531
+    .line 518
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     return-object v0
@@ -978,12 +978,12 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 533
+    .line 520
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setGlistNow(Ljava/util/List;)V
 
-    .line 534
+    .line 521
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     return-object v0
@@ -993,23 +993,23 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 536
+    .line 523
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setGlistNow(Ljava/util/List;)V
 
-    .line 537
+    .line 524
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     return-object v0
 
-    .line 539
+    .line 526
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setGlistNow(Ljava/util/List;)V
 
-    .line 540
+    .line 527
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     return-object v0
@@ -1020,7 +1020,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 253
+    .line 252
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabel:Ljava/lang/String;
 
     return-object v0
@@ -1031,7 +1031,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 261
+    .line 260
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     return-object v0
@@ -1051,7 +1051,7 @@
         }
     .end annotation
 
-    .line 269
+    .line 268
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist64:Ljava/util/List;
 
     return-object v0
@@ -1062,7 +1062,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 156
+    .line 155
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
     return v0
@@ -1071,7 +1071,7 @@
 .method public final getLaProportion()I
     .locals 1
 
-    .line 53
+    .line 52
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->laProportion:I
 
     return v0
@@ -1082,7 +1082,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 70
+    .line 69
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->la_calibration_probe:Z
 
     return v0
@@ -1093,7 +1093,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 212
+    .line 211
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_edge_color:I
 
     return v0
@@ -1104,7 +1104,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 171
+    .line 170
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     return v0
@@ -1115,7 +1115,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 179
+    .line 178
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group2:I
 
     return v0
@@ -1126,7 +1126,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 187
+    .line 186
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group3:I
 
     return v0
@@ -1137,7 +1137,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 196
+    .line 195
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group4:I
 
     return v0
@@ -1148,7 +1148,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 204
+    .line 203
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_high_color:I
 
     return v0
@@ -1159,7 +1159,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 237
+    .line 236
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select:I
 
     return v0
@@ -1170,7 +1170,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 245
+    .line 244
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select_chan:I
 
     return v0
@@ -1181,7 +1181,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 320
+    .line 319
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->la_labels_en:Z
 
     return v0
@@ -1192,7 +1192,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 220
+    .line 219
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_low_color:I
 
     return v0
@@ -1203,7 +1203,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 228
+    .line 227
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_order:I
 
     return v0
@@ -1214,7 +1214,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 302
+    .line 301
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_position:I
 
     return v0
@@ -1225,7 +1225,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 344
+    .line 343
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_data:Ljava/lang/String;
 
     return-object v0
@@ -1236,7 +1236,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 328
+    .line 327
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_pro:I
 
     return v0
@@ -1247,7 +1247,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 336
+    .line 335
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_prostr:Ljava/lang/String;
 
     return-object v0
@@ -1258,7 +1258,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 311
+    .line 310
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_select_position:I
 
     return v0
@@ -1269,7 +1269,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 124
+    .line 123
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_size_:I
 
     return v0
@@ -1280,7 +1280,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 132
+    .line 131
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_source:I
 
     return v0
@@ -1291,7 +1291,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 117
+    .line 116
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_spacing_:I
 
     return v0
@@ -1302,7 +1302,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 140
+    .line 139
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->label:Z
 
     return v0
@@ -1313,7 +1313,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 148
+    .line 147
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->labelGroup:Z
 
     return v0
@@ -1339,7 +1339,7 @@
 .method public final getSizeNow()Z
     .locals 6
 
-    .line 884
+    .line 847
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1357,7 +1357,7 @@
 
     if-ge v2, v0, :cond_1
 
-    .line 885
+    .line 848
     iget-object v5, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     invoke-interface {v5, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1402,7 +1402,7 @@
 .method public final getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 1
 
-    .line 678
+    .line 662
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -1411,7 +1411,7 @@
 .method public final getd0toD7()Z
     .locals 4
 
-    .line 857
+    .line 820
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -1422,12 +1422,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 858
+    .line 821
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setD0TOd7(Z)V
 
     return v1
 
-    .line 860
+    .line 823
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
@@ -1555,12 +1555,12 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 861
+    .line 824
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setD0TOd7(Z)V
 
     return v2
 
-    .line 864
+    .line 827
     :cond_1
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setD0TOd7(Z)V
 
@@ -1570,7 +1570,7 @@
 .method public final getd8toD15()Z
     .locals 4
 
-    .line 870
+    .line 833
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -1581,12 +1581,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 871
+    .line 834
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setD8TOd15(Z)V
 
     return v1
 
-    .line 873
+    .line 836
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
@@ -1718,12 +1718,12 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 874
+    .line 837
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setD8TOd15(Z)V
 
     return v2
 
-    .line 877
+    .line 840
     :cond_1
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setD8TOd15(Z)V
 
@@ -1733,7 +1733,7 @@
 .method public final groupCancel()V
     .locals 6
 
-    .line 779
+    .line 744
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     const/4 v1, 0x1
@@ -1754,7 +1754,7 @@
 
     goto/16 :goto_4
 
-    .line 808
+    .line 773
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
@@ -1767,7 +1767,7 @@
     :goto_0
     if-ge v3, v0, :cond_8
 
-    .line 809
+    .line 774
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1782,7 +1782,7 @@
 
     if-ne v4, v1, :cond_1
 
-    .line 810
+    .line 775
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1791,7 +1791,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 811
+    .line 776
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1800,7 +1800,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 812
+    .line 777
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1809,7 +1809,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 813
+    .line 778
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1818,7 +1818,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 815
+    .line 780
     :cond_1
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
@@ -1828,7 +1828,7 @@
 
     goto :goto_0
 
-    .line 799
+    .line 764
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
@@ -1841,7 +1841,7 @@
     :goto_1
     if-ge v3, v0, :cond_8
 
-    .line 800
+    .line 765
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1856,7 +1856,7 @@
 
     if-ne v4, v1, :cond_3
 
-    .line 801
+    .line 766
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1865,7 +1865,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 802
+    .line 767
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1874,7 +1874,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 803
+    .line 768
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1883,7 +1883,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 804
+    .line 769
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1892,7 +1892,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 806
+    .line 771
     :cond_3
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
@@ -1902,7 +1902,7 @@
 
     goto :goto_1
 
-    .line 790
+    .line 755
     :cond_4
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
@@ -1915,7 +1915,7 @@
     :goto_2
     if-ge v3, v0, :cond_8
 
-    .line 791
+    .line 756
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1930,7 +1930,7 @@
 
     if-ne v4, v1, :cond_5
 
-    .line 792
+    .line 757
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1939,7 +1939,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 793
+    .line 758
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1948,7 +1948,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 794
+    .line 759
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1957,7 +1957,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 795
+    .line 760
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1966,7 +1966,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 797
+    .line 762
     :cond_5
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
@@ -1976,7 +1976,7 @@
 
     goto :goto_2
 
-    .line 780
+    .line 745
     :cond_6
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
@@ -1989,7 +1989,7 @@
     :goto_3
     if-ge v3, v0, :cond_8
 
-    .line 781
+    .line 746
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2004,7 +2004,7 @@
 
     if-ne v4, v1, :cond_7
 
-    .line 782
+    .line 747
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2013,7 +2013,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 783
+    .line 748
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2022,7 +2022,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 784
+    .line 749
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2031,7 +2031,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 785
+    .line 750
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2040,7 +2040,7 @@
 
     invoke-interface {v4, v3, v5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 787
+    .line 752
     :cond_7
     iget-object v4, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
@@ -2058,90 +2058,90 @@
 .method public readAll()V
     .locals 2
 
-    .line 827
+    .line 791
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->readAll()V
 
-    .line 828
+    .line 792
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD0TOd7()Z
 
-    .line 829
+    .line 793
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD8TOd15()Z
 
-    .line 830
+    .line 794
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readLaSize()I
 
-    .line 831
+    .line 795
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD0TOd7Threshold()J
 
-    .line 832
+    .line 796
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD8TOd15Threshold()J
 
-    .line 833
+    .line 797
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlaSource()I
 
-    .line 834
+    .line 798
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlabel()Z
 
-    .line 835
+    .line 799
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readLaEnable()Z
 
-    .line 836
+    .line 800
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readLaLabelEn()V
 
-    .line 837
+    .line 801
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readInputLabel()Ljava/lang/String;
 
-    .line 838
+    .line 802
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->d0tod7Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2b03
+    const/16 v1, 0x2903
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/LaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 839
+    .line 803
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->d8tod15Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2b04
+    const/16 v1, 0x2904
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/LaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 840
+    .line 804
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlabelGroup()Z
 
-    .line 841
+    .line 805
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readGroup1()I
 
-    .line 842
+    .line 806
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlaHighColor()I
 
-    .line 843
+    .line 807
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlaedgeColor()I
 
-    .line 844
+    .line 808
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlalowColor()I
 
-    .line 845
+    .line 809
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readAutoOrder()I
 
-    .line 846
+    .line 810
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readlaSelectChan()I
 
-    .line 847
+    .line 811
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readLaLabelViewSelect()I
 
-    .line 848
+    .line 812
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD0ToD7ChanState()Ljava/lang/String;
 
-    .line 849
+    .line 813
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD8ToD15ChanState()Ljava/lang/String;
 
-    .line 850
+    .line 814
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readGroupChanState()Ljava/lang/String;
 
-    .line 851
+    .line 815
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readinputLabellist()Ljava/lang/String;
 
-    .line 852
+    .line 816
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readProbe()V
 
     return-void
@@ -2150,16 +2150,16 @@
 .method public final readAutoOrder()I
     .locals 1
 
-    const/16 v0, 0x2b0e
+    const/16 v0, 0x290e
 
-    .line 687
+    .line 671
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_order(I)V
 
-    .line 688
+    .line 672
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_order:I
 
     return v0
@@ -2168,16 +2168,16 @@
 .method public final readD0TOd7()Z
     .locals 1
 
-    const/16 v0, 0x2b13
+    const/16 v0, 0x2913
 
-    .line 635
+    .line 619
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setD0TOd7(Z)V
 
-    .line 637
+    .line 621
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7:Z
 
     return v0
@@ -2186,16 +2186,16 @@
 .method public final readD0TOd7Threshold()J
     .locals 2
 
-    const/16 v0, 0x2b03
+    const/16 v0, 0x2903
 
-    .line 656
+    .line 640
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/LaParam;->setD0TOd7_threshold_(J)V
 
-    .line 658
+    .line 642
     iget-wide v0, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7_threshold_:J
 
     return-wide v0
@@ -2204,16 +2204,16 @@
 .method public final readD0ToD7ChanState()Ljava/lang/String;
     .locals 8
 
-    const/16 v0, 0x2b1c
+    const/16 v0, 0x291c
 
-    .line 421
+    .line 415
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setChanState(Ljava/lang/String;)V
 
-    .line 423
+    .line 417
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -2224,7 +2224,7 @@
 
     if-le v0, v1, :cond_1
 
-    .line 425
+    .line 419
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     const-string v2, "["
@@ -2263,7 +2263,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 931
+    .line 894
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-static {v0, v1}, Lkotlin/collections/CollectionsKt;->collectionSizeOrDefault(Ljava/lang/Iterable;I)I
@@ -2274,7 +2274,7 @@
 
     check-cast v2, Ljava/util/Collection;
 
-    .line 932
+    .line 895
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2290,10 +2290,10 @@
 
     move-result-object v1
 
-    .line 933
+    .line 896
     check-cast v1, Ljava/lang/String;
 
-    .line 425
+    .line 419
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v1
@@ -2306,25 +2306,25 @@
 
     goto :goto_0
 
-    .line 934
+    .line 897
     :cond_0
     check-cast v2, Ljava/util/List;
 
-    .line 931
+    .line 894
     check-cast v2, Ljava/util/Collection;
 
-    .line 425
+    .line 419
     invoke-static {v2}, Lkotlin/collections/CollectionsKt;->toMutableList(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setChanStateList(Ljava/util/List;)V
 
-    .line 429
+    .line 421
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->getd0toD7()Z
 
-    .line 430
+    .line 422
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     return-object v0
@@ -2333,16 +2333,16 @@
 .method public final readD8TOd15()Z
     .locals 1
 
-    const/16 v0, 0x2b14
+    const/16 v0, 0x2914
 
-    .line 646
+    .line 630
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setD8TOd15(Z)V
 
-    .line 647
+    .line 631
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15:Z
 
     return v0
@@ -2351,16 +2351,16 @@
 .method public final readD8TOd15Threshold()J
     .locals 2
 
-    const/16 v0, 0x2b04
+    const/16 v0, 0x2904
 
-    .line 667
+    .line 651
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/LaParam;->setD8TOd15_threshold_(J)V
 
-    .line 669
+    .line 653
     iget-wide v0, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15_threshold_:J
 
     return-wide v0
@@ -2369,16 +2369,16 @@
 .method public final readD8ToD15ChanState()Ljava/lang/String;
     .locals 8
 
-    const/16 v0, 0x2b1c
+    const/16 v0, 0x291c
 
-    .line 434
+    .line 426
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setChanState(Ljava/lang/String;)V
 
-    .line 435
+    .line 427
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -2389,7 +2389,7 @@
 
     if-le v0, v1, :cond_1
 
-    .line 437
+    .line 429
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     const-string v2, "["
@@ -2428,7 +2428,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 935
+    .line 898
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-static {v0, v1}, Lkotlin/collections/CollectionsKt;->collectionSizeOrDefault(Ljava/lang/Iterable;I)I
@@ -2439,7 +2439,7 @@
 
     check-cast v2, Ljava/util/Collection;
 
-    .line 936
+    .line 899
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2455,10 +2455,10 @@
 
     move-result-object v1
 
-    .line 937
+    .line 900
     check-cast v1, Ljava/lang/String;
 
-    .line 437
+    .line 429
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v1
@@ -2471,25 +2471,25 @@
 
     goto :goto_0
 
-    .line 938
+    .line 901
     :cond_0
     check-cast v2, Ljava/util/List;
 
-    .line 935
+    .line 898
     check-cast v2, Ljava/util/Collection;
 
-    .line 437
+    .line 429
     invoke-static {v2}, Lkotlin/collections/CollectionsKt;->toMutableList(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setChanStateList(Ljava/util/List;)V
 
-    .line 440
+    .line 432
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->getd8toD15()Z
 
-    .line 441
+    .line 433
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     return-object v0
@@ -2498,16 +2498,16 @@
 .method public final readGroup1()I
     .locals 1
 
-    const/16 v0, 0x2b18
+    const/16 v0, 0x2918
 
-    .line 546
+    .line 532
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group1(I)V
 
-    .line 547
+    .line 533
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     return v0
@@ -2516,16 +2516,16 @@
 .method public final readGroup2()I
     .locals 1
 
-    const/16 v0, 0x2b09
+    const/16 v0, 0x2909
 
-    .line 556
+    .line 542
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group2(I)V
 
-    .line 557
+    .line 543
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group2:I
 
     return v0
@@ -2534,16 +2534,16 @@
 .method public final readGroup3()I
     .locals 1
 
-    const/16 v0, 0x2b0a
+    const/16 v0, 0x290a
 
-    .line 566
+    .line 552
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group3(I)V
 
-    .line 567
+    .line 553
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group3:I
 
     return v0
@@ -2552,16 +2552,16 @@
 .method public final readGroup4()I
     .locals 1
 
-    const/16 v0, 0x2b0b
+    const/16 v0, 0x290b
 
-    .line 576
+    .line 562
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group4(I)V
 
-    .line 577
+    .line 563
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group4:I
 
     return v0
@@ -2570,16 +2570,16 @@
 .method public final readGroupChanState()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2b1d
+    const/16 v0, 0x291d
 
-    .line 416
+    .line 410
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setGroupChanState(Ljava/lang/String;)V
 
-    .line 417
+    .line 411
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->groupChanState:Ljava/lang/String;
 
     return-object v0
@@ -2588,16 +2588,16 @@
 .method public final readInputLabel()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2b0c
+    const/16 v0, 0x290c
 
-    .line 515
+    .line 504
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setInputLabel(Ljava/lang/String;)V
 
-    .line 516
+    .line 505
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabel:Ljava/lang/String;
 
     return-object v0
@@ -2606,25 +2606,25 @@
 .method public final readLaEnable()Z
     .locals 5
 
-    const/16 v0, 0x2b01
+    const/16 v0, 0x2901
 
-    .line 593
+    .line 578
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLaEnable(Z)V
 
-    .line 595
+    .line 579
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
-    const/16 v1, 0x595e
+    const/16 v1, 0x575e
 
     const/16 v2, 0xb
 
     if-eqz v0, :cond_0
 
-    .line 596
+    .line 580
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -2639,7 +2639,7 @@
 
     goto :goto_0
 
-    .line 598
+    .line 582
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -2653,7 +2653,7 @@
 
     invoke-virtual {v0, v2, v1, v3, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 600
+    .line 584
     :goto_0
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
@@ -2663,9 +2663,9 @@
 .method public final readLaLabelEn()V
     .locals 1
 
-    const/16 v0, 0x2b06
+    const/16 v0, 0x2906
 
-    .line 369
+    .line 364
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readBool(I)Z
 
     move-result v0
@@ -2678,16 +2678,16 @@
 .method public final readLaLabelViewSelect()I
     .locals 1
 
-    const/16 v0, 0x2b1b
+    const/16 v0, 0x291b
 
-    .line 456
+    .line 448
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_label_view_select(I)V
 
-    .line 457
+    .line 449
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select:I
 
     return v0
@@ -2696,9 +2696,9 @@
 .method public final readLaPosition()V
     .locals 1
 
-    const/16 v0, 0x2b07
+    const/16 v0, 0x2907
 
-    .line 392
+    .line 387
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
@@ -2711,9 +2711,9 @@
 .method public final readLaProbeCalPro()V
     .locals 1
 
-    const/16 v0, 0x2b22
+    const/16 v0, 0x2922
 
-    .line 357
+    .line 355
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
@@ -2726,9 +2726,9 @@
 .method public final readLaProbeCalProString()V
     .locals 1
 
-    const/16 v0, 0x2b27
+    const/16 v0, 0x2927
 
-    .line 352
+    .line 351
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
@@ -2741,9 +2741,9 @@
 .method public final readLaSelectPosition()V
     .locals 1
 
-    const/16 v0, 0x2b21
+    const/16 v0, 0x2921
 
-    .line 383
+    .line 378
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
@@ -2756,16 +2756,16 @@
 .method public final readLaSize()I
     .locals 1
 
-    const/16 v0, 0x2b02
+    const/16 v0, 0x2902
 
-    .line 625
+    .line 609
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_size_(I)V
 
-    .line 626
+    .line 610
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_size_:I
 
     return v0
@@ -2774,14 +2774,14 @@
 .method public final readProbe()V
     .locals 3
 
-    .line 702
+    .line 686
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x3b
 
-    const/16 v2, 0x623b
+    const/16 v2, 0x603b
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -2795,16 +2795,16 @@
 .method public final readinputLabellist()Ljava/lang/String;
     .locals 13
 
-    const/16 v0, 0x2b1f
+    const/16 v0, 0x291f
 
-    .line 401
+    .line 396
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setInputLabellist(Ljava/lang/String;)V
 
-    .line 403
+    .line 398
     iget-object v1, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     const-string v2, "{"
@@ -2865,18 +2865,16 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setInputLabellist(Ljava/lang/String;)V
 
-    .line 404
+    .line 399
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    const/16 v1, 0xbf
+    if-lez v0, :cond_0
 
-    if-ne v0, v1, :cond_0
-
-    .line 405
+    .line 400
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     move-object v1, v0
@@ -2909,7 +2907,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setInputLabellist64(Ljava/util/List;)V
 
-    .line 406
+    .line 401
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -2920,9 +2918,9 @@
 
     if-le v0, v1, :cond_0
 
-    const/16 v0, 0x2b01
+    const/16 v0, 0x2901
 
-    .line 408
+    .line 402
     iget-boolean v1, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2931,7 +2929,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/LaParam;->syncData(ILjava/lang/Object;)V
 
-    .line 412
+    .line 406
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
@@ -2941,16 +2939,16 @@
 .method public final readlaHighColor()I
     .locals 1
 
-    const/16 v0, 0x2b10
+    const/16 v0, 0x2910
 
-    .line 467
+    .line 459
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_high_color(I)V
 
-    .line 468
+    .line 460
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_high_color:I
 
     return v0
@@ -2959,16 +2957,16 @@
 .method public final readlaSelectChan()I
     .locals 1
 
-    const/16 v0, 0x2b16
+    const/16 v0, 0x2916
 
-    .line 445
+    .line 437
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_label_view_select_chan(I)V
 
-    .line 446
+    .line 438
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select_chan:I
 
     return v0
@@ -2977,16 +2975,16 @@
 .method public final readlaSource()I
     .locals 1
 
-    const/16 v0, 0x2b05
+    const/16 v0, 0x2905
 
-    .line 615
+    .line 599
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_source(I)V
 
-    .line 616
+    .line 600
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_source:I
 
     return v0
@@ -2995,16 +2993,16 @@
 .method public final readlabel()Z
     .locals 1
 
-    const/16 v0, 0x2b06
+    const/16 v0, 0x2906
 
-    .line 610
+    .line 594
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLabel(Z)V
 
-    .line 611
+    .line 595
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->label:Z
 
     return v0
@@ -3013,16 +3011,16 @@
 .method public final readlabelGroup()Z
     .locals 1
 
-    const/16 v0, 0x2b0d
+    const/16 v0, 0x290d
 
-    .line 505
+    .line 494
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLabelGroup(Z)V
 
-    .line 506
+    .line 495
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->labelGroup:Z
 
     return v0
@@ -3031,16 +3029,16 @@
 .method public final readlaedgeColor()I
     .locals 1
 
-    const/16 v0, 0x2b11
+    const/16 v0, 0x2911
 
-    .line 472
+    .line 464
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_edge_color(I)V
 
-    .line 473
+    .line 465
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_edge_color:I
 
     return v0
@@ -3049,16 +3047,16 @@
 .method public final readlalowColor()I
     .locals 1
 
-    const/16 v0, 0x2b12
+    const/16 v0, 0x2912
 
-    .line 477
+    .line 469
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_low_color(I)V
 
-    .line 478
+    .line 470
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_low_color:I
 
     return v0
@@ -3067,85 +3065,85 @@
 .method public reset()V
     .locals 4
 
-    .line 894
+    .line 857
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
     const/4 v0, 0x0
 
-    .line 895
+    .line 858
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setD0TOd7(Z)V
 
-    .line 896
+    .line 859
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setD8TOd15(Z)V
 
     const/4 v1, 0x1
 
-    .line 897
+    .line 860
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setLa_size_(I)V
 
     const-wide/16 v2, 0x64
 
-    .line 899
+    .line 862
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/LaParam;->setD0TOd7_threshold_(J)V
 
     const-wide/16 v2, 0x0
 
-    .line 900
+    .line 863
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/LaParam;->setD8TOd15_threshold_(J)V
 
-    .line 901
+    .line 864
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/LaParam;->setD0TOd7_threshold_(J)V
 
     const/16 v2, 0x23
 
-    .line 902
+    .line 865
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setLa_spacing_(I)V
 
-    .line 903
+    .line 866
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_source(I)V
 
-    .line 904
+    .line 867
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLabel(Z)V
 
-    .line 905
+    .line 868
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setLabelGroup(Z)V
 
-    .line 906
+    .line 869
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLaEnable(Z)V
 
-    .line 907
+    .line 870
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group1(I)V
 
-    .line 908
+    .line 871
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group2(I)V
 
-    .line 909
+    .line 872
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group3(I)V
 
-    .line 910
+    .line 873
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_group4(I)V
 
-    .line 911
+    .line 874
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_edge_color(I)V
 
-    .line 912
+    .line 875
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_low_color(I)V
 
-    .line 913
+    .line 876
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_label_view_select(I)V
 
-    .line 914
+    .line 877
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_label_view_select_chan(I)V
 
     const-string v2, ""
 
-    .line 915
+    .line 878
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setInputLabel(Ljava/lang/String;)V
 
-    .line 916
+    .line 879
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setInputLabellist(Ljava/lang/String;)V
 
-    .line 917
+    .line 880
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
@@ -3154,10 +3152,10 @@
 
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/LaParam;->setInputLabellist64(Ljava/util/List;)V
 
-    .line 918
+    .line 881
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setChanState(Ljava/lang/String;)V
 
-    .line 919
+    .line 882
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
@@ -3166,32 +3164,32 @@
 
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/LaParam;->setChanStateList(Ljava/util/List;)V
 
-    .line 920
+    .line 883
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/LaParam;->setGroupChanState(Ljava/lang/String;)V
 
-    .line 921
+    .line 884
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_position(I)V
 
-    .line 922
+    .line 885
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/LaParam;->setLa_select_position(I)V
 
-    .line 923
+    .line 886
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/LaParam;->setLa_labels_en(Z)V
 
-    .line 924
+    .line 887
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
-    const/16 v1, 0x2b01
+    const/16 v1, 0x2901
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
-    .line 926
+    .line 889
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD0ToD7ChanState()Ljava/lang/String;
 
-    .line 927
+    .line 890
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readD8ToD15ChanState()Ljava/lang/String;
 
-    .line 928
+    .line 891
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->readinputLabellist()Ljava/lang/String;
 
     return-void
@@ -3200,12 +3198,12 @@
 .method public final saveAutoOrder(I)V
     .locals 1
 
-    .line 682
+    .line 666
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_order(I)V
 
-    const/16 v0, 0x2b0e
+    const/16 v0, 0x290e
 
-    .line 683
+    .line 667
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3214,12 +3212,12 @@
 .method public final saveCalibrationEnable(Z)V
     .locals 1
 
-    .line 378
+    .line 373
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setCalibration_Enable(Z)V
 
-    const/16 v0, 0x2b20
+    const/16 v0, 0x2920
 
-    .line 379
+    .line 374
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
     return-void
@@ -3228,12 +3226,12 @@
 .method public final saveD0TOd7(Z)V
     .locals 1
 
-    .line 641
+    .line 625
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setD0TOd7(Z)V
 
-    const/16 v0, 0x2b13
+    const/16 v0, 0x2913
 
-    .line 642
+    .line 626
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
     return-void
@@ -3242,12 +3240,12 @@
 .method public final saveD8TOd15(Z)V
     .locals 1
 
-    .line 651
+    .line 635
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setD8TOd15(Z)V
 
-    const/16 v0, 0x2b14
+    const/16 v0, 0x2914
 
-    .line 652
+    .line 636
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
     return-void
@@ -3256,15 +3254,15 @@
 .method public final saveGroup1(I)V
     .locals 1
 
-    .line 520
+    .line 509
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_group1(I)V
 
-    const/16 v0, 0x2b18
+    const/16 v0, 0x2918
 
-    .line 523
+    .line 511
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
-    .line 524
+    .line 512
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->getGrouplist()Ljava/util/List;
 
     return-void
@@ -3273,12 +3271,12 @@
 .method public final saveGroup2(I)V
     .locals 1
 
-    .line 551
+    .line 537
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_group2(I)V
 
-    const/16 v0, 0x2b09
+    const/16 v0, 0x2909
 
-    .line 552
+    .line 538
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3287,12 +3285,12 @@
 .method public final saveGroup3(I)V
     .locals 1
 
-    .line 561
+    .line 547
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_group3(I)V
 
-    const/16 v0, 0x2b0a
+    const/16 v0, 0x290a
 
-    .line 562
+    .line 548
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3301,12 +3299,12 @@
 .method public final saveGroup4(I)V
     .locals 1
 
-    .line 571
+    .line 557
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_group4(I)V
 
-    const/16 v0, 0x2b0b
+    const/16 v0, 0x290b
 
-    .line 572
+    .line 558
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3319,12 +3317,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 510
+    .line 499
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setInputLabel(Ljava/lang/String;)V
 
-    const/16 v0, 0x2b0c
+    const/16 v0, 0x290c
 
-    .line 511
+    .line 500
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -3333,12 +3331,12 @@
 .method public final saveLaGroupCancel(Z)V
     .locals 1
 
-    const/16 v0, 0x2b1a
+    const/16 v0, 0x291a
 
-    .line 822
+    .line 786
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
-    .line 823
+    .line 787
     invoke-virtual {p0}, Lcom/rigol/scope/data/LaParam;->groupCancel()V
 
     return-void
@@ -3347,12 +3345,12 @@
 .method public final saveLaLabelEn(Z)V
     .locals 1
 
-    .line 373
+    .line 368
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_labels_en(Z)V
 
-    const/16 v0, 0x2b06
+    const/16 v0, 0x2906
 
-    .line 374
+    .line 369
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
     return-void
@@ -3361,12 +3359,12 @@
 .method public final saveLaLabelViewSelect(I)V
     .locals 1
 
-    .line 461
+    .line 453
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_label_view_select(I)V
 
-    const/16 v0, 0x2b1b
+    const/16 v0, 0x291b
 
-    .line 463
+    .line 455
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3375,12 +3373,12 @@
 .method public final saveLaPosition(I)V
     .locals 1
 
-    .line 396
+    .line 391
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_position(I)V
 
-    const/16 v0, 0x2b07
+    const/16 v0, 0x2907
 
-    .line 397
+    .line 392
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3389,12 +3387,12 @@
 .method public final saveLaSelectPosition(I)V
     .locals 1
 
-    .line 387
+    .line 382
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_select_position(I)V
 
-    const/16 v0, 0x2b21
+    const/16 v0, 0x2921
 
-    .line 388
+    .line 383
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3403,12 +3401,12 @@
 .method public final saveLaSize(I)V
     .locals 1
 
-    .line 630
+    .line 614
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_size_(I)V
 
-    const/16 v0, 0x2b02
+    const/16 v0, 0x2902
 
-    .line 631
+    .line 615
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3417,12 +3415,12 @@
 .method public final saveLabel(Z)V
     .locals 1
 
-    .line 604
+    .line 588
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLabel(Z)V
 
-    const/16 v0, 0x2b06
+    const/16 v0, 0x2906
 
-    .line 606
+    .line 590
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
     return-void
@@ -3431,14 +3429,14 @@
 .method public final saveSelectAddDX(I)V
     .locals 5
 
-    const/16 v0, 0x2b19
+    const/16 v0, 0x2919
 
-    .line 708
+    .line 691
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     add-int/lit8 p1, p1, -0x9
 
-    .line 711
+    .line 694
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     const/4 v1, 0x1
@@ -3459,7 +3457,7 @@
 
     goto/16 :goto_0
 
-    .line 758
+    .line 728
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
@@ -3475,194 +3473,8 @@
 
     if-nez v0, :cond_1
 
-    .line 759
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 760
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
-
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 761
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
-
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 762
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
-
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    goto/16 :goto_0
-
-    .line 766
-    :cond_1
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 767
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 768
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 769
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    goto/16 :goto_0
-
-    .line 743
-    :cond_2
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Number;
-
-    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
-
-    move-result v0
-
-    if-nez v0, :cond_3
-
-    .line 744
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 745
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
-
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 746
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
-
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 747
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
-
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    goto/16 :goto_0
-
-    .line 751
-    :cond_3
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 752
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 753
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 754
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    goto/16 :goto_0
-
-    .line 728
-    :cond_4
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Number;
-
-    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
-
-    move-result v0
-
-    if-nez v0, :cond_5
-
     .line 729
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3671,7 +3483,7 @@
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 730
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3689,7 +3501,7 @@
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 732
-    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3699,9 +3511,27 @@
 
     goto/16 :goto_0
 
-    .line 736
-    :cond_5
+    .line 734
+    :cond_1
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 735
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 736
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3718,7 +3548,64 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 738
+    goto/16 :goto_0
+
+    .line 717
+    :cond_2
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    .line 718
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 719
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 720
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 721
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    goto/16 :goto_0
+
+    .line 723
+    :cond_3
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3727,7 +3614,118 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 739
+    .line 724
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 725
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 726
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    goto/16 :goto_0
+
+    .line 706
+    :cond_4
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    .line 707
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 708
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 709
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 710
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    goto/16 :goto_0
+
+    .line 712
+    :cond_5
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 713
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 714
+    iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 715
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3738,7 +3736,7 @@
 
     goto :goto_0
 
-    .line 713
+    .line 695
     :cond_6
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
@@ -3754,7 +3752,7 @@
 
     if-nez v0, :cond_7
 
-    .line 714
+    .line 696
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3763,7 +3761,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 715
+    .line 697
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3772,7 +3770,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 716
+    .line 698
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3781,7 +3779,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 717
+    .line 699
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3792,7 +3790,7 @@
 
     goto :goto_0
 
-    .line 721
+    .line 701
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
@@ -3802,7 +3800,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 722
+    .line 702
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3811,7 +3809,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 723
+    .line 703
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3820,7 +3818,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 724
+    .line 704
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3836,12 +3834,12 @@
 .method public final saveSelectChar(I)V
     .locals 2
 
-    const/16 v0, 0x2b15
+    const/16 v0, 0x2915
 
-    .line 692
+    .line 676
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
-    .line 694
+    .line 678
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     add-int/lit8 p1, p1, -0x9
@@ -3860,7 +3858,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 695
+    .line 679
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -3875,7 +3873,7 @@
 
     goto :goto_0
 
-    .line 697
+    .line 681
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
@@ -3894,12 +3892,12 @@
 .method public final savedD0TOd7Threshold(J)V
     .locals 1
 
-    .line 662
+    .line 646
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/LaParam;->setD0TOd7_threshold_(J)V
 
-    const/16 v0, 0x2b03
+    const/16 v0, 0x2903
 
-    .line 663
+    .line 647
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/LaParam;->saveLong(IJ)I
 
     return-void
@@ -3908,12 +3906,12 @@
 .method public final savedD8TOd15Threshold(J)V
     .locals 1
 
-    .line 673
+    .line 657
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/LaParam;->setD8TOd15_threshold_(J)V
 
-    const/16 v0, 0x2b04
+    const/16 v0, 0x2904
 
-    .line 674
+    .line 658
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/LaParam;->saveLong(IJ)I
 
     return-void
@@ -3922,12 +3920,12 @@
 .method public final savelLoweColor(I)V
     .locals 1
 
-    .line 494
+    .line 484
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_low_color(I)V
 
-    const/16 v0, 0x2b12
+    const/16 v0, 0x2912
 
-    .line 495
+    .line 485
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -3936,21 +3934,21 @@
 .method public final savelaEnable(Z)V
     .locals 4
 
-    .line 581
+    .line 567
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLaEnable(Z)V
 
-    const/16 v0, 0x2b01
+    const/16 v0, 0x2901
 
-    .line 583
+    .line 568
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
-    const/16 v0, 0x595e
+    const/16 v0, 0x575e
 
     const/16 v1, 0xb
 
     if-eqz p1, :cond_0
 
-    .line 586
+    .line 571
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -3965,7 +3963,7 @@
 
     goto :goto_0
 
-    .line 588
+    .line 573
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3986,12 +3984,12 @@
 .method public final savelaHighColor(I)V
     .locals 1
 
-    .line 482
+    .line 474
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_high_color(I)V
 
-    const/16 v0, 0x2b10
+    const/16 v0, 0x2910
 
-    .line 483
+    .line 475
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -4000,12 +3998,12 @@
 .method public final savelaSelectChan(I)V
     .locals 1
 
-    .line 450
+    .line 442
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_label_view_select_chan(I)V
 
-    const/16 v0, 0x2b16
+    const/16 v0, 0x2916
 
-    .line 452
+    .line 444
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -4014,12 +4012,12 @@
 .method public final savelaSource(I)V
     .locals 1
 
-    .line 620
+    .line 604
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_source(I)V
 
-    const/16 v0, 0x2b05
+    const/16 v0, 0x2905
 
-    .line 621
+    .line 605
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -4028,12 +4026,12 @@
 .method public final savelabelGroup(Z)V
     .locals 1
 
-    .line 500
+    .line 489
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLabelGroup(Z)V
 
-    const/16 v0, 0x2b0d
+    const/16 v0, 0x290d
 
-    .line 501
+    .line 490
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
     return-void
@@ -4042,12 +4040,12 @@
 .method public final savelaedgeColor(I)V
     .locals 1
 
-    .line 488
+    .line 479
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_edge_color(I)V
 
-    const/16 v0, 0x2b11
+    const/16 v0, 0x2911
 
-    .line 489
+    .line 480
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -4056,12 +4054,12 @@
 .method public final setCalibration_Enable(Z)V
     .locals 0
 
-    .line 166
+    .line 165
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->calibration_Enable:Z
 
     const/16 p1, 0x1c0
 
-    .line 167
+    .line 166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4074,19 +4072,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 280
+    .line 279
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 281
+    .line 280
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
     const/16 p1, 0x1ad
 
-    .line 282
+    .line 281
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4107,19 +4105,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 288
+    .line 287
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     const-string v1, "screenTimeStr"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 289
+    .line 288
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
     const/16 p1, 0xa5
 
-    .line 290
+    .line 289
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4128,7 +4126,7 @@
 .method public final setD0TOd7(Z)V
     .locals 3
 
-    .line 84
+    .line 83
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -4143,12 +4141,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 85
+    .line 84
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7:Z
 
     const/16 p1, 0xcd
 
-    .line 86
+    .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4157,7 +4155,7 @@
 .method public final setD0TOd7_threshold_(J)V
     .locals 3
 
-    .line 111
+    .line 110
     iget-wide v0, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7_threshold_:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -4172,12 +4170,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 112
+    .line 111
     iput-wide p1, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7_threshold_:J
 
     const/16 p1, 0xce
 
-    .line 113
+    .line 112
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4199,7 +4197,7 @@
 .method public final setD8TOd15(Z)V
     .locals 3
 
-    .line 95
+    .line 94
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -4214,12 +4212,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 96
+    .line 95
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15:Z
 
     const/16 p1, 0xcf
 
-    .line 97
+    .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4228,7 +4226,7 @@
 .method public final setD8TOd15_threshold_(J)V
     .locals 3
 
-    .line 103
+    .line 102
     iget-wide v0, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15_threshold_:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -4243,12 +4241,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 104
+    .line 103
     iput-wide p1, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15_threshold_:J
 
     const/16 p1, 0xd0
 
-    .line 105
+    .line 104
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4282,7 +4280,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 56
+    .line 55
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->glist1:Ljava/util/List;
 
     return-void
@@ -4303,7 +4301,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 57
+    .line 56
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->glist2:Ljava/util/List;
 
     return-void
@@ -4324,7 +4322,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 58
+    .line 57
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->glist3:Ljava/util/List;
 
     return-void
@@ -4345,7 +4343,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 59
+    .line 58
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->glist4:Ljava/util/List;
 
     return-void
@@ -4366,19 +4364,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 64
+    .line 63
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->glistNow:Ljava/util/List;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 65
+    .line 64
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->glistNow:Ljava/util/List;
 
     const/16 p1, 0x15e
 
-    .line 66
+    .line 65
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4391,14 +4389,14 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 296
+    .line 295
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->groupChanState:Ljava/lang/String;
 
     const-string v1, "screenTimeStr"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 297
+    .line 296
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->groupChanState:Ljava/lang/String;
 
     return-void
@@ -4411,19 +4409,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 255
+    .line 254
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabel:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 256
+    .line 255
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->inputLabel:Ljava/lang/String;
 
     const/16 p1, 0x1ad
 
-    .line 257
+    .line 256
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4436,19 +4434,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 263
+    .line 262
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 264
+    .line 263
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
     const/16 p1, 0x1ad
 
-    .line 265
+    .line 264
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4469,19 +4467,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 271
+    .line 270
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist64:Ljava/util/List;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 272
+    .line 271
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist64:Ljava/util/List;
 
     const/16 p1, 0x1ad
 
-    .line 273
+    .line 272
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4490,7 +4488,7 @@
 .method public final setLaEnable(Z)V
     .locals 3
 
-    .line 158
+    .line 157
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -4505,12 +4503,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 159
+    .line 158
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
     const/16 p1, 0x1c0
 
-    .line 160
+    .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4519,12 +4517,12 @@
 .method public final setLaProbeCalPros(I)V
     .locals 1
 
-    .line 364
+    .line 359
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->setLa_probe_cal_pro(I)V
 
-    const/16 v0, 0x2b22
+    const/16 v0, 0x2922
 
-    .line 365
+    .line 360
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveInt(II)I
 
     return-void
@@ -4533,7 +4531,7 @@
 .method public final setLaProportion(I)V
     .locals 0
 
-    .line 53
+    .line 52
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->laProportion:I
 
     return-void
@@ -4542,7 +4540,7 @@
 .method public final setLa_calibration_probe(Z)V
     .locals 3
 
-    .line 72
+    .line 71
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->la_calibration_probe:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -4557,12 +4555,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 73
+    .line 72
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->la_calibration_probe:Z
 
     const/16 p1, 0x1c2
 
-    .line 74
+    .line 73
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4571,7 +4569,7 @@
 .method public final setLa_edge_color(I)V
     .locals 3
 
-    .line 214
+    .line 213
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_edge_color:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4586,12 +4584,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 215
+    .line 214
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_edge_color:I
 
     const/16 p1, 0x1c3
 
-    .line 216
+    .line 215
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4600,7 +4598,7 @@
 .method public final setLa_group1(I)V
     .locals 3
 
-    .line 173
+    .line 172
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4615,12 +4613,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 174
+    .line 173
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
     const/16 p1, 0x1c4
 
-    .line 175
+    .line 174
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4629,7 +4627,7 @@
 .method public final setLa_group2(I)V
     .locals 3
 
-    .line 181
+    .line 180
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group2:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4644,12 +4642,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 182
+    .line 181
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group2:I
 
     const/16 p1, 0x1c5
 
-    .line 183
+    .line 182
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4658,7 +4656,7 @@
 .method public final setLa_group3(I)V
     .locals 3
 
-    .line 189
+    .line 188
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group3:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4673,12 +4671,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 190
+    .line 189
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group3:I
 
     const/16 p1, 0x1c5
 
-    .line 191
+    .line 190
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4687,7 +4685,7 @@
 .method public final setLa_group4(I)V
     .locals 3
 
-    .line 198
+    .line 197
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_group4:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4702,12 +4700,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 199
+    .line 198
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group4:I
 
     const/16 p1, 0x1c7
 
-    .line 200
+    .line 199
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4716,7 +4714,7 @@
 .method public final setLa_high_color(I)V
     .locals 3
 
-    .line 206
+    .line 205
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_high_color:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4731,12 +4729,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 207
+    .line 206
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_high_color:I
 
     const/16 p1, 0x1c8
 
-    .line 208
+    .line 207
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4745,7 +4743,7 @@
 .method public final setLa_label_view_select(I)V
     .locals 3
 
-    .line 239
+    .line 238
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4760,12 +4758,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 240
+    .line 239
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select:I
 
     const/16 p1, 0x1cd
 
-    .line 241
+    .line 240
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4774,7 +4772,7 @@
 .method public final setLa_label_view_select_chan(I)V
     .locals 3
 
-    .line 247
+    .line 246
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select_chan:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4789,12 +4787,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 248
+    .line 247
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select_chan:I
 
     const/16 p1, 0x1cd
 
-    .line 249
+    .line 248
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4803,7 +4801,7 @@
 .method public final setLa_labels_en(Z)V
     .locals 3
 
-    .line 322
+    .line 321
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->la_labels_en:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -4818,12 +4816,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 323
+    .line 322
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->la_labels_en:Z
 
     const/16 p1, 0x1cb
 
-    .line 324
+    .line 323
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4832,7 +4830,7 @@
 .method public final setLa_low_color(I)V
     .locals 3
 
-    .line 222
+    .line 221
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_low_color:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4847,12 +4845,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 223
+    .line 222
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_low_color:I
 
     const/16 p1, 0x1cc
 
-    .line 224
+    .line 223
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4861,7 +4859,7 @@
 .method public final setLa_order(I)V
     .locals 3
 
-    .line 230
+    .line 229
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_order:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4876,12 +4874,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 231
+    .line 230
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_order:I
 
     const/16 p1, 0x1cd
 
-    .line 232
+    .line 231
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4890,7 +4888,7 @@
 .method public final setLa_position(I)V
     .locals 3
 
-    .line 304
+    .line 303
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_position:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4905,7 +4903,7 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 305
+    .line 304
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_position:I
 
     return-void
@@ -4918,19 +4916,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 346
+    .line 345
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_data:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 347
+    .line 346
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_data:Ljava/lang/String;
 
     const/16 p1, 0x1cf
 
-    .line 348
+    .line 347
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4939,7 +4937,7 @@
 .method public final setLa_probe_cal_pro(I)V
     .locals 3
 
-    .line 330
+    .line 329
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_pro:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4954,12 +4952,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 331
+    .line 330
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_pro:I
 
     const/16 p1, 0x1d0
 
-    .line 332
+    .line 331
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4972,19 +4970,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 338
+    .line 337
     iget-object v0, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_prostr:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 339
+    .line 338
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_prostr:Ljava/lang/String;
 
     const/16 p1, 0x1cb
 
-    .line 340
+    .line 339
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -4993,7 +4991,7 @@
 .method public final setLa_select_position(I)V
     .locals 3
 
-    .line 313
+    .line 312
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_select_position:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -5008,7 +5006,7 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 314
+    .line 313
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_select_position:I
 
     return-void
@@ -5017,7 +5015,7 @@
 .method public final setLa_size_(I)V
     .locals 3
 
-    .line 126
+    .line 125
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_size_:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -5032,12 +5030,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 127
+    .line 126
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_size_:I
 
     const/16 p1, 0x1d3
 
-    .line 128
+    .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -5046,7 +5044,7 @@
 .method public final setLa_source(I)V
     .locals 3
 
-    .line 134
+    .line 133
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_source:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -5061,12 +5059,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 135
+    .line 134
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_source:I
 
     const/16 p1, 0x1d4
 
-    .line 136
+    .line 135
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -5075,7 +5073,7 @@
 .method public final setLa_spacing_(I)V
     .locals 3
 
-    .line 119
+    .line 118
     iget v0, p0, Lcom/rigol/scope/data/LaParam;->la_spacing_:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -5090,7 +5088,7 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 120
+    .line 119
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_spacing_:I
 
     return-void
@@ -5099,7 +5097,7 @@
 .method public final setLabel(Z)V
     .locals 3
 
-    .line 142
+    .line 141
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->label:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -5114,12 +5112,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 143
+    .line 142
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->label:Z
 
     const/16 p1, 0x1d6
 
-    .line 144
+    .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -5128,7 +5126,7 @@
 .method public final setLabelGroup(Z)V
     .locals 3
 
-    .line 150
+    .line 149
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->labelGroup:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -5143,12 +5141,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/LaParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 151
+    .line 150
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->labelGroup:Z
 
     const/16 p1, 0x1d7
 
-    .line 152
+    .line 151
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
 
     return-void

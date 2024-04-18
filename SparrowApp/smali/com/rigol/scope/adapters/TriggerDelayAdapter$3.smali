@@ -63,7 +63,7 @@
 
     add-int/lit8 v0, v0, 0x0
 
-    const/16 v1, 0x90f
+    const/16 v1, 0x70f
 
     .line 299
     invoke-virtual {p3, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
@@ -79,7 +79,7 @@
 
     add-int/lit8 p2, p2, 0x0
 
-    const/16 v2, 0x912
+    const/16 v2, 0x712
 
     .line 302
     invoke-virtual {p3, p2, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
@@ -185,7 +185,7 @@
 
     add-int/lit8 v2, v2, 0x0
 
-    const/16 v3, 0x90f
+    const/16 v3, 0x70f
 
     .line 317
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
@@ -201,7 +201,7 @@
 
     add-int/lit8 v0, v0, 0x0
 
-    const/16 v4, 0x912
+    const/16 v4, 0x712
 
     .line 320
     invoke-virtual {v3, v0, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J

@@ -574,7 +574,7 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x594c
+    const/16 v2, 0x574c
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -1289,7 +1289,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerCanAdapter;->serviceId:I
 
-    const/16 v1, 0x511e
+    const/16 v1, 0x4f1e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 

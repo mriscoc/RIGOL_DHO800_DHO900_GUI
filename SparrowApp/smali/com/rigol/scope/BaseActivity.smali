@@ -1327,7 +1327,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x595e
+    const/16 v0, 0x575e
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
@@ -1353,7 +1353,7 @@
 
     move-result-object v2
 
-    const/16 v5, 0x4102
+    const/16 v5, 0x3f02
 
     const/16 v6, 0xe
 
@@ -1368,7 +1368,7 @@
 
     move-result-object v2
 
-    const/16 v5, 0x4103
+    const/16 v5, 0x3f03
 
     invoke-virtual {v2, v6, v5}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -1383,7 +1383,7 @@
 
     const/16 v5, 0x3d
 
-    const/16 v6, 0x702
+    const/16 v6, 0x502
 
     invoke-virtual {v2, v5, v6}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 

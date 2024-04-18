@@ -1188,7 +1188,7 @@
 
     const/16 v0, 0x39
 
-    const/16 v2, 0x1f06
+    const/16 v2, 0x1d06
 
     invoke-static {v0, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1548,7 +1548,7 @@
 
     const/4 v5, 0x1
 
-    const/16 v6, 0x945
+    const/16 v6, 0x745
 
     invoke-virtual {v4, v5, v6}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -2077,7 +2077,7 @@
 
     const/16 v1, 0x39
 
-    const/16 v2, 0x1f19
+    const/16 v2, 0x1d19
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -2159,7 +2159,7 @@
 
     const/4 v3, 0x1
 
-    const/16 v4, 0x946
+    const/16 v4, 0x746
 
     invoke-virtual {v0, v3, v4, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 

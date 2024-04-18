@@ -53,7 +53,7 @@
 
     move-result v0
 
-    const/16 v1, 0x430c
+    const/16 v1, 0x410c
 
     const/4 v2, 0x1
 

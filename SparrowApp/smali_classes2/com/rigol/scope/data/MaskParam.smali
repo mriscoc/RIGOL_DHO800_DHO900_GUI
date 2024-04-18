@@ -630,7 +630,7 @@
 .method public final readAuxOut()V
     .locals 1
 
-    const/16 v0, 0x2f14
+    const/16 v0, 0x2d14
 
     .line 391
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readBool(I)Z
@@ -645,7 +645,7 @@
 .method public final readCursorA()V
     .locals 1
 
-    const/16 v0, 0x2f0a
+    const/16 v0, 0x2d0a
 
     .line 407
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -660,7 +660,7 @@
 .method public final readCursorAB()V
     .locals 1
 
-    const/16 v0, 0x2f0c
+    const/16 v0, 0x2d0c
 
     .line 415
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -675,7 +675,7 @@
 .method public final readCursorB()V
     .locals 1
 
-    const/16 v0, 0x2f0b
+    const/16 v0, 0x2d0b
 
     .line 411
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -690,7 +690,7 @@
 .method public final readEnable()V
     .locals 1
 
-    const/16 v0, 0x2f01
+    const/16 v0, 0x2d01
 
     .line 383
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readBool(I)Z
@@ -705,7 +705,7 @@
 .method public final readErrAction()V
     .locals 1
 
-    const/16 v0, 0x2f0d
+    const/16 v0, 0x2d0d
 
     .line 451
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -720,7 +720,7 @@
 .method public final readForceStop()V
     .locals 1
 
-    const/16 v0, 0x2f2f
+    const/16 v0, 0x2d2f
 
     .line 455
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readBool(I)Z
@@ -735,7 +735,7 @@
 .method public final readOperate()V
     .locals 1
 
-    const/16 v0, 0x2f03
+    const/16 v0, 0x2d03
 
     .line 395
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readBool(I)Z
@@ -750,7 +750,7 @@
 .method public final readOutEvent()V
     .locals 2
 
-    const/16 v0, 0x2f13
+    const/16 v0, 0x2d13
 
     .line 431
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -773,7 +773,7 @@
 .method public final readOutHl()V
     .locals 2
 
-    const/16 v0, 0x2f16
+    const/16 v0, 0x2d16
 
     .line 435
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -796,7 +796,7 @@
 .method public final readOutPulse()V
     .locals 2
 
-    const/16 v0, 0x2f15
+    const/16 v0, 0x2d15
 
     .line 427
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readLong(I)J
@@ -814,7 +814,7 @@
     .line 447
     iget-object v0, p0, Lcom/rigol/scope/data/MaskParam;->outPulseAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f15
+    const/16 v1, 0x2d15
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MaskParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -824,7 +824,7 @@
 .method public final readRang()V
     .locals 2
 
-    const/16 v0, 0x2f06
+    const/16 v0, 0x2d06
 
     .line 403
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -847,7 +847,7 @@
 .method public final readShowStat()V
     .locals 1
 
-    const/16 v0, 0x2f0e
+    const/16 v0, 0x2d0e
 
     .line 387
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readBool(I)Z
@@ -862,7 +862,7 @@
 .method public final readSource()V
     .locals 1
 
-    const/16 v0, 0x2f02
+    const/16 v0, 0x2d02
 
     .line 399
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -877,7 +877,7 @@
 .method public final readXMask()V
     .locals 2
 
-    const/16 v0, 0x2f07
+    const/16 v0, 0x2d07
 
     .line 423
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -899,7 +899,7 @@
     .line 443
     iget-object v0, p0, Lcom/rigol/scope/data/MaskParam;->xValueAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f07
+    const/16 v1, 0x2d07
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MaskParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -909,7 +909,7 @@
 .method public final readYMask()V
     .locals 2
 
-    const/16 v0, 0x2f08
+    const/16 v0, 0x2d08
 
     .line 419
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MaskParam;->readInt(I)I
@@ -931,7 +931,7 @@
     .line 439
     iget-object v0, p0, Lcom/rigol/scope/data/MaskParam;->yValueAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f08
+    const/16 v1, 0x2d08
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MaskParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1151,7 +1151,7 @@
     .line 470
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setAuxOut(Z)V
 
-    const/16 v0, 0x2f14
+    const/16 v0, 0x2d14
 
     .line 471
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveBool(IZ)I
@@ -1165,7 +1165,7 @@
     .line 495
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setCursorA(I)V
 
-    const/16 v0, 0x2f0a
+    const/16 v0, 0x2d0a
 
     .line 496
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
@@ -1179,7 +1179,7 @@
     .line 505
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setCursorAB(I)V
 
-    const/16 v0, 0x2f0c
+    const/16 v0, 0x2d0c
 
     .line 506
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
@@ -1193,7 +1193,7 @@
     .line 500
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setCursorB(I)V
 
-    const/16 v0, 0x2f0b
+    const/16 v0, 0x2d0b
 
     .line 501
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
@@ -1207,7 +1207,7 @@
     .line 460
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setEnable(Z)V
 
-    const/16 v0, 0x2f01
+    const/16 v0, 0x2d01
 
     .line 461
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveBool(IZ)I
@@ -1221,7 +1221,7 @@
     .line 549
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setErrAction(I)V
 
-    const/16 v0, 0x2f0d
+    const/16 v0, 0x2d0d
 
     .line 550
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
@@ -1238,7 +1238,7 @@
     .line 481
     iget-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->forceStop:Z
 
-    const/16 v0, 0x2f2f
+    const/16 v0, 0x2d2f
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveBool(IZ)I
 
@@ -1251,7 +1251,7 @@
     .line 475
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setOperate(Z)V
 
-    const/16 v0, 0x2f03
+    const/16 v0, 0x2d03
 
     .line 476
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveBool(IZ)I
@@ -1272,7 +1272,7 @@
     .line 540
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->value1:I
 
-    const/16 v0, 0x2f13
+    const/16 v0, 0x2d13
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
 
@@ -1292,7 +1292,7 @@
     .line 545
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->value1:I
 
-    const/16 v0, 0x2f16
+    const/16 v0, 0x2d16
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
 
@@ -1305,7 +1305,7 @@
     .line 534
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MaskParam;->setOutPulse(J)V
 
-    const/16 v0, 0x2f15
+    const/16 v0, 0x2d15
 
     .line 535
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MaskParam;->saveLong(IJ)I
@@ -1326,7 +1326,7 @@
     .line 491
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->value1:I
 
-    const/16 v0, 0x2f06
+    const/16 v0, 0x2d06
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
 
@@ -1336,7 +1336,7 @@
 .method public final saveResetStat()V
     .locals 2
 
-    const/16 v0, 0x2f0f
+    const/16 v0, 0x2d0f
 
     const/4 v1, 0x0
 
@@ -1352,7 +1352,7 @@
     .line 465
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setShowStat(Z)V
 
-    const/16 v0, 0x2f0e
+    const/16 v0, 0x2d0e
 
     .line 466
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveBool(IZ)I
@@ -1366,7 +1366,7 @@
     .line 485
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setSource(I)V
 
-    const/16 v0, 0x2f02
+    const/16 v0, 0x2d02
 
     .line 486
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MaskParam;->saveInt(II)I
@@ -1443,7 +1443,7 @@
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setXValue(I)V
 
     :goto_0
-    const/16 p1, 0x2f07
+    const/16 p1, 0x2d07
 
     .line 530
     iget v0, p0, Lcom/rigol/scope/data/MaskParam;->xValue:I
@@ -1526,7 +1526,7 @@
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->setYValue(I)V
 
     :goto_0
-    const/16 p1, 0x2f08
+    const/16 p1, 0x2d08
 
     .line 518
     iget v0, p0, Lcom/rigol/scope/data/MaskParam;->yValue:I

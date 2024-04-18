@@ -92,9 +92,9 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x5948
+    const/16 v2, 0x5748
 
-    const-string v3, "00.01.02.00.00"
+    const-string v3, "00.01.02.00.02"
 
     invoke-virtual {p0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
 

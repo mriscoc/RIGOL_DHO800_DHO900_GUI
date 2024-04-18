@@ -904,7 +904,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf17
+    const/16 v0, 0xd17
 
     .line 379
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -914,7 +914,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf12
+    const/16 v0, 0xd12
 
     .line 378
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -924,7 +924,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf06
+    const/16 v0, 0xd06
 
     .line 377
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -973,7 +973,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf17
+    const/16 v0, 0xd17
 
     .line 426
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->axAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -983,7 +983,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf12
+    const/16 v0, 0xd12
 
     .line 425
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->axAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -993,7 +993,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf06
+    const/16 v0, 0xd06
 
     .line 424
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->axAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1035,7 +1035,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf19
+    const/16 v0, 0xd19
 
     .line 401
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1045,7 +1045,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf23
+    const/16 v0, 0xd23
 
     .line 400
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1055,7 +1055,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf0b
+    const/16 v0, 0xd0b
 
     .line 399
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1104,7 +1104,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf19
+    const/16 v0, 0xd19
 
     .line 452
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->ayAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1114,7 +1114,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf23
+    const/16 v0, 0xd23
 
     .line 451
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->ayAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1124,7 +1124,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf0b
+    const/16 v0, 0xd0b
 
     .line 450
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->ayAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1138,7 +1138,7 @@
 .method public final readBothAB()Z
     .locals 1
 
-    const/16 v0, 0xf4e
+    const/16 v0, 0xd4e
 
     .line 472
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readBool(I)Z
@@ -1184,7 +1184,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf18
+    const/16 v0, 0xd18
 
     .line 390
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1194,7 +1194,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf13
+    const/16 v0, 0xd13
 
     .line 389
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1204,7 +1204,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf07
+    const/16 v0, 0xd07
 
     .line 388
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1253,7 +1253,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf18
+    const/16 v0, 0xd18
 
     .line 439
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->bxAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1263,7 +1263,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf13
+    const/16 v0, 0xd13
 
     .line 438
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->bxAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1273,7 +1273,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf07
+    const/16 v0, 0xd07
 
     .line 437
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->bxAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1315,7 +1315,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf1a
+    const/16 v0, 0xd1a
 
     .line 412
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1325,7 +1325,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf24
+    const/16 v0, 0xd24
 
     .line 411
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1335,7 +1335,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf0c
+    const/16 v0, 0xd0c
 
     .line 410
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readLong(I)J
@@ -1384,7 +1384,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf1a
+    const/16 v0, 0xd1a
 
     .line 465
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->byAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1394,7 +1394,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf24
+    const/16 v0, 0xd24
 
     .line 464
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->byAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1404,7 +1404,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf0c
+    const/16 v0, 0xd0c
 
     .line 463
     iget-object v1, p0, Lcom/rigol/scope/data/CursorResultParam;->byAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -1418,7 +1418,7 @@
 .method public final readCursorEnable()Z
     .locals 1
 
-    const/16 v0, 0xf53
+    const/16 v0, 0xd53
 
     .line 323
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readBool(I)Z
@@ -1441,7 +1441,7 @@
 .method public final readMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
     .locals 2
 
-    const/16 v0, 0xf01
+    const/16 v0, 0xd01
 
     .line 329
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1496,7 +1496,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf49
+    const/16 v0, 0xd49
 
     .line 345
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1514,7 +1514,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf10
+    const/16 v0, 0xd10
 
     .line 344
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1532,7 +1532,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf04
+    const/16 v0, 0xd04
 
     .line 343
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1587,7 +1587,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf11
+    const/16 v0, 0xd11
 
     .line 354
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1605,7 +1605,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf4a
+    const/16 v0, 0xd4a
 
     .line 353
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1656,7 +1656,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf54
+    const/16 v0, 0xd54
 
     .line 335
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1750,7 +1750,7 @@
 
     if-ne v0, v1, :cond_4
 
-    const/16 v0, 0xf05
+    const/16 v0, 0xd05
 
     .line 481
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1760,7 +1760,7 @@
     goto :goto_1
 
     :cond_4
-    const/16 v0, 0xf0a
+    const/16 v0, 0xd0a
 
     .line 483
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1798,7 +1798,7 @@
 
     const/4 v1, 0x1
 
-    const/16 v2, 0xf02
+    const/16 v2, 0xd02
 
     if-eq v0, v1, :cond_1
 
@@ -1814,7 +1814,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf22
+    const/16 v0, 0xd22
 
     .line 363
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->readInt(I)I
@@ -1932,7 +1932,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0xf4f
+    const/16 v0, 0xd4f
 
     .line 639
     invoke-direct {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->superRepeat(I)I
@@ -1944,7 +1944,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf51
+    const/16 v0, 0xd51
 
     .line 642
     invoke-direct {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->superRepeat(I)I
@@ -1991,7 +1991,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf17
+    const/16 v0, 0xd17
 
     .line 597
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -1999,7 +1999,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf12
+    const/16 v0, 0xd12
 
     .line 596
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2007,7 +2007,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf06
+    const/16 v0, 0xd06
 
     .line 595
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2048,7 +2048,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf19
+    const/16 v0, 0xd19
 
     .line 619
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2056,7 +2056,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf23
+    const/16 v0, 0xd23
 
     .line 618
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2064,7 +2064,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf0b
+    const/16 v0, 0xd0b
 
     .line 617
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2103,7 +2103,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0xf50
+    const/16 v0, 0xd50
 
     .line 648
     invoke-direct {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->superRepeat(I)I
@@ -2115,7 +2115,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf52
+    const/16 v0, 0xd52
 
     .line 650
     invoke-direct {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->superRepeat(I)I
@@ -2136,7 +2136,7 @@
     .line 579
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->setBothAB(Z)V
 
-    const/16 v0, 0xf4e
+    const/16 v0, 0xd4e
 
     .line 580
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBool(IZ)I
@@ -2176,7 +2176,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf18
+    const/16 v0, 0xd18
 
     .line 608
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2184,7 +2184,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf13
+    const/16 v0, 0xd13
 
     .line 607
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2192,7 +2192,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf07
+    const/16 v0, 0xd07
 
     .line 606
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2233,7 +2233,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf1a
+    const/16 v0, 0xd1a
 
     .line 630
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2241,7 +2241,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf24
+    const/16 v0, 0xd24
 
     .line 629
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2249,7 +2249,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf0c
+    const/16 v0, 0xd0c
 
     .line 628
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->saveLong(IJ)I
@@ -2261,7 +2261,7 @@
 .method public final saveCursorEnable(Z)V
     .locals 1
 
-    const/16 v0, 0xf53
+    const/16 v0, 0xd53
 
     .line 504
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBool(IZ)I
@@ -2282,7 +2282,7 @@
     .line 509
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->value1:I
 
-    const/16 v0, 0xf01
+    const/16 v0, 0xd01
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveInt(II)I
 
@@ -2325,7 +2325,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf49
+    const/16 v0, 0xd49
 
     .line 556
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2335,7 +2335,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf10
+    const/16 v0, 0xd10
 
     .line 555
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2345,7 +2345,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xf04
+    const/16 v0, 0xd04
 
     .line 554
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2388,7 +2388,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf4a
+    const/16 v0, 0xd4a
 
     .line 572
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2398,7 +2398,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xf11
+    const/16 v0, 0xd11
 
     .line 571
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2437,7 +2437,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 p1, 0xf54
+    const/16 p1, 0xd54
 
     .line 539
     invoke-virtual {p0}, Lcom/rigol/scope/data/CursorResultParam;->getSyncArea()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -2469,7 +2469,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const/16 v0, 0xf05
+    const/16 v0, 0xd05
 
     .line 586
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
@@ -2479,7 +2479,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xf0a
+    const/16 v0, 0xd0a
 
     .line 588
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
@@ -2530,7 +2530,7 @@
     goto :goto_1
 
     :cond_1
-    const/16 p1, 0xf22
+    const/16 p1, 0xd22
 
     .line 520
     iget-object v0, p0, Lcom/rigol/scope/data/CursorResultParam;->view:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
@@ -2542,7 +2542,7 @@
     goto :goto_1
 
     :cond_2
-    const/16 p1, 0xf02
+    const/16 p1, 0xd02
 
     .line 519
     iget-object v0, p0, Lcom/rigol/scope/data/CursorResultParam;->view:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
@@ -2756,7 +2756,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const/16 p1, 0xf01
+    const/16 p1, 0xd01
 
     const/4 v0, 0x0
 
@@ -3044,7 +3044,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0xf53
+    const/16 v0, 0xd53
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CursorResultParam;->syncData(ILjava/lang/Object;)V
 

@@ -32,7 +32,7 @@
 
     move-result p2
 
-    const/16 v0, 0x35d9
+    const/16 v0, 0x33d9
 
     const/4 v1, 0x1
 
@@ -138,7 +138,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x3537
+    const/16 p2, 0x3337
 
     .line 1838
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getStat()I

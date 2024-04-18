@@ -482,7 +482,7 @@
     .line 151
     iget-object v2, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v3, 0x910
+    const/16 v3, 0x710
 
     invoke-virtual {v2, v1, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -505,7 +505,7 @@
     .line 161
     iget-object v2, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v3, 0x913
+    const/16 v3, 0x713
 
     invoke-virtual {v2, v1, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -528,7 +528,7 @@
     .line 171
     iget-object v2, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v3, 0x907
+    const/16 v3, 0x707
 
     invoke-virtual {v2, v1, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -579,7 +579,7 @@
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2516
+    const/16 v1, 0x2316
 
     const/16 v2, 0xa
 
@@ -602,7 +602,7 @@
     .line 187
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2517
+    const/16 v1, 0x2317
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -625,7 +625,7 @@
 
     const/16 v1, 0x22
 
-    const/16 v2, 0x2301
+    const/16 v2, 0x2101
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

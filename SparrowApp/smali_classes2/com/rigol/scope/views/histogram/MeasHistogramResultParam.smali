@@ -595,7 +595,7 @@
 .method public final remove()V
     .locals 2
 
-    const/16 v0, 0x35d7
+    const/16 v0, 0x33d7
 
     const/4 v1, 0x0
 

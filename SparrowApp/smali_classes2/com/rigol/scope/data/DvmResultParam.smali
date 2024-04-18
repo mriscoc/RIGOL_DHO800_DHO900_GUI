@@ -290,7 +290,7 @@
 .method public readBeeper()Z
     .locals 1
 
-    const/16 v0, 0x1105
+    const/16 v0, 0xf05
 
     .line 263
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readBool(I)Z
@@ -321,7 +321,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v2, 0x94b
+    const/16 v2, 0x74b
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -341,7 +341,7 @@
 .method public readEnable()Z
     .locals 1
 
-    const/16 v0, 0x1101
+    const/16 v0, 0xf01
 
     .line 222
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readBool(I)Z
@@ -359,7 +359,7 @@
 .method public readLimitLower()J
     .locals 2
 
-    const/16 v0, 0x1108
+    const/16 v0, 0xf08
 
     .line 293
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readLong(I)J
@@ -379,7 +379,7 @@
 .method public readLimitType()I
     .locals 1
 
-    const/16 v0, 0x1106
+    const/16 v0, 0xf06
 
     .line 273
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readInt(I)I
@@ -399,7 +399,7 @@
 .method public readLimitUpper()J
     .locals 2
 
-    const/16 v0, 0x1107
+    const/16 v0, 0xf07
 
     .line 283
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readLong(I)J
@@ -422,7 +422,7 @@
     .line 302
     iget-object v0, p0, Lcom/rigol/scope/data/DvmResultParam;->lowerAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x1108
+    const/16 v1, 0xf08
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DvmResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -432,7 +432,7 @@
 .method public readMode()Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
     .locals 1
 
-    const/16 v0, 0x1103
+    const/16 v0, 0xf03
 
     .line 252
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readInt(I)I
@@ -457,7 +457,7 @@
 .method public readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x1102
+    const/16 v0, 0xf02
 
     .line 233
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DvmResultParam;->readInt(I)I
@@ -485,7 +485,7 @@
     .line 298
     iget-object v0, p0, Lcom/rigol/scope/data/DvmResultParam;->upperAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x1107
+    const/16 v1, 0xf07
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DvmResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -505,7 +505,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x1101
+    const/16 v1, 0xf01
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DvmResultParam;->syncData(ILjava/lang/Object;)V
 
@@ -566,7 +566,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->setBeeper(Z)V
 
-    const/16 p1, 0x1105
+    const/16 p1, 0xf05
 
     .line 353
     invoke-virtual {p0}, Lcom/rigol/scope/data/DvmResultParam;->isBeeper()Z
@@ -584,7 +584,7 @@
     .line 313
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->setEnable(Z)V
 
-    const/16 v0, 0x1101
+    const/16 v0, 0xf01
 
     .line 314
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DvmResultParam;->saveInt(II)I
@@ -608,7 +608,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DvmResultParam;->setLimitLower(J)V
 
-    const/16 v0, 0x1108
+    const/16 v0, 0xf08
 
     .line 392
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DvmResultParam;->saveLong(IJ)I
@@ -630,7 +630,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->setLimitType(I)V
 
-    const/16 v0, 0x1106
+    const/16 v0, 0xf06
 
     .line 366
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DvmResultParam;->saveInt(II)I
@@ -654,7 +654,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DvmResultParam;->setLimitUpper(J)V
 
-    const/16 v0, 0x1107
+    const/16 v0, 0xf07
 
     .line 379
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DvmResultParam;->saveLong(IJ)I
@@ -676,7 +676,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->setDvmMode(Lcom/rigol/scope/cil/ServiceEnum$DvmMode;)V
 
-    const/16 v0, 0x1103
+    const/16 v0, 0xf03
 
     .line 340
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->value1:I
@@ -702,7 +702,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->setSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    const/16 v0, 0x1102
+    const/16 v0, 0xf02
 
     .line 327
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I

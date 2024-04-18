@@ -334,7 +334,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4d47
+    const/16 v0, 0x4b47
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/ddrDebug/DdrDebugPopupView;->getStartAddr()I
 
@@ -349,7 +349,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4d48
+    const/16 v0, 0x4b48
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/ddrDebug/DdrDebugPopupView;->getSize()I
 
@@ -409,7 +409,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4d04
+    const/16 v0, 0x4b04
 
     const/4 v1, 0x1
 

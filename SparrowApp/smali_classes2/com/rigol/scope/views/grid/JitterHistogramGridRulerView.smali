@@ -108,7 +108,7 @@
 
     const/16 p2, 0x34
 
-    const/16 p3, 0x292e
+    const/16 p3, 0x272e
 
     .line 1799
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

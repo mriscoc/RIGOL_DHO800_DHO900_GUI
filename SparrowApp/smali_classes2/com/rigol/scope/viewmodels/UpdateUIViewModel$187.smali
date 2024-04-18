@@ -120,7 +120,7 @@
 
     move-result-object p1
 
-    const/16 v2, 0x4909
+    const/16 v2, 0x4709
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
 
     move-result-object p1
 
-    const/16 v2, 0x4901
+    const/16 v2, 0x4701
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

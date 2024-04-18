@@ -104,7 +104,7 @@
 
     const/16 v4, 0x33
 
-    const/16 v5, 0x1b02
+    const/16 v5, 0x1902
 
     invoke-virtual {v3, v4, v5}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -117,7 +117,7 @@
 
     add-int/2addr v3, v2
 
-    const/16 v2, 0x910
+    const/16 v2, 0x710
 
     invoke-virtual {v4, v3, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 

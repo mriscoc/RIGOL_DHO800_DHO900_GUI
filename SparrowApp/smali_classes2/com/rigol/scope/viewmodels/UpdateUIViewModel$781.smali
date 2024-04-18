@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/LaParam;)V
     .locals 0
 
-    .line 8435
+    .line 8442
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$781;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$781;->val$laParam:Lcom/rigol/scope/data/LaParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8438
+    .line 8445
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$781;->val$laParam:Lcom/rigol/scope/data/LaParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readlalowColor()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readAutoOrder()I
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8435
+    .line 8442
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$781;->onChanged(Ljava/lang/Boolean;)V

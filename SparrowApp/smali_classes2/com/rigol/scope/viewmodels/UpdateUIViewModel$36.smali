@@ -58,7 +58,7 @@
 
     iget v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$36;->val$serviceID:I
 
-    const/16 v1, 0x939
+    const/16 v1, 0x739
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 

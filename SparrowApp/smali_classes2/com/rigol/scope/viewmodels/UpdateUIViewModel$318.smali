@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 0
 
-    .line 3879
+    .line 3888
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$318;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$318;->val$param:Lcom/rigol/scope/data/TriggerParam;
@@ -51,19 +51,19 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 3882
+    .line 3891
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$318;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSpilevelA()J
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSpilevelB()J
 
     move-result-wide v0
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 3883
+    .line 3892
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$318;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSpilevelA()J
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSpilevelB()J
 
     move-result-wide v0
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x51ab
+    const/16 v1, 0x4fab
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/TriggerParam;->syncData(ILjava/lang/Object;)V
 
@@ -81,7 +81,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 3879
+    .line 3888
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$318;->onChanged(Ljava/lang/Boolean;)V

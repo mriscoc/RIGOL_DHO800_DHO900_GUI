@@ -104,7 +104,7 @@
 
     if-eqz p1, :cond_0
 
-    const/16 p2, 0x2518
+    const/16 p2, 0x2318
 
     const/16 p3, 0xa
 
@@ -130,7 +130,7 @@
     .line 642
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$5;->val$syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2519
+    const/16 p2, 0x2319
 
     invoke-virtual {p1, p3, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -153,7 +153,7 @@
     .line 646
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$5;->val$syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2510
+    const/16 p2, 0x2310
 
     invoke-virtual {p1, p3, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

@@ -237,7 +237,7 @@
 .method public final readAdc1Tcmp()I
     .locals 1
 
-    const/16 v0, 0x4963
+    const/16 v0, 0x4763
 
     .line 106
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -255,7 +255,7 @@
 .method public final readAdc1Tdmx()Z
     .locals 2
 
-    const/16 v0, 0x4967
+    const/16 v0, 0x4767
 
     .line 126
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -283,7 +283,7 @@
 .method public final readAdc2Tcmp()I
     .locals 1
 
-    const/16 v0, 0x4964
+    const/16 v0, 0x4764
 
     .line 111
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -301,7 +301,7 @@
 .method public final readAdc2Tdmx()Z
     .locals 2
 
-    const/16 v0, 0x4968
+    const/16 v0, 0x4768
 
     .line 131
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -329,7 +329,7 @@
 .method public final readAdc3Tcmp()I
     .locals 1
 
-    const/16 v0, 0x4965
+    const/16 v0, 0x4765
 
     .line 116
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -347,7 +347,7 @@
 .method public final readAdc3Tdmx()Z
     .locals 2
 
-    const/16 v0, 0x4969
+    const/16 v0, 0x4769
 
     .line 136
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -375,7 +375,7 @@
 .method public final readAdc4Tcmp()I
     .locals 1
 
-    const/16 v0, 0x4966
+    const/16 v0, 0x4766
 
     .line 121
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -393,7 +393,7 @@
 .method public final readAdc4Tdmx()Z
     .locals 2
 
-    const/16 v0, 0x496a
+    const/16 v0, 0x476a
 
     .line 141
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSerParam;->readInt(I)I
@@ -457,7 +457,7 @@
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc1Tcmp(I)V
 
-    const/16 v0, 0x4963
+    const/16 v0, 0x4763
 
     .line 169
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(II)I
@@ -471,7 +471,7 @@
     .line 148
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc1Tdmx(Z)V
 
-    const/16 v0, 0x4967
+    const/16 v0, 0x4767
 
     .line 149
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(IZ)I
@@ -485,7 +485,7 @@
     .line 173
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc2Tcmp(I)V
 
-    const/16 v0, 0x4964
+    const/16 v0, 0x4764
 
     .line 174
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(II)I
@@ -499,7 +499,7 @@
     .line 153
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc2Tdmx(Z)V
 
-    const/16 v0, 0x4968
+    const/16 v0, 0x4768
 
     .line 154
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(IZ)I
@@ -513,7 +513,7 @@
     .line 178
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc3Tcmp(I)V
 
-    const/16 v0, 0x4965
+    const/16 v0, 0x4765
 
     .line 179
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(II)I
@@ -527,7 +527,7 @@
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc3Tdmx(Z)V
 
-    const/16 v0, 0x4969
+    const/16 v0, 0x4769
 
     .line 159
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(IZ)I
@@ -541,7 +541,7 @@
     .line 183
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc4Tcmp(I)V
 
-    const/16 v0, 0x4966
+    const/16 v0, 0x4766
 
     .line 184
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(II)I
@@ -555,7 +555,7 @@
     .line 163
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->setAdc4Tdmx(Z)V
 
-    const/16 v0, 0x496a
+    const/16 v0, 0x476a
 
     .line 164
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSerParam;->saveInt(IZ)I

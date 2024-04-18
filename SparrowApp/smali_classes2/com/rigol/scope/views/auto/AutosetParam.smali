@@ -189,7 +189,7 @@
 
     move-result-object v5
 
-    const/16 v3, 0x50e
+    const/16 v3, 0x30e
 
     const/4 v6, 0x0
 
@@ -221,7 +221,7 @@
 
     move-result-object v13
 
-    const/16 v10, 0x508
+    const/16 v10, 0x308
 
     const/4 v12, 0x0
 
@@ -259,7 +259,7 @@
 
     move-result-object v25
 
-    const/16 v22, 0x512
+    const/16 v22, 0x312
 
     const-string v23, ""
 
@@ -304,7 +304,7 @@
 
     move-result-object v13
 
-    const/16 v10, 0x509
+    const/16 v10, 0x309
 
     const/16 v17, 0xe8
 
@@ -332,7 +332,7 @@
 
     move-result-object v13
 
-    const/16 v10, 0x50a
+    const/16 v10, 0x30a
 
     move-object v8, v0
 
@@ -358,7 +358,7 @@
 
     move-result-object v25
 
-    const/16 v22, 0x50c
+    const/16 v22, 0x30c
 
     const/16 v29, 0xe8
 
@@ -384,7 +384,7 @@
 
     move-result-object v13
 
-    const/16 v10, 0x50d
+    const/16 v10, 0x30d
 
     move-object v8, v0
 
@@ -419,7 +419,7 @@
 
     move-result v1
 
-    const/16 v2, 0x508
+    const/16 v2, 0x308
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

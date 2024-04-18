@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nKtUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 KtUtil.kt\ncom/rigol/scope/utilities/KtUtilKt\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,333:1\n734#2:334\n825#2,2:335\n*E\n*S KotlinDebug\n*F\n+ 1 KtUtil.kt\ncom/rigol/scope/utilities/KtUtilKt\n*L\n195#1:334\n195#1,2:335\n*E\n"
+    value = "SMAP\nKtUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 KtUtil.kt\ncom/rigol/scope/utilities/KtUtilKt\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,335:1\n734#2:336\n825#2,2:337\n*E\n*S KotlinDebug\n*F\n+ 1 KtUtil.kt\ncom/rigol/scope/utilities/KtUtilKt\n*L\n195#1:336\n195#1,2:337\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -15,7 +15,7 @@
         0x3
     }
     d1 = {
-        "\u0000Z\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0006\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\u001a\u001a\u0010\u0000\u001a\u00020\u00012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u00032\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u001a4\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u0002H\u00080\u0007\"\u0004\u0008\u0000\u0010\u00082\u000c\u0010\t\u001a\u0008\u0012\u0004\u0012\u0002H\u00080\u00072\u0012\u0010\n\u001a\u000e\u0012\u0004\u0012\u0002H\u0008\u0012\u0004\u0012\u00020\u00010\u000b\u001a\u001a\u0010\u000c\u001a\u00020\u00012\u0008\u0010\r\u001a\u0004\u0018\u00010\u000e2\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u001a\u0006\u0010\u000f\u001a\u00020\u0001\u001a\u000e\u0010\u0010\u001a\u00020\u00012\u0006\u0010\u0011\u001a\u00020\u0012\u001a\u000e\u0010\u0013\u001a\u00020\u00142\u0006\u0010\u0015\u001a\u00020\u0016\u001a\u0006\u0010\u0017\u001a\u00020\u0018\u001a\u0006\u0010\u0019\u001a\u00020\u0018\u001a\u000e\u0010\u001a\u001a\u00020\u00162\u0006\u0010\u0015\u001a\u00020\u0014\u001a\u000e\u0010\u001b\u001a\u00020\u00162\u0006\u0010\u0015\u001a\u00020\u0014\u001a\u001a\u0010\u001c\u001a\u00020\u00012\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u001e2\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u001a\"\u0010\u001f\u001a\u000e\u0012\u0004\u0012\u00020\u0001\u0012\u0004\u0012\u00020\u00120 2\u0006\u0010!\u001a\u00020\u00122\u0006\u0010\"\u001a\u00020\u0012\u001a\u001a\u0010#\u001a\u00020\u00012\u0008\u0010$\u001a\u0004\u0018\u00010%2\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u00a8\u0006&"
+        "\u0000^\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010 \n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0006\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\u001a)\u0010\u0000\u001a\u00020\u00012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u00032\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u00052\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0001\u00a2\u0006\u0002\u0010\u0007\u001a4\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u0002H\n0\t\"\u0004\u0008\u0000\u0010\n2\u000c\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u0002H\n0\t2\u0012\u0010\u000c\u001a\u000e\u0012\u0004\u0012\u0002H\n\u0012\u0004\u0012\u00020\u00010\r\u001a\u001a\u0010\u000e\u001a\u00020\u00012\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u00102\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u001a\u0006\u0010\u0011\u001a\u00020\u0001\u001a\u000e\u0010\u0012\u001a\u00020\u00012\u0006\u0010\u0013\u001a\u00020\u0014\u001a\u000e\u0010\u0015\u001a\u00020\u00162\u0006\u0010\u0017\u001a\u00020\u0018\u001a\u0006\u0010\u0019\u001a\u00020\u001a\u001a\u0006\u0010\u001b\u001a\u00020\u001a\u001a\u000e\u0010\u001c\u001a\u00020\u00182\u0006\u0010\u0017\u001a\u00020\u0016\u001a\u000e\u0010\u001d\u001a\u00020\u00182\u0006\u0010\u0017\u001a\u00020\u0016\u001a)\u0010\u001e\u001a\u00020\u00012\u0008\u0010\u001f\u001a\u0004\u0018\u00010 2\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u00052\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0001\u00a2\u0006\u0002\u0010!\u001a\"\u0010\"\u001a\u000e\u0012\u0004\u0012\u00020\u0001\u0012\u0004\u0012\u00020\u00140#2\u0006\u0010$\u001a\u00020\u00142\u0006\u0010%\u001a\u00020\u0014\u001a\u001a\u0010&\u001a\u00020\u00012\u0008\u0010\'\u001a\u0004\u0018\u00010(2\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u00a8\u0006)"
     }
     d2 = {
         "decodeBusTypeEnable",
@@ -24,6 +24,8 @@
         "Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;",
         "optionParam",
         "Lcom/rigol/scope/data/OptionParam;",
+        "isDHO800",
+        "(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z",
         "filter",
         "",
         "T",
@@ -49,6 +51,7 @@
         "triggerModeEnable",
         "triggerMode",
         "Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;",
+        "(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z",
         "trimByNth",
         "Lcom/rigol/scope/data/TwoTuple;",
         "num",
@@ -68,16 +71,16 @@
 
 
 # direct methods
-.method public static final decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;)Z
+.method public static final decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
     .locals 2
 
     const/4 v0, 0x1
 
-    if-eqz p1, :cond_1
+    if-eqz p1, :cond_2
 
-    if-eqz p0, :cond_0
+    if-eqz p0, :cond_1
 
-    .line 245
+    .line 246
     sget-object v1, Lcom/rigol/scope/utilities/KtUtilKt$WhenMappings;->$EnumSwitchMapping$2:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->ordinal()I
@@ -90,7 +93,7 @@
 
     goto :goto_0
 
-    .line 253
+    .line 254
     :pswitch_0
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AERO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -100,7 +103,7 @@
 
     goto :goto_0
 
-    .line 252
+    .line 253
     :pswitch_1
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUDIO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -110,7 +113,7 @@
 
     goto :goto_0
 
-    .line 251
+    .line 252
     :pswitch_2
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_FLEX:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -120,8 +123,33 @@
 
     goto :goto_0
 
-    .line 250
+    .line 251
     :pswitch_3
+    sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUTO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p0
+
+    if-nez p0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    .line 250
+    :pswitch_4
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUTO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -130,8 +158,8 @@
 
     goto :goto_0
 
-    .line 248
-    :pswitch_4
+    .line 249
+    :pswitch_5
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_EMBD:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -140,8 +168,8 @@
 
     goto :goto_0
 
-    .line 246
-    :pswitch_5
+    .line 247
+    :pswitch_6
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COMP:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -149,26 +177,25 @@
     move-result v0
 
     :goto_0
-    :pswitch_6
     return v0
 
-    :cond_0
+    :cond_1
     const/4 p0, 0x0
 
-    .line 243
+    .line 244
     check-cast p0, Ljava/lang/Void;
 
-    :cond_1
+    :cond_2
     return v0
 
     nop
 
     :pswitch_data_0
     .packed-switch 0x1
+        :pswitch_6
+        :pswitch_5
         :pswitch_5
         :pswitch_4
-        :pswitch_4
-        :pswitch_6
         :pswitch_3
         :pswitch_2
         :pswitch_1
@@ -205,14 +232,14 @@
     .line 195
     check-cast p0, Ljava/lang/Iterable;
 
-    .line 334
+    .line 336
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     check-cast v0, Ljava/util/Collection;
 
-    .line 335
+    .line 337
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -245,7 +272,7 @@
 
     goto :goto_0
 
-    .line 336
+    .line 338
     :cond_1
     check-cast v0, Ljava/util/List;
 
@@ -358,7 +385,7 @@
 .method public static final isOptAuto()Z
     .locals 2
 
-    .line 265
+    .line 266
     const-class v0, Lcom/rigol/scope/viewmodels/OptionViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -369,10 +396,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 268
+    .line 269
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/OptionViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 269
+    .line 270
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/OptionViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -385,7 +412,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 271
+    .line 272
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUTO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -434,7 +461,7 @@
 
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 312
+    .line 314
     :try_start_0
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -454,7 +481,7 @@
 .method public static final printStackTrace()V
     .locals 1
 
-    .line 332
+    .line 334
     new-instance v0, Ljava/lang/Exception;
 
     invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
@@ -1403,7 +1430,7 @@
 .method public static final toBinaryString(I)Ljava/lang/String;
     .locals 1
 
-    .line 307
+    .line 309
     invoke-static {p0}, Ljava/lang/Integer;->toBinaryString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -1418,7 +1445,7 @@
 .method public static final toHexString(I)Ljava/lang/String;
     .locals 1
 
-    .line 303
+    .line 305
     invoke-static {p0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -1430,16 +1457,16 @@
     return-object p0
 .end method
 
-.method public static final triggerModeEnable(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;)Z
+.method public static final triggerModeEnable(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
     .locals 2
 
     const/4 v0, 0x1
 
-    if-eqz p1, :cond_1
+    if-eqz p1, :cond_2
 
-    if-eqz p0, :cond_0
+    if-eqz p0, :cond_1
 
-    .line 286
+    .line 288
     sget-object v1, Lcom/rigol/scope/utilities/KtUtilKt$WhenMappings;->$EnumSwitchMapping$3:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->ordinal()I
@@ -1452,7 +1479,7 @@
 
     goto :goto_0
 
-    .line 294
+    .line 296
     :pswitch_0
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AERO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -1462,7 +1489,7 @@
 
     goto :goto_0
 
-    .line 293
+    .line 295
     :pswitch_1
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUDIO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -1472,7 +1499,7 @@
 
     goto :goto_0
 
-    .line 292
+    .line 294
     :pswitch_2
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_FLEX:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -1482,8 +1509,33 @@
 
     goto :goto_0
 
-    .line 291
+    .line 293
     :pswitch_3
+    sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUTO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p0
+
+    if-nez p0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    .line 292
+    :pswitch_4
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUTO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -1492,8 +1544,8 @@
 
     goto :goto_0
 
-    .line 289
-    :pswitch_4
+    .line 291
+    :pswitch_5
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_EMBD:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -1502,8 +1554,8 @@
 
     goto :goto_0
 
-    .line 287
-    :pswitch_5
+    .line 289
+    :pswitch_6
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COMP:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/OptionParam;->get(Lcom/rigol/scope/cil/ServiceEnum$OptType;)Z
@@ -1511,26 +1563,25 @@
     move-result v0
 
     :goto_0
-    :pswitch_6
     return v0
 
-    :cond_0
+    :cond_1
     const/4 p0, 0x0
 
-    .line 284
+    .line 286
     check-cast p0, Ljava/lang/Void;
 
-    :cond_1
+    :cond_2
     return v0
 
     nop
 
     :pswitch_data_0
     .packed-switch 0x1
+        :pswitch_6
+        :pswitch_5
         :pswitch_5
         :pswitch_4
-        :pswitch_4
-        :pswitch_6
         :pswitch_3
         :pswitch_2
         :pswitch_1
@@ -1550,19 +1601,19 @@
         }
     .end annotation
 
-    .line 323
+    .line 325
     invoke-static {p0, p1, p2, p3}, Lkotlin/math/MathKt;->log(DD)D
 
     move-result-wide v0
 
-    .line 324
+    .line 326
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/KtUtilKt;->needTrim(D)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 325
+    .line 327
     new-instance p2, Lcom/rigol/scope/data/TwoTuple;
 
     const/4 p3, 0x0
@@ -1579,7 +1630,7 @@
 
     goto :goto_0
 
-    .line 327
+    .line 329
     :cond_0
     new-instance p0, Lcom/rigol/scope/data/TwoTuple;
 

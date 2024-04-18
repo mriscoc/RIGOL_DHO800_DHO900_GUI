@@ -317,7 +317,7 @@
 .method public readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2902
+    const/16 v0, 0x2702
 
     .line 165
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterResultParam;->readInt(I)I

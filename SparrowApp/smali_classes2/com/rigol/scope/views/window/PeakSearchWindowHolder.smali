@@ -312,7 +312,7 @@
 
     move-result v1
 
-    const/16 v2, 0x315d
+    const/16 v2, 0x2f5d
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

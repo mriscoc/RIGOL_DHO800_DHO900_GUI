@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/SearchParam;)V
     .locals 0
 
-    .line 7693
+    .line 7702
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$701;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$701;->val$param:Lcom/rigol/scope/data/SearchParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 7696
+    .line 7705
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$701;->val$param:Lcom/rigol/scope/data/SearchParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/SearchParam;->readEdgeSrc()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/SearchParam;->readEdgeSlope()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7693
+    .line 7702
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$701;->onChanged(Ljava/lang/Boolean;)V

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 0
 
-    .line 7367
+    .line 7379
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$665;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$665;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -51,23 +51,23 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 7370
+    .line 7382
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$665;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorIndicator()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorThreshold()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 7371
+    .line 7383
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$665;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorThreshold(Z)V
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorIndicator(Z)V
 
-    .line 7372
+    .line 7384
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/baseview/OrientationView$Companion;->setShowThreshold(Z)V
@@ -79,7 +79,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7367
+    .line 7379
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$665;->onChanged(Ljava/lang/Boolean;)V

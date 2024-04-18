@@ -432,7 +432,7 @@
 
     const/16 v1, 0xc
 
-    const/16 v2, 0x4d46
+    const/16 v2, 0x4b46
 
     invoke-virtual {p0, v1, v2, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -441,7 +441,7 @@
 
     move-result-object p0
 
-    const/16 v0, 0x4d20
+    const/16 v0, 0x4b20
 
     const/4 v2, 0x0
 

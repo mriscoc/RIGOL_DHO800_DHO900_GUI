@@ -29,13 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
+.field final synthetic val$param:Lcom/rigol/scope/data/XYParam;
+
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/XYParam;)V
     .locals 0
 
-    .line 7889
+    .line 7896
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$717;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$717;->val$param:Lcom/rigol/scope/data/XYParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,18 +49,12 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 3
+    .locals 0
 
-    .line 7892
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+    .line 7899
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$717;->val$param:Lcom/rigol/scope/data/XYParam;
 
-    move-result-object v0
-
-    const/16 v1, 0x28
-
-    const/16 v2, 0x3b18
-
-    invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(IILjava/lang/Object;)V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/XYParam;->getGrids()Lcom/rigol/scope/data/BaseProperty;
 
     return-void
 .end method
@@ -64,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7889
+    .line 7896
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$717;->onChanged(Ljava/lang/Boolean;)V

@@ -340,7 +340,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/MathFunAdapter;->serviceId:I
 
-    const/16 v1, 0x3128
+    const/16 v1, 0x2f28
 
     const/4 v2, 0x1
 

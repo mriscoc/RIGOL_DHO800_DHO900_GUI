@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 0
 
-    .line 2709
+    .line 2719
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$213;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$213;->val$param:Lcom/rigol/scope/data/TriggerParam;
@@ -49,20 +49,45 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+    .locals 1
 
-    .line 2712
+    .line 2722
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$213;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readEdgeCoupling()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readEdgeSource()I
 
+    move-result p1
+
+    .line 2724
+    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    move-result-object p1
+
+    .line 2726
+    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$213;->val$param:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+
+    .line 2727
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    if-ne p1, v0, :cond_0
+
+    .line 2728
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$213;->val$param:Lcom/rigol/scope/data/TriggerParam;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/TriggerParam;->saveNoise(Z)V
+
+    :cond_0
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2709
+    .line 2719
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$213;->onChanged(Ljava/lang/Boolean;)V

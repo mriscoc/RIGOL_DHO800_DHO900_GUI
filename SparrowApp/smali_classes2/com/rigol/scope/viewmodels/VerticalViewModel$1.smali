@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x900
+    const/16 v2, 0x700
 
     invoke-virtual {v1, p1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 

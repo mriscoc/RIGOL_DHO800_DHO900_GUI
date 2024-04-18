@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
     .locals 0
 
-    .line 6590
+    .line 6599
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$583;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$583;->val$param:Lcom/rigol/scope/data/NavigateParam;
@@ -49,12 +49,43 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Object;)V
-    .locals 0
+    .locals 1
 
-    .line 6593
+    .line 6602
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$583;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readDisPlayMode()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readNavEnable()Z
 
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 6603
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object p1
+
+    const-class v0, Lcom/rigol/scope/views/navigate/NavigatePopupView;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->get(Ljava/lang/Class;)Lcom/rigol/scope/views/baseview/BasePopupView;
+
+    move-result-object p1
+
+    .line 6604
+    invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
+
+    goto :goto_0
+
+    .line 6606
+    :cond_0
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object p1
+
+    const-class v0, Lcom/rigol/scope/views/navigate/NavigatePopupView;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
+
+    :goto_0
     return-void
 .end method

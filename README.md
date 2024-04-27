@@ -4,6 +4,13 @@ Sparrow Android GUI project for Rigol DHO800 and DHO900 series Oscilloscopes
 ## Extended GUI
 ![new_header](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/assets/2745567/ea27fbf6-074f-4dd4-b22d-3fb7f6a9bee2)
 
+
+## FFT Avg
+Tnstallable APK for the FFTAvg utility which allows to get a better FFT plot with configurable frame average and peak detection.
+
+![](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/blob/master/img/fftavg.gif?raw=true)
+
+
 ## Donations
 Thank you for your support, I receive donations through [Patreon](https://www.patreon.com/mriscoc) and [Paypal](https://www.paypal.com/donate/?business=85SPAAR6UZEE8)   
 

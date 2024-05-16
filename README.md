@@ -5,7 +5,7 @@ Sparrow Android GUI project for Rigol DHO800 and DHO900 series Oscilloscopes
 
 Latest version can be found at: https://www.patreon.com/mriscoc/shop/rigol-dho800-900-sparrow-extended-gui-v0-204640
 
-![Sparrow_Extended_v0 2 2](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/assets/2745567/cb60ecb5-f0c0-4b04-b828-bfd3b1a65d02)
+https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/assets/2745567/0a0c265d-227d-4bdb-8d57-0fc6eb009ae3
 
 For install this APK first make a backup of the original Sparrow application, then remove it. Install it using ADB:
 ```shell

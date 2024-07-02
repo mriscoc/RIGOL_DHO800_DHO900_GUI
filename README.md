@@ -7,7 +7,7 @@ Latest version can be found at: https://www.patreon.com/mriscoc/shop/rigol-dho80
 
 https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/assets/2745567/0a0c265d-227d-4bdb-8d57-0fc6eb009ae3
 
-For install this APK first make a backup of the original Sparrow application, then remove it. Install it using ADB:
+First make a backup of the original internal µSD card just in case then uninstall/remove the stock Sparrow application, Install the new apk using ADB:
 ```shell
 adb install -g -r "Sparrow.apk"
 ```

@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 5
 
-    .line 1444
+    .line 1455
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getSharedParam()Lcom/rigol/scope/data/SharedParam;
@@ -93,13 +93,13 @@
 
     goto/16 :goto_5
 
-    .line 1447
+    .line 1458
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->hideABxyIndicator()V
 
-    .line 1448
+    .line 1459
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getSharedParam()Lcom/rigol/scope/data/SharedParam;
@@ -142,7 +142,7 @@
 
     goto/16 :goto_5
 
-    .line 1452
+    .line 1463
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -172,7 +172,7 @@
 
     if-eqz p1, :cond_14
 
-    .line 1454
+    .line 1465
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v0
@@ -181,7 +181,7 @@
 
     return-void
 
-    .line 1460
+    .line 1471
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -193,7 +193,7 @@
 
     return-void
 
-    .line 1464
+    .line 1475
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -203,7 +203,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 1465
+    .line 1476
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorIndicator()Z
 
     move-result v0
@@ -212,7 +212,7 @@
 
     return-void
 
-    .line 1471
+    .line 1482
     :cond_4
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -228,10 +228,10 @@
 
     const/4 v1, 0x0
 
-    .line 1479
+    .line 1490
     check-cast v1, [[Ljava/lang/String;
 
-    .line 1482
+    .line 1493
     :try_start_0
     const-class v2, [[Ljava/lang/String;
 
@@ -252,7 +252,7 @@
     :catch_0
     move-exception v0
 
-    .line 1484
+    .line 1495
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -260,7 +260,7 @@
 
     return-void
 
-    .line 1491
+    .line 1502
     :cond_5
     move-object v0, v1
 
@@ -286,7 +286,7 @@
 
     return-void
 
-    .line 1495
+    .line 1506
     :cond_7
     array-length v0, v0
 
@@ -294,7 +294,7 @@
 
     return-void
 
-    .line 1499
+    .line 1510
     :cond_8
     aget-object v0, v1, v4
 
@@ -302,7 +302,7 @@
 
     return-void
 
-    .line 1503
+    .line 1514
     :cond_9
     aget-object v0, v1, v4
 
@@ -322,7 +322,7 @@
 
     return-void
 
-    .line 1508
+    .line 1519
     :cond_b
     aget-object v0, v1, v4
 
@@ -336,7 +336,7 @@
 
     return-void
 
-    .line 1513
+    .line 1524
     :cond_c
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -352,7 +352,7 @@
 
     if-le v0, v2, :cond_11
 
-    .line 1515
+    .line 1526
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -383,7 +383,7 @@
 
     goto/16 :goto_3
 
-    .line 1530
+    .line 1541
     :cond_d
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -399,7 +399,7 @@
 
     if-ne v0, v2, :cond_14
 
-    .line 1532
+    .line 1543
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -424,7 +424,7 @@
 
     if-gt v0, v2, :cond_e
 
-    .line 1534
+    .line 1545
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -451,12 +451,12 @@
 
     if-ne v0, v2, :cond_e
 
-    .line 1536
+    .line 1547
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0, p1, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$showAxyIndicator(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
 
-    .line 1541
+    .line 1552
     :cond_e
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -482,7 +482,7 @@
 
     if-gt v0, v2, :cond_14
 
-    .line 1543
+    .line 1554
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -509,14 +509,14 @@
 
     if-ne v0, v2, :cond_14
 
-    .line 1545
+    .line 1556
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0, p1, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$showBxyIndicator(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
 
     goto/16 :goto_5
 
-    .line 1518
+    .line 1529
     :cond_f
     :goto_3
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -543,12 +543,12 @@
 
     if-gt v0, v2, :cond_10
 
-    .line 1521
+    .line 1532
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0, p1, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$showAxyIndicator(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
 
-    .line 1525
+    .line 1536
     :cond_10
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -574,14 +574,14 @@
 
     if-gt v0, v2, :cond_14
 
-    .line 1528
+    .line 1539
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0, p1, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$showBxyIndicator(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
 
     goto/16 :goto_5
 
-    .line 1553
+    .line 1564
     :cond_11
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -613,7 +613,7 @@
 
     goto :goto_4
 
-    .line 1561
+    .line 1572
     :cond_12
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -629,7 +629,7 @@
 
     if-ne v0, v2, :cond_14
 
-    .line 1563
+    .line 1574
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -654,7 +654,7 @@
 
     if-gt v0, v2, :cond_14
 
-    .line 1565
+    .line 1576
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -681,14 +681,14 @@
 
     if-ne v0, v2, :cond_14
 
-    .line 1567
+    .line 1578
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0, p1, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$showABxyIndicator(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
 
     goto :goto_5
 
-    .line 1556
+    .line 1567
     :cond_13
     :goto_4
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -715,7 +715,7 @@
 
     if-gt v0, v2, :cond_14
 
-    .line 1559
+    .line 1570
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0, p1, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$showABxyIndicator(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V

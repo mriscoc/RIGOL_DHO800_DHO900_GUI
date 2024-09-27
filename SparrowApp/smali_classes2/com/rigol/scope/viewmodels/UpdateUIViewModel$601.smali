@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/WaveRecordParam;)V
     .locals 0
 
-    .line 6781
+    .line 6918
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$601;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$601;->val$param:Lcom/rigol/scope/data/WaveRecordParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6784
+    .line 6921
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$601;->val$param:Lcom/rigol/scope/data/WaveRecordParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/WaveRecordParam;->readRecordStartFrame()I
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6781
+    .line 6918
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$601;->onChanged(Ljava/lang/Boolean;)V

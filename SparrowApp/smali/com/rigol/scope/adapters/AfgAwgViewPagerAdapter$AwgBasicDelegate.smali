@@ -1626,15 +1626,15 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00dd -> :sswitch_9
-        0x7f0a05bb -> :sswitch_8
-        0x7f0a06f0 -> :sswitch_7
-        0x7f0a06f2 -> :sswitch_6
-        0x7f0a0754 -> :sswitch_5
-        0x7f0a0756 -> :sswitch_4
-        0x7f0a0823 -> :sswitch_3
-        0x7f0a0afd -> :sswitch_2
-        0x7f0a0aff -> :sswitch_1
-        0x7f0a0b01 -> :sswitch_0
+        0x7f0a05c4 -> :sswitch_8
+        0x7f0a06fd -> :sswitch_7
+        0x7f0a06ff -> :sswitch_6
+        0x7f0a0761 -> :sswitch_5
+        0x7f0a0763 -> :sswitch_4
+        0x7f0a083e -> :sswitch_3
+        0x7f0a0b1a -> :sswitch_2
+        0x7f0a0b1c -> :sswitch_1
+        0x7f0a0b1e -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1769,11 +1769,11 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00dd -> :sswitch_5
-        0x7f0a05bb -> :sswitch_4
-        0x7f0a06f0 -> :sswitch_3
-        0x7f0a06f2 -> :sswitch_2
-        0x7f0a0754 -> :sswitch_1
-        0x7f0a0756 -> :sswitch_0
+        0x7f0a05c4 -> :sswitch_4
+        0x7f0a06fd -> :sswitch_3
+        0x7f0a06ff -> :sswitch_2
+        0x7f0a0761 -> :sswitch_1
+        0x7f0a0763 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1980,11 +1980,11 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00dd -> :sswitch_5
-        0x7f0a05bb -> :sswitch_4
-        0x7f0a06f0 -> :sswitch_3
-        0x7f0a06f2 -> :sswitch_2
-        0x7f0a0754 -> :sswitch_1
-        0x7f0a0756 -> :sswitch_0
+        0x7f0a05c4 -> :sswitch_4
+        0x7f0a06fd -> :sswitch_3
+        0x7f0a06ff -> :sswitch_2
+        0x7f0a0761 -> :sswitch_1
+        0x7f0a0763 -> :sswitch_0
     .end sparse-switch
 .end method
 

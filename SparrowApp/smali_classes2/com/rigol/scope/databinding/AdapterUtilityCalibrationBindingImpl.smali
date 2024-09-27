@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0699
+    const v1, 0x7f0a06a4
 
     const/4 v2, 0x3
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a069a
+    const v1, 0x7f0a06a5
 
     const/4 v2, 0x4
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a050b
+    const v1, 0x7f0a0513
 
     const/4 v2, 0x5
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0388
+    const v1, 0x7f0a038d
 
     const/4 v2, 0x6
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0838
+    const v1, 0x7f0a0853
 
     const/4 v2, 0x7
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01a6
+    const v1, 0x7f0a01a9
 
     const/16 v2, 0x8
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01a5
+    const v1, 0x7f0a01a8
 
     const/16 v2, 0x9
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01a2
+    const v1, 0x7f0a01a5
 
     const/16 v2, 0xa
 
@@ -289,7 +289,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x29e
+    const/16 v0, 0x2a3
 
     if-ne p2, v0, :cond_1
 
@@ -555,7 +555,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 95
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;->notifyPropertyChanged(I)V
@@ -580,7 +580,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

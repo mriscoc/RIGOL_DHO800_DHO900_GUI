@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 3
 
-    .line 386
+    .line 398
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam$cursorA$1;->this$0:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;

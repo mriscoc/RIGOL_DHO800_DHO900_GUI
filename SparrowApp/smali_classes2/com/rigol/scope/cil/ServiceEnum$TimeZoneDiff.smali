@@ -42,7 +42,7 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 8195
+    .line 8197
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
 
     const-string v1, "ZONE_DIFF"
@@ -71,7 +71,7 @@
 
     aput-object v7, v0, v1
 
-    .line 8193
+    .line 8195
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
 
     return-void
@@ -89,19 +89,19 @@
         }
     .end annotation
 
-    .line 8198
+    .line 8200
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8199
+    .line 8201
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->value1:I
 
-    .line 8200
+    .line 8202
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->value2:Ljava/lang/String;
 
-    .line 8201
+    .line 8203
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->pic1:Ljava/lang/String;
 
-    .line 8202
+    .line 8204
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->pic2:Ljava/lang/String;
 
     return-void
@@ -110,7 +110,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
     .locals 1
 
-    .line 8193
+    .line 8195
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -125,7 +125,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
     .locals 1
 
-    .line 8193
+    .line 8195
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->clone()Ljava/lang/Object;

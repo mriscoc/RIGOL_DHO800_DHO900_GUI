@@ -64,7 +64,7 @@
     .line 1898
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/TriggerPointTag;->setReverse(Z)V
 
-    const p1, 0x7f101984
+    const p1, 0x7f1019a1
 
     .line 1901
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;

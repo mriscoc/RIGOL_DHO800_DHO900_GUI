@@ -468,7 +468,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->context:Landroid/content/Context;
 
-    const v2, 0x7f0805d4
+    const v2, 0x7f0805d6
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -651,7 +651,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a080a
+    const v1, 0x7f0a081c
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1255,17 +1255,17 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 1
 
-    const p1, 0x7f0a041f
+    const p1, 0x7f0a0424
 
     if-eq p2, p1, :cond_2
 
-    const p1, 0x7f0a049a
+    const p1, 0x7f0a049f
 
     const/4 v0, 0x0
 
     if-eq p2, p1, :cond_1
 
-    const p1, 0x7f0a08dd
+    const p1, 0x7f0a08f8
 
     if-eq p2, p1, :cond_0
 
@@ -1355,7 +1355,7 @@
 
     const v1, 0x7f030180
 
-    const v2, 0x7f0a082d
+    const v2, 0x7f0a0848
 
     if-ne v0, v2, :cond_0
 
@@ -1380,7 +1380,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v2, 0x7f0a0a5e
+    const v2, 0x7f0a0a79
 
     if-ne v0, v2, :cond_1
 
@@ -1407,7 +1407,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v2, 0x7f0a049b
+    const v2, 0x7f0a04a0
 
     if-ne v0, v2, :cond_2
 
@@ -1432,7 +1432,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const v1, 0x7f0a0aeb
+    const v1, 0x7f0a0b08
 
     if-ne v0, v1, :cond_3
 
@@ -1459,7 +1459,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const v1, 0x7f0a080a
+    const v1, 0x7f0a081c
 
     const/4 v2, 0x2
 
@@ -1550,7 +1550,7 @@
     goto/16 :goto_1
 
     :cond_5
-    const v1, 0x7f0a07e6
+    const v1, 0x7f0a07f6
 
     if-ne v0, v1, :cond_6
 
@@ -1566,7 +1566,7 @@
     goto/16 :goto_1
 
     :cond_6
-    const v1, 0x7f0a075e
+    const v1, 0x7f0a076b
 
     const/4 v3, 0x0
 
@@ -1630,7 +1630,7 @@
     goto/16 :goto_1
 
     :cond_9
-    const v1, 0x7f0a06fb
+    const v1, 0x7f0a0708
 
     if-ne v0, v1, :cond_c
 
@@ -1690,7 +1690,7 @@
     goto/16 :goto_1
 
     :cond_c
-    const v1, 0x7f0a06fa
+    const v1, 0x7f0a0707
 
     if-ne v0, v1, :cond_10
 
@@ -1729,7 +1729,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->context:Landroid/content/Context;
 
-    const v1, 0x7f0805d6
+    const v1, 0x7f0805d8
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1788,7 +1788,7 @@
     goto/16 :goto_1
 
     :cond_10
-    const v1, 0x7f0a06fc
+    const v1, 0x7f0a0709
 
     if-ne v0, v1, :cond_13
 
@@ -1848,7 +1848,7 @@
     goto/16 :goto_1
 
     :cond_13
-    const v1, 0x7f0a075d
+    const v1, 0x7f0a076a
 
     if-ne v0, v1, :cond_16
 
@@ -1908,7 +1908,7 @@
     goto/16 :goto_1
 
     :cond_16
-    const v1, 0x7f0a0839
+    const v1, 0x7f0a0854
 
     if-ne v0, v1, :cond_17
 
@@ -1980,7 +1980,7 @@
     goto :goto_1
 
     :cond_17
-    const v1, 0x7f0a049d
+    const v1, 0x7f0a04a2
 
     if-ne v0, v1, :cond_18
 
@@ -2112,7 +2112,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x39e
+    const/16 v1, 0x3a7
 
     .line 594
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -2120,21 +2120,21 @@
     .line 595
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v1, 0x320
+    const/16 v1, 0x325
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
 
     .line 596
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v1, 0x157
+    const/16 v1, 0x15b
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
 
     .line 597
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v1, 0x158
+    const/16 v1, 0x15c
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
 
@@ -2167,11 +2167,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a049d
+    const v0, 0x7f0a04a2
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a0839
+    const v0, 0x7f0a0854
 
     if-eq p1, v0, :cond_1
 
@@ -2389,11 +2389,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a049d
+    const v0, 0x7f0a04a2
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a0839
+    const v0, 0x7f0a0854
 
     if-eq p2, v0, :cond_1
 

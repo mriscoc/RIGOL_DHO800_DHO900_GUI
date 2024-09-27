@@ -72,7 +72,7 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 696
+    .line 707
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1

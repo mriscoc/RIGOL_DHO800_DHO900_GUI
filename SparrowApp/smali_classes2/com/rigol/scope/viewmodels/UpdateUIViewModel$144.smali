@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MaskParam;)V
     .locals 0
 
-    .line 1995
+    .line 2078
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$144;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$144;->val$param:Lcom/rigol/scope/data/MaskParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1998
+    .line 2081
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$144;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskParam;->readAuxOut()V
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1995
+    .line 2078
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$144;->onChanged(Ljava/lang/Boolean;)V

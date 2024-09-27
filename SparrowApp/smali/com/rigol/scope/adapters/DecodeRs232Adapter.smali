@@ -393,13 +393,13 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a02f3 -> :sswitch_6
-        0x7f0a02fa -> :sswitch_5
-        0x7f0a02fc -> :sswitch_4
-        0x7f0a0300 -> :sswitch_3
-        0x7f0a0302 -> :sswitch_2
-        0x7f0a0304 -> :sswitch_1
-        0x7f0a0306 -> :sswitch_0
+        0x7f0a02f7 -> :sswitch_6
+        0x7f0a02fe -> :sswitch_5
+        0x7f0a0300 -> :sswitch_4
+        0x7f0a0304 -> :sswitch_3
+        0x7f0a0306 -> :sswitch_2
+        0x7f0a0308 -> :sswitch_1
+        0x7f0a030a -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1366,7 +1366,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a02f8
+    const v0, 0x7f0a02fc
 
     if-ne p1, v0, :cond_1
 
@@ -1397,7 +1397,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a02f4
+    const p1, 0x7f0a02f8
 
     if-ne p2, p1, :cond_1
 
@@ -1411,7 +1411,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a02f6
+    const p1, 0x7f0a02fa
 
     if-ne p2, p1, :cond_2
 
@@ -1435,7 +1435,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0304
+    const v1, 0x7f0a0308
 
     if-ne v0, v1, :cond_0
 
@@ -1466,7 +1466,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0a0300
+    const v1, 0x7f0a0304
 
     if-ne v0, v1, :cond_1
 
@@ -1497,7 +1497,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v1, 0x7f0a02f1
+    const v1, 0x7f0a02f5
 
     if-ne v0, v1, :cond_2
 
@@ -1524,7 +1524,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0a0306
+    const v1, 0x7f0a030a
 
     if-ne v0, v1, :cond_3
 
@@ -1551,7 +1551,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v1, 0x7f0a02fc
+    const v1, 0x7f0a0300
 
     if-ne v0, v1, :cond_4
 
@@ -1578,7 +1578,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v1, 0x7f0a0302
+    const v1, 0x7f0a0306
 
     if-ne v0, v1, :cond_5
 
@@ -1605,7 +1605,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v1, 0x7f0a02f3
+    const v1, 0x7f0a02f7
 
     if-ne v0, v1, :cond_6
 
@@ -1632,7 +1632,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v1, 0x7f0a02fa
+    const v1, 0x7f0a02fe
 
     if-ne v0, v1, :cond_7
 
@@ -1659,7 +1659,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const v1, 0x7f0a0308
+    const v1, 0x7f0a030c
 
     if-ne v0, v1, :cond_8
 
@@ -1743,7 +1743,7 @@
     goto :goto_0
 
     :cond_8
-    const v1, 0x7f0a0346
+    const v1, 0x7f0a034a
 
     if-ne v0, v1, :cond_9
 
@@ -1882,7 +1882,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0a02f1
+    const v3, 0x7f0a02f5
 
     if-ne v1, v3, :cond_0
 
@@ -1991,11 +1991,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0308
+    const v0, 0x7f0a030c
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a0346
+    const v0, 0x7f0a034a
 
     if-eq p1, v0, :cond_1
 
@@ -2088,13 +2088,13 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0308
+    const v0, 0x7f0a030c
 
     const/16 v1, 0x8
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a0346
+    const v0, 0x7f0a034a
 
     if-eq p2, v0, :cond_1
 

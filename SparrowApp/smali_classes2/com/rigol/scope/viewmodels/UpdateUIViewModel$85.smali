@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1466
+    .line 1549
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$85;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$85;->val$param:Lcom/rigol/scope/data/MathParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 3
 
-    .line 1469
+    .line 1552
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$85;->val$param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->readThresholdCH4()J
 
-    .line 1470
+    .line 1553
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -75,7 +75,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$85;->val$param:Lcom/rigol/scope/data/MathParam;
 
-    .line 1471
+    .line 1554
     invoke-virtual {v1}, Lcom/rigol/scope/data/MathParam;->getThresholdCH4()J
 
     move-result-wide v1
@@ -84,7 +84,7 @@
 
     move-result-object v1
 
-    .line 1470
+    .line 1553
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -93,7 +93,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1466
+    .line 1549
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$85;->onChanged(Ljava/lang/Boolean;)V

@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/measure/MeasurePopupView;)V
     .locals 0
 
-    .line 91
+    .line 96
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView$1;->this$0:Lcom/rigol/scope/views/measure/MeasurePopupView;
 
     invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V
@@ -35,10 +35,10 @@
 .method public onPageSelected(I)V
     .locals 4
 
-    .line 94
+    .line 99
     invoke-super {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;->onPageSelected(I)V
 
-    .line 97
+    .line 102
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView$1;->this$0:Lcom/rigol/scope/views/measure/MeasurePopupView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->access$000(Lcom/rigol/scope/views/measure/MeasurePopupView;)Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
@@ -55,7 +55,7 @@
 
     check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 98
+    .line 103
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -64,15 +64,15 @@
 
     move-result-object v0
 
-    .line 99
+    .line 104
     instance-of v2, v0, Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz v2, :cond_1
 
-    .line 100
+    .line 105
     check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 101
+    .line 106
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object v0
@@ -81,7 +81,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 104
+    .line 109
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->getItems()Ljava/util/List;
 
     move-result-object v2
@@ -90,12 +90,12 @@
 
     move-result-object v2
 
-    .line 105
+    .line 110
     instance-of v3, v2, Lcom/rigol/scope/data/MappingObject;
 
     if-eqz v3, :cond_0
 
-    .line 107
+    .line 112
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView$1;->this$0:Lcom/rigol/scope/views/measure/MeasurePopupView;
 
     invoke-static {v3}, Lcom/rigol/scope/views/measure/MeasurePopupView;->access$100(Lcom/rigol/scope/views/measure/MeasurePopupView;)Landroidx/databinding/ObservableInt;
@@ -110,22 +110,22 @@
 
     invoke-virtual {v3, v2}, Landroidx/databinding/ObservableInt;->set(I)V
 
-    .line 111
+    .line 116
     :cond_0
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->getCurrentItem()I
 
     move-result v2
 
-    .line 112
+    .line 117
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->setCurrentItem(I)V
 
-    .line 113
+    .line 118
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->notifyItemChanged(I)V
 
-    .line 114
+    .line 119
     invoke-virtual {v0, v2}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->notifyItemChanged(I)V
 
-    .line 119
+    .line 124
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView$1;->this$0:Lcom/rigol/scope/views/measure/MeasurePopupView;
 

@@ -13,8 +13,6 @@
 
 
 # instance fields
-.field private final mCallback50:Landroid/view/View$OnClickListener;
-
 .field private final mCallback51:Landroid/view/View$OnClickListener;
 
 .field private final mCallback52:Landroid/view/View$OnClickListener;
@@ -22,6 +20,8 @@
 .field private final mCallback53:Landroid/view/View$OnClickListener;
 
 .field private final mCallback54:Landroid/view/View$OnClickListener;
+
+.field private final mCallback55:Landroid/view/View$OnClickListener;
 
 .field private mDirtyFlags:J
 
@@ -39,7 +39,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a61
+    const v1, 0x7f0a0a7c
 
     const/16 v2, 0xc
 
@@ -49,7 +49,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a62
+    const v1, 0x7f0a0a7d
 
     const/16 v2, 0xd
 
@@ -58,7 +58,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a66
+    const v1, 0x7f0a0a81
 
     const/16 v2, 0xe
 
@@ -67,7 +67,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a67
+    const v1, 0x7f0a0a82
 
     const/16 v2, 0xf
 
@@ -76,7 +76,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0389
+    const v1, 0x7f0a038e
 
     const/16 v2, 0x10
 
@@ -308,20 +308,20 @@
     .line 78
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x3
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback52:Landroid/view/View$OnClickListener;
-
-    .line 79
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
     const/4 v1, 0x5
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback54:Landroid/view/View$OnClickListener;
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback55:Landroid/view/View$OnClickListener;
+
+    .line 79
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback52:Landroid/view/View$OnClickListener;
 
     .line 80
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
@@ -330,21 +330,21 @@
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback53:Landroid/view/View$OnClickListener;
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback54:Landroid/view/View$OnClickListener;
 
     .line 81
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x1
+    const/4 v1, 0x3
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback50:Landroid/view/View$OnClickListener;
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback53:Landroid/view/View$OnClickListener;
 
     .line 82
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x2
+    const/4 v1, 0x1
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -711,7 +711,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -783,7 +783,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -855,7 +855,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -927,7 +927,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -999,7 +999,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3c7
+    const/16 v0, 0x3d0
 
     if-ne p2, v0, :cond_1
 
@@ -1031,7 +1031,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x322
+    const/16 v0, 0x328
 
     if-ne p2, v0, :cond_2
 
@@ -1063,7 +1063,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x350
+    const/16 v0, 0x359
 
     if-ne p2, v0, :cond_3
 
@@ -1095,7 +1095,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x351
+    const/16 v0, 0x35a
 
     if-ne p2, v0, :cond_4
 
@@ -1127,7 +1127,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x352
+    const/16 v0, 0x35b
 
     if-ne p2, v0, :cond_5
 
@@ -1193,7 +1193,7 @@
 
     goto :goto_0
 
-    .line 1012
+    .line 994
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1204,7 +1204,7 @@
     :cond_1
     if-eqz v0, :cond_a
 
-    .line 1023
+    .line 1005
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_0
@@ -1225,7 +1225,7 @@
 
     goto :goto_0
 
-    .line 994
+    .line 1048
     :cond_4
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1236,12 +1236,12 @@
     :cond_5
     if-eqz v0, :cond_a
 
-    .line 1005
+    .line 1059
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 1066
+    .line 1012
     :cond_6
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1252,12 +1252,12 @@
     :cond_7
     if-eqz v0, :cond_a
 
-    .line 1077
+    .line 1023
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 1048
+    .line 1066
     :cond_8
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1268,7 +1268,7 @@
     :cond_9
     if-eqz v0, :cond_a
 
-    .line 1059
+    .line 1077
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     :cond_a
@@ -1710,7 +1710,7 @@
 
     move-wide/from16 v42, v2
 
-    const v2, 0x7f10130a
+    const v2, 0x7f10131b
 
     invoke-virtual {v14, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1727,7 +1727,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f100c18
+    const v3, 0x7f100c1b
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1743,12 +1743,12 @@
 
     if-eqz v5, :cond_16
 
-    const v14, 0x7f10130b
+    const v14, 0x7f10131c
 
     goto :goto_12
 
     :cond_16
-    const v14, 0x7f100c19
+    const v14, 0x7f100c1c
 
     :goto_12
     invoke-virtual {v3, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1764,7 +1764,7 @@
 
     move-result-object v5
 
-    const v14, 0x7f101309
+    const v14, 0x7f10131a
 
     goto :goto_13
 
@@ -1775,7 +1775,7 @@
 
     move-result-object v5
 
-    const v14, 0x7f100c17
+    const v14, 0x7f100c1a
 
     :goto_13
     invoke-virtual {v5, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2607,35 +2607,35 @@
 
     move/from16 v32, v7
 
-    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback50:Landroid/view/View$OnClickListener;
+    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback51:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v4, v7}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 878
     iget-object v4, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->holder2Spinner:Landroid/widget/TextView;
 
-    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback51:Landroid/view/View$OnClickListener;
+    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback52:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v4, v7}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 879
     iget-object v4, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->holder3Spinner:Landroid/widget/TextView;
 
-    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback52:Landroid/view/View$OnClickListener;
+    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback53:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v4, v7}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 880
     iget-object v4, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->holder4Spinner:Landroid/widget/TextView;
 
-    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback53:Landroid/view/View$OnClickListener;
+    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback54:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v4, v7}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 881
     iget-object v4, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->okButton:Landroid/widget/Button;
 
-    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback54:Landroid/view/View$OnClickListener;
+    iget-object v7, v1, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->mCallback55:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v4, v7}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -3250,7 +3250,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x232
+    const/16 p1, 0x236
 
     .line 167
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3296,7 +3296,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 175
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3347,7 +3347,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x33a
+    const/16 p1, 0x342
 
     .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3398,7 +3398,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x33b
+    const/16 p1, 0x343
 
     .line 229
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3449,7 +3449,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x33c
+    const/16 p1, 0x344
 
     .line 149
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3500,7 +3500,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x340
+    const/16 p1, 0x348
 
     .line 202
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3551,7 +3551,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x356
+    const/16 p1, 0x35f
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3602,7 +3602,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3c8
+    const/16 p1, 0x3d1
 
     .line 193
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3653,7 +3653,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3cd
+    const/16 p1, 0x3d6
 
     .line 211
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V
@@ -3678,7 +3678,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x33c
+    const/16 v0, 0x344
 
     if-ne v0, p1, :cond_0
 
@@ -3690,7 +3690,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x356
+    const/16 v0, 0x35f
 
     if-ne v0, p1, :cond_1
 
@@ -3702,7 +3702,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x232
+    const/16 v0, 0x236
 
     if-ne v0, p1, :cond_2
 
@@ -3714,7 +3714,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_3
 
@@ -3726,7 +3726,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x429
+    const/16 v0, 0x433
 
     if-ne v0, p1, :cond_4
 
@@ -3738,7 +3738,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x3c8
+    const/16 v0, 0x3d1
 
     if-ne v0, p1, :cond_5
 
@@ -3750,7 +3750,7 @@
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0x340
+    const/16 v0, 0x348
 
     if-ne v0, p1, :cond_6
 
@@ -3762,7 +3762,7 @@
     goto :goto_0
 
     :cond_6
-    const/16 v0, 0x3cd
+    const/16 v0, 0x3d6
 
     if-ne v0, p1, :cond_7
 
@@ -3774,7 +3774,7 @@
     goto :goto_0
 
     :cond_7
-    const/16 v0, 0x33a
+    const/16 v0, 0x342
 
     if-ne v0, p1, :cond_8
 
@@ -3786,7 +3786,7 @@
     goto :goto_0
 
     :cond_8
-    const/16 v0, 0x33b
+    const/16 v0, 0x343
 
     if-ne v0, p1, :cond_9
 
@@ -3836,7 +3836,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x429
+    const/16 p1, 0x433
 
     .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;->notifyPropertyChanged(I)V

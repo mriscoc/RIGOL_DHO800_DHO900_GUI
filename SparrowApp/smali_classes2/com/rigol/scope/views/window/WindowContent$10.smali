@@ -74,7 +74,7 @@
 .method public final onChanged(Lcom/rigol/scope/views/histogram/HistogramResultParam;)V
     .locals 2
 
-    .line 667
+    .line 678
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -95,7 +95,7 @@
 
     invoke-static {v0, v1}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 668
+    .line 679
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$10;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->setHistogramParam(Lcom/rigol/scope/views/histogram/HistogramResultParam;)V

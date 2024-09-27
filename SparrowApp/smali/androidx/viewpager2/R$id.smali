@@ -94,61 +94,61 @@
 
 .field public static final blocking:I = 0x7f0a00fa
 
-.field public static final chronometer:I = 0x7f0a01eb
+.field public static final chronometer:I = 0x7f0a01ee
 
-.field public static final dialog_button:I = 0x7f0a0371
+.field public static final dialog_button:I = 0x7f0a0375
 
-.field public static final forever:I = 0x7f0a0492
+.field public static final forever:I = 0x7f0a0497
 
-.field public static final icon:I = 0x7f0a0505
+.field public static final icon:I = 0x7f0a050a
 
-.field public static final icon_group:I = 0x7f0a0507
+.field public static final icon_group:I = 0x7f0a050c
 
-.field public static final info:I = 0x7f0a052b
+.field public static final info:I = 0x7f0a0534
 
-.field public static final italic:I = 0x7f0a053d
+.field public static final italic:I = 0x7f0a0546
 
-.field public static final item_touch_helper_previous_elevation:I = 0x7f0a0541
+.field public static final item_touch_helper_previous_elevation:I = 0x7f0a054a
 
-.field public static final line1:I = 0x7f0a05ec
+.field public static final line1:I = 0x7f0a05f5
 
-.field public static final line3:I = 0x7f0a05ed
+.field public static final line3:I = 0x7f0a05f6
 
-.field public static final normal:I = 0x7f0a068f
+.field public static final normal:I = 0x7f0a069a
 
-.field public static final notification_background:I = 0x7f0a069b
+.field public static final notification_background:I = 0x7f0a06a6
 
-.field public static final notification_main_column:I = 0x7f0a069c
+.field public static final notification_main_column:I = 0x7f0a06a7
 
-.field public static final notification_main_column_container:I = 0x7f0a069d
+.field public static final notification_main_column_container:I = 0x7f0a06a8
 
-.field public static final right_icon:I = 0x7f0a07a4
+.field public static final right_icon:I = 0x7f0a07b1
 
-.field public static final right_side:I = 0x7f0a07a6
+.field public static final right_side:I = 0x7f0a07b3
 
-.field public static final tag_accessibility_actions:I = 0x7f0a087b
+.field public static final tag_accessibility_actions:I = 0x7f0a0896
 
-.field public static final tag_accessibility_clickable_spans:I = 0x7f0a087c
+.field public static final tag_accessibility_clickable_spans:I = 0x7f0a0897
 
-.field public static final tag_accessibility_heading:I = 0x7f0a087d
+.field public static final tag_accessibility_heading:I = 0x7f0a0898
 
-.field public static final tag_accessibility_pane_title:I = 0x7f0a087e
+.field public static final tag_accessibility_pane_title:I = 0x7f0a0899
 
-.field public static final tag_screen_reader_focusable:I = 0x7f0a087f
+.field public static final tag_screen_reader_focusable:I = 0x7f0a089a
 
-.field public static final tag_transition_group:I = 0x7f0a0880
+.field public static final tag_transition_group:I = 0x7f0a089b
 
-.field public static final tag_unhandled_key_event_manager:I = 0x7f0a0881
+.field public static final tag_unhandled_key_event_manager:I = 0x7f0a089c
 
-.field public static final tag_unhandled_key_listeners:I = 0x7f0a0882
+.field public static final tag_unhandled_key_listeners:I = 0x7f0a089d
 
-.field public static final text:I = 0x7f0a0889
+.field public static final text:I = 0x7f0a08a4
 
-.field public static final text2:I = 0x7f0a088b
+.field public static final text2:I = 0x7f0a08a6
 
-.field public static final time:I = 0x7f0a08d9
+.field public static final time:I = 0x7f0a08f4
 
-.field public static final title:I = 0x7f0a08e2
+.field public static final title:I = 0x7f0a08fd
 
 
 # direct methods

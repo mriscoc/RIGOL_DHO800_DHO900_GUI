@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 768
+    .line 851
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -51,17 +51,17 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 771
+    .line 854
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readScale()J
 
-    .line 772
+    .line 855
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readRealScale()J
 
-    .line 773
+    .line 856
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
@@ -72,7 +72,7 @@
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 774
+    .line 857
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
@@ -83,7 +83,7 @@
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 775
+    .line 858
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getPositionAttr()Lcom/rigol/scope/cil/MessageAttr;
@@ -100,7 +100,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 768
+    .line 851
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->onChanged(Ljava/lang/Boolean;)V

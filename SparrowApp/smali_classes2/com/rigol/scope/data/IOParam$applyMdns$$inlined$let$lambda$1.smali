@@ -76,7 +76,7 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 49
+    .line 52
     invoke-virtual {p0}, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$1;->invoke()V
 
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
@@ -87,7 +87,7 @@
 .method public final invoke()V
     .locals 2
 
-    .line 674
+    .line 677
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$1;->$this_apply:Landroid/net/nsd/NsdServiceInfo;
 
     iget-object v1, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$1;->this$0:Lcom/rigol/scope/data/IOParam;

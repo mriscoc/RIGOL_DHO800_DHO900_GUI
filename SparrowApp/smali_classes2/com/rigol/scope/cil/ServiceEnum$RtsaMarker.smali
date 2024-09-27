@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7864
+    .line 7866
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v1, "Rtsa_Marker1"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker1:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7865
+    .line 7867
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v9, "Rtsa_Marker2"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker2:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7866
+    .line 7868
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v2, "Rtsa_Marker3"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker3:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7867
+    .line 7869
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v9, "Rtsa_Marker4"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker4:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7868
+    .line 7870
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v2, "Rtsa_Marker5"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker5:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7869
+    .line 7871
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v9, "Rtsa_Marker6"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker6:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7870
+    .line 7872
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v2, "Rtsa_Marker7"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker7:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7871
+    .line 7873
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const-string v9, "Rtsa_Marker8"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
-    .line 7862
+    .line 7864
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->Rtsa_Marker1:Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 7874
+    .line 7876
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7875
+    .line 7877
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->value1:I
 
-    .line 7876
+    .line 7878
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->value2:Ljava/lang/String;
 
-    .line 7877
+    .line 7879
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->pic1:Ljava/lang/String;
 
-    .line 7878
+    .line 7880
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
     .locals 1
 
-    .line 7862
+    .line 7864
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
     .locals 1
 
-    .line 7862
+    .line 7864
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->clone()Ljava/lang/Object;

@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 949
+    .line 1032
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,17 +47,17 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 953
+    .line 1036
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 954
+    .line 1037
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 956
+    .line 1039
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
@@ -76,7 +76,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 949
+    .line 1032
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->onChanged(Ljava/lang/Boolean;)V

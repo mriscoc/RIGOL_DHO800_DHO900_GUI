@@ -18,7 +18,7 @@
 .method public constructor <init>(Lcom/rigol/scope/databinding/AdapterUtilityBasesettingBinding;)V
     .locals 0
 
-    .line 520
+    .line 543
     invoke-virtual {p1}, Lcom/rigol/scope/databinding/AdapterUtilityBasesettingBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1

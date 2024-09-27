@@ -546,7 +546,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1ac
+    const/16 p1, 0x1b0
 
     .line 93
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemSelfTestBindingImpl;->notifyPropertyChanged(I)V
@@ -592,7 +592,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemSelfTestBindingImpl;->notifyPropertyChanged(I)V
@@ -617,7 +617,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 
@@ -629,7 +629,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x1ac
+    const/16 v0, 0x1b0
 
     if-ne v0, p1, :cond_1
 

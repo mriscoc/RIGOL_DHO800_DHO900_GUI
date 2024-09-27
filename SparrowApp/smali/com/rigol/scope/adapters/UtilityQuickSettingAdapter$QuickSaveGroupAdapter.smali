@@ -101,7 +101,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a01e0
+    const p1, 0x7f0a01e3
 
     if-ne v0, p1, :cond_2
 
@@ -141,7 +141,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a01dd
+    const p1, 0x7f0a01e0
 
     if-ne v0, p1, :cond_4
 
@@ -181,7 +181,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f0a01de
+    const p1, 0x7f0a01e1
 
     if-ne v0, p1, :cond_6
 

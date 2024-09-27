@@ -249,15 +249,15 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a073b
+    const p1, 0x7f0a0748
 
     if-eq p2, p1, :cond_4
 
-    const p1, 0x7f0a0747
+    const p1, 0x7f0a0754
 
     if-eq p2, p1, :cond_2
 
-    const p1, 0x7f0a074a
+    const p1, 0x7f0a0757
 
     if-eq p2, p1, :cond_0
 
@@ -478,11 +478,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0a21 -> :sswitch_4
-        0x7f0a0a37 -> :sswitch_3
-        0x7f0a0a39 -> :sswitch_2
-        0x7f0a0a48 -> :sswitch_1
-        0x7f0a0a50 -> :sswitch_0
+        0x7f0a0a3c -> :sswitch_4
+        0x7f0a0a52 -> :sswitch_3
+        0x7f0a0a54 -> :sswitch_2
+        0x7f0a0a63 -> :sswitch_1
+        0x7f0a0a6b -> :sswitch_0
     .end sparse-switch
 .end method
 

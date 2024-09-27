@@ -70,7 +70,7 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 49
+    .line 52
     invoke-virtual {p0}, Lcom/rigol/scope/data/IOParam$applyMdns$3;->invoke()V
 
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
@@ -81,7 +81,7 @@
 .method public final invoke()V
     .locals 1
 
-    .line 732
+    .line 735
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$applyMdns$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getJmDNS()Ljavax/jmdns/impl/JmDNSImpl;
@@ -92,7 +92,7 @@
 
     invoke-virtual {v0}, Ljavax/jmdns/impl/JmDNSImpl;->unregisterAllServices()V
 
-    .line 733
+    .line 736
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$applyMdns$3;->this$0:Lcom/rigol/scope/data/IOParam;
 

@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6584
+    .line 6585
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     const-string v1, "SAVE"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->SAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
-    .line 6585
+    .line 6586
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     const-string v9, "LOAD"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->LOAD:Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
-    .line 6586
+    .line 6587
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     const-string v2, "UPGRADE"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
-    .line 6582
+    .line 6583
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->SAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 6589
+    .line 6590
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6590
+    .line 6591
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->value1:I
 
-    .line 6591
+    .line 6592
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->value2:Ljava/lang/String;
 
-    .line 6592
+    .line 6593
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->pic1:Ljava/lang/String;
 
-    .line 6593
+    .line 6594
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
     .locals 1
 
-    .line 6582
+    .line 6583
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
     .locals 1
 
-    .line 6582
+    .line 6583
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->clone()Ljava/lang/Object;

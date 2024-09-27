@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2522
+    .line 2523
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     const-string v1, "RS232_Width_5"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->RS232_Width_5:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
-    .line 2523
+    .line 2524
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     const-string v9, "RS232_Width_6"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->RS232_Width_6:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
-    .line 2524
+    .line 2525
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     const-string v2, "RS232_Width_7"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->RS232_Width_7:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
-    .line 2525
+    .line 2526
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     const-string v9, "RS232_Width_8"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
-    .line 2520
+    .line 2521
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->RS232_Width_5:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 2528
+    .line 2529
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2529
+    .line 2530
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->value1:I
 
-    .line 2530
+    .line 2531
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->value2:Ljava/lang/String;
 
-    .line 2531
+    .line 2532
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->pic1:Ljava/lang/String;
 
-    .line 2532
+    .line 2533
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
     .locals 1
 
-    .line 2520
+    .line 2521
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
     .locals 1
 
-    .line 2520
+    .line 2521
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->clone()Ljava/lang/Object;

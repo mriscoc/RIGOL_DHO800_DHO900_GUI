@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1682
+    .line 1683
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v1, "SEARCH_TYPE_EDGE"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_EDGE:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1683
+    .line 1684
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v9, "SEARCH_TYPE_PULSE"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_PULSE:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1684
+    .line 1685
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v2, "SEARCH_TYPE_RUNT"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_RUNT:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1685
+    .line 1686
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v9, "SEARCH_TYPE_SLOPE"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_SLOPE:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1686
+    .line 1687
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v2, "SEARCH_TYPE_RS232"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_RS232:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1687
+    .line 1688
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v9, "SEARCH_TYPE_IIC"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_IIC:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1688
+    .line 1689
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v2, "SEARCH_TYPE_SPI"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_SPI:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1689
+    .line 1690
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const-string v9, "SEARCH_PATTREN"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    .line 1680
+    .line 1681
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->SEARCH_TYPE_EDGE:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 1692
+    .line 1693
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1693
+    .line 1694
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->value1:I
 
-    .line 1694
+    .line 1695
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->value2:Ljava/lang/String;
 
-    .line 1695
+    .line 1696
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->pic1:Ljava/lang/String;
 
-    .line 1696
+    .line 1697
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
     .locals 1
 
-    .line 1680
+    .line 1681
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
     .locals 1
 
-    .line 1680
+    .line 1681
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->clone()Ljava/lang/Object;

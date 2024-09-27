@@ -285,7 +285,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewAlertBinding;->ok:Landroid/widget/Button;
 
-    const v1, 0x7f100f0a
+    const v1, 0x7f100f10
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

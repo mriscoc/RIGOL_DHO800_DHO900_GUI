@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8161
+    .line 8163
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     const-string v1, "Log_Verbose"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->Log_Verbose:Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
-    .line 8162
+    .line 8164
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     const-string v9, "Log_DeBug"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->Log_DeBug:Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
-    .line 8163
+    .line 8165
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     const-string v2, "Log_Info"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->Log_Info:Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
-    .line 8164
+    .line 8166
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     const-string v9, "Log_Warn"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->Log_Warn:Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
-    .line 8165
+    .line 8167
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     const-string v2, "Log_Error"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
-    .line 8159
+    .line 8161
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->Log_Verbose:Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 8168
+    .line 8170
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8169
+    .line 8171
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->value1:I
 
-    .line 8170
+    .line 8172
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->value2:Ljava/lang/String;
 
-    .line 8171
+    .line 8173
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->pic1:Ljava/lang/String;
 
-    .line 8172
+    .line 8174
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
     .locals 1
 
-    .line 8159
+    .line 8161
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
     .locals 1
 
-    .line 8159
+    .line 8161
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->clone()Ljava/lang/Object;

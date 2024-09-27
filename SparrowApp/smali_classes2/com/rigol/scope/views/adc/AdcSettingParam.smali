@@ -1385,7 +1385,7 @@
     .line 60
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->coarse1:I
 
-    const/16 p1, 0xb2
+    const/16 p1, 0xb4
 
     .line 61
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1399,7 +1399,7 @@
     .line 67
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->coarse2:I
 
-    const/16 p1, 0xb3
+    const/16 p1, 0xb5
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1413,7 +1413,7 @@
     .line 74
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->coarse3:I
 
-    const/16 p1, 0xb4
+    const/16 p1, 0xb6
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1427,7 +1427,7 @@
     .line 81
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->coarse4:I
 
-    const/16 p1, 0xb5
+    const/16 p1, 0xb7
 
     .line 82
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1441,7 +1441,7 @@
     .line 116
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->fine1:I
 
-    const/16 p1, 0x136
+    const/16 p1, 0x13a
 
     .line 117
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1455,7 +1455,7 @@
     .line 123
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->fine2:I
 
-    const/16 p1, 0x137
+    const/16 p1, 0x13b
 
     .line 124
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1469,7 +1469,7 @@
     .line 130
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->fine3:I
 
-    const/16 p1, 0x138
+    const/16 p1, 0x13c
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1483,7 +1483,7 @@
     .line 137
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->fine4:I
 
-    const/16 p1, 0x139
+    const/16 p1, 0x13d
 
     .line 138
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1497,7 +1497,7 @@
     .line 32
     iput-boolean p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->flip1:Z
 
-    const/16 p1, 0x144
+    const/16 p1, 0x148
 
     .line 33
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1511,7 +1511,7 @@
     .line 39
     iput-boolean p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->flip2:Z
 
-    const/16 p1, 0x145
+    const/16 p1, 0x149
 
     .line 40
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1525,7 +1525,7 @@
     .line 46
     iput-boolean p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->flip3:Z
 
-    const/16 p1, 0x146
+    const/16 p1, 0x14a
 
     .line 47
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1539,7 +1539,7 @@
     .line 53
     iput-boolean p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->flip4:Z
 
-    const/16 p1, 0x147
+    const/16 p1, 0x14b
 
     .line 54
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1553,7 +1553,7 @@
     .line 88
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter1:I
 
-    const/16 p1, 0x1b1
+    const/16 p1, 0x1b5
 
     .line 89
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1567,7 +1567,7 @@
     .line 95
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter2:I
 
-    const/16 p1, 0x1b2
+    const/16 p1, 0x1b6
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1581,7 +1581,7 @@
     .line 102
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter3:I
 
-    const/16 p1, 0x1b3
+    const/16 p1, 0x1b7
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1595,7 +1595,7 @@
     .line 109
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter4:I
 
-    const/16 p1, 0x1b4
+    const/16 p1, 0x1b8
 
     .line 110
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1609,7 +1609,7 @@
     .line 144
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core1:I
 
-    const/16 p1, 0x268
+    const/16 p1, 0x26d
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1623,7 +1623,7 @@
     .line 151
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core2:I
 
-    const/16 p1, 0x269
+    const/16 p1, 0x26e
 
     .line 152
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1637,7 +1637,7 @@
     .line 158
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core3:I
 
-    const/16 p1, 0x26a
+    const/16 p1, 0x26f
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1651,7 +1651,7 @@
     .line 165
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core4:I
 
-    const/16 p1, 0x26b
+    const/16 p1, 0x270
 
     .line 166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1665,7 +1665,7 @@
     .line 172
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core1:I
 
-    const/16 p1, 0x26c
+    const/16 p1, 0x271
 
     .line 173
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1679,7 +1679,7 @@
     .line 179
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core2:I
 
-    const/16 p1, 0x26d
+    const/16 p1, 0x272
 
     .line 180
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1693,7 +1693,7 @@
     .line 186
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core3:I
 
-    const/16 p1, 0x26e
+    const/16 p1, 0x273
 
     .line 187
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1707,7 +1707,7 @@
     .line 193
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core4:I
 
-    const/16 p1, 0x26f
+    const/16 p1, 0x274
 
     .line 194
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1721,7 +1721,7 @@
     .line 200
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core1:I
 
-    const/16 p1, 0x270
+    const/16 p1, 0x275
 
     .line 201
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1735,7 +1735,7 @@
     .line 207
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core2:I
 
-    const/16 p1, 0x271
+    const/16 p1, 0x276
 
     .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1749,7 +1749,7 @@
     .line 214
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core3:I
 
-    const/16 p1, 0x272
+    const/16 p1, 0x277
 
     .line 215
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1763,7 +1763,7 @@
     .line 221
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core4:I
 
-    const/16 p1, 0x273
+    const/16 p1, 0x278
 
     .line 222
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1777,7 +1777,7 @@
     .line 228
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core1:I
 
-    const/16 p1, 0x274
+    const/16 p1, 0x279
 
     .line 229
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1791,7 +1791,7 @@
     .line 235
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core2:I
 
-    const/16 p1, 0x275
+    const/16 p1, 0x27a
 
     .line 236
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1805,7 +1805,7 @@
     .line 242
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core3:I
 
-    const/16 p1, 0x276
+    const/16 p1, 0x27b
 
     .line 243
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1819,7 +1819,7 @@
     .line 249
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core4:I
 
-    const/16 p1, 0x277
+    const/16 p1, 0x27c
 
     .line 250
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V

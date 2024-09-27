@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/IOParam;)V
     .locals 0
 
-    .line 7803
+    .line 7949
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$708;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$708;->val$param:Lcom/rigol/scope/data/IOParam;
@@ -51,10 +51,15 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 7806
+    .line 7952
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$708;->val$param:Lcom/rigol/scope/data/IOParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/IOParam;->readIPAddress()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/IOParam;->readAuto()Z
+
+    .line 7953
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$708;->val$param:Lcom/rigol/scope/data/IOParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/IOParam;->readSelect()I
 
     return-void
 .end method
@@ -62,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7803
+    .line 7949
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$708;->onChanged(Ljava/lang/Boolean;)V

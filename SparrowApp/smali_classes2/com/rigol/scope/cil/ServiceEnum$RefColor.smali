@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6682
+    .line 6684
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const-string v1, "REF_COLOR_GRAY"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->REF_COLOR_GRAY:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    .line 6683
+    .line 6685
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const-string v9, "REF_COLOR_GREEN"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->REF_COLOR_GREEN:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    .line 6684
+    .line 6686
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const-string v2, "REF_COLOR_BLUE"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->REF_COLOR_BLUE:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    .line 6685
+    .line 6687
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const-string v9, "REF_COLOR_RED"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->REF_COLOR_RED:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    .line 6686
+    .line 6688
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const-string v2, "REF_COLOR_ORANGE"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->REF_COLOR_ORANGE:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    .line 6687
+    .line 6689
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const-string v9, "REF_COLOR_ALL"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    .line 6680
+    .line 6682
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->REF_COLOR_GRAY:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 6690
+    .line 6692
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6691
+    .line 6693
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->value1:I
 
-    .line 6692
+    .line 6694
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->value2:Ljava/lang/String;
 
-    .line 6693
+    .line 6695
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->pic1:Ljava/lang/String;
 
-    .line 6694
+    .line 6696
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RefColor;
     .locals 1
 
-    .line 6680
+    .line 6682
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RefColor;
     .locals 1
 
-    .line 6680
+    .line 6682
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RefColor;->clone()Ljava/lang/Object;

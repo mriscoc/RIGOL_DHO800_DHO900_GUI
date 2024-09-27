@@ -92,7 +92,7 @@
 
     invoke-direct {v0, p1, v1, v2, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/rigol/scope/data/WindowParam;)V
 
-    const v1, 0x7f0a0b13
+    const v1, 0x7f0a0b30
 
     .line 1066
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setId(I)V
@@ -133,14 +133,14 @@
     invoke-virtual {v0, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 1077
-    iget-object v1, p0, Lcom/rigol/scope/views/window/XYWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/XYGridRulderView;
+    iget-object v1, p0, Lcom/rigol/scope/views/window/XYWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast v1, Landroid/view/View;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 1078
-    iget-object v1, p0, Lcom/rigol/scope/views/window/XYWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object v1, p0, Lcom/rigol/scope/views/window/XYWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     check-cast v1, Landroid/view/View;
 
@@ -906,7 +906,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v3, 0x7f030245
+    const v3, 0x7f030246
 
     .line 1278
     invoke-static {v3, v2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;

@@ -4314,7 +4314,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0493
+    .packed-switch 0x7f0a0498
         :pswitch_1
         :pswitch_0
     .end packed-switch
@@ -4339,7 +4339,7 @@
 
     move-result v1
 
-    const v2, 0x7f0a0596
+    const v2, 0x7f0a059f
 
     const/16 v3, 0x20
 
@@ -4367,7 +4367,7 @@
 
     if-eq v1, v2, :cond_28a
 
-    const v2, 0x7f0a0a64
+    const v2, 0x7f0a0a7f
 
     if-eq v1, v2, :cond_241
 
@@ -12955,7 +12955,7 @@
     goto :goto_76
 
     :cond_176
-    const v3, 0x7f100f2f
+    const v3, 0x7f100f35
 
     .line 1527
     invoke-static {v3}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -15214,7 +15214,7 @@
     goto :goto_a2
 
     :cond_1ee
-    const v2, 0x7f100f2f
+    const v2, 0x7f100f35
 
     .line 1504
     invoke-static {v2}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -21245,7 +21245,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0583
+    .packed-switch 0x7f0a058c
         :pswitch_5
         :pswitch_4
         :pswitch_5
@@ -21259,21 +21259,21 @@
     .end packed-switch
 
     :pswitch_data_1
-    .packed-switch 0x7f0a058e
+    .packed-switch 0x7f0a0597
         :pswitch_5
         :pswitch_5
         :pswitch_1
     .end packed-switch
 
     :pswitch_data_2
-    .packed-switch 0x7f0a0592
+    .packed-switch 0x7f0a059b
         :pswitch_5
         :pswitch_0
         :pswitch_5
     .end packed-switch
 
     :pswitch_data_3
-    .packed-switch 0x7f0a0598
+    .packed-switch 0x7f0a05a1
         :pswitch_5
         :pswitch_5
         :pswitch_5
@@ -21283,7 +21283,7 @@
     .end packed-switch
 
     :pswitch_data_4
-    .packed-switch 0x7f0a0583
+    .packed-switch 0x7f0a058c
         :pswitch_17
         :pswitch_6
         :pswitch_16

@@ -2574,7 +2574,7 @@
     .line 100
     iput-wide p1, p0, Lcom/rigol/scope/data/CursorResultParam;->ax:J
 
-    const/16 p1, 0x40
+    const/16 p1, 0x42
 
     .line 101
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2588,7 +2588,7 @@
     .line 211
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->axStr:Ljava/lang/String;
 
-    const/16 p1, 0x41
+    const/16 p1, 0x43
 
     .line 212
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2602,7 +2602,7 @@
     .line 128
     iput-wide p1, p0, Lcom/rigol/scope/data/CursorResultParam;->ay:J
 
-    const/16 p1, 0x42
+    const/16 p1, 0x44
 
     .line 129
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2616,7 +2616,7 @@
     .line 233
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->ayStr:Ljava/lang/String;
 
-    const/16 p1, 0x43
+    const/16 p1, 0x45
 
     .line 234
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2630,7 +2630,7 @@
     .line 171
     iput-boolean p1, p0, Lcom/rigol/scope/data/CursorResultParam;->isBothAB:Z
 
-    const/16 p1, 0x75
+    const/16 p1, 0x77
 
     .line 172
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2644,7 +2644,7 @@
     .line 114
     iput-wide p1, p0, Lcom/rigol/scope/data/CursorResultParam;->bx:J
 
-    const/16 p1, 0x7e
+    const/16 p1, 0x80
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2658,7 +2658,7 @@
     .line 222
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->bxStr:Ljava/lang/String;
 
-    const/16 p1, 0x7f
+    const/16 p1, 0x81
 
     .line 223
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2672,7 +2672,7 @@
     .line 142
     iput-wide p1, p0, Lcom/rigol/scope/data/CursorResultParam;->by:J
 
-    const/16 p1, 0x80
+    const/16 p1, 0x82
 
     .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2686,7 +2686,7 @@
     .line 244
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->byStr:Ljava/lang/String;
 
-    const/16 p1, 0x81
+    const/16 p1, 0x83
 
     .line 245
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2700,7 +2700,7 @@
     .line 62
     iput-boolean p1, p0, Lcom/rigol/scope/data/CursorResultParam;->cursorEnable:Z
 
-    const/16 p1, 0xc7
+    const/16 p1, 0xca
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -2744,7 +2744,7 @@
     .line 76
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->cursorMode:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    const/16 p1, 0xc9
+    const/16 p1, 0xcc
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -3034,7 +3034,7 @@
     .line 527
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->setCursorEnable(Z)V
 
-    const/16 v0, 0xc7
+    const/16 v0, 0xca
 
     .line 528
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -3066,7 +3066,7 @@
     .line 185
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3d0
+    const/16 p1, 0x3d9
 
     .line 186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -3087,7 +3087,7 @@
     .line 157
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->view:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
-    const/16 p1, 0x3fc
+    const/16 p1, 0x406
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V

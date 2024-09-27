@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DisplayParam;)V
     .locals 0
 
-    .line 6660
+    .line 6797
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$588;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$588;->val$param:Lcom/rigol/scope/data/DisplayParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6663
+    .line 6800
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$588;->val$param:Lcom/rigol/scope/data/DisplayParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DisplayParam;->readGridIntensity()I
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6660
+    .line 6797
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$588;->onChanged(Ljava/lang/Boolean;)V

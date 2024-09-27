@@ -24,7 +24,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1884
+    .line 1888
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object v0
@@ -240,7 +240,7 @@
     :try_end_c
     .catch Ljava/lang/NoSuchFieldError; {:try_start_c .. :try_end_c} :catch_c
 
-    .line 1591
+    .line 1595
     :catch_c
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 

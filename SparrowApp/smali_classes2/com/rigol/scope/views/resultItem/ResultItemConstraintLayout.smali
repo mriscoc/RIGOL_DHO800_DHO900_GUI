@@ -34,7 +34,7 @@
 .method private initBackground()V
     .locals 6
 
-    const v0, 0x7f0a08e4
+    const v0, 0x7f0a08ff
 
     .line 44
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/resultItem/ResultItemConstraintLayout;->getViewById(I)Landroid/view/View;

@@ -100,7 +100,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/EyeGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b30
 
     .line 204
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setId(I)V
@@ -145,14 +145,14 @@
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 214
-    iget-object v0, p0, Lcom/rigol/scope/views/window/EyeWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/EyeGridRulerView;
+    iget-object v0, p0, Lcom/rigol/scope/views/window/EyeWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast v0, Landroid/view/View;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 215
-    iget-object v0, p0, Lcom/rigol/scope/views/window/EyeWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object v0, p0, Lcom/rigol/scope/views/window/EyeWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     check-cast v0, Landroid/view/View;
 
@@ -191,7 +191,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030245
+    const v2, 0x7f030246
 
     .line 220
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -571,7 +571,7 @@
 
     move-result v1
 
-    const v2, 0x7f0a0b12
+    const v2, 0x7f0a0b2f
 
     if-eqz v1, :cond_0
 

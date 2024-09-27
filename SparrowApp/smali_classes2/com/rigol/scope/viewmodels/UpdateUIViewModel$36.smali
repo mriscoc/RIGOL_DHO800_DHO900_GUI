@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;I)V
     .locals 0
 
-    .line 915
+    .line 998
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$36;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$36;->val$serviceID:I
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 920
+    .line 1003
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -66,7 +66,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 923
+    .line 1006
     const-class p1, Lcom/rigol/scope/viewmodels/CalibrationViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -79,7 +79,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 925
+    .line 1008
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/CalibrationViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -92,10 +92,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 927
+    .line 1010
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/CalibrationParam;->setStarted(Z)V
 
-    .line 932
+    .line 1015
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -107,24 +107,24 @@
 
     move-result-object p1
 
-    .line 933
+    .line 1016
     instance-of v1, p1, Lcom/rigol/scope/views/calibration/CalibrationPopupView;
 
     if-eqz v1, :cond_1
 
-    .line 934
+    .line 1017
     move-object v1, p1
 
     check-cast v1, Lcom/rigol/scope/views/calibration/CalibrationPopupView;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/calibration/CalibrationPopupView;->setProbe(Z)V
 
-    .line 935
+    .line 1018
     iget v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$36;->val$serviceID:I
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/calibration/CalibrationPopupView;->setProbeCalServiceID(I)V
 
-    .line 936
+    .line 1019
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
     :cond_1
@@ -134,7 +134,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 915
+    .line 998
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$36;->onChanged(Ljava/lang/Boolean;)V

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/CustomDatepickerDialogAntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0527
+    const v1, 0x7f0a0530
 
     const/4 v2, 0x1
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/CustomDatepickerDialogAntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0242
+    const v1, 0x7f0a0246
 
     const/4 v2, 0x2
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/CustomDatepickerDialogAntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01fe
+    const v1, 0x7f0a0201
 
     const/4 v2, 0x3
 

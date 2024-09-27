@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/OptionParam;)V
     .locals 0
 
-    .line 640
+    .line 723
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$optionParam:Lcom/rigol/scope/data/OptionParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 643
+    .line 726
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$optionParam:Lcom/rigol/scope/data/OptionParam;
 
     if-eqz p1, :cond_0
 
-    .line 644
+    .line 727
     invoke-virtual {p1}, Lcom/rigol/scope/data/OptionParam;->readAll()V
 
     :cond_0
@@ -66,7 +66,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 640
+    .line 723
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->onChanged(Ljava/lang/Boolean;)V

@@ -299,7 +299,7 @@
     .line 1880
     iget-object p2, p1, Lcom/rigol/scope/databinding/WindowSimpleBinding;->title:Landroid/widget/TextView;
 
-    const v0, 0x7f10111d
+    const v0, 0x7f101123
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -356,8 +356,8 @@
 
     :array_0
     .array-data 4
-        0x7f03023a
-        0x7f030237
+        0x7f03023b
+        0x7f030238
         0x7f030041
     .end array-data
 .end method
@@ -568,7 +568,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030245
+    const v2, 0x7f030246
 
     .line 1909
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;

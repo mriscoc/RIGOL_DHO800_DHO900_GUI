@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2862
+    .line 2863
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v1, "trig_can_filed_start"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_filed_start:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2863
+    .line 2864
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v9, "trig_can_field_arb"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_field_arb:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2864
+    .line 2865
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v2, "trig_can_field_con"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_field_con:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2865
+    .line 2866
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v9, "trig_can_field_data"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_field_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2866
+    .line 2867
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v2, "trig_can_field_crc"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_field_crc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2867
+    .line 2868
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v9, "trig_can_field_ack"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_field_ack:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2868
+    .line 2869
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const-string v2, "trig_can_field_end"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
-    .line 2860
+    .line 2861
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->trig_can_filed_start:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 2871
+    .line 2872
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2872
+    .line 2873
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->value1:I
 
-    .line 2873
+    .line 2874
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->value2:Ljava/lang/String;
 
-    .line 2874
+    .line 2875
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->pic1:Ljava/lang/String;
 
-    .line 2875
+    .line 2876
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
     .locals 1
 
-    .line 2860
+    .line 2861
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
     .locals 1
 
-    .line 2860
+    .line 2861
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->clone()Ljava/lang/Object;

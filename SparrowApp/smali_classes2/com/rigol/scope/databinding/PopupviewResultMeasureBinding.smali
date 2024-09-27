@@ -89,6 +89,10 @@
     .end annotation
 .end field
 
+.field public final measureSource:Landroid/widget/TextView;
+
+.field public final measureSourceSpinner:Landroid/widget/TextView;
+
 .field public final mid:Landroid/widget/TextView;
 
 .field public final midEditText:Landroid/widget/EditText;
@@ -139,257 +143,267 @@
 
 
 # direct methods
-.method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/Button;Landroid/widget/Button;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroidx/constraintlayout/widget/Guideline;Landroidx/constraintlayout/widget/Guideline;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/CheckBox;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/Button;Lcom/rigol/scope/views/SwitchButton;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/Button;Landroid/widget/ImageView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;)V
+.method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/Button;Landroid/widget/Button;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroidx/constraintlayout/widget/Guideline;Landroidx/constraintlayout/widget/Guideline;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/CheckBox;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/Button;Lcom/rigol/scope/views/SwitchButton;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/Button;Landroid/widget/ImageView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;)V
     .locals 2
 
     move-object v0, p0
 
-    .line 214
+    .line 221
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
     move-object v1, p4
 
-    .line 215
+    .line 222
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->ampMethod:Landroid/widget/TextView;
 
     move-object v1, p5
 
-    .line 216
+    .line 223
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->ampMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object v1, p6
 
-    .line 217
+    .line 224
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->baseMethod:Landroid/widget/TextView;
 
     move-object v1, p7
 
-    .line 218
+    .line 225
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->baseMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object v1, p8
 
-    .line 219
+    .line 226
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorA:Landroid/widget/TextView;
 
     move-object v1, p9
 
-    .line 220
+    .line 227
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorAEditText:Landroid/widget/EditText;
 
     move-object v1, p10
 
-    .line 221
+    .line 228
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorAb:Landroid/widget/TextView;
 
     move-object v1, p11
 
-    .line 222
+    .line 229
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorAbSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object v1, p12
 
-    .line 223
+    .line 230
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorB:Landroid/widget/TextView;
 
     move-object v1, p13
 
-    .line 224
+    .line 231
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorBEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p14
 
-    .line 225
+    .line 232
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->deleteAllButton:Landroid/widget/Button;
 
     move-object/from16 v1, p15
 
-    .line 226
+    .line 233
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->deleteButton:Landroid/widget/Button;
 
     move-object/from16 v1, p16
 
-    .line 227
+    .line 234
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->divider:Landroid/view/View;
 
     move-object/from16 v1, p17
 
-    .line 228
+    .line 235
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->guidelineCenter:Landroidx/constraintlayout/widget/Guideline;
 
     move-object/from16 v1, p18
 
-    .line 229
+    .line 236
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->guidelineLeft:Landroidx/constraintlayout/widget/Guideline;
 
     move-object/from16 v1, p19
 
-    .line 230
+    .line 237
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->guidelineRight:Landroidx/constraintlayout/widget/Guideline;
 
     move-object/from16 v1, p20
 
-    .line 231
+    .line 238
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->guidelineRight2:Landroidx/constraintlayout/widget/Guideline;
 
     move-object/from16 v1, p21
 
-    .line 232
+    .line 239
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->high:Landroid/widget/TextView;
 
     move-object/from16 v1, p22
 
-    .line 233
+    .line 240
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->highEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p23
 
-    .line 234
+    .line 241
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->histoEn:Landroid/widget/TextView;
 
     move-object/from16 v1, p24
 
-    .line 235
+    .line 242
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->histoEnSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object/from16 v1, p25
 
-    .line 236
+    .line 243
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->indicator:Landroid/widget/TextView;
 
     move-object/from16 v1, p26
 
-    .line 237
+    .line 244
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->indicatorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object/from16 v1, p27
 
-    .line 238
+    .line 245
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->low:Landroid/widget/TextView;
 
     move-object/from16 v1, p28
 
-    .line 239
+    .line 246
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->lowEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p29
 
-    .line 240
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mid:Landroid/widget/TextView;
+    .line 247
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->measureSource:Landroid/widget/TextView;
 
     move-object/from16 v1, p30
 
-    .line 241
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->midEditText:Landroid/widget/EditText;
+    .line 248
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->measureSourceSpinner:Landroid/widget/TextView;
 
     move-object/from16 v1, p31
 
-    .line 242
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mode:Landroid/widget/TextView;
+    .line 249
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mid:Landroid/widget/TextView;
 
     move-object/from16 v1, p32
 
-    .line 243
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->modeRadioGroup:Landroid/widget/RadioGroup;
+    .line 250
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->midEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p33
 
-    .line 244
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->precisionRadioButton:Landroid/widget/RadioButton;
+    .line 251
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mode:Landroid/widget/TextView;
 
     move-object/from16 v1, p34
 
-    .line 245
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->region:Landroid/widget/TextView;
+    .line 252
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->modeRadioGroup:Landroid/widget/RadioGroup;
 
     move-object/from16 v1, p35
 
-    .line 246
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->regionSpinner:Landroid/widget/TextView;
+    .line 253
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->precisionRadioButton:Landroid/widget/RadioButton;
 
     move-object/from16 v1, p36
 
-    .line 247
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->showLine:Landroid/widget/CheckBox;
+    .line 254
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->region:Landroid/widget/TextView;
 
     move-object/from16 v1, p37
 
-    .line 248
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->stat:Landroid/widget/TextView;
+    .line 255
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->regionSpinner:Landroid/widget/TextView;
 
     move-object/from16 v1, p38
 
-    .line 249
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statCount:Landroid/widget/TextView;
+    .line 256
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->showLine:Landroid/widget/CheckBox;
 
     move-object/from16 v1, p39
 
-    .line 250
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statCountEditText:Landroid/widget/EditText;
+    .line 257
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->stat:Landroid/widget/TextView;
 
     move-object/from16 v1, p40
 
-    .line 251
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statReset:Landroid/widget/TextView;
+    .line 258
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statCount:Landroid/widget/TextView;
 
     move-object/from16 v1, p41
 
-    .line 252
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statResetButton:Landroid/widget/Button;
+    .line 259
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statCountEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p42
 
-    .line 253
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 260
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statReset:Landroid/widget/TextView;
 
     move-object/from16 v1, p43
 
-    .line 254
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->threSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 261
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statResetButton:Landroid/widget/Button;
 
     move-object/from16 v1, p44
 
-    .line 255
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->threText:Landroid/widget/TextView;
+    .line 262
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object/from16 v1, p45
 
-    .line 256
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDefaultButton:Landroid/widget/Button;
+    .line 263
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->threSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object/from16 v1, p46
 
-    .line 257
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDiagram:Landroid/widget/ImageView;
+    .line 264
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->threText:Landroid/widget/TextView;
 
     move-object/from16 v1, p47
 
-    .line 258
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayType:Landroid/widget/TextView;
+    .line 265
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDefaultButton:Landroid/widget/Button;
 
     move-object/from16 v1, p48
 
-    .line 259
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 266
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDiagram:Landroid/widget/ImageView;
 
     move-object/from16 v1, p49
 
-    .line 260
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdSource:Landroid/widget/TextView;
+    .line 267
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayType:Landroid/widget/TextView;
 
     move-object/from16 v1, p50
 
-    .line 261
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdSourceSpinner:Landroid/widget/TextView;
+    .line 268
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object/from16 v1, p51
 
-    .line 262
-    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->topMethod:Landroid/widget/TextView;
+    .line 269
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdSource:Landroid/widget/TextView;
 
     move-object/from16 v1, p52
 
-    .line 263
+    .line 270
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdSourceSpinner:Landroid/widget/TextView;
+
+    move-object/from16 v1, p53
+
+    .line 271
+    iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->topMethod:Landroid/widget/TextView;
+
+    move-object/from16 v1, p54
+
+    .line 272
     iput-object v1, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->topMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     return-void
@@ -398,7 +412,7 @@
 .method public static bind(Landroid/view/View;)Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
     .locals 1
 
-    .line 355
+    .line 364
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -415,9 +429,9 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d011d
+    const v0, 0x7f0d011e
 
-    .line 367
+    .line 376
     invoke-static {p1, p0, v0}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -430,7 +444,7 @@
 .method public static inflate(Landroid/view/LayoutInflater;)Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
     .locals 1
 
-    .line 337
+    .line 346
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -445,7 +459,7 @@
 .method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
     .locals 1
 
-    .line 318
+    .line 327
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -462,9 +476,9 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d011d
+    const v0, 0x7f0d011e
 
-    .line 332
+    .line 341
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -479,13 +493,13 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d011d
+    const v0, 0x7f0d011e
 
     const/4 v1, 0x0
 
     const/4 v2, 0x0
 
-    .line 351
+    .line 360
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -500,7 +514,7 @@
 .method public getHorizontal()Lcom/rigol/scope/data/HorizontalParam;
     .locals 1
 
-    .line 312
+    .line 321
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mHorizontal:Lcom/rigol/scope/data/HorizontalParam;
 
     return-object v0
@@ -509,7 +523,7 @@
 .method public getNormalMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 298
+    .line 307
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mNormalMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -518,7 +532,7 @@
 .method public getOnClickListener()Landroid/view/View$OnClickListener;
     .locals 1
 
-    .line 291
+    .line 300
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mOnClickListener:Landroid/view/View$OnClickListener;
 
     return-object v0
@@ -527,7 +541,7 @@
 .method public getParam()Lcom/rigol/scope/data/MeasureSettingParam;
     .locals 1
 
-    .line 270
+    .line 279
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     return-object v0
@@ -536,7 +550,7 @@
 .method public getPrecisionMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 305
+    .line 314
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mPrecisionMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -545,7 +559,7 @@
 .method public getSharedParam()Lcom/rigol/scope/data/SharedParam;
     .locals 1
 
-    .line 284
+    .line 293
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mSharedParam:Lcom/rigol/scope/data/SharedParam;
 
     return-object v0
@@ -554,7 +568,7 @@
 .method public getVerticalParam()Lcom/rigol/scope/data/VerticalParam;
     .locals 1
 
-    .line 277
+    .line 286
     iget-object v0, p0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->mVerticalParam:Lcom/rigol/scope/data/VerticalParam;
 
     return-object v0

@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)V
     .locals 0
 
-    .line 143
+    .line 171
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onScale(Landroid/view/ScaleGestureDetector;)Z
     .locals 6
 
-    .line 148
+    .line 176
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$000(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)[F
@@ -63,7 +63,7 @@
 
     aput v2, v0, v1
 
-    .line 150
+    .line 178
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$000(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)[F
@@ -88,12 +88,12 @@
 
     aput v3, v0, v2
 
-    .line 153
+    .line 181
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$108(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)I
 
-    .line 163
+    .line 191
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$200(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)I
@@ -120,7 +120,7 @@
 
     return v2
 
-    .line 168
+    .line 196
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
@@ -128,7 +128,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 170
+    .line 198
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v0, v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->onScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;
@@ -146,14 +146,14 @@
 .method public onScaleBegin(Landroid/view/ScaleGestureDetector;)Z
     .locals 4
 
-    .line 179
+    .line 207
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$302(Lcom/rigol/scope/views/baseview/BaseSurfaceView;Z)Z
 
-    .line 182
+    .line 210
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$000(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)[F
@@ -166,7 +166,7 @@
 
     aput v3, v0, v2
 
-    .line 183
+    .line 211
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$000(Lcom/rigol/scope/views/baseview/BaseSurfaceView;)[F
@@ -175,19 +175,19 @@
 
     aput v3, v0, v1
 
-    .line 186
+    .line 214
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0, v2}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$102(Lcom/rigol/scope/views/baseview/BaseSurfaceView;I)I
 
-    .line 191
+    .line 219
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v0, v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->onScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;
 
     if-eqz v0, :cond_0
 
-    .line 193
+    .line 221
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v0, v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->onScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;
@@ -205,21 +205,21 @@
 .method public onScaleEnd(Landroid/view/ScaleGestureDetector;)V
     .locals 2
 
-    .line 202
+    .line 230
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->access$302(Lcom/rigol/scope/views/baseview/BaseSurfaceView;Z)Z
 
-    .line 207
+    .line 235
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v0, v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->onScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;
 
     if-eqz v0, :cond_0
 
-    .line 209
+    .line 237
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseSurfaceView$1;->this$0:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v0, v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->onScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;

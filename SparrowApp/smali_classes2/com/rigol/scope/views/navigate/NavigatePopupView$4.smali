@@ -69,7 +69,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a082d
+    const v0, 0x7f0a0848
 
     if-ne p1, v0, :cond_0
 
@@ -100,7 +100,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0a5e
+    const v0, 0x7f0a0a79
 
     if-ne p1, v0, :cond_1
 
@@ -137,7 +137,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0aeb
+    const v0, 0x7f0a0b08
 
     if-ne p1, v0, :cond_2
 

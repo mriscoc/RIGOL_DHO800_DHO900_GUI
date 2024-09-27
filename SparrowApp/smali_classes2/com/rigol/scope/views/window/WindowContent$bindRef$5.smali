@@ -75,7 +75,7 @@
 .method public final onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 1940
+    .line 1951
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$5;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -92,7 +92,7 @@
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/CursorTag;->setCousor_showLabel_now(Z)V
 
-    .line 1941
+    .line 1952
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$5;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;

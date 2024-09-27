@@ -504,7 +504,7 @@
     .line 50
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->measType:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    const/16 p1, 0x20b
+    const/16 p1, 0x20f
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -518,7 +518,7 @@
     .line 121
     iput p1, p0, Lcom/rigol/scope/data/ResultParam;->mode:I
 
-    const/16 p1, 0x21b
+    const/16 p1, 0x21f
 
     .line 122
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -543,7 +543,7 @@
     .line 73
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->sourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x353
+    const/16 p1, 0x35c
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -568,7 +568,7 @@
     .line 84
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->sourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x357
+    const/16 p1, 0x360
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -597,7 +597,7 @@
     .line 102
     iput p1, p0, Lcom/rigol/scope/data/ResultParam;->stat:I
 
-    const/16 p1, 0x37b
+    const/16 p1, 0x384
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -650,7 +650,7 @@
     .line 61
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->syncArea:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x38c
+    const/16 p1, 0x395
 
     .line 62
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -688,7 +688,7 @@
     .line 39
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->title:Ljava/lang/String;
 
-    const/16 p1, 0x3a0
+    const/16 p1, 0x3a9
 
     .line 40
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V

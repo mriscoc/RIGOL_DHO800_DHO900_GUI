@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2697
+    .line 2698
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     const-string v1, "trig_iis_standard"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->trig_iis_standard:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
-    .line 2698
+    .line 2699
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     const-string v9, "trig_iis_left_justified"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->trig_iis_left_justified:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
-    .line 2699
+    .line 2700
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     const-string v2, "trig_iis_right_justified"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
-    .line 2695
+    .line 2696
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->trig_iis_standard:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2702
+    .line 2703
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2703
+    .line 2704
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->value1:I
 
-    .line 2704
+    .line 2705
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->value2:Ljava/lang/String;
 
-    .line 2705
+    .line 2706
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->pic1:Ljava/lang/String;
 
-    .line 2706
+    .line 2707
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
     .locals 1
 
-    .line 2695
+    .line 2696
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
     .locals 1
 
-    .line 2695
+    .line 2696
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->clone()Ljava/lang/Object;

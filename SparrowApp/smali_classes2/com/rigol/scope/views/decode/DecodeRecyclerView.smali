@@ -1112,10 +1112,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0274 -> :sswitch_3
-        0x7f0a0279 -> :sswitch_2
-        0x7f0a028a -> :sswitch_1
-        0x7f0a0348 -> :sswitch_0
+        0x7f0a0278 -> :sswitch_3
+        0x7f0a027d -> :sswitch_2
+        0x7f0a028e -> :sswitch_1
+        0x7f0a034c -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1297,7 +1297,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0a02d6
+    const v2, 0x7f0a02da
 
     if-ne v0, v2, :cond_0
 
@@ -1354,7 +1354,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f100377
+    const v0, 0x7f100376
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1365,7 +1365,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v2, 0x7f0a02bc
+    const v2, 0x7f0a02c0
 
     if-ne v0, v2, :cond_1
 
@@ -1388,7 +1388,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v2, 0x7f0a0277
+    const v2, 0x7f0a027b
 
     if-ne v0, v2, :cond_2
 
@@ -1411,7 +1411,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v2, 0x7f0a0348
+    const v2, 0x7f0a034c
 
     if-ne v0, v2, :cond_4
 
@@ -1477,7 +1477,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v2, 0x7f0a0275
+    const v2, 0x7f0a0279
 
     if-ne v0, v2, :cond_5
 
@@ -1499,7 +1499,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v2, 0x7f0a0272
+    const v2, 0x7f0a0276
 
     if-ne v0, v2, :cond_8
 
@@ -1538,7 +1538,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011af
+    const v0, 0x7f1011bf
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1601,7 +1601,7 @@
     goto :goto_0
 
     :cond_8
-    const v2, 0x7f0a026f
+    const v2, 0x7f0a0273
 
     if-ne v0, v2, :cond_9
 
@@ -1623,7 +1623,7 @@
     goto :goto_0
 
     :cond_9
-    const v1, 0x7f0a028a
+    const v1, 0x7f0a028e
 
     if-ne v0, v1, :cond_a
 
@@ -1650,7 +1650,7 @@
     goto :goto_0
 
     :cond_a
-    const v1, 0x7f0a0274
+    const v1, 0x7f0a0278
 
     if-ne v0, v1, :cond_b
 
@@ -1677,7 +1677,7 @@
     goto :goto_0
 
     :cond_b
-    const v1, 0x7f0a0279
+    const v1, 0x7f0a027d
 
     if-ne v0, v1, :cond_c
 

@@ -72,7 +72,7 @@
         }
     .end annotation
 
-    .line 944
+    .line 955
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V
@@ -109,7 +109,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 964
+    .line 975
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->getMeasuredWidth()I
@@ -132,7 +132,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 960
+    .line 971
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->getMeasuredHeight()I
@@ -155,27 +155,27 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 974
+    .line 985
     invoke-super/range {p0 .. p5}, Landroidx/customview/widget/ViewDragHelper$Callback;->onViewPositionChanged(Landroid/view/View;IIII)V
 
-    .line 975
+    .line 986
     instance-of p4, p1, Lcom/rigol/scope/views/baseview/LabelView;
 
     if-eqz p4, :cond_0
 
-    .line 976
+    .line 987
     check-cast p1, Lcom/rigol/scope/views/baseview/LabelView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/LabelView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p4
 
-    .line 977
+    .line 988
     instance-of p5, p4, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
 
     if-eqz p5, :cond_0
 
-    .line 978
+    .line 989
     move-object p5, p4
 
     check-cast p5, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -194,7 +194,7 @@
 
     iput v0, p5, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->startMargin:I
 
-    .line 979
+    .line 990
     iget v0, p5, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->topMargin:I
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
@@ -209,15 +209,15 @@
 
     iput v0, p5, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->topMargin:I
 
-    .line 980
+    .line 991
     invoke-virtual {p1, p4}, Lcom/rigol/scope/views/baseview/LabelView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 981
+    .line 992
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->access$setCaptureStart$p(Lcom/rigol/scope/views/window/WindowContent;I)V
 
-    .line 982
+    .line 993
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1, p3}, Lcom/rigol/scope/views/window/WindowContent;->access$setCaptureTop$p(Lcom/rigol/scope/views/window/WindowContent;I)V
@@ -233,7 +233,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 988
+    .line 999
     invoke-super {p0, p1, p2, p3}, Landroidx/customview/widget/ViewDragHelper$Callback;->onViewReleased(Landroid/view/View;FF)V
 
     return-void
@@ -246,7 +246,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 946
+    .line 957
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
@@ -255,7 +255,7 @@
 
     invoke-static {p2, v0}, Lcom/rigol/scope/views/window/WindowContent;->access$setCaptureStart$p(Lcom/rigol/scope/views/window/WindowContent;I)V
 
-    .line 947
+    .line 958
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent$DragCallback2;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Landroid/view/View;->getTop()I
@@ -264,7 +264,7 @@
 
     invoke-static {p2, v0}, Lcom/rigol/scope/views/window/WindowContent;->access$setCaptureTop$p(Lcom/rigol/scope/views/window/WindowContent;I)V
 
-    .line 948
+    .line 959
     instance-of p2, p1, Lcom/rigol/scope/views/baseview/LineView;
 
     if-nez p2, :cond_1

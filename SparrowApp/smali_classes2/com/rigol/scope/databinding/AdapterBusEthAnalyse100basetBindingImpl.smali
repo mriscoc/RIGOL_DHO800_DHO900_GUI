@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03d5
+    const v1, 0x7f0a03da
 
     const/4 v2, 0x3
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03df
+    const v1, 0x7f0a03e4
 
     const/4 v2, 0x4
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03de
+    const v1, 0x7f0a03e3
 
     const/4 v2, 0x5
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03dd
+    const v1, 0x7f0a03e2
 
     const/4 v2, 0x6
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03dc
+    const v1, 0x7f0a03e1
 
     const/4 v2, 0x7
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03d9
+    const v1, 0x7f0a03de
 
     const/16 v2, 0x8
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03da
+    const v1, 0x7f0a03df
 
     const/16 v2, 0x9
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03db
+    const v1, 0x7f0a03e0
 
     const/16 v2, 0xa
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03d6
+    const v1, 0x7f0a03db
 
     const/16 v2, 0xc
 
@@ -327,7 +327,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x114
+    const/16 v0, 0x118
 
     if-ne p2, v0, :cond_1
 
@@ -359,7 +359,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x113
+    const/16 v0, 0x117
 
     if-ne p2, v0, :cond_2
 
@@ -431,7 +431,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -809,7 +809,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->notifyPropertyChanged(I)V
@@ -834,7 +834,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

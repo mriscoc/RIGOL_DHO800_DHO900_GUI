@@ -1090,11 +1090,11 @@
 
     move-result v0
 
-    const v1, 0x7f0a0783
+    const v1, 0x7f0a0790
 
     if-eq v0, v1, :cond_2
 
-    const p2, 0x7f0a0822
+    const p2, 0x7f0a083d
 
     if-eq v0, p2, :cond_1
 
@@ -1219,7 +1219,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x2c5
+    const/16 v1, 0x2ca
 
     .line 466
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -1257,11 +1257,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a06a2
+    const v0, 0x7f0a06ad
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a07c6
+    const v0, 0x7f0a07d3
 
     if-eq p1, v0, :cond_1
 
@@ -1374,11 +1374,11 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a06a2
+    const p1, 0x7f0a06ad
 
     if-eq p2, p1, :cond_3
 
-    const p1, 0x7f0a07c6
+    const p1, 0x7f0a07d3
 
     if-eq p2, p1, :cond_1
 

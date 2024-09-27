@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/UpaRippleParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/viewmodels/UpaViewModel;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
+.field final synthetic val$upaViewModel:Lcom/rigol/scope/viewmodels/UpaViewModel;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/UpaRippleParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/viewmodels/UpaViewModel;)V
     .locals 0
 
-    .line 8321
+    .line 8449
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$764;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$764;->val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$764;->val$upaViewModel:Lcom/rigol/scope/viewmodels/UpaViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,20 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8324
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$764;->val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
+    .line 8452
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$764;->val$upaViewModel:Lcom/rigol/scope/viewmodels/UpaViewModel;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaRippleParam;->readPowerCurr()V
+    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UpaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/rigol/scope/data/UpaParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaParam;->readPowerCount()I
 
     return-void
 .end method
@@ -62,7 +72,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8321
+    .line 8449
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$764;->onChanged(Ljava/lang/Boolean;)V

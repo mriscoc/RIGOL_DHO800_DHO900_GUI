@@ -227,7 +227,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a024a
+    const v0, 0x7f0a024e
 
     if-ne p1, v0, :cond_1
 
@@ -556,7 +556,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a024a
+    const v1, 0x7f0a024e
 
     if-ne v0, v1, :cond_0
 
@@ -587,7 +587,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0a024c
+    const v1, 0x7f0a0250
 
     if-ne v0, v1, :cond_1
 
@@ -731,7 +731,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a024c
+    const v0, 0x7f0a0250
 
     if-ne p1, v0, :cond_1
 
@@ -780,7 +780,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a024c
+    const v0, 0x7f0a0250
 
     if-ne p2, v0, :cond_1
 

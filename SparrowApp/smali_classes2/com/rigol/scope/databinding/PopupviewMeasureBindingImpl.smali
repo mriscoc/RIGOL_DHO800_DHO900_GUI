@@ -13,9 +13,9 @@
 
 
 # instance fields
-.field private final mCallback55:Landroid/view/View$OnClickListener;
-
 .field private final mCallback56:Landroid/view/View$OnClickListener;
+
+.field private final mCallback57:Landroid/view/View$OnClickListener;
 
 .field private mDirtyFlags:J
 
@@ -33,7 +33,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a087a
+    const v1, 0x7f0a0895
 
     const/4 v2, 0x7
 
@@ -43,7 +43,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04da
+    const v1, 0x7f0a04df
 
     const/16 v2, 0x8
 
@@ -52,7 +52,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04f1
+    const v1, 0x7f0a04f6
 
     const/16 v2, 0x9
 
@@ -61,7 +61,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae4
+    const v1, 0x7f0a0b01
 
     const/16 v2, 0xa
 
@@ -183,8 +183,6 @@
 
     move-object/from16 v2, p2
 
-    move v15, v13
-
     move-object/from16 v13, v16
 
     invoke-direct/range {v0 .. v13}, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroidx/constraintlayout/widget/ConstraintLayout;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/ImageView;Landroid/widget/Button;Lcom/google/android/material/tabs/TabLayout;Landroid/widget/Button;Landroidx/viewpager2/widget/ViewPager2;)V
@@ -248,12 +246,12 @@
 
     invoke-direct {v0, v14, v15}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
-    iput-object v0, v14, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mCallback55:Landroid/view/View$OnClickListener;
+    iput-object v0, v14, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mCallback57:Landroid/view/View$OnClickListener;
 
     .line 61
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x2
+    const/4 v1, 0x1
 
     invoke-direct {v0, v14, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -300,7 +298,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x311
+    const/16 v0, 0x316
 
     if-ne p2, v0, :cond_1
 
@@ -332,7 +330,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x339
+    const/16 v0, 0x340
 
     if-ne p2, v0, :cond_2
 
@@ -364,7 +362,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x312
+    const/16 v0, 0x317
 
     if-ne p2, v0, :cond_3
 
@@ -476,7 +474,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -548,7 +546,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -602,7 +600,7 @@
 
     goto :goto_0
 
-    .line 422
+    .line 404
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -613,12 +611,12 @@
     :cond_1
     if-eqz v0, :cond_4
 
-    .line 433
+    .line 415
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 404
+    .line 422
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -629,7 +627,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 415
+    .line 433
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     :cond_4
@@ -992,14 +990,14 @@
     .line 356
     iget-object v9, v1, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->holder1Spinner:Landroid/widget/TextView;
 
-    iget-object v10, v1, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mCallback55:Landroid/view/View$OnClickListener;
+    iget-object v10, v1, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mCallback56:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v9, v10}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 357
     iget-object v9, v1, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->holder2Spinner:Landroid/widget/TextView;
 
-    iget-object v10, v1, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mCallback56:Landroid/view/View$OnClickListener;
+    iget-object v10, v1, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->mCallback57:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v9, v10}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1273,7 +1271,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->notifyPropertyChanged(I)V
@@ -1324,7 +1322,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->notifyPropertyChanged(I)V
@@ -1375,7 +1373,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x279
+    const/16 p1, 0x27e
 
     .line 124
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;->notifyPropertyChanged(I)V
@@ -1400,7 +1398,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 
@@ -1412,7 +1410,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_1
 
@@ -1424,7 +1422,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x279
+    const/16 v0, 0x27e
 
     if-ne v0, p1, :cond_2
 

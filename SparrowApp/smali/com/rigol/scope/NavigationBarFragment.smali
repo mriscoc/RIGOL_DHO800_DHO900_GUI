@@ -382,7 +382,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011b9
+    const p2, 0x7f1011ca
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1666,7 +1666,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x5753
+    const/16 v0, 0x5755
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

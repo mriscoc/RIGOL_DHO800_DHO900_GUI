@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4926
+    .line 4927
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     const-string v1, "mask_polarity_positive"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->mask_polarity_positive:Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
-    .line 4927
+    .line 4928
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     const-string v9, "mask_polarity_negative"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
-    .line 4924
+    .line 4925
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->mask_polarity_positive:Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     const/4 v3, 0x0
@@ -118,19 +118,19 @@
         }
     .end annotation
 
-    .line 4930
+    .line 4931
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4931
+    .line 4932
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->value1:I
 
-    .line 4932
+    .line 4933
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->value2:Ljava/lang/String;
 
-    .line 4933
+    .line 4934
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->pic1:Ljava/lang/String;
 
-    .line 4934
+    .line 4935
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->pic2:Ljava/lang/String;
 
     return-void
@@ -139,7 +139,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
     .locals 1
 
-    .line 4924
+    .line 4925
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -154,7 +154,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
     .locals 1
 
-    .line 4924
+    .line 4925
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->clone()Ljava/lang/Object;

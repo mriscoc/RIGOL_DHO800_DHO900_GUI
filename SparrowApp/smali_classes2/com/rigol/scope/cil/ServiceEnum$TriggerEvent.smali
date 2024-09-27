@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1750
+    .line 1751
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     const-string v1, "Trigger_A_Event"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->Trigger_A_Event:Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
-    .line 1751
+    .line 1752
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     const-string v9, "Trigger_B_Event"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->Trigger_B_Event:Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
-    .line 1752
+    .line 1753
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     const-string v2, "Trigger_R_Event"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
-    .line 1748
+    .line 1749
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->Trigger_A_Event:Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 1755
+    .line 1756
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1756
+    .line 1757
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->value1:I
 
-    .line 1757
+    .line 1758
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->value2:Ljava/lang/String;
 
-    .line 1758
+    .line 1759
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->pic1:Ljava/lang/String;
 
-    .line 1759
+    .line 1760
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
     .locals 1
 
-    .line 1748
+    .line 1749
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
     .locals 1
 
-    .line 1748
+    .line 1749
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->clone()Ljava/lang/Object;

@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e2
+    const v1, 0x7f0a08fd
 
     const/16 v2, 0xb
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/16 v2, 0xc
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0xd
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0699
+    const v1, 0x7f0a06a4
 
     const/16 v2, 0xe
 
@@ -61,7 +61,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05c3
+    const v1, 0x7f0a05cc
 
     const/16 v2, 0xf
 
@@ -70,7 +70,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0798
+    const v1, 0x7f0a07a5
 
     const/16 v2, 0x10
 
@@ -79,7 +79,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0389
+    const v1, 0x7f0a038e
 
     const/16 v2, 0x11
 
@@ -343,7 +343,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1da
+    const/16 v0, 0x1de
 
     if-ne p2, v0, :cond_1
 
@@ -375,7 +375,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x2dc
+    const/16 v0, 0x2e1
 
     if-ne p2, v0, :cond_2
 
@@ -407,7 +407,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x29c
+    const/16 v0, 0x2a1
 
     if-ne p2, v0, :cond_3
 
@@ -439,7 +439,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x333
+    const/16 v0, 0x339
 
     if-ne p2, v0, :cond_4
 
@@ -471,7 +471,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0xec
+    const/16 v0, 0xef
 
     if-ne p2, v0, :cond_5
 
@@ -503,7 +503,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x37a
+    const/16 v0, 0x383
 
     if-ne p2, v0, :cond_6
 
@@ -615,7 +615,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x29e
+    const/16 v0, 0x2a3
 
     if-ne p2, v0, :cond_1
 
@@ -979,7 +979,7 @@
 
     move-result-object v15
 
-    const v9, 0x7f101174
+    const v9, 0x7f10117a
 
     invoke-virtual {v15, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -994,7 +994,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f101175
+    const v10, 0x7f10117b
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1485,7 +1485,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x83
+    const/16 p1, 0x85
 
     .line 142
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->notifyPropertyChanged(I)V
@@ -1536,7 +1536,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1bc
+    const/16 p1, 0x1c0
 
     .line 125
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->notifyPropertyChanged(I)V
@@ -1582,7 +1582,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->notifyPropertyChanged(I)V
@@ -1633,7 +1633,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3e9
+    const/16 p1, 0x3f3
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;->notifyPropertyChanged(I)V
@@ -1658,7 +1658,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x3e9
+    const/16 v0, 0x3f3
 
     if-ne v0, p1, :cond_0
 
@@ -1670,7 +1670,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x1bc
+    const/16 v0, 0x1c0
 
     if-ne v0, p1, :cond_1
 
@@ -1682,7 +1682,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_2
 
@@ -1694,7 +1694,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x83
+    const/16 v0, 0x85
 
     if-ne v0, p1, :cond_3
 

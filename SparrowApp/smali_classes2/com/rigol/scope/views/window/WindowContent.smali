@@ -11,7 +11,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nWindowContent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WindowContent.kt\ncom/rigol/scope/views/window/WindowContent\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,3133:1\n1#2:3134\n*E\n"
+    value = "SMAP\nWindowContent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WindowContent.kt\ncom/rigol/scope/views/window/WindowContent\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,3144:1\n1#2:3145\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -797,7 +797,7 @@
 
     invoke-direct {p1, v4, v1, v0}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v4, 0x7f0a021f
+    const v4, 0x7f0a0223
 
     .line 235
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -852,7 +852,7 @@
 
     invoke-direct {p1, v7, v1, v3}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v7, 0x7f0a0220
+    const v7, 0x7f0a0224
 
     .line 281
     invoke-virtual {p1, v7}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -905,7 +905,7 @@
 
     invoke-direct {p1, v6, v1, v0}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v6, 0x7f0a0223
+    const v6, 0x7f0a0227
 
     .line 325
     invoke-virtual {p1, v6}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -955,7 +955,7 @@
 
     invoke-direct {p1, v11, v1, v3}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v11, 0x7f0a0224
+    const v11, 0x7f0a0228
 
     .line 364
     invoke-virtual {p1, v11}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -1588,7 +1588,7 @@
 
     throw p1
 
-    .line 664
+    .line 675
     :cond_12
     :goto_9
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramViewModel:Lcom/rigol/scope/views/histogram/HistogramViewModel;
@@ -1601,7 +1601,7 @@
 
     if-eqz p1, :cond_14
 
-    .line 665
+    .line 676
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v4
@@ -1610,19 +1610,19 @@
 
     check-cast v4, Landroidx/lifecycle/LifecycleOwner;
 
-    .line 666
+    .line 677
     new-instance v3, Lcom/rigol/scope/views/window/WindowContent$10;
 
     invoke-direct {v3, p0}, Lcom/rigol/scope/views/window/WindowContent$10;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
 
     check-cast v3, Landroidx/lifecycle/Observer;
 
-    .line 664
+    .line 675
     invoke-virtual {p1, v4, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_a
 
-    .line 665
+    .line 676
     :cond_13
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1630,7 +1630,7 @@
 
     throw p1
 
-    .line 732
+    .line 743
     :cond_14
     :goto_a
     new-instance p1, Lcom/rigol/scope/views/CursorTag;
@@ -1641,7 +1641,7 @@
 
     invoke-direct {p1, v3, v1, v0}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 733
+    .line 744
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v3
@@ -1650,48 +1650,48 @@
 
     const-string v3, "CA"
 
-    .line 734
+    .line 745
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setText(Ljava/lang/String;)V
 
-    .line 735
+    .line 746
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setVisibility(I)V
 
     const-string v3, "#00FF00"
 
-    .line 736
+    .line 747
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v4
 
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setLineColor(I)V
 
-    .line 737
+    .line 748
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v4
 
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setLabelColor(I)V
 
-    .line 738
+    .line 749
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v4
 
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setTagColor(I)V
 
-    .line 739
+    .line 750
     new-instance v4, Landroid/graphics/PathEffect;
 
     invoke-direct {v4}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setLinePathEffect(Landroid/graphics/PathEffect;)V
 
-    .line 740
+    .line 751
     sget-object v4, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setTagStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 742
+    .line 753
     new-instance v4, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;
 
     invoke-direct {v4, p1, p0}, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;-><init>(Lcom/rigol/scope/views/CursorTag;Lcom/rigol/scope/views/window/WindowContent;)V
@@ -1700,13 +1700,13 @@
 
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 796
+    .line 807
     sget-object v4, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 732
+    .line 743
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
-    .line 801
+    .line 812
     new-instance p1, Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getContext()Landroid/content/Context;
@@ -1715,7 +1715,7 @@
 
     invoke-direct {p1, v4, v1, v0}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 802
+    .line 813
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v0
@@ -1724,46 +1724,46 @@
 
     const-string v0, "CB"
 
-    .line 803
+    .line 814
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setText(Ljava/lang/String;)V
 
-    .line 804
+    .line 815
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setVisibility(I)V
 
-    .line 805
+    .line 816
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v0
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setLineColor(I)V
 
-    .line 806
+    .line 817
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v0
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setLabelColor(I)V
 
-    .line 807
+    .line 818
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v0
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setTagColor(I)V
 
-    .line 808
+    .line 819
     new-instance v0, Landroid/graphics/PathEffect;
 
     invoke-direct {v0}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setLinePathEffect(Landroid/graphics/PathEffect;)V
 
-    .line 809
+    .line 820
     sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setTagStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 811
+    .line 822
     new-instance v0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$7;
 
     invoke-direct {v0, p1, p0}, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$7;-><init>(Lcom/rigol/scope/views/CursorTag;Lcom/rigol/scope/views/window/WindowContent;)V
@@ -1772,13 +1772,13 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 869
+    .line 880
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 801
+    .line 812
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
-    .line 936
+    .line 947
     move-object p1, p0
 
     check-cast p1, Landroid/view/ViewGroup;
@@ -1799,7 +1799,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->dragHelper:Landroidx/customview/widget/ViewDragHelper;
 
-    .line 1442
+    .line 1453
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -1808,7 +1808,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorObserver:Landroidx/lifecycle/Observer;
 
-    .line 1577
+    .line 1588
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -1817,7 +1817,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorObserver:Landroidx/lifecycle/Observer;
 
-    .line 1789
+    .line 1800
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -2134,7 +2134,7 @@
 
     invoke-direct {p1, v3, v0, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v3, 0x7f0a021f
+    const v3, 0x7f0a0223
 
     .line 235
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -2189,7 +2189,7 @@
 
     invoke-direct {p1, v6, v0, v2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v6, 0x7f0a0220
+    const v6, 0x7f0a0224
 
     .line 281
     invoke-virtual {p1, v6}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -2242,7 +2242,7 @@
 
     invoke-direct {p1, v5, v0, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v5, 0x7f0a0223
+    const v5, 0x7f0a0227
 
     .line 325
     invoke-virtual {p1, v5}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -2292,7 +2292,7 @@
 
     invoke-direct {p1, v10, v0, v2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v10, 0x7f0a0224
+    const v10, 0x7f0a0228
 
     .line 364
     invoke-virtual {p1, v10}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -2925,7 +2925,7 @@
 
     throw p1
 
-    .line 664
+    .line 675
     :cond_12
     :goto_9
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramViewModel:Lcom/rigol/scope/views/histogram/HistogramViewModel;
@@ -2938,7 +2938,7 @@
 
     if-eqz p1, :cond_14
 
-    .line 665
+    .line 676
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v3
@@ -2947,19 +2947,19 @@
 
     check-cast v3, Landroidx/lifecycle/LifecycleOwner;
 
-    .line 666
+    .line 677
     new-instance v2, Lcom/rigol/scope/views/window/WindowContent$10;
 
     invoke-direct {v2, p0}, Lcom/rigol/scope/views/window/WindowContent$10;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
 
     check-cast v2, Landroidx/lifecycle/Observer;
 
-    .line 664
+    .line 675
     invoke-virtual {p1, v3, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_a
 
-    .line 665
+    .line 676
     :cond_13
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -2967,7 +2967,7 @@
 
     throw p1
 
-    .line 732
+    .line 743
     :cond_14
     :goto_a
     new-instance p1, Lcom/rigol/scope/views/CursorTag;
@@ -2978,7 +2978,7 @@
 
     invoke-direct {p1, v2, v0, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 733
+    .line 744
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v2
@@ -2987,48 +2987,48 @@
 
     const-string v2, "CA"
 
-    .line 734
+    .line 745
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setText(Ljava/lang/String;)V
 
-    .line 735
+    .line 746
     invoke-virtual {p1, v1}, Lcom/rigol/scope/views/CursorTag;->setVisibility(I)V
 
     const-string v2, "#00FF00"
 
-    .line 736
+    .line 747
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v3
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setLineColor(I)V
 
-    .line 737
+    .line 748
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v3
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setLabelColor(I)V
 
-    .line 738
+    .line 749
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v3
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setTagColor(I)V
 
-    .line 739
+    .line 750
     new-instance v3, Landroid/graphics/PathEffect;
 
     invoke-direct {v3}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setLinePathEffect(Landroid/graphics/PathEffect;)V
 
-    .line 740
+    .line 751
     sget-object v3, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setTagStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 742
+    .line 753
     new-instance v3, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$13;
 
     invoke-direct {v3, p1, p0}, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$13;-><init>(Lcom/rigol/scope/views/CursorTag;Lcom/rigol/scope/views/window/WindowContent;)V
@@ -3037,13 +3037,13 @@
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/CursorTag;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 796
+    .line 807
     sget-object v3, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 732
+    .line 743
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
-    .line 801
+    .line 812
     new-instance p1, Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getContext()Landroid/content/Context;
@@ -3052,7 +3052,7 @@
 
     invoke-direct {p1, v3, v0, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 802
+    .line 813
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result p2
@@ -3061,46 +3061,46 @@
 
     const-string p2, "CB"
 
-    .line 803
+    .line 814
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setText(Ljava/lang/String;)V
 
-    .line 804
+    .line 815
     invoke-virtual {p1, v1}, Lcom/rigol/scope/views/CursorTag;->setVisibility(I)V
 
-    .line 805
+    .line 816
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setLineColor(I)V
 
-    .line 806
+    .line 817
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setLabelColor(I)V
 
-    .line 807
+    .line 818
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setTagColor(I)V
 
-    .line 808
+    .line 819
     new-instance p2, Landroid/graphics/PathEffect;
 
     invoke-direct {p2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setLinePathEffect(Landroid/graphics/PathEffect;)V
 
-    .line 809
+    .line 820
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setTagStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 811
+    .line 822
     new-instance p2, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$14;
 
     invoke-direct {p2, p1, p0}, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$14;-><init>(Lcom/rigol/scope/views/CursorTag;Lcom/rigol/scope/views/window/WindowContent;)V
@@ -3109,13 +3109,13 @@
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 869
+    .line 880
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 801
+    .line 812
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
-    .line 936
+    .line 947
     move-object p1, p0
 
     check-cast p1, Landroid/view/ViewGroup;
@@ -3136,7 +3136,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->dragHelper:Landroidx/customview/widget/ViewDragHelper;
 
-    .line 1442
+    .line 1453
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -3145,7 +3145,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorObserver:Landroidx/lifecycle/Observer;
 
-    .line 1577
+    .line 1588
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -3154,7 +3154,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorObserver:Landroidx/lifecycle/Observer;
 
-    .line 1789
+    .line 1800
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -3471,7 +3471,7 @@
 
     invoke-direct {p1, v2, p3, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v2, 0x7f0a021f
+    const v2, 0x7f0a0223
 
     .line 235
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -3526,7 +3526,7 @@
 
     invoke-direct {p1, v5, p3, v1}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v5, 0x7f0a0220
+    const v5, 0x7f0a0224
 
     .line 281
     invoke-virtual {p1, v5}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -3579,7 +3579,7 @@
 
     invoke-direct {p1, v4, p3, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v4, 0x7f0a0223
+    const v4, 0x7f0a0227
 
     .line 325
     invoke-virtual {p1, v4}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -3629,7 +3629,7 @@
 
     invoke-direct {p1, v9, p3, v1}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v9, 0x7f0a0224
+    const v9, 0x7f0a0228
 
     .line 364
     invoke-virtual {p1, v9}, Lcom/rigol/scope/views/CursorTag;->setId(I)V
@@ -4262,7 +4262,7 @@
 
     throw p1
 
-    .line 664
+    .line 675
     :cond_12
     :goto_9
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramViewModel:Lcom/rigol/scope/views/histogram/HistogramViewModel;
@@ -4275,7 +4275,7 @@
 
     if-eqz p1, :cond_14
 
-    .line 665
+    .line 676
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v2
@@ -4284,19 +4284,19 @@
 
     check-cast v2, Landroidx/lifecycle/LifecycleOwner;
 
-    .line 666
+    .line 677
     new-instance v1, Lcom/rigol/scope/views/window/WindowContent$10;
 
     invoke-direct {v1, p0}, Lcom/rigol/scope/views/window/WindowContent$10;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
 
     check-cast v1, Landroidx/lifecycle/Observer;
 
-    .line 664
+    .line 675
     invoke-virtual {p1, v2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_a
 
-    .line 665
+    .line 676
     :cond_13
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -4304,7 +4304,7 @@
 
     throw p1
 
-    .line 732
+    .line 743
     :cond_14
     :goto_a
     new-instance p1, Lcom/rigol/scope/views/CursorTag;
@@ -4315,7 +4315,7 @@
 
     invoke-direct {p1, v1, p3, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 733
+    .line 744
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
@@ -4324,48 +4324,48 @@
 
     const-string v1, "CA"
 
-    .line 734
+    .line 745
     invoke-virtual {p1, v1}, Lcom/rigol/scope/views/CursorTag;->setText(Ljava/lang/String;)V
 
-    .line 735
+    .line 746
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setVisibility(I)V
 
     const-string v1, "#00FF00"
 
-    .line 736
+    .line 747
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setLineColor(I)V
 
-    .line 737
+    .line 748
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setLabelColor(I)V
 
-    .line 738
+    .line 749
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setTagColor(I)V
 
-    .line 739
+    .line 750
     new-instance v2, Landroid/graphics/PathEffect;
 
     invoke-direct {v2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setLinePathEffect(Landroid/graphics/PathEffect;)V
 
-    .line 740
+    .line 751
     sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setTagStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 742
+    .line 753
     new-instance v2, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$20;
 
     invoke-direct {v2, p1, p0}, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$20;-><init>(Lcom/rigol/scope/views/CursorTag;Lcom/rigol/scope/views/window/WindowContent;)V
@@ -4374,13 +4374,13 @@
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/CursorTag;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 796
+    .line 807
     sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 732
+    .line 743
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
-    .line 801
+    .line 812
     new-instance p1, Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getContext()Landroid/content/Context;
@@ -4389,7 +4389,7 @@
 
     invoke-direct {p1, v2, p3, p2}, Lcom/rigol/scope/views/CursorTag;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 802
+    .line 813
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result p2
@@ -4398,46 +4398,46 @@
 
     const-string p2, "CB"
 
-    .line 803
+    .line 814
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setText(Ljava/lang/String;)V
 
-    .line 804
+    .line 815
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/CursorTag;->setVisibility(I)V
 
-    .line 805
+    .line 816
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setLineColor(I)V
 
-    .line 806
+    .line 817
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setLabelColor(I)V
 
-    .line 807
+    .line 818
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setTagColor(I)V
 
-    .line 808
+    .line 819
     new-instance p2, Landroid/graphics/PathEffect;
 
     invoke-direct {p2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setLinePathEffect(Landroid/graphics/PathEffect;)V
 
-    .line 809
+    .line 820
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setTagStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 811
+    .line 822
     new-instance p2, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$21;
 
     invoke-direct {p2, p1, p0}, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$21;-><init>(Lcom/rigol/scope/views/CursorTag;Lcom/rigol/scope/views/window/WindowContent;)V
@@ -4446,13 +4446,13 @@
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/CursorTag;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 869
+    .line 880
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 801
+    .line 812
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
-    .line 936
+    .line 947
     move-object p1, p0
 
     check-cast p1, Landroid/view/ViewGroup;
@@ -4473,7 +4473,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->dragHelper:Landroidx/customview/widget/ViewDragHelper;
 
-    .line 1442
+    .line 1453
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$indicatorObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -4482,7 +4482,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorObserver:Landroidx/lifecycle/Observer;
 
-    .line 1577
+    .line 1588
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -4491,7 +4491,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorObserver:Landroidx/lifecycle/Observer;
 
-    .line 1789
+    .line 1800
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -4796,21 +4796,21 @@
 .method private final addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
     .locals 2
 
-    .line 1209
+    .line 1220
     move-object v0, p1
 
     check-cast v0, Landroid/view/View;
 
     invoke-virtual {p0, v0, p3, p4}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;II)V
 
-    .line 1212
+    .line 1223
     move-object p3, p0
 
     check-cast p3, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1213
+    .line 1224
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getId()I
 
     move-result p4
@@ -4821,7 +4821,7 @@
 
     invoke-virtual {p2, p4, v0, v1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1214
+    .line 1225
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getId()I
 
     move-result p1
@@ -4830,7 +4830,7 @@
 
     invoke-virtual {p2, p1, p4, v1, p4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1215
+    .line 1226
     invoke-virtual {p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
     return-void
@@ -4839,21 +4839,21 @@
 .method private final addIndicator(Lcom/rigol/scope/views/baseview/LineView;Landroidx/constraintlayout/widget/ConstraintSet;II)V
     .locals 2
 
-    .line 1105
+    .line 1116
     move-object v0, p1
 
     check-cast v0, Landroid/view/View;
 
     invoke-virtual {p0, v0, p3, p4}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;II)V
 
-    .line 1107
+    .line 1118
     move-object p3, p0
 
     check-cast p3, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1108
+    .line 1119
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/LineView;->getId()I
 
     move-result p4
@@ -4864,7 +4864,7 @@
 
     invoke-virtual {p2, p4, v0, v1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1109
+    .line 1120
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/LineView;->getId()I
 
     move-result p1
@@ -4873,7 +4873,7 @@
 
     invoke-virtual {p2, p1, p4, v1, p4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1110
+    .line 1121
     invoke-virtual {p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
     return-void
@@ -4882,17 +4882,17 @@
 .method private final addRefTag(I)V
     .locals 6
 
-    .line 673
+    .line 684
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->refParam:Lcom/rigol/scope/data/RefParam;
 
     if-eqz v0, :cond_1
 
-    .line 674
+    .line 685
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/RefParam;->getParam(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object v1
 
-    .line 675
+    .line 686
     new-instance v2, Lcom/rigol/scope/views/TagView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getContext()Landroid/content/Context;
@@ -4903,7 +4903,7 @@
 
     invoke-direct {v2, v3, v4}, Lcom/rigol/scope/views/TagView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 676
+    .line 687
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v3
@@ -4912,20 +4912,20 @@
 
     const/16 v3, 0x14
 
-    .line 677
+    .line 688
     invoke-virtual {v2, v3}, Lcom/rigol/scope/views/TagView;->setTagHeight(I)V
 
     const/16 v3, 0x23
 
-    .line 678
+    .line 689
     invoke-virtual {v2, v3}, Lcom/rigol/scope/views/TagView;->setTagWidth(I)V
 
     const/4 v4, 0x1
 
-    .line 679
+    .line 690
     invoke-virtual {v2, v4}, Lcom/rigol/scope/views/TagView;->setShowBorder(Z)V
 
-    .line 680
+    .line 691
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4946,12 +4946,12 @@
 
     const/high16 v4, -0x1000000
 
-    .line 681
+    .line 692
     invoke-virtual {v2, v4}, Lcom/rigol/scope/views/TagView;->setTextColor(I)V
 
     const-string v4, "param"
 
-    .line 682
+    .line 693
     invoke-static {v1, v4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/RefParam$Param;->getLabel()Ljava/lang/String;
@@ -4971,11 +4971,11 @@
     :cond_0
     const/16 v4, 0x10
 
-    .line 683
+    .line 694
     :goto_0
     invoke-virtual {v2, v4}, Lcom/rigol/scope/views/TagView;->setTextSize(I)V
 
-    .line 684
+    .line 695
     sget-object v4, Lcom/rigol/scope/utilities/Colors;->INSTANCE:Lcom/rigol/scope/utilities/Colors;
 
     invoke-virtual {v4}, Lcom/rigol/scope/utilities/Colors;->getREF_COLORS()Landroid/util/SparseIntArray;
@@ -4992,25 +4992,25 @@
 
     move-result v4
 
-    .line 685
+    .line 696
     invoke-virtual {v2, v4}, Lcom/rigol/scope/views/TagView;->setLabelColor(I)V
 
-    .line 686
+    .line 697
     invoke-virtual {v2, v4}, Lcom/rigol/scope/views/TagView;->setTagColor(I)V
 
     const/4 v4, 0x0
 
-    .line 687
+    .line 698
     invoke-virtual {v2, v4}, Lcom/rigol/scope/views/TagView;->setShowLine(Z)V
 
-    .line 688
+    .line 699
     move-object v4, v2
 
     check-cast v4, Landroid/view/View;
 
     invoke-virtual {p0, v4, v3, v3}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;II)V
 
-    .line 689
+    .line 700
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     move-object v5, p0
@@ -5019,17 +5019,17 @@
 
     invoke-static {v3, v5, v4}, Lcom/rigol/scope/utilities/ViewUtil;->applyToTopAndLeft(Landroidx/constraintlayout/widget/ConstraintSet;Landroidx/constraintlayout/widget/ConstraintLayout;Landroid/view/View;)V
 
-    .line 692
+    .line 703
     invoke-direct {p0, v1, v2}, Lcom/rigol/scope/views/window/WindowContent;->updateRefPosition(Lcom/rigol/scope/data/RefParam$Param;Lcom/rigol/scope/views/TagView;)V
 
-    .line 695
+    .line 706
     sget-object v3, Lcom/rigol/scope/views/window/WindowContent$addRefTag$1$1$1;->INSTANCE:Lcom/rigol/scope/views/window/WindowContent$addRefTag$1$1$1;
 
     check-cast v3, Landroid/view/View$OnClickListener;
 
     invoke-virtual {v2, v3}, Lcom/rigol/scope/views/TagView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 700
+    .line 711
     new-instance v3, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;
 
     invoke-direct {v3, v1, v0, p0, p1}, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;-><init>(Lcom/rigol/scope/data/RefParam$Param;Lcom/rigol/scope/data/RefParam;Lcom/rigol/scope/views/window/WindowContent;I)V
@@ -5038,7 +5038,7 @@
 
     invoke-virtual {v2, v3}, Lcom/rigol/scope/views/TagView;->setCallback(Lcom/rigol/scope/views/TagView$Callback;)V
 
-    .line 724
+    .line 735
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->tagViews:Landroidx/collection/SimpleArrayMap;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -5064,12 +5064,12 @@
 .method private final getCursorAxRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 9
 
-    .line 2333
+    .line 2344
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_a
 
-    .line 2334
+    .line 2345
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -5096,13 +5096,13 @@
 
     goto/16 :goto_0
 
-    .line 2390
+    .line 2401
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2391
+    .line 2402
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -5117,7 +5117,7 @@
 
     if-eqz v0, :cond_a
 
-    .line 2393
+    .line 2404
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -5140,7 +5140,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2394
+    .line 2405
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -5163,7 +5163,7 @@
 
     goto/16 :goto_0
 
-    .line 2337
+    .line 2348
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -5198,13 +5198,13 @@
 
     goto/16 :goto_0
 
-    .line 2351
+    .line 2362
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2354
+    .line 2365
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_4
@@ -5218,19 +5218,19 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2352
+    .line 2363
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_a
 
-    .line 2357
+    .line 2368
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object v1
 
-    .line 2358
+    .line 2369
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v2
@@ -5239,17 +5239,17 @@
 
     if-eq v2, v4, :cond_6
 
-    .line 2359
+    .line 2370
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_a
 
-    .line 2360
+    .line 2371
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_5
 
-    .line 2361
+    .line 2372
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5270,7 +5270,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2362
+    .line 2373
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5291,7 +5291,7 @@
 
     goto/16 :goto_0
 
-    .line 2364
+    .line 2375
     :cond_5
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -5313,7 +5313,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2365
+    .line 2376
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -5334,20 +5334,20 @@
 
     goto :goto_0
 
-    .line 2371
+    .line 2382
     :cond_6
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_7
 
-    .line 2372
+    .line 2383
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v1
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2373
+    .line 2384
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -5356,7 +5356,7 @@
 
     goto :goto_0
 
-    .line 2375
+    .line 2386
     :cond_7
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
@@ -5364,7 +5364,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2376
+    .line 2387
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v1
@@ -5383,13 +5383,13 @@
 
     goto :goto_0
 
-    .line 2345
+    .line 2356
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_a
 
-    .line 2346
+    .line 2357
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -5410,7 +5410,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2347
+    .line 2358
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -5431,13 +5431,13 @@
 
     goto :goto_0
 
-    .line 2339
+    .line 2350
     :cond_9
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_a
 
-    .line 2340
+    .line 2351
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5458,7 +5458,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2341
+    .line 2352
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5485,12 +5485,12 @@
 .method private final getCursorAxShadowRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 9
 
-    .line 2714
+    .line 2725
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_9
 
-    .line 2715
+    .line 2726
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -5509,7 +5509,7 @@
 
     goto/16 :goto_0
 
-    .line 2718
+    .line 2729
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -5548,13 +5548,13 @@
 
     goto/16 :goto_0
 
-    .line 2732
+    .line 2743
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2735
+    .line 2746
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_3
@@ -5568,19 +5568,19 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2733
+    .line 2744
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 2738
+    .line 2749
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object v1
 
-    .line 2739
+    .line 2750
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v2
@@ -5589,17 +5589,17 @@
 
     if-eq v2, v6, :cond_5
 
-    .line 2740
+    .line 2751
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_9
 
-    .line 2741
+    .line 2752
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_4
 
-    .line 2742
+    .line 2753
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5620,7 +5620,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2743
+    .line 2754
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5641,7 +5641,7 @@
 
     goto/16 :goto_0
 
-    .line 2745
+    .line 2756
     :cond_4
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -5663,7 +5663,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2746
+    .line 2757
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -5684,20 +5684,20 @@
 
     goto :goto_0
 
-    .line 2752
+    .line 2763
     :cond_5
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_6
 
-    .line 2753
+    .line 2764
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v1
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2754
+    .line 2765
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -5706,7 +5706,7 @@
 
     goto :goto_0
 
-    .line 2756
+    .line 2767
     :cond_6
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
@@ -5714,7 +5714,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2757
+    .line 2768
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v1
@@ -5733,13 +5733,13 @@
 
     goto :goto_0
 
-    .line 2726
+    .line 2737
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_9
 
-    .line 2727
+    .line 2738
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -5760,7 +5760,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2728
+    .line 2739
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -5781,13 +5781,13 @@
 
     goto :goto_0
 
-    .line 2720
+    .line 2731
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_9
 
-    .line 2721
+    .line 2732
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5808,7 +5808,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2722
+    .line 2733
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -5835,12 +5835,12 @@
 .method private final getCursorAyRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 8
 
-    .line 2406
+    .line 2417
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_9
 
-    .line 2407
+    .line 2418
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -5871,13 +5871,13 @@
 
     goto/16 :goto_1
 
-    .line 2455
+    .line 2466
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2456
+    .line 2467
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -5892,7 +5892,7 @@
 
     if-eqz v0, :cond_9
 
-    .line 2458
+    .line 2469
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -5913,7 +5913,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2459
+    .line 2470
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -5934,7 +5934,7 @@
 
     goto/16 :goto_1
 
-    .line 2410
+    .line 2421
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -5965,13 +5965,13 @@
 
     goto/16 :goto_1
 
-    .line 2422
+    .line 2433
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2425
+    .line 2436
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_4
@@ -5985,14 +5985,14 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2423
+    .line 2434
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 2428
+    .line 2439
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v1
@@ -6001,7 +6001,7 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 2429
+    .line 2440
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v1
@@ -6022,7 +6022,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2430
+    .line 2441
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v1
@@ -6043,7 +6043,7 @@
 
     goto/16 :goto_1
 
-    .line 2436
+    .line 2447
     :cond_5
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -6079,7 +6079,7 @@
 
     goto :goto_0
 
-    .line 2442
+    .line 2453
     :cond_6
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
@@ -6101,7 +6101,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2443
+    .line 2454
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v1
@@ -6122,7 +6122,7 @@
 
     goto :goto_1
 
-    .line 2437
+    .line 2448
     :cond_7
     :goto_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
@@ -6145,7 +6145,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2438
+    .line 2449
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v1
@@ -6166,13 +6166,13 @@
 
     goto :goto_1
 
-    .line 2412
+    .line 2423
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2414
+    .line 2425
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -6187,7 +6187,7 @@
 
     if-eqz v0, :cond_9
 
-    .line 2416
+    .line 2427
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -6208,7 +6208,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2417
+    .line 2428
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -6235,12 +6235,12 @@
 .method private final getCursorAyShadowRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 10
 
-    .line 2777
+    .line 2788
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_8
 
-    .line 2778
+    .line 2789
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -6259,7 +6259,7 @@
 
     goto/16 :goto_1
 
-    .line 2781
+    .line 2792
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -6298,13 +6298,13 @@
 
     goto/16 :goto_1
 
-    .line 2792
+    .line 2803
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_8
 
-    .line 2795
+    .line 2806
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_3
@@ -6318,14 +6318,14 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2793
+    .line 2804
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_8
 
-    .line 2798
+    .line 2809
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v1
@@ -6338,7 +6338,7 @@
 
     int-to-long v1, v6
 
-    .line 2799
+    .line 2810
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v6
@@ -6361,7 +6361,7 @@
 
     invoke-virtual {p1, v6, v7}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2800
+    .line 2811
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v6
@@ -6384,7 +6384,7 @@
 
     goto/16 :goto_1
 
-    .line 2806
+    .line 2817
     :cond_4
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -6423,7 +6423,7 @@
     :cond_5
     int-to-long v1, v6
 
-    .line 2812
+    .line 2823
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v6
@@ -6446,7 +6446,7 @@
 
     invoke-virtual {p1, v6, v7}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2813
+    .line 2824
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v6
@@ -6473,7 +6473,7 @@
     :goto_0
     int-to-long v1, v6
 
-    .line 2807
+    .line 2818
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v6
@@ -6496,7 +6496,7 @@
 
     invoke-virtual {p1, v6, v7}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2808
+    .line 2819
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v6
@@ -6519,13 +6519,13 @@
 
     goto :goto_1
 
-    .line 2783
+    .line 2794
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_8
 
-    .line 2784
+    .line 2795
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -6540,7 +6540,7 @@
 
     if-eqz v0, :cond_8
 
-    .line 2786
+    .line 2797
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -6561,7 +6561,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2787
+    .line 2798
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -6588,12 +6588,12 @@
 .method private final getCursorBxRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 9
 
-    .line 2471
+    .line 2482
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_a
 
-    .line 2472
+    .line 2483
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -6620,13 +6620,13 @@
 
     goto/16 :goto_0
 
-    .line 2533
+    .line 2544
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2534
+    .line 2545
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -6641,7 +6641,7 @@
 
     if-eqz v0, :cond_a
 
-    .line 2536
+    .line 2547
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -6664,7 +6664,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2537
+    .line 2548
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -6687,7 +6687,7 @@
 
     goto/16 :goto_0
 
-    .line 2475
+    .line 2486
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -6722,13 +6722,13 @@
 
     goto/16 :goto_0
 
-    .line 2491
+    .line 2502
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2494
+    .line 2505
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_4
@@ -6742,19 +6742,19 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2492
+    .line 2503
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_a
 
-    .line 2497
+    .line 2508
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object v1
 
-    .line 2498
+    .line 2509
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v2
@@ -6763,17 +6763,17 @@
 
     if-eq v2, v4, :cond_6
 
-    .line 2499
+    .line 2510
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_a
 
-    .line 2500
+    .line 2511
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_5
 
-    .line 2502
+    .line 2513
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -6794,7 +6794,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2504
+    .line 2515
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -6815,7 +6815,7 @@
 
     goto/16 :goto_0
 
-    .line 2507
+    .line 2518
     :cond_5
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -6837,7 +6837,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2509
+    .line 2520
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -6858,20 +6858,20 @@
 
     goto :goto_0
 
-    .line 2515
+    .line 2526
     :cond_6
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_7
 
-    .line 2516
+    .line 2527
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v1
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2517
+    .line 2528
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -6880,7 +6880,7 @@
 
     goto :goto_0
 
-    .line 2519
+    .line 2530
     :cond_7
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
@@ -6888,7 +6888,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2520
+    .line 2531
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v1
@@ -6907,13 +6907,13 @@
 
     goto :goto_0
 
-    .line 2484
+    .line 2495
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_a
 
-    .line 2486
+    .line 2497
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -6934,7 +6934,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2487
+    .line 2498
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -6955,13 +6955,13 @@
 
     goto :goto_0
 
-    .line 2477
+    .line 2488
     :cond_9
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_a
 
-    .line 2479
+    .line 2490
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -6982,7 +6982,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2480
+    .line 2491
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -7009,12 +7009,12 @@
 .method private final getCursorBxShadowRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 9
 
-    .line 2831
+    .line 2842
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_9
 
-    .line 2832
+    .line 2843
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -7033,7 +7033,7 @@
 
     goto/16 :goto_0
 
-    .line 2835
+    .line 2846
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -7072,13 +7072,13 @@
 
     goto/16 :goto_0
 
-    .line 2849
+    .line 2860
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2852
+    .line 2863
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_3
@@ -7092,19 +7092,19 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2850
+    .line 2861
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 2855
+    .line 2866
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object v1
 
-    .line 2856
+    .line 2867
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v2
@@ -7113,17 +7113,17 @@
 
     if-eq v2, v6, :cond_5
 
-    .line 2857
+    .line 2868
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_9
 
-    .line 2858
+    .line 2869
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_4
 
-    .line 2859
+    .line 2870
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -7144,7 +7144,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2860
+    .line 2871
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -7165,7 +7165,7 @@
 
     goto/16 :goto_0
 
-    .line 2862
+    .line 2873
     :cond_4
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -7187,7 +7187,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2863
+    .line 2874
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -7208,20 +7208,20 @@
 
     goto :goto_0
 
-    .line 2869
+    .line 2880
     :cond_5
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Main:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     if-ne v1, v2, :cond_6
 
-    .line 2870
+    .line 2881
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v1
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2871
+    .line 2882
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -7230,7 +7230,7 @@
 
     goto :goto_0
 
-    .line 2873
+    .line 2884
     :cond_6
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
@@ -7238,7 +7238,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2874
+    .line 2885
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v1
@@ -7257,13 +7257,13 @@
 
     goto :goto_0
 
-    .line 2843
+    .line 2854
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_9
 
-    .line 2844
+    .line 2855
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -7284,7 +7284,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2845
+    .line 2856
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -7305,13 +7305,13 @@
 
     goto :goto_0
 
-    .line 2837
+    .line 2848
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_9
 
-    .line 2838
+    .line 2849
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -7332,7 +7332,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2839
+    .line 2850
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -7359,12 +7359,12 @@
 .method private final getCursorByRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 8
 
-    .line 2549
+    .line 2560
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_a
 
-    .line 2550
+    .line 2561
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -7395,13 +7395,13 @@
 
     goto/16 :goto_2
 
-    .line 2607
+    .line 2618
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2608
+    .line 2619
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -7416,7 +7416,7 @@
 
     if-eqz v0, :cond_a
 
-    .line 2610
+    .line 2621
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -7437,7 +7437,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2611
+    .line 2622
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -7458,7 +7458,7 @@
 
     goto/16 :goto_2
 
-    .line 2553
+    .line 2564
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -7489,13 +7489,13 @@
 
     goto/16 :goto_2
 
-    .line 2572
+    .line 2583
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2575
+    .line 2586
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_4
@@ -7509,14 +7509,14 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2573
+    .line 2584
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_a
 
-    .line 2578
+    .line 2589
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v1
@@ -7525,7 +7525,7 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 2580
+    .line 2591
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v1
@@ -7546,7 +7546,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2582
+    .line 2593
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v1
@@ -7567,7 +7567,7 @@
 
     goto/16 :goto_2
 
-    .line 2588
+    .line 2599
     :cond_5
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -7603,7 +7603,7 @@
 
     goto :goto_0
 
-    .line 2594
+    .line 2605
     :cond_6
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
@@ -7625,7 +7625,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2595
+    .line 2606
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v1
@@ -7646,7 +7646,7 @@
 
     goto :goto_2
 
-    .line 2589
+    .line 2600
     :cond_7
     :goto_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
@@ -7669,7 +7669,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2590
+    .line 2601
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v1
@@ -7690,13 +7690,13 @@
 
     goto :goto_2
 
-    .line 2555
+    .line 2566
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_a
 
-    .line 2558
+    .line 2569
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -7709,7 +7709,7 @@
 
     if-ne v1, v2, :cond_9
 
-    .line 2559
+    .line 2570
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -7724,7 +7724,7 @@
 
     goto :goto_1
 
-    .line 2563
+    .line 2574
     :cond_9
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
@@ -7741,7 +7741,7 @@
     :goto_1
     if-eqz v0, :cond_a
 
-    .line 2566
+    .line 2577
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -7762,7 +7762,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2567
+    .line 2578
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -7789,12 +7789,12 @@
 .method private final getCursorByShadowRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 10
 
-    .line 2893
+    .line 2904
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_9
 
-    .line 2894
+    .line 2905
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -7813,7 +7813,7 @@
 
     goto/16 :goto_2
 
-    .line 2897
+    .line 2908
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
@@ -7852,13 +7852,13 @@
 
     goto/16 :goto_2
 
-    .line 2916
+    .line 2927
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2919
+    .line 2930
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_3
@@ -7872,14 +7872,14 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2917
+    .line 2928
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 2922
+    .line 2933
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v1
@@ -7892,7 +7892,7 @@
 
     int-to-long v1, v6
 
-    .line 2923
+    .line 2934
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v6
@@ -7915,7 +7915,7 @@
 
     invoke-virtual {p1, v6, v7}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2924
+    .line 2935
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v6
@@ -7938,7 +7938,7 @@
 
     goto/16 :goto_2
 
-    .line 2930
+    .line 2941
     :cond_4
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -7977,7 +7977,7 @@
     :cond_5
     int-to-long v1, v6
 
-    .line 2936
+    .line 2947
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v6
@@ -8000,7 +8000,7 @@
 
     invoke-virtual {p1, v6, v7}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2937
+    .line 2948
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v6
@@ -8027,7 +8027,7 @@
     :goto_0
     int-to-long v1, v6
 
-    .line 2931
+    .line 2942
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v6
@@ -8050,7 +8050,7 @@
 
     invoke-virtual {p1, v6, v7}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2932
+    .line 2943
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v6
@@ -8073,13 +8073,13 @@
 
     goto :goto_2
 
-    .line 2899
+    .line 2910
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_9
 
-    .line 2902
+    .line 2913
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -8092,7 +8092,7 @@
 
     if-ne v1, v2, :cond_8
 
-    .line 2903
+    .line 2914
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -8107,7 +8107,7 @@
 
     goto :goto_1
 
-    .line 2907
+    .line 2918
     :cond_8
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
@@ -8124,7 +8124,7 @@
     :goto_1
     if-eqz v0, :cond_9
 
-    .line 2910
+    .line 2921
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -8145,7 +8145,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartY(J)V
 
-    .line 2911
+    .line 2922
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -8174,7 +8174,7 @@
 
     if-eqz p2, :cond_8
 
-    .line 2037
+    .line 2048
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     const-string v0, "windowParam"
@@ -8214,11 +8214,11 @@
 
     goto/16 :goto_0
 
-    .line 2052
+    .line 2063
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
-    .line 2053
+    .line 2064
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_2
@@ -8232,14 +8232,14 @@
 
     add-int/lit8 v0, v0, -0x11
 
-    .line 2051
+    .line 2062
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object p2
 
     if-eqz p2, :cond_8
 
-    .line 2056
+    .line 2067
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
@@ -8248,12 +8248,12 @@
 
     if-eq v0, v1, :cond_4
 
-    .line 2057
+    .line 2068
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_8
 
-    .line 2058
+    .line 2069
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object p2
@@ -8262,7 +8262,7 @@
 
     if-ne p2, v1, :cond_3
 
-    .line 2060
+    .line 2071
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v5
@@ -8283,7 +8283,7 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2062
+    .line 2073
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v4
@@ -8304,7 +8304,7 @@
 
     goto/16 :goto_0
 
-    .line 2065
+    .line 2076
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -8326,7 +8326,7 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2067
+    .line 2078
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v4
@@ -8347,7 +8347,7 @@
 
     goto/16 :goto_0
 
-    .line 2073
+    .line 2084
     :cond_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
@@ -8357,14 +8357,14 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 2074
+    .line 2085
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v0
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2075
+    .line 2086
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -8373,7 +8373,7 @@
 
     goto :goto_0
 
-    .line 2077
+    .line 2088
     :cond_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
@@ -8381,7 +8381,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2079
+    .line 2090
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v0
@@ -8400,13 +8400,13 @@
 
     goto :goto_0
 
-    .line 2045
+    .line 2056
     :cond_6
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz p2, :cond_8
 
-    .line 2046
+    .line 2057
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v0
@@ -8427,7 +8427,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2047
+    .line 2058
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v0
@@ -8448,13 +8448,13 @@
 
     goto :goto_0
 
-    .line 2039
+    .line 2050
     :cond_7
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz p2, :cond_8
 
-    .line 2040
+    .line 2051
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v0
@@ -8475,7 +8475,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2041
+    .line 2052
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v0
@@ -8504,7 +8504,7 @@
 
     if-eqz p2, :cond_7
 
-    .line 2093
+    .line 2104
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     const-string v1, "windowParam"
@@ -8544,11 +8544,11 @@
 
     goto/16 :goto_1
 
-    .line 2107
+    .line 2118
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
-    .line 2108
+    .line 2119
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v0, :cond_2
@@ -8562,14 +8562,14 @@
 
     add-int/lit8 v0, v0, -0x11
 
-    .line 2106
+    .line 2117
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object p2
 
     if-eqz p2, :cond_7
 
-    .line 2111
+    .line 2122
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
@@ -8578,7 +8578,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 2113
+    .line 2124
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v0
@@ -8599,7 +8599,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2115
+    .line 2126
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v0
@@ -8620,7 +8620,7 @@
 
     goto/16 :goto_1
 
-    .line 2121
+    .line 2132
     :cond_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -8656,7 +8656,7 @@
 
     goto :goto_0
 
-    .line 2127
+    .line 2138
     :cond_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
@@ -8678,7 +8678,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2128
+    .line 2139
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
@@ -8699,7 +8699,7 @@
 
     goto :goto_1
 
-    .line 2122
+    .line 2133
     :cond_5
     :goto_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
@@ -8722,7 +8722,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2123
+    .line 2134
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v0
@@ -8743,13 +8743,13 @@
 
     goto :goto_1
 
-    .line 2095
+    .line 2106
     :cond_6
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_7
 
-    .line 2096
+    .line 2107
     invoke-virtual {p2}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p2
@@ -8760,7 +8760,7 @@
 
     if-eqz p2, :cond_7
 
-    .line 2099
+    .line 2110
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v0
@@ -8781,7 +8781,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2101
+    .line 2112
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v0
@@ -8810,7 +8810,7 @@
 
     if-eqz p2, :cond_8
 
-    .line 2141
+    .line 2152
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     const-string v0, "windowParam"
@@ -8850,11 +8850,11 @@
 
     goto/16 :goto_0
 
-    .line 2156
+    .line 2167
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
-    .line 2157
+    .line 2168
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_2
@@ -8868,14 +8868,14 @@
 
     add-int/lit8 v0, v0, -0x11
 
-    .line 2155
+    .line 2166
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object p2
 
     if-eqz p2, :cond_8
 
-    .line 2160
+    .line 2171
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
@@ -8884,12 +8884,12 @@
 
     if-eq v0, v1, :cond_4
 
-    .line 2161
+    .line 2172
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_8
 
-    .line 2162
+    .line 2173
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object p2
@@ -8898,7 +8898,7 @@
 
     if-ne p2, v1, :cond_3
 
-    .line 2164
+    .line 2175
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v5
@@ -8919,7 +8919,7 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2166
+    .line 2177
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v4
@@ -8940,7 +8940,7 @@
 
     goto/16 :goto_0
 
-    .line 2169
+    .line 2180
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -8962,7 +8962,7 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2171
+    .line 2182
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v4
@@ -8983,7 +8983,7 @@
 
     goto/16 :goto_0
 
-    .line 2177
+    .line 2188
     :cond_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
@@ -8993,14 +8993,14 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 2178
+    .line 2189
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v0
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2179
+    .line 2190
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -9009,7 +9009,7 @@
 
     goto :goto_0
 
-    .line 2181
+    .line 2192
     :cond_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
@@ -9017,7 +9017,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2183
+    .line 2194
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v0
@@ -9036,13 +9036,13 @@
 
     goto :goto_0
 
-    .line 2149
+    .line 2160
     :cond_6
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz p2, :cond_8
 
-    .line 2150
+    .line 2161
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v0
@@ -9063,7 +9063,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2151
+    .line 2162
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v0
@@ -9084,13 +9084,13 @@
 
     goto :goto_0
 
-    .line 2143
+    .line 2154
     :cond_7
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz p2, :cond_8
 
-    .line 2144
+    .line 2155
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v0
@@ -9111,7 +9111,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartX(J)V
 
-    .line 2145
+    .line 2156
     invoke-virtual {p2}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v0
@@ -9140,7 +9140,7 @@
 
     if-eqz p2, :cond_8
 
-    .line 2197
+    .line 2208
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     const-string v1, "windowParam"
@@ -9180,11 +9180,11 @@
 
     goto/16 :goto_2
 
-    .line 2214
+    .line 2225
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
-    .line 2215
+    .line 2226
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v0, :cond_2
@@ -9198,14 +9198,14 @@
 
     add-int/lit8 v0, v0, -0x11
 
-    .line 2213
+    .line 2224
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object p2
 
     if-eqz p2, :cond_8
 
-    .line 2218
+    .line 2229
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
@@ -9214,7 +9214,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 2220
+    .line 2231
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v0
@@ -9235,7 +9235,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2222
+    .line 2233
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v0
@@ -9256,7 +9256,7 @@
 
     goto/16 :goto_2
 
-    .line 2228
+    .line 2239
     :cond_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -9292,7 +9292,7 @@
 
     goto :goto_0
 
-    .line 2234
+    .line 2245
     :cond_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
@@ -9314,7 +9314,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2235
+    .line 2246
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
@@ -9335,7 +9335,7 @@
 
     goto :goto_2
 
-    .line 2229
+    .line 2240
     :cond_5
     :goto_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
@@ -9358,7 +9358,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2230
+    .line 2241
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getLogicScale()J
 
     move-result-wide v0
@@ -9379,13 +9379,13 @@
 
     goto :goto_2
 
-    .line 2199
+    .line 2210
     :cond_6
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_8
 
-    .line 2201
+    .line 2212
     invoke-virtual {p2}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v1
@@ -9400,7 +9400,7 @@
 
     if-le v1, v2, :cond_7
 
-    .line 2202
+    .line 2213
     invoke-virtual {p2}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p2
@@ -9411,7 +9411,7 @@
 
     goto :goto_1
 
-    .line 2204
+    .line 2215
     :cond_7
     invoke-virtual {p2}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -9424,7 +9424,7 @@
     :goto_1
     if-eqz p2, :cond_8
 
-    .line 2207
+    .line 2218
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v0
@@ -9445,7 +9445,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/baseview/Indicator;->setStartY(J)V
 
-    .line 2208
+    .line 2219
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v0
@@ -9472,12 +9472,12 @@
 .method private final getMeasureCursorARange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 8
 
-    .line 2957
+    .line 2968
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_7
 
-    .line 2958
+    .line 2969
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     const-string v1, "windowParam"
@@ -9517,13 +9517,13 @@
 
     goto/16 :goto_1
 
-    .line 2974
+    .line 2985
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_7
 
-    .line 2977
+    .line 2988
     iget-object v6, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v6, :cond_2
@@ -9537,21 +9537,21 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 2975
+    .line 2986
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
-    .line 2979
+    .line 2990
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_7
 
     if-eqz v0, :cond_4
 
-    .line 2980
+    .line 2991
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
     move-result v1
@@ -9560,7 +9560,7 @@
 
     goto :goto_0
 
-    .line 2987
+    .line 2998
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -9582,7 +9582,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2989
+    .line 3000
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -9603,7 +9603,7 @@
 
     goto :goto_1
 
-    .line 2982
+    .line 2993
     :cond_4
     :goto_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
@@ -9626,7 +9626,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2984
+    .line 2995
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -9647,13 +9647,13 @@
 
     goto :goto_1
 
-    .line 2967
+    .line 2978
     :cond_5
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_7
 
-    .line 2969
+    .line 2980
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -9674,7 +9674,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2970
+    .line 2981
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -9695,13 +9695,13 @@
 
     goto :goto_1
 
-    .line 2960
+    .line 2971
     :cond_6
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_7
 
-    .line 2962
+    .line 2973
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -9722,7 +9722,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 2963
+    .line 2974
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -9749,12 +9749,12 @@
 .method private final getMeasureCursorBRange(Lcom/rigol/scope/views/CursorTag;)V
     .locals 8
 
-    .line 3003
+    .line 3014
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_7
 
-    .line 3004
+    .line 3015
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     const-string v1, "windowParam"
@@ -9794,13 +9794,13 @@
 
     goto/16 :goto_1
 
-    .line 3020
+    .line 3031
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_7
 
-    .line 3023
+    .line 3034
     iget-object v6, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v6, :cond_2
@@ -9814,21 +9814,21 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 3021
+    .line 3032
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
-    .line 3025
+    .line 3036
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_7
 
     if-eqz v0, :cond_4
 
-    .line 3026
+    .line 3037
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
     move-result v1
@@ -9837,7 +9837,7 @@
 
     goto :goto_0
 
-    .line 3033
+    .line 3044
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
@@ -9859,7 +9859,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 3035
+    .line 3046
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -9880,7 +9880,7 @@
 
     goto :goto_1
 
-    .line 3028
+    .line 3039
     :cond_4
     :goto_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
@@ -9903,7 +9903,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 3030
+    .line 3041
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -9924,13 +9924,13 @@
 
     goto :goto_1
 
-    .line 3013
+    .line 3024
     :cond_5
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_7
 
-    .line 3015
+    .line 3026
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -9951,7 +9951,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 3016
+    .line 3027
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v1
@@ -9972,13 +9972,13 @@
 
     goto :goto_1
 
-    .line 3006
+    .line 3017
     :cond_6
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_7
 
-    .line 3008
+    .line 3019
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -9999,7 +9999,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/views/CursorTag;->setStartX(J)V
 
-    .line 3009
+    .line 3020
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -10026,7 +10026,7 @@
 .method private final getRefTag(I)Lcom/rigol/scope/views/TagView;
     .locals 2
 
-    .line 915
+    .line 926
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -10047,12 +10047,12 @@
 
     move-result-object p1
 
-    .line 916
+    .line 927
     instance-of v0, p1, Lcom/rigol/scope/views/TagView;
 
     if-eqz v0, :cond_0
 
-    .line 919
+    .line 930
     check-cast p1, Lcom/rigol/scope/views/TagView;
 
     return-object p1
@@ -10066,29 +10066,29 @@
 .method private final hideABxyCursor()V
     .locals 2
 
-    .line 1339
+    .line 1350
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1340
+    .line 1351
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1341
+    .line 1352
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1342
+    .line 1353
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1343
+    .line 1354
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->getVisibility()I
@@ -10099,14 +10099,14 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 1344
+    .line 1355
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1346
+    .line 1357
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
@@ -10116,14 +10116,14 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 1347
+    .line 1358
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1349
+    .line 1360
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
@@ -10133,14 +10133,14 @@
 
     if-eq v0, v1, :cond_2
 
-    .line 1350
+    .line 1361
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1352
+    .line 1363
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
@@ -10150,7 +10150,7 @@
 
     if-eq v0, v1, :cond_3
 
-    .line 1353
+    .line 1364
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10164,7 +10164,7 @@
 .method private final hideABxyCursorShadow()V
     .locals 2
 
-    .line 1414
+    .line 1425
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->getVisibility()I
@@ -10175,14 +10175,14 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 1415
+    .line 1426
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1417
+    .line 1428
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
@@ -10192,14 +10192,14 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 1418
+    .line 1429
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1420
+    .line 1431
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
@@ -10209,14 +10209,14 @@
 
     if-eq v0, v1, :cond_2
 
-    .line 1421
+    .line 1432
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1423
+    .line 1434
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
@@ -10226,7 +10226,7 @@
 
     if-eq v0, v1, :cond_3
 
-    .line 1424
+    .line 1435
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10240,19 +10240,19 @@
 .method private final removeRefTag(I)V
     .locals 3
 
-    .line 925
+    .line 936
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getRefTag(I)Lcom/rigol/scope/views/TagView;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 927
+    .line 938
     check-cast v0, Landroid/view/View;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->removeView(Landroid/view/View;)V
 
-    .line 928
+    .line 939
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->tagViews:Landroidx/collection/SimpleArrayMap;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -10278,69 +10278,69 @@
 .method private final showABxyCursor()V
     .locals 2
 
-    .line 1308
+    .line 1319
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1309
+    .line 1320
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1310
+    .line 1321
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1311
+    .line 1322
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1312
+    .line 1323
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorAxRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1313
+    .line 1324
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorAyRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1314
+    .line 1325
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorBxRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1315
+    .line 1326
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorByRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1316
+    .line 1327
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAxPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1317
+    .line 1328
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAyPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1318
+    .line 1329
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorBxPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1319
+    .line 1330
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorByPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1320
+    .line 1331
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->getVisibility()I
@@ -10351,14 +10351,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1321
+    .line 1332
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1323
+    .line 1334
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
@@ -10368,14 +10368,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 1324
+    .line 1335
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1326
+    .line 1337
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
@@ -10385,14 +10385,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 1327
+    .line 1338
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1329
+    .line 1340
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
@@ -10402,7 +10402,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1330
+    .line 1341
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10416,7 +10416,7 @@
 .method private final showABxyCursorShadow()V
     .locals 0
 
-    .line 1407
+    .line 1418
     invoke-direct {p0}, Lcom/rigol/scope/views/window/WindowContent;->hideABxyCursorShadow()V
 
     return-void
@@ -10425,7 +10425,7 @@
 .method private final showABxyIndicator(Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
     .locals 2
 
-    .line 1247
+    .line 1258
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
@@ -10434,63 +10434,63 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1248
+    .line 1259
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1249
+    .line 1260
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1250
+    .line 1261
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1251
+    .line 1262
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorAxRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1252
+    .line 1263
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorAyRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1253
+    .line 1264
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorBxRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1254
+    .line 1265
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorByRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1255
+    .line 1266
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorAxPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
 
-    .line 1256
+    .line 1267
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorAyPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
 
-    .line 1257
+    .line 1268
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorBxPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
 
-    .line 1258
+    .line 1269
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorByPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
@@ -10501,19 +10501,19 @@
 .method private final showAxyCursor()V
     .locals 2
 
-    .line 1278
+    .line 1289
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1279
+    .line 1290
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1280
+    .line 1291
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10522,29 +10522,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1281
+    .line 1292
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1282
+    .line 1293
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorAxRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1283
+    .line 1294
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorAyRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1284
+    .line 1295
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAxPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1285
+    .line 1296
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAyPosition(Lcom/rigol/scope/views/CursorTag;)V
@@ -10555,7 +10555,7 @@
 .method private final showAxyCursorShadow()V
     .locals 2
 
-    .line 1363
+    .line 1374
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10564,29 +10564,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1364
+    .line 1375
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1365
+    .line 1376
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorAxShadowRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1366
+    .line 1377
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorAyShadowRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1367
+    .line 1378
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAxShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1368
+    .line 1379
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAyShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
@@ -10597,7 +10597,7 @@
 .method private final showAxyIndicator(Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
     .locals 2
 
-    .line 1223
+    .line 1234
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
@@ -10606,29 +10606,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1224
+    .line 1235
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1225
+    .line 1236
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorAxRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1226
+    .line 1237
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorAyRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1227
+    .line 1238
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorAxPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
 
-    .line 1228
+    .line 1239
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorAyPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
@@ -10639,19 +10639,19 @@
 .method private final showBxyCursor()V
     .locals 2
 
-    .line 1293
+    .line 1304
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1294
+    .line 1305
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowHint(Z)V
 
-    .line 1295
+    .line 1306
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10660,29 +10660,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1296
+    .line 1307
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1297
+    .line 1308
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorBxRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1298
+    .line 1309
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorByRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1299
+    .line 1310
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorBxPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1300
+    .line 1311
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorByPosition(Lcom/rigol/scope/views/CursorTag;)V
@@ -10693,7 +10693,7 @@
 .method private final showBxyCursorShadow()V
     .locals 2
 
-    .line 1375
+    .line 1386
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -10702,29 +10702,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1376
+    .line 1387
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1377
+    .line 1388
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorBxShadowRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1378
+    .line 1389
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getCursorByShadowRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1379
+    .line 1390
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorBxShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1380
+    .line 1391
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorByShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
@@ -10735,7 +10735,7 @@
 .method private final showBxyIndicator(Lcom/rigol/scope/data/ResultParam;[[Ljava/lang/String;)V
     .locals 2
 
-    .line 1235
+    .line 1246
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
@@ -10744,29 +10744,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1236
+    .line 1247
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1237
+    .line 1248
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorBxRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1238
+    .line 1249
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, v0, p1}, Lcom/rigol/scope/views/window/WindowContent;->getIndicatorByRange(Lcom/rigol/scope/views/baseview/Indicator;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1239
+    .line 1250
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorBxPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
 
-    .line 1240
+    .line 1251
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->updateIndicatorByPosition(Lcom/rigol/scope/views/baseview/Indicator;[[Ljava/lang/String;)V
@@ -10777,22 +10777,22 @@
 .method private final updateABxyCursorShadowPosition()V
     .locals 1
 
-    .line 1432
+    .line 1443
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAxShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1433
+    .line 1444
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorAyShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1434
+    .line 1445
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorBxShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1435
+    .line 1446
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateCursorByShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
@@ -10803,12 +10803,12 @@
 .method private final updateCursorAxPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2249
+    .line 2260
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2251
+    .line 2262
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -10817,7 +10817,7 @@
 
     goto :goto_0
 
-    .line 2256
+    .line 2267
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndX()J
 
@@ -10837,7 +10837,7 @@
 
     goto :goto_0
 
-    .line 2260
+    .line 2271
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getAx()J
 
@@ -10865,7 +10865,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2261
+    .line 2272
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
@@ -10888,12 +10888,12 @@
 .method private final updateCursorAxShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2625
+    .line 2636
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2628
+    .line 2639
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -10902,7 +10902,7 @@
 
     goto :goto_0
 
-    .line 2633
+    .line 2644
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndX()J
 
@@ -10922,7 +10922,7 @@
 
     goto :goto_0
 
-    .line 2637
+    .line 2648
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getAx()J
 
@@ -10950,7 +10950,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2639
+    .line 2650
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
@@ -10973,12 +10973,12 @@
 .method private final updateCursorAyPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2270
+    .line 2281
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2272
+    .line 2283
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -10987,7 +10987,7 @@
 
     goto :goto_0
 
-    .line 2277
+    .line 2288
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndY()J
 
@@ -11007,7 +11007,7 @@
 
     goto :goto_0
 
-    .line 2281
+    .line 2292
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getAy()J
 
@@ -11035,7 +11035,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2282
+    .line 2293
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
@@ -11058,12 +11058,12 @@
 .method private final updateCursorAyShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2648
+    .line 2659
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2650
+    .line 2661
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -11072,7 +11072,7 @@
 
     goto :goto_0
 
-    .line 2655
+    .line 2666
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndY()J
 
@@ -11092,7 +11092,7 @@
 
     goto :goto_0
 
-    .line 2659
+    .line 2670
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getAy()J
 
@@ -11120,7 +11120,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2661
+    .line 2672
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
@@ -11143,12 +11143,12 @@
 .method private final updateCursorBxPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2291
+    .line 2302
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2293
+    .line 2304
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -11157,7 +11157,7 @@
 
     goto :goto_0
 
-    .line 2298
+    .line 2309
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndX()J
 
@@ -11177,7 +11177,7 @@
 
     goto :goto_0
 
-    .line 2302
+    .line 2313
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getBx()J
 
@@ -11205,7 +11205,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2303
+    .line 2314
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
@@ -11228,12 +11228,12 @@
 .method private final updateCursorBxShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2670
+    .line 2681
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2672
+    .line 2683
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -11242,7 +11242,7 @@
 
     goto :goto_0
 
-    .line 2677
+    .line 2688
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndX()J
 
@@ -11262,7 +11262,7 @@
 
     goto :goto_0
 
-    .line 2681
+    .line 2692
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getBx()J
 
@@ -11290,7 +11290,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2683
+    .line 2694
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
@@ -11313,12 +11313,12 @@
 .method private final updateCursorByPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2312
+    .line 2323
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2314
+    .line 2325
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -11327,7 +11327,7 @@
 
     goto :goto_0
 
-    .line 2319
+    .line 2330
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndY()J
 
@@ -11347,7 +11347,7 @@
 
     goto :goto_0
 
-    .line 2323
+    .line 2334
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getBy()J
 
@@ -11375,7 +11375,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2324
+    .line 2335
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
@@ -11398,12 +11398,12 @@
 .method private final updateCursorByShadowPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 2692
+    .line 2703
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorResultParam:Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 2694
+    .line 2705
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -11412,7 +11412,7 @@
 
     goto :goto_0
 
-    .line 2699
+    .line 2710
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndY()J
 
@@ -11432,7 +11432,7 @@
 
     goto :goto_0
 
-    .line 2703
+    .line 2714
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getBy()J
 
@@ -11460,7 +11460,7 @@
 
     div-float/2addr v0, p1
 
-    .line 2705
+    .line 2716
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
@@ -11487,7 +11487,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 1980
+    .line 1991
     move-object v1, p2
 
     check-cast v1, [Ljava/lang/Object;
@@ -11507,7 +11507,7 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1981
+    .line 1992
     :goto_0
     move-object v2, v1
 
@@ -11532,7 +11532,7 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 1986
+    .line 1997
     check-cast p2, [Ljava/lang/Object;
 
     aget-object p2, p2, v0
@@ -11547,7 +11547,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 1987
+    .line 1998
     invoke-static {p2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -11576,7 +11576,7 @@
 
     div-float/2addr p2, v0
 
-    .line 1988
+    .line 1999
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
 
     move-result v0
@@ -11596,7 +11596,7 @@
     :goto_1
     const/16 p2, 0x8
 
-    .line 1982
+    .line 1993
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/baseview/Indicator;->setVisibility(I)V
 
     return-void
@@ -11611,7 +11611,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 1993
+    .line 2004
     move-object v2, p2
 
     check-cast v2, [Ljava/lang/Object;
@@ -11629,7 +11629,7 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 1994
+    .line 2005
     :goto_0
     move-object v3, v2
 
@@ -11654,7 +11654,7 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 1999
+    .line 2010
     check-cast p2, [Ljava/lang/Object;
 
     aget-object p2, p2, v1
@@ -11669,7 +11669,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 2000
+    .line 2011
     invoke-static {p2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -11698,7 +11698,7 @@
 
     div-float/2addr p2, v0
 
-    .line 2001
+    .line 2012
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
 
     move-result v0
@@ -11713,13 +11713,13 @@
 
     const-string p2, "top"
 
-    .line 2003
+    .line 2014
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/baseview/Indicator;->setMeaType(Ljava/lang/String;)V
 
     :cond_2
     return-void
 
-    .line 1995
+    .line 2006
     :cond_3
     :goto_1
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/baseview/Indicator;->setVisibility(I)V
@@ -11734,7 +11734,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 2008
+    .line 2019
     move-object v1, p2
 
     check-cast v1, [Ljava/lang/Object;
@@ -11754,7 +11754,7 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2009
+    .line 2020
     :goto_0
     move-object v2, v1
 
@@ -11779,7 +11779,7 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 2014
+    .line 2025
     check-cast p2, [Ljava/lang/Object;
 
     aget-object p2, p2, v0
@@ -11794,7 +11794,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 2015
+    .line 2026
     invoke-static {p2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -11823,7 +11823,7 @@
 
     div-float/2addr p2, v0
 
-    .line 2016
+    .line 2027
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
 
     move-result v0
@@ -11843,7 +11843,7 @@
     :goto_1
     const/16 p2, 0x8
 
-    .line 2010
+    .line 2021
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/baseview/Indicator;->setVisibility(I)V
 
     return-void
@@ -11856,7 +11856,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 2021
+    .line 2032
     move-object v1, p2
 
     check-cast v1, [Ljava/lang/Object;
@@ -11876,7 +11876,7 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2022
+    .line 2033
     :goto_0
     move-object v2, v1
 
@@ -11901,7 +11901,7 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 2027
+    .line 2038
     check-cast p2, [Ljava/lang/Object;
 
     aget-object p2, p2, v0
@@ -11916,7 +11916,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 2028
+    .line 2039
     invoke-static {p2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -11945,7 +11945,7 @@
 
     div-float/2addr p2, v0
 
-    .line 2029
+    .line 2040
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
 
     move-result v0
@@ -11960,7 +11960,7 @@
 
     const-string p2, "low"
 
-    .line 2031
+    .line 2042
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/baseview/Indicator;->setMeaType(Ljava/lang/String;)V
 
     :cond_2
@@ -11970,7 +11970,7 @@
     :goto_1
     const/16 p2, 0x8
 
-    .line 2023
+    .line 2034
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/baseview/Indicator;->setVisibility(I)V
 
     return-void
@@ -11979,12 +11979,12 @@
 .method private final updateMeasureCursorAPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 3049
+    .line 3060
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_2
 
-    .line 3050
+    .line 3061
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -11993,7 +11993,7 @@
 
     goto :goto_0
 
-    .line 3054
+    .line 3065
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndX()J
 
@@ -12013,7 +12013,7 @@
 
     goto :goto_0
 
-    .line 3058
+    .line 3069
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorA()J
 
@@ -12041,7 +12041,7 @@
 
     div-float/2addr v0, v1
 
-    .line 3059
+    .line 3070
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
 
     move-result v1
@@ -12062,12 +12062,12 @@
 .method private final updateMeasureCursorBPosition(Lcom/rigol/scope/views/CursorTag;)V
     .locals 5
 
-    .line 3068
+    .line 3079
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_2
 
-    .line 3070
+    .line 3081
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->isDragging()Z
 
     move-result v1
@@ -12076,7 +12076,7 @@
 
     goto :goto_0
 
-    .line 3075
+    .line 3086
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->getEndX()J
 
@@ -12096,7 +12096,7 @@
 
     goto :goto_0
 
-    .line 3079
+    .line 3090
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorB()J
 
@@ -12124,7 +12124,7 @@
 
     div-float/2addr v0, v1
 
-    .line 3080
+    .line 3091
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
 
     move-result v1
@@ -12145,14 +12145,14 @@
 .method private final updateRefColor(Lcom/rigol/scope/data/RefParam$Param;Lcom/rigol/scope/views/TagView;)V
     .locals 2
 
-    .line 883
+    .line 894
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam$Param;->getRefColor()Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 884
+    .line 895
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->value1:I
 
     if-ltz v0, :cond_0
@@ -12171,7 +12171,7 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 885
+    .line 896
     sget-object v0, Lcom/rigol/scope/utilities/Colors;->INSTANCE:Lcom/rigol/scope/utilities/Colors;
 
     invoke-virtual {v0}, Lcom/rigol/scope/utilities/Colors;->getREF_COLORS()Landroid/util/SparseIntArray;
@@ -12184,10 +12184,10 @@
 
     move-result p1
 
-    .line 886
+    .line 897
     invoke-virtual {p2, p1}, Lcom/rigol/scope/views/TagView;->setLabelColor(I)V
 
-    .line 887
+    .line 898
     invoke-virtual {p2, p1}, Lcom/rigol/scope/views/TagView;->setTagColor(I)V
 
     :cond_0
@@ -12197,10 +12197,10 @@
 .method private final updateRefLabel(ZLjava/lang/String;Lcom/rigol/scope/views/TagView;)V
     .locals 0
 
-    .line 897
+    .line 908
     invoke-virtual {p3, p1}, Lcom/rigol/scope/views/TagView;->setShowLabel(Z)V
 
-    .line 898
+    .line 909
     invoke-virtual {p3, p2}, Lcom/rigol/scope/views/TagView;->setLabel(Ljava/lang/String;)V
 
     return-void
@@ -12209,7 +12209,7 @@
 .method private final updateRefPosition(Lcom/rigol/scope/data/RefParam$Param;Lcom/rigol/scope/views/TagView;)V
     .locals 2
 
-    .line 908
+    .line 919
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -12218,12 +12218,12 @@
 
     const-wide/16 v0, 0x0
 
-    .line 909
+    .line 920
     invoke-static {p1, v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getValuePercent(Lcom/rigol/scope/data/RefParam$Param;J)F
 
     move-result p1
 
-    .line 910
+    .line 921
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
 
     move-result v0
@@ -12243,14 +12243,14 @@
 .method private final updateRefTag(ZLcom/rigol/scope/data/RefParam$Param;I)V
     .locals 1
 
-    .line 1838
+    .line 1849
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/window/WindowContent;->getRefTag(I)Lcom/rigol/scope/views/TagView;
 
     move-result-object v0
 
     if-eqz p1, :cond_2
 
-    .line 1843
+    .line 1854
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->isOnOff()Z
 
     move-result p1
@@ -12259,7 +12259,7 @@
 
     if-nez v0, :cond_0
 
-    .line 1846
+    .line 1857
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/window/WindowContent;->addRefTag(I)V
 
     goto :goto_0
@@ -12267,21 +12267,21 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1851
+    .line 1862
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/TagView;->setVisibility(I)V
 
-    .line 1854
+    .line 1865
     invoke-direct {p0, p2, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateRefPosition(Lcom/rigol/scope/data/RefParam$Param;Lcom/rigol/scope/views/TagView;)V
 
-    .line 1857
+    .line 1868
     invoke-direct {p0, p2, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateRefColor(Lcom/rigol/scope/data/RefParam$Param;Lcom/rigol/scope/views/TagView;)V
 
-    .line 1860
+    .line 1871
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent;->refParam:Lcom/rigol/scope/data/RefParam;
 
     if-eqz p1, :cond_3
 
-    .line 1861
+    .line 1872
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam;->isShowLabel()Z
 
     move-result p1
@@ -12301,7 +12301,7 @@
     :cond_1
     if-eqz v0, :cond_3
 
-    .line 1870
+    .line 1881
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/window/WindowContent;->removeRefTag(I)V
 
     goto :goto_0
@@ -12309,7 +12309,7 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 1876
+    .line 1887
     invoke-direct {p0, p3}, Lcom/rigol/scope/views/window/WindowContent;->removeRefTag(I)V
 
     :cond_3
@@ -12322,7 +12322,7 @@
 .method public final addCursorShadowTags()V
     .locals 4
 
-    .line 1193
+    .line 1204
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAxShadow:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
@@ -12333,21 +12333,21 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1194
+    .line 1205
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBxShadow:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1195
+    .line 1206
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAyShadow:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {p0, v0, v1, v3, v2}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1196
+    .line 1207
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorByShadow:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
@@ -12360,7 +12360,7 @@
 .method public final addCursorTags()V
     .locals 4
 
-    .line 1168
+    .line 1179
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAx:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
@@ -12371,35 +12371,35 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1169
+    .line 1180
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBx:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1170
+    .line 1181
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {p0, v0, v1, v3, v2}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1171
+    .line 1182
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {p0, v0, v1, v3, v2}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1172
+    .line 1183
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addCursorTag(Lcom/rigol/scope/views/CursorTag;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1173
+    .line 1184
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
@@ -12427,7 +12427,7 @@
 .method public final addHistogramRect()V
     .locals 6
 
-    .line 1118
+    .line 1129
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramRect:Lcom/rigol/scope/views/histogram/HistogramRectView;
 
     check-cast v0, Landroid/view/View;
@@ -12436,7 +12436,7 @@
 
     invoke-virtual {p0, v0, v1, v1}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;II)V
 
-    .line 1121
+    .line 1132
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     move-object v1, p0
@@ -12445,7 +12445,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1122
+    .line 1133
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramRect:Lcom/rigol/scope/views/histogram/HistogramRectView;
@@ -12460,7 +12460,7 @@
 
     invoke-virtual {v0, v2, v3, v4, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1123
+    .line 1134
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramRect:Lcom/rigol/scope/views/histogram/HistogramRectView;
@@ -12473,7 +12473,7 @@
 
     invoke-virtual {v0, v2, v3, v4, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1124
+    .line 1135
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramRect:Lcom/rigol/scope/views/histogram/HistogramRectView;
@@ -12486,7 +12486,7 @@
 
     invoke-virtual {v0, v2, v3, v4, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1125
+    .line 1136
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramRect:Lcom/rigol/scope/views/histogram/HistogramRectView;
@@ -12499,12 +12499,12 @@
 
     invoke-virtual {v0, v2, v3, v4, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1126
+    .line 1137
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-virtual {v0, v1}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1133
+    .line 1144
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramRect:Lcom/rigol/scope/views/histogram/HistogramRectView;
 
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramParam:Lcom/rigol/scope/views/histogram/HistogramResultParam;
@@ -12526,7 +12526,7 @@
     :cond_0
     move-object v1, v2
 
-    .line 1134
+    .line 1145
     :goto_0
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramParam:Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
@@ -12576,7 +12576,7 @@
 
     move-result-object v2
 
-    .line 1133
+    .line 1144
     :cond_3
     invoke-virtual {v0, v1, v3, v4, v2}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectPosition(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
 
@@ -12586,7 +12586,7 @@
 .method public final addIndicators()V
     .locals 4
 
-    .line 1095
+    .line 1106
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Lcom/rigol/scope/views/baseview/LineView;
@@ -12599,7 +12599,7 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addIndicator(Lcom/rigol/scope/views/baseview/LineView;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1096
+    .line 1107
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Lcom/rigol/scope/views/baseview/LineView;
@@ -12608,7 +12608,7 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/window/WindowContent;->addIndicator(Lcom/rigol/scope/views/baseview/LineView;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1097
+    .line 1108
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Lcom/rigol/scope/views/baseview/LineView;
@@ -12617,7 +12617,7 @@
 
     invoke-direct {p0, v0, v1, v3, v2}, Lcom/rigol/scope/views/window/WindowContent;->addIndicator(Lcom/rigol/scope/views/baseview/LineView;Landroidx/constraintlayout/widget/ConstraintSet;II)V
 
-    .line 1098
+    .line 1109
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Lcom/rigol/scope/views/baseview/LineView;
@@ -12632,7 +12632,7 @@
 .method public final addLine(II)Lcom/rigol/scope/views/baseview/LineView;
     .locals 8
 
-    .line 1062
+    .line 1073
     new-instance v6, Lcom/rigol/scope/views/baseview/LineView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getContext()Landroid/content/Context;
@@ -12643,10 +12643,10 @@
 
     invoke-direct {v6, v1, v2}, Lcom/rigol/scope/views/baseview/LineView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 1063
+    .line 1074
     invoke-virtual {v6, p1}, Lcom/rigol/scope/views/baseview/LineView;->setId(I)V
 
-    .line 1064
+    .line 1075
     invoke-virtual {v6, p2}, Lcom/rigol/scope/views/baseview/LineView;->setOrientation(I)V
 
     const/4 v1, -0x2
@@ -12657,7 +12657,7 @@
 
     if-ne p2, v3, :cond_0
 
-    .line 1068
+    .line 1079
     move-object v0, v6
 
     check-cast v0, Landroid/view/View;
@@ -12666,7 +12666,7 @@
 
     goto :goto_0
 
-    .line 1070
+    .line 1081
     :cond_0
     move-object v0, v6
 
@@ -12674,7 +12674,7 @@
 
     invoke-virtual {p0, v0, v2, v1}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;II)V
 
-    .line 1074
+    .line 1085
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
@@ -12684,7 +12684,7 @@
 
     invoke-virtual {v0, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1075
+    .line 1086
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     const/4 v3, 0x3
@@ -12699,7 +12699,7 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/rigol/scope/views/window/WindowContent;->connect(Landroidx/constraintlayout/widget/ConstraintSet;IIII)V
 
-    .line 1076
+    .line 1087
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     const/4 v3, 0x6
@@ -12708,7 +12708,7 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/rigol/scope/views/window/WindowContent;->connect(Landroidx/constraintlayout/widget/ConstraintSet;IIII)V
 
-    .line 1077
+    .line 1088
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->set:Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-virtual {v0, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
@@ -12727,13 +12727,13 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1052
+    .line 1063
     invoke-virtual {p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1053
+    .line 1064
     invoke-virtual {p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->clear(I)V
 
-    .line 1054
+    .line 1065
     invoke-virtual {p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
     return-void
@@ -12750,13 +12750,13 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1042
+    .line 1053
     invoke-virtual {p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1043
+    .line 1054
     invoke-virtual {p2, p3, p4, p5, p6}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1044
+    .line 1055
     invoke-virtual {p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
     return-void
@@ -12765,7 +12765,7 @@
 .method public final bindCursor()V
     .locals 5
 
-    .line 1686
+    .line 1697
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     const-string v1, "null cannot be cast to non-null type androidx.lifecycle.LifecycleOwner"
@@ -12801,7 +12801,7 @@
 
     throw v0
 
-    .line 1688
+    .line 1699
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -12839,7 +12839,7 @@
 
     throw v0
 
-    .line 1691
+    .line 1702
     :cond_3
     :goto_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -12875,7 +12875,7 @@
 
     throw v0
 
-    .line 1694
+    .line 1705
     :cond_5
     :goto_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -12911,7 +12911,7 @@
 
     throw v0
 
-    .line 1697
+    .line 1708
     :cond_7
     :goto_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -12947,7 +12947,7 @@
 
     throw v0
 
-    .line 1700
+    .line 1711
     :cond_9
     :goto_4
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -12983,7 +12983,7 @@
 
     throw v0
 
-    .line 1703
+    .line 1714
     :cond_b
     :goto_5
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -13027,19 +13027,19 @@
 .method public final bindHistogram()V
     .locals 2
 
-    .line 1142
+    .line 1153
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->histogramParam:Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-eqz v0, :cond_0
 
-    .line 1143
+    .line 1154
     new-instance v1, Lcom/rigol/scope/views/window/WindowContent$bindHistogram$1;
 
     invoke-direct {v1, p0}, Lcom/rigol/scope/views/window/WindowContent$bindHistogram$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
 
     check-cast v1, Landroidx/databinding/Observable$OnPropertyChangedCallback;
 
-    .line 1142
+    .line 1153
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->addOnPropertyChangedCallback(Landroidx/databinding/Observable$OnPropertyChangedCallback;)V
 
     :cond_0
@@ -13049,21 +13049,21 @@
 .method public final bindIndicator()V
     .locals 3
 
-    .line 1674
+    .line 1685
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     if-eqz v0, :cond_1
 
     const-string v1, "28_13100"
 
-    .line 1673
+    .line 1684
     invoke-virtual {v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 1674
+    .line 1685
     invoke-virtual {p0}, Lcom/rigol/scope/views/window/WindowContent;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -13095,7 +13095,7 @@
 .method public final bindMeasureCursor()V
     .locals 3
 
-    .line 1721
+    .line 1732
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingViewModel:Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
     if-eqz v0, :cond_1
@@ -13106,7 +13106,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 1722
+    .line 1733
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -13115,19 +13115,19 @@
 
     check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    .line 1723
+    .line 1734
     new-instance v2, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$1;
 
     invoke-direct {v2, p0}, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
 
     check-cast v2, Landroidx/lifecycle/Observer;
 
-    .line 1721
+    .line 1732
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_0
 
-    .line 1722
+    .line 1733
     :cond_0
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -13137,14 +13137,14 @@
 
     throw v0
 
-    .line 1766
+    .line 1777
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->mathParams:Ljava/util/List;
 
     if-eqz v0, :cond_3
 
-    .line 1769
+    .line 1780
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     if-nez v1, :cond_2
@@ -13160,21 +13160,21 @@
 
     add-int/lit8 v1, v1, -0x11
 
-    .line 1767
+    .line 1778
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathItem(Ljava/util/List;I)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 1772
+    .line 1783
     new-instance v1, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$$inlined$let$lambda$1;
 
     invoke-direct {v1, p0}, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$$inlined$let$lambda$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
 
     check-cast v1, Landroidx/databinding/Observable$OnPropertyChangedCallback;
 
-    .line 1771
+    .line 1782
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/MathParam;->addOnPropertyChangedCallback(Landroidx/databinding/Observable$OnPropertyChangedCallback;)V
 
     :cond_3
@@ -13195,21 +13195,21 @@
 
     if-gt v0, v3, :cond_c
 
-    .line 1888
+    .line 1899
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     if-eqz v3, :cond_1
 
     const/16 v4, 0x411e
 
-    .line 1887
+    .line 1898
     invoke-virtual {v3, v1, v4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    .line 1888
+    .line 1899
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v4
@@ -13231,7 +13231,7 @@
 
     throw v0
 
-    .line 1892
+    .line 1903
     :cond_1
     :goto_1
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -13240,14 +13240,14 @@
 
     const/16 v4, 0x411d
 
-    .line 1891
+    .line 1902
     invoke-virtual {v3, v1, v4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
 
     if-eqz v3, :cond_3
 
-    .line 1892
+    .line 1903
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v4
@@ -13269,7 +13269,7 @@
 
     throw v0
 
-    .line 1896
+    .line 1907
     :cond_3
     :goto_2
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -13278,14 +13278,14 @@
 
     const/16 v4, 0x4120
 
-    .line 1895
+    .line 1906
     invoke-virtual {v3, v1, v4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
 
     if-eqz v3, :cond_5
 
-    .line 1896
+    .line 1907
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v4
@@ -13307,7 +13307,7 @@
 
     throw v0
 
-    .line 1900
+    .line 1911
     :cond_5
     :goto_3
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -13316,14 +13316,14 @@
 
     const/16 v4, 0x4122
 
-    .line 1899
+    .line 1910
     invoke-virtual {v3, v1, v4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
 
     if-eqz v3, :cond_7
 
-    .line 1900
+    .line 1911
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v4
@@ -13345,7 +13345,7 @@
 
     throw v0
 
-    .line 1904
+    .line 1915
     :cond_7
     :goto_4
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -13354,14 +13354,14 @@
 
     const/16 v4, 0x4121
 
-    .line 1903
+    .line 1914
     invoke-virtual {v3, v1, v4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
 
     if-eqz v3, :cond_9
 
-    .line 1904
+    .line 1915
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v4
@@ -13383,7 +13383,7 @@
 
     throw v0
 
-    .line 1908
+    .line 1919
     :cond_9
     :goto_5
     iget-object v3, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -13392,14 +13392,14 @@
 
     const/16 v4, 0x4124
 
-    .line 1907
+    .line 1918
     invoke-virtual {v3, v1, v4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
     if-eqz v1, :cond_b
 
-    .line 1908
+    .line 1919
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v3
@@ -13427,7 +13427,7 @@
 
     goto/16 :goto_0
 
-    .line 1913
+    .line 1924
     :cond_c
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -13435,14 +13435,14 @@
 
     const/16 v3, 0x4107
 
-    .line 1912
+    .line 1923
     invoke-virtual {v0, v1, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_e
 
-    .line 1913
+    .line 1924
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -13468,7 +13468,7 @@
 
     throw v0
 
-    .line 1922
+    .line 1933
     :cond_e
     :goto_7
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
@@ -13493,7 +13493,7 @@
 
     invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 1929
+    .line 1940
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -13516,7 +13516,7 @@
 
     invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 1934
+    .line 1945
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -13539,7 +13539,7 @@
 
     invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 1939
+    .line 1950
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -13562,7 +13562,7 @@
 
     invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 1943
+    .line 1954
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -13585,7 +13585,7 @@
 
     invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 1950
+    .line 1961
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -13617,7 +13617,7 @@
 
     throw v0
 
-    .line 1943
+    .line 1954
     :cond_10
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -13625,7 +13625,7 @@
 
     throw v0
 
-    .line 1939
+    .line 1950
     :cond_11
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -13633,7 +13633,7 @@
 
     throw v0
 
-    .line 1934
+    .line 1945
     :cond_12
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -13641,7 +13641,7 @@
 
     throw v0
 
-    .line 1929
+    .line 1940
     :cond_13
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -13649,7 +13649,7 @@
 
     throw v0
 
-    .line 1922
+    .line 1933
     :cond_14
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -13788,7 +13788,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1048
+    .line 1059
     invoke-virtual {p1, p2}, Landroidx/constraintlayout/widget/ConstraintSet;->clear(I)V
 
     return-void
@@ -13801,7 +13801,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1031
+    .line 1042
     invoke-virtual {p1, p2, p3, p4, p5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
     return-void
@@ -14068,7 +14068,7 @@
 .method public final getReturnSuperOnTouch()Z
     .locals 1
 
-    .line 1004
+    .line 1015
     iget-boolean v0, p0, Lcom/rigol/scope/views/window/WindowContent;->returnSuperOnTouch:Z
 
     return v0
@@ -14321,7 +14321,7 @@
 .method public hideABxyIndicator()V
     .locals 2
 
-    .line 1265
+    .line 1276
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
@@ -14330,21 +14330,21 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1266
+    .line 1277
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorAy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1267
+    .line 1278
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBx:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1268
+    .line 1279
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorBy:Lcom/rigol/scope/views/baseview/Indicator;
 
     check-cast v0, Landroid/view/View;
@@ -14357,7 +14357,7 @@
 .method public final hideMeasureCursor()V
     .locals 2
 
-    .line 1653
+    .line 1664
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -14366,7 +14366,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1654
+    .line 1665
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -14425,7 +14425,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 993
+    .line 1004
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v0
@@ -14434,10 +14434,10 @@
 
     const/4 v0, 0x0
 
-    .line 994
+    .line 1005
     iput-boolean v0, p0, Lcom/rigol/scope/views/window/WindowContent;->returnSuperOnTouch:Z
 
-    .line 997
+    .line 1008
     :cond_0
     move-object v0, p0
 
@@ -14459,7 +14459,7 @@
 
     move-result-object v0
 
-    .line 998
+    .line 1009
     instance-of v1, v0, Lcom/rigol/scope/views/baseview/LineView;
 
     if-nez v1, :cond_2
@@ -14470,7 +14470,7 @@
 
     goto :goto_0
 
-    .line 1001
+    .line 1012
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->dragHelper:Landroidx/customview/widget/ViewDragHelper;
 
@@ -14490,7 +14490,7 @@
 .method protected onLayout(ZIIII)V
     .locals 0
 
-    .line 3128
+    .line 3139
     invoke-super/range {p0 .. p5}, Landroidx/constraintlayout/widget/ConstraintLayout;->onLayout(ZIIII)V
 
     return-void
@@ -14499,7 +14499,7 @@
 .method protected onMeasure(II)V
     .locals 0
 
-    .line 3121
+    .line 3132
     invoke-super {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintLayout;->onMeasure(II)V
 
     return-void
@@ -14508,10 +14508,10 @@
 .method protected onSizeChanged(IIII)V
     .locals 0
 
-    .line 3091
+    .line 3102
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->onSizeChanged(IIII)V
 
-    .line 3096
+    .line 3107
     new-instance p1, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;-><init>(Lcom/rigol/scope/views/window/WindowContent;)V
@@ -14532,12 +14532,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1008
+    .line 1019
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->dragHelper:Landroidx/customview/widget/ViewDragHelper;
 
     invoke-virtual {v0, p1}, Landroidx/customview/widget/ViewDragHelper;->processTouchEvent(Landroid/view/MotionEvent;)V
 
-    .line 1009
+    .line 1020
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v0
@@ -14546,7 +14546,7 @@
 
     if-nez v0, :cond_0
 
-    .line 1011
+    .line 1022
     move-object v0, p0
 
     check-cast v0, Landroid/view/ViewGroup;
@@ -14567,7 +14567,7 @@
 
     move-result-object v0
 
-    .line 1013
+    .line 1024
     instance-of v2, v0, Lcom/rigol/scope/views/baseview/LineView;
 
     if-nez v2, :cond_0
@@ -14576,16 +14576,16 @@
 
     if-nez v0, :cond_0
 
-    .line 1014
+    .line 1025
     iput-boolean v1, p0, Lcom/rigol/scope/views/window/WindowContent;->returnSuperOnTouch:Z
 
-    .line 1017
+    .line 1028
     :cond_0
     iget-boolean v0, p0, Lcom/rigol/scope/views/window/WindowContent;->returnSuperOnTouch:Z
 
     if-eqz v0, :cond_1
 
-    .line 1018
+    .line 1029
     invoke-super {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayout;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result v1
@@ -14597,14 +14597,14 @@
 .method public final removeLine(I)V
     .locals 0
 
-    .line 1085
+    .line 1096
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/window/WindowContent;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 1087
+    .line 1098
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/window/WindowContent;->removeView(Landroid/view/View;)V
 
     :cond_0
@@ -14614,24 +14614,24 @@
 .method public final resetCursorTags()V
     .locals 2
 
-    .line 1184
+    .line 1195
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowBor(Z)V
 
-    .line 1185
+    .line 1196
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowBor(Z)V
 
-    .line 1186
+    .line 1197
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
 
-    .line 1187
+    .line 1198
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
@@ -14651,24 +14651,24 @@
 .method public final setCursorTags()V
     .locals 2
 
-    .line 1177
+    .line 1188
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowBor(Z)V
 
-    .line 1178
+    .line 1189
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/CursorTag;->setShowBor(Z)V
 
-    .line 1179
+    .line 1190
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorAy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
 
-    .line 1180
+    .line 1191
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorBy:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
@@ -14751,7 +14751,7 @@
 .method public final setReturnSuperOnTouch(Z)V
     .locals 0
 
-    .line 1004
+    .line 1015
     iput-boolean p1, p0, Lcom/rigol/scope/views/window/WindowContent;->returnSuperOnTouch:Z
 
     return-void
@@ -14799,7 +14799,7 @@
 .method public final showMeasureCursor()V
     .locals 2
 
-    .line 1661
+    .line 1672
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
@@ -14808,29 +14808,29 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1662
+    .line 1673
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
     check-cast v0, Landroid/view/View;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1663
+    .line 1674
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getMeasureCursorARange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1664
+    .line 1675
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorA:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateMeasureCursorAPosition(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1665
+    .line 1676
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->getMeasureCursorBRange(Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 1666
+    .line 1677
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->messureCusorB:Lcom/rigol/scope/views/CursorTag;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/window/WindowContent;->updateMeasureCursorBPosition(Lcom/rigol/scope/views/CursorTag;)V
@@ -14841,26 +14841,26 @@
 .method public final unbindCursor()V
     .locals 3
 
-    .line 1711
+    .line 1722
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     if-eqz v0, :cond_0
 
     const-string v1, "21_3370"
 
-    .line 1710
+    .line 1721
     invoke-virtual {v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 1711
+    .line 1722
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorObserver:Landroidx/lifecycle/Observer;
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
 
-    .line 1714
+    .line 1725
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -14870,14 +14870,14 @@
 
     const/16 v2, 0xd01
 
-    .line 1713
+    .line 1724
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 1714
+    .line 1725
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->cursorObserver:Landroidx/lifecycle/Observer;
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
@@ -14889,21 +14889,21 @@
 .method public final unbindIndicator()V
     .locals 2
 
-    .line 1679
+    .line 1690
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     if-eqz v0, :cond_0
 
     const-string v1, "28_13100"
 
-    .line 1678
+    .line 1689
     invoke-virtual {v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 1679
+    .line 1690
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->indicatorObserver:Landroidx/lifecycle/Observer;
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
@@ -14915,7 +14915,7 @@
 .method public final unbindRef()V
     .locals 3
 
-    .line 1968
+    .line 1979
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     const/16 v1, 0x16
@@ -14924,19 +14924,19 @@
 
     const/16 v2, 0x411e
 
-    .line 1967
+    .line 1978
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 1968
+    .line 1979
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent;->refObserver:Landroidx/lifecycle/Observer;
 
     invoke-virtual {v0, v2}, Landroidx/lifecycle/MutableLiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
 
-    .line 1971
+    .line 1982
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -14944,14 +14944,14 @@
 
     const/16 v2, 0x411d
 
-    .line 1970
+    .line 1981
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 1971
+    .line 1982
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent;->refObserver:Landroidx/lifecycle/Observer;
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
@@ -14963,14 +14963,14 @@
 .method public final updateCursorA_B()V
     .locals 3
 
-    .line 873
+    .line 884
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_1
 
     if-eqz v0, :cond_0
 
-    .line 874
+    .line 885
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorA()J
 
     move-result-wide v0
@@ -14981,7 +14981,7 @@
 
     invoke-virtual {v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorA(J)V
 
-    .line 875
+    .line 886
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 

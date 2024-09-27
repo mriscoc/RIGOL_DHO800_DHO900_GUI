@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 0
 
-    .line 7431
+    .line 7579
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$671;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$671;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 7434
+    .line 7582
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$671;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdMiddle()J
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7431
+    .line 7579
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$671;->onChanged(Ljava/lang/Boolean;)V

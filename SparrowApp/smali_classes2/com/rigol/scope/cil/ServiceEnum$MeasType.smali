@@ -228,7 +228,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4209
+    .line 4210
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v1, "Meas_HOR_TYPE"
@@ -249,7 +249,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_HOR_TYPE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4210
+    .line 4211
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Period"
@@ -270,7 +270,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Period:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4211
+    .line 4212
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Freq"
@@ -291,7 +291,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Freq:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4212
+    .line 4213
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_RiseTime"
@@ -312,7 +312,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_RiseTime:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4213
+    .line 4214
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_FallTime"
@@ -333,7 +333,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_FallTime:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4214
+    .line 4215
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_PWidth"
@@ -354,7 +354,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PWidth:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4215
+    .line 4216
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_NWidth"
@@ -375,7 +375,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_NWidth:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4216
+    .line 4217
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_PDuty"
@@ -396,7 +396,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PDuty:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4217
+    .line 4218
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_NDuty"
@@ -417,7 +417,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_NDuty:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4218
+    .line 4219
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_PPulses"
@@ -438,7 +438,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PPulses:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4219
+    .line 4220
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_NPulses"
@@ -459,7 +459,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_NPulses:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4220
+    .line 4221
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_PEdges"
@@ -480,7 +480,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PEdges:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4221
+    .line 4222
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_NEdges"
@@ -501,7 +501,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_NEdges:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4222
+    .line 4223
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Tvmax"
@@ -522,7 +522,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Tvmax:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4223
+    .line 4224
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Tvmin"
@@ -543,7 +543,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Tvmin:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4224
+    .line 4225
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Pslew_rate"
@@ -564,7 +564,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Pslew_rate:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4225
+    .line 4226
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Nslew_rate"
@@ -585,7 +585,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Nslew_rate:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4226
+    .line 4227
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_HOR_TYPE_END"
@@ -606,7 +606,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_HOR_TYPE_END:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4227
+    .line 4228
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_VER_TYPE"
@@ -627,7 +627,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_VER_TYPE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4228
+    .line 4229
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Vmax"
@@ -648,7 +648,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vmax:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4229
+    .line 4230
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Vmin"
@@ -669,7 +669,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vmin:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4230
+    .line 4231
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Vpp"
@@ -690,7 +690,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vpp:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4231
+    .line 4232
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Vtop"
@@ -711,7 +711,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vtop:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4232
+    .line 4233
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Vbase"
@@ -732,7 +732,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vbase:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4233
+    .line 4234
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Vamp"
@@ -753,7 +753,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vamp:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4234
+    .line 4235
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Vupper"
@@ -774,7 +774,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vupper:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4235
+    .line 4236
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Vmid"
@@ -795,7 +795,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vmid:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4236
+    .line 4237
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Vlower"
@@ -816,7 +816,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vlower:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4237
+    .line 4238
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Vavg"
@@ -837,7 +837,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vavg:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4238
+    .line 4239
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Vrms"
@@ -858,7 +858,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vrms:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4239
+    .line 4240
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Vrms_S"
@@ -879,7 +879,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Vrms_S:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4240
+    .line 4241
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Overshoot"
@@ -900,7 +900,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Overshoot:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4241
+    .line 4242
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Preshoot"
@@ -921,7 +921,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Preshoot:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4242
+    .line 4243
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Area"
@@ -942,7 +942,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Area:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4243
+    .line 4244
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Area_S"
@@ -963,7 +963,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Area_S:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4244
+    .line 4245
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Variance"
@@ -984,7 +984,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Variance:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4245
+    .line 4246
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_VER_TYPE_END"
@@ -1005,7 +1005,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_VER_TYPE_END:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4246
+    .line 4247
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_DOUBLE_SRC_TYPE"
@@ -1026,7 +1026,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DOUBLE_SRC_TYPE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4247
+    .line 4248
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_DelayRR"
@@ -1047,7 +1047,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DelayRR:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4248
+    .line 4249
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_DelayRF"
@@ -1068,7 +1068,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DelayRF:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4249
+    .line 4250
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_DelayFR"
@@ -1089,7 +1089,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DelayFR:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4250
+    .line 4251
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_DelayFF"
@@ -1110,7 +1110,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DelayFF:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4251
+    .line 4252
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_PhaseRR"
@@ -1131,7 +1131,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PhaseRR:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4252
+    .line 4253
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_PhaseRF"
@@ -1152,7 +1152,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PhaseRF:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4253
+    .line 4254
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_PhaseFR"
@@ -1173,7 +1173,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PhaseFR:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4254
+    .line 4255
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_PhaseFF"
@@ -1194,7 +1194,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_PhaseFF:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4255
+    .line 4256
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_DOUBLE_SRC_TYPE_END"
@@ -1215,7 +1215,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DOUBLE_SRC_TYPE_END:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4256
+    .line 4257
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_Meas_Type"
@@ -1236,7 +1236,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Meas_Type:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4257
+    .line 4258
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_Ref_Freq"
@@ -1257,7 +1257,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Ref_Freq:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4258
+    .line 4259
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_MAX"
@@ -1278,7 +1278,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_MAX:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4259
+    .line 4260
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_RMS"
@@ -1299,7 +1299,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_RMS:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4260
+    .line 4261
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_AVG"
@@ -1320,7 +1320,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_AVG:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4261
+    .line 4262
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_Vrms"
@@ -1341,7 +1341,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Vrms:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4262
+    .line 4263
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_Irms"
@@ -1362,7 +1362,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Irms:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4263
+    .line 4264
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_Real_P"
@@ -1383,7 +1383,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Real_P:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4264
+    .line 4265
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_Apparent_P"
@@ -1404,7 +1404,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Apparent_P:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4265
+    .line 4266
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_Reactive_P"
@@ -1425,7 +1425,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Reactive_P:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4266
+    .line 4267
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_P_Factor"
@@ -1446,7 +1446,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_P_Factor:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4267
+    .line 4268
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_Phase_Angle"
@@ -1467,7 +1467,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Phase_Angle:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4268
+    .line 4269
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_Imp"
@@ -1488,7 +1488,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Imp:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4269
+    .line 4270
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_V_CrestFactor"
@@ -1509,7 +1509,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_V_CrestFactor:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4270
+    .line 4271
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "UPA_I_CrestFactor"
@@ -1530,7 +1530,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_I_CrestFactor:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4271
+    .line 4272
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "UPA_Meas_END"
@@ -1551,7 +1551,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->UPA_Meas_END:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4272
+    .line 4273
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "EYE_RESULT"
@@ -1572,7 +1572,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->EYE_RESULT:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4273
+    .line 4274
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Jitter_CLK_TIE"
@@ -1593,7 +1593,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_CLK_TIE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4274
+    .line 4275
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Jitter_DAT_TIE"
@@ -1614,7 +1614,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_DAT_TIE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4275
+    .line 4276
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Jitter_CYC_CYC"
@@ -1635,7 +1635,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_CYC_CYC:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4276
+    .line 4277
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Jitter_POS_POS"
@@ -1656,7 +1656,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_POS_POS:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4277
+    .line 4278
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Jitter_NEG_NEG"
@@ -1677,7 +1677,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_NEG_NEG:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4278
+    .line 4279
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Jitter_Result"
@@ -1698,7 +1698,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_Result:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4279
+    .line 4280
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_DVM"
@@ -1719,7 +1719,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DVM:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4280
+    .line 4281
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Counter"
@@ -1740,7 +1740,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Counter:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4281
+    .line 4282
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Cursor"
@@ -1761,7 +1761,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Cursor:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4282
+    .line 4283
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Histogram"
@@ -1782,7 +1782,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Histogram:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4283
+    .line 4284
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_Ripple"
@@ -1803,7 +1803,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Ripple:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4284
+    .line 4285
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Quality"
@@ -1824,7 +1824,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Quality:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4285
+    .line 4286
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "ALL_measData"
@@ -1845,7 +1845,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->ALL_measData:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4286
+    .line 4287
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "MASK_RESULT"
@@ -1866,7 +1866,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->MASK_RESULT:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4287
+    .line 4288
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "RTSA_MARKER1"
@@ -1887,7 +1887,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER1:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4288
+    .line 4289
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "RTSA_MARKER2"
@@ -1908,7 +1908,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER2:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4289
+    .line 4290
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "RTSA_MARKER3"
@@ -1929,7 +1929,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER3:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4290
+    .line 4291
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "RTSA_MARKER4"
@@ -1950,7 +1950,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER4:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4291
+    .line 4292
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "RTSA_MARKER5"
@@ -1971,7 +1971,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER5:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4292
+    .line 4293
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "RTSA_MARKER6"
@@ -1992,7 +1992,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER6:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4293
+    .line 4294
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "RTSA_MARKER7"
@@ -2013,7 +2013,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER7:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4294
+    .line 4295
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "RTSA_MARKER8"
@@ -2034,7 +2034,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->RTSA_MARKER8:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4295
+    .line 4296
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "TEK_RISE"
@@ -2055,7 +2055,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->TEK_RISE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4296
+    .line 4297
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "TEK_FALL"
@@ -2076,7 +2076,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->TEK_FALL:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4297
+    .line 4298
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "TEK_DELAY"
@@ -2097,7 +2097,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->TEK_DELAY:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4298
+    .line 4299
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "TEK_BACKW"
@@ -2118,7 +2118,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->TEK_BACKW:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4299
+    .line 4300
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "TEK_FORW"
@@ -2139,7 +2139,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->TEK_FORW:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4300
+    .line 4301
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "TEK_Phase"
@@ -2160,7 +2160,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->TEK_Phase:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4301
+    .line 4302
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v2, "Meas_MHistogram"
@@ -2181,7 +2181,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_MHistogram:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4302
+    .line 4303
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const-string v9, "Meas_Bode"
@@ -2206,7 +2206,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    .line 4207
+    .line 4208
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_HOR_TYPE:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     const/4 v3, 0x0
@@ -2786,19 +2786,19 @@
         }
     .end annotation
 
-    .line 4305
+    .line 4306
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4306
+    .line 4307
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->value1:I
 
-    .line 4307
+    .line 4308
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->value2:Ljava/lang/String;
 
-    .line 4308
+    .line 4309
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->pic1:Ljava/lang/String;
 
-    .line 4309
+    .line 4310
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->pic2:Ljava/lang/String;
 
     return-void
@@ -2807,7 +2807,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MeasType;
     .locals 1
 
-    .line 4207
+    .line 4208
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -2822,7 +2822,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MeasType;
     .locals 1
 
-    .line 4207
+    .line 4208
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MeasType;->clone()Ljava/lang/Object;

@@ -35,7 +35,7 @@
 .method public onPropertyChanged(Landroidx/databinding/Observable;I)V
     .locals 0
 
-    const/16 p1, 0x65
+    const/16 p1, 0x67
 
     if-ne p2, p1, :cond_1
 
@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0a01f5
+    const p2, 0x7f0a01f8
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7229
+    .line 7231
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
     const-string v1, "ACQUIRE_20G"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->ACQUIRE_20G:Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
-    .line 7230
+    .line 7232
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
     const-string v9, "ACQUIRE_10G"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
-    .line 7227
+    .line 7229
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->ACQUIRE_20G:Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 7233
+    .line 7235
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7234
+    .line 7236
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->value1:I
 
-    .line 7235
+    .line 7237
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->value2:Ljava/lang/String;
 
-    .line 7236
+    .line 7238
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->pic1:Ljava/lang/String;
 
-    .line 7237
+    .line 7239
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
     .locals 1
 
-    .line 7227
+    .line 7229
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
     .locals 1
 
-    .line 7227
+    .line 7229
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->clone()Ljava/lang/Object;

@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7054
+    .line 7056
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
     const-string v1, "EPOS_SA"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EposType;->EPOS_SA:Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
-    .line 7055
+    .line 7057
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
     const-string v9, "EPOS_SB"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
-    .line 7052
+    .line 7054
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EposType;->EPOS_SA:Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 7058
+    .line 7060
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7059
+    .line 7061
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EposType;->value1:I
 
-    .line 7060
+    .line 7062
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EposType;->value2:Ljava/lang/String;
 
-    .line 7061
+    .line 7063
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EposType;->pic1:Ljava/lang/String;
 
-    .line 7062
+    .line 7064
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EposType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EposType;
     .locals 1
 
-    .line 7052
+    .line 7054
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EposType;
     .locals 1
 
-    .line 7052
+    .line 7054
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EposType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EposType;->clone()Ljava/lang/Object;

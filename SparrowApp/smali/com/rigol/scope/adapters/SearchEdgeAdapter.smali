@@ -157,7 +157,7 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v1, 0x7f0301f6
+    const v1, 0x7f0301f7
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -395,7 +395,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a03b5
+    const v0, 0x7f0a03ba
 
     if-ne p1, v0, :cond_0
 
@@ -512,7 +512,7 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a03af
+    const p1, 0x7f0a03b4
 
     if-ne p2, p1, :cond_0
 
@@ -526,7 +526,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a03ad
+    const p1, 0x7f0a03b2
 
     if-ne p2, p1, :cond_1
 
@@ -540,7 +540,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a03ab
+    const p1, 0x7f0a03b0
 
     if-ne p2, p1, :cond_2
 
@@ -574,7 +574,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a03b5
+    const v1, 0x7f0a03ba
 
     if-ne v0, v1, :cond_1
 
@@ -605,7 +605,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v1, 0x7f0a03b0
+    const v1, 0x7f0a03b5
 
     if-ne v0, v1, :cond_4
 
@@ -672,7 +672,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0a08c7
+    const v1, 0x7f0a08e2
 
     if-ne v0, v1, :cond_5
 
@@ -848,7 +848,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a08c7
+    const v0, 0x7f0a08e2
 
     if-ne p1, v0, :cond_1
 
@@ -891,7 +891,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a08c7
+    const v0, 0x7f0a08e2
 
     if-ne p2, v0, :cond_1
 

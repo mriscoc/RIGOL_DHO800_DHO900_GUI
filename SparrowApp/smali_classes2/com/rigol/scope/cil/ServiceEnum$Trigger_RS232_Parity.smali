@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2490
+    .line 2491
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     const-string v1, "RS232_Parity_None"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->RS232_Parity_None:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
-    .line 2491
+    .line 2492
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     const-string v9, "RS232_Parity_Odd"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->RS232_Parity_Odd:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
-    .line 2492
+    .line 2493
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     const-string v2, "RS232_Parity_Even"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
-    .line 2488
+    .line 2489
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->RS232_Parity_None:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2495
+    .line 2496
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2496
+    .line 2497
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->value1:I
 
-    .line 2497
+    .line 2498
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->value2:Ljava/lang/String;
 
-    .line 2498
+    .line 2499
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->pic1:Ljava/lang/String;
 
-    .line 2499
+    .line 2500
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
     .locals 1
 
-    .line 2488
+    .line 2489
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
     .locals 1
 
-    .line 2488
+    .line 2489
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->clone()Ljava/lang/Object;

@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01ad
+    const v1, 0x7f0a01b0
 
     const/16 v2, 0x23
 
@@ -38,7 +38,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e0
+    const v1, 0x7f0a05e9
 
     const/16 v2, 0x24
 
@@ -47,7 +47,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a3
+    const v1, 0x7f0a07b0
 
     const/16 v2, 0x25
 
@@ -56,7 +56,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a076b
+    const v1, 0x7f0a0778
 
     const/16 v2, 0x26
 
@@ -65,7 +65,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a076c
+    const v1, 0x7f0a0779
 
     const/16 v2, 0x27
 
@@ -74,7 +74,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0777
+    const v1, 0x7f0a0784
 
     const/16 v2, 0x28
 
@@ -600,7 +600,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2f1
+    const/16 v0, 0x2f6
 
     if-ne p2, v0, :cond_1
 
@@ -672,7 +672,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2b7
+    const/16 v0, 0x2bc
 
     if-ne p2, v0, :cond_1
 
@@ -704,7 +704,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x2b8
+    const/16 v0, 0x2bd
 
     if-ne p2, v0, :cond_2
 
@@ -736,7 +736,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x2bd
+    const/16 v0, 0x2c2
 
     if-ne p2, v0, :cond_3
 
@@ -768,7 +768,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x2b9
+    const/16 v0, 0x2be
 
     if-ne p2, v0, :cond_4
 
@@ -800,7 +800,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x2b4
+    const/16 v0, 0x2b9
 
     if-ne p2, v0, :cond_5
 
@@ -832,7 +832,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x2b1
+    const/16 v0, 0x2b6
 
     if-ne p2, v0, :cond_6
 
@@ -864,7 +864,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x2b6
+    const/16 v0, 0x2bb
 
     if-ne p2, v0, :cond_7
 
@@ -896,7 +896,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x2b5
+    const/16 v0, 0x2ba
 
     if-ne p2, v0, :cond_8
 
@@ -928,7 +928,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x2af
+    const/16 v0, 0x2b4
 
     if-ne p2, v0, :cond_9
 
@@ -960,7 +960,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x39b
+    const/16 v0, 0x3a4
 
     if-ne p2, v0, :cond_a
 
@@ -992,7 +992,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x37f
+    const/16 v0, 0x388
 
     if-ne p2, v0, :cond_b
 
@@ -1024,7 +1024,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x2b0
+    const/16 v0, 0x2b5
 
     if-ne p2, v0, :cond_c
 
@@ -1056,7 +1056,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x2bb
+    const/16 v0, 0x2c0
 
     if-ne p2, v0, :cond_d
 
@@ -1088,7 +1088,7 @@
     throw p1
 
     :cond_d
-    const/16 v0, 0x2be
+    const/16 v0, 0x2c3
 
     if-ne p2, v0, :cond_e
 
@@ -1120,7 +1120,7 @@
     throw p1
 
     :cond_e
-    const/16 v0, 0x2b2
+    const/16 v0, 0x2b7
 
     if-ne p2, v0, :cond_f
 
@@ -1152,7 +1152,7 @@
     throw p1
 
     :cond_f
-    const/16 v0, 0x2bc
+    const/16 v0, 0x2c1
 
     if-ne p2, v0, :cond_10
 
@@ -1184,7 +1184,7 @@
     throw p1
 
     :cond_10
-    const/16 v0, 0x2ba
+    const/16 v0, 0x2bf
 
     if-ne p2, v0, :cond_11
 
@@ -1498,12 +1498,12 @@
 
     if-eqz v14, :cond_d
 
-    const v14, 0x7f0805ce
+    const v14, 0x7f0805d0
 
     goto :goto_9
 
     :cond_d
-    const v14, 0x7f0805cd
+    const v14, 0x7f0805cf
 
     :goto_9
     invoke-static {v13, v14}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -1559,7 +1559,7 @@
 
     move-result-object v14
 
-    const v10, 0x7f0805d6
+    const v10, 0x7f0805d8
 
     invoke-static {v14, v10}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1574,7 +1574,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0805d4
+    const v11, 0x7f0805d6
 
     invoke-static {v10, v11}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1631,7 +1631,7 @@
 
     move-result-object v11
 
-    const v4, 0x7f0805df
+    const v4, 0x7f0805e1
 
     invoke-static {v11, v4}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1646,7 +1646,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0805d2
+    const v5, 0x7f0805d4
 
     invoke-static {v4, v5}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1707,12 +1707,12 @@
 
     if-eqz v11, :cond_1c
 
-    const v11, 0x7f0805db
+    const v11, 0x7f0805dd
 
     goto :goto_13
 
     :cond_1c
-    const v11, 0x7f0805da
+    const v11, 0x7f0805dc
 
     :goto_13
     invoke-static {v5, v11}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -1889,7 +1889,7 @@
 
     move-wide/from16 v42, v2
 
-    const v2, 0x7f0805d9
+    const v2, 0x7f0805db
 
     invoke-static {v7, v2}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1906,7 +1906,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0805dc
+    const v3, 0x7f0805de
 
     invoke-static {v2, v3}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -4557,7 +4557,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x179
+    const/16 p1, 0x17d
 
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->notifyPropertyChanged(I)V
@@ -4608,7 +4608,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->notifyPropertyChanged(I)V
@@ -4633,7 +4633,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 
@@ -4645,7 +4645,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x179
+    const/16 v0, 0x17d
 
     if-ne v0, p1, :cond_1
 

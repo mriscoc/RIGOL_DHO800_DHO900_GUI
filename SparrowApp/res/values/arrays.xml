@@ -33,7 +33,7 @@
         <item>{v: 3, si: vdecode_1140}</item>
         <item>{v: 3, si: vdecode_1141}</item>
         <item>{v: 1, si: vdecode_1142}</item>
-        <item>{v: 1, si: vdecode_1143}</item>
+        <item>{si: vdecode_1143}</item>
         <item>{v: 1, si: vdecode_1144}</item>
         <item>{v: 0, si: vdecode_1145}</item>
         <item>{v: 1, si: vdecode_1146}</item>
@@ -54,9 +54,9 @@
         <item>{v: 1, si: vdecode_1046}</item>
         <item>{v: 3, si: vdecode_1047}</item>
         <item>{v: 0, si: vdecode_1048}</item>
-        <item>{v: 1, si: vdecode_1049}</item>
-        <item>{v: 1, si: vdecode_1050}</item>
-        <item>{v: 3, si: vdecode_1051}</item>
+        <item>{si: vdecode_1049}</item>
+        <item>{si: vdecode_1050}</item>
+        <item>{si: vdecode_1051}</item>
         <item>{v: 1, si: vdecode_1052}</item>
         <item>{v: 3, si: vdecode_1053}</item>
         <item>{v: 0, si: vdecode_1054}</item>
@@ -80,8 +80,8 @@
         <item>{v: 0, si: vdecode_1071}</item>
         <item>{v: 1, si: vdecode_1072}</item>
         <item>{v: 1, si: vdecode_1073}</item>
-        <item>{v: 1, si: vdecode_1074}</item>
-        <item>{v: 3, si: vdecode_1075}</item>
+        <item>{si: vdecode_1074}</item>
+        <item>{si: vdecode_1075}</item>
         <item>{v: 0, si: vdecode_1076}</item>
         <item>{v: 1, si: vdecode_1077}</item>
         <item>{v: 2, si: vdecode_1078}</item>
@@ -124,17 +124,17 @@
         <item>{v: 0, si: vdecode_1091}</item>
         <item>{v: 1, si: vdecode_1092}</item>
         <item>{v: 3, si: vdecode_1093}</item>
-        <item>{v: 1, si: vdecode_1094}</item>
+        <item>{si: vdecode_1094}</item>
         <item>{v: 1, si: vdecode_1095}</item>
         <item>{v: 3, si: vdecode_1096}</item>
         <item>{v: 1, si: vdecode_1097}</item>
         <item>{v: 3, si: vdecode_1098}</item>
         <item>{v: 0, si: vdecode_1099}</item>
         <item>{v: 3, si: vdecode_1100}</item>
-        <item>{v: 3, si: vdecode_1101}</item>
-        <item>{v: 1, si: vdecode_1102}</item>
+        <item>{si: vdecode_1101}</item>
+        <item>{si: vdecode_1102}</item>
         <item>{v: 1, si: vdecode_1103}</item>
-        <item>{v: 1, si: vdecode_1104}</item>
+        <item>{si: vdecode_1104}</item>
         <item>{v: 1, si: vdecode_1105}</item>
         <item>{v: 0, si: vdecode_1106}</item>
         <item>{v: 1, si: vdecode_1107}</item>
@@ -177,7 +177,7 @@
         <item>{v: 0, si: vdecode_1186}</item>
         <item>{v: 1, si: vdecode_1187}</item>
         <item>{v: 3, si: vdecode_1188}</item>
-        <item>{v: 1, si: vdecode_1189}</item>
+        <item>{si: vdecode_1189}</item>
         <item>{v: 0, si: vdecode_1190}</item>
         <item>{v: 1, si: vdecode_1191}</item>
         <item>{v: 2, si: vdecode_1192}</item>
@@ -196,7 +196,7 @@
         <item>{v: 2, si: vdecode_913}</item>
         <item>{v: 0, si: vdecode_914}</item>
         <item>{v: 1, si: vdecode_915}</item>
-        <item>{v: 1, si: vdecode_916}</item>
+        <item>{si: vdecode_916}</item>
         <item>{v: 3, si: vdecode_917}</item>
         <item>{v: 0, si: vdecode_918}</item>
         <item>{v: 1, si: vdecode_919}</item>
@@ -245,7 +245,7 @@
         <item>{v: 1, si: vdecode_961}</item>
         <item>{v: 1, si: vdecode_962}</item>
         <item>{v: 1, si: vdecode_963}</item>
-        <item>{v: 1, si: vdecode_964}</item>
+        <item>{si: vdecode_964}</item>
         <item>{v: 1, si: vdecode_965}</item>
         <item>{v: 1, si: vdecode_966}</item>
         <item>{v: 2, si: vdecode_967}</item>
@@ -366,17 +366,17 @@
         <item>{si: ioset_52}</item>
     </string-array>
     <string-array name="msg_acq_anti_aliasing">
-        <item>{v: 0, si: horizontal_33}</item>
-        <item>{v: 1, si: horizontal_34}</item>
+        <item>{v: 0, si: horizontal_34}</item>
+        <item>{v: 1, si: horizontal_35}</item>
     </string-array>
     <string-array name="msg_acq_highres_bit">
-        <item>{v: 4, si: horizontal_88}</item>
-        <item>{v: 6, si: horizontal_90}</item>
-        <item>{v: 8, si: horizontal_92}</item>
+        <item>{v: 4, si: horizontal_89}</item>
+        <item>{v: 6, si: horizontal_91}</item>
+        <item>{v: 8, si: horizontal_93}</item>
     </string-array>
     <string-array name="msg_acq_interleave_on">
-        <item>{v: 0, si: horizontal_30}</item>
-        <item>{v: 1, si: horizontal_31}</item>
+        <item>{v: 0, si: horizontal_31}</item>
+        <item>{v: 1, si: horizontal_32}</item>
     </string-array>
     <string-array name="msg_acq_memdepth">
         <item>{v: 0, si: horizontal_16}</item>
@@ -392,6 +392,7 @@
         <item>{v: 10, si: horizontal_26}</item>
         <item>{v: 11, si: horizontal_27}</item>
         <item>{v: 12, si: horizontal_28}</item>
+        <item>{v: 13, si: horizontal_29}</item>
     </string-array>
     <string-array name="msg_acq_mode">
         <item>{v: 0, pi: normal, si: horizontal_5}</item>
@@ -401,11 +402,11 @@
         <item>{v: 7, pi: ultra, si: horizontal_9}</item>
     </string-array>
     <string-array name="msg_acq_ultra_displaymode">
-        <item>{v: 0, si: horizontal_110}</item>
-        <item>{v: 1, si: horizontal_111}</item>
-        <item>{v: 2, si: horizontal_112}</item>
-        <item>{v: 3, si: horizontal_113}</item>
-        <item>{v: 4, si: horizontal_114}</item>
+        <item>{v: 0, si: horizontal_111}</item>
+        <item>{v: 1, si: horizontal_112}</item>
+        <item>{v: 2, si: horizontal_113}</item>
+        <item>{v: 3, si: horizontal_114}</item>
+        <item>{v: 4, si: horizontal_115}</item>
     </string-array>
     <string-array name="msg_afg_mod_pic">
         <item>{v: 0, pi: adf_am19, si: afg_153}</item>
@@ -580,10 +581,10 @@
         <item>{v: 12, pi: Indonesia}</item>
     </string-array>
     <string-array name="msg_app_meas1_srca_tek">
-        <item>{si: measure_245}</item>
         <item>{si: measure_246}</item>
         <item>{si: measure_247}</item>
         <item>{si: measure_248}</item>
+        <item>{si: measure_249}</item>
     </string-array>
     <string-array name="msg_app_meas_add_menu">
         <item>{si: measure_3}</item>
@@ -809,8 +810,8 @@
         <item>{v: 1, si: measure_157}</item>
     </string-array>
     <string-array name="msg_app_meas_threshold">
-        <item>{v: 0, si: measure_222}</item>
-        <item>{v: 1, si: measure_223}</item>
+        <item>{v: 0, si: measure_223}</item>
+        <item>{v: 1, si: measure_224}</item>
     </string-array>
     <string-array name="msg_app_meas_trend_enable">
         <item>{v: 0, si: measure_187}</item>
@@ -895,7 +896,6 @@
         <item>{v: 26, si: display_94}</item>
         <item>{v: 27, si: display_95}</item>
         <item>{v: 28, si: display_96}</item>
-        <item>{v: 30, si: display_97}</item>
         <item>{v: 31, si: display_98}</item>
     </string-array>
     <string-array name="msg_app_start_menu1">
@@ -925,36 +925,36 @@
         <item>{v: 1, si: utility_27}</item>
     </string-array>
     <string-array name="msg_app_utility_basesetting">
-        <item>{si: utility_122}</item>
-        <item>{si: utility_123}</item>
         <item>{si: utility_124}</item>
         <item>{si: utility_125}</item>
         <item>{si: utility_126}</item>
         <item>{si: utility_127}</item>
         <item>{si: utility_128}</item>
         <item>{si: utility_129}</item>
+        <item>{si: utility_130}</item>
+        <item>{si: utility_131}</item>
     </string-array>
     <string-array name="msg_app_utility_beeper">
         <item>{v: 0, si: utility_4}</item>
         <item>{v: 1, si: utility_5}</item>
     </string-array>
     <string-array name="msg_app_utility_default_imp">
-        <item>{v: 0, si: utility_99}</item>
-        <item>{v: 1, si: utility_100}</item>
+        <item>{v: 0, si: utility_101}</item>
+        <item>{v: 1, si: utility_102}</item>
     </string-array>
     <string-array name="msg_app_utility_hdmi">
         <item>{v: 0, si: ioset_24}</item>
         <item>{v: 1, si: ioset_25}</item>
     </string-array>
     <string-array name="msg_app_utility_hdmi_ratio">
-        <item>{v: 0, si: utility_163}</item>
-        <item>{v: 1, si: utility_164}</item>
-        <item>{v: 2, si: utility_165}</item>
-        <item>{v: 3, si: utility_166}</item>
-        <item>{v: 4, si: utility_167}</item>
-        <item>{v: 5, si: utility_168}</item>
-        <item>{v: 6, si: utility_169}</item>
-        <item>{v: 7, si: utility_170}</item>
+        <item>{v: 0, si: utility_165}</item>
+        <item>{v: 1, si: utility_166}</item>
+        <item>{v: 2, si: utility_167}</item>
+        <item>{v: 3, si: utility_168}</item>
+        <item>{v: 4, si: utility_169}</item>
+        <item>{v: 5, si: utility_170}</item>
+        <item>{v: 6, si: utility_171}</item>
+        <item>{v: 7, si: utility_172}</item>
     </string-array>
     <string-array name="msg_app_utility_hdmi_res">
         <item>{v: 0, si: ioset_27}</item>
@@ -998,8 +998,8 @@
         <item>{v: 1, si: ioset_20}</item>
     </string-array>
     <string-array name="msg_app_utility_model_open_zoom_text">
-        <item>{v: 0, si: utility_180}</item>
-        <item>{v: 1, si: utility_181}</item>
+        <item>{v: 0, si: utility_182}</item>
+        <item>{v: 1, si: utility_183}</item>
     </string-array>
     <string-array name="msg_app_utility_power_on_set">
         <item>{v: 0, si: utility_40}</item>
@@ -1013,9 +1013,9 @@
         <item>{}</item>
     </string-array>
     <string-array name="msg_app_utility_ref_clock">
-        <item>{v: 1, si: utility_93}</item>
-        <item>{v: 0, si: utility_94}</item>
-        <item>{v: 3, si: utility_95}</item>
+        <item>{v: 1, si: utility_95}</item>
+        <item>{v: 0, si: utility_96}</item>
+        <item>{v: 3, si: utility_97}</item>
     </string-array>
     <string-array name="msg_app_utility_screen_select">
         <item>{v: 0, si: utility_53}</item>
@@ -1027,17 +1027,17 @@
         <item>{v: 1, si: utility_78}</item>
     </string-array>
     <string-array name="msg_app_utility_title">
-        <item>{v: 0, si: utility_107}</item>
-        <item>{v: 1, si: utility_108}</item>
-        <item>{v: 2, si: utility_109}</item>
-        <item>{v: 3, si: utility_110}</item>
-        <item>{v: 4, si: utility_111}</item>
-        <item>{v: 5, si: utility_112}</item>
-        <item>{v: 6, si: utility_113}</item>
-        <item>{v: 7, si: utility_114}</item>
-        <item>{v: 9, si: utility_116}</item>
-        <item>{v: 12, si: utility_119}</item>
-        <item>{v: 13, si: utility_120}</item>
+        <item>{v: 0, si: utility_109}</item>
+        <item>{v: 1, si: utility_110}</item>
+        <item>{v: 2, si: utility_111}</item>
+        <item>{v: 3, si: utility_112}</item>
+        <item>{v: 4, si: utility_113}</item>
+        <item>{v: 5, si: utility_114}</item>
+        <item>{v: 6, si: utility_115}</item>
+        <item>{v: 7, si: utility_116}</item>
+        <item>{v: 9, si: utility_118}</item>
+        <item>{v: 12, si: utility_121}</item>
+        <item>{v: 13, si: utility_122}</item>
     </string-array>
     <string-array name="msg_app_utility_usbtmc_menu">
         <item>{v: 0, si: ioset_5}</item>
@@ -2680,32 +2680,32 @@
         <item>{v: 1, si: histogram_7}</item>
     </string-array>
     <string-array name="msg_hor_auto_roll">
-        <item>{v: 1, si: horizontal_53}</item>
-        <item>{v: 0, si: horizontal_54}</item>
+        <item>{v: 1, si: horizontal_54}</item>
+        <item>{v: 0, si: horizontal_55}</item>
     </string-array>
     <string-array name="msg_hor_expand">
-        <item>{v: 0, si: horizontal_63}</item>
-        <item>{v: 1, si: horizontal_64}</item>
-        <item>{v: 2, si: horizontal_65}</item>
-        <item>{v: 3, si: horizontal_66}</item>
-        <item>{v: 4, si: horizontal_67}</item>
+        <item>{v: 0, si: horizontal_64}</item>
+        <item>{v: 1, si: horizontal_65}</item>
+        <item>{v: 2, si: horizontal_66}</item>
+        <item>{v: 3, si: horizontal_67}</item>
+        <item>{v: 4, si: horizontal_68}</item>
     </string-array>
     <string-array name="msg_hor_fine_on">
-        <item>{v: 0, si: horizontal_47}</item>
-        <item>{v: 1, si: horizontal_48}</item>
+        <item>{v: 0, si: horizontal_48}</item>
+        <item>{v: 1, si: horizontal_49}</item>
     </string-array>
     <string-array name="msg_hor_run">
-        <item>{v: 0, si: horizontal_50}</item>
-        <item>{v: 1, si: horizontal_51}</item>
+        <item>{v: 0, si: horizontal_51}</item>
+        <item>{v: 1, si: horizontal_52}</item>
     </string-array>
     <string-array name="msg_hor_time_mode">
-        <item>{v: 0, si: horizontal_39}</item>
-        <item>{v: 1, si: horizontal_40}</item>
-        <item>{v: 2, si: horizontal_41}</item>
+        <item>{v: 0, si: horizontal_40}</item>
+        <item>{v: 1, si: horizontal_41}</item>
+        <item>{v: 2, si: horizontal_42}</item>
     </string-array>
     <string-array name="msg_hor_zoom_on">
-        <item>{v: 0, si: horizontal_43}</item>
-        <item>{v: 1, si: horizontal_44}</item>
+        <item>{v: 0, si: horizontal_44}</item>
+        <item>{v: 1, si: horizontal_45}</item>
     </string-array>
     <string-array name="msg_jitter_cr_freqtype">
         <item>{v: 0, si: jitter_22}</item>
@@ -3114,9 +3114,10 @@
     <string-array name="msg_meas_quick_popup">
         <item>{v: 0, si: measure_210}</item>
         <item>{v: 3, si: measure_211}</item>
-        <item>{v: 1, si: measure_212}</item>
-        <item>{v: 2, si: measure_213}</item>
-        <item>{v: 4, si: measure_214}</item>
+        <item>{v: 5, si: measure_212}</item>
+        <item>{v: 1, si: measure_213}</item>
+        <item>{v: 2, si: measure_214}</item>
+        <item>{v: 4, si: measure_215}</item>
     </string-array>
     <string-array name="msg_navigate_enable">
         <item>{v: 0, si: navigate_2}</item>
@@ -3548,6 +3549,10 @@
         <item>{v: 4, si: storage_53}</item>
         <item>{v: 24, si: storage_54}</item>
         <item>{v: 25, si: storage_55}</item>
+    </string-array>
+    <string-array name="msg_storage_connect_state">
+        <item>{v: 0, si: storage_177}</item>
+        <item>{v: 1, si: storage_178}</item>
     </string-array>
     <string-array name="msg_storage_dialog_visible">
         <item>{v: 0, si: storage_31}</item>
@@ -4552,8 +4557,8 @@
         <item>{v: 5, si: usbanalyse_25}</item>
     </string-array>
     <string-array name="tek_msg_hor_delay_sample">
-        <item>{v: 0, si: horizontal_124}</item>
-        <item>{v: 1, si: horizontal_125}</item>
+        <item>{v: 0, si: horizontal_125}</item>
+        <item>{v: 1, si: horizontal_126}</item>
     </string-array>
     <string-array name="window_type_list">
         <item>{v: 1, si: multiwindow_6}</item>

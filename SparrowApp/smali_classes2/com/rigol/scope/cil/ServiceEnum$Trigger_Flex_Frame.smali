@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3137
+    .line 3138
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     const-string v1, "trig_flex_frame_invalid"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->trig_flex_frame_invalid:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
-    .line 3138
+    .line 3139
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     const-string v9, "trig_flex_frame_sync"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->trig_flex_frame_sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
-    .line 3139
+    .line 3140
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     const-string v2, "trig_flex_frame_start"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->trig_flex_frame_start:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
-    .line 3140
+    .line 3141
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     const-string v9, "trig_flex_frame_all"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
-    .line 3135
+    .line 3136
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->trig_flex_frame_invalid:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 3143
+    .line 3144
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3144
+    .line 3145
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->value1:I
 
-    .line 3145
+    .line 3146
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->value2:Ljava/lang/String;
 
-    .line 3146
+    .line 3147
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->pic1:Ljava/lang/String;
 
-    .line 3147
+    .line 3148
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
     .locals 1
 
-    .line 3135
+    .line 3136
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
     .locals 1
 
-    .line 3135
+    .line 3136
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->clone()Ljava/lang/Object;

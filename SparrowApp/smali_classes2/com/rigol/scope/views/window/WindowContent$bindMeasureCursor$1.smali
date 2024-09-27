@@ -74,7 +74,7 @@
 .method public final onChanged(Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 1
 
-    .line 1724
+    .line 1735
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getMeasureSettingParam()Lcom/rigol/scope/data/MeasureSettingParam;
@@ -83,14 +83,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1725
+    .line 1736
     new-instance v0, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$1$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$1$1;-><init>(Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$1;)V
 
     check-cast v0, Landroidx/databinding/Observable$OnPropertyChangedCallback;
 
-    .line 1724
+    .line 1735
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->addOnPropertyChangedCallback(Landroidx/databinding/Observable$OnPropertyChangedCallback;)V
 
     :cond_0

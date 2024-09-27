@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 3
 
-    .line 834
+    .line 841
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getIpAddress()Ljava/lang/String;
@@ -72,7 +72,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 836
+    .line 843
     new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$1;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
@@ -83,7 +83,7 @@
 
     goto :goto_0
 
-    .line 840
+    .line 847
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -97,7 +97,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 842
+    .line 849
     new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$2;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$2;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
@@ -108,7 +108,7 @@
 
     goto :goto_0
 
-    .line 848
+    .line 855
     :cond_1
     new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$3;
 
@@ -118,7 +118,7 @@
 
     invoke-static {v0}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 858
+    .line 865
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getMdns()Z
@@ -127,7 +127,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 860
+    .line 867
     new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$4;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$4;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
@@ -140,7 +140,7 @@
 
     goto :goto_0
 
-    .line 875
+    .line 882
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
 

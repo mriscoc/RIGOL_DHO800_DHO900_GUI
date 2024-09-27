@@ -122,7 +122,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5727
+    .line 5728
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v1, "CMD_SERVICE_ACTIVE"
@@ -143,7 +143,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5728
+    .line 5729
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_DEACTIVE"
@@ -164,7 +164,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_DEACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5729
+    .line 5730
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_ENTER_ACTIVE"
@@ -185,7 +185,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_ENTER_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5730
+    .line 5731
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_EXIT_ACTIVE"
@@ -206,7 +206,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_EXIT_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5731
+    .line 5732
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_RE_ENTER_ACTIVE"
@@ -227,7 +227,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_RE_ENTER_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5732
+    .line 5733
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_VERT_ACTIVE"
@@ -248,7 +248,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_VERT_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5733
+    .line 5734
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_SUB_ENTER"
@@ -269,7 +269,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SUB_ENTER:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5734
+    .line 5735
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_SUB_RETURN"
@@ -290,7 +290,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SUB_RETURN:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5735
+    .line 5736
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_ITEM_FOCUS"
@@ -311,7 +311,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_ITEM_FOCUS:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5736
+    .line 5737
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_ITEM_FOCUS_AGAIN"
@@ -332,7 +332,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_ITEM_FOCUS_AGAIN:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5737
+    .line 5738
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_VIEW_CHANGE"
@@ -353,7 +353,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_VIEW_CHANGE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5738
+    .line 5739
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_INTENT"
@@ -374,7 +374,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_INTENT:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5739
+    .line 5740
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_PROGRESS_CANCEL"
@@ -395,7 +395,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_PROGRESS_CANCEL:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5740
+    .line 5741
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_INIT"
@@ -416,7 +416,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_INIT:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5741
+    .line 5742
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_RST"
@@ -437,7 +437,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_RST:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5742
+    .line 5743
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_CONFIG"
@@ -458,7 +458,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_CONFIG:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5743
+    .line 5744
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_SERIALIN"
@@ -479,7 +479,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SERIALIN:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5744
+    .line 5745
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_SERIALOUT"
@@ -500,7 +500,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SERIALOUT:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5745
+    .line 5746
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_START"
@@ -521,7 +521,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_START:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5746
+    .line 5747
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_LOAD"
@@ -542,7 +542,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_LOAD:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5747
+    .line 5748
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_MODIFIED"
@@ -563,7 +563,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_MODIFIED:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5748
+    .line 5749
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_SETTING_LOAD"
@@ -584,7 +584,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SETTING_LOAD:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5749
+    .line 5750
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_SETUP_FLUSH"
@@ -605,7 +605,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SETUP_FLUSH:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5750
+    .line 5751
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_TIMEOUT"
@@ -626,7 +626,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_TIMEOUT:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5751
+    .line 5752
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_DO_ERR"
@@ -647,7 +647,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_DO_ERR:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5752
+    .line 5753
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_HELP_REQUESST"
@@ -668,7 +668,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_HELP_REQUESST:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5753
+    .line 5754
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_LED_REQUESET"
@@ -689,7 +689,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_LED_REQUESET:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5754
+    .line 5755
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_PRE_DO"
@@ -710,7 +710,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_PRE_DO:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5755
+    .line 5756
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_POST_DO"
@@ -731,7 +731,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_POST_DO:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5756
+    .line 5757
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_ATTR_CHANGED"
@@ -752,7 +752,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_ATTR_CHANGED:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5757
+    .line 5758
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_SOFT_INT"
@@ -773,7 +773,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SOFT_INT:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5758
+    .line 5759
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_PHY_KEY"
@@ -794,7 +794,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_PHY_KEY:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5759
+    .line 5760
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_SERVICE_UP"
@@ -815,7 +815,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_SERVICE_UP:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5760
+    .line 5761
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_CMD_EXIST"
@@ -836,7 +836,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_CMD_EXIST:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5761
+    .line 5762
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_TICK"
@@ -857,7 +857,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_TICK:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5762
+    .line 5763
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_PAGE_SHOW"
@@ -878,7 +878,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_PAGE_SHOW:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5763
+    .line 5764
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_PAGE_HIDE"
@@ -899,7 +899,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_PAGE_HIDE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5764
+    .line 5765
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_ENGINE_TICK"
@@ -920,7 +920,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_ENGINE_TICK:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5765
+    .line 5766
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_LOAD_PRIVACY"
@@ -941,7 +941,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_LOAD_PRIVACY:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5767
+    .line 5768
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v9, "CMD_SERVICE_LICENSE_CHANGE"
@@ -962,7 +962,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_LICENSE_CHANGE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5768
+    .line 5769
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const-string v2, "CMD_SERVICE_TEST"
@@ -987,7 +987,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
-    .line 5725
+    .line 5726
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->CMD_SERVICE_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     const/4 v3, 0x0
@@ -1249,19 +1249,19 @@
         }
     .end annotation
 
-    .line 5771
+    .line 5772
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5772
+    .line 5773
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->value1:I
 
-    .line 5773
+    .line 5774
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->value2:Ljava/lang/String;
 
-    .line 5774
+    .line 5775
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->pic1:Ljava/lang/String;
 
-    .line 5775
+    .line 5776
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->pic2:Ljava/lang/String;
 
     return-void
@@ -1270,7 +1270,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
     .locals 1
 
-    .line 5725
+    .line 5726
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -1285,7 +1285,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
     .locals 1
 
-    .line 5725
+    .line 5726
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->clone()Ljava/lang/Object;

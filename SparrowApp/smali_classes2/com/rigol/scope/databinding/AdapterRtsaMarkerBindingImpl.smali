@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaMarkerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0791
+    const v1, 0x7f0a079e
 
     const/16 v2, 0xa
 
@@ -265,7 +265,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x203
+    const/16 v0, 0x207
 
     if-ne p2, v0, :cond_1
 
@@ -772,7 +772,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 95
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaMarkerBindingImpl;->notifyPropertyChanged(I)V
@@ -797,7 +797,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

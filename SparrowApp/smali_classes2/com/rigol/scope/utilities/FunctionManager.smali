@@ -33,15 +33,15 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 149
+    .line 150
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 126
+    .line 127
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_HORIZONTAL:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     iput-object v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->selectedFunction:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 131
+    .line 132
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Intensity:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     iput-object v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->currentFlexKnobEnum:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
@@ -52,30 +52,30 @@
 .method public static getInstance()Lcom/rigol/scope/utilities/FunctionManager;
     .locals 2
 
-    .line 139
+    .line 140
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager;->instance:Lcom/rigol/scope/utilities/FunctionManager;
 
     if-nez v0, :cond_1
 
-    .line 140
+    .line 141
     const-class v0, Lcom/rigol/scope/utilities/FunctionManager;
 
     monitor-enter v0
 
-    .line 141
+    .line 142
     :try_start_0
     sget-object v1, Lcom/rigol/scope/utilities/FunctionManager;->instance:Lcom/rigol/scope/utilities/FunctionManager;
 
     if-nez v1, :cond_0
 
-    .line 142
+    .line 143
     new-instance v1, Lcom/rigol/scope/utilities/FunctionManager;
 
     invoke-direct {v1}, Lcom/rigol/scope/utilities/FunctionManager;-><init>()V
 
     sput-object v1, Lcom/rigol/scope/utilities/FunctionManager;->instance:Lcom/rigol/scope/utilities/FunctionManager;
 
-    .line 144
+    .line 145
     :cond_0
     monitor-exit v0
 
@@ -90,7 +90,7 @@
 
     throw v1
 
-    .line 146
+    .line 147
     :cond_1
     :goto_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager;->instance:Lcom/rigol/scope/utilities/FunctionManager;
@@ -101,16 +101,16 @@
 .method private specialItemClick(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
     .locals 3
 
-    .line 1440
+    .line 1442
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/FunctionManager;->checkUltraIsOpen()Z
 
     move-result v0
 
-    const v1, 0x7f100377
+    const v1, 0x7f100376
 
     if-eqz v0, :cond_0
 
-    .line 1442
+    .line 1444
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -127,7 +127,7 @@
 
     return-void
 
-    .line 1445
+    .line 1447
     :cond_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
@@ -142,7 +142,7 @@
     :pswitch_0
     goto/16 :goto_0
 
-    .line 1484
+    .line 1486
     :pswitch_1
     const-class p1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
@@ -154,7 +154,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 1486
+    .line 1488
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -167,7 +167,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 1488
+    .line 1490
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v0
@@ -184,7 +184,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1490
+    .line 1492
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -201,7 +201,7 @@
 
     goto/16 :goto_0
 
-    .line 1492
+    .line 1494
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -213,7 +213,7 @@
 
     goto/16 :goto_0
 
-    .line 1470
+    .line 1472
     :pswitch_2
     const-class p1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
@@ -225,7 +225,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 1472
+    .line 1474
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -238,7 +238,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 1474
+    .line 1476
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v0
@@ -255,7 +255,7 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 1476
+    .line 1478
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -272,7 +272,7 @@
 
     goto :goto_0
 
-    .line 1478
+    .line 1480
     :cond_2
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -284,7 +284,7 @@
 
     goto :goto_0
 
-    .line 1467
+    .line 1469
     :pswitch_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -296,7 +296,7 @@
 
     goto :goto_0
 
-    .line 1464
+    .line 1466
     :pswitch_4
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -308,7 +308,7 @@
 
     goto :goto_0
 
-    .line 1450
+    .line 1452
     :pswitch_5
     const-class p1, Lcom/rigol/scope/viewmodels/RefViewModel;
 
@@ -320,10 +320,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 1452
+    .line 1454
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/RefViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 1453
+    .line 1455
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/RefViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -336,21 +336,21 @@
 
     if-eqz p1, :cond_3
 
-    .line 1455
+    .line 1457
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam;->getParam()Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p1
 
     if-eqz p1, :cond_3
 
-    .line 1457
+    .line 1459
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam$Param;->getRefColor()Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/RefParam$Param;->setRefColor(Lcom/rigol/scope/cil/ServiceEnum$RefColor;)V
 
-    .line 1458
+    .line 1460
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -361,7 +361,7 @@
 
     goto :goto_0
 
-    .line 1447
+    .line 1449
     :pswitch_6
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -392,7 +392,7 @@
 .method public checkUltraIsOpen()Z
     .locals 3
 
-    .line 1367
+    .line 1369
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -405,10 +405,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1369
+    .line 1371
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 1370
+    .line 1372
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -421,7 +421,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 1371
+    .line 1373
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     move-result-object v0
@@ -445,7 +445,7 @@
 
     return-void
 
-    .line 235
+    .line 236
     :cond_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
@@ -475,7 +475,7 @@
 
     goto/16 :goto_0
 
-    .line 276
+    .line 277
     :cond_1
     const-class p1, Lcom/rigol/scope/viewmodels/HistogramViewModel;
 
@@ -487,7 +487,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 278
+    .line 279
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/HistogramViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -500,12 +500,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 280
+    .line 281
     invoke-virtual {p1, v1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveEnable(Z)V
 
     goto :goto_0
 
-    .line 264
+    .line 265
     :cond_2
     const-class p1, Lcom/rigol/scope/viewmodels/CounterViewModel;
 
@@ -517,7 +517,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 266
+    .line 267
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/CounterViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -530,12 +530,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 268
+    .line 269
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/CounterResultParam;->saveEnable(Z)V
 
     goto :goto_0
 
-    .line 252
+    .line 253
     :cond_3
     const-class p1, Lcom/rigol/scope/viewmodels/DvmViewModel;
 
@@ -547,7 +547,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 254
+    .line 255
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DvmViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -560,12 +560,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 256
+    .line 257
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/DvmResultParam;->saveEnable(Z)V
 
     goto :goto_0
 
-    .line 238
+    .line 239
     :cond_4
     const-class p1, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
@@ -577,7 +577,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 240
+    .line 241
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -590,18 +590,18 @@
 
     if-eqz p1, :cond_5
 
-    .line 242
+    .line 243
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_off:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/CursorResultParam;->saveMode(Lcom/rigol/scope/cil/ServiceEnum$CursorMode;)V
 
-    .line 243
+    .line 244
     iput-boolean v1, p0, Lcom/rigol/scope/utilities/FunctionManager;->cursorSwitch:Z
 
-    .line 244
+    .line 245
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/CursorResultParam;->saveCursorEnable(Z)V
 
-    .line 246
+    .line 247
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -628,7 +628,7 @@
 
     return-void
 
-    .line 176
+    .line 177
     :cond_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
@@ -656,7 +656,7 @@
 
     goto/16 :goto_0
 
-    .line 212
+    .line 213
     :cond_1
     const-class p1, Lcom/rigol/scope/viewmodels/HistogramViewModel;
 
@@ -668,7 +668,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 214
+    .line 215
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/HistogramViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -681,12 +681,12 @@
 
     if-eqz p1, :cond_6
 
-    .line 216
+    .line 217
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveEnable(Z)V
 
     goto :goto_0
 
-    .line 202
+    .line 203
     :cond_2
     const-class p1, Lcom/rigol/scope/viewmodels/CounterViewModel;
 
@@ -698,7 +698,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 204
+    .line 205
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/CounterViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -711,12 +711,12 @@
 
     if-eqz p1, :cond_6
 
-    .line 206
+    .line 207
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/CounterResultParam;->saveEnable(Z)V
 
     goto :goto_0
 
-    .line 192
+    .line 193
     :cond_3
     const-class p1, Lcom/rigol/scope/viewmodels/DvmViewModel;
 
@@ -728,7 +728,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 194
+    .line 195
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DvmViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -741,12 +741,12 @@
 
     if-eqz p1, :cond_6
 
-    .line 196
+    .line 197
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/DvmResultParam;->saveEnable(Z)V
 
     goto :goto_0
 
-    .line 179
+    .line 180
     :cond_4
     const-class p1, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
@@ -758,7 +758,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 181
+    .line 182
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -771,18 +771,18 @@
 
     if-eqz p1, :cond_5
 
-    .line 183
+    .line 184
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_manual:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/CursorResultParam;->saveMode(Lcom/rigol/scope/cil/ServiceEnum$CursorMode;)V
 
-    .line 184
+    .line 185
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->cursorSwitch:Z
 
-    .line 185
+    .line 186
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/CursorResultParam;->saveCursorEnable(Z)V
 
-    .line 187
+    .line 188
     :cond_5
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Cursor:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -798,7 +798,7 @@
 
     const v0, 0x7f03013c
 
-    .line 714
+    .line 715
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
@@ -823,7 +823,7 @@
 
     check-cast v2, Lcom/rigol/scope/data/MappingObject;
 
-    .line 715
+    .line 716
     iget v3, p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->value1:I
 
     invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -843,7 +843,7 @@
 .method public getCurrentFlexKnobEnum()Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
     .locals 1
 
-    .line 516
+    .line 517
     iget-object v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->currentFlexKnobEnum:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     return-object v0
@@ -852,7 +852,7 @@
 .method public getSelectedFunction()Lcom/rigol/scope/cil/ServiceEnum$Function;
     .locals 1
 
-    .line 483
+    .line 484
     iget-object v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->selectedFunction:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     return-object v0
@@ -865,7 +865,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 1403
+    .line 1405
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v1
@@ -874,7 +874,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 1404
+    .line 1406
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
     move-result-wide v1
@@ -922,7 +922,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1413
+    .line 1415
     :goto_0
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->setUltraEnable(Z)V
 
@@ -937,7 +937,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 1428
+    .line 1430
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v1
@@ -946,7 +946,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 1429
+    .line 1431
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v1
@@ -968,7 +968,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1430
+    .line 1432
     :goto_0
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->setXyCheckEnable(Z)V
 
@@ -983,18 +983,18 @@
 
     return-void
 
-    .line 935
+    .line 936
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/FunctionManager;->getSelectedFunction()Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     move-result-object v0
 
-    .line 940
+    .line 941
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
 
-    .line 941
+    .line 942
     sget-object v2, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$Function;->ordinal()I
@@ -1007,7 +1007,7 @@
 
     const/16 v4, 0x29
 
-    const v5, 0x7f100377
+    const v5, 0x7f100376
 
     const/4 v6, 0x0
 
@@ -1018,7 +1018,7 @@
     :pswitch_0
     goto/16 :goto_5
 
-    .line 1342
+    .line 1344
     :pswitch_1
     const-class v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
@@ -1036,7 +1036,7 @@
 
     invoke-virtual {v0, v7}, Lcom/rigol/scope/data/BodeParam;->setBodeMinPop(Z)V
 
-    .line 1343
+    .line 1345
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -1047,7 +1047,7 @@
 
     goto/16 :goto_5
 
-    .line 1332
+    .line 1334
     :pswitch_2
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1057,7 +1057,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->toggle(Ljava/lang/Class;)V
 
-    .line 1333
+    .line 1335
     const-class v0, Lcom/rigol/scope/viewmodels/NavigateViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1068,7 +1068,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1335
+    .line 1337
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/NavigateViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1081,12 +1081,12 @@
 
     if-eqz v0, :cond_19
 
-    .line 1337
+    .line 1339
     invoke-virtual {v0, v7}, Lcom/rigol/scope/data/NavigateParam;->saveNavEnable(Z)V
 
     goto/16 :goto_5
 
-    .line 1243
+    .line 1245
     :pswitch_3
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
@@ -1098,7 +1098,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1245
+    .line 1247
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1111,7 +1111,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1247
+    .line 1249
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v1
@@ -1120,7 +1120,7 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 1248
+    .line 1250
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v1
@@ -1129,7 +1129,7 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 1250
+    .line 1252
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
@@ -1146,7 +1146,7 @@
 
     goto/16 :goto_5
 
-    .line 1252
+    .line 1254
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
@@ -1158,7 +1158,7 @@
 
     goto/16 :goto_5
 
-    .line 1217
+    .line 1219
     :pswitch_4
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1172,7 +1172,7 @@
 
     goto/16 :goto_5
 
-    .line 1213
+    .line 1215
     :pswitch_5
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1184,16 +1184,16 @@
 
     goto/16 :goto_5
 
-    .line 1206
+    .line 1208
     :pswitch_6
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     if-ne v0, v1, :cond_2
 
-    .line 1207
+    .line 1209
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 1209
+    .line 1211
     :cond_2
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1205,7 +1205,7 @@
 
     goto/16 :goto_5
 
-    .line 1196
+    .line 1198
     :pswitch_7
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -1217,7 +1217,7 @@
 
     if-ne v0, p1, :cond_3
 
-    .line 1197
+    .line 1199
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -1234,7 +1234,7 @@
 
     goto/16 :goto_5
 
-    .line 1175
+    .line 1177
     :pswitch_8
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1246,7 +1246,7 @@
 
     goto/16 :goto_5
 
-    .line 1160
+    .line 1162
     :pswitch_9
     const-class v0, Lcom/rigol/scope/viewmodels/MaskViewModel;
 
@@ -1256,7 +1256,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/MaskViewModel;
 
-    .line 1162
+    .line 1164
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1267,7 +1267,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1164
+    .line 1166
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1280,7 +1280,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1166
+    .line 1168
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v1
@@ -1289,20 +1289,20 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 1167
+    .line 1169
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Run:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     goto :goto_1
 
-    .line 1168
+    .line 1170
     :cond_4
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Stop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1166
+    .line 1168
     :goto_1
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->saveRunStop(Lcom/rigol/scope/cil/ServiceEnum$ControlAction;)V
 
-    .line 1169
+    .line 1171
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance v1, Lcom/rigol/scope/utilities/-$$Lambda$mxLrpdfoHI4nwFrKf-viPyjN0ss;
@@ -1315,19 +1315,19 @@
 
     goto/16 :goto_5
 
-    .line 1156
+    .line 1158
     :pswitch_a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
 
-    const-class v1, Lcom/rigol/scope/views/alert/ShutDownPoupView;
+    const-class v1, Lcom/rigol/scope/views/power/PowerPopupView;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->show(Ljava/lang/Class;)V
 
     goto/16 :goto_5
 
-    .line 1151
+    .line 1152
     :pswitch_b
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1339,7 +1339,7 @@
 
     goto/16 :goto_5
 
-    .line 1146
+    .line 1147
     :pswitch_c
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1351,13 +1351,13 @@
 
     goto/16 :goto_5
 
-    .line 1127
+    .line 1128
     :pswitch_d
     instance-of v0, v1, Lcom/rigol/scope/MainActivity;
 
     if-eqz v0, :cond_19
 
-    .line 1128
+    .line 1129
     check-cast v1, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v1}, Lcom/rigol/scope/MainActivity;->getSharedViewModel()Lcom/rigol/scope/viewmodels/SharedViewModel;
@@ -1368,7 +1368,7 @@
 
     return-void
 
-    .line 1132
+    .line 1133
     :cond_5
     iget-object v0, v0, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasUpdate:Landroidx/lifecycle/MutableLiveData;
 
@@ -1380,7 +1380,7 @@
 
     if-eqz v0, :cond_7
 
-    .line 1133
+    .line 1134
     invoke-virtual {v0}, Lcom/rigol/scope/data/TwoTuple;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
@@ -1395,7 +1395,7 @@
 
     goto :goto_2
 
-    .line 1141
+    .line 1142
     :cond_6
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1407,12 +1407,12 @@
 
     goto/16 :goto_5
 
-    .line 1135
+    .line 1136
     :cond_7
     :goto_2
     invoke-virtual {v1}, Lcom/rigol/scope/MainActivity;->checkNewVersion()V
 
-    .line 1137
+    .line 1138
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -1421,7 +1421,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f10039e
+    const v0, 0x7f10039d
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1431,18 +1431,18 @@
 
     return-void
 
-    .line 1090
+    .line 1091
     :pswitch_e
     new-instance v0, Lcom/rigol/scope/views/openSourceLicense/HelpPopuwin;
 
     invoke-direct {v0}, Lcom/rigol/scope/views/openSourceLicense/HelpPopuwin;-><init>()V
 
-    .line 1091
+    .line 1092
     invoke-virtual {v0}, Lcom/rigol/scope/views/openSourceLicense/HelpPopuwin;->show()V
 
     goto/16 :goto_5
 
-    .line 1086
+    .line 1087
     :pswitch_f
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1454,7 +1454,7 @@
 
     goto/16 :goto_5
 
-    .line 1074
+    .line 1075
     :pswitch_10
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1466,24 +1466,24 @@
 
     move-result-object v0
 
-    .line 1075
+    .line 1076
     instance-of v1, v0, Lcom/rigol/scope/views/UtilityPopupView;
 
     if-eqz v1, :cond_19
 
-    .line 1077
+    .line 1078
     move-object v1, v0
 
     check-cast v1, Lcom/rigol/scope/views/UtilityPopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/UtilityPopupView;->setQuickAdapter()V
 
-    .line 1078
+    .line 1079
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
     goto/16 :goto_5
 
-    .line 1067
+    .line 1068
     :pswitch_11
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1495,7 +1495,7 @@
 
     goto/16 :goto_5
 
-    .line 1038
+    .line 1039
     :pswitch_12
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1507,7 +1507,7 @@
 
     goto/16 :goto_5
 
-    .line 1026
+    .line 1027
     :pswitch_13
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1519,7 +1519,7 @@
 
     goto/16 :goto_5
 
-    .line 1022
+    .line 1023
     :pswitch_14
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1531,7 +1531,7 @@
 
     goto/16 :goto_5
 
-    .line 995
+    .line 996
     :pswitch_15
     const-class v0, Lcom/rigol/scope/viewmodels/FftViewModel;
 
@@ -1545,7 +1545,7 @@
 
     return-void
 
-    .line 1000
+    .line 1001
     :cond_8
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/FftViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -1561,7 +1561,7 @@
 
     return-void
 
-    .line 1005
+    .line 1006
     :cond_9
     invoke-virtual {v0}, Lcom/rigol/scope/data/FftParam;->isEnable()Z
 
@@ -1569,10 +1569,10 @@
 
     if-nez v1, :cond_a
 
-    .line 1007
+    .line 1008
     invoke-virtual {v0, v7}, Lcom/rigol/scope/data/FftParam;->saveEnable(Z)V
 
-    .line 1010
+    .line 1011
     :cond_a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1584,7 +1584,7 @@
 
     goto/16 :goto_5
 
-    .line 982
+    .line 983
     :pswitch_16
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1596,7 +1596,7 @@
 
     goto/16 :goto_5
 
-    .line 947
+    .line 948
     :pswitch_17
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1608,7 +1608,7 @@
 
     goto/16 :goto_5
 
-    .line 944
+    .line 945
     :pswitch_18
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1620,7 +1620,7 @@
 
     goto/16 :goto_5
 
-    .line 1057
+    .line 1058
     :pswitch_19
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1636,7 +1636,7 @@
 
     if-nez v0, :cond_b
 
-    .line 1059
+    .line 1060
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1647,7 +1647,7 @@
 
     goto/16 :goto_5
 
-    .line 1062
+    .line 1063
     :cond_b
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -1657,7 +1657,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f100379
+    const v1, 0x7f100378
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1667,7 +1667,7 @@
 
     goto/16 :goto_5
 
-    .line 1225
+    .line 1227
     :pswitch_1a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1679,7 +1679,7 @@
 
     move-result-object v0
 
-    .line 1226
+    .line 1228
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v1
@@ -1692,19 +1692,19 @@
 
     if-eqz v0, :cond_19
 
-    .line 1228
+    .line 1230
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->isShowing()Z
 
     move-result v1
 
     if-eqz v1, :cond_c
 
-    .line 1230
+    .line 1232
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
     goto/16 :goto_0
 
-    .line 1232
+    .line 1234
     :cond_c
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
@@ -1713,12 +1713,12 @@
     :cond_d
     if-eqz v0, :cond_19
 
-    .line 1237
+    .line 1239
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
     goto/16 :goto_5
 
-    .line 1178
+    .line 1180
     :pswitch_1b
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
@@ -1730,7 +1730,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1180
+    .line 1182
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1743,7 +1743,7 @@
 
     if-eqz v0, :cond_19
 
-    .line 1182
+    .line 1184
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v0
@@ -1752,7 +1752,7 @@
 
     if-ne v0, v1, :cond_e
 
-    .line 1184
+    .line 1186
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
@@ -1769,7 +1769,7 @@
 
     goto/16 :goto_5
 
-    .line 1186
+    .line 1188
     :cond_e
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1781,7 +1781,7 @@
 
     goto/16 :goto_5
 
-    .line 1259
+    .line 1261
     :pswitch_1c
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/FunctionManager;->checkUltraIsOpen()Z
 
@@ -1789,7 +1789,7 @@
 
     if-eqz v0, :cond_f
 
-    .line 1260
+    .line 1262
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -1806,7 +1806,7 @@
 
     return-void
 
-    .line 1263
+    .line 1265
     :cond_f
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -1822,23 +1822,23 @@
 
     if-nez v0, :cond_12
 
-    .line 1266
+    .line 1268
     instance-of v0, v1, Lcom/rigol/scope/MainActivity;
 
     if-eqz v0, :cond_19
 
-    .line 1267
+    .line 1269
     new-instance v0, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {v0}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1270
+    .line 1272
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 1271
+    .line 1273
     sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 1275
+    .line 1277
     const-class v7, Lcom/rigol/scope/viewmodels/XYViewModel;
 
     invoke-static {v7}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1849,7 +1849,7 @@
 
     if-eqz v7, :cond_11
 
-    .line 1277
+    .line 1279
     invoke-virtual {v7}, Lcom/rigol/scope/viewmodels/XYViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v7
@@ -1862,7 +1862,7 @@
 
     if-eqz v7, :cond_11
 
-    .line 1279
+    .line 1281
     invoke-virtual {v7}, Lcom/rigol/scope/data/XYParam;->getSourceA()Lcom/rigol/scope/data/BaseProperty;
 
     move-result-object v8
@@ -1885,7 +1885,7 @@
 
     move-object v4, v8
 
-    .line 1283
+    .line 1285
     :cond_10
     invoke-virtual {v7}, Lcom/rigol/scope/data/XYParam;->getSourceB()Lcom/rigol/scope/data/BaseProperty;
 
@@ -1909,22 +1909,22 @@
 
     move-object v5, v7
 
-    .line 1289
+    .line 1291
     :cond_11
     invoke-virtual {v0, v4}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1290
+    .line 1292
     invoke-virtual {v0, v5}, Lcom/rigol/scope/data/WindowParam;->setSource2(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1291
+    .line 1293
     invoke-virtual {v0, v2}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1292
+    .line 1294
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_XY:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v0, v2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1293
+    .line 1295
     check-cast v1, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v1}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
@@ -1935,7 +1935,7 @@
 
     goto/16 :goto_5
 
-    .line 1298
+    .line 1300
     :cond_12
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1947,30 +1947,30 @@
 
     move-result-object v0
 
-    .line 1299
+    .line 1301
     instance-of v1, v0, Lcom/rigol/scope/views/xy/XYPopupView;
 
     if-eqz v1, :cond_19
 
-    .line 1300
+    .line 1302
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->isShowing()Z
 
     move-result v1
 
     if-eqz v1, :cond_13
 
-    .line 1301
+    .line 1303
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
     goto/16 :goto_5
 
-    .line 1304
+    .line 1306
     :cond_13
     new-instance v1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {v1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1305
+    .line 1307
     const-class v4, Lcom/rigol/scope/viewmodels/XYViewModel;
 
     invoke-static {v4}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1981,7 +1981,7 @@
 
     if-eqz v4, :cond_15
 
-    .line 1307
+    .line 1309
     invoke-virtual {v4}, Lcom/rigol/scope/viewmodels/XYViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v4
@@ -1994,7 +1994,7 @@
 
     if-eqz v4, :cond_16
 
-    .line 1309
+    .line 1311
     invoke-virtual {v4}, Lcom/rigol/scope/data/XYParam;->getSourceA()Lcom/rigol/scope/data/BaseProperty;
 
     move-result-object v5
@@ -2015,10 +2015,10 @@
 
     if-eqz v5, :cond_14
 
-    .line 1311
+    .line 1313
     invoke-virtual {v1, v5}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1313
+    .line 1315
     :cond_14
     invoke-virtual {v4}, Lcom/rigol/scope/data/XYParam;->getSourceB()Lcom/rigol/scope/data/BaseProperty;
 
@@ -2040,45 +2040,45 @@
 
     if-eqz v4, :cond_16
 
-    .line 1315
+    .line 1317
     invoke-virtual {v1, v4}, Lcom/rigol/scope/data/WindowParam;->setSource2(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
     goto :goto_3
 
-    .line 1319
+    .line 1321
     :cond_15
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {v1, v4}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1320
+    .line 1322
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {v1, v4}, Lcom/rigol/scope/data/WindowParam;->setSource2(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1322
+    .line 1324
     :cond_16
     :goto_3
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1323
+    .line 1325
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_XY:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1324
+    .line 1326
     move-object v2, v0
 
     check-cast v2, Lcom/rigol/scope/views/xy/XYPopupView;
 
     invoke-virtual {v2, v1}, Lcom/rigol/scope/views/xy/XYPopupView;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 1325
+    .line 1327
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
     goto/16 :goto_5
 
-    .line 1046
+    .line 1047
     :pswitch_1d
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_SEARCH:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -2086,7 +2086,7 @@
 
     goto/16 :goto_5
 
-    .line 1030
+    .line 1031
     :pswitch_1e
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -2094,7 +2094,7 @@
 
     goto/16 :goto_5
 
-    .line 1034
+    .line 1035
     :pswitch_1f
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_UPA:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -2102,7 +2102,7 @@
 
     goto/16 :goto_5
 
-    .line 1042
+    .line 1043
     :pswitch_20
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MASK:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -2110,7 +2110,7 @@
 
     goto/16 :goto_5
 
-    .line 990
+    .line 991
     :pswitch_21
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_REF:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -2118,7 +2118,7 @@
 
     goto/16 :goto_5
 
-    .line 986
+    .line 987
     :pswitch_22
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2130,7 +2130,7 @@
 
     goto/16 :goto_5
 
-    .line 1053
+    .line 1054
     :pswitch_23
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_RECORD:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -2138,7 +2138,7 @@
 
     goto/16 :goto_5
 
-    .line 953
+    .line 954
     :pswitch_24
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2150,7 +2150,7 @@
 
     goto :goto_5
 
-    .line 1014
+    .line 1015
     :pswitch_25
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -2162,7 +2162,7 @@
 
     goto :goto_5
 
-    .line 1018
+    .line 1019
     :pswitch_26
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -2174,7 +2174,7 @@
 
     goto :goto_5
 
-    .line 960
+    .line 961
     :pswitch_27
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/FunctionManager;->checkUltraIsOpen()Z
 
@@ -2182,7 +2182,7 @@
 
     if-eqz v0, :cond_17
 
-    .line 961
+    .line 962
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -2199,7 +2199,7 @@
 
     return-void
 
-    .line 965
+    .line 966
     :cond_17
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -2213,7 +2213,7 @@
 
     if-eqz v0, :cond_18
 
-    .line 966
+    .line 967
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -2226,7 +2226,7 @@
 
     goto :goto_4
 
-    .line 970
+    .line 971
     :cond_18
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -2236,7 +2236,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/FunctionManager;->enable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 971
+    .line 972
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -2245,7 +2245,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/FunctionManager;->setSelectedFunction(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 972
+    .line 973
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -2254,7 +2254,7 @@
 
     invoke-virtual {v0, v3, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 975
+    .line 976
     :goto_4
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -2276,16 +2276,16 @@
     :goto_5
     if-eqz v6, :cond_1a
 
-    .line 1352
+    .line 1354
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/FunctionManager;->restoreSelectedFunction()V
 
     goto :goto_6
 
-    .line 1354
+    .line 1356
     :cond_1a
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/FunctionManager;->setSelectedFunction(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 1358
+    .line 1360
     :goto_6
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -2357,11 +2357,11 @@
 
     return v0
 
-    .line 899
+    .line 900
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/FunctionManager;->setSelectedFunction(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 903
+    .line 904
     sget-object v1, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$Function;->ordinal()I
@@ -2376,7 +2376,7 @@
 
     goto :goto_1
 
-    .line 906
+    .line 907
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -2392,7 +2392,7 @@
 
     if-nez v1, :cond_2
 
-    .line 908
+    .line 909
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -2403,7 +2403,7 @@
 
     goto :goto_0
 
-    .line 911
+    .line 912
     :cond_2
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -2413,7 +2413,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f100379
+    const v1, 0x7f100378
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2424,7 +2424,7 @@
     :goto_0
     const/4 v0, 0x1
 
-    .line 920
+    .line 921
     :goto_1
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -2446,7 +2446,7 @@
 
     return v0
 
-    .line 318
+    .line 319
     :cond_0
     sget-object v1, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
@@ -2464,7 +2464,7 @@
 
     goto/16 :goto_2
 
-    .line 411
+    .line 412
     :pswitch_0
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -2480,7 +2480,7 @@
 
     return v1
 
-    .line 401
+    .line 402
     :pswitch_1
     const-class p1, Lcom/rigol/scope/viewmodels/SearchViewModel;
 
@@ -2492,10 +2492,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 403
+    .line 404
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/SearchViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 404
+    .line 405
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/SearchViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2508,14 +2508,14 @@
 
     if-eqz p1, :cond_7
 
-    .line 406
+    .line 407
     invoke-virtual {p1}, Lcom/rigol/scope/data/SearchParam;->isEnable()Z
 
     move-result p1
 
     return p1
 
-    .line 385
+    .line 386
     :pswitch_2
     const-class p1, Lcom/rigol/scope/viewmodels/DecodeViewModel;
 
@@ -2527,10 +2527,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 387
+    .line 388
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DecodeViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 389
+    .line 390
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DecodeViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2543,14 +2543,14 @@
 
     if-eqz p1, :cond_2
 
-    .line 390
+    .line 391
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     if-lez v2, :cond_2
 
-    .line 391
+    .line 392
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2569,7 +2569,7 @@
 
     check-cast v2, Lcom/rigol/scope/data/DecodeParam;
 
-    .line 392
+    .line 393
     invoke-virtual {v2}, Lcom/rigol/scope/data/DecodeParam;->isOnOff()Z
 
     move-result v2
@@ -2583,7 +2583,7 @@
     :cond_2
     return v0
 
-    .line 375
+    .line 376
     :pswitch_3
     const-class p1, Lcom/rigol/scope/viewmodels/UpaViewModel;
 
@@ -2595,10 +2595,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 377
+    .line 378
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UpaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 378
+    .line 379
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UpaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2611,14 +2611,14 @@
 
     if-eqz p1, :cond_7
 
-    .line 380
+    .line 381
     invoke-virtual {p1}, Lcom/rigol/scope/data/UpaParam;->getRefPowerDisp()Z
 
     move-result p1
 
     return p1
 
-    .line 365
+    .line 366
     :pswitch_4
     const-class p1, Lcom/rigol/scope/viewmodels/MaskViewModel;
 
@@ -2630,10 +2630,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 367
+    .line 368
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MaskViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 368
+    .line 369
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MaskViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2646,14 +2646,14 @@
 
     if-eqz p1, :cond_7
 
-    .line 370
+    .line 371
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskParam;->isEnable()Z
 
     move-result p1
 
     return p1
 
-    .line 355
+    .line 356
     :pswitch_5
     const-class p1, Lcom/rigol/scope/viewmodels/RefViewModel;
 
@@ -2665,10 +2665,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 357
+    .line 358
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/RefViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 358
+    .line 359
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/RefViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2681,7 +2681,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 360
+    .line 361
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam;->getParam()Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p1
@@ -2701,7 +2701,7 @@
     :cond_3
     return v0
 
-    .line 339
+    .line 340
     :pswitch_6
     const-class p1, Lcom/rigol/scope/viewmodels/MathViewModel;
 
@@ -2713,10 +2713,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 341
+    .line 342
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MathViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 342
+    .line 343
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MathViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2729,14 +2729,14 @@
 
     if-eqz p1, :cond_5
 
-    .line 344
+    .line 345
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     if-lez v2, :cond_5
 
-    .line 345
+    .line 346
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2755,7 +2755,7 @@
 
     check-cast v2, Lcom/rigol/scope/data/MathParam;
 
-    .line 346
+    .line 347
     invoke-virtual {v2}, Lcom/rigol/scope/data/MathParam;->getStatus()Z
 
     move-result v2
@@ -2769,7 +2769,7 @@
     :cond_5
     return v0
 
-    .line 329
+    .line 330
     :pswitch_7
     const-class p1, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;
 
@@ -2781,10 +2781,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 331
+    .line 332
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 332
+    .line 333
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2797,14 +2797,14 @@
 
     if-eqz p1, :cond_7
 
-    .line 334
+    .line 335
     invoke-virtual {p1}, Lcom/rigol/scope/data/WaveRecordParam;->isRecordOnOff()Z
 
     move-result p1
 
     return p1
 
-    .line 320
+    .line 321
     :cond_6
     const-class p1, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
@@ -2816,7 +2816,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 322
+    .line 323
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -2829,7 +2829,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 324
+    .line 325
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object p1
@@ -2862,28 +2862,28 @@
 
     const/4 v0, 0x0
 
-    .line 156
+    .line 157
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->cursorSwitch:Z
 
-    .line 157
+    .line 158
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->recordSwitch:Z
 
-    .line 158
+    .line 159
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->refSwitch:Z
 
-    .line 159
+    .line 160
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->maskSwitch:Z
 
-    .line 160
+    .line 161
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->upaSwitch:Z
 
-    .line 161
+    .line 162
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->decodeSwitch:Z
 
-    .line 162
+    .line 163
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->searchSwitch:Z
 
-    .line 163
+    .line 164
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->xySwitch:Z
 
     return-void
@@ -2892,12 +2892,12 @@
 .method public restoreSelectedFunction()V
     .locals 3
 
-    .line 882
+    .line 883
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_HORIZONTAL:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     iput-object v0, p0, Lcom/rigol/scope/utilities/FunctionManager;->selectedFunction:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 884
+    .line 885
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -2918,7 +2918,7 @@
 
     return-void
 
-    .line 811
+    .line 812
     :cond_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$FlexKnobEnum:[I
 
@@ -2938,14 +2938,14 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 873
+    .line 874
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Intensity:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     iput-object p1, p0, Lcom/rigol/scope/utilities/FunctionManager;->currentFlexKnobEnum:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     goto/16 :goto_0
 
-    .line 864
+    .line 865
     :pswitch_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2955,7 +2955,7 @@
 
     goto/16 :goto_0
 
-    .line 858
+    .line 859
     :pswitch_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2967,7 +2967,7 @@
 
     goto/16 :goto_0
 
-    .line 855
+    .line 856
     :pswitch_2
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2979,7 +2979,7 @@
 
     goto/16 :goto_0
 
-    .line 852
+    .line 853
     :pswitch_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2991,7 +2991,7 @@
 
     goto/16 :goto_0
 
-    .line 849
+    .line 850
     :pswitch_4
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3003,7 +3003,7 @@
 
     goto :goto_0
 
-    .line 846
+    .line 847
     :pswitch_5
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3015,7 +3015,7 @@
 
     goto :goto_0
 
-    .line 843
+    .line 844
     :pswitch_6
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3027,7 +3027,7 @@
 
     goto :goto_0
 
-    .line 840
+    .line 841
     :pswitch_7
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3037,7 +3037,7 @@
 
     goto :goto_0
 
-    .line 837
+    .line 838
     :pswitch_8
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3047,7 +3047,7 @@
 
     goto :goto_0
 
-    .line 834
+    .line 835
     :pswitch_9
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3057,7 +3057,7 @@
 
     goto :goto_0
 
-    .line 831
+    .line 832
     :pswitch_a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3067,7 +3067,7 @@
 
     goto :goto_0
 
-    .line 828
+    .line 829
     :pswitch_b
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3077,7 +3077,7 @@
 
     goto :goto_0
 
-    .line 825
+    .line 826
     :pswitch_c
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3087,7 +3087,7 @@
 
     goto :goto_0
 
-    .line 822
+    .line 823
     :pswitch_d
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3097,7 +3097,7 @@
 
     goto :goto_0
 
-    .line 819
+    .line 820
     :pswitch_e
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3107,7 +3107,7 @@
 
     goto :goto_0
 
-    .line 816
+    .line 817
     :pswitch_f
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3117,7 +3117,7 @@
 
     goto :goto_0
 
-    .line 813
+    .line 814
     :pswitch_10
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3160,7 +3160,7 @@
 .method public selectLight(Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;)V
     .locals 4
 
-    .line 728
+    .line 729
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -3171,7 +3171,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 729
+    .line 730
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3185,7 +3185,7 @@
 
     return-void
 
-    .line 735
+    .line 736
     :cond_1
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$FlexKnobEnum:[I
 
@@ -3205,14 +3205,14 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 797
+    .line 798
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Intensity:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     iput-object p1, p0, Lcom/rigol/scope/utilities/FunctionManager;->currentFlexKnobEnum:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     goto/16 :goto_0
 
-    .line 788
+    .line 789
     :pswitch_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3222,7 +3222,7 @@
 
     goto/16 :goto_0
 
-    .line 782
+    .line 783
     :pswitch_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3234,7 +3234,7 @@
 
     goto/16 :goto_0
 
-    .line 779
+    .line 780
     :pswitch_2
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3246,7 +3246,7 @@
 
     goto/16 :goto_0
 
-    .line 776
+    .line 777
     :pswitch_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3258,7 +3258,7 @@
 
     goto/16 :goto_0
 
-    .line 773
+    .line 774
     :pswitch_4
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3270,7 +3270,7 @@
 
     goto :goto_0
 
-    .line 770
+    .line 771
     :pswitch_5
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3282,7 +3282,7 @@
 
     goto :goto_0
 
-    .line 767
+    .line 768
     :pswitch_6
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3294,7 +3294,7 @@
 
     goto :goto_0
 
-    .line 764
+    .line 765
     :pswitch_7
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3304,7 +3304,7 @@
 
     goto :goto_0
 
-    .line 761
+    .line 762
     :pswitch_8
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3314,7 +3314,7 @@
 
     goto :goto_0
 
-    .line 758
+    .line 759
     :pswitch_9
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3324,7 +3324,7 @@
 
     goto :goto_0
 
-    .line 755
+    .line 756
     :pswitch_a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3334,7 +3334,7 @@
 
     goto :goto_0
 
-    .line 752
+    .line 753
     :pswitch_b
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3344,7 +3344,7 @@
 
     goto :goto_0
 
-    .line 749
+    .line 750
     :pswitch_c
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3354,7 +3354,7 @@
 
     goto :goto_0
 
-    .line 746
+    .line 747
     :pswitch_d
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3364,7 +3364,7 @@
 
     goto :goto_0
 
-    .line 743
+    .line 744
     :pswitch_e
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3374,7 +3374,7 @@
 
     goto :goto_0
 
-    .line 740
+    .line 741
     :pswitch_f
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3384,7 +3384,7 @@
 
     goto :goto_0
 
-    .line 737
+    .line 738
     :pswitch_10
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3431,7 +3431,7 @@
 
     return-void
 
-    .line 527
+    .line 528
     :cond_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$FlexKnobEnum:[I
 
@@ -3443,14 +3443,14 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 555
+    .line 556
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Intensity:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     iput-object p1, p0, Lcom/rigol/scope/utilities/FunctionManager;->currentFlexKnobEnum:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     goto :goto_0
 
-    .line 551
+    .line 552
     :pswitch_0
     iput-object p1, p0, Lcom/rigol/scope/utilities/FunctionManager;->currentFlexKnobEnum:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -3488,7 +3488,7 @@
 .method public setFlexKnobEnum(Lcom/rigol/scope/cil/ServiceEnum$Function;IZ)V
     .locals 4
 
-    .line 571
+    .line 572
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     move-result-object v0
@@ -3506,7 +3506,7 @@
 
     return-void
 
-    .line 574
+    .line 575
     :cond_1
     sget-object p3, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
@@ -3539,7 +3539,7 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 613
+    .line 614
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3553,7 +3553,7 @@
     :cond_3
     if-ne p2, v2, :cond_4
 
-    .line 615
+    .line 616
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3567,7 +3567,7 @@
     :cond_4
     if-ne p2, v1, :cond_5
 
-    .line 617
+    .line 618
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3581,7 +3581,7 @@
     :cond_5
     if-ne p2, v0, :cond_6
 
-    .line 619
+    .line 620
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3590,7 +3590,7 @@
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/utilities/FunctionManager;->setCurrentFlexKnobEnum(Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;)V
 
-    .line 621
+    .line 622
     :cond_6
     :goto_0
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
@@ -3604,7 +3604,7 @@
     :cond_7
     if-nez p2, :cond_8
 
-    .line 589
+    .line 590
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3618,7 +3618,7 @@
     :cond_8
     if-ne p2, v2, :cond_9
 
-    .line 591
+    .line 592
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3632,7 +3632,7 @@
     :cond_9
     if-ne p2, v1, :cond_a
 
-    .line 593
+    .line 594
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3646,7 +3646,7 @@
     :cond_a
     if-ne p2, v0, :cond_b
 
-    .line 595
+    .line 596
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3662,7 +3662,7 @@
 
     if-ne p2, p1, :cond_c
 
-    .line 597
+    .line 598
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3678,7 +3678,7 @@
 
     if-ne p2, p1, :cond_d
 
-    .line 599
+    .line 600
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3692,7 +3692,7 @@
     :cond_d
     if-ne p2, p3, :cond_e
 
-    .line 601
+    .line 602
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3706,7 +3706,7 @@
     :cond_e
     if-ne p2, v3, :cond_f
 
-    .line 603
+    .line 604
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3722,7 +3722,7 @@
 
     if-ne p2, p1, :cond_10
 
-    .line 605
+    .line 606
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3738,7 +3738,7 @@
 
     if-ne p2, p1, :cond_11
 
-    .line 607
+    .line 608
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3747,7 +3747,7 @@
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/utilities/FunctionManager;->setCurrentFlexKnobEnum(Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;)V
 
-    .line 609
+    .line 610
     :cond_11
     :goto_1
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
@@ -3761,7 +3761,7 @@
     :cond_12
     if-nez p2, :cond_13
 
-    .line 577
+    .line 578
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3775,7 +3775,7 @@
     :cond_13
     if-ne p2, v2, :cond_14
 
-    .line 579
+    .line 580
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3789,7 +3789,7 @@
     :cond_14
     if-ne p2, v1, :cond_15
 
-    .line 581
+    .line 582
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3803,7 +3803,7 @@
     :cond_15
     if-ne p2, v0, :cond_16
 
-    .line 583
+    .line 584
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -3812,7 +3812,7 @@
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/utilities/FunctionManager;->setCurrentFlexKnobEnum(Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;)V
 
-    .line 585
+    .line 586
     :cond_16
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/FunctionManager;->getCurrentFlexKnobEnum()Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
@@ -3832,7 +3832,7 @@
 
     return-void
 
-    .line 495
+    .line 496
     :cond_0
     sget-object v0, Lcom/rigol/scope/utilities/FunctionManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
@@ -3858,14 +3858,14 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 505
+    .line 506
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_HORIZONTAL:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     iput-object p1, p0, Lcom/rigol/scope/utilities/FunctionManager;->selectedFunction:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     goto :goto_0
 
-    .line 501
+    .line 502
     :cond_1
     iput-object p1, p0, Lcom/rigol/scope/utilities/FunctionManager;->selectedFunction:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -3876,7 +3876,7 @@
 .method public setUltraEnable(Z)V
     .locals 1
 
-    .line 467
+    .line 468
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -3887,10 +3887,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 469
+    .line 470
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 470
+    .line 471
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -3903,7 +3903,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 472
+    .line 473
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/HorizontalParam;->setUltraEnable(Z)V
 
     :cond_0
@@ -3917,7 +3917,7 @@
 
     return-void
 
-    .line 300
+    .line 301
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/FunctionManager;->isEnabled(Lcom/rigol/scope/cil/ServiceEnum$Function;)Z
 
@@ -3925,12 +3925,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 301
+    .line 302
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/FunctionManager;->disable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
     goto :goto_0
 
-    .line 303
+    .line 304
     :cond_1
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/FunctionManager;->enable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
@@ -3957,7 +3957,7 @@
 
     goto :goto_0
 
-    .line 700
+    .line 701
     :cond_0
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder4:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -3965,7 +3965,7 @@
 
     goto :goto_0
 
-    .line 697
+    .line 698
     :cond_1
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder3:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -3973,7 +3973,7 @@
 
     goto :goto_0
 
-    .line 694
+    .line 695
     :cond_2
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder2:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -3981,7 +3981,7 @@
 
     goto :goto_0
 
-    .line 691
+    .line 692
     :cond_3
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder1:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -3996,7 +3996,7 @@
 
     const v0, 0x7f03013c
 
-    .line 633
+    .line 634
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
@@ -4018,7 +4018,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/MappingObject;
 
-    .line 634
+    .line 635
     iget v2, p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->value1:I
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -4027,7 +4027,7 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 637
+    .line 638
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -4053,7 +4053,7 @@
 
     goto :goto_0
 
-    .line 678
+    .line 679
     :pswitch_0
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref10:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4061,7 +4061,7 @@
 
     goto :goto_0
 
-    .line 675
+    .line 676
     :pswitch_1
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref9:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4069,7 +4069,7 @@
 
     goto :goto_0
 
-    .line 672
+    .line 673
     :pswitch_2
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref8:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4077,7 +4077,7 @@
 
     goto :goto_0
 
-    .line 669
+    .line 670
     :pswitch_3
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref7:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4085,7 +4085,7 @@
 
     goto :goto_0
 
-    .line 666
+    .line 667
     :pswitch_4
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref6:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4093,7 +4093,7 @@
 
     goto :goto_0
 
-    .line 663
+    .line 664
     :pswitch_5
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref5:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4101,7 +4101,7 @@
 
     goto :goto_0
 
-    .line 660
+    .line 661
     :pswitch_6
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref4:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4109,7 +4109,7 @@
 
     goto :goto_0
 
-    .line 657
+    .line 658
     :pswitch_7
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref3:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4117,7 +4117,7 @@
 
     goto :goto_0
 
-    .line 654
+    .line 655
     :pswitch_8
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref2:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
@@ -4125,7 +4125,7 @@
 
     goto :goto_0
 
-    .line 651
+    .line 652
     :pswitch_9
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref1:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 

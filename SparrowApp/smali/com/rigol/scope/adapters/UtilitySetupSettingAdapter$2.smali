@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;)V
     .locals 0
 
-    .line 114
+    .line 115
     iput-object p1, p0, Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter$2;->this$0:Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Lcom/rigol/scope/data/MaskParam;)V
     .locals 1
 
-    .line 117
+    .line 118
     iget-object v0, p0, Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter$2;->this$0:Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;->access$100(Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;)Lcom/rigol/scope/databinding/AdapterUtilityBasesettingBinding;
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 114
+    .line 115
     check-cast p1, Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter$2;->onChanged(Lcom/rigol/scope/data/MaskParam;)V

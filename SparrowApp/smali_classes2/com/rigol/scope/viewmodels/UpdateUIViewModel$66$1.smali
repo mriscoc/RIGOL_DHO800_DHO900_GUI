@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;)V
     .locals 0
 
-    .line 1288
+    .line 1371
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;->this$1:Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public run()V
     .locals 3
 
-    .line 1291
+    .line 1374
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;->this$1:Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;
 
     iget-object v0, v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
@@ -49,7 +49,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 1292
+    .line 1375
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;->this$1:Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;
 
     iget-object v0, v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
@@ -58,7 +58,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->access$002(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Z)Z
 
-    .line 1293
+    .line 1376
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;->this$1:Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;
 
     iget-object v0, v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
@@ -73,7 +73,7 @@
 
     goto :goto_0
 
-    .line 1295
+    .line 1378
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;->this$1:Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;
 

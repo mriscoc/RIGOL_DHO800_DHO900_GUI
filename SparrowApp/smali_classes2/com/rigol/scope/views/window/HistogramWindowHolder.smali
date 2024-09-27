@@ -105,7 +105,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b30
 
     .line 351
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->setId(I)V
@@ -152,14 +152,14 @@
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 364
-    iget-object p2, p0, Lcom/rigol/scope/views/window/HistogramWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/HistogramWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast p2, Landroid/view/View;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 365
-    iget-object p2, p0, Lcom/rigol/scope/views/window/HistogramWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/HistogramWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;
 
     check-cast p2, Landroid/view/View;
 

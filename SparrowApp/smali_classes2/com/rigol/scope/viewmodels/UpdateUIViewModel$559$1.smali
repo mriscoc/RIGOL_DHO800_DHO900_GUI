@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;Ljava/lang/String;Ljava/lang/String;Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 0
 
-    .line 6311
+    .line 6448
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->this$1:Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$csvFilePath:Ljava/lang/String;
@@ -61,7 +61,7 @@
 .method static synthetic lambda$onSuccess$0(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
     .locals 1
 
-    .line 6329
+    .line 6466
     invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -85,7 +85,7 @@
         }
     .end annotation
 
-    .line 6314
+    .line 6451
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$csvFilePath:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$finalSavePath:Ljava/lang/String;
@@ -109,7 +109,7 @@
         }
     .end annotation
 
-    .line 6311
+    .line 6448
     invoke-virtual {p0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->doInBackground()Ljava/lang/Boolean;
 
     move-result-object v0
@@ -120,10 +120,10 @@
 .method protected onDone()V
     .locals 4
 
-    .line 6337
+    .line 6474
     invoke-super {p0}, Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;->onDone()V
 
-    .line 6340
+    .line 6477
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$savingPopupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     if-eqz v0, :cond_0
@@ -134,7 +134,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 6341
+    .line 6478
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$savingPopupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
@@ -154,7 +154,7 @@
 .method public onSuccess(Ljava/lang/Boolean;)V
     .locals 4
 
-    .line 6320
+    .line 6457
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$savingPopupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     if-eqz v0, :cond_0
@@ -165,7 +165,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 6321
+    .line 6458
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->val$savingPopupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
@@ -178,7 +178,7 @@
 
     invoke-static {v1, v2, v3}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThreadDelayed(Ljava/lang/Runnable;J)V
 
-    .line 6324
+    .line 6461
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -186,14 +186,14 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f1011ad
+    const p1, 0x7f1011bd
 
-    .line 6326
+    .line 6463
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
 
     const/4 p1, 0x1
 
-    .line 6329
+    .line 6466
     sget-object v0, Lcom/rigol/scope/viewmodels/-$$Lambda$UpdateUIViewModel$559$1$0q8S42ze7OVjYllWgQ1KyDmUfuY;->INSTANCE:Lcom/rigol/scope/viewmodels/-$$Lambda$UpdateUIViewModel$559$1$0q8S42ze7OVjYllWgQ1KyDmUfuY;
 
     const-string v1, "sync"
@@ -203,9 +203,9 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1011af
+    const p1, 0x7f1011bf
 
-    .line 6331
+    .line 6468
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
 
     :goto_0
@@ -215,7 +215,7 @@
 .method public bridge synthetic onSuccess(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6311
+    .line 6448
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;->onSuccess(Ljava/lang/Boolean;)V

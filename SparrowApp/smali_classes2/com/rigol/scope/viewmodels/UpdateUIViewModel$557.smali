@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 6228
+    .line 6365
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$557;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$557;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 6231
+    .line 6368
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$557;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getUsb_diff_low_thres()J
@@ -72,7 +72,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6228
+    .line 6365
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$557;->onChanged(Ljava/lang/Boolean;)V

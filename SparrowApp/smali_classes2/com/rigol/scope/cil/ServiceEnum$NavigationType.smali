@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9478
+    .line 9482
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     const-string v1, "FORWARD"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->FORWARD:Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
-    .line 9479
+    .line 9483
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     const-string v9, "BACKWARD"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->BACKWARD:Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
-    .line 9480
+    .line 9484
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     const-string v2, "FIRST"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->FIRST:Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
-    .line 9481
+    .line 9485
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     const-string v9, "LAST"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->LAST:Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
-    .line 9482
+    .line 9486
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     const-string v2, "STATELESS"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
-    .line 9476
+    .line 9480
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->FORWARD:Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 9485
+    .line 9489
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9486
+    .line 9490
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->value1:I
 
-    .line 9487
+    .line 9491
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->value2:Ljava/lang/String;
 
-    .line 9488
+    .line 9492
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->pic1:Ljava/lang/String;
 
-    .line 9489
+    .line 9493
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
     .locals 1
 
-    .line 9476
+    .line 9480
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
     .locals 1
 
-    .line 9476
+    .line 9480
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->clone()Ljava/lang/Object;

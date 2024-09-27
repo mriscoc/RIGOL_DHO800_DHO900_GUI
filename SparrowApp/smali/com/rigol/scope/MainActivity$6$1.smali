@@ -1,11 +1,11 @@
-.class Lcom/rigol/scope/MainActivity$4$1;
+.class Lcom/rigol/scope/MainActivity$6$1;
 .super Lcom/blankj/utilcode/util/ThreadUtils$Task;
 .source "MainActivity.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/MainActivity$4;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+    value = Lcom/rigol/scope/MainActivity$6;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,15 +23,15 @@
 
 
 # instance fields
-.field final synthetic this$1:Lcom/rigol/scope/MainActivity$4;
+.field final synthetic this$1:Lcom/rigol/scope/MainActivity$6;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/MainActivity$4;)V
+.method constructor <init>(Lcom/rigol/scope/MainActivity$6;)V
     .locals 0
 
-    .line 719
-    iput-object p1, p0, Lcom/rigol/scope/MainActivity$4$1;->this$1:Lcom/rigol/scope/MainActivity$4;
+    .line 847
+    iput-object p1, p0, Lcom/rigol/scope/MainActivity$6$1;->this$1:Lcom/rigol/scope/MainActivity$6;
 
     invoke-direct {p0}, Lcom/blankj/utilcode/util/ThreadUtils$Task;-><init>()V
 
@@ -48,10 +48,10 @@
         }
     .end annotation
 
-    .line 723
-    iget-object v0, p0, Lcom/rigol/scope/MainActivity$4$1;->this$1:Lcom/rigol/scope/MainActivity$4;
+    .line 851
+    iget-object v0, p0, Lcom/rigol/scope/MainActivity$6$1;->this$1:Lcom/rigol/scope/MainActivity$6;
 
-    iget-object v0, v0, Lcom/rigol/scope/MainActivity$4;->this$0:Lcom/rigol/scope/MainActivity;
+    iget-object v0, v0, Lcom/rigol/scope/MainActivity$6;->this$0:Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->checkNewVersion()V
 

@@ -1084,11 +1084,13 @@
 
 .field public static final MSG_APP_ANALYSE_ETH100_QUERY_EVT_CONTENT:I = 0x151f
 
-.field public static final MSG_APP_AUTO_LOCK:I = 0x573f
+.field public static final MSG_APP_AUTO_LOCK:I = 0x5741
 
 .field public static final MSG_APP_BODE:I = 0x500
 
 .field public static final MSG_APP_CARRIER:I = 0x900
+
+.field public static final MSG_APP_CHANGED_ITEM:I = 0x33dd
 
 .field public static final MSG_APP_DECODE:I = 0x5900
 
@@ -1110,7 +1112,7 @@
 
 .field public static final MSG_APP_EYE_MENU:I = 0x330c
 
-.field public static final MSG_APP_EYE_STATUS_EN:I = 0x5757
+.field public static final MSG_APP_EYE_STATUS_EN:I = 0x5759
 
 .field public static final MSG_APP_HELP:I = 0x1f00
 
@@ -1231,6 +1233,10 @@
 .field public static final MSG_APP_MEAS_ANALYZE_MENU:I = 0x3309
 
 .field public static final MSG_APP_MEAS_CAT:I = 0x3308
+
+.field public static final MSG_APP_MEAS_CHANGED_ALLITEMSOURCE:I = 0x33db
+
+.field public static final MSG_APP_MEAS_CHANGED_ALL_MEASURE_SOURCE:I = 0x33dc
 
 .field public static final MSG_APP_MEAS_CLEAR_ALL:I = 0x3321
 
@@ -1398,19 +1404,19 @@
 
 .field public static final MSG_APP_RIPPLE_TITLE:I = 0x511a
 
-.field public static final MSG_APP_SCPI_VERSION:I = 0x573c
+.field public static final MSG_APP_SCPI_VERSION:I = 0x573e
 
 .field public static final MSG_APP_SEARCH_QUERY_DATA:I = 0x455f
 
 .field public static final MSG_APP_SEARCH_QUERY_DATA_EVT:I = 0x4560
 
-.field public static final MSG_APP_SETUP_FILE:I = 0x573d
+.field public static final MSG_APP_SETUP_FILE:I = 0x573f
 
 .field public static final MSG_APP_SHORTCUT:I = 0x130e
 
-.field public static final MSG_APP_SHOW_MESSAGE:I = 0x575a
+.field public static final MSG_APP_SHOW_MESSAGE:I = 0x575c
 
-.field public static final MSG_APP_SHOW_MESSAGE_STR:I = 0x5759
+.field public static final MSG_APP_SHOW_MESSAGE_STR:I = 0x575b
 
 .field public static final MSG_APP_START_MENU:I = 0x130f
 
@@ -1418,9 +1424,9 @@
 
 .field public static final MSG_APP_STORAGE:I = 0x4b00
 
-.field public static final MSG_APP_SW_WORK_MODE:I = 0x5753
+.field public static final MSG_APP_SW_WORK_MODE:I = 0x5755
 
-.field public static final MSG_APP_SW_ZBD_MODEL:I = 0x5754
+.field public static final MSG_APP_SW_ZBD_MODEL:I = 0x5756
 
 .field public static final MSG_APP_THRESLINE_DISPLAY:I = 0x333f
 
@@ -1452,11 +1458,11 @@
 
 .field public static final MSG_APP_UPA_SCPI_RIPPLE_DATA:I = 0x5129
 
-.field public static final MSG_APP_UTILITY_ADCID:I = 0x575d
+.field public static final MSG_APP_UTILITY_ADCID:I = 0x575f
 
 .field public static final MSG_APP_UTILITY_ADC_ROM:I = 0x572f
 
-.field public static final MSG_APP_UTILITY_AFG:I = 0x574d
+.field public static final MSG_APP_UTILITY_AFG:I = 0x574f
 
 .field public static final MSG_APP_UTILITY_APPLY_TIME:I = 0x572d
 
@@ -1464,15 +1470,15 @@
 
 .field public static final MSG_APP_UTILITY_AUXOUT:I = 0x5709
 
-.field public static final MSG_APP_UTILITY_BASESETTING:I = 0x5742
+.field public static final MSG_APP_UTILITY_BASESETTING:I = 0x5744
 
 .field public static final MSG_APP_UTILITY_BEEPER:I = 0x5702
 
 .field public static final MSG_APP_UTILITY_BW:I = 0x5733
 
-.field public static final MSG_APP_UTILITY_CHANNEL_COUNT:I = 0x5767
+.field public static final MSG_APP_UTILITY_CHANNEL_COUNT:I = 0x5769
 
-.field public static final MSG_APP_UTILITY_CHECK_ITEM:I = 0x575b
+.field public static final MSG_APP_UTILITY_CHECK_ITEM:I = 0x575d
 
 .field public static final MSG_APP_UTILITY_CHECK_MENU:I = 0x570e
 
@@ -1480,9 +1486,11 @@
 
 .field public static final MSG_APP_UTILITY_DATE:I = 0x572c
 
-.field public static final MSG_APP_UTILITY_DEFAULT_IMP:I = 0x573b
+.field public static final MSG_APP_UTILITY_DEFAULT_IMP:I = 0x573d
 
-.field public static final MSG_APP_UTILITY_DEFAULT_OPTION:I = 0x573a
+.field public static final MSG_APP_UTILITY_DEFAULT_OPTION:I = 0x573c
+
+.field public static final MSG_APP_UTILITY_DISPLAY_BRIGHTNESS:I = 0x576f
 
 .field public static final MSG_APP_UTILITY_EMAIL_MENU:I = 0x570c
 
@@ -1496,7 +1504,7 @@
 
 .field public static final MSG_APP_UTILITY_HDMI_MENU:I = 0x250e
 
-.field public static final MSG_APP_UTILITY_HDMI_RATIO:I = 0x5763
+.field public static final MSG_APP_UTILITY_HDMI_RATIO:I = 0x5765
 
 .field public static final MSG_APP_UTILITY_HDMI_RES:I = 0x2510
 
@@ -1506,23 +1514,23 @@
 
 .field public static final MSG_APP_UTILITY_IO_MENU:I = 0x2500
 
-.field public static final MSG_APP_UTILITY_KEY:I = 0x575f
+.field public static final MSG_APP_UTILITY_KEY:I = 0x5761
 
 .field public static final MSG_APP_UTILITY_KEYBOARD_MENU:I = 0x570f
 
-.field public static final MSG_APP_UTILITY_KEYBOARD_STATUS:I = 0x5769
+.field public static final MSG_APP_UTILITY_KEYBOARD_STATUS:I = 0x576b
 
-.field public static final MSG_APP_UTILITY_KEY_DEC:I = 0x5761
+.field public static final MSG_APP_UTILITY_KEY_DEC:I = 0x5763
 
-.field public static final MSG_APP_UTILITY_KEY_INC:I = 0x5760
+.field public static final MSG_APP_UTILITY_KEY_INC:I = 0x5762
 
-.field public static final MSG_APP_UTILITY_KEY_PRESS:I = 0x5764
+.field public static final MSG_APP_UTILITY_KEY_PRESS:I = 0x5766
 
 .field public static final MSG_APP_UTILITY_KEY_TEST:I = 0x571e
 
 .field public static final MSG_APP_UTILITY_LANGUAGE:I = 0x5703
 
-.field public static final MSG_APP_UTILITY_LED:I = 0x575e
+.field public static final MSG_APP_UTILITY_LED:I = 0x5760
 
 .field public static final MSG_APP_UTILITY_LOCK_AUTO:I = 0x5710
 
@@ -1530,7 +1538,7 @@
 
 .field public static final MSG_APP_UTILITY_LOCK_KEYS:I = 0x5715
 
-.field public static final MSG_APP_UTILITY_LOCK_SCREEN:I = 0x5758
+.field public static final MSG_APP_UTILITY_LOCK_SCREEN:I = 0x575a
 
 .field public static final MSG_APP_UTILITY_LXI_APPLY:I = 0x2506
 
@@ -1556,15 +1564,17 @@
 
 .field public static final MSG_APP_UTILITY_MODEL_BW:I = 0x5734
 
-.field public static final MSG_APP_UTILITY_MODEL_CHANGE:I = 0x576a
+.field public static final MSG_APP_UTILITY_MODEL_CHANGE:I = 0x576c
 
-.field public static final MSG_APP_UTILITY_MODEL_OPEN_ZOOM:I = 0x576b
+.field public static final MSG_APP_UTILITY_MODEL_OPEN_ZOOM:I = 0x576d
 
-.field public static final MSG_APP_UTILITY_MODEL_OPEN_ZOOM_TEXT:I = 0x576c
+.field public static final MSG_APP_UTILITY_MODEL_OPEN_ZOOM_TEXT:I = 0x576e
 
-.field public static final MSG_APP_UTILITY_MODULE:I = 0x5739
+.field public static final MSG_APP_UTILITY_MODULE:I = 0x573b
 
 .field public static final MSG_APP_UTILITY_MORE_MENU:I = 0x5707
+
+.field public static final MSG_APP_UTILITY_POWER:I = 0x5738
 
 .field public static final MSG_APP_UTILITY_POWER_ON_SET:I = 0x5712
 
@@ -1576,11 +1586,13 @@
 
 .field public static final MSG_APP_UTILITY_QUICK_MENU:I = 0x5728
 
-.field public static final MSG_APP_UTILITY_RAMOUNT:I = 0x5740
+.field public static final MSG_APP_UTILITY_QUICK_POWER:I = 0x5770
+
+.field public static final MSG_APP_UTILITY_RAMOUNT:I = 0x5742
 
 .field public static final MSG_APP_UTILITY_RECODER_MENU:I = 0x5705
 
-.field public static final MSG_APP_UTILITY_REF_CLOCK:I = 0x5738
+.field public static final MSG_APP_UTILITY_REF_CLOCK:I = 0x573a
 
 .field public static final MSG_APP_UTILITY_RESET_LIVE_TIME:I = 0x5725
 
@@ -1610,7 +1622,7 @@
 
 .field public static final MSG_APP_UTILITY_SCREEN_TIME:I = 0x571b
 
-.field public static final MSG_APP_UTILITY_SCREEN_TOUCH:I = 0x5765
+.field public static final MSG_APP_UTILITY_SCREEN_TOUCH:I = 0x5767
 
 .field public static final MSG_APP_UTILITY_SCREEN_WORD:I = 0x5718
 
@@ -1622,6 +1634,8 @@
 
 .field public static final MSG_APP_UTILITY_SHUTDOWN:I = 0x5736
 
+.field public static final MSG_APP_UTILITY_SLEEP:I = 0x5737
+
 .field public static final MSG_APP_UTILITY_SYSTEMINFO:I = 0x5711
 
 .field public static final MSG_APP_UTILITY_SYSTEM_MENU:I = 0x5706
@@ -1630,23 +1644,23 @@
 
 .field public static final MSG_APP_UTILITY_TIME:I = 0x572b
 
-.field public static final MSG_APP_UTILITY_TITLE:I = 0x5741
+.field public static final MSG_APP_UTILITY_TITLE:I = 0x5743
 
-.field public static final MSG_APP_UTILITY_TONE:I = 0x575c
+.field public static final MSG_APP_UTILITY_TONE:I = 0x575e
 
 .field public static final MSG_APP_UTILITY_TOUCH_TEST:I = 0x571f
 
-.field public static final MSG_APP_UTILITY_TOUCH_VIBRATION:I = 0x5756
+.field public static final MSG_APP_UTILITY_TOUCH_VIBRATION:I = 0x5758
 
-.field public static final MSG_APP_UTILITY_TOUCH_VIBRATION_EN:I = 0x5755
+.field public static final MSG_APP_UTILITY_TOUCH_VIBRATION_EN:I = 0x5757
 
 .field public static final MSG_APP_UTILITY_USBTMC_MENU:I = 0x2503
 
-.field public static final MSG_APP_UTILITY_VENDOR:I = 0x5737
+.field public static final MSG_APP_UTILITY_VENDOR:I = 0x5739
 
 .field public static final MSG_APP_UTILITY_WIFI_MENU:I = 0x2502
 
-.field public static final MSG_APP_UTILITY_ZBD_LED:I = 0x5762
+.field public static final MSG_APP_UTILITY_ZBD_LED:I = 0x5764
 
 .field public static final MSG_AUTO_BACK:I = 0x30b
 
@@ -1809,6 +1823,12 @@
 .field public static final MSG_CAL_DELETE:I = 0x470b
 
 .field public static final MSG_CAL_DETAIL:I = 0x4713
+
+.field public static final MSG_CAL_FACT_SEL_ENABLE:I = 0x4778
+
+.field public static final MSG_CAL_FACT_SEL_RANGEL:I = 0x4779
+
+.field public static final MSG_CAL_FACT_SEL_RANGER:I = 0x477a
 
 .field public static final MSG_CAL_GET_ADC_REG:I = 0x4744
 
@@ -2942,6 +2962,8 @@
 
 .field public static final MSG_DOWNLOAD_FIRMWARE:I = 0x4b35
 
+.field public static final MSG_DRAG_ENABLE:I = 0x391e
+
 .field public static final MSG_DVM:I = 0xf00
 
 .field public static final MSG_DVM_BEEP_ENABLE:I = 0xf05
@@ -3422,9 +3444,9 @@
 
 .field public static final MSG_GUI_SERV_CANCEL:I = 0x5f04
 
-.field public static final MSG_HARDWARE_POWERDOWN:I = 0x5752
+.field public static final MSG_HARDWARE_POWERDOWN:I = 0x5754
 
-.field public static final MSG_HARDWARE_RESTART:I = 0x5751
+.field public static final MSG_HARDWARE_RESTART:I = 0x5753
 
 .field public static final MSG_HISTO:I = 0x2100
 
@@ -4354,23 +4376,23 @@
 
 .field public static final MSG_MESSAGE_ATTR:I = 0x3508
 
-.field public static final MSG_MISC_BUILD:I = 0x5749
+.field public static final MSG_MISC_BUILD:I = 0x574b
 
-.field public static final MSG_MISC_FPGA_VER:I = 0x5747
+.field public static final MSG_MISC_FPGA_VER:I = 0x5749
 
-.field public static final MSG_MISC_HARD_VER:I = 0x5746
+.field public static final MSG_MISC_HARD_VER:I = 0x5748
 
-.field public static final MSG_MISC_MAC:I = 0x574a
+.field public static final MSG_MISC_MAC:I = 0x574c
 
-.field public static final MSG_MISC_MODEL:I = 0x5744
+.field public static final MSG_MISC_MODEL:I = 0x5746
 
-.field public static final MSG_MISC_SERIAL:I = 0x5745
+.field public static final MSG_MISC_SERIAL:I = 0x5747
 
-.field public static final MSG_MISC_SOFT_VER:I = 0x5748
+.field public static final MSG_MISC_SOFT_VER:I = 0x574a
 
-.field public static final MSG_MISC_SYSTEM_VERSION:I = 0x5768
+.field public static final MSG_MISC_SYSTEM_VERSION:I = 0x576a
 
-.field public static final MSG_MISC_VENDOR:I = 0x5743
+.field public static final MSG_MISC_VENDOR:I = 0x5745
 
 .field public static final MSG_MOTOR_CLICK_TIP:I = 0x6103
 
@@ -4672,9 +4694,9 @@
 
 .field public static final MSG_PROBE_TYPE:I = 0x741
 
-.field public static final MSG_PRODUCT_DOMAIN:I = 0x574b
+.field public static final MSG_PRODUCT_DOMAIN:I = 0x574d
 
-.field public static final MSG_PRODUCT_SERIES:I = 0x574c
+.field public static final MSG_PRODUCT_SERIES:I = 0x574e
 
 .field public static final MSG_QUICK_CHANNEL:I = 0x3d09
 
@@ -4898,7 +4920,7 @@
 
 .field public static final MSG_SCPI_DELAY_LEVEL_L:I = 0x5046
 
-.field public static final MSG_SCPI_ERROR:I = 0x573e
+.field public static final MSG_SCPI_ERROR:I = 0x5740
 
 .field public static final MSG_SCPI_EVENT:I = 0x430d
 
@@ -4958,9 +4980,9 @@
 
 .field public static final MSG_SCPI_USB_CONNECT:I = 0x430f
 
-.field public static final MSG_SCPI_UTILITY_DATE:I = 0x574e
+.field public static final MSG_SCPI_UTILITY_DATE:I = 0x5750
 
-.field public static final MSG_SCPI_UTILITY_TIME:I = 0x574f
+.field public static final MSG_SCPI_UTILITY_TIME:I = 0x5751
 
 .field public static final MSG_SEARCH_ADDRDATA_SETUP:I = 0x4548
 
@@ -5174,11 +5196,17 @@
 
 .field public static final MSG_SETTO_CENTER:I = 0x744
 
+.field public static final MSG_STORAGE_AUTO_CONNECT:I = 0x4b5b
+
 .field public static final MSG_STORAGE_BACKWARD:I = 0x4b29
 
 .field public static final MSG_STORAGE_CANCEL:I = 0x4b28
 
 .field public static final MSG_STORAGE_CHANNEL:I = 0x4b17
+
+.field public static final MSG_STORAGE_CONNECT:I = 0x4b59
+
+.field public static final MSG_STORAGE_CONNECT_STATE:I = 0x4b5e
 
 .field public static final MSG_STORAGE_COPY:I = 0x4b25
 
@@ -5195,6 +5223,8 @@
 .field public static final MSG_STORAGE_DELETE_TOAST:I = 0x4b4d
 
 .field public static final MSG_STORAGE_DIALOG_VISIBLE:I = 0x4b11
+
+.field public static final MSG_STORAGE_DISCONNECT:I = 0x4b5a
 
 .field public static final MSG_STORAGE_DISK_MANAGE:I = 0x4b08
 
@@ -5260,6 +5290,8 @@
 
 .field public static final MSG_STORAGE_OVERWRITE:I = 0x4b54
 
+.field public static final MSG_STORAGE_PASSWORD:I = 0x4b58
+
 .field public static final MSG_STORAGE_PASTE:I = 0x4b26
 
 .field public static final MSG_STORAGE_PATHNAME:I = 0x4b2f
@@ -5304,7 +5336,17 @@
 
 .field public static final MSG_STORAGE_SELECT_ALL:I = 0x4b2a
 
+.field public static final MSG_STORAGE_SERVER_PATH:I = 0x4b56
+
+.field public static final MSG_STORAGE_SERVER_PATH_EG:I = 0x4b5d
+
 .field public static final MSG_STORAGE_SETUP_FORMAT:I = 0x4b44
+
+.field public static final MSG_STORAGE_SMB_DRIVER_LETTER:I = 0x4b5f
+
+.field public static final MSG_STORAGE_SMB_EN:I = 0x4b55
+
+.field public static final MSG_STORAGE_SMB_SETTING:I = 0x4b5c
 
 .field public static final MSG_STORAGE_SUB_LOAD:I = 0x4b1f
 
@@ -5327,6 +5369,8 @@
 .field public static final MSG_STORAGE_USB_INSERT:I = 0x4b32
 
 .field public static final MSG_STORAGE_USB_REMOVE:I = 0x4b33
+
+.field public static final MSG_STORAGE_USER_NAME:I = 0x4b57
 
 .field public static final MSG_STORAGE_WAVE_DEPTH:I = 0x4b13
 
@@ -6042,9 +6086,9 @@
 
 .field public static final MSG_USB_ANALYSE_TYPE:I = 0x5306
 
-.field public static final MSG_UTILITY_OPEN_SOURCE:I = 0x5766
+.field public static final MSG_UTILITY_OPEN_SOURCE:I = 0x5768
 
-.field public static final MSG_UTILITY_VENDOR:I = 0x5750
+.field public static final MSG_UTILITY_VENDOR:I = 0x5752
 
 .field public static final MSG_VERTICAL:I = 0x738
 

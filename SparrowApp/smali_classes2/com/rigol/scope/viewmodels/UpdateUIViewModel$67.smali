@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1303
+    .line 1386
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 1306
+    .line 1389
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->readOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 1309
+    .line 1392
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    .line 1310
+    .line 1393
     instance-of v0, p1, Lcom/rigol/scope/views/math/MathPopupView;
 
     if-eqz v0, :cond_0
@@ -78,7 +78,7 @@
 
     if-nez v0, :cond_0
 
-    .line 1311
+    .line 1394
     check-cast p1, Lcom/rigol/scope/views/math/MathPopupView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/math/MathPopupView;->getMathRecyclerView()Lcom/rigol/scope/views/math/MathRecyclerView;
@@ -87,7 +87,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 1313
+    .line 1396
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
@@ -98,7 +98,7 @@
 
     goto :goto_0
 
-    .line 1316
+    .line 1399
     :cond_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -128,7 +128,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1303
+    .line 1386
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->onChanged(Ljava/lang/Boolean;)V

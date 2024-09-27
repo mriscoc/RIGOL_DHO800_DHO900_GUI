@@ -62,7 +62,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7085
+    .line 7087
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v1, "Dly_none"
@@ -83,7 +83,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly_none:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7086
+    .line 7088
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v9, "Dly1"
@@ -104,7 +104,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly1:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7087
+    .line 7089
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v2, "Dly2"
@@ -125,7 +125,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly2:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7088
+    .line 7090
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v9, "Dly3"
@@ -146,7 +146,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly3:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7089
+    .line 7091
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v2, "Dly4"
@@ -167,7 +167,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly4:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7090
+    .line 7092
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v9, "Dly5"
@@ -188,7 +188,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly5:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7091
+    .line 7093
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v2, "Dly6"
@@ -209,7 +209,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly6:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7092
+    .line 7094
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v9, "Dly7"
@@ -230,7 +230,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly7:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7093
+    .line 7095
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v2, "Dly8"
@@ -251,7 +251,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly8:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7094
+    .line 7096
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v9, "Dly9"
@@ -272,7 +272,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly9:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7095
+    .line 7097
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const-string v2, "Dly10"
@@ -297,7 +297,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
-    .line 7083
+    .line 7085
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->Dly_none:Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     const/4 v3, 0x0
@@ -379,19 +379,19 @@
         }
     .end annotation
 
-    .line 7098
+    .line 7100
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7099
+    .line 7101
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->value1:I
 
-    .line 7100
+    .line 7102
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->value2:Ljava/lang/String;
 
-    .line 7101
+    .line 7103
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->pic1:Ljava/lang/String;
 
-    .line 7102
+    .line 7104
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->pic2:Ljava/lang/String;
 
     return-void
@@ -400,7 +400,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
     .locals 1
 
-    .line 7083
+    .line 7085
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -415,7 +415,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
     .locals 1
 
-    .line 7083
+    .line 7085
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->clone()Ljava/lang/Object;

@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
     .locals 0
 
-    .line 520
+    .line 530
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$5;->this$0:Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 530
+    .line 540
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$5;->this$0:Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->access$1302(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 523
+    .line 533
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$5;->this$0:Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->access$1100(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)Lcom/rigol/scope/data/MeasureSettingParam;
@@ -71,7 +71,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdMiddle(J)V
 
-    .line 525
+    .line 535
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$5;->this$0:Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J

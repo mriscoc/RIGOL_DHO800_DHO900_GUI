@@ -135,12 +135,12 @@
 .method public onLocaleChanged()V
     .locals 1
 
-    .line 307
+    .line 311
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->saveDelegate:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;
 
     if-eqz v0, :cond_0
 
-    .line 308
+    .line 312
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->onLocaleChanged()V
 
     :cond_0
@@ -150,40 +150,40 @@
 .method public setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;Lcom/rigol/scope/utilities/AorBManager;)V
     .locals 1
 
-    .line 283
+    .line 287
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->saveDelegate:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;
 
     if-eqz v0, :cond_0
 
-    .line 284
+    .line 288
     invoke-virtual {v0, p1}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;)V
 
-    .line 285
+    .line 289
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->saveDelegate:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
 
-    .line 287
+    .line 291
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->loadDelegate:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;
 
     if-eqz v0, :cond_1
 
-    .line 288
+    .line 292
     invoke-virtual {v0, p1}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;)V
 
-    .line 289
+    .line 293
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->loadDelegate:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
 
-    .line 291
+    .line 295
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->upgradeDelegate:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;
 
     if-eqz p2, :cond_2
 
-    .line 292
+    .line 296
     invoke-virtual {p2, p1}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;)V
 
     :cond_2

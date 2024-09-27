@@ -366,7 +366,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 148
+    .line 150
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
@@ -376,7 +376,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->setContentView(Landroid/view/View;)V
 
-    .line 150
+    .line 152
     const-class v0, Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -387,7 +387,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 152
+    .line 154
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MeasureResultViewModel;->getLiveData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -404,7 +404,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 156
+    .line 158
     :cond_2
     const-class v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
 
@@ -416,7 +416,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 158
+    .line 160
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/SharedViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -433,7 +433,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 166
+    .line 168
     :cond_3
     const-class v0, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -449,7 +449,7 @@
 
     const/16 v2, 0x3323
 
-    .line 168
+    .line 170
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -469,7 +469,7 @@
     :cond_4
     const/16 v2, 0x33d7
 
-    .line 173
+    .line 175
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -488,7 +488,7 @@
 
     const/16 v2, 0x333e
 
-    .line 184
+    .line 186
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -505,7 +505,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 202
+    .line 204
     const-class v0, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -516,7 +516,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 204
+    .line 206
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -533,7 +533,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 215
+    .line 217
     :cond_5
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
@@ -545,7 +545,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 217
+    .line 219
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -562,7 +562,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 226
+    .line 228
     :cond_6
     const-class v0, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
@@ -574,7 +574,7 @@
 
     if-eqz v0, :cond_7
 
-    .line 228
+    .line 230
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -591,7 +591,7 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 238
+    .line 240
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -604,13 +604,13 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 241
+    .line 243
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-virtual {v0, p0}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 242
+    .line 244
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     const/4 v1, 0x0
@@ -623,7 +623,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setNormalMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 243
+    .line 245
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-static {v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -632,19 +632,19 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setPrecisionMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 245
+    .line 247
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->modeRadioGroup:Landroid/widget/RadioGroup;
 
     invoke-virtual {v0, p0}, Landroid/widget/RadioGroup;->setOnCheckedChangeListener(Landroid/widget/RadioGroup$OnCheckedChangeListener;)V
 
-    .line 248
+    .line 250
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->setupSwitchButton(Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;)V
 
-    .line 252
+    .line 254
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -655,7 +655,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 274
+    .line 276
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->threSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -666,7 +666,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 294
+    .line 296
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->histoEnSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -677,7 +677,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 304
+    .line 306
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->indicatorSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -688,7 +688,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 319
+    .line 321
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -699,7 +699,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 330
+    .line 332
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->ampMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -710,7 +710,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 340
+    .line 342
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->topMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -721,7 +721,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 351
+    .line 353
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->baseMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -732,7 +732,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 362
+    .line 364
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorAbSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -743,7 +743,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 374
+    .line 376
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->showLine:Landroid/widget/CheckBox;
@@ -754,7 +754,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 382
+    .line 384
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->regionSpinner:Landroid/widget/TextView;
@@ -897,7 +897,7 @@
 .method private getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 2
 
-    .line 661
+    .line 681
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
@@ -908,12 +908,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 662
+    .line 682
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_percent:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     goto :goto_0
 
-    .line 664
+    .line 684
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->verticalParams:Ljava/util/List;
 
@@ -929,14 +929,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 666
+    .line 686
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 668
+    .line 688
     :cond_1
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
@@ -953,7 +953,7 @@
 
     if-ne v1, p3, :cond_1
 
-    .line 778
+    .line 798
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object p3, p3, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -964,7 +964,7 @@
 
     if-eqz p3, :cond_0
 
-    .line 779
+    .line 799
     sget-object p3, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -983,7 +983,7 @@
 
     goto/16 :goto_0
 
-    .line 781
+    .line 801
     :cond_0
     sget-object p3, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1008,7 +1008,7 @@
 
     if-ne v1, p3, :cond_3
 
-    .line 784
+    .line 804
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object p3, p3, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -1019,7 +1019,7 @@
 
     if-eqz p3, :cond_2
 
-    .line 785
+    .line 805
     sget-object p3, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -1038,7 +1038,7 @@
 
     goto :goto_0
 
-    .line 787
+    .line 807
     :cond_2
     sget-object p3, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1062,7 +1062,7 @@
 
     goto :goto_0
 
-    .line 790
+    .line 810
     :cond_3
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
@@ -1074,7 +1074,7 @@
 
     if-eqz p3, :cond_4
 
-    .line 791
+    .line 811
     sget-object p3, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -1093,7 +1093,7 @@
 
     goto :goto_0
 
-    .line 793
+    .line 813
     :cond_4
     sget-object p3, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1115,6 +1115,34 @@
     return-void
 .end method
 
+.method private selectAllItemSource(Lcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 488
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p1
+
+    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    .line 490
+    iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
+
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveAllItemSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+
+    .line 491
+    iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->changeItemAllSource(I)V
+
+    :cond_0
+    return-void
+.end method
+
 .method private selectRegion(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
@@ -1122,7 +1150,7 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 433
+    .line 435
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->horizontalViewModel:Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -1141,7 +1169,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 434
+    .line 436
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -1155,7 +1183,7 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 436
+    .line 438
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -1171,7 +1199,7 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 438
+    .line 440
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -1182,7 +1210,7 @@
 
     goto :goto_0
 
-    .line 440
+    .line 442
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1192,14 +1220,14 @@
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveRegion(I)V
 
-    .line 441
+    .line 443
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->context:Landroid/content/Context;
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const p2, 0x7f101051
+    const p2, 0x7f101057
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1214,7 +1242,7 @@
 .method private selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
     .locals 5
 
-    .line 446
+    .line 448
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -1225,17 +1253,17 @@
 
     if-eqz p1, :cond_5
 
-    .line 449
+    .line 451
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 451
+    .line 453
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->verticalParams:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    .line 452
+    .line 454
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -1246,12 +1274,12 @@
 
     move-result-object v0
 
-    .line 453
+    .line 455
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setVerticalParam(Lcom/rigol/scope/data/VerticalParam;)V
 
-    .line 456
+    .line 458
     :cond_0
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_ABS:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
@@ -1269,7 +1297,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 457
+    .line 459
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1278,7 +1306,7 @@
 
     goto :goto_0
 
-    .line 460
+    .line 462
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1286,21 +1314,21 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 461
+    .line 463
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     invoke-virtual {v0, v4, v3, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 463
+    .line 465
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 467
+    .line 469
     :goto_0
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1322,7 +1350,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 468
+    .line 470
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_ABS:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -1333,7 +1361,7 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 469
+    .line 471
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -1358,7 +1386,7 @@
 
     goto :goto_1
 
-    .line 471
+    .line 473
     :cond_2
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1384,7 +1412,7 @@
 
     goto :goto_1
 
-    .line 473
+    .line 475
     :cond_3
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1404,7 +1432,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 474
+    .line 476
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_ABS:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -1415,7 +1443,7 @@
 
     if-ne p1, v0, :cond_4
 
-    .line 475
+    .line 477
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -1440,7 +1468,7 @@
 
     goto :goto_1
 
-    .line 477
+    .line 479
     :cond_4
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1472,7 +1500,7 @@
 .method private setStatChecked()V
     .locals 3
 
-    .line 406
+    .line 408
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     if-eqz v0, :cond_1
@@ -1481,14 +1509,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 407
+    .line 409
     invoke-virtual {v0}, Lcom/rigol/scope/data/SharedParam;->getCurrentResultItem()I
 
     move-result v0
 
     if-ltz v0, :cond_1
 
-    .line 408
+    .line 410
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -1497,7 +1525,7 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 409
+    .line 411
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1506,7 +1534,7 @@
 
     check-cast v0, Lcom/rigol/scope/data/ResultParam;
 
-    .line 410
+    .line 412
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/ResultParam;->getStat()I
@@ -1532,53 +1560,53 @@
 .method private setupSwitchButton(Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;)V
     .locals 2
 
-    .line 417
+    .line 419
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->indicatorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 418
+    .line 420
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->statSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 419
+    .line 421
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->cursorAbSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 420
+    .line 422
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->threSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 421
+    .line 423
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->histoEnSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 422
+    .line 424
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     const v1, 0x7f030050
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 424
+    .line 426
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->ampMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     const v1, 0x7f030045
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 426
+    .line 428
     iget-object v0, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->topMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     const v1, 0x7f030046
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 428
+    .line 430
     iget-object p1, p1, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->baseMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     const v0, 0x7f030044
@@ -1618,7 +1646,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a08d7
+    const v1, 0x7f0a08f2
 
     if-ne v0, v1, :cond_0
 
@@ -1635,14 +1663,31 @@
 
     move-result v0
 
-    const v1, 0x7f0a078f
+    const v1, 0x7f0a079c
 
     if-ne v0, v1, :cond_1
 
     .line 142
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectRegion(ILcom/rigol/scope/data/MappingObject;)V
 
+    goto :goto_0
+
+    .line 143
     :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a063e
+
+    if-ne p1, v0, :cond_2
+
+    .line 144
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_2
     :goto_0
     return-void
 .end method
@@ -1650,7 +1695,7 @@
 .method public synthetic lambda$new$10$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 1
 
-    .line 254
+    .line 256
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -1659,7 +1704,7 @@
 
     return-void
 
-    .line 258
+    .line 260
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
@@ -1669,14 +1714,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 260
+    .line 262
     invoke-virtual {p1}, Lcom/rigol/scope/data/SharedParam;->getCurrentResultItem()I
 
     move-result p1
 
     if-ltz p1, :cond_1
 
-    .line 261
+    .line 263
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1685,7 +1730,7 @@
 
     if-ge p1, v0, :cond_1
 
-    .line 263
+    .line 265
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1696,10 +1741,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 266
+    .line 268
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/ResultParam;->setStat(I)V
 
-    .line 267
+    .line 269
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveStatisticState(Z)V
@@ -1711,7 +1756,7 @@
 .method public synthetic lambda$new$11$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 1
 
-    .line 276
+    .line 278
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result v0
@@ -1723,25 +1768,25 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 280
+    .line 282
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorIndicator(Z)V
 
-    .line 281
+    .line 283
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorThreshold(Z)V
 
     goto :goto_0
 
-    .line 283
+    .line 285
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorThreshold(Z)V
 
-    .line 286
+    .line 288
     :goto_0
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isChecked()Z
 
@@ -1749,7 +1794,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 287
+    .line 289
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     const/4 p2, 0x1
@@ -1758,7 +1803,7 @@
 
     goto :goto_1
 
-    .line 289
+    .line 291
     :cond_2
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
@@ -1773,7 +1818,7 @@
 .method public synthetic lambda$new$12$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 296
+    .line 298
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -1782,7 +1827,7 @@
 
     return-void
 
-    .line 299
+    .line 301
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1794,7 +1839,7 @@
 .method public synthetic lambda$new$13$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 306
+    .line 308
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -1806,17 +1851,17 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 310
+    .line 312
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorThreshold(Z)V
 
-    .line 311
+    .line 313
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorIndicator(Z)V
 
-    .line 312
+    .line 314
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->Companion:Lcom/rigol/scope/views/baseview/OrientationView$Companion;
 
     const/4 p2, 0x1
@@ -1825,7 +1870,7 @@
 
     goto :goto_0
 
-    .line 314
+    .line 316
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1838,7 +1883,7 @@
 .method public synthetic lambda$new$14$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 321
+    .line 323
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p2
@@ -1847,7 +1892,7 @@
 
     return-void
 
-    .line 325
+    .line 327
     :cond_0
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1861,11 +1906,11 @@
 
     goto :goto_0
 
-    .line 326
+    .line 328
     :cond_1
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    .line 325
+    .line 327
     :goto_0
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
@@ -1875,7 +1920,7 @@
 .method public synthetic lambda$new$15$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 332
+    .line 334
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p2
@@ -1884,7 +1929,7 @@
 
     return-void
 
-    .line 336
+    .line 338
     :cond_0
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1900,7 +1945,7 @@
 .method public synthetic lambda$new$16$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 342
+    .line 344
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p2
@@ -1909,7 +1954,7 @@
 
     return-void
 
-    .line 347
+    .line 349
     :cond_0
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1925,7 +1970,7 @@
 .method public synthetic lambda$new$17$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 353
+    .line 355
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p2
@@ -1934,7 +1979,7 @@
 
     return-void
 
-    .line 358
+    .line 360
     :cond_0
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1950,7 +1995,7 @@
 .method public synthetic lambda$new$18$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 2
 
-    .line 364
+    .line 366
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p2
@@ -1959,7 +2004,7 @@
 
     return-void
 
-    .line 368
+    .line 370
     :cond_0
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1979,7 +2024,7 @@
     :goto_0
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setRegionSelect(I)V
 
-    .line 370
+    .line 372
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isChecked()Z
@@ -2004,7 +2049,7 @@
 .method public synthetic lambda$new$19$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 376
+    .line 378
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -2013,7 +2058,7 @@
 
     return-void
 
-    .line 380
+    .line 382
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -2078,7 +2123,7 @@
 .method public synthetic lambda$new$3$MeasureSettingPopupView(Ljava/util/List;)V
     .locals 0
 
-    .line 153
+    .line 155
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     return-void
@@ -2087,10 +2132,10 @@
 .method public synthetic lambda$new$4$MeasureSettingPopupView(Lcom/rigol/scope/data/SharedParam;)V
     .locals 1
 
-    .line 160
+    .line 162
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
-    .line 162
+    .line 164
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setSharedParam(Lcom/rigol/scope/data/SharedParam;)V
@@ -2101,7 +2146,7 @@
 .method public synthetic lambda$new$5$MeasureSettingPopupView(Ljava/lang/Object;)V
     .locals 0
 
-    .line 169
+    .line 171
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->setStatChecked()V
 
     return-void
@@ -2110,12 +2155,12 @@
 .method public synthetic lambda$new$6$MeasureSettingPopupView(Ljava/lang/Object;)V
     .locals 1
 
-    .line 175
+    .line 177
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 176
+    .line 178
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -2124,7 +2169,7 @@
 
     if-nez p1, :cond_0
 
-    .line 178
+    .line 180
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readHistoEnable()Z
@@ -2136,7 +2181,7 @@
 .method public synthetic lambda$new$7$MeasureSettingPopupView(Ljava/lang/Object;)V
     .locals 1
 
-    .line 186
+    .line 188
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -2147,7 +2192,7 @@
 
     if-ne v0, p1, :cond_0
 
-    .line 187
+    .line 189
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     if-eqz p1, :cond_0
@@ -2156,14 +2201,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 189
+    .line 191
     invoke-virtual {p1}, Lcom/rigol/scope/data/SharedParam;->getCurrentResultItem()I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
-    .line 190
+    .line 192
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -2172,7 +2217,7 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 192
+    .line 194
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->resultParams:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2183,7 +2228,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 195
+    .line 197
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readStatisticState()Z
@@ -2199,15 +2244,15 @@
 .method public synthetic lambda$new$8$MeasureSettingPopupView(Ljava/util/ArrayList;)V
     .locals 1
 
-    .line 206
+    .line 208
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->verticalParams:Ljava/util/List;
 
-    .line 208
+    .line 210
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_0
 
-    .line 209
+    .line 211
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -2216,7 +2261,7 @@
 
     move-result-object p1
 
-    .line 210
+    .line 212
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setVerticalParam(Lcom/rigol/scope/data/VerticalParam;)V
@@ -2228,20 +2273,20 @@
 .method public synthetic lambda$new$9$MeasureSettingPopupView(Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 1
 
-    .line 230
+    .line 232
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 231
+    .line 233
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setParam(Lcom/rigol/scope/data/MeasureSettingParam;)V
 
-    .line 233
+    .line 235
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->verticalParams:Ljava/util/List;
 
     if-eqz p1, :cond_0
 
-    .line 234
+    .line 236
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -2252,7 +2297,7 @@
 
     move-result-object p1
 
-    .line 235
+    .line 237
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->setVerticalParam(Lcom/rigol/scope/data/VerticalParam;)V
@@ -2264,16 +2309,16 @@
 .method public synthetic lambda$onClick$20$MeasureSettingPopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 595
+    .line 605
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 596
+    .line 606
     iput-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 597
+    .line 607
     iput-object p3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->mappingObjects:Ljava/util/List;
 
-    .line 598
+    .line 608
     iput-object p4, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -2282,14 +2327,14 @@
 .method public synthetic lambda$onClick$21$MeasureSettingPopupView(Ljava/util/List;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 601
+    .line 611
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/data/MappingObject;
 
-    .line 602
+    .line 612
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -2304,16 +2349,16 @@
 .method public synthetic lambda$onClick$22$MeasureSettingPopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 648
+    .line 658
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 649
+    .line 659
     iput-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 650
+    .line 660
     iput-object p3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->mappingObjects:Ljava/util/List;
 
-    .line 651
+    .line 661
     iput-object p4, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -2322,8 +2367,35 @@
 .method public synthetic lambda$onClick$23$MeasureSettingPopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 654
+    .line 664
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$onClick$24$MeasureSettingPopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 670
+    iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 671
+    iput-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 672
+    iput-object p3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->mappingObjects:Ljava/util/List;
+
+    .line 673
+    iput-object p4, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public synthetic lambda$onClick$25$MeasureSettingPopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 675
+    invoke-direct {p0, p4}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectAllItemSource(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
 .end method
@@ -2331,11 +2403,11 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a0690
+    const p1, 0x7f0a069b
 
     if-ne p2, p1, :cond_0
 
-    .line 687
+    .line 707
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     const/4 p2, 0x0
@@ -2345,11 +2417,11 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a071d
+    const p1, 0x7f0a072a
 
     if-ne p2, p1, :cond_1
 
-    .line 691
+    .line 711
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     const/4 p2, 0x1
@@ -2364,28 +2436,28 @@
 .method public onClick(Landroid/view/View;)V
     .locals 12
 
-    .line 488
+    .line 498
     invoke-super {p0, p1}, Lcom/rigol/scope/views/baseview/BaseDeletePopupView;->onClick(Landroid/view/View;)V
 
-    .line 489
+    .line 499
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v0
 
-    const v2, 0x7f0a04e3
+    const v2, 0x7f0a04e8
 
     if-ne v0, v2, :cond_1
 
-    .line 491
+    .line 501
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    .line 492
+    .line 502
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdHigh()J
@@ -2394,7 +2466,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdHigh(J)V
 
-    .line 493
+    .line 503
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
@@ -2403,7 +2475,7 @@
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 494
+    .line 504
     invoke-virtual {v3}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdHighAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -2414,7 +2486,7 @@
 
     iget-object v5, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 495
+    .line 505
     invoke-virtual {v5}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdHighAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v5
@@ -2423,7 +2495,7 @@
 
     move-result-wide v5
 
-    .line 496
+    .line 506
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
@@ -2460,7 +2532,7 @@
     :goto_0
     iget-object v9, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 497
+    .line 507
     invoke-virtual {v9}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdHigh()J
 
     move-result-wide v9
@@ -2471,26 +2543,26 @@
 
     move-object v1, p1
 
-    .line 493
+    .line 503
     invoke-static/range {v0 .. v11}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_3
 
     :cond_1
-    const v2, 0x7f0a063a
+    const v2, 0x7f0a0645
 
     if-ne v0, v2, :cond_3
 
-    .line 513
+    .line 523
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    .line 514
+    .line 524
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdMiddle()J
@@ -2499,7 +2571,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdMiddle(J)V
 
-    .line 515
+    .line 525
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
@@ -2508,7 +2580,7 @@
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 516
+    .line 526
     invoke-virtual {v3}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdMiddleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -2519,7 +2591,7 @@
 
     iget-object v5, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 517
+    .line 527
     invoke-virtual {v5}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdMiddleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v5
@@ -2528,7 +2600,7 @@
 
     move-result-wide v5
 
-    .line 518
+    .line 528
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
@@ -2565,7 +2637,7 @@
     :goto_1
     iget-object v9, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 519
+    .line 529
     invoke-virtual {v9}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdMiddle()J
 
     move-result-wide v9
@@ -2576,26 +2648,26 @@
 
     move-object v1, p1
 
-    .line 515
+    .line 525
     invoke-static/range {v0 .. v11}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_3
 
     :cond_3
-    const v2, 0x7f0a0600
+    const v2, 0x7f0a0609
 
     if-ne v0, v2, :cond_5
 
-    .line 535
+    .line 545
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    .line 536
+    .line 546
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdLow()J
@@ -2604,7 +2676,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdLow(J)V
 
-    .line 537
+    .line 547
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
@@ -2613,7 +2685,7 @@
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 538
+    .line 548
     invoke-virtual {v3}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdLowAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -2624,7 +2696,7 @@
 
     iget-object v5, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 539
+    .line 549
     invoke-virtual {v5}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdLowAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v5
@@ -2633,7 +2705,7 @@
 
     move-result-wide v5
 
-    .line 540
+    .line 550
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
@@ -2670,7 +2742,7 @@
     :goto_2
     iget-object v9, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 541
+    .line 551
     invoke-virtual {v9}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdLow()J
 
     move-result-wide v9
@@ -2681,33 +2753,33 @@
 
     move-object v1, p1
 
-    .line 537
+    .line 547
     invoke-static/range {v0 .. v11}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_3
 
     :cond_5
-    const v2, 0x7f0a0849
+    const v2, 0x7f0a0864
 
     if-ne v0, v2, :cond_6
 
-    .line 557
+    .line 567
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    .line 558
+    .line 568
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_number:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 560
+    .line 570
     invoke-virtual {v3}, Lcom/rigol/scope/data/MeasureSettingParam;->getStatCountAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -2718,7 +2790,7 @@
 
     iget-object v5, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 561
+    .line 571
     invoke-virtual {v5}, Lcom/rigol/scope/data/MeasureSettingParam;->getStatCountAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v5
@@ -2729,7 +2801,7 @@
 
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 562
+    .line 572
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getStatCountAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v7
@@ -2740,7 +2812,7 @@
 
     iget-object v9, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 563
+    .line 573
     invoke-virtual {v9}, Lcom/rigol/scope/data/MeasureSettingParam;->getStatCount()I
 
     move-result v9
@@ -2753,13 +2825,13 @@
 
     move-object v1, p1
 
-    .line 558
+    .line 568
     invoke-static/range {v0 .. v11}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_3
 
     :cond_6
-    const v2, 0x7f0a08d1
+    const v2, 0x7f0a08ec
 
     const/4 v3, 0x1
 
@@ -2767,7 +2839,7 @@
 
     if-ne v0, v2, :cond_7
 
-    .line 579
+    .line 589
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -2779,11 +2851,11 @@
     goto/16 :goto_3
 
     :cond_7
-    const v2, 0x7f0a084b
+    const v2, 0x7f0a0866
 
     if-ne v0, v2, :cond_8
 
-    .line 587
+    .line 597
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -2795,23 +2867,23 @@
     goto/16 :goto_3
 
     :cond_8
-    const v2, 0x7f0a078f
+    const v2, 0x7f0a079c
 
     if-ne v0, v2, :cond_9
 
     const-string v0, "region_spinner"
 
-    .line 590
+    .line 600
     invoke-static {v0, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     const v0, 0x7f030043
 
-    .line 592
+    .line 602
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 593
+    .line 603
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     new-instance v3, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$A2agn4ULVh_A82V7sc44PJY_LHs;
@@ -2827,27 +2899,27 @@
     goto/16 :goto_3
 
     :cond_9
-    const v2, 0x7f0a021c
+    const v2, 0x7f0a0220
 
     if-ne v0, v2, :cond_a
 
-    .line 605
+    .line 615
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    .line 606
+    .line 616
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 607
+    .line 617
     invoke-virtual {v3}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -2858,7 +2930,7 @@
 
     iget-object v5, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 608
+    .line 618
     invoke-virtual {v5}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v5
@@ -2869,7 +2941,7 @@
 
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 609
+    .line 619
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v7
@@ -2880,7 +2952,7 @@
 
     iget-object v9, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 610
+    .line 620
     invoke-virtual {v9}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorA()J
 
     move-result-wide v9
@@ -2891,33 +2963,33 @@
 
     move-object v1, p1
 
-    .line 606
+    .line 616
     invoke-static/range {v0 .. v11}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
-    goto :goto_3
+    goto/16 :goto_3
 
     :cond_a
-    const v2, 0x7f0a0222
+    const v2, 0x7f0a0226
 
     if-ne v0, v2, :cond_b
 
-    .line 624
+    .line 634
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    .line 625
+    .line 635
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 626
+    .line 636
     invoke-virtual {v3}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorBAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -2928,7 +3000,7 @@
 
     iget-object v5, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 627
+    .line 637
     invoke-virtual {v5}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorBAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v5
@@ -2939,7 +3011,7 @@
 
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 628
+    .line 638
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorBAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v7
@@ -2950,7 +3022,7 @@
 
     iget-object v9, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 629
+    .line 639
     invoke-virtual {v9}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorB()J
 
     move-result-wide v9
@@ -2961,22 +3033,22 @@
 
     move-object v1, p1
 
-    .line 625
+    .line 635
     invoke-static/range {v0 .. v11}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto :goto_3
 
     :cond_b
-    const v2, 0x7f0a08d7
+    const v2, 0x7f0a08f2
 
     if-ne v0, v2, :cond_c
 
-    .line 645
+    .line 655
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
 
     const v2, 0x7f03004f
 
-    .line 646
+    .line 656
     invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v2
@@ -2993,10 +3065,41 @@
 
     invoke-direct {v4, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$OibBUcg0wtaUTa2A4G_nXhNdL0g;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
 
-    .line 645
+    .line 655
     invoke-static {v0, p1, v2, v3, v4}, Lcom/rigol/scope/utilities/ViewUtil;->showChanSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
+    goto :goto_3
+
     :cond_c
+    const v2, 0x7f0a063e
+
+    if-ne v0, v2, :cond_d
+
+    const v0, 0x7f030048
+
+    .line 667
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->filterChan(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v0
+
+    .line 668
+    iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->anchor:Landroid/view/View;
+
+    new-instance v3, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$P4cxDXrNUCAFQ8hURxbOnGkr09k;
+
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$P4cxDXrNUCAFQ8hURxbOnGkr09k;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
+
+    new-instance v4, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$Ur0umbIzvRvjJY5s46Kh2KJvBRQ;
+
+    invoke-direct {v4, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$Ur0umbIzvRvjJY5s46Kh2KJvBRQ;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
+
+    invoke-static {v2, p1, v0, v3, v4}, Lcom/rigol/scope/utilities/ViewUtil;->showChanSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
+
+    :cond_d
     :goto_3
     return-void
 .end method
@@ -3004,10 +3107,10 @@
 .method public onLocaleChanged()V
     .locals 2
 
-    .line 676
+    .line 696
     invoke-super {p0}, Lcom/rigol/scope/views/baseview/BaseDeletePopupView;->onLocaleChanged()V
 
-    .line 677
+    .line 697
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->thresholdDisplayTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -3016,7 +3119,7 @@
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->updateSwitchText(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 678
+    .line 698
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->ampMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -3025,7 +3128,7 @@
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->updateSwitchText(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 679
+    .line 699
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->topMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -3034,7 +3137,7 @@
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->updateSwitchText(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 680
+    .line 700
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;->baseMethodSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -3049,10 +3152,10 @@
 .method protected onPrepare()V
     .locals 0
 
-    .line 697
+    .line 717
     invoke-super {p0}, Lcom/rigol/scope/views/baseview/BaseDeletePopupView;->onPrepare()V
 
-    .line 698
+    .line 718
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->setStatChecked()V
 
     return-void
@@ -3061,7 +3164,7 @@
 .method public onResetDefault(I)V
     .locals 5
 
-    .line 740
+    .line 760
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-nez v0, :cond_0
@@ -3075,7 +3178,7 @@
 
     goto/16 :goto_0
 
-    .line 743
+    .line 763
     :sswitch_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3091,7 +3194,7 @@
 
     goto/16 :goto_0
 
-    .line 751
+    .line 771
     :sswitch_1
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3113,7 +3216,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdMiddle(J)V
 
-    .line 753
+    .line 773
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -3136,7 +3239,7 @@
 
     goto/16 :goto_0
 
-    .line 756
+    .line 776
     :sswitch_2
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3158,7 +3261,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdLow(J)V
 
-    .line 758
+    .line 778
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -3183,7 +3286,7 @@
 
     goto :goto_0
 
-    .line 746
+    .line 766
     :sswitch_3
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3205,7 +3308,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdHigh(J)V
 
-    .line 748
+    .line 768
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -3230,7 +3333,7 @@
 
     goto :goto_0
 
-    .line 767
+    .line 787
     :sswitch_4
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3244,7 +3347,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorB(J)V
 
-    .line 768
+    .line 788
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getRegionSelect()I
@@ -3253,7 +3356,7 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 769
+    .line 789
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
@@ -3270,7 +3373,7 @@
 
     goto :goto_0
 
-    .line 761
+    .line 781
     :sswitch_5
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3284,7 +3387,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorA(J)V
 
-    .line 762
+    .line 782
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getRegionSelect()I
@@ -3293,7 +3396,7 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 763
+    .line 783
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
@@ -3314,19 +3417,19 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a021c -> :sswitch_5
-        0x7f0a0222 -> :sswitch_4
-        0x7f0a04e3 -> :sswitch_3
-        0x7f0a0600 -> :sswitch_2
-        0x7f0a063a -> :sswitch_1
-        0x7f0a0849 -> :sswitch_0
+        0x7f0a0220 -> :sswitch_5
+        0x7f0a0226 -> :sswitch_4
+        0x7f0a04e8 -> :sswitch_3
+        0x7f0a0609 -> :sswitch_2
+        0x7f0a0645 -> :sswitch_1
+        0x7f0a0864 -> :sswitch_0
     .end sparse-switch
 .end method
 
 .method public onViewIdCallback(Landroid/view/KeyEvent;IZ)V
     .locals 8
 
-    .line 703
+    .line 723
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-nez v0, :cond_0
@@ -3340,7 +3443,7 @@
 
     goto/16 :goto_0
 
-    .line 706
+    .line 726
     :sswitch_0
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3368,7 +3471,7 @@
 
     goto/16 :goto_0
 
-    .line 714
+    .line 734
     :sswitch_1
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3392,7 +3495,7 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdMiddle(J)V
 
-    .line 716
+    .line 736
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdMiddle()J
@@ -3403,7 +3506,7 @@
 
     goto/16 :goto_0
 
-    .line 719
+    .line 739
     :sswitch_2
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3427,7 +3530,7 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdLow(J)V
 
-    .line 721
+    .line 741
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdLow()J
@@ -3440,7 +3543,7 @@
 
     goto/16 :goto_0
 
-    .line 709
+    .line 729
     :sswitch_3
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3464,7 +3567,7 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdHigh(J)V
 
-    .line 711
+    .line 731
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdHigh()J
@@ -3477,7 +3580,7 @@
 
     goto/16 :goto_0
 
-    .line 730
+    .line 750
     :sswitch_4
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3501,7 +3604,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorB(J)V
 
-    .line 731
+    .line 751
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/MeasureSettingParam;->getRegionSelect()I
@@ -3510,7 +3613,7 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 732
+    .line 752
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
@@ -3537,7 +3640,7 @@
 
     goto :goto_0
 
-    .line 724
+    .line 744
     :sswitch_5
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -3561,7 +3664,7 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorA(J)V
 
-    .line 725
+    .line 745
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/MeasureSettingParam;->getRegionSelect()I
@@ -3570,7 +3673,7 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 726
+    .line 746
     iget-object p2, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
@@ -3603,11 +3706,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a021c -> :sswitch_5
-        0x7f0a0222 -> :sswitch_4
-        0x7f0a04e3 -> :sswitch_3
-        0x7f0a0600 -> :sswitch_2
-        0x7f0a063a -> :sswitch_1
-        0x7f0a0849 -> :sswitch_0
+        0x7f0a0220 -> :sswitch_5
+        0x7f0a0226 -> :sswitch_4
+        0x7f0a04e8 -> :sswitch_3
+        0x7f0a0609 -> :sswitch_2
+        0x7f0a0645 -> :sswitch_1
+        0x7f0a0864 -> :sswitch_0
     .end sparse-switch
 .end method

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/16 v2, 0x16
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0x17
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/16 v2, 0x18
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cb
+    const v1, 0x7f0a04d0
 
     const/16 v2, 0x19
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04ca
+    const v1, 0x7f0a04cf
 
     const/16 v2, 0x1a
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae5
+    const v1, 0x7f0a0b02
 
     const/16 v2, 0x1b
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a09e9
+    const v1, 0x7f0a0a04
 
     const/16 v2, 0x1c
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a09cf
+    const v1, 0x7f0a09ea
 
     const/16 v2, 0x1d
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0995
+    const v1, 0x7f0a09b0
 
     const/16 v2, 0x1e
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07b9
+    const v1, 0x7f0a07c6
 
     const/16 v2, 0x1f
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0992
+    const v1, 0x7f0a09ad
 
     const/16 v2, 0x20
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ab4
+    const v1, 0x7f0a0ad1
 
     const/16 v2, 0x21
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ab5
+    const v1, 0x7f0a0ad2
 
     const/16 v2, 0x22
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a096d
+    const v1, 0x7f0a0988
 
     const/16 v2, 0x23
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a09b9
+    const v1, 0x7f0a09d4
 
     const/16 v2, 0x24
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0acf
+    const v1, 0x7f0a0aec
 
     const/16 v2, 0x25
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ace
+    const v1, 0x7f0a0aeb
 
     const/16 v2, 0x26
 
@@ -617,7 +617,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xfb
+    const/16 v0, 0xff
 
     if-ne p2, v0, :cond_1
 
@@ -649,7 +649,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x2f5
+    const/16 v0, 0x2fa
 
     if-ne p2, v0, :cond_2
 
@@ -681,7 +681,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x2f2
+    const/16 v0, 0x2f7
 
     if-ne p2, v0, :cond_3
 
@@ -713,7 +713,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x95
+    const/16 v0, 0x97
 
     if-ne p2, v0, :cond_4
 
@@ -745,7 +745,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x2f3
+    const/16 v0, 0x2f8
 
     if-ne p2, v0, :cond_5
 
@@ -777,7 +777,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x2f4
+    const/16 v0, 0x2f9
 
     if-ne p2, v0, :cond_6
 
@@ -809,7 +809,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x2f6
+    const/16 v0, 0x2fb
 
     if-ne p2, v0, :cond_7
 
@@ -841,7 +841,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x2f7
+    const/16 v0, 0x2fc
 
     if-ne p2, v0, :cond_8
 
@@ -873,7 +873,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x299
+    const/16 v0, 0x29e
 
     if-ne p2, v0, :cond_9
 
@@ -905,7 +905,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x29a
+    const/16 v0, 0x29f
 
     if-ne p2, v0, :cond_a
 
@@ -937,7 +937,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x174
+    const/16 v0, 0x178
 
     if-ne p2, v0, :cond_b
 
@@ -969,7 +969,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x1bb
+    const/16 v0, 0x1bf
 
     if-ne p2, v0, :cond_c
 
@@ -1041,7 +1041,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1113,7 +1113,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1425,7 +1425,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1497,7 +1497,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1744,7 +1744,7 @@
     const/4 v15, 0x0
 
     :goto_7
-    const v4, 0x7f030228
+    const v4, 0x7f030229
 
     .line 559
     invoke-static {v4, v15}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -3149,7 +3149,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 187
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->notifyPropertyChanged(I)V
@@ -3200,7 +3200,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x27d
+    const/16 p1, 0x282
 
     .line 178
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->notifyPropertyChanged(I)V
@@ -3251,7 +3251,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x27e
+    const/16 p1, 0x283
 
     .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->notifyPropertyChanged(I)V
@@ -3330,7 +3330,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x27d
+    const/16 v0, 0x282
 
     if-ne v0, p1, :cond_0
 
@@ -3342,7 +3342,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_1
 
@@ -3354,7 +3354,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x389
+    const/16 v0, 0x392
 
     if-ne v0, p1, :cond_2
 
@@ -3366,7 +3366,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x30d
+    const/16 v0, 0x312
 
     if-ne v0, p1, :cond_3
 
@@ -3378,7 +3378,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x418
+    const/16 v0, 0x422
 
     if-ne v0, p1, :cond_4
 
@@ -3390,7 +3390,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x38b
+    const/16 v0, 0x394
 
     if-ne v0, p1, :cond_5
 
@@ -3402,7 +3402,7 @@
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0x30f
+    const/16 v0, 0x314
 
     if-ne v0, p1, :cond_6
 
@@ -3414,7 +3414,7 @@
     goto :goto_0
 
     :cond_6
-    const/16 v0, 0x38a
+    const/16 v0, 0x393
 
     if-ne v0, p1, :cond_7
 
@@ -3426,7 +3426,7 @@
     goto :goto_0
 
     :cond_7
-    const/16 v0, 0x27e
+    const/16 v0, 0x283
 
     if-ne v0, p1, :cond_8
 
@@ -3438,7 +3438,7 @@
     goto :goto_0
 
     :cond_8
-    const/16 v0, 0x30e
+    const/16 v0, 0x313
 
     if-ne v0, p1, :cond_9
 
@@ -3488,7 +3488,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x418
+    const/16 p1, 0x422
 
     .line 202
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;->notifyPropertyChanged(I)V

@@ -80,7 +80,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6843
+    .line 6845
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v1, "FPGA_LA0"
@@ -101,7 +101,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA0:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6844
+    .line 6846
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA1"
@@ -122,7 +122,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA1:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6845
+    .line 6847
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA2"
@@ -143,7 +143,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA2:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6846
+    .line 6848
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA3"
@@ -164,7 +164,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA3:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6847
+    .line 6849
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA4"
@@ -185,7 +185,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA4:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6848
+    .line 6850
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA5"
@@ -206,7 +206,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA5:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6849
+    .line 6851
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA6"
@@ -227,7 +227,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA6:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6850
+    .line 6852
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA7"
@@ -248,7 +248,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA7:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6851
+    .line 6853
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA8"
@@ -269,7 +269,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA8:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6852
+    .line 6854
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA9"
@@ -290,7 +290,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA9:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6853
+    .line 6855
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA10"
@@ -311,7 +311,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA10:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6854
+    .line 6856
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA11"
@@ -332,7 +332,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA11:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6855
+    .line 6857
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA12"
@@ -353,7 +353,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA12:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6856
+    .line 6858
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA13"
@@ -374,7 +374,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA13:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6857
+    .line 6859
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_LA14"
@@ -395,7 +395,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA14:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6858
+    .line 6860
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_LA15"
@@ -416,7 +416,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA15:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6859
+    .line 6861
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_Cha"
@@ -437,7 +437,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_Cha:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6860
+    .line 6862
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_Chb"
@@ -458,7 +458,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_Chb:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6861
+    .line 6863
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v2, "FPGA_Chc"
@@ -479,7 +479,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_Chc:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6862
+    .line 6864
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const-string v9, "FPGA_Chd"
@@ -504,7 +504,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
-    .line 6841
+    .line 6843
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->FPGA_LA0:Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     const/4 v3, 0x0
@@ -640,19 +640,19 @@
         }
     .end annotation
 
-    .line 6865
+    .line 6867
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6866
+    .line 6868
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->value1:I
 
-    .line 6867
+    .line 6869
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->value2:Ljava/lang/String;
 
-    .line 6868
+    .line 6870
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->pic1:Ljava/lang/String;
 
-    .line 6869
+    .line 6871
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->pic2:Ljava/lang/String;
 
     return-void
@@ -661,7 +661,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
     .locals 1
 
-    .line 6841
+    .line 6843
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -676,7 +676,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
     .locals 1
 
-    .line 6841
+    .line 6843
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->clone()Ljava/lang/Object;

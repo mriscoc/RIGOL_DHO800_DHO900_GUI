@@ -160,7 +160,7 @@
     .line 30
     iput p1, p0, Lcom/rigol/scope/data/MotorParam;->angle1:I
 
-    const/16 p1, 0x2d
+    const/16 p1, 0x2e
 
     .line 31
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MotorParam;->notifyPropertyChanged(I)V
@@ -174,7 +174,7 @@
     .line 37
     iput p1, p0, Lcom/rigol/scope/data/MotorParam;->angle2:I
 
-    const/16 p1, 0x2e
+    const/16 p1, 0x2f
 
     .line 38
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MotorParam;->notifyPropertyChanged(I)V
@@ -188,7 +188,7 @@
     .line 44
     iput p1, p0, Lcom/rigol/scope/data/MotorParam;->angle3:I
 
-    const/16 p1, 0x2f
+    const/16 p1, 0x30
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MotorParam;->notifyPropertyChanged(I)V

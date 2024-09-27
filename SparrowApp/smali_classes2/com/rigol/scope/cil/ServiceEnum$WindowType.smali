@@ -96,7 +96,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5798
+    .line 5799
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v1, "WIN_NONE"
@@ -117,7 +117,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_NONE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5799
+    .line 5800
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_MAIN_WAVEFORM"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5800
+    .line 5801
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_ZOOM_WAVEFORM"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ZOOM_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5801
+    .line 5802
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_XY"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_XY:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5802
+    .line 5803
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_REF"
@@ -201,7 +201,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_REF:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5803
+    .line 5804
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_MATH"
@@ -222,7 +222,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5804
+    .line 5805
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_MATH_PEAKSEARCH"
@@ -243,7 +243,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH_PEAKSEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5805
+    .line 5806
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_FFT"
@@ -264,7 +264,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_FFT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5806
+    .line 5807
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_EYE"
@@ -285,7 +285,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_EYE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5807
+    .line 5808
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_MEASURE"
@@ -306,7 +306,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5808
+    .line 5809
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_ALL_MEASURE"
@@ -327,7 +327,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5809
+    .line 5810
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_SEARCH"
@@ -348,7 +348,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_SEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5810
+    .line 5811
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_DECODE"
@@ -369,7 +369,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5811
+    .line 5812
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_HISTOGRAM"
@@ -390,7 +390,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5812
+    .line 5813
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_UPA"
@@ -411,7 +411,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_UPA:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5813
+    .line 5814
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_JITTER_TRACK"
@@ -432,7 +432,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_TRACK:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5814
+    .line 5815
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_JITTER_SPECTRUM"
@@ -453,7 +453,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_SPECTRUM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5815
+    .line 5816
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_JITTER_HISTOGRAM"
@@ -474,7 +474,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5816
+    .line 5817
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_JITTER_BATHTUB_CURVE"
@@ -495,7 +495,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_BATHTUB_CURVE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5817
+    .line 5818
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_USB_ANALYSE_EYE"
@@ -516,7 +516,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_USB_ANALYSE_EYE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5818
+    .line 5819
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_USB_ANALYSE_PLOT"
@@ -537,7 +537,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_USB_ANALYSE_PLOT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5819
+    .line 5820
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_USB_ANALYSE_RESULT"
@@ -558,7 +558,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_USB_ANALYSE_RESULT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5820
+    .line 5821
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_LAN_ANALYSE_RESULT"
@@ -579,7 +579,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_LAN_ANALYSE_RESULT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5821
+    .line 5822
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_BASET100_ANALYSE_EYE"
@@ -600,7 +600,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_BASET100_ANALYSE_EYE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5822
+    .line 5823
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_BASET100_ANALYSE_JITTER"
@@ -621,7 +621,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_BASET100_ANALYSE_JITTER:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5823
+    .line 5824
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_BASET100_ANALYSE_RESULT"
@@ -642,7 +642,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_BASET100_ANALYSE_RESULT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5824
+    .line 5825
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v2, "WIN_RTSA_PEAKSEARCH"
@@ -663,7 +663,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_RTSA_PEAKSEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5825
+    .line 5826
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const-string v9, "WIN_BODE"
@@ -688,7 +688,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 5796
+    .line 5797
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_NONE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     const/4 v3, 0x0
@@ -872,19 +872,19 @@
         }
     .end annotation
 
-    .line 5828
+    .line 5829
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5829
+    .line 5830
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    .line 5830
+    .line 5831
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value2:Ljava/lang/String;
 
-    .line 5831
+    .line 5832
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->pic1:Ljava/lang/String;
 
-    .line 5832
+    .line 5833
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->pic2:Ljava/lang/String;
 
     return-void
@@ -893,7 +893,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WindowType;
     .locals 1
 
-    .line 5796
+    .line 5797
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -908,7 +908,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WindowType;
     .locals 1
 
-    .line 5796
+    .line 5797
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WindowType;->clone()Ljava/lang/Object;

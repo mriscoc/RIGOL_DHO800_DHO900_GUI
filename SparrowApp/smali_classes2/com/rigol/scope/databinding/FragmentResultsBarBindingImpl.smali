@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/FragmentResultsBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a079b
+    const v1, 0x7f0a07a8
 
     const/4 v2, 0x3
 
@@ -38,7 +38,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/FragmentResultsBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a079e
+    const v1, 0x7f0a07ab
 
     const/4 v2, 0x4
 
@@ -47,7 +47,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/FragmentResultsBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a079c
+    const v1, 0x7f0a07a9
 
     const/4 v2, 0x5
 
@@ -201,7 +201,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x21b
+    const/16 v0, 0x21f
 
     if-ne p2, v0, :cond_1
 
@@ -525,7 +525,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FragmentResultsBarBindingImpl;->notifyPropertyChanged(I)V
@@ -550,7 +550,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

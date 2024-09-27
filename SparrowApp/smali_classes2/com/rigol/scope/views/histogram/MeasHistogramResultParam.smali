@@ -986,7 +986,7 @@
     .line 118
     iput-boolean p1, p0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->enable:Z
 
-    const/16 p1, 0x10a
+    const/16 p1, 0x10e
 
     .line 120
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->notifyPropertyChanged(I)V
@@ -1085,7 +1085,7 @@
     .line 129
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->verUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3f1
+    const/16 p1, 0x3fb
 
     .line 130
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->notifyPropertyChanged(I)V

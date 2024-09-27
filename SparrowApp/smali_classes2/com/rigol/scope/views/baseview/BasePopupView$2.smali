@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 0
 
-    .line 339
+    .line 340
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView$2;->this$0:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .line 342
+    .line 343
     const-class p1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -75,7 +75,7 @@
 
     if-nez p1, :cond_0
 
-    .line 343
+    .line 344
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView$2;->this$0:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V

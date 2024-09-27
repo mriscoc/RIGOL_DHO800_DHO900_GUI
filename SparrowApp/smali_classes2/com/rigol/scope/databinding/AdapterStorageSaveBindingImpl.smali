@@ -26,9 +26,9 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c4
+    const v1, 0x7f0a04c9
 
-    const/16 v2, 0x17
+    const/16 v2, 0x19
 
     .line 17
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
@@ -36,45 +36,45 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01e7
+    const v1, 0x7f0a01ea
 
-    const/16 v2, 0x18
+    const/16 v2, 0x1a
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01e8
+    const v1, 0x7f0a01eb
 
-    const/16 v2, 0x19
+    const/16 v2, 0x1b
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0854
+    const v1, 0x7f0a086f
 
-    const/16 v2, 0x1a
+    const/16 v2, 0x1c
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0478
+    const v1, 0x7f0a047d
 
-    const/16 v2, 0x1b
+    const/16 v2, 0x1d
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a071e
+    const v1, 0x7f0a072b
 
-    const/16 v2, 0x1c
+    const/16 v2, 0x1e
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -83,25 +83,25 @@
 
     const v1, 0x7f0a00c1
 
-    const/16 v2, 0x1d
+    const/16 v2, 0x1f
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06d2
+    const v1, 0x7f0a06df
 
-    const/16 v2, 0x1e
+    const/16 v2, 0x20
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07bf
+    const v1, 0x7f0a07cc
 
-    const/16 v2, 0x1f
+    const/16 v2, 0x21
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -116,7 +116,7 @@
 
     sget-object v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const/16 v2, 0x20
+    const/16 v2, 0x22
 
     invoke-static {p1, p2, v2, v0, v1}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mapBindings(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILandroidx/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
@@ -128,7 +128,7 @@
 .end method
 
 .method private constructor <init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;[Ljava/lang/Object;)V
-    .locals 36
+    .locals 38
 
     move-object/from16 v3, p0
 
@@ -138,50 +138,50 @@
 
     move-object/from16 v2, p2
 
-    const/16 v4, 0x1d
+    const/16 v4, 0x1f
 
     .line 39
     aget-object v4, p3, v4
 
     check-cast v4, Landroid/widget/TextView;
 
-    const/16 v5, 0x15
+    const/16 v5, 0x17
 
     aget-object v5, p3, v5
 
     check-cast v5, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v6, 0xe
+    const/16 v6, 0x10
 
     aget-object v6, p3, v6
 
     check-cast v6, Landroid/widget/CheckBox;
 
-    const/16 v7, 0xf
+    const/16 v7, 0x11
 
     aget-object v7, p3, v7
 
     check-cast v7, Landroid/widget/CheckBox;
 
-    const/16 v8, 0x10
+    const/16 v8, 0x12
 
     aget-object v8, p3, v8
 
     check-cast v8, Landroid/widget/CheckBox;
 
-    const/16 v9, 0x11
+    const/16 v9, 0x13
 
     aget-object v9, p3, v9
 
     check-cast v9, Landroid/widget/CheckBox;
 
-    const/16 v10, 0x18
+    const/16 v10, 0x1a
 
     aget-object v10, p3, v10
 
     check-cast v10, Landroid/widget/TextView;
 
-    const/16 v11, 0x19
+    const/16 v11, 0x1b
 
     aget-object v11, p3, v11
 
@@ -193,121 +193,121 @@
 
     check-cast v12, Landroid/widget/TextView;
 
-    const/16 v13, 0x1b
+    const/16 v13, 0x1d
 
     aget-object v13, p3, v13
 
     check-cast v13, Landroid/view/View;
 
-    const/16 v14, 0x17
+    const/16 v14, 0x19
 
     aget-object v14, p3, v14
 
     check-cast v14, Landroidx/constraintlayout/widget/Guideline;
 
-    const/4 v15, 0x6
+    const/16 v15, 0x8
 
     aget-object v15, p3, v15
 
     check-cast v15, Landroid/widget/TextView;
 
-    const/16 v16, 0x7
+    const/16 v16, 0x9
 
     aget-object v16, p3, v16
 
     check-cast v16, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v17, 0x2
+    const/16 v17, 0x4
 
     aget-object v17, p3, v17
 
     check-cast v17, Landroid/widget/TextView;
 
-    const/16 v18, 0x3
+    const/16 v18, 0x5
 
     aget-object v18, p3, v18
 
     check-cast v18, Landroid/widget/TextView;
 
-    const/16 v19, 0x8
+    const/16 v19, 0xa
 
     aget-object v19, p3, v19
 
     check-cast v19, Landroid/widget/TextView;
 
-    const/16 v20, 0x9
+    const/16 v20, 0xb
 
     aget-object v20, p3, v20
 
     check-cast v20, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v21, 0x4
+    const/16 v21, 0x6
 
     aget-object v21, p3, v21
 
     check-cast v21, Landroid/widget/TextView;
 
-    const/16 v22, 0x5
+    const/16 v22, 0x7
 
     aget-object v22, p3, v22
 
     check-cast v22, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v23, 0x1e
+    const/16 v23, 0x20
 
     aget-object v23, p3, v23
 
     check-cast v23, Landroid/widget/TextView;
 
-    const/16 v24, 0x16
+    const/16 v24, 0x18
 
     aget-object v24, p3, v24
 
     check-cast v24, Landroid/widget/EditText;
 
-    const/16 v25, 0x1c
+    const/16 v25, 0x1e
 
     aget-object v25, p3, v25
 
     check-cast v25, Landroid/widget/TextView;
 
-    const/16 v26, 0x14
+    const/16 v26, 0x16
 
     aget-object v26, p3, v26
 
     check-cast v26, Landroid/widget/EditText;
 
-    const/16 v27, 0x1f
+    const/16 v27, 0x21
 
     aget-object v27, p3, v27
 
     check-cast v27, Landroid/widget/Button;
 
-    const/16 v28, 0x12
+    const/16 v28, 0x14
 
     aget-object v28, p3, v28
 
     check-cast v28, Landroid/widget/TextView;
 
-    const/16 v29, 0x13
+    const/16 v29, 0x15
 
     aget-object v29, p3, v29
 
     check-cast v29, Landroid/widget/TextView;
 
-    const/16 v30, 0x1a
+    const/16 v30, 0x2
 
     aget-object v30, p3, v30
 
     check-cast v30, Landroid/widget/TextView;
 
-    const/16 v31, 0xa
+    const/16 v31, 0x3
 
     aget-object v31, p3, v31
 
-    check-cast v31, Landroid/widget/TextView;
+    check-cast v31, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v32, 0xb
+    const/16 v32, 0x1c
 
     aget-object v32, p3, v32
 
@@ -325,149 +325,171 @@
 
     check-cast v34, Landroid/widget/TextView;
 
-    const/16 v35, 0x6
+    const/16 v35, 0xe
 
-    move/from16 v3, v35
+    aget-object v35, p3, v35
 
-    invoke-direct/range {v0 .. v34}, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/TextView;Landroid/view/View;Landroid/widget/TextView;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/Button;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+    check-cast v35, Landroid/widget/TextView;
+
+    const/16 v36, 0xf
+
+    aget-object v36, p3, v36
+
+    check-cast v36, Landroid/widget/TextView;
+
+    const/16 v37, 0x6
+
+    move/from16 v3, v37
+
+    invoke-direct/range {v0 .. v36}, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/TextView;Landroid/view/View;Landroid/widget/TextView;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/Button;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
     const-wide/16 v0, -0x1
 
     move-object/from16 v2, p0
 
-    .line 689
+    .line 718
     iput-wide v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 72
+    .line 74
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->autoNameSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
-    .line 73
+    .line 75
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH1:Landroid/widget/CheckBox;
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setTag(Ljava/lang/Object;)V
 
-    .line 74
+    .line 76
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH2:Landroid/widget/CheckBox;
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setTag(Ljava/lang/Object;)V
 
-    .line 75
+    .line 77
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH3:Landroid/widget/CheckBox;
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setTag(Ljava/lang/Object;)V
 
-    .line 76
+    .line 78
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH4:Landroid/widget/CheckBox;
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setTag(Ljava/lang/Object;)V
 
-    .line 77
+    .line 79
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->chooseSpinnerSave:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 78
+    .line 80
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColor:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 79
+    .line 81
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
-    .line 80
+    .line 82
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormat:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 81
+    .line 83
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormatSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 82
+    .line 84
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeader:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 83
+    .line 85
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
-    .line 84
+    .line 86
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvert:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 85
+    .line 87
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 86
+    .line 88
     aget-object v0, p3, v0
 
     check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     iput-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mboundView0:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 87
+    .line 89
     invoke-virtual {v0, v1}, Landroidx/constraintlayout/widget/ConstraintLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 88
+    .line 90
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->pathNameEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 89
+    .line 91
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->prefixEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 90
+    .line 92
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormat:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 91
+    .line 93
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormatSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 92
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepth:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
-
-    .line 93
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepthSpinner:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
-
     .line 94
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormat:Landroid/widget/TextView;
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->smbEnLabel:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
     .line 95
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->smbEnSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
+
+    .line 96
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepth:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
+
+    .line 97
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepthSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
+
+    .line 98
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormat:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
+
+    .line 99
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormatSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
     move-object/from16 v0, p2
 
-    .line 96
+    .line 100
     invoke-virtual {v2, v0}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setRootTag(Landroid/view/View;)V
 
-    .line 98
+    .line 102
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->invalidateAll()V
 
     return-void
@@ -480,10 +502,10 @@
 
     if-nez p2, :cond_0
 
-    .line 206
+    .line 210
     monitor-enter p0
 
-    .line 207
+    .line 211
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -493,7 +515,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 208
+    .line 212
     monitor-exit p0
 
     return p1
@@ -508,14 +530,14 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xaf
+    const/16 v0, 0xb1
 
     if-ne p2, v0, :cond_1
 
-    .line 212
+    .line 216
     monitor-enter p0
 
-    .line 213
+    .line 217
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -525,7 +547,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 214
+    .line 218
     monitor-exit p0
 
     return p1
@@ -540,14 +562,14 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x1a7
+    const/16 v0, 0x355
 
     if-ne p2, v0, :cond_2
 
-    .line 218
+    .line 222
     monitor-enter p0
 
-    .line 219
+    .line 223
     :try_start_2
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -557,7 +579,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 220
+    .line 224
     monitor-exit p0
 
     return p1
@@ -572,14 +594,14 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x1a9
+    const/16 v0, 0x1ab
 
     if-ne p2, v0, :cond_3
 
-    .line 224
+    .line 228
     monitor-enter p0
 
-    .line 225
+    .line 229
     :try_start_3
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -589,7 +611,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 226
+    .line 230
     monitor-exit p0
 
     return p1
@@ -604,14 +626,14 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x1a6
+    const/16 v0, 0x1ad
 
     if-ne p2, v0, :cond_4
 
-    .line 230
+    .line 234
     monitor-enter p0
 
-    .line 231
+    .line 235
     :try_start_4
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -621,7 +643,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 232
+    .line 236
     monitor-exit p0
 
     return p1
@@ -636,14 +658,14 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x1a8
+    const/16 v0, 0x1aa
 
     if-ne p2, v0, :cond_5
 
-    .line 236
+    .line 240
     monitor-enter p0
 
-    .line 237
+    .line 241
     :try_start_5
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -653,7 +675,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 238
+    .line 242
     monitor-exit p0
 
     return p1
@@ -668,14 +690,14 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x3ff
+    const/16 v0, 0x1ac
 
     if-ne p2, v0, :cond_6
 
-    .line 242
+    .line 246
     monitor-enter p0
 
-    .line 243
+    .line 247
     :try_start_6
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -685,7 +707,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 244
+    .line 248
     monitor-exit p0
 
     return p1
@@ -700,14 +722,14 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x400
+    const/16 v0, 0x409
 
     if-ne p2, v0, :cond_7
 
-    .line 248
+    .line 252
     monitor-enter p0
 
-    .line 249
+    .line 253
     :try_start_7
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -717,7 +739,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 250
+    .line 254
     monitor-exit p0
 
     return p1
@@ -732,14 +754,14 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x96
+    const/16 v0, 0x40a
 
     if-ne p2, v0, :cond_8
 
-    .line 254
+    .line 258
     monitor-enter p0
 
-    .line 255
+    .line 259
     :try_start_8
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -749,7 +771,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 256
+    .line 260
     monitor-exit p0
 
     return p1
@@ -768,10 +790,10 @@
 
     if-ne p2, v0, :cond_9
 
-    .line 260
+    .line 264
     monitor-enter p0
 
-    .line 261
+    .line 265
     :try_start_9
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -781,7 +803,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 262
+    .line 266
     monitor-exit p0
 
     return p1
@@ -800,10 +822,10 @@
 
     if-ne p2, v0, :cond_a
 
-    .line 266
+    .line 270
     monitor-enter p0
 
-    .line 267
+    .line 271
     :try_start_a
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -813,7 +835,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 268
+    .line 272
     monitor-exit p0
 
     return p1
@@ -832,10 +854,10 @@
 
     if-ne p2, v0, :cond_b
 
-    .line 272
+    .line 276
     monitor-enter p0
 
-    .line 273
+    .line 277
     :try_start_b
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -845,7 +867,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 274
+    .line 278
     monitor-exit p0
 
     return p1
@@ -860,14 +882,14 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x326
+    const/16 v0, 0x9e
 
     if-ne p2, v0, :cond_c
 
-    .line 278
+    .line 282
     monitor-enter p0
 
-    .line 279
+    .line 283
     :try_start_c
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -877,7 +899,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 280
+    .line 284
     monitor-exit p0
 
     return p1
@@ -892,14 +914,14 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x288
+    const/16 v0, 0x32c
 
     if-ne p2, v0, :cond_d
 
-    .line 284
+    .line 288
     monitor-enter p0
 
-    .line 285
+    .line 289
     :try_start_d
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -909,7 +931,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 286
+    .line 290
     monitor-exit p0
 
     return p1
@@ -924,14 +946,14 @@
     throw p1
 
     :cond_d
-    const/16 v0, 0x39
+    const/16 v0, 0x28d
 
     if-ne p2, v0, :cond_e
 
-    .line 290
+    .line 294
     monitor-enter p0
 
-    .line 291
+    .line 295
     :try_start_e
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -941,7 +963,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 292
+    .line 296
     monitor-exit p0
 
     return p1
@@ -956,14 +978,14 @@
     throw p1
 
     :cond_e
-    const/16 v0, 0x255
+    const/16 v0, 0x3b
 
     if-ne p2, v0, :cond_f
 
-    .line 296
+    .line 300
     monitor-enter p0
 
-    .line 297
+    .line 301
     :try_start_f
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -973,7 +995,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 298
+    .line 302
     monitor-exit p0
 
     return p1
@@ -988,6 +1010,38 @@
     throw p1
 
     :cond_f
+    const/16 v0, 0x25a
+
+    if-ne p2, v0, :cond_10
+
+    .line 306
+    monitor-enter p0
+
+    .line 307
+    :try_start_10
+    iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
+
+    const-wide/32 v2, 0x1000000
+
+    or-long/2addr v0, v2
+
+    iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
+
+    .line 308
+    monitor-exit p0
+
+    return p1
+
+    :catchall_10
+    move-exception p1
+
+    monitor-exit p0
+    :try_end_10
+    .catchall {:try_start_10 .. :try_end_10} :catchall_10
+
+    throw p1
+
+    :cond_10
     const/4 p1, 0x0
 
     return p1
@@ -1000,10 +1054,10 @@
 
     if-nez p2, :cond_0
 
-    .line 176
+    .line 180
     monitor-enter p0
 
-    .line 177
+    .line 181
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1013,7 +1067,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 178
+    .line 182
     monitor-exit p0
 
     return p1
@@ -1028,14 +1082,14 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
-    .line 182
+    .line 186
     monitor-enter p0
 
-    .line 183
+    .line 187
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1045,7 +1099,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 184
+    .line 188
     monitor-exit p0
 
     return p1
@@ -1072,10 +1126,10 @@
 
     if-nez p2, :cond_0
 
-    .line 305
+    .line 315
     monitor-enter p0
 
-    .line 306
+    .line 316
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1085,7 +1139,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 307
+    .line 317
     monitor-exit p0
 
     return p1
@@ -1100,24 +1154,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
-    .line 311
+    .line 321
     monitor-enter p0
 
-    .line 312
+    .line 322
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x1000000
+    const-wide/32 v2, 0x2000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 313
+    .line 323
     monitor-exit p0
 
     return p1
@@ -1144,10 +1198,10 @@
 
     if-nez p2, :cond_0
 
-    .line 161
+    .line 165
     monitor-enter p0
 
-    .line 162
+    .line 166
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1157,7 +1211,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 163
+    .line 167
     monitor-exit p0
 
     return p1
@@ -1172,14 +1226,14 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
-    .line 167
+    .line 171
     monitor-enter p0
 
-    .line 168
+    .line 172
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1189,7 +1243,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 169
+    .line 173
     monitor-exit p0
 
     return p1
@@ -1216,10 +1270,10 @@
 
     if-nez p2, :cond_0
 
-    .line 191
+    .line 195
     monitor-enter p0
 
-    .line 192
+    .line 196
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1229,7 +1283,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 193
+    .line 197
     monitor-exit p0
 
     return p1
@@ -1244,14 +1298,14 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
-    .line 197
+    .line 201
     monitor-enter p0
 
-    .line 198
+    .line 202
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1261,7 +1315,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 199
+    .line 203
     monitor-exit p0
 
     return p1
@@ -1288,10 +1342,10 @@
 
     if-nez p2, :cond_0
 
-    .line 320
+    .line 330
     monitor-enter p0
 
-    .line 321
+    .line 331
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -1301,7 +1355,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 322
+    .line 332
     monitor-exit p0
 
     return p1
@@ -1316,24 +1370,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
-    .line 326
+    .line 336
     monitor-enter p0
 
-    .line 327
+    .line 337
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x2000000
+    const-wide/32 v2, 0x4000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 328
+    .line 338
     monitor-exit p0
 
     return p1
@@ -1356,75 +1410,75 @@
 
 # virtual methods
 .method protected executeBindings()V
-    .locals 67
+    .locals 68
 
     move-object/from16 v1, p0
 
-    .line 337
+    .line 347
     monitor-enter p0
 
-    .line 338
+    .line 348
     :try_start_0
     iget-wide v2, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
     const-wide/16 v4, 0x0
 
-    .line 339
+    .line 349
     iput-wide v4, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 340
+    .line 350
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 361
+    .line 371
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mParam:Lcom/rigol/scope/data/StorageSaveParam;
 
-    const-wide/32 v6, 0x7ffffff
+    const-wide/32 v6, 0xfffffff
 
     and-long/2addr v6, v2
 
     cmp-long v6, v6, v4
 
-    const-wide/32 v11, 0x4200008
+    const-wide/32 v13, 0xc010028
 
-    const-wide/32 v13, 0x6008028
+    const-wide/32 v17, 0x8004008
 
-    const-wide/32 v17, 0x4002008
+    const-wide/32 v19, 0x8002008
 
-    const-wide/32 v19, 0x4001008
+    const-wide/32 v21, 0x8001008
 
-    const-wide/32 v21, 0x4000808
+    const-wide/32 v23, 0x9000008
 
-    const-wide/32 v23, 0x4800008
+    const-wide/32 v25, 0x8080008
 
-    const-wide/32 v25, 0x4040008
+    const-wide/32 v27, 0xa000218
 
-    const-wide/32 v27, 0x5000218
+    const-wide/32 v29, 0x8100008
 
-    const-wide/32 v29, 0x4080008
+    const-wide/32 v31, 0x8020008
 
-    const-wide/32 v31, 0x4010008
+    const-wide/32 v33, 0x8040008
 
-    const-wide/32 v33, 0x4020008
+    const-wide/32 v35, 0x8800008
 
-    const-wide/32 v35, 0x4400008
+    const/4 v15, 0x4
 
-    const-wide/32 v37, 0x4000208
+    const-wide/32 v39, 0x8000208
 
-    const/16 v39, 0x0
+    const/16 v16, 0x0
 
-    if-eqz v6, :cond_25
+    if-eqz v6, :cond_26
 
-    and-long v42, v2, v33
+    and-long v43, v2, v33
 
-    cmp-long v6, v42, v4
+    cmp-long v6, v43, v4
 
     if-eqz v6, :cond_0
 
     if-eqz v0, :cond_0
 
-    .line 383
+    .line 394
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isChan2()Z
 
     move-result v6
@@ -1435,346 +1489,344 @@
     const/4 v6, 0x0
 
     :goto_0
-    and-long v42, v2, v29
+    and-long v43, v2, v29
 
-    cmp-long v16, v42, v4
+    cmp-long v8, v43, v4
 
-    if-eqz v16, :cond_1
+    if-eqz v8, :cond_1
 
     if-eqz v0, :cond_1
 
-    .line 390
+    .line 401
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isChan4()Z
 
-    move-result v16
+    move-result v8
 
     goto :goto_1
 
     :cond_1
-    const/16 v16, 0x0
+    const/4 v8, 0x0
 
     :goto_1
-    and-long v42, v2, v27
+    and-long v43, v2, v27
 
-    cmp-long v42, v42, v4
+    cmp-long v43, v43, v4
 
-    if-eqz v42, :cond_12
+    if-eqz v43, :cond_12
 
     if-eqz v0, :cond_2
 
-    .line 397
+    .line 408
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    move-result-object v8
+    move-result-object v43
+
+    move-object/from16 v7, v43
 
     goto :goto_2
 
     :cond_2
-    move-object/from16 v8, v39
+    move-object/from16 v7, v16
 
     :goto_2
-    and-long v45, v2, v37
+    and-long v45, v2, v39
 
-    cmp-long v42, v45, v4
+    cmp-long v45, v45, v4
 
-    if-eqz v42, :cond_e
+    if-eqz v45, :cond_e
 
-    .line 403
-    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->IMAGE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
+    .line 414
+    sget-object v9, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->IMAGE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne v8, v7, :cond_3
+    if-ne v7, v9, :cond_3
 
-    const/4 v7, 0x1
+    const/4 v9, 0x1
 
     goto :goto_3
 
     :cond_3
-    const/4 v7, 0x0
+    const/4 v9, 0x0
 
-    .line 405
+    .line 416
     :goto_3
-    sget-object v15, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
+    sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne v8, v15, :cond_4
+    if-ne v7, v10, :cond_4
 
-    const/4 v15, 0x1
+    const/4 v10, 0x1
 
     goto :goto_4
 
     :cond_4
-    const/4 v15, 0x0
+    const/4 v10, 0x0
 
-    .line 407
+    .line 418
     :goto_4
-    sget-object v9, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
+    sget-object v11, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne v8, v9, :cond_5
+    if-ne v7, v11, :cond_5
 
-    const/4 v9, 0x1
+    const/4 v11, 0x1
 
     goto :goto_5
 
     :cond_5
-    const/4 v9, 0x0
+    const/4 v11, 0x0
 
     :goto_5
-    if-eqz v42, :cond_7
+    if-eqz v45, :cond_7
 
-    if-eqz v7, :cond_6
+    if-eqz v9, :cond_6
 
-    const-wide/32 v49, 0x10000000
+    const-wide/32 v50, 0x20000000
 
     goto :goto_6
 
     :cond_6
-    const-wide/32 v49, 0x8000000
+    const-wide/32 v50, 0x10000000
 
     :goto_6
-    or-long v2, v2, v49
+    or-long v2, v2, v50
 
     :cond_7
-    and-long v49, v2, v37
+    and-long v50, v2, v39
 
-    cmp-long v10, v49, v4
+    cmp-long v12, v50, v4
 
-    if-eqz v10, :cond_9
+    if-eqz v12, :cond_9
 
-    if-eqz v15, :cond_8
+    if-eqz v10, :cond_8
 
-    const-wide v49, 0x100000000L
+    const-wide v50, 0x200000000L
 
     goto :goto_7
 
     :cond_8
-    const-wide v49, 0x80000000L
+    const-wide v50, 0x100000000L
 
     :goto_7
-    or-long v2, v2, v49
+    or-long v2, v2, v50
 
     :cond_9
-    and-long v49, v2, v37
+    and-long v50, v2, v39
 
-    cmp-long v10, v49, v4
+    cmp-long v12, v50, v4
 
-    if-eqz v10, :cond_b
+    if-eqz v12, :cond_b
 
-    if-eqz v9, :cond_a
+    if-eqz v11, :cond_a
 
-    const-wide/32 v49, 0x40000000
+    const-wide v50, 0x80000000L
 
     goto :goto_8
 
     :cond_a
-    const-wide/32 v49, 0x20000000
+    const-wide/32 v50, 0x40000000
 
     :goto_8
-    or-long v2, v2, v49
+    or-long v2, v2, v50
 
     :cond_b
-    const/16 v10, 0x8
+    const/16 v12, 0x8
 
-    if-eqz v7, :cond_c
+    if-eqz v9, :cond_c
 
-    const/4 v7, 0x0
+    const/4 v9, 0x0
 
     goto :goto_9
 
     :cond_c
-    move v7, v10
+    move v9, v12
 
     :goto_9
-    if-eqz v15, :cond_d
+    if-eqz v10, :cond_d
 
-    const/4 v15, 0x0
+    const/4 v10, 0x0
 
     goto :goto_a
 
     :cond_d
-    move v15, v10
+    move v10, v12
 
     :goto_a
-    if-eqz v9, :cond_f
-
-    const/4 v10, 0x0
+    if-eqz v11, :cond_f
 
     goto :goto_b
 
     :cond_e
-    const/4 v7, 0x0
+    const/4 v9, 0x0
 
     const/4 v10, 0x0
 
-    const/4 v15, 0x0
+    :goto_b
+    const/4 v12, 0x0
 
     :cond_f
-    :goto_b
-    if-eqz v8, :cond_10
+    if-eqz v7, :cond_10
 
-    .line 444
-    iget v8, v8, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->value1:I
+    .line 455
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->value1:I
 
     goto :goto_c
 
     :cond_10
-    const/4 v8, 0x0
+    const/4 v7, 0x0
 
     :goto_c
-    const v9, 0x7f0301d4
+    const v11, 0x7f0301d5
 
-    .line 449
-    invoke-static {v9, v8}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+    .line 460
+    invoke-static {v11, v7}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
-    move-result-object v8
+    move-result-object v7
 
-    const/4 v9, 0x4
+    .line 461
+    invoke-virtual {v1, v15, v7}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 450
-    invoke-virtual {v1, v9, v8}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
+    if-eqz v7, :cond_11
 
-    if-eqz v8, :cond_11
+    .line 466
+    invoke-virtual {v7}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
-    .line 455
-    invoke-virtual {v8}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
-
-    move-result-object v8
+    move-result-object v7
 
     goto :goto_d
 
     :cond_11
-    move-object/from16 v8, v39
+    move-object/from16 v7, v16
 
     goto :goto_d
 
     :cond_12
-    move-object/from16 v8, v39
+    move-object/from16 v7, v16
 
-    const/4 v7, 0x0
+    const/4 v9, 0x0
 
     const/4 v10, 0x0
 
-    const/4 v15, 0x0
+    const/4 v12, 0x0
 
     :goto_d
-    and-long v49, v2, v23
+    and-long v50, v2, v23
 
-    cmp-long v9, v49, v4
+    cmp-long v11, v50, v4
 
-    if-eqz v9, :cond_14
+    if-eqz v11, :cond_14
 
     if-eqz v0, :cond_13
 
-    .line 462
+    .line 473
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
-    move-result-object v9
+    move-result-object v11
 
     goto :goto_e
 
     :cond_13
-    move-object/from16 v9, v39
+    move-object/from16 v11, v16
 
-    .line 467
+    .line 478
     :goto_e
-    invoke-static {v9}, Lcom/rigol/scope/utilities/ViewUtil;->getDiskUIPathName(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v11}, Lcom/rigol/scope/utilities/ViewUtil;->getDiskUIPathName(Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v9
+    move-result-object v11
 
     goto :goto_f
 
     :cond_14
-    move-object/from16 v9, v39
+    move-object/from16 v11, v16
 
     :goto_f
-    and-long v49, v2, v31
+    and-long v50, v2, v31
 
-    cmp-long v42, v49, v4
+    cmp-long v45, v50, v4
 
-    if-eqz v42, :cond_15
+    if-eqz v45, :cond_15
 
     if-eqz v0, :cond_15
 
-    .line 473
+    .line 484
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isChan1()Z
 
-    move-result v42
+    move-result v45
 
     goto :goto_10
 
     :cond_15
-    const/16 v42, 0x0
+    const/16 v45, 0x0
 
     :goto_10
-    and-long v49, v2, v25
+    and-long v50, v2, v25
 
-    cmp-long v49, v49, v4
+    cmp-long v50, v50, v4
 
-    if-eqz v49, :cond_16
+    if-eqz v50, :cond_16
 
     if-eqz v0, :cond_16
 
-    .line 480
+    .line 491
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isChan3()Z
 
-    move-result v49
+    move-result v50
 
     goto :goto_11
 
     :cond_16
-    const/16 v49, 0x0
+    const/16 v50, 0x0
 
     :goto_11
-    and-long v50, v2, v21
+    and-long v51, v2, v21
 
-    cmp-long v50, v50, v4
+    cmp-long v51, v51, v4
 
-    if-eqz v50, :cond_17
+    if-eqz v51, :cond_17
 
     if-eqz v0, :cond_17
 
-    .line 487
+    .line 498
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isImageInvert()Z
 
-    move-result v50
+    move-result v51
 
     goto :goto_12
 
     :cond_17
-    const/16 v50, 0x0
+    const/16 v51, 0x0
 
     :goto_12
-    and-long v51, v2, v17
+    and-long v52, v2, v17
 
-    cmp-long v51, v51, v4
+    cmp-long v52, v52, v4
 
-    if-eqz v51, :cond_18
+    if-eqz v52, :cond_18
 
     if-eqz v0, :cond_18
 
-    .line 494
+    .line 505
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isImageHeader()Z
 
-    move-result v51
+    move-result v52
 
     goto :goto_13
 
     :cond_18
-    const/16 v51, 0x0
+    const/16 v52, 0x0
 
     :goto_13
-    and-long v52, v2, v13
+    and-long v53, v2, v13
 
-    cmp-long v52, v52, v4
+    cmp-long v53, v53, v4
 
-    if-eqz v52, :cond_1a
+    if-eqz v53, :cond_1a
 
     if-eqz v0, :cond_19
 
-    .line 501
+    .line 512
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveFileType()I
 
-    move-result v52
+    move-result v53
 
-    move/from16 v13, v52
+    move/from16 v13, v53
 
     goto :goto_14
 
@@ -1782,21 +1834,21 @@
     const/4 v13, 0x0
 
     :goto_14
-    const v14, 0x7f0301d8
+    const v14, 0x7f0301d9
 
-    .line 506
+    .line 517
     invoke-static {v14, v13}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v13
 
     const/4 v14, 0x5
 
-    .line 507
+    .line 518
     invoke-virtual {v1, v14, v13}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
     if-eqz v13, :cond_1a
 
-    .line 512
+    .line 523
     invoke-virtual {v13}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v13
@@ -1804,18 +1856,18 @@
     goto :goto_15
 
     :cond_1a
-    move-object/from16 v13, v39
+    move-object/from16 v13, v16
 
     :goto_15
-    and-long v54, v2, v35
+    and-long v55, v2, v35
 
-    cmp-long v14, v54, v4
+    cmp-long v14, v55, v4
 
     if-eqz v14, :cond_1b
 
     if-eqz v0, :cond_1b
 
-    .line 519
+    .line 530
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isAutoName()Z
 
     move-result v14
@@ -1826,126 +1878,107 @@
     const/4 v14, 0x0
 
     :goto_16
-    and-long v54, v2, v19
+    and-long v55, v2, v19
 
-    cmp-long v54, v54, v4
+    cmp-long v55, v55, v4
 
-    if-eqz v54, :cond_1c
+    if-eqz v55, :cond_1c
 
     if-eqz v0, :cond_1c
 
-    .line 526
+    .line 537
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->isImageColor()Z
 
-    move-result v54
+    move-result v55
+
+    const-wide/32 v48, 0x8000408
 
     goto :goto_17
 
     :cond_1c
-    const/16 v54, 0x0
+    const-wide/32 v48, 0x8000408
+
+    const/16 v55, 0x0
 
     :goto_17
-    and-long v55, v2, v11
+    and-long v56, v2, v48
 
-    cmp-long v55, v55, v4
+    cmp-long v56, v56, v4
 
-    if-eqz v55, :cond_1d
+    if-eqz v56, :cond_1d
 
     if-eqz v0, :cond_1d
 
-    .line 533
-    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getPrefix()Ljava/lang/String;
+    .line 544
+    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getSmbEn()Z
 
-    move-result-object v55
+    move-result v56
+
+    const-wide/32 v46, 0x8400008
 
     goto :goto_18
 
     :cond_1d
-    move-object/from16 v55, v39
+    const-wide/32 v46, 0x8400008
+
+    const/16 v56, 0x0
 
     :goto_18
-    const-wide/32 v47, 0x4100049
+    and-long v57, v2, v46
 
-    and-long v56, v2, v47
+    cmp-long v57, v57, v4
 
-    cmp-long v56, v56, v4
-
-    if-eqz v56, :cond_1f
+    if-eqz v57, :cond_1e
 
     if-eqz v0, :cond_1e
 
-    .line 540
-    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getSetupFileType()I
+    .line 551
+    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getPrefix()Ljava/lang/String;
 
-    move-result v56
-
-    move/from16 v11, v56
+    move-result-object v57
 
     goto :goto_19
 
     :cond_1e
-    const/4 v11, 0x0
+    move-object/from16 v57, v16
 
     :goto_19
-    const v12, 0x7f0301d6
+    const-wide/32 v41, 0x8200049
 
-    .line 545
-    invoke-static {v12, v11}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+    and-long v58, v2, v41
 
-    move-result-object v11
+    cmp-long v58, v58, v4
 
-    const/4 v12, 0x0
+    if-eqz v58, :cond_20
 
-    .line 546
-    invoke-virtual {v1, v12, v11}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
+    if-eqz v0, :cond_1f
 
-    if-eqz v11, :cond_20
+    .line 558
+    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getSetupFileType()I
 
-    .line 551
-    invoke-virtual {v11}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
+    move-result v58
 
-    move-result-object v11
+    move/from16 v15, v58
 
     goto :goto_1a
 
     :cond_1f
-    const/4 v12, 0x0
-
-    :cond_20
-    move-object/from16 v11, v39
+    const/4 v15, 0x0
 
     :goto_1a
-    const-wide/32 v43, 0x400410c
-
-    and-long v58, v2, v43
-
-    cmp-long v46, v58, v4
-
-    if-eqz v46, :cond_22
-
-    if-eqz v0, :cond_21
-
-    .line 558
-    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveDepth()I
-
-    move-result v46
-
-    move/from16 v12, v46
-
-    :cond_21
     const v4, 0x7f0301d7
 
     .line 563
-    invoke-static {v4, v12}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+    invoke-static {v4, v15}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v4
 
-    const/4 v5, 0x2
+    const/4 v5, 0x0
 
     .line 564
     invoke-virtual {v1, v5, v4}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    if-eqz v4, :cond_22
+    if-eqz v4, :cond_21
 
     .line 569
     invoke-virtual {v4}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
@@ -1954,99 +1987,148 @@
 
     goto :goto_1b
 
-    :cond_22
-    move-object/from16 v4, v39
+    :cond_20
+    const/4 v5, 0x0
+
+    :cond_21
+    move-object/from16 v4, v16
 
     :goto_1b
-    const-wide/32 v40, 0x400048a
+    const-wide/32 v61, 0x800810c
 
-    and-long v60, v2, v40
+    and-long v61, v2, v61
 
-    const-wide/16 v58, 0x0
+    const-wide/16 v59, 0x0
 
-    cmp-long v5, v60, v58
+    cmp-long v15, v61, v59
 
-    if-eqz v5, :cond_24
+    if-eqz v15, :cond_23
 
-    if-eqz v0, :cond_23
+    if-eqz v0, :cond_22
 
     .line 576
+    invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveDepth()I
+
+    move-result v15
+
+    goto :goto_1c
+
+    :cond_22
+    move v15, v5
+
+    :goto_1c
+    const v5, 0x7f0301d8
+
+    .line 581
+    invoke-static {v5, v15}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+
+    move-result-object v5
+
+    const/4 v15, 0x2
+
+    .line 582
+    invoke-virtual {v1, v15, v5}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
+
+    if-eqz v5, :cond_23
+
+    .line 587
+    invoke-virtual {v5}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
+
+    move-result-object v5
+
+    goto :goto_1d
+
+    :cond_23
+    move-object/from16 v5, v16
+
+    :goto_1d
+    const-wide/32 v37, 0x800088a
+
+    and-long v61, v2, v37
+
+    const-wide/16 v59, 0x0
+
+    cmp-long v15, v61, v59
+
+    if-eqz v15, :cond_25
+
+    if-eqz v0, :cond_24
+
+    .line 594
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getImageFileType()I
 
     move-result v0
 
-    goto :goto_1c
+    goto :goto_1e
 
-    :cond_23
+    :cond_24
     const/4 v0, 0x0
 
-    :goto_1c
-    const v5, 0x7f0301ca
+    :goto_1e
+    const v15, 0x7f0301cb
 
-    .line 581
-    invoke-static {v5, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+    .line 599
+    invoke-static {v15, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
 
-    const/4 v5, 0x1
+    const/4 v15, 0x1
 
-    .line 582
-    invoke-virtual {v1, v5, v0}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
+    .line 600
+    invoke-virtual {v1, v15, v0}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    if-eqz v0, :cond_24
+    if-eqz v0, :cond_25
 
-    .line 587
+    .line 605
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
-    move-result-object v39
-
-    :cond_24
-    move-object/from16 v65, v4
-
-    move-object/from16 v62, v9
-
-    move-object/from16 v64, v11
-
-    move-object/from16 v66, v13
-
-    move/from16 v5, v16
-
-    move/from16 v0, v42
-
-    move/from16 v4, v49
-
-    move/from16 v12, v50
-
-    move/from16 v11, v51
-
-    move/from16 v9, v54
-
-    move-object/from16 v63, v55
-
-    move-object v13, v8
-
-    move v8, v15
-
-    move v15, v14
-
-    move-object/from16 v14, v39
-
-    goto :goto_1d
+    move-result-object v16
 
     :cond_25
-    move-object/from16 v13, v39
+    move-object/from16 v65, v4
 
-    move-object v14, v13
+    move-object/from16 v66, v5
 
-    move-object/from16 v62, v14
+    move-object v15, v7
 
-    move-object/from16 v63, v62
+    move-object/from16 v63, v11
+
+    move-object/from16 v67, v13
+
+    move v7, v14
+
+    move-object/from16 v14, v16
+
+    move/from16 v0, v45
+
+    move/from16 v4, v50
+
+    move/from16 v13, v51
+
+    move/from16 v11, v52
+
+    move/from16 v5, v55
+
+    move/from16 v16, v56
+
+    move-object/from16 v64, v57
+
+    goto :goto_1f
+
+    :cond_26
+    move-object/from16 v14, v16
+
+    move-object v15, v14
+
+    move-object/from16 v63, v15
 
     move-object/from16 v64, v63
 
     move-object/from16 v65, v64
 
     move-object/from16 v66, v65
+
+    move-object/from16 v67, v66
 
     const/4 v0, 0x0
 
@@ -2068,305 +2150,344 @@
 
     const/4 v12, 0x0
 
-    const/4 v15, 0x0
+    const/4 v13, 0x0
 
-    :goto_1d
+    const/16 v16, 0x0
+
+    :goto_1f
     and-long v35, v2, v35
 
-    const-wide/16 v45, 0x0
+    const-wide/16 v43, 0x0
 
-    cmp-long v16, v35, v45
+    cmp-long v35, v35, v43
 
-    if-eqz v16, :cond_26
+    if-eqz v35, :cond_27
 
-    move/from16 v16, v12
+    move/from16 v35, v13
 
-    .line 595
-    iget-object v12, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->autoNameSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 613
+    iget-object v13, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->autoNameSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    invoke-static {v12, v15}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+    invoke-static {v13, v7}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    goto :goto_1e
-
-    :cond_26
-    move/from16 v16, v12
-
-    :goto_1e
-    and-long v31, v2, v31
-
-    cmp-long v12, v31, v45
-
-    if-eqz v12, :cond_27
-
-    .line 600
-    iget-object v12, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH1:Landroid/widget/CheckBox;
-
-    invoke-static {v12, v0}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+    goto :goto_20
 
     :cond_27
+    move/from16 v35, v13
+
+    :goto_20
+    and-long v31, v2, v31
+
+    cmp-long v7, v31, v43
+
+    if-eqz v7, :cond_28
+
+    .line 618
+    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH1:Landroid/widget/CheckBox;
+
+    invoke-static {v7, v0}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+
+    :cond_28
     and-long v31, v2, v33
 
-    cmp-long v0, v31, v45
+    cmp-long v0, v31, v43
 
-    if-eqz v0, :cond_28
+    if-eqz v0, :cond_29
 
-    .line 605
+    .line 623
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH2:Landroid/widget/CheckBox;
 
     invoke-static {v0, v6}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_28
-    and-long v25, v2, v25
+    :cond_29
+    and-long v6, v2, v25
 
-    cmp-long v0, v25, v45
+    cmp-long v0, v6, v43
 
-    if-eqz v0, :cond_29
+    if-eqz v0, :cond_2a
 
-    .line 610
+    .line 628
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH3:Landroid/widget/CheckBox;
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_29
-    and-long v25, v2, v29
-
-    cmp-long v0, v25, v45
-
-    if-eqz v0, :cond_2a
-
-    .line 615
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH4:Landroid/widget/CheckBox;
-
-    invoke-static {v0, v5}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
-
     :cond_2a
-    and-long v4, v2, v27
+    and-long v6, v2, v29
 
-    cmp-long v0, v4, v45
+    cmp-long v0, v6, v43
 
     if-eqz v0, :cond_2b
 
-    .line 620
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->chooseSpinnerSave:Landroid/widget/TextView;
+    .line 633
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->checkBoxCH4:Landroid/widget/CheckBox;
 
-    invoke-static {v0, v13}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+    invoke-static {v0, v8}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
     :cond_2b
-    and-long v4, v2, v37
+    and-long v6, v2, v27
 
-    cmp-long v0, v4, v45
+    cmp-long v0, v6, v43
 
     if-eqz v0, :cond_2c
 
-    .line 625
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColor:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 626
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v7}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
-
-    .line 627
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormat:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 628
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormatSpinner:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 629
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeader:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 630
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v7}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
-
-    .line 631
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvert:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 632
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v7}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
-
-    .line 633
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormat:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 634
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormatSpinner:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 635
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepth:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 636
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepthSpinner:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 637
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormat:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
-
     .line 638
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormatSpinner:Landroid/widget/TextView;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->chooseSpinnerSave:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-static {v0, v15}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
     :cond_2c
-    and-long v4, v2, v19
+    and-long v6, v2, v39
 
-    const-wide/16 v6, 0x0
-
-    cmp-long v0, v4, v6
+    cmp-long v0, v6, v43
 
     if-eqz v0, :cond_2d
 
     .line 643
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColor:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 644
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    invoke-static {v0, v9}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+    invoke-virtual {v0, v9}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
+
+    .line 645
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormat:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 646
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormatSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 647
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeader:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 648
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {v0, v9}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
+
+    .line 649
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvert:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 650
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {v0, v9}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
+
+    .line 651
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormat:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v12}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 652
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormatSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v12}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 653
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepth:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 654
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepthSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 655
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormat:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 656
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormatSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
 
     :cond_2d
-    const-wide/32 v4, 0x400048a
+    and-long v6, v2, v19
 
-    and-long/2addr v4, v2
+    const-wide/16 v8, 0x0
 
-    cmp-long v0, v4, v6
+    cmp-long v0, v6, v8
 
     if-eqz v0, :cond_2e
 
-    .line 648
+    .line 661
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-static {v0, v5}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+
+    :cond_2e
+    const-wide/32 v4, 0x800088a
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v8
+
+    if-eqz v0, :cond_2f
+
+    .line 666
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageFormatSpinner:Landroid/widget/TextView;
 
     invoke-static {v0, v14}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_2e
+    :cond_2f
     and-long v4, v2, v17
 
-    cmp-long v0, v4, v6
+    cmp-long v0, v4, v8
 
-    if-eqz v0, :cond_2f
+    if-eqz v0, :cond_30
 
-    .line 653
+    .line 671
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0, v11}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_2f
+    :cond_30
     and-long v4, v2, v21
 
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_30
-
-    .line 658
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    move/from16 v4, v16
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
-
-    :cond_30
-    and-long v4, v2, v23
-
-    cmp-long v0, v4, v6
+    cmp-long v0, v4, v8
 
     if-eqz v0, :cond_31
 
-    .line 663
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->pathNameEditText:Landroid/widget/EditText;
+    .line 676
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    move-object/from16 v9, v62
+    move/from16 v4, v35
 
-    invoke-static {v0, v9}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
     :cond_31
-    const-wide/32 v4, 0x4200008
+    and-long v4, v2, v23
 
-    and-long/2addr v4, v2
-
-    cmp-long v0, v4, v6
+    cmp-long v0, v4, v8
 
     if-eqz v0, :cond_32
 
-    .line 668
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->prefixEditText:Landroid/widget/EditText;
+    .line 681
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->pathNameEditText:Landroid/widget/EditText;
 
-    move-object/from16 v4, v63
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-
-    :cond_32
-    const-wide/32 v4, 0x4100049
-
-    and-long/2addr v4, v2
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_33
-
-    .line 673
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormatSpinner:Landroid/widget/TextView;
-
-    move-object/from16 v11, v64
+    move-object/from16 v11, v63
 
     invoke-static {v0, v11}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_33
-    const-wide/32 v4, 0x400410c
+    :cond_32
+    const-wide/32 v4, 0x8400008
 
     and-long/2addr v4, v2
 
-    cmp-long v0, v4, v6
+    cmp-long v0, v4, v8
+
+    if-eqz v0, :cond_33
+
+    .line 686
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->prefixEditText:Landroid/widget/EditText;
+
+    move-object/from16 v4, v64
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_33
+    const-wide/32 v4, 0x8200049
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v8
 
     if-eqz v0, :cond_34
 
-    .line 678
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepthSpinner:Landroid/widget/TextView;
+    .line 691
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setupFormatSpinner:Landroid/widget/TextView;
 
     move-object/from16 v4, v65
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
     :cond_34
-    const-wide/32 v4, 0x6008028
+    const-wide/32 v4, 0x8000000
 
-    and-long/2addr v2, v4
+    and-long/2addr v4, v2
 
-    cmp-long v0, v2, v6
+    cmp-long v0, v4, v8
 
     if-eqz v0, :cond_35
 
-    .line 683
+    .line 696
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->smbEnLabel:Landroid/widget/TextView;
+
+    const/4 v4, 0x4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 697
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->smbEnSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {v0, v4}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
+
+    :cond_35
+    const-wide/32 v4, 0x8000408
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v8
+
+    if-eqz v0, :cond_36
+
+    .line 702
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->smbEnSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    move/from16 v4, v16
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+
+    :cond_36
+    const-wide/32 v4, 0x800810c
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v8
+
+    if-eqz v0, :cond_37
+
+    .line 707
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveDepthSpinner:Landroid/widget/TextView;
+
+    move-object/from16 v5, v66
+
+    invoke-static {v0, v5}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_37
+    const-wide/32 v4, 0xc010028
+
+    and-long/2addr v2, v4
+
+    cmp-long v0, v2, v8
+
+    if-eqz v0, :cond_38
+
+    .line 712
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->waveFormatSpinner:Landroid/widget/TextView;
 
-    move-object/from16 v13, v66
+    move-object/from16 v13, v67
 
     invoke-static {v0, v13}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_35
+    :cond_38
     return-void
 
     :catchall_0
     move-exception v0
 
-    .line 340
+    .line 350
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2378,10 +2499,10 @@
 .method public hasPendingBindings()Z
     .locals 4
 
-    .line 111
+    .line 115
     monitor-enter p0
 
-    .line 112
+    .line 116
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -2393,12 +2514,12 @@
 
     const/4 v0, 0x1
 
-    .line 113
+    .line 117
     monitor-exit p0
 
     return v0
 
-    .line 115
+    .line 119
     :cond_0
     monitor-exit p0
 
@@ -2419,21 +2540,21 @@
 .method public invalidateAll()V
     .locals 2
 
-    .line 103
+    .line 107
     monitor-enter p0
 
-    const-wide/32 v0, 0x4000000
+    const-wide/32 v0, 0x8000000
 
-    .line 104
+    .line 108
     :try_start_0
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 105
+    .line 109
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 106
+    .line 110
     invoke-virtual {p0}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->requestRebind()V
 
     return-void
@@ -2441,7 +2562,7 @@
     :catchall_0
     move-exception v0
 
-    .line 105
+    .line 109
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2479,7 +2600,7 @@
 
     return p1
 
-    .line 155
+    .line 159
     :cond_0
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2489,7 +2610,7 @@
 
     return p1
 
-    .line 153
+    .line 157
     :cond_1
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2499,7 +2620,7 @@
 
     return p1
 
-    .line 151
+    .line 155
     :cond_2
     check-cast p2, Lcom/rigol/scope/data/StorageSaveParam;
 
@@ -2509,7 +2630,7 @@
 
     return p1
 
-    .line 149
+    .line 153
     :cond_3
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2519,7 +2640,7 @@
 
     return p1
 
-    .line 147
+    .line 151
     :cond_4
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2529,7 +2650,7 @@
 
     return p1
 
-    .line 145
+    .line 149
     :cond_5
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2545,16 +2666,16 @@
 
     const/4 v0, 0x3
 
-    .line 132
+    .line 136
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 133
+    .line 137
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mParam:Lcom/rigol/scope/data/StorageSaveParam;
 
-    .line 134
+    .line 138
     monitor-enter p0
 
-    .line 135
+    .line 139
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
@@ -2564,17 +2685,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->mDirtyFlags:J
 
-    .line 136
+    .line 140
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
-    .line 137
+    .line 141
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 138
+    .line 142
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->requestRebind()V
 
     return-void
@@ -2582,7 +2703,7 @@
     :catchall_0
     move-exception p1
 
-    .line 136
+    .line 140
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2594,11 +2715,11 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 
-    .line 123
+    .line 127
     check-cast p2, Lcom/rigol/scope/data/StorageSaveParam;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;->setParam(Lcom/rigol/scope/data/StorageSaveParam;)V

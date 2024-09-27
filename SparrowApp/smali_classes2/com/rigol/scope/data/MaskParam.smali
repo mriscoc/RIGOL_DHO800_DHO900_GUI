@@ -1574,7 +1574,7 @@
     .line 163
     iput-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->isAuxOut:Z
 
-    const/16 p1, 0x3c
+    const/16 p1, 0x3e
 
     .line 164
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1603,7 +1603,7 @@
     .line 218
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->cursorA:I
 
-    const/16 p1, 0xc3
+    const/16 p1, 0xc6
 
     .line 219
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1632,7 +1632,7 @@
     .line 240
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->cursorAB:I
 
-    const/16 p1, 0xc4
+    const/16 p1, 0xc7
 
     .line 241
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1661,7 +1661,7 @@
     .line 229
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->cursorB:I
 
-    const/16 p1, 0xc5
+    const/16 p1, 0xc8
 
     .line 230
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1690,7 +1690,7 @@
     .line 141
     iput-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->isEnable:Z
 
-    const/16 p1, 0x10a
+    const/16 p1, 0x10e
 
     .line 142
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1719,7 +1719,7 @@
     .line 321
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->errAction:I
 
-    const/16 p1, 0x110
+    const/16 p1, 0x114
 
     .line 322
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1748,7 +1748,7 @@
     .line 185
     iput-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->forceStop:Z
 
-    const/16 p1, 0x148
+    const/16 p1, 0x14c
 
     .line 186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1777,7 +1777,7 @@
     .line 130
     iput-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->minPop:Z
 
-    const/16 p1, 0x218
+    const/16 p1, 0x21c
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1815,7 +1815,7 @@
     .line 174
     iput-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->isOperate:Z
 
-    const/16 p1, 0x237
+    const/16 p1, 0x23b
 
     .line 175
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1840,7 +1840,7 @@
     .line 297
     iput-object p1, p0, Lcom/rigol/scope/data/MaskParam;->outEvent:Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
-    const/16 p1, 0x23a
+    const/16 p1, 0x23e
 
     .line 298
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1865,7 +1865,7 @@
     .line 308
     iput-object p1, p0, Lcom/rigol/scope/data/MaskParam;->outHl:Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
-    const/16 p1, 0x23b
+    const/16 p1, 0x23f
 
     .line 309
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1894,7 +1894,7 @@
     .line 286
     iput-wide p1, p0, Lcom/rigol/scope/data/MaskParam;->outPulse:J
 
-    const/16 p1, 0x23c
+    const/16 p1, 0x240
 
     .line 287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1932,7 +1932,7 @@
     .line 207
     iput-object p1, p0, Lcom/rigol/scope/data/MaskParam;->range:Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
-    const/16 p1, 0x2a6
+    const/16 p1, 0x2ab
 
     .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1961,7 +1961,7 @@
     .line 152
     iput-boolean p1, p0, Lcom/rigol/scope/data/MaskParam;->isShowStat:Z
 
-    const/16 p1, 0x33d
+    const/16 p1, 0x345
 
     .line 153
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -1990,7 +1990,7 @@
     .line 196
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->source:I
 
-    const/16 p1, 0x34f
+    const/16 p1, 0x358
 
     .line 197
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -2019,7 +2019,7 @@
     .line 269
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->xValue:I
 
-    const/16 p1, 0x42c
+    const/16 p1, 0x436
 
     .line 270
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V
@@ -2061,7 +2061,7 @@
     .line 252
     iput p1, p0, Lcom/rigol/scope/data/MaskParam;->yValue:I
 
-    const/16 p1, 0x432
+    const/16 p1, 0x43c
 
     .line 253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MaskParam;->notifyPropertyChanged(I)V

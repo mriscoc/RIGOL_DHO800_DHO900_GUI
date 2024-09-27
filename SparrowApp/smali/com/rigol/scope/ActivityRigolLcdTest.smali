@@ -236,7 +236,7 @@
     .line 67
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolLcdTest;->setContentView(I)V
 
-    const p1, 0x7f0a05dc
+    const p1, 0x7f0a05e5
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolLcdTest;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/ActivityRigolLcdTest;->lcd_color:Landroid/widget/TextView;
 
-    const p1, 0x7f0a05dd
+    const p1, 0x7f0a05e6
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolLcdTest;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/ActivityRigolLcdTest;->lcd_text:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0423
+    const p1, 0x7f0a0428
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolLcdTest;->findViewById(I)Landroid/view/View;

@@ -70,7 +70,7 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 49
+    .line 52
     invoke-virtual {p0}, Lcom/rigol/scope/data/IOParam$ipAddress$2;->invoke()V
 
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
@@ -81,7 +81,7 @@
 .method public final invoke()V
     .locals 4
 
-    .line 192
+    .line 195
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$ipAddress$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getJmDNS()Ljavax/jmdns/impl/JmDNSImpl;
@@ -92,7 +92,7 @@
 
     invoke-virtual {v0}, Ljavax/jmdns/impl/JmDNSImpl;->unregisterAllServices()V
 
-    .line 193
+    .line 196
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$ipAddress$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -104,7 +104,7 @@
 
     invoke-virtual {v0}, Ljavax/jmdns/impl/JmDNSImpl;->close()V
 
-    .line 194
+    .line 197
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$ipAddress$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -122,7 +122,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 197
+    .line 200
     :try_start_0
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$ipAddress$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -152,7 +152,7 @@
 
     goto :goto_0
 
-    .line 201
+    .line 204
     :catch_0
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$ipAddress$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -164,7 +164,7 @@
 
     invoke-virtual {v0}, Ljavax/jmdns/impl/JmDNSImpl;->unregisterAllServices()V
 
-    .line 202
+    .line 205
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$ipAddress$2;->this$0:Lcom/rigol/scope/data/IOParam;
 

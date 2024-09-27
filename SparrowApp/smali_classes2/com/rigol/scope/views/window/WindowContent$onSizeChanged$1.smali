@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 4
 
-    .line 3100
+    .line 3111
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAx$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -68,7 +68,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAxRange(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3101
+    .line 3112
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAx$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -77,7 +77,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$updateCursorAxPosition(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3103
+    .line 3114
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -86,7 +86,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAyRange(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3104
+    .line 3115
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -95,7 +95,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$updateCursorAyPosition(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3106
+    .line 3117
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBx$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -104,7 +104,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBxRange(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3107
+    .line 3118
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBx$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -113,7 +113,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$updateCursorBxPosition(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3109
+    .line 3120
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -122,7 +122,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorByRange(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3110
+    .line 3121
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -131,7 +131,7 @@
 
     invoke-static {v0, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$updateCursorByPosition(Lcom/rigol/scope/views/window/WindowContent;Lcom/rigol/scope/views/CursorTag;)V
 
-    .line 3112
+    .line 3123
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->r10:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -149,7 +149,7 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 3113
+    .line 3124
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v2, v1}, Lcom/rigol/scope/views/window/WindowContent;->access$getRefTag(Lcom/rigol/scope/views/window/WindowContent;I)Lcom/rigol/scope/views/TagView;
@@ -158,10 +158,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3114
+    .line 3125
     invoke-virtual {v2}, Lcom/rigol/scope/views/TagView;->initPositionEdge()V
 
-    .line 3115
+    .line 3126
     :cond_0
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent$onSizeChanged$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 

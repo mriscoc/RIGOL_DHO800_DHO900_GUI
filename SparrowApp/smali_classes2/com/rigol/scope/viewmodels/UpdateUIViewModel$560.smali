@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/CounterResultParam;)V
     .locals 0
 
-    .line 6385
+    .line 6522
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$560;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$560;->val$param:Lcom/rigol/scope/data/CounterResultParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6388
+    .line 6525
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$560;->val$param:Lcom/rigol/scope/data/CounterResultParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/CounterResultParam;->readEnable()Z
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6385
+    .line 6522
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$560;->onChanged(Ljava/lang/Boolean;)V

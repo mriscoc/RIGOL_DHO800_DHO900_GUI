@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6262
+    .line 6263
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v1, "eth100"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->eth100:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6263
+    .line 6264
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v9, "usbLow"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->usbLow:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6264
+    .line 6265
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v2, "usbFull"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->usbFull:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6265
+    .line 6266
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v9, "usbHighFar"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->usbHighFar:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6266
+    .line 6267
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v2, "usbHighNear"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->usbHighNear:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6267
+    .line 6268
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v9, "hdmi"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->hdmi:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6268
+    .line 6269
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const-string v2, "customize"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
-    .line 6260
+    .line 6261
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->eth100:Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 6271
+    .line 6272
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6272
+    .line 6273
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->value1:I
 
-    .line 6273
+    .line 6274
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->value2:Ljava/lang/String;
 
-    .line 6274
+    .line 6275
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->pic1:Ljava/lang/String;
 
-    .line 6275
+    .line 6276
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
     .locals 1
 
-    .line 6260
+    .line 6261
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
     .locals 1
 
-    .line 6260
+    .line 6261
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->clone()Ljava/lang/Object;

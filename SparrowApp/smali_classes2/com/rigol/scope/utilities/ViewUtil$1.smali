@@ -18,7 +18,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 3760
+    .line 3781
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
     return-void
@@ -29,19 +29,19 @@
 .method public run()V
     .locals 2
 
-    .line 3763
+    .line 3784
     invoke-super {p0}, Ljava/lang/Thread;->run()V
 
-    .line 3765
+    .line 3786
     :try_start_0
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doScreenShot()V
 
     const-wide/16 v0, 0x12c
 
-    .line 3766
+    .line 3787
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil$1;->sleep(J)V
 
-    .line 3767
+    .line 3788
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doSaveWave()V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
@@ -51,7 +51,7 @@
     :catch_0
     move-exception v0
 
-    .line 3769
+    .line 3790
     invoke-virtual {v0}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_0

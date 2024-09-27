@@ -382,7 +382,7 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0301c7
+    const p1, 0x7f0301c8
 
     .line 918
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -769,12 +769,12 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a047a -> :sswitch_6
-        0x7f0a047d -> :sswitch_5
-        0x7f0a047f -> :sswitch_4
-        0x7f0a05f8 -> :sswitch_3
-        0x7f0a06d3 -> :sswitch_2
-        0x7f0a07c0 -> :sswitch_1
-        0x7f0a0af6 -> :sswitch_0
+        0x7f0a047f -> :sswitch_6
+        0x7f0a0482 -> :sswitch_5
+        0x7f0a0484 -> :sswitch_4
+        0x7f0a0601 -> :sswitch_3
+        0x7f0a06e0 -> :sswitch_2
+        0x7f0a07cd -> :sswitch_1
+        0x7f0a0b13 -> :sswitch_0
     .end sparse-switch
 .end method

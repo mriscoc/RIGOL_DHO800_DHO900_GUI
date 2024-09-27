@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/JitterParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/views/histogram/HistogramResultParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/JitterParam;
+.field final synthetic val$param:Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/JitterParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/views/histogram/HistogramResultParam;)V
     .locals 0
 
-    .line 8018
+    .line 8152
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$730;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$730;->val$param:Lcom/rigol/scope/data/JitterParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$730;->val$param:Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8021
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$730;->val$param:Lcom/rigol/scope/data/JitterParam;
+    .line 8155
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$730;->val$param:Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/JitterParam;->readEnable()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8018
+    .line 8152
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$730;->onChanged(Ljava/lang/Boolean;)V

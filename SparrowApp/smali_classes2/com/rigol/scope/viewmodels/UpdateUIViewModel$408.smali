@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 4994
+    .line 5131
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$408;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$408;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 4997
+    .line 5134
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$408;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readI2c_scl_thres()V
 
-    .line 4998
+    .line 5135
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$408;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readI2cClkThresAttr()V
@@ -67,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 4994
+    .line 5131
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$408;->onChanged(Ljava/lang/Boolean;)V

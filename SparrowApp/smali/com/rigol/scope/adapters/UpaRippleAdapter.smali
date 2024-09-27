@@ -331,7 +331,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03023d
+    const v1, 0x7f03023e
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -444,7 +444,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0a82
+    .packed-switch 0x7f0a0a9d
         :pswitch_4
         :pswitch_0
         :pswitch_0
@@ -639,7 +639,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0a86
+    const v0, 0x7f0a0aa1
 
     if-ne p1, v0, :cond_1
 
@@ -678,7 +678,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0a86
+    const v0, 0x7f0a0aa1
 
     if-ne p2, v0, :cond_1
 

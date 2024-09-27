@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e4
+    const v1, 0x7f0a08ff
 
     const/16 v2, 0x19
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07cf
+    const v1, 0x7f0a07df
 
     const/16 v2, 0x1a
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0799
+    const v1, 0x7f0a07a6
 
     const/16 v2, 0x1b
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04da
+    const v1, 0x7f0a04df
 
     const/16 v2, 0x1d
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0798
+    const v1, 0x7f0a07a5
 
     const/16 v2, 0x1e
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a070e
+    const v1, 0x7f0a071b
 
     const/16 v2, 0x1f
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0707
+    const v1, 0x7f0a0714
 
     const/16 v2, 0x20
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a070d
+    const v1, 0x7f0a071a
 
     const/16 v2, 0x21
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0709
+    const v1, 0x7f0a0716
 
     const/16 v2, 0x22
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b67
+    const v1, 0x7f0a0b84
 
     const/16 v2, 0x23
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0708
+    const v1, 0x7f0a0715
 
     const/16 v2, 0x24
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b25
+    const v1, 0x7f0a0b42
 
     const/16 v2, 0x25
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a042f
+    const v1, 0x7f0a0434
 
     const/16 v2, 0x26
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0448
+    const v1, 0x7f0a044d
 
     const/16 v2, 0x27
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a042d
+    const v1, 0x7f0a0432
 
     const/16 v2, 0x28
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b4a
+    const v1, 0x7f0a0b67
 
     const/16 v2, 0x29
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b4e
+    const v1, 0x7f0a0b6b
 
     const/16 v2, 0x2a
 
@@ -189,7 +189,7 @@
     .line 35
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b52
+    const v1, 0x7f0a0b6f
 
     const/16 v2, 0x2b
 
@@ -198,7 +198,7 @@
     .line 36
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b56
+    const v1, 0x7f0a0b73
 
     const/16 v2, 0x2c
 
@@ -207,7 +207,7 @@
     .line 37
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b5a
+    const v1, 0x7f0a0b77
 
     const/16 v2, 0x2d
 
@@ -216,7 +216,7 @@
     .line 38
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b5e
+    const v1, 0x7f0a0b7b
 
     const/16 v2, 0x2e
 
@@ -225,7 +225,7 @@
     .line 39
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b62
+    const v1, 0x7f0a0b7f
 
     const/16 v2, 0x2f
 
@@ -234,7 +234,7 @@
     .line 40
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b65
+    const v1, 0x7f0a0b82
 
     const/16 v2, 0x30
 
@@ -243,7 +243,7 @@
     .line 41
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b68
+    const v1, 0x7f0a0b85
 
     const/16 v2, 0x31
 
@@ -252,7 +252,7 @@
     .line 42
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a046a
+    const v1, 0x7f0a046f
 
     const/16 v2, 0x32
 
@@ -261,7 +261,7 @@
     .line 43
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b2b
+    const v1, 0x7f0a0b48
 
     const/16 v2, 0x33
 
@@ -270,7 +270,7 @@
     .line 44
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b2f
+    const v1, 0x7f0a0b4c
 
     const/16 v2, 0x34
 
@@ -279,7 +279,7 @@
     .line 45
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b33
+    const v1, 0x7f0a0b50
 
     const/16 v2, 0x35
 
@@ -288,7 +288,7 @@
     .line 46
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b37
+    const v1, 0x7f0a0b54
 
     const/16 v2, 0x36
 
@@ -297,7 +297,7 @@
     .line 47
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b3b
+    const v1, 0x7f0a0b58
 
     const/16 v2, 0x37
 
@@ -306,7 +306,7 @@
     .line 48
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b3e
+    const v1, 0x7f0a0b5b
 
     const/16 v2, 0x38
 
@@ -315,7 +315,7 @@
     .line 49
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b4b
+    const v1, 0x7f0a0b68
 
     const/16 v2, 0x39
 
@@ -324,7 +324,7 @@
     .line 50
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b4f
+    const v1, 0x7f0a0b6c
 
     const/16 v2, 0x3a
 
@@ -333,7 +333,7 @@
     .line 51
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b53
+    const v1, 0x7f0a0b70
 
     const/16 v2, 0x3b
 
@@ -342,7 +342,7 @@
     .line 52
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b57
+    const v1, 0x7f0a0b74
 
     const/16 v2, 0x3c
 
@@ -351,7 +351,7 @@
     .line 53
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b5b
+    const v1, 0x7f0a0b78
 
     const/16 v2, 0x3d
 
@@ -360,7 +360,7 @@
     .line 54
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b5f
+    const v1, 0x7f0a0b7c
 
     const/16 v2, 0x3e
 
@@ -369,7 +369,7 @@
     .line 55
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b28
+    const v1, 0x7f0a0b45
 
     const/16 v2, 0x3f
 
@@ -378,7 +378,7 @@
     .line 56
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b2c
+    const v1, 0x7f0a0b49
 
     const/16 v2, 0x40
 
@@ -387,7 +387,7 @@
     .line 57
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b30
+    const v1, 0x7f0a0b4d
 
     const/16 v2, 0x41
 
@@ -396,7 +396,7 @@
     .line 58
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b34
+    const v1, 0x7f0a0b51
 
     const/16 v2, 0x42
 
@@ -405,7 +405,7 @@
     .line 59
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b38
+    const v1, 0x7f0a0b55
 
     const/16 v2, 0x43
 
@@ -414,7 +414,7 @@
     .line 60
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b3c
+    const v1, 0x7f0a0b59
 
     const/16 v2, 0x44
 
@@ -423,7 +423,7 @@
     .line 61
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b3f
+    const v1, 0x7f0a0b5c
 
     const/16 v2, 0x45
 
@@ -432,7 +432,7 @@
     .line 62
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b41
+    const v1, 0x7f0a0b5e
 
     const/16 v2, 0x46
 
@@ -441,7 +441,7 @@
     .line 63
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b43
+    const v1, 0x7f0a0b60
 
     const/16 v2, 0x47
 
@@ -450,7 +450,7 @@
     .line 64
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b4c
+    const v1, 0x7f0a0b69
 
     const/16 v2, 0x48
 
@@ -459,7 +459,7 @@
     .line 65
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b50
+    const v1, 0x7f0a0b6d
 
     const/16 v2, 0x49
 
@@ -468,7 +468,7 @@
     .line 66
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b54
+    const v1, 0x7f0a0b71
 
     const/16 v2, 0x4a
 
@@ -477,7 +477,7 @@
     .line 67
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b58
+    const v1, 0x7f0a0b75
 
     const/16 v2, 0x4b
 
@@ -486,7 +486,7 @@
     .line 68
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b5c
+    const v1, 0x7f0a0b79
 
     const/16 v2, 0x4c
 
@@ -495,7 +495,7 @@
     .line 69
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b60
+    const v1, 0x7f0a0b7d
 
     const/16 v2, 0x4d
 
@@ -504,7 +504,7 @@
     .line 70
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b63
+    const v1, 0x7f0a0b80
 
     const/16 v2, 0x4e
 
@@ -513,7 +513,7 @@
     .line 71
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b66
+    const v1, 0x7f0a0b83
 
     const/16 v2, 0x4f
 
@@ -522,7 +522,7 @@
     .line 72
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b69
+    const v1, 0x7f0a0b86
 
     const/16 v2, 0x50
 
@@ -531,7 +531,7 @@
     .line 73
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b48
+    const v1, 0x7f0a0b65
 
     const/16 v2, 0x51
 
@@ -540,7 +540,7 @@
     .line 74
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b49
+    const v1, 0x7f0a0b66
 
     const/16 v2, 0x52
 
@@ -549,7 +549,7 @@
     .line 75
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b29
+    const v1, 0x7f0a0b46
 
     const/16 v2, 0x53
 
@@ -558,7 +558,7 @@
     .line 76
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b2d
+    const v1, 0x7f0a0b4a
 
     const/16 v2, 0x54
 
@@ -567,7 +567,7 @@
     .line 77
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b31
+    const v1, 0x7f0a0b4e
 
     const/16 v2, 0x55
 
@@ -576,7 +576,7 @@
     .line 78
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b35
+    const v1, 0x7f0a0b52
 
     const/16 v2, 0x56
 
@@ -585,7 +585,7 @@
     .line 79
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b39
+    const v1, 0x7f0a0b56
 
     const/16 v2, 0x57
 
@@ -1340,7 +1340,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x378
+    const/16 v0, 0x381
 
     if-ne p2, v0, :cond_1
 
@@ -1372,7 +1372,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x377
+    const/16 v0, 0x380
 
     if-ne p2, v0, :cond_2
 
@@ -1404,7 +1404,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x3e8
+    const/16 v0, 0x3f1
 
     if-ne p2, v0, :cond_3
 
@@ -2767,7 +2767,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 249
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;->notifyPropertyChanged(I)V
@@ -2792,7 +2792,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

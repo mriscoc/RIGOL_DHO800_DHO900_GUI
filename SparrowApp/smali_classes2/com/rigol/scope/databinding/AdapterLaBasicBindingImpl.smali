@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05b7
+    const v1, 0x7f0a05c0
 
     const/16 v2, 0x18
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05a7
+    const v1, 0x7f0a05b0
 
     const/16 v2, 0x19
 
@@ -414,7 +414,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xcd
+    const/16 v0, 0xd0
 
     if-ne p2, v0, :cond_1
 
@@ -446,7 +446,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xce
+    const/16 v0, 0xd1
 
     if-ne p2, v0, :cond_2
 
@@ -478,7 +478,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0xa5
+    const/16 v0, 0xa7
 
     if-ne p2, v0, :cond_3
 
@@ -510,7 +510,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0xcf
+    const/16 v0, 0xd2
 
     if-ne p2, v0, :cond_4
 
@@ -542,7 +542,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0xd0
+    const/16 v0, 0xd3
 
     if-ne p2, v0, :cond_5
 
@@ -574,7 +574,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x1d3
+    const/16 v0, 0x1d7
 
     if-ne p2, v0, :cond_6
 
@@ -606,7 +606,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x1cd
+    const/16 v0, 0x1d1
 
     if-ne p2, v0, :cond_7
 
@@ -638,7 +638,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x1c2
+    const/16 v0, 0x1c6
 
     if-ne p2, v0, :cond_8
 
@@ -750,7 +750,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -2845,7 +2845,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xae
+    const/16 p1, 0xb0
 
     .line 136
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->notifyPropertyChanged(I)V
@@ -2896,7 +2896,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x253
+    const/16 p1, 0x257
 
     .line 128
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->notifyPropertyChanged(I)V
@@ -2921,7 +2921,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x253
+    const/16 v0, 0x257
 
     if-ne v0, p1, :cond_0
 
@@ -2933,7 +2933,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xae
+    const/16 v0, 0xb0
 
     if-ne v0, p1, :cond_1
 

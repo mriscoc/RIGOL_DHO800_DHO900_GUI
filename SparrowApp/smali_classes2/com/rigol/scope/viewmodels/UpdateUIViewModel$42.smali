@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1001
+    .line 1084
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,17 +51,17 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 1004
+    .line 1087
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMainScale()J
 
-    .line 1005
+    .line 1088
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMainScaleAttr()V
 
-    .line 1006
+    .line 1089
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
@@ -72,12 +72,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1007
+    .line 1090
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1010
+    .line 1093
     :cond_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -101,7 +101,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1001
+    .line 1084
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$42;->onChanged(Ljava/lang/Boolean;)V

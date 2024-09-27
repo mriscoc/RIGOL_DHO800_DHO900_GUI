@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5985
+    .line 5986
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     const-string v1, "dc_trim"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->dc_trim:Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
-    .line 5986
+    .line 5987
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     const-string v9, "lf_trim"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->lf_trim:Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
-    .line 5987
+    .line 5988
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     const-string v2, "mf_c_trim"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->mf_c_trim:Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
-    .line 5988
+    .line 5989
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     const-string v9, "hf_trim"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
-    .line 5983
+    .line 5984
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->dc_trim:Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 5991
+    .line 5992
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5992
+    .line 5993
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->value1:I
 
-    .line 5993
+    .line 5994
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->value2:Ljava/lang/String;
 
-    .line 5994
+    .line 5995
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->pic1:Ljava/lang/String;
 
-    .line 5995
+    .line 5996
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
     .locals 1
 
-    .line 5983
+    .line 5984
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
     .locals 1
 
-    .line 5983
+    .line 5984
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->clone()Ljava/lang/Object;

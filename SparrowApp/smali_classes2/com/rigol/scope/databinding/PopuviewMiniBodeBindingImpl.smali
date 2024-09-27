@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e0
+    const v1, 0x7f0a05e9
 
     const/4 v2, 0x3
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e1
+    const v1, 0x7f0a05ea
 
     const/4 v2, 0x4
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e2
+    const v1, 0x7f0a05eb
 
     const/4 v2, 0x5
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e3
+    const v1, 0x7f0a05ec
 
     const/4 v2, 0x6
 
@@ -217,7 +217,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x5d
+    const/16 v0, 0x5f
 
     if-ne p2, v0, :cond_1
 
@@ -249,7 +249,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x65
+    const/16 v0, 0x67
 
     if-ne p2, v0, :cond_2
 
@@ -611,7 +611,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x253
+    const/16 p1, 0x257
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;->notifyPropertyChanged(I)V
@@ -636,7 +636,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x253
+    const/16 v0, 0x257
 
     if-ne v0, p1, :cond_0
 

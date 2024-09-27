@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/App;)V
     .locals 0
 
-    .line 105
+    .line 107
     iput-object p1, p0, Lcom/rigol/scope/App$2;->this$0:Lcom/rigol/scope/App;
 
     invoke-direct {p0}, Landroid/net/ConnectivityManager$NetworkCallback;-><init>()V
@@ -35,10 +35,10 @@
 .method public onAvailable(Landroid/net/Network;)V
     .locals 11
 
-    .line 109
+    .line 111
     invoke-super {p0, p1}, Landroid/net/ConnectivityManager$NetworkCallback;->onAvailable(Landroid/net/Network;)V
 
-    .line 115
+    .line 117
     const-class p1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -47,7 +47,7 @@
 
     check-cast p1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 116
+    .line 118
     const-class v0, Lcom/rigol/scope/viewmodels/IOViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -60,7 +60,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 119
+    .line 121
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -71,7 +71,7 @@
 
     check-cast p1, Lcom/rigol/scope/data/UtilityParam;
 
-    .line 120
+    .line 122
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/IOViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -86,54 +86,54 @@
 
     if-eqz v0, :cond_0
 
-    .line 124
+    .line 126
     invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->getModel()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 125
+    .line 127
     invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->getSerial()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 126
+    .line 128
     invoke-static {}, Lcom/blankj/utilcode/util/AppUtils;->getAppVersionName()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 127
+    .line 129
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getIpAddress()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 128
+    .line 130
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getMask()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 129
+    .line 131
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getMacAddress()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 130
+    .line 132
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getGateway()Ljava/lang/String;
 
     move-result-object v8
 
-    .line 131
+    .line 133
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->isDHCPSelected()Z
 
     move-result v9
 
-    .line 132
+    .line 134
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->isAutoSelected()Z
 
     move-result v10
 
     const-string v1, "/mnt/tmp/identification"
 
-    .line 123
+    .line 125
     invoke-static/range {v1 .. v10}, Lcom/rigol/scope/utilities/ViewUtil;->identification(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     :cond_0
@@ -143,10 +143,10 @@
 .method public onLost(Landroid/net/Network;)V
     .locals 3
 
-    .line 140
+    .line 142
     invoke-super {p0, p1}, Landroid/net/ConnectivityManager$NetworkCallback;->onLost(Landroid/net/Network;)V
 
-    .line 147
+    .line 149
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -157,7 +157,7 @@
 
     const/4 v2, 0x0
 
-    .line 148
+    .line 150
     invoke-virtual {p1, v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     return-void

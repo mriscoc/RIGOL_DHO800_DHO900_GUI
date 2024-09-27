@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8546
+    .line 8548
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     const-string v1, "DEV_OK"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->DEV_OK:Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
-    .line 8547
+    .line 8549
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     const-string v9, "DEV_BUS_ERROR"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->DEV_BUS_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
-    .line 8548
+    .line 8550
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     const-string v2, "DEV_FPGA_ERROR"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->DEV_FPGA_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
-    .line 8549
+    .line 8551
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     const-string v9, "DEV_CONFIG_ERROR"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
-    .line 8544
+    .line 8546
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->DEV_OK:Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 8552
+    .line 8554
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8553
+    .line 8555
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->value1:I
 
-    .line 8554
+    .line 8556
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->value2:Ljava/lang/String;
 
-    .line 8555
+    .line 8557
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->pic1:Ljava/lang/String;
 
-    .line 8556
+    .line 8558
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
     .locals 1
 
-    .line 8544
+    .line 8546
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
     .locals 1
 
-    .line 8544
+    .line 8546
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->clone()Ljava/lang/Object;

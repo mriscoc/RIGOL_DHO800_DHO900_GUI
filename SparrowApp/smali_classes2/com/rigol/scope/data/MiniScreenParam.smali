@@ -416,7 +416,7 @@
     .line 69
     iput-object p1, p0, Lcom/rigol/scope/data/MiniScreenParam;->function:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    const/16 p1, 0x15b
+    const/16 p1, 0x15f
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MiniScreenParam;->notifyPropertyChanged(I)V

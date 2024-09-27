@@ -164,7 +164,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f11007f
+    const p1, 0x7f110080
 
     .line 223
     invoke-virtual {p0, p1}, Lcom/rigol/scope/BaseActivity;->setTheme(I)V
@@ -172,7 +172,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f11007e
+    const p1, 0x7f11007f
 
     .line 225
     invoke-virtual {p0, p1}, Lcom/rigol/scope/BaseActivity;->setTheme(I)V
@@ -1067,7 +1067,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f100377
+    const p2, 0x7f100376
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1312,7 +1312,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101a41
+    const p2, 0x7f101a5f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1327,7 +1327,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x575e
+    const/16 v0, 0x5760
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
@@ -1481,7 +1481,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f100377
+    const p2, 0x7f100376
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

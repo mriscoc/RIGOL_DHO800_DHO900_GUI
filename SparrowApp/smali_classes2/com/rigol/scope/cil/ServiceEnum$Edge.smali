@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7354
+    .line 7356
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     const-string v1, "EDGE_RISING"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Edge;->EDGE_RISING:Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
-    .line 7355
+    .line 7357
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     const-string v9, "EDGE_FALLING"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Edge;->EDGE_FALLING:Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
-    .line 7356
+    .line 7358
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     const-string v2, "EDGE_ALL"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
-    .line 7352
+    .line 7354
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Edge;->EDGE_RISING:Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 7359
+    .line 7361
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7360
+    .line 7362
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Edge;->value1:I
 
-    .line 7361
+    .line 7363
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Edge;->value2:Ljava/lang/String;
 
-    .line 7362
+    .line 7364
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Edge;->pic1:Ljava/lang/String;
 
-    .line 7363
+    .line 7365
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Edge;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Edge;
     .locals 1
 
-    .line 7352
+    .line 7354
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Edge;
     .locals 1
 
-    .line 7352
+    .line 7354
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Edge;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Edge;->clone()Ljava/lang/Object;

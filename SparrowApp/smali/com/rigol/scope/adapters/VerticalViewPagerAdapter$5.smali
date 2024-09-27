@@ -24,7 +24,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;Landroid/content/Context;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSetTextById;Lcom/rigol/scope/utilities/AorBManager$OnTextReset;I)V
     .locals 0
 
-    .line 498
+    .line 500
     iput-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     iput p6, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->val$layoutPosition:I
@@ -39,7 +39,7 @@
 .method protected setSwitch_num(I)V
     .locals 3
 
-    .line 501
+    .line 503
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$200(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Ljava/util/Map;
@@ -64,7 +64,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    .line 502
+    .line 504
     iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-static {v1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$300(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Landroid/content/Context;
@@ -101,7 +101,7 @@
 .method protected setrecovery_num(I)V
     .locals 3
 
-    .line 507
+    .line 509
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$200(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Ljava/util/Map;
@@ -126,7 +126,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    .line 508
+    .line 510
     iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-static {v1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$300(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Landroid/content/Context;

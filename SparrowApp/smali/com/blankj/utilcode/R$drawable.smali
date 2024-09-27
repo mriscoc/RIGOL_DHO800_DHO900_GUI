@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final utils_toast_bg:I = 0x7f08063e
+.field public static final utils_toast_bg:I = 0x7f080642
 
 
 # direct methods

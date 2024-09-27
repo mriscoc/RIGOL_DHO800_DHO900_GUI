@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08ea
+    const v1, 0x7f0a0905
 
     const/4 v2, 0x6
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e0
+    const v1, 0x7f0a05e9
 
     const/16 v2, 0x8
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a3
+    const v1, 0x7f0a07b0
 
     const/16 v2, 0x9
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08eb
+    const v1, 0x7f0a0906
 
     const/16 v2, 0xa
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08ec
+    const v1, 0x7f0a0907
 
     const/16 v2, 0xb
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08ee
+    const v1, 0x7f0a0909
 
     const/16 v2, 0xc
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08f2
+    const v1, 0x7f0a090d
 
     const/16 v2, 0xd
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08f3
+    const v1, 0x7f0a090e
 
     const/16 v2, 0xe
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08f5
+    const v1, 0x7f0a0910
 
     const/16 v2, 0xf
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0208
+    const v1, 0x7f0a020c
 
     const/16 v2, 0x10
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0529
+    const v1, 0x7f0a0532
 
     const/16 v2, 0x11
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06c2
+    const v1, 0x7f0a06cd
 
     const/16 v2, 0x17
 
@@ -531,7 +531,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x15b
+    const/16 v0, 0x15f
 
     if-ne p2, v0, :cond_1
 
@@ -827,7 +827,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;->notifyPropertyChanged(I)V
@@ -852,7 +852,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

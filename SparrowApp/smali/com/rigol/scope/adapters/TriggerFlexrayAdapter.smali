@@ -451,7 +451,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0301fa
+    const v2, 0x7f0301fb
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -477,7 +477,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030232
+    const v2, 0x7f030233
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -518,7 +518,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;->value1:I
 
-    const v2, 0x7f030202
+    const v2, 0x7f030203
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -568,7 +568,7 @@
     .line 247
     iget-object v0, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->binding:Lcom/rigol/scope/databinding/AdapterTriggerFlexrayBinding;
 
-    const v1, 0x7f0301fc
+    const v1, 0x7f0301fd
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;->trig_flex_frame:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
@@ -1019,7 +1019,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a09d5
+    const v0, 0x7f0a09f0
 
     if-ne p1, v0, :cond_0
 
@@ -1036,7 +1036,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a092e
+    const v0, 0x7f0a0949
 
     if-ne p1, v0, :cond_1
 
@@ -1053,7 +1053,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0968
+    const v0, 0x7f0a0983
 
     if-ne p1, v0, :cond_2
 
@@ -1070,7 +1070,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0963
+    const v0, 0x7f0a097e
 
     if-ne p1, v0, :cond_3
 
@@ -1087,7 +1087,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a096b
+    const v0, 0x7f0a0986
 
     if-ne p1, v0, :cond_4
 
@@ -1104,7 +1104,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0960
+    const v0, 0x7f0a097b
 
     if-ne p1, v0, :cond_5
 
@@ -1121,7 +1121,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0965
+    const v0, 0x7f0a0980
 
     if-ne p1, v0, :cond_6
 
@@ -1138,7 +1138,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a095a
+    const v0, 0x7f0a0975
 
     if-ne p1, v0, :cond_7
 
@@ -1457,17 +1457,17 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_b
-        0x7f0a0690 -> :sswitch_a
-        0x7f0a0801 -> :sswitch_9
-        0x7f0a093d -> :sswitch_8
-        0x7f0a093e -> :sswitch_7
-        0x7f0a095b -> :sswitch_6
-        0x7f0a095c -> :sswitch_5
-        0x7f0a095e -> :sswitch_4
-        0x7f0a0961 -> :sswitch_3
-        0x7f0a0966 -> :sswitch_2
-        0x7f0a0969 -> :sswitch_1
-        0x7f0a09ba -> :sswitch_0
+        0x7f0a069b -> :sswitch_a
+        0x7f0a0813 -> :sswitch_9
+        0x7f0a0958 -> :sswitch_8
+        0x7f0a0959 -> :sswitch_7
+        0x7f0a0976 -> :sswitch_6
+        0x7f0a0977 -> :sswitch_5
+        0x7f0a0979 -> :sswitch_4
+        0x7f0a097c -> :sswitch_3
+        0x7f0a0981 -> :sswitch_2
+        0x7f0a0984 -> :sswitch_1
+        0x7f0a09d5 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1484,7 +1484,7 @@
 
     move-result v1
 
-    const v2, 0x7f03020e
+    const v2, 0x7f03020f
 
     sparse-switch v1, :sswitch_data_0
 
@@ -1670,7 +1670,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f030229
+    const v0, 0x7f03022a
 
     .line 398
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1796,7 +1796,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f030201
+    const v0, 0x7f030202
 
     .line 454
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1834,7 +1834,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f030200
+    const v0, 0x7f030201
 
     .line 426
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1896,7 +1896,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0301fe
+    const v0, 0x7f0301ff
 
     .line 440
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1928,7 +1928,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0301fd
+    const v0, 0x7f0301fe
 
     .line 470
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2170,7 +2170,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0301f9
+    const v0, 0x7f0301fa
 
     .line 412
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2263,21 +2263,21 @@
     .sparse-switch
         0x7f0a00c3 -> :sswitch_10
         0x7f0a0190 -> :sswitch_f
-        0x7f0a0690 -> :sswitch_e
-        0x7f0a0801 -> :sswitch_d
-        0x7f0a092e -> :sswitch_c
-        0x7f0a094a -> :sswitch_b
-        0x7f0a094c -> :sswitch_a
-        0x7f0a095a -> :sswitch_9
-        0x7f0a0960 -> :sswitch_8
-        0x7f0a0963 -> :sswitch_7
-        0x7f0a0965 -> :sswitch_6
-        0x7f0a0968 -> :sswitch_5
-        0x7f0a096b -> :sswitch_4
-        0x7f0a099d -> :sswitch_3
-        0x7f0a09d5 -> :sswitch_2
-        0x7f0a0a10 -> :sswitch_1
-        0x7f0a0a12 -> :sswitch_0
+        0x7f0a069b -> :sswitch_e
+        0x7f0a0813 -> :sswitch_d
+        0x7f0a0949 -> :sswitch_c
+        0x7f0a0965 -> :sswitch_b
+        0x7f0a0967 -> :sswitch_a
+        0x7f0a0975 -> :sswitch_9
+        0x7f0a097b -> :sswitch_8
+        0x7f0a097e -> :sswitch_7
+        0x7f0a0980 -> :sswitch_6
+        0x7f0a0983 -> :sswitch_5
+        0x7f0a0986 -> :sswitch_4
+        0x7f0a09b8 -> :sswitch_3
+        0x7f0a09f0 -> :sswitch_2
+        0x7f0a0a2b -> :sswitch_1
+        0x7f0a0a2d -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2787,11 +2787,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a094a -> :sswitch_4
-        0x7f0a094c -> :sswitch_3
-        0x7f0a099d -> :sswitch_2
-        0x7f0a0a10 -> :sswitch_1
-        0x7f0a0a12 -> :sswitch_0
+        0x7f0a0965 -> :sswitch_4
+        0x7f0a0967 -> :sswitch_3
+        0x7f0a09b8 -> :sswitch_2
+        0x7f0a0a2b -> :sswitch_1
+        0x7f0a0a2d -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2960,11 +2960,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a094a -> :sswitch_4
-        0x7f0a094c -> :sswitch_3
-        0x7f0a099d -> :sswitch_2
-        0x7f0a0a10 -> :sswitch_1
-        0x7f0a0a12 -> :sswitch_0
+        0x7f0a0965 -> :sswitch_4
+        0x7f0a0967 -> :sswitch_3
+        0x7f0a09b8 -> :sswitch_2
+        0x7f0a0a2b -> :sswitch_1
+        0x7f0a0a2d -> :sswitch_0
     .end sparse-switch
 .end method
 

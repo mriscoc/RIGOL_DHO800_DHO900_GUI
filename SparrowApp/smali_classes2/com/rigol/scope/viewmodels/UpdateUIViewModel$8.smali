@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 522
+    .line 589
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$8;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 6
 
-    .line 525
+    .line 592
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    .line 528
+    .line 595
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
@@ -75,7 +75,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 529
+    .line 596
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object p1
@@ -88,9 +88,9 @@
 
     move-result-object p1
 
-    goto :goto_1
+    goto/16 :goto_2
 
-    .line 530
+    .line 597
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -102,31 +102,31 @@
 
     move-result v0
 
+    const/4 v2, 0x0
+
     if-eqz v0, :cond_3
 
-    .line 531
+    .line 598
     invoke-static {}, Lcom/rigol/scope/utilities/UtilityUtil;->getDiskList()Ljava/util/List;
 
     move-result-object v0
 
-    const/4 v2, 0x0
-
-    .line 532
+    .line 599
     :goto_0
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v3
 
-    if-ge v2, v3, :cond_3
+    if-ge v2, v3, :cond_6
 
-    .line 533
+    .line 600
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/rigol/scope/data/DiskParam;
 
-    .line 534
+    .line 601
     invoke-virtual {v3}, Lcom/rigol/scope/data/DiskParam;->getShorterName()Ljava/lang/String;
 
     move-result-object v4
@@ -138,14 +138,14 @@
     :cond_1
     const-string v5, "D:"
 
-    .line 538
+    .line 605
     invoke-virtual {v4, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 540
+    .line 607
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object p1
@@ -160,25 +160,100 @@
 
     move-result-object p1
 
-    goto :goto_1
+    goto :goto_2
 
     :cond_2
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
+    .line 611
     :cond_3
+    invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v3, "i:/"
+
+    invoke-virtual {v0, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    .line 612
+    invoke-static {}, Lcom/rigol/scope/utilities/UtilityUtil;->getDiskList()Ljava/util/List;
+
+    move-result-object v0
+
+    .line 613
+    :goto_1
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v3
+
+    if-ge v2, v3, :cond_6
+
+    .line 615
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/rigol/scope/data/DiskParam;
+
+    .line 616
+    invoke-virtual {v3}, Lcom/rigol/scope/data/DiskParam;->getShorterName()Ljava/lang/String;
+
+    move-result-object v4
+
+    if-nez v4, :cond_4
+
+    return-void
+
+    :cond_4
+    const-string v5, "I:"
+
+    .line 620
+    invoke-virtual {v4, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_5
+
+    .line 622
+    invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/DiskParam;->getPath()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "i:"
+
+    invoke-virtual {p1, v2, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p1
+
+    goto :goto_2
+
+    :cond_5
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_1
+
+    :cond_6
     move-object p1, v1
 
-    .line 545
-    :goto_1
+    .line 628
+    :goto_2
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    if-nez v0, :cond_9
+    if-nez v0, :cond_c
 
-    .line 547
+    .line 630
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
@@ -189,17 +264,17 @@
 
     move-result v0
 
-    if-eqz v0, :cond_4
+    if-eqz v0, :cond_7
 
-    .line 548
+    .line 631
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_CSV:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    goto :goto_2
+    goto :goto_3
 
-    .line 549
-    :cond_4
+    .line 632
+    :cond_7
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
@@ -210,17 +285,17 @@
 
     move-result v0
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_8
 
-    .line 550
+    .line 633
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_BIN:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    goto :goto_2
+    goto :goto_3
 
-    .line 551
-    :cond_5
+    .line 634
+    :cond_8
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
@@ -231,15 +306,15 @@
 
     move-result v0
 
-    if-eqz v0, :cond_9
+    if-eqz v0, :cond_c
 
-    .line 552
+    .line 635
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_WFM:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    .line 556
-    :goto_2
+    .line 639
+    :goto_3
     const-class v1, Lcom/rigol/scope/viewmodels/StorageViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -248,12 +323,12 @@
 
     check-cast v1, Lcom/rigol/scope/viewmodels/StorageViewModel;
 
-    if-nez v1, :cond_6
+    if-nez v1, :cond_9
 
     return-void
 
-    .line 560
-    :cond_6
+    .line 643
+    :cond_9
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/StorageViewModel;->getSaveLiveData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -264,27 +339,27 @@
 
     check-cast v1, Lcom/rigol/scope/data/StorageSaveParam;
 
-    .line 562
+    .line 645
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    if-nez v1, :cond_7
+    if-nez v1, :cond_a
 
     return-void
 
-    .line 567
-    :cond_7
+    .line 650
+    :cond_a
     invoke-virtual {v2}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object p1
 
-    if-nez p1, :cond_8
+    if-nez p1, :cond_b
 
     return-void
 
-    .line 570
-    :cond_8
+    .line 653
+    :cond_b
     invoke-virtual {v2}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object p1
@@ -303,19 +378,19 @@
 
     invoke-virtual {v1, p1, v2, v0, v3}, Lcom/rigol/scope/data/StorageSaveParam;->saveWaveSetting_scpi(Ljava/lang/String;Ljava/lang/String;II)V
 
-    .line 573
+    .line 656
     invoke-virtual {v1}, Lcom/rigol/scope/data/StorageSaveParam;->doSave()V
 
     nop
 
-    :cond_9
+    :cond_c
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 522
+    .line 589
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$8;->onChanged(Ljava/lang/Boolean;)V

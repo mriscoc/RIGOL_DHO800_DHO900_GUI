@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7125
+    .line 7127
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     const-string v1, "mode_1ch"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->mode_1ch:Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
-    .line 7126
+    .line 7128
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     const-string v9, "mode_2ch"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->mode_2ch:Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
-    .line 7127
+    .line 7129
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     const-string v2, "reserve1"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->reserve1:Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
-    .line 7128
+    .line 7130
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     const-string v9, "mode_4ch"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
-    .line 7123
+    .line 7125
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->mode_1ch:Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 7131
+    .line 7133
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7132
+    .line 7134
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->value1:I
 
-    .line 7133
+    .line 7135
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->value2:Ljava/lang/String;
 
-    .line 7134
+    .line 7136
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->pic1:Ljava/lang/String;
 
-    .line 7135
+    .line 7137
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
     .locals 1
 
-    .line 7123
+    .line 7125
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
     .locals 1
 
-    .line 7123
+    .line 7125
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->clone()Ljava/lang/Object;

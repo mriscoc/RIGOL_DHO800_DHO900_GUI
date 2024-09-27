@@ -74,14 +74,14 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1914
+    .line 1925
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_2
 
     const/4 v0, 0x0
 
-    .line 1915
+    .line 1926
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->r10:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -97,7 +97,7 @@
     :goto_0
     if-ge v0, v1, :cond_2
 
-    .line 1916
+    .line 1927
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v2, v0}, Lcom/rigol/scope/views/window/WindowContent;->access$getRefTag(Lcom/rigol/scope/views/window/WindowContent;I)Lcom/rigol/scope/views/TagView;
@@ -106,7 +106,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 1917
+    .line 1928
     move-object v3, p1
 
     check-cast v3, Ljava/lang/Boolean;
@@ -120,7 +120,7 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 1918
+    .line 1929
     invoke-virtual {v2}, Lcom/rigol/scope/views/TagView;->invalidate()V
 
     :cond_1

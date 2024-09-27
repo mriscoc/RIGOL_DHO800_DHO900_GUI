@@ -20,17 +20,17 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 56
+    .line 57
     invoke-direct {p0}, Landroid/app/Application;-><init>()V
 
-    .line 62
+    .line 63
     new-instance v0, Lcom/rigol/util/ActivityLifecycleAdapter;
 
     invoke-direct {v0}, Lcom/rigol/util/ActivityLifecycleAdapter;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/App;->lifecycleAdapter:Lcom/rigol/util/ActivityLifecycleAdapter;
 
-    .line 64
+    .line 65
     new-instance v0, Lcom/rigol/scope/HDMIReceiver;
 
     invoke-direct {v0}, Lcom/rigol/scope/HDMIReceiver;-><init>()V
@@ -43,7 +43,7 @@
 .method private checkApplication(Landroid/app/Activity;)Landroid/app/Application;
     .locals 1
 
-    .line 204
+    .line 206
     invoke-virtual {p1}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
 
     move-result-object p1
@@ -52,7 +52,7 @@
 
     return-object p1
 
-    .line 207
+    .line 209
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -66,24 +66,24 @@
 .method private getAppFactory(Landroid/app/Activity;)Landroidx/lifecycle/ViewModelProvider$Factory;
     .locals 1
 
-    .line 194
+    .line 196
     invoke-direct {p0, p1}, Lcom/rigol/scope/App;->checkApplication(Landroid/app/Activity;)Landroid/app/Application;
 
     move-result-object p1
 
-    .line 195
+    .line 197
     iget-object v0, p0, Lcom/rigol/scope/App;->mFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
 
     if-nez v0, :cond_0
 
-    .line 197
+    .line 199
     invoke-static {p1}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->getInstance(Landroid/app/Application;)Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/rigol/scope/App;->mFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
 
-    .line 199
+    .line 201
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/App;->mFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
 
@@ -95,7 +95,7 @@
 .method public getAppViewModelProvider(Landroid/app/Activity;)Landroidx/lifecycle/ViewModelProvider;
     .locals 3
 
-    .line 189
+    .line 191
     new-instance v0, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p1}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
@@ -122,7 +122,7 @@
 .method public getViewModelStore()Landroidx/lifecycle/ViewModelStore;
     .locals 1
 
-    .line 216
+    .line 218
     iget-object v0, p0, Lcom/rigol/scope/App;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     return-object v0
@@ -131,7 +131,7 @@
 .method public isAppForeground()Z
     .locals 1
 
-    .line 184
+    .line 186
     iget-object v0, p0, Lcom/rigol/scope/App;->lifecycleAdapter:Lcom/rigol/util/ActivityLifecycleAdapter;
 
     invoke-virtual {v0}, Lcom/rigol/util/ActivityLifecycleAdapter;->getForegroundActivityCount()I
@@ -154,17 +154,20 @@
 .method public onCreate()V
     .locals 3
 
-    .line 69
+    .line 70
     invoke-super {p0}, Landroid/app/Application;->onCreate()V
 
-    .line 70
+    .line 71
+    invoke-static {p0}, Lcom/rigol/scope/BaseApplicationContext;->setContext(Landroid/content/Context;)V
+
+    .line 72
     new-instance v0, Ltimber/log/Timber$DebugTree;
 
     invoke-direct {v0}, Ltimber/log/Timber$DebugTree;-><init>()V
 
     invoke-static {v0}, Ltimber/log/Timber;->plant(Ltimber/log/Timber$Tree;)V
 
-    .line 73
+    .line 75
     sget-object v0, Lcom/rigol/util/ToastUtils;->INSTANCE:Lcom/rigol/util/ToastUtils;
 
     const/16 v1, 0x11
@@ -179,29 +182,29 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/util/ToastUtils;->setTextSize(I)Lcom/rigol/util/ToastUtils;
 
-    .line 75
+    .line 77
     new-instance v0, Landroid/content/IntentFilter;
 
     invoke-direct {v0}, Landroid/content/IntentFilter;-><init>()V
 
     const-string v1, "android.intent.action.HDMI_PLUGGED"
 
-    .line 76
+    .line 78
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 77
+    .line 79
     iget-object v1, p0, Lcom/rigol/scope/App;->hdmiReceiver:Lcom/rigol/scope/HDMIReceiver;
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/App;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 79
+    .line 81
     new-instance v0, Lcom/rigol/scope/App$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/App$1;-><init>(Lcom/rigol/scope/App;)V
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/App;->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
 
-    .line 101
+    .line 103
     invoke-virtual {p0}, Lcom/rigol/scope/App;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -216,14 +219,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 104
+    .line 106
     new-instance v1, Lcom/rigol/scope/App$2;
 
     invoke-direct {v1, p0}, Lcom/rigol/scope/App$2;-><init>(Lcom/rigol/scope/App;)V
 
     invoke-virtual {v0, v1}, Landroid/net/ConnectivityManager;->registerDefaultNetworkCallback(Landroid/net/ConnectivityManager$NetworkCallback;)V
 
-    .line 167
+    .line 169
     :cond_0
     new-instance v0, Landroidx/lifecycle/ViewModelStore;
 
@@ -231,10 +234,10 @@
 
     iput-object v0, p0, Lcom/rigol/scope/App;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
-    .line 168
+    .line 170
     invoke-static {p0}, Lcom/blankj/utilcode/util/Utils;->init(Landroid/app/Application;)V
 
-    .line 173
+    .line 175
     iget-object v0, p0, Lcom/rigol/scope/App;->lifecycleAdapter:Lcom/rigol/util/ActivityLifecycleAdapter;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/App;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V

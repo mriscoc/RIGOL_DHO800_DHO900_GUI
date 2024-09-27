@@ -94,7 +94,7 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 92
+    .line 96
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->SCR_OFF:Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->value1:I
@@ -107,7 +107,7 @@
 .method public static final applyTime()V
     .locals 4
 
-    .line 958
+    .line 1010
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -126,7 +126,7 @@
 .method public static final getDEFAULT_SCREEN_SELECT()I
     .locals 1
 
-    .line 92
+    .line 96
     sget v0, Lcom/rigol/scope/data/UtilityParamKt;->DEFAULT_SCREEN_SELECT:I
 
     return v0
@@ -137,7 +137,7 @@
 
     const-string v0, "yyyy/MM/dd"
 
-    .line 976
+    .line 1028
     invoke-static {p0, p1, v0}, Lcom/blankj/utilcode/util/TimeUtils;->millis2String(JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -154,7 +154,7 @@
 
     const-string v0, "HH:mm:ss"
 
-    .line 969
+    .line 1021
     invoke-static {p0, p1, v0}, Lcom/blankj/utilcode/util/TimeUtils;->millis2String(JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -169,14 +169,14 @@
 .method public static final saveTone()V
     .locals 4
 
-    .line 947
+    .line 999
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x575c
+    const/16 v2, 0x575e
 
     const/4 v3, 0x0
 

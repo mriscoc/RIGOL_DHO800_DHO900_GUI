@@ -11,7 +11,7 @@
         0x3
     }
     d1 = {
-        "\u0000\\\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0014\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008&\n\u0002\u0018\u0002\n\u0002\u0008\u0012\n\u0002\u0010\u0002\n\u0002\u0008%\n\u0002\u0010\t\n\u0002\u0008\u0018\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0007\u0010\u007f\u001a\u00030\u0080\u0001J\u0011\u0010\u0081\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u0082\u0001\u001a\u00020\u0013J\n\u0010\u0083\u0001\u001a\u00030\u0080\u0001H\u0016J\u0007\u0010\u0084\u0001\u001a\u00020\u0004J\u0007\u0010\u0085\u0001\u001a\u00020\u0004J\u0007\u0010\u0086\u0001\u001a\u00020\rJ\u0007\u0010\u0087\u0001\u001a\u00020\u0013J\u0007\u0010\u0088\u0001\u001a\u00020\u0013J\u0007\u0010\u0089\u0001\u001a\u00020\rJ\u0007\u0010\u008a\u0001\u001a\u00020\u0004J\u0007\u0010\u008b\u0001\u001a\u00020(J\u0007\u0010\u008c\u0001\u001a\u00020\u0013J\u0007\u0010\u008d\u0001\u001a\u00020\u0004J\u0007\u0010\u008e\u0001\u001a\u00020\u0004J\u0007\u0010\u008f\u0001\u001a\u00020\u0004J\u0007\u0010\u0090\u0001\u001a\u00020=J\u0007\u0010\u0091\u0001\u001a\u00020\u0004J\u0007\u0010\u0092\u0001\u001a\u00020FJ\u0007\u0010\u0093\u0001\u001a\u00020\rJ\u0007\u0010\u0094\u0001\u001a\u00020\u0013J\u0007\u0010\u0095\u0001\u001a\u00020\rJ\u0007\u0010\u0096\u0001\u001a\u00020\u0013J\u0007\u0010\u0097\u0001\u001a\u00020\u0013J\u0007\u0010\u0098\u0001\u001a\u00020\u0013J\u0007\u0010\u0099\u0001\u001a\u00020\rJ\u0007\u0010\u009a\u0001\u001a\u00020\u0004J\u0007\u0010\u009b\u0001\u001a\u00020\u0013J\u0007\u0010\u009c\u0001\u001a\u00020mJ\u0007\u0010\u009d\u0001\u001a\u00020\u0013J\u0007\u0010\u009e\u0001\u001a\u00020\u0004J\u0007\u0010\u009f\u0001\u001a\u00020\u0004J\u0007\u0010\u00a0\u0001\u001a\u00020\u0004J\n\u0010\u00a1\u0001\u001a\u00030\u0080\u0001H\u0016J\u0008\u0010\u00a2\u0001\u001a\u00030\u0080\u0001J\u0010\u0010\u00a3\u0001\u001a\u00030\u0080\u00012\u0006\u0010\u0005\u001a\u00020\u0004J\u0010\u0010\u00a4\u0001\u001a\u00030\u0080\u00012\u0006\u0010\n\u001a\u00020\u0004J\u0011\u0010\u00a5\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u0014\u001a\u00030\u00a6\u0001J\u001c\u0010\u00a7\u0001\u001a\u00030\u0080\u00012\u0008\u0010\u00a8\u0001\u001a\u00030\u00a6\u00012\u0008\u0010\u00a9\u0001\u001a\u00030\u00a6\u0001J\u0010\u0010\u00aa\u0001\u001a\u00030\u0080\u00012\u0006\u0010\"\u001a\u00020\rJ\u0010\u0010\u00ab\u0001\u001a\u00030\u0080\u00012\u0006\u0010%\u001a\u00020\u0004J\u0010\u0010\u00ac\u0001\u001a\u00030\u0080\u00012\u0006\u0010)\u001a\u00020(J\u0010\u0010\u00ad\u0001\u001a\u00030\u0080\u00012\u0006\u00104\u001a\u00020\u0004J\u0010\u0010\u00ae\u0001\u001a\u00030\u0080\u00012\u0006\u00107\u001a\u00020\u0004J\u0010\u0010\u00af\u0001\u001a\u00030\u0080\u00012\u0006\u0010:\u001a\u00020\u0004J\u0010\u0010\u00b0\u0001\u001a\u00030\u0080\u00012\u0006\u0010>\u001a\u00020=J\u0010\u0010\u00b1\u0001\u001a\u00030\u0080\u00012\u0006\u0010C\u001a\u00020\u0004J\u0010\u0010\u00b2\u0001\u001a\u00030\u0080\u00012\u0006\u0010G\u001a\u00020FJ\u0010\u0010\u00b3\u0001\u001a\u00030\u0080\u00012\u0006\u0010L\u001a\u00020\rJ\u0010\u0010\u00b4\u0001\u001a\u00030\u0080\u00012\u0006\u0010O\u001a\u00020\u0013J\u0010\u0010\u00b5\u0001\u001a\u00030\u0080\u00012\u0006\u0010R\u001a\u00020\rJ\u0010\u0010\u00b6\u0001\u001a\u00030\u0080\u00012\u0006\u0010U\u001a\u00020\u0013J\u0010\u0010\u00b7\u0001\u001a\u00030\u0080\u00012\u0006\u0010[\u001a\u00020\u0013J\u0010\u0010\u00b8\u0001\u001a\u00030\u0080\u00012\u0006\u0010d\u001a\u00020\u0004J\u0010\u0010\u00b9\u0001\u001a\u00030\u0080\u00012\u0006\u0010n\u001a\u00020mJ\u0011\u0010\u00ba\u0001\u001a\u00030\u0080\u00012\u0007\u0010s\u001a\u00030\u00a6\u0001J\u0010\u0010\u00bb\u0001\u001a\u00030\u0080\u00012\u0006\u0010v\u001a\u00020\u0004J\u0010\u0010\u00bc\u0001\u001a\u00030\u0080\u00012\u0006\u0010y\u001a\u00020\u0004J\u0010\u0010\u00bd\u0001\u001a\u00030\u0080\u00012\u0006\u0010|\u001a\u00020\u0004R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR&\u0010\n\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000b\u0010\u0007\"\u0004\u0008\u000c\u0010\tR&\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R&\u0010\u0014\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018R&\u0010\u0019\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001a\u0010\u0016\"\u0004\u0008\u001b\u0010\u0018R&\u0010\u001d\u001a\u00020\u001c2\u0006\u0010\u0003\u001a\u00020\u001c8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001e\u0010\u001f\"\u0004\u0008 \u0010!R&\u0010\"\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010\u0010\"\u0004\u0008$\u0010\u0012R&\u0010%\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\u0007\"\u0004\u0008\'\u0010\tR&\u0010)\u001a\u00020(2\u0006\u0010\u0003\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010+\"\u0004\u0008,\u0010-R&\u0010.\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008/\u0010\u0016\"\u0004\u00080\u0010\u0018R&\u00101\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00082\u0010\u0016\"\u0004\u00083\u0010\u0018R&\u00104\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00085\u0010\u0007\"\u0004\u00086\u0010\tR&\u00107\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010\u0007\"\u0004\u00089\u0010\tR&\u0010:\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010\u0007\"\u0004\u0008<\u0010\tR&\u0010>\u001a\u00020=2\u0006\u0010\u0003\u001a\u00020=8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008?\u0010@\"\u0004\u0008A\u0010BR\u001a\u0010C\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008D\u0010\u0007\"\u0004\u0008E\u0010\tR&\u0010G\u001a\u00020F2\u0006\u0010\u0003\u001a\u00020F8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008H\u0010I\"\u0004\u0008J\u0010KR&\u0010L\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008M\u0010\u0010\"\u0004\u0008N\u0010\u0012R&\u0010O\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008P\u0010\u0016\"\u0004\u0008Q\u0010\u0018R&\u0010R\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008S\u0010\u0010\"\u0004\u0008T\u0010\u0012R&\u0010U\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008V\u0010\u0016\"\u0004\u0008W\u0010\u0018R&\u0010X\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Y\u0010\u0016\"\u0004\u0008Z\u0010\u0018R&\u0010[\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\\\u0010\u0016\"\u0004\u0008]\u0010\u0018R&\u0010^\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008_\u0010\u0016\"\u0004\u0008`\u0010\u0018R\u001a\u0010a\u001a\u00020\rX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008b\u0010\u0010\"\u0004\u0008c\u0010\u0012R&\u0010d\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008e\u0010\u0007\"\u0004\u0008f\u0010\tR&\u0010g\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008h\u0010\u0007\"\u0004\u0008i\u0010\tR&\u0010j\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008k\u0010\u0016\"\u0004\u0008l\u0010\u0018R&\u0010n\u001a\u00020m2\u0006\u0010\u0003\u001a\u00020m8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008o\u0010p\"\u0004\u0008q\u0010rR&\u0010s\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008t\u0010\u0016\"\u0004\u0008u\u0010\u0018R&\u0010v\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008w\u0010\u0007\"\u0004\u0008x\u0010\tR&\u0010y\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008z\u0010\u0007\"\u0004\u0008{\u0010\tR&\u0010|\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008}\u0010\u0007\"\u0004\u0008~\u0010\t\u00a8\u0006\u00be\u0001"
+        "\u0000\\\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0014\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008&\n\u0002\u0018\u0002\n\u0002\u0008\u0012\n\u0002\u0010\u0002\n\u0002\u0008\'\n\u0002\u0010\t\n\u0002\u0008\u0019\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u0082\u0001\u001a\u00030\u0083\u0001J\u0011\u0010\u0084\u0001\u001a\u00030\u0083\u00012\u0007\u0010\u0085\u0001\u001a\u00020\u0013J\n\u0010\u0086\u0001\u001a\u00030\u0083\u0001H\u0016J\u0007\u0010\u0087\u0001\u001a\u00020\u0004J\u0007\u0010\u0088\u0001\u001a\u00020\u0004J\u0007\u0010\u0089\u0001\u001a\u00020\rJ\u0007\u0010\u008a\u0001\u001a\u00020\u0013J\u0007\u0010\u008b\u0001\u001a\u00020\u0013J\u0007\u0010\u008c\u0001\u001a\u00020\rJ\u0007\u0010\u008d\u0001\u001a\u00020\u0004J\u0007\u0010\u008e\u0001\u001a\u00020+J\u0007\u0010\u008f\u0001\u001a\u00020\u0013J\u0007\u0010\u0090\u0001\u001a\u00020\u0004J\u0007\u0010\u0091\u0001\u001a\u00020\u0004J\u0007\u0010\u0092\u0001\u001a\u00020\u0004J\u0007\u0010\u0093\u0001\u001a\u00020\rJ\u0007\u0010\u0094\u0001\u001a\u00020@J\u0007\u0010\u0095\u0001\u001a\u00020\u0004J\u0007\u0010\u0096\u0001\u001a\u00020IJ\u0007\u0010\u0097\u0001\u001a\u00020\rJ\u0007\u0010\u0098\u0001\u001a\u00020\rJ\u0007\u0010\u0099\u0001\u001a\u00020\u0013J\u0007\u0010\u009a\u0001\u001a\u00020\rJ\u0007\u0010\u009b\u0001\u001a\u00020\u0013J\u0007\u0010\u009c\u0001\u001a\u00020\u0013J\u0007\u0010\u009d\u0001\u001a\u00020\u0013J\u0007\u0010\u009e\u0001\u001a\u00020\rJ\u0007\u0010\u009f\u0001\u001a\u00020\u0004J\u0007\u0010\u00a0\u0001\u001a\u00020\u0013J\u0007\u0010\u00a1\u0001\u001a\u00020pJ\u0007\u0010\u00a2\u0001\u001a\u00020\u0013J\u0007\u0010\u00a3\u0001\u001a\u00020\u0004J\u0007\u0010\u00a4\u0001\u001a\u00020\u0004J\u0007\u0010\u00a5\u0001\u001a\u00020\u0004J\n\u0010\u00a6\u0001\u001a\u00030\u0083\u0001H\u0016J\u0008\u0010\u00a7\u0001\u001a\u00030\u0083\u0001J\u0010\u0010\u00a8\u0001\u001a\u00030\u0083\u00012\u0006\u0010\u0005\u001a\u00020\u0004J\u0010\u0010\u00a9\u0001\u001a\u00030\u0083\u00012\u0006\u0010\n\u001a\u00020\u0004J\u0011\u0010\u00aa\u0001\u001a\u00030\u0083\u00012\u0007\u0010\u0014\u001a\u00030\u00ab\u0001J\u001c\u0010\u00ac\u0001\u001a\u00030\u0083\u00012\u0008\u0010\u00ad\u0001\u001a\u00030\u00ab\u00012\u0008\u0010\u00ae\u0001\u001a\u00030\u00ab\u0001J\u0010\u0010\u00af\u0001\u001a\u00030\u0083\u00012\u0006\u0010%\u001a\u00020\rJ\u0010\u0010\u00b0\u0001\u001a\u00030\u0083\u00012\u0006\u0010(\u001a\u00020\u0004J\u0010\u0010\u00b1\u0001\u001a\u00030\u0083\u00012\u0006\u0010,\u001a\u00020+J\u0010\u0010\u00b2\u0001\u001a\u00030\u0083\u00012\u0006\u00107\u001a\u00020\u0004J\u0010\u0010\u00b3\u0001\u001a\u00030\u0083\u00012\u0006\u0010:\u001a\u00020\u0004J\u0010\u0010\u00b4\u0001\u001a\u00030\u0083\u00012\u0006\u0010=\u001a\u00020\u0004J\u0010\u0010\u00b5\u0001\u001a\u00030\u0083\u00012\u0006\u0010A\u001a\u00020@J\u0010\u0010\u00b6\u0001\u001a\u00030\u0083\u00012\u0006\u0010F\u001a\u00020\u0004J\u0010\u0010\u00b7\u0001\u001a\u00030\u0083\u00012\u0006\u0010J\u001a\u00020IJ\u0010\u0010\u00b8\u0001\u001a\u00030\u0083\u00012\u0006\u0010O\u001a\u00020\rJ\u0010\u0010\u00b9\u0001\u001a\u00030\u0083\u00012\u0006\u0010\u0019\u001a\u00020\rJ\u0010\u0010\u00ba\u0001\u001a\u00030\u0083\u00012\u0006\u0010R\u001a\u00020\u0013J\u0010\u0010\u00bb\u0001\u001a\u00030\u0083\u00012\u0006\u0010U\u001a\u00020\rJ\u0010\u0010\u00bc\u0001\u001a\u00030\u0083\u00012\u0006\u0010X\u001a\u00020\u0013J\u0010\u0010\u00bd\u0001\u001a\u00030\u0083\u00012\u0006\u0010^\u001a\u00020\u0013J\u0010\u0010\u00be\u0001\u001a\u00030\u0083\u00012\u0006\u0010g\u001a\u00020\u0004J\u0010\u0010\u00bf\u0001\u001a\u00030\u0083\u00012\u0006\u0010q\u001a\u00020pJ\u0011\u0010\u00c0\u0001\u001a\u00030\u0083\u00012\u0007\u0010v\u001a\u00030\u00ab\u0001J\u0010\u0010\u00c1\u0001\u001a\u00030\u0083\u00012\u0006\u0010y\u001a\u00020\u0004J\u0010\u0010\u00c2\u0001\u001a\u00030\u0083\u00012\u0006\u0010|\u001a\u00020\u0004J\u0010\u0010\u00c3\u0001\u001a\u00030\u0083\u00012\u0006\u0010\u007f\u001a\u00020\u0004R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR&\u0010\n\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000b\u0010\u0007\"\u0004\u0008\u000c\u0010\tR&\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R&\u0010\u0014\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018R&\u0010\u0019\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001a\u0010\u0010\"\u0004\u0008\u001b\u0010\u0012R&\u0010\u001c\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0016\"\u0004\u0008\u001e\u0010\u0018R&\u0010 \u001a\u00020\u001f2\u0006\u0010\u0003\u001a\u00020\u001f8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008!\u0010\"\"\u0004\u0008#\u0010$R&\u0010%\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\u0010\"\u0004\u0008\'\u0010\u0012R&\u0010(\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008)\u0010\u0007\"\u0004\u0008*\u0010\tR&\u0010,\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008-\u0010.\"\u0004\u0008/\u00100R&\u00101\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00082\u0010\u0016\"\u0004\u00083\u0010\u0018R&\u00104\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00085\u0010\u0016\"\u0004\u00086\u0010\u0018R&\u00107\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010\u0007\"\u0004\u00089\u0010\tR&\u0010:\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010\u0007\"\u0004\u0008<\u0010\tR&\u0010=\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008>\u0010\u0007\"\u0004\u0008?\u0010\tR&\u0010A\u001a\u00020@2\u0006\u0010\u0003\u001a\u00020@8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008B\u0010C\"\u0004\u0008D\u0010ER\u001a\u0010F\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008G\u0010\u0007\"\u0004\u0008H\u0010\tR&\u0010J\u001a\u00020I2\u0006\u0010\u0003\u001a\u00020I8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008K\u0010L\"\u0004\u0008M\u0010NR&\u0010O\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008P\u0010\u0010\"\u0004\u0008Q\u0010\u0012R&\u0010R\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008S\u0010\u0016\"\u0004\u0008T\u0010\u0018R&\u0010U\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\r8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008V\u0010\u0010\"\u0004\u0008W\u0010\u0012R&\u0010X\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Y\u0010\u0016\"\u0004\u0008Z\u0010\u0018R&\u0010[\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\\\u0010\u0016\"\u0004\u0008]\u0010\u0018R&\u0010^\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008_\u0010\u0016\"\u0004\u0008`\u0010\u0018R&\u0010a\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008b\u0010\u0016\"\u0004\u0008c\u0010\u0018R\u001a\u0010d\u001a\u00020\rX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008e\u0010\u0010\"\u0004\u0008f\u0010\u0012R&\u0010g\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008h\u0010\u0007\"\u0004\u0008i\u0010\tR&\u0010j\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008k\u0010\u0007\"\u0004\u0008l\u0010\tR&\u0010m\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008n\u0010\u0016\"\u0004\u0008o\u0010\u0018R&\u0010q\u001a\u00020p2\u0006\u0010\u0003\u001a\u00020p8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008r\u0010s\"\u0004\u0008t\u0010uR&\u0010v\u001a\u00020\u00132\u0006\u0010\u0003\u001a\u00020\u00138G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008w\u0010\u0016\"\u0004\u0008x\u0010\u0018R&\u0010y\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008z\u0010\u0007\"\u0004\u0008{\u0010\tR&\u0010|\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008}\u0010\u0007\"\u0004\u0008~\u0010\tR(\u0010\u007f\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0080\u0001\u0010\u0007\"\u0005\u0008\u0081\u0001\u0010\t\u00a8\u0006\u00c4\u0001"
     }
     d2 = {
         "Lcom/rigol/scope/data/UtilityParam;",
@@ -39,6 +39,9 @@
         "()Ljava/lang/String;",
         "setDate",
         "(Ljava/lang/String;)V",
+        "displayBrightness",
+        "getDisplayBrightness",
+        "setDisplayBrightness",
         "hardVersion",
         "getHardVersion",
         "setHardVersion",
@@ -158,10 +161,12 @@
         "readPowerOnSet",
         "readPowerStatus",
         "readProjectMode",
+        "readQuickOpenStatus",
         "readQuickOper",
         "readReadInputKeyboard",
         "readRefClock",
         "readSaveGroup",
+        "readScreenBrightness",
         "readScreenPicture",
         "readScreenSelect",
         "readScreenTime",
@@ -194,6 +199,7 @@
         "saveReadInputKeyboard",
         "saveRefClock",
         "saveSaveGroup",
+        "saveScreenBrightness",
         "saveScreenPicture",
         "saveScreenSelect",
         "saveScreenTime",
@@ -223,6 +229,8 @@
 .field private chNum:I
 
 .field private date:Ljava/lang/String;
+
+.field private displayBrightness:I
 
 .field private hardVersion:Ljava/lang/String;
 
@@ -289,10 +297,10 @@
 
     const/16 v0, 0xb
 
-    .line 118
+    .line 122
     invoke-direct {p0, v0}, Lcom/rigol/scope/data/BaseParam;-><init>(I)V
 
-    .line 123
+    .line 127
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_chinese:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->value1:I
@@ -301,28 +309,28 @@
 
     const/4 v0, 0x4
 
-    .line 135
+    .line 146
     iput v0, p0, Lcom/rigol/scope/data/UtilityParam;->chNum:I
 
     const-string v0, "Rigol Scope"
 
-    .line 157
+    .line 168
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
     const-string v0, ""
 
-    .line 169
+    .line 180
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenPicture:Ljava/lang/String;
 
     const-string v1, "30"
 
-    .line 180
+    .line 191
     iput-object v1, p0, Lcom/rigol/scope/data/UtilityParam;->screenTime:Ljava/lang/String;
 
-    .line 194
+    .line 205
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenTimeStr:Ljava/lang/String;
 
-    .line 205
+    .line 216
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->getDEFAULT_SCREEN_SELECT()I
 
     move-result v1
@@ -331,35 +339,35 @@
 
     const/4 v1, 0x1
 
-    .line 227
+    .line 248
     iput-boolean v1, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
-    .line 289
+    .line 310
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->time:Ljava/lang/String;
 
-    .line 300
+    .line 321
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->date:Ljava/lang/String;
 
-    .line 339
+    .line 360
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->model:Ljava/lang/String;
 
-    .line 350
+    .line 371
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->serial:Ljava/lang/String;
 
-    .line 361
+    .line 382
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->softVersion:Ljava/lang/String;
 
-    .line 372
+    .line 393
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
-    const-string v0, "2024/01/03 20:10:46"
+    const-string v0, "2024/08/01 10:15:55"
 
-    .line 383
+    .line 404
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->miscBuild:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 395
+    .line 416
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getUtilityQuickOperationTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     move-result-object v0
@@ -370,27 +378,27 @@
 
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 412
+    .line 433
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->measSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 424
+    .line 445
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;->Measure:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->statReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
-    .line 447
+    .line 468
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->REF_10MHz_OFF:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->refClock:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    .line 458
+    .line 479
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1920x1080:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hdmiRatio:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 479
+    .line 500
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
@@ -407,7 +415,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 249
+    .line 270
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->auxOut:Z
 
     return v0
@@ -418,7 +426,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 216
+    .line 237
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->beeper:Z
 
     return v0
@@ -429,7 +437,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 135
+    .line 146
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->chNum:I
 
     return v0
@@ -440,10 +448,21 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 300
+    .line 321
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->date:Ljava/lang/String;
 
     return-object v0
+.end method
+
+.method public final getDisplayBrightness()I
+    .locals 1
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 226
+    iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->displayBrightness:I
+
+    return v0
 .end method
 
 .method public final getHardVersion()Ljava/lang/String;
@@ -451,7 +470,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 372
+    .line 393
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
     return-object v0
@@ -462,7 +481,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 458
+    .line 479
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hdmiRatio:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     return-object v0
@@ -473,7 +492,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 123
+    .line 127
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->language:I
 
     return v0
@@ -484,7 +503,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 328
+    .line 349
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->lockKeyboard:Z
 
     return v0
@@ -495,7 +514,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 412
+    .line 433
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->measSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -506,7 +525,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 383
+    .line 404
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->miscBuild:Ljava/lang/String;
 
     return-object v0
@@ -517,7 +536,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 339
+    .line 360
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->model:Ljava/lang/String;
 
     return-object v0
@@ -528,7 +547,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 260
+    .line 281
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->powerOnSet:Z
 
     return v0
@@ -539,7 +558,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 238
+    .line 259
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->powerStatus:Z
 
     return v0
@@ -550,7 +569,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 145
+    .line 156
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->projectMode:Z
 
     return v0
@@ -561,7 +580,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 394
+    .line 415
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     return-object v0
@@ -570,7 +589,7 @@
 .method public final getReadInputKeyboard()Z
     .locals 1
 
-    .line 480
+    .line 501
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->readInputKeyboard:Z
 
     return v0
@@ -581,7 +600,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 447
+    .line 468
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->refClock:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     return-object v0
@@ -592,7 +611,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 436
+    .line 457
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->saveGroup:I
 
     return v0
@@ -603,7 +622,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 169
+    .line 180
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenPicture:Ljava/lang/String;
 
     return-object v0
@@ -614,7 +633,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 205
+    .line 216
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenSelect:I
 
     return v0
@@ -625,7 +644,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 180
+    .line 191
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenTime:Ljava/lang/String;
 
     return-object v0
@@ -636,7 +655,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 194
+    .line 205
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenTimeStr:Ljava/lang/String;
 
     return-object v0
@@ -647,7 +666,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 157
+    .line 168
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
     return-object v0
@@ -658,7 +677,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 350
+    .line 371
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->serial:Ljava/lang/String;
 
     return-object v0
@@ -667,7 +686,7 @@
 .method public final getSeries()I
     .locals 1
 
-    .line 479
+    .line 500
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->series:I
 
     return v0
@@ -678,7 +697,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 271
+    .line 292
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->showTime:Z
 
     return v0
@@ -689,7 +708,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 278
+    .line 299
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->showzoom:Z
 
     return v0
@@ -700,7 +719,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 361
+    .line 382
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->softVersion:Ljava/lang/String;
 
     return-object v0
@@ -711,7 +730,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 424
+    .line 445
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->statReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     return-object v0
@@ -722,7 +741,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 289
+    .line 310
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->time:Ljava/lang/String;
 
     return-object v0
@@ -733,7 +752,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 317
+    .line 338
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->verticalExpand:Z
 
     return v0
@@ -744,7 +763,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 227
+    .line 248
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
     return v0
@@ -755,7 +774,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 469
+    .line 490
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->zbdLed:Z
 
     return v0
@@ -764,16 +783,16 @@
 .method public final makeVibration()V
     .locals 2
 
-    .line 752
+    .line 804
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setVibration(Z)V
 
-    const/16 v0, 0x5756
+    const/16 v0, 0x5758
 
     const/4 v1, 0x0
 
-    .line 753
+    .line 805
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->saveInt(II)I
 
     return-void
@@ -786,19 +805,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 794
+    .line 846
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x574f
+    const/16 v2, 0x5751
 
-    .line 795
+    .line 847
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
 
-    .line 796
+    .line 848
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->applyTime()V
 
     return-void
@@ -807,86 +826,92 @@
 .method public readAll()V
     .locals 0
 
-    .line 489
+    .line 510
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readLanguage()I
 
-    .line 490
+    .line 511
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readProjectMode()Z
 
-    .line 491
+    .line 512
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readBeeper()Z
 
-    .line 492
+    .line 513
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readVibration()Z
 
-    .line 493
+    .line 514
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readPowerStatus()Z
 
-    .line 494
+    .line 515
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readAuxOut()Z
 
-    .line 495
+    .line 516
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readPowerOnSet()Z
 
-    .line 497
+    .line 518
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readTime()Ljava/lang/String;
 
-    .line 498
+    .line 519
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readDate()Ljava/lang/String;
 
-    .line 499
+    .line 520
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readVerticalExpand()Z
 
-    .line 500
+    .line 521
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readLockKeyboard()Z
 
-    .line 501
+    .line 522
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readModel()Ljava/lang/String;
 
-    .line 502
+    .line 523
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readSerial()Ljava/lang/String;
 
-    .line 503
+    .line 524
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readSoftVersion()Ljava/lang/String;
 
-    .line 504
+    .line 525
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readHardVersion()Ljava/lang/String;
 
-    .line 505
+    .line 526
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readQuickOper()Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 506
+    .line 527
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readMeasSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 507
+    .line 528
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readStatReet()Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
-    .line 508
+    .line 529
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readSaveGroup()I
 
-    .line 509
+    .line 530
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readRefClock()Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    .line 510
+    .line 531
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readZbdLed()Z
 
-    .line 511
+    .line 532
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readScreenWord()Ljava/lang/String;
 
-    .line 512
+    .line 533
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readScreenPicture()Ljava/lang/String;
 
-    .line 513
+    .line 534
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readScreenTime()Ljava/lang/String;
 
-    .line 514
+    .line 535
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readScreenSelect()I
 
-    .line 515
+    .line 536
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readSeries()I
 
-    .line 516
+    .line 537
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readChNum()I
+
+    .line 538
+    invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readScreenBrightness()I
+
+    .line 540
+    invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->readQuickOpenStatus()I
 
     return-void
 .end method
@@ -896,7 +921,7 @@
 
     const/16 v0, 0x5709
 
-    .line 566
+    .line 590
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
 
     move-result v0
@@ -913,7 +938,7 @@
     :goto_0
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/UtilityParam;->setAuxOut(Z)V
 
-    .line 567
+    .line 591
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->auxOut:Z
 
     return v0
@@ -924,14 +949,14 @@
 
     const/16 v0, 0x5702
 
-    .line 551
+    .line 575
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setBeeper(Z)V
 
-    .line 552
+    .line 576
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->beeper:Z
 
     return v0
@@ -940,16 +965,16 @@
 .method public final readChNum()I
     .locals 1
 
-    const/16 v0, 0x5767
+    const/16 v0, 0x5769
 
-    .line 532
+    .line 556
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setChNum(I)V
 
-    .line 534
+    .line 558
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->chNum:I
 
     return v0
@@ -958,7 +983,7 @@
 .method public final readDate()Ljava/lang/String;
     .locals 4
 
-    .line 588
+    .line 612
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -981,7 +1006,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setDate(Ljava/lang/String;)V
 
-    .line 589
+    .line 613
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->date:Ljava/lang/String;
 
     return-object v0
@@ -990,16 +1015,16 @@
 .method public final readHardVersion()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x5746
+    const/16 v0, 0x5748
 
-    .line 619
+    .line 643
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setHardVersion(Ljava/lang/String;)V
 
-    .line 620
+    .line 644
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
     return-object v0
@@ -1010,14 +1035,14 @@
 
     const/16 v0, 0x5703
 
-    .line 538
+    .line 562
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setLanguage(I)V
 
-    .line 539
+    .line 563
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->language:I
 
     return v0
@@ -1028,14 +1053,14 @@
 
     const/16 v0, 0x5714
 
-    .line 599
+    .line 623
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setLockKeyboard(Z)V
 
-    .line 600
+    .line 624
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->lockKeyboard:Z
 
     return v0
@@ -1044,7 +1069,7 @@
 .method public final readMeasSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 3
 
-    .line 638
+    .line 681
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1053,12 +1078,12 @@
 
     const/16 v2, 0x3d0d
 
-    .line 639
+    .line 682
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 640
+    .line 683
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -1069,7 +1094,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setMeasSrc(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 641
+    .line 684
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->measSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -1078,16 +1103,16 @@
 .method public final readModel()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x5744
+    const/16 v0, 0x5746
 
-    .line 604
+    .line 628
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setModel(Ljava/lang/String;)V
 
-    .line 605
+    .line 629
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->model:Ljava/lang/String;
 
     return-object v0
@@ -1098,14 +1123,14 @@
 
     const/16 v0, 0x5712
 
-    .line 571
+    .line 595
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setPowerOnSet(Z)V
 
-    .line 572
+    .line 596
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->powerOnSet:Z
 
     return v0
@@ -1116,14 +1141,14 @@
 
     const/16 v0, 0x5713
 
-    .line 561
+    .line 585
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setPowerStatus(Z)V
 
-    .line 562
+    .line 586
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->powerStatus:Z
 
     return v0
@@ -1134,23 +1159,94 @@
 
     const/16 v0, 0x5729
 
-    .line 546
+    .line 570
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setProjectMode(Z)V
 
-    .line 547
+    .line 571
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->projectMode:Z
 
+    return v0
+.end method
+
+.method public final readQuickOpenStatus()I
+    .locals 4
+
+    .line 660
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
+    move-result-object v0
+
+    const/16 v1, 0xb
+
+    const/16 v2, 0x5770
+
+    .line 661
+    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
+
+    move-result v0
+
+    const/4 v1, 0x2
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    const-string v3, "wxz readQuickOpenStatus"
+
+    aput-object v3, v1, v2
+
+    .line 662
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    const/4 v3, 0x1
+
+    aput-object v2, v1, v3
+
+    invoke-static {v1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
+
+    if-ne v0, v3, :cond_0
+
+    .line 665
+    new-instance v1, Landroid/content/Intent;
+
+    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
+
+    const-string v2, "com.rigol.watchdog.QuickOpenStatus"
+
+    .line 666
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+
+    const-string v2, "quickOpenStatus"
+
+    const-string v3, "1"
+
+    .line 667
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 668
+    invoke-static {}, Lcom/rigol/scope/BaseApplicationContext;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    .line 670
+    invoke-virtual {v2, v1}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+
+    :cond_0
     return v0
 .end method
 
 .method public final readQuickOper()Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
     .locals 3
 
-    .line 628
+    .line 652
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1159,12 +1255,12 @@
 
     const/16 v2, 0x3d01
 
-    .line 629
+    .line 653
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 630
+    .line 654
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getUtilityQuickOperationTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     move-result-object v0
@@ -1175,7 +1271,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setQuickOper(Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;)V
 
-    .line 631
+    .line 655
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     return-object v0
@@ -1184,7 +1280,7 @@
 .method public final readReadInputKeyboard()Z
     .locals 1
 
-    .line 523
+    .line 547
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->readInputKeyboard:Z
 
     return v0
@@ -1193,14 +1289,14 @@
 .method public final readRefClock()Lcom/rigol/scope/cil/ServiceEnum$RefClock;
     .locals 2
 
-    const/16 v0, 0x5738
+    const/16 v0, 0x573a
 
-    .line 667
+    .line 710
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
 
     move-result v0
 
-    .line 668
+    .line 711
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getRefClockFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     move-result-object v0
@@ -1211,7 +1307,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setRefClock(Lcom/rigol/scope/cil/ServiceEnum$RefClock;)V
 
-    .line 669
+    .line 712
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->refClock:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     return-object v0
@@ -1220,7 +1316,7 @@
 .method public final readSaveGroup()I
     .locals 3
 
-    .line 658
+    .line 701
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1229,15 +1325,33 @@
 
     const/16 v2, 0x3d0f
 
-    .line 659
+    .line 702
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setSaveGroup(I)V
 
-    .line 660
+    .line 703
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->saveGroup:I
+
+    return v0
+.end method
+
+.method public final readScreenBrightness()I
+    .locals 1
+
+    const/16 v0, 0x576f
+
+    .line 746
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
+
+    move-result v0
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setDisplayBrightness(I)V
+
+    .line 748
+    iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->displayBrightness:I
 
     return v0
 .end method
@@ -1247,14 +1361,14 @@
 
     const/16 v0, 0x5719
 
-    .line 689
+    .line 732
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenPicture(Ljava/lang/String;)V
 
-    .line 690
+    .line 733
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenPicture:Ljava/lang/String;
 
     return-object v0
@@ -1265,14 +1379,14 @@
 
     const/16 v0, 0x5717
 
-    .line 699
+    .line 742
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenSelect(I)V
 
-    .line 700
+    .line 743
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenSelect:I
 
     return v0
@@ -1283,14 +1397,14 @@
 
     const/16 v0, 0x571b
 
-    .line 694
+    .line 737
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenTime(Ljava/lang/String;)V
 
-    .line 695
+    .line 738
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenTime:Ljava/lang/String;
 
     return-object v0
@@ -1301,14 +1415,14 @@
 
     const/16 v0, 0x5718
 
-    .line 684
+    .line 727
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenWord(Ljava/lang/String;)V
 
-    .line 685
+    .line 728
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
     return-object v0
@@ -1317,16 +1431,16 @@
 .method public final readSerial()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x5745
+    const/16 v0, 0x5747
 
-    .line 609
+    .line 633
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setSerial(Ljava/lang/String;)V
 
-    .line 610
+    .line 634
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->serial:Ljava/lang/String;
 
     return-object v0
@@ -1335,9 +1449,9 @@
 .method public final readSeries()I
     .locals 1
 
-    const/16 v0, 0x574c
+    const/16 v0, 0x574e
 
-    .line 526
+    .line 550
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readInt(I)I
 
     move-result v0
@@ -1352,14 +1466,14 @@
 
     const/16 v0, 0x572a
 
-    .line 576
+    .line 600
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setShowTime(Z)V
 
-    .line 577
+    .line 601
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->showTime:Z
 
     return v0
@@ -1368,16 +1482,16 @@
 .method public final readSoftVersion()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x5748
+    const/16 v0, 0x574a
 
-    .line 614
+    .line 638
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setSoftVersion(Ljava/lang/String;)V
 
-    .line 615
+    .line 639
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->softVersion:Ljava/lang/String;
 
     return-object v0
@@ -1386,7 +1500,7 @@
 .method public final readStatReet()Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
     .locals 3
 
-    .line 648
+    .line 691
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1395,12 +1509,12 @@
 
     const/16 v2, 0x3d0e
 
-    .line 649
+    .line 692
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 650
+    .line 693
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getUtilityQuickStatResetFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     move-result-object v0
@@ -1411,7 +1525,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setStatReset(Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;)V
 
-    .line 651
+    .line 694
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->statReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     return-object v0
@@ -1420,7 +1534,7 @@
 .method public final readTime()Ljava/lang/String;
     .locals 4
 
-    .line 582
+    .line 606
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -1443,7 +1557,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setTime(Ljava/lang/String;)V
 
-    .line 583
+    .line 607
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->time:Ljava/lang/String;
 
     return-object v0
@@ -1452,7 +1566,7 @@
 .method public final readVerticalExpand()Z
     .locals 3
 
-    .line 593
+    .line 617
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1461,14 +1575,14 @@
 
     const/16 v2, 0x719
 
-    .line 594
+    .line 618
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setVerticalExpand(Z)V
 
-    .line 595
+    .line 619
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->verticalExpand:Z
 
     return v0
@@ -1477,16 +1591,16 @@
 .method public final readVibration()Z
     .locals 1
 
-    const/16 v0, 0x5755
+    const/16 v0, 0x5757
 
-    .line 556
+    .line 580
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setVibration(Z)V
 
-    .line 557
+    .line 581
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
     return v0
@@ -1495,16 +1609,16 @@
 .method public final readZbdLed()Z
     .locals 1
 
-    const/16 v0, 0x5762
+    const/16 v0, 0x5764
 
-    .line 676
+    .line 719
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setZbdLed(Z)V
 
-    .line 677
+    .line 720
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->zbdLed:Z
 
     return v0
@@ -1513,26 +1627,26 @@
 .method public reset()V
     .locals 3
 
-    .line 903
+    .line 955
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
     const/4 v0, 0x1
 
-    .line 908
+    .line 960
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setVibration(Z)V
 
     const/4 v0, 0x0
 
-    .line 910
+    .line 962
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setAuxOut(Z)V
 
-    .line 912
+    .line 964
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setShowTime(Z)V
 
-    .line 914
+    .line 966
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setVerticalExpand(Z)V
 
-    .line 918
+    .line 970
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getUtilityQuickOperationTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     move-result-object v1
@@ -1543,15 +1657,15 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/UtilityParam;->setQuickOper(Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;)V
 
-    .line 921
+    .line 973
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setZbdLed(Z)V
 
-    .line 923
+    .line 975
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setMeasSrc(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 925
+    .line 977
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->getDEFAULT_SCREEN_SELECT()I
 
     move-result v0
@@ -1560,15 +1674,15 @@
 
     const/4 v0, 0x7
 
-    .line 927
+    .line 979
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setSaveGroup(I)V
 
-    .line 929
+    .line 981
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;->Measure:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setStatReset(Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;)V
 
-    .line 930
+    .line 982
     invoke-virtual {p0}, Lcom/rigol/scope/data/UtilityParam;->resetScreenSaver()V
 
     return-void
@@ -1579,17 +1693,17 @@
 
     const-string v0, "Rigol Scope"
 
-    .line 937
+    .line 989
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenWord(Ljava/lang/String;)V
 
     const-string v0, ""
 
-    .line 938
+    .line 990
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenPicture(Ljava/lang/String;)V
 
     const-string v0, "30"
 
-    .line 939
+    .line 991
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UtilityParam;->setScreenTime(Ljava/lang/String;)V
 
     return-void
@@ -1598,12 +1712,12 @@
 .method public final saveAuxOut(Z)V
     .locals 1
 
-    .line 762
+    .line 814
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setAuxOut(Z)V
 
     const/16 v0, 0x5709
 
-    .line 763
+    .line 815
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveInt(IZ)I
 
     return-void
@@ -1612,12 +1726,12 @@
 .method public final saveBeeper(Z)V
     .locals 1
 
-    .line 719
+    .line 771
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setBeeper(Z)V
 
     const/16 v0, 0x5702
 
-    .line 720
+    .line 772
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1626,14 +1740,14 @@
 .method public final saveDate(J)V
     .locals 0
 
-    .line 784
+    .line 836
     invoke-static {p1, p2}, Lcom/rigol/scope/data/UtilityParamKt;->millis2Date(J)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setDate(Ljava/lang/String;)V
 
-    .line 785
+    .line 837
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->applyTime()V
 
     return-void
@@ -1644,7 +1758,7 @@
 
     sub-long/2addr p3, p1
 
-    .line 801
+    .line 853
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1653,7 +1767,7 @@
 
     const/16 v0, 0x2b09
 
-    .line 802
+    .line 854
     invoke-virtual {p1, p2, v0, p3, p4}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
     return-void
@@ -1662,12 +1776,12 @@
 .method public final saveLanguage(I)V
     .locals 1
 
-    .line 706
+    .line 758
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setLanguage(I)V
 
     const/16 v0, 0x5703
 
-    .line 707
+    .line 759
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveInt(II)I
 
     return-void
@@ -1676,12 +1790,12 @@
 .method public final saveLockKeyboard(Z)V
     .locals 1
 
-    .line 789
+    .line 841
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setLockKeyboard(Z)V
 
     const/16 v0, 0x5714
 
-    .line 790
+    .line 842
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1694,22 +1808,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 851
+    .line 903
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setMeasSrc(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 852
+    .line 904
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
-    .line 855
+    .line 907
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     const/16 v1, 0x1b
 
     const/16 v2, 0x3d0d
 
-    .line 852
+    .line 904
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     return-void
@@ -1718,12 +1832,12 @@
 .method public final savePowerOnSet(Z)V
     .locals 1
 
-    .line 767
+    .line 819
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setPowerOnSet(Z)V
 
     const/16 v0, 0x5712
 
-    .line 768
+    .line 820
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1732,12 +1846,12 @@
 .method public final savePowerStatus(Z)V
     .locals 1
 
-    .line 757
+    .line 809
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setPowerStatus(Z)V
 
     const/16 v0, 0x5713
 
-    .line 758
+    .line 810
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1746,12 +1860,12 @@
 .method public final saveProjectMode(Z)V
     .locals 1
 
-    .line 714
+    .line 766
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setProjectMode(Z)V
 
     const/16 v0, 0x5729
 
-    .line 715
+    .line 767
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1764,22 +1878,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 839
+    .line 891
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setQuickOper(Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;)V
 
-    .line 840
+    .line 892
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
-    .line 843
+    .line 895
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->value1:I
 
     const/16 v1, 0x1b
 
     const/16 v2, 0x3d01
 
-    .line 840
+    .line 892
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     return-void
@@ -1788,7 +1902,7 @@
 .method public final saveReadInputKeyboard(Z)V
     .locals 0
 
-    .line 520
+    .line 544
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->readInputKeyboard:Z
 
     return-void
@@ -1801,13 +1915,13 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 884
+    .line 936
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setRefClock(Lcom/rigol/scope/cil/ServiceEnum$RefClock;)V
 
-    .line 885
+    .line 937
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->value1:I
 
-    const/16 v0, 0x5738
+    const/16 v0, 0x573a
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveInt(II)I
 
@@ -1817,10 +1931,10 @@
 .method public final saveSaveGroup(I)V
     .locals 3
 
-    .line 875
+    .line 927
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setSaveGroup(I)V
 
-    .line 876
+    .line 928
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1829,8 +1943,22 @@
 
     const/16 v2, 0x3d0f
 
-    .line 877
+    .line 929
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
+
+    return-void
+.end method
+
+.method public final saveScreenBrightness(I)V
+    .locals 1
+
+    .line 753
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setDisplayBrightness(I)V
+
+    const/16 v0, 0x576f
+
+    .line 754
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveInt(II)I
 
     return-void
 .end method
@@ -1842,12 +1970,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 734
+    .line 786
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setScreenPicture(Ljava/lang/String;)V
 
     const/16 v0, 0x5719
 
-    .line 735
+    .line 787
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -1856,12 +1984,12 @@
 .method public final saveScreenSelect(I)V
     .locals 1
 
-    .line 744
+    .line 796
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setScreenSelect(I)V
 
     const/16 v0, 0x5718
 
-    .line 745
+    .line 797
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveInt(II)I
 
     return-void
@@ -1874,12 +2002,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 739
+    .line 791
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setScreenTime(Ljava/lang/String;)V
 
     const/16 v0, 0x571b
 
-    .line 740
+    .line 792
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -1892,12 +2020,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 729
+    .line 781
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setScreenWord(Ljava/lang/String;)V
 
     const/16 v0, 0x5718
 
-    .line 730
+    .line 782
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -1906,12 +2034,12 @@
 .method public final saveShowTime(Z)V
     .locals 1
 
-    .line 772
+    .line 824
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setShowTime(Z)V
 
     const/16 v0, 0x572a
 
-    .line 773
+    .line 825
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1924,22 +2052,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 863
+    .line 915
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setStatReset(Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;)V
 
-    .line 864
+    .line 916
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
-    .line 867
+    .line 919
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;->value1:I
 
     const/16 v1, 0x1b
 
     const/16 v2, 0x3d0e
 
-    .line 864
+    .line 916
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     return-void
@@ -1948,14 +2076,14 @@
 .method public final saveTime(J)V
     .locals 0
 
-    .line 778
+    .line 830
     invoke-static {p1, p2}, Lcom/rigol/scope/data/UtilityParamKt;->millis2Time(J)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setTime(Ljava/lang/String;)V
 
-    .line 779
+    .line 831
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->applyTime()V
 
     return-void
@@ -1964,10 +2092,10 @@
 .method public final saveVerticalExpand(Z)V
     .locals 3
 
-    .line 806
+    .line 858
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setVerticalExpand(Z)V
 
-    .line 807
+    .line 859
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1976,7 +2104,7 @@
 
     const/16 v2, 0x719
 
-    .line 808
+    .line 860
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
     return-void
@@ -1985,12 +2113,12 @@
 .method public final saveVibration(Z)V
     .locals 1
 
-    .line 724
+    .line 776
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setVibration(Z)V
 
-    const/16 v0, 0x5755
+    const/16 v0, 0x5757
 
-    .line 725
+    .line 777
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -1999,12 +2127,12 @@
 .method public final saveZbdLed(Z)V
     .locals 1
 
-    .line 892
+    .line 944
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setZbdLed(Z)V
 
-    const/16 v0, 0x5762
+    const/16 v0, 0x5764
 
-    .line 893
+    .line 945
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->saveBool(IZ)I
 
     return-void
@@ -2013,7 +2141,7 @@
 .method public final setAuxOut(Z)V
     .locals 3
 
-    .line 251
+    .line 272
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->auxOut:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2028,12 +2156,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 252
+    .line 273
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->auxOut:Z
 
-    const/16 p1, 0x3c
+    const/16 p1, 0x3e
 
-    .line 253
+    .line 274
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2042,7 +2170,7 @@
 .method public final setBeeper(Z)V
     .locals 3
 
-    .line 218
+    .line 239
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->beeper:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2057,12 +2185,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 219
+    .line 240
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->beeper:Z
 
-    const/16 p1, 0x55
+    const/16 p1, 0x57
 
-    .line 220
+    .line 241
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2071,7 +2199,7 @@
 .method public final setChNum(I)V
     .locals 3
 
-    .line 137
+    .line 148
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->chNum:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2086,7 +2214,7 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 138
+    .line 149
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->chNum:I
 
     return-void
@@ -2099,19 +2227,48 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 302
+    .line 323
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->date:Ljava/lang/String;
 
     const-string v1, "date"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 309
+    .line 330
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->date:Ljava/lang/String;
 
-    const/16 p1, 0xda
+    const/16 p1, 0xdd
 
-    .line 310
+    .line 331
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
+
+    return-void
+.end method
+
+.method public final setDisplayBrightness(I)V
+    .locals 3
+
+    .line 228
+    iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->displayBrightness:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const-string v2, "zbdLed"
+
+    invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 229
+    iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->displayBrightness:I
+
+    const/16 p1, 0xf2
+
+    .line 230
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2124,19 +2281,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 374
+    .line 395
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
     const-string v1, "hardVersion"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 375
+    .line 396
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
-    const/16 p1, 0x169
+    const/16 p1, 0x16d
 
-    .line 376
+    .line 397
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2149,19 +2306,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 460
+    .line 481
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hdmiRatio:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v1, "hdmiRatio"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 461
+    .line 482
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->hdmiRatio:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    const/16 p1, 0x16b
+    const/16 p1, 0x16f
 
-    .line 462
+    .line 483
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2170,7 +2327,7 @@
 .method public final setLanguage(I)V
     .locals 3
 
-    .line 125
+    .line 129
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->language:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2185,26 +2342,54 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 126
+    .line 130
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->language:I
 
-    const/16 p1, 0x1d9
+    const/16 p1, 0x1dd
 
-    .line 127
+    .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
-    .line 128
+    .line 132
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object p1
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 134
     iget p1, p0, Lcom/rigol/scope/data/UtilityParam;->language:I
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/LanguageUtil;->setLanguage(I)V
 
+    goto :goto_0
+
+    .line 138
+    :cond_0
+    new-instance p1, Lcom/rigol/scope/data/UtilityParam$language$1;
+
+    invoke-direct {p1, p0}, Lcom/rigol/scope/data/UtilityParam$language$1;-><init>(Lcom/rigol/scope/data/UtilityParam;)V
+
+    check-cast p1, Ljava/lang/Runnable;
+
+    invoke-static {p1}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThread(Ljava/lang/Runnable;)V
+
+    :goto_0
     return-void
 .end method
 
 .method public final setLockKeyboard(Z)V
     .locals 3
 
-    .line 330
+    .line 351
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->lockKeyboard:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2219,12 +2404,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 331
+    .line 352
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->lockKeyboard:Z
 
-    const/16 p1, 0x1f5
+    const/16 p1, 0x1f9
 
-    .line 332
+    .line 353
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2237,19 +2422,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 414
+    .line 435
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->measSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-string v1, "measSrc"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 415
+    .line 436
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->measSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x20a
+    const/16 p1, 0x20e
 
-    .line 416
+    .line 437
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2262,19 +2447,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 385
+    .line 406
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->miscBuild:Ljava/lang/String;
 
     const-string v1, "miscBuild"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 386
+    .line 407
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->miscBuild:Ljava/lang/String;
 
-    const/16 p1, 0x21a
+    const/16 p1, 0x21e
 
-    .line 387
+    .line 408
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2287,19 +2472,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 341
+    .line 362
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->model:Ljava/lang/String;
 
     const-string v1, "model"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 342
+    .line 363
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->model:Ljava/lang/String;
 
-    const/16 p1, 0x221
+    const/16 p1, 0x225
 
-    .line 343
+    .line 364
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2308,7 +2493,7 @@
 .method public final setPowerOnSet(Z)V
     .locals 3
 
-    .line 262
+    .line 283
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->powerOnSet:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2323,12 +2508,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 263
+    .line 284
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->powerOnSet:Z
 
-    const/16 p1, 0x285
+    const/16 p1, 0x28a
 
-    .line 264
+    .line 285
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2337,7 +2522,7 @@
 .method public final setPowerStatus(Z)V
     .locals 3
 
-    .line 240
+    .line 261
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->powerStatus:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2352,12 +2537,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 241
+    .line 262
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->powerStatus:Z
 
-    const/16 p1, 0x286
+    const/16 p1, 0x28b
 
-    .line 242
+    .line 263
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2366,7 +2551,7 @@
 .method public final setProjectMode(Z)V
     .locals 3
 
-    .line 147
+    .line 158
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->projectMode:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2381,15 +2566,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 148
+    .line 159
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->projectMode:Z
 
-    const/16 p1, 0x29e
+    const/16 p1, 0x2a3
 
-    .line 149
+    .line 160
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
-    .line 150
+    .line 161
     iget-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->projectMode:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2410,22 +2595,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 397
+    .line 418
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v1, "quickOper"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 398
+    .line 419
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    const/16 p1, 0x2a5
+    const/16 p1, 0x2aa
 
-    .line 399
+    .line 420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
-    .line 401
+    .line 422
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2434,15 +2619,15 @@
 
     const/16 v1, 0x3d01
 
-    .line 402
+    .line 423
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 404
+    .line 425
     iget-object v1, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 401
+    .line 422
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -2451,7 +2636,7 @@
 .method public final setReadInputKeyboard(Z)V
     .locals 0
 
-    .line 480
+    .line 501
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->readInputKeyboard:Z
 
     return-void
@@ -2464,19 +2649,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 449
+    .line 470
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->refClock:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     const-string v1, "refClock"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 450
+    .line 471
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->refClock:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    const/16 p1, 0x2c4
+    const/16 p1, 0x2c9
 
-    .line 451
+    .line 472
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2485,7 +2670,7 @@
 .method public final setSaveGroup(I)V
     .locals 3
 
-    .line 438
+    .line 459
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->saveGroup:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2500,12 +2685,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 439
+    .line 460
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->saveGroup:I
 
-    const/16 p1, 0x2fe
+    const/16 p1, 0x303
 
-    .line 440
+    .line 461
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2518,19 +2703,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 171
+    .line 182
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenPicture:Ljava/lang/String;
 
     const-string v1, "screenPicture"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 172
+    .line 183
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenPicture:Ljava/lang/String;
 
-    const/16 p1, 0x305
+    const/16 p1, 0x30a
 
-    .line 173
+    .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2539,7 +2724,7 @@
 .method public final setScreenSelect(I)V
     .locals 3
 
-    .line 207
+    .line 218
     iget v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenSelect:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2554,12 +2739,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 208
+    .line 219
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenSelect:I
 
-    const/16 p1, 0x306
+    const/16 p1, 0x30b
 
-    .line 209
+    .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2572,14 +2757,14 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 182
+    .line 193
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenTime:Ljava/lang/String;
 
     const-string v1, "screenTime"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 184
+    .line 195
     move-object v0, p1
 
     check-cast v0, Ljava/lang/CharSequence;
@@ -2618,7 +2803,7 @@
     :cond_1
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenTime:Ljava/lang/String;
 
-    .line 189
+    .line 200
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2637,9 +2822,9 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setScreenTimeStr(Ljava/lang/String;)V
 
-    const/16 p1, 0x307
+    const/16 p1, 0x30c
 
-    .line 190
+    .line 201
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2652,19 +2837,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 196
+    .line 207
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenTimeStr:Ljava/lang/String;
 
     const-string v1, "screenTimeStr"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 197
+    .line 208
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenTimeStr:Ljava/lang/String;
 
-    const/16 p1, 0x308
+    const/16 p1, 0x30d
 
-    .line 198
+    .line 209
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2677,22 +2862,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 159
+    .line 170
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
     const-string v1, "screenWord"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 160
+    .line 171
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
-    const/16 p1, 0x309
+    const/16 p1, 0x30e
 
-    .line 161
+    .line 172
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
-    .line 162
+    .line 173
     iget-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
     const/16 v0, 0x5718
@@ -2709,19 +2894,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 352
+    .line 373
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->serial:Ljava/lang/String;
 
     const-string v1, "serial"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 353
+    .line 374
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->serial:Ljava/lang/String;
 
-    const/16 p1, 0x321
+    const/16 p1, 0x326
 
-    .line 354
+    .line 375
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2730,7 +2915,7 @@
 .method public final setSeries(I)V
     .locals 0
 
-    .line 479
+    .line 500
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->series:I
 
     return-void
@@ -2739,7 +2924,7 @@
 .method public final setShowTime(Z)V
     .locals 3
 
-    .line 273
+    .line 294
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->showTime:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2754,12 +2939,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 274
+    .line 295
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->showTime:Z
 
-    const/16 p1, 0x33f
+    const/16 p1, 0x347
 
-    .line 275
+    .line 296
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2768,7 +2953,7 @@
 .method public final setShowzoom(Z)V
     .locals 3
 
-    .line 280
+    .line 301
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->showzoom:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2783,12 +2968,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 281
+    .line 302
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->showzoom:Z
 
-    const/16 p1, 0x343
+    const/16 p1, 0x34b
 
-    .line 282
+    .line 303
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2801,19 +2986,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 363
+    .line 384
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->softVersion:Ljava/lang/String;
 
     const-string v1, "softVersion"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 364
+    .line 385
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->softVersion:Ljava/lang/String;
 
-    const/16 p1, 0x34e
+    const/16 p1, 0x357
 
-    .line 365
+    .line 386
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2826,19 +3011,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 426
+    .line 447
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->statReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     const-string v1, "statReset"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 427
+    .line 448
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->statReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
-    const/16 p1, 0x37e
+    const/16 p1, 0x387
 
-    .line 428
+    .line 449
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2851,19 +3036,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 291
+    .line 312
     iget-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->time:Ljava/lang/String;
 
     const-string v1, "time"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 292
+    .line 313
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->time:Ljava/lang/String;
 
-    const/16 p1, 0x39b
+    const/16 p1, 0x3a4
 
-    .line 293
+    .line 314
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2872,7 +3057,7 @@
 .method public final setVerticalExpand(Z)V
     .locals 3
 
-    .line 319
+    .line 340
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->verticalExpand:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2887,12 +3072,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 320
+    .line 341
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->verticalExpand:Z
 
-    const/16 p1, 0x3f5
+    const/16 p1, 0x3ff
 
-    .line 321
+    .line 342
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2901,7 +3086,7 @@
 .method public final setVibration(Z)V
     .locals 3
 
-    .line 229
+    .line 250
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2916,12 +3101,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 230
+    .line 251
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
-    const/16 p1, 0x3f8
+    const/16 p1, 0x402
 
-    .line 231
+    .line 252
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2930,7 +3115,7 @@
 .method public final setZbdLed(Z)V
     .locals 3
 
-    .line 471
+    .line 492
     iget-boolean v0, p0, Lcom/rigol/scope/data/UtilityParam;->zbdLed:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2945,12 +3130,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/UtilityParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 472
+    .line 493
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->zbdLed:Z
 
-    const/16 p1, 0x433
+    const/16 p1, 0x43d
 
-    .line 473
+    .line 494
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
 
     return-void

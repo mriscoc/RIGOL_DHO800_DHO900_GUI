@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 0
 
-    .line 3405
+    .line 3542
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$274;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$274;->val$param:Lcom/rigol/scope/data/TriggerParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 3409
+    .line 3546
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$274;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getDelaylevelA()J
@@ -60,7 +60,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 3410
+    .line 3547
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$274;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getDelaylevelA()J
@@ -81,7 +81,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 3405
+    .line 3542
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$274;->onChanged(Ljava/lang/Boolean;)V

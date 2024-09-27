@@ -6514,7 +6514,7 @@
 .end method
 
 .method public readPalBus_bitx()V
-    .locals 4
+    .locals 1
 
     const/16 v0, 0x590c
 
@@ -6522,27 +6522,6 @@
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
 
     move-result v0
-
-    const/4 v1, 0x2
-
-    new-array v1, v1, [Ljava/lang/Object;
-
-    const/4 v2, 0x0
-
-    const-string v3, "MSG_DECODE_BUS_BITX"
-
-    aput-object v3, v1, v2
-
-    .line 1151
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v2
-
-    const/4 v3, 0x1
-
-    aput-object v2, v1, v3
-
-    invoke-static {v1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
     .line 1152
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->setBus_bitx(I)V
@@ -9802,7 +9781,7 @@
     .line 2915
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->arinc429_baud:I
 
-    const/16 p1, 0x31
+    const/16 p1, 0x32
 
     .line 2916
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9816,7 +9795,7 @@
     .line 2955
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->arinc429_byte_format:I
 
-    const/16 p1, 0x32
+    const/16 p1, 0x33
 
     .line 2956
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9830,7 +9809,7 @@
     .line 2894
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->arinc429_down_thres:J
 
-    const/16 p1, 0x33
+    const/16 p1, 0x34
 
     .line 2895
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9844,7 +9823,7 @@
     .line 2935
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->arinc429_singal_type:I
 
-    const/16 p1, 0x34
+    const/16 p1, 0x35
 
     .line 2936
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9858,7 +9837,7 @@
     .line 2853
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->arinc429_source:I
 
-    const/16 p1, 0x35
+    const/16 p1, 0x36
 
     .line 2854
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9872,7 +9851,7 @@
     .line 2873
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->arinc429_up_thres:J
 
-    const/16 p1, 0x36
+    const/16 p1, 0x37
 
     .line 2874
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9886,7 +9865,7 @@
     .line 1140
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->bus_bitx:I
 
-    const/16 p1, 0x7b
+    const/16 p1, 0x7d
 
     .line 1141
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9900,7 +9879,7 @@
     .line 1167
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->bus_chan:I
 
-    const/16 p1, 0x7c
+    const/16 p1, 0x7e
 
     .line 1168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9914,7 +9893,7 @@
     .line 1117
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->bus_width:I
 
-    const/16 p1, 0x7d
+    const/16 p1, 0x7f
 
     .line 1119
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9928,7 +9907,7 @@
     .line 2085
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_baud:I
 
-    const/16 p1, 0x8c
+    const/16 p1, 0x8e
 
     .line 2086
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9942,7 +9921,7 @@
     .line 2105
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_fd_baud:I
 
-    const/16 p1, 0x8d
+    const/16 p1, 0x8f
 
     .line 2106
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9956,7 +9935,7 @@
     .line 2125
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_fd_samp:J
 
-    const/16 p1, 0x8e
+    const/16 p1, 0x90
 
     .line 2126
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9970,7 +9949,7 @@
     .line 747
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_samp:J
 
-    const/16 p1, 0x8f
+    const/16 p1, 0x91
 
     .line 748
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9984,7 +9963,7 @@
     .line 727
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_singal:I
 
-    const/16 p1, 0x90
+    const/16 p1, 0x92
 
     .line 728
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -9998,7 +9977,7 @@
     .line 2044
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_source:I
 
-    const/16 p1, 0x91
+    const/16 p1, 0x93
 
     .line 2045
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10012,7 +9991,7 @@
     .line 2064
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->can_threas:J
 
-    const/16 p1, 0x92
+    const/16 p1, 0x94
 
     .line 2065
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10067,7 +10046,7 @@
     .line 850
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->event:Z
 
-    const/16 v0, 0x117
+    const/16 v0, 0x11b
 
     .line 851
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10105,7 +10084,7 @@
     .line 1204
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->event_format:I
 
-    const/16 p1, 0x118
+    const/16 p1, 0x11c
 
     .line 1205
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10119,7 +10098,7 @@
     .line 1232
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->event_view:I
 
-    const/16 p1, 0x119
+    const/16 p1, 0x11d
 
     .line 1233
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10133,7 +10112,7 @@
     .line 2186
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->flex_baud:I
 
-    const/16 p1, 0x13e
+    const/16 p1, 0x142
 
     .line 2187
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10147,7 +10126,7 @@
     .line 2226
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->flex_channel:Z
 
-    const/16 p1, 0x13f
+    const/16 p1, 0x143
 
     .line 2227
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10161,7 +10140,7 @@
     .line 2246
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->flex_samp:J
 
-    const/16 p1, 0x140
+    const/16 p1, 0x144
 
     .line 2247
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10175,7 +10154,7 @@
     .line 2206
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->flex_signal:I
 
-    const/16 p1, 0x141
+    const/16 p1, 0x145
 
     .line 2207
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10189,7 +10168,7 @@
     .line 2145
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->flex_source:I
 
-    const/16 p1, 0x142
+    const/16 p1, 0x146
 
     .line 2146
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10203,7 +10182,7 @@
     .line 2165
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->flex_thres:J
 
-    const/16 p1, 0x143
+    const/16 p1, 0x147
 
     .line 2166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10217,7 +10196,7 @@
     .line 916
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->format:I
 
-    const/16 p1, 0x149
+    const/16 p1, 0x14d
 
     .line 917
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10231,7 +10210,7 @@
     .line 3139
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->guideline:F
 
-    const/16 p1, 0x168
+    const/16 p1, 0x16c
 
     .line 3140
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10245,7 +10224,7 @@
     .line 1578
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_exchange:Z
 
-    const/16 p1, 0x17f
+    const/16 p1, 0x183
 
     .line 1579
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10259,7 +10238,7 @@
     .line 1598
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_read_write:Z
 
-    const/16 p1, 0x180
+    const/16 p1, 0x184
 
     .line 1599
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10273,7 +10252,7 @@
     .line 1496
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_scl:I
 
-    const/16 p1, 0x181
+    const/16 p1, 0x185
 
     .line 1497
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10287,7 +10266,7 @@
     .line 1536
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_scl_thres:J
 
-    const/16 p1, 0x182
+    const/16 p1, 0x186
 
     .line 1537
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10301,7 +10280,7 @@
     .line 1516
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_sda:I
 
-    const/16 p1, 0x183
+    const/16 p1, 0x187
 
     .line 1517
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10315,7 +10294,7 @@
     .line 1557
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_sda_thres:J
 
-    const/16 p1, 0x184
+    const/16 p1, 0x188
 
     .line 1558
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10329,7 +10308,7 @@
     .line 2449
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_align:I
 
-    const/16 p1, 0x186
+    const/16 p1, 0x18a
 
     .line 2450
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10343,7 +10322,7 @@
     .line 2306
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_data:I
 
-    const/16 p1, 0x187
+    const/16 p1, 0x18b
 
     .line 2307
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10357,7 +10336,7 @@
     .line 2509
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_data_polarity:Z
 
-    const/16 p1, 0x188
+    const/16 p1, 0x18c
 
     .line 2510
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10371,7 +10350,7 @@
     .line 2368
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_data_thres:J
 
-    const/16 p1, 0x189
+    const/16 p1, 0x18d
 
     .line 2369
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10385,7 +10364,7 @@
     .line 2489
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_endian:Z
 
-    const/16 p1, 0x18a
+    const/16 p1, 0x18e
 
     .line 2490
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10399,7 +10378,7 @@
     .line 2429
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_receive:J
 
-    const/16 p1, 0x18b
+    const/16 p1, 0x18f
 
     .line 2430
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10413,7 +10392,7 @@
     .line 2266
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_sclock:I
 
-    const/16 p1, 0x18c
+    const/16 p1, 0x190
 
     .line 2267
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10427,7 +10406,7 @@
     .line 2389
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_sclock_edge:I
 
-    const/16 p1, 0x18d
+    const/16 p1, 0x191
 
     .line 2390
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10441,7 +10420,7 @@
     .line 2326
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_sclock_thres:J
 
-    const/16 p1, 0x18e
+    const/16 p1, 0x192
 
     .line 2327
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10455,7 +10434,7 @@
     .line 2347
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_wave_singal_thres:J
 
-    const/16 p1, 0x18f
+    const/16 p1, 0x193
 
     .line 2348
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10469,7 +10448,7 @@
     .line 2409
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_word:J
 
-    const/16 p1, 0x190
+    const/16 p1, 0x194
 
     .line 2410
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10483,7 +10462,7 @@
     .line 2286
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_ws:I
 
-    const/16 p1, 0x191
+    const/16 p1, 0x195
 
     .line 2287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10497,7 +10476,7 @@
     .line 2469
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_ws_low:I
 
-    const/16 p1, 0x192
+    const/16 p1, 0x196
 
     .line 2470
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10511,7 +10490,7 @@
     .line 937
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->label:Z
 
-    const/16 v0, 0x1d6
+    const/16 v0, 0x1da
 
     .line 938
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10534,7 +10513,7 @@
     .line 1964
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_baud:I
 
-    const/16 p1, 0x1ea
+    const/16 p1, 0x1ee
 
     .line 1965
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10548,7 +10527,7 @@
     .line 2024
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_parity_bit:Z
 
-    const/16 p1, 0x1eb
+    const/16 p1, 0x1ef
 
     .line 2025
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10562,7 +10541,7 @@
     .line 1984
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_polarity:Z
 
-    const/16 p1, 0x1ec
+    const/16 p1, 0x1f0
 
     .line 1985
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10576,7 +10555,7 @@
     .line 1923
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_source:I
 
-    const/16 p1, 0x1ed
+    const/16 p1, 0x1f1
 
     .line 1924
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10590,7 +10569,7 @@
     .line 1943
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_thres:J
 
-    const/16 p1, 0x1ee
+    const/16 p1, 0x1f2
 
     .line 1944
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10604,7 +10583,7 @@
     .line 2004
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_version:I
 
-    const/16 p1, 0x1ef
+    const/16 p1, 0x1f3
 
     .line 2005
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10618,7 +10597,7 @@
     .line 2833
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->most_signal_type:I
 
-    const/16 p1, 0x222
+    const/16 p1, 0x226
 
     .line 2834
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10632,7 +10611,7 @@
     .line 2792
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->most_source:I
 
-    const/16 p1, 0x223
+    const/16 p1, 0x227
 
     .line 2793
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10646,7 +10625,7 @@
     .line 2812
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->most_thres:J
 
-    const/16 p1, 0x224
+    const/16 p1, 0x228
 
     .line 2813
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10660,7 +10639,7 @@
     .line 871
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->noiseProject:Z
 
-    const/16 p1, 0x22a
+    const/16 p1, 0x22e
 
     .line 872
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10674,7 +10653,7 @@
     .line 827
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->onOff:Z
 
-    const/16 v0, 0x235
+    const/16 v0, 0x239
 
     .line 828
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10697,7 +10676,7 @@
     .line 1068
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_bus:I
 
-    const/16 p1, 0x243
+    const/16 p1, 0x247
 
     .line 1069
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10711,7 +10690,7 @@
     .line 986
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk:I
 
-    const/16 p1, 0x244
+    const/16 p1, 0x248
 
     .line 987
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10725,7 +10704,7 @@
     .line 1006
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk_edge:I
 
-    const/16 p1, 0x245
+    const/16 p1, 0x249
 
     .line 1007
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10739,7 +10718,7 @@
     .line 958
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk_menu:I
 
-    const/16 p1, 0x246
+    const/16 p1, 0x24a
 
     .line 959
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10753,7 +10732,7 @@
     .line 1026
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk_thres:J
 
-    const/16 p1, 0x247
+    const/16 p1, 0x24b
 
     .line 1027
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10767,7 +10746,7 @@
     .line 972
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_dat_menu:I
 
-    const/16 p1, 0x248
+    const/16 p1, 0x24c
 
     .line 973
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10781,7 +10760,7 @@
     .line 1047
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_dat_thres:J
 
-    const/16 p1, 0x249
+    const/16 p1, 0x24d
 
     .line 1048
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10795,7 +10774,7 @@
     .line 1097
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_endian:Z
 
-    const/16 p1, 0x24a
+    const/16 p1, 0x24e
 
     .line 1098
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10809,7 +10788,7 @@
     .line 712
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_parity:Z
 
-    const/16 p1, 0x24b
+    const/16 p1, 0x24f
 
     .line 713
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10823,7 +10802,7 @@
     .line 153
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->polarity:Z
 
-    const/16 p1, 0x27c
+    const/16 p1, 0x281
 
     .line 154
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10837,7 +10816,7 @@
     .line 775
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->position:I
 
-    const/16 v0, 0x280
+    const/16 v0, 0x285
 
     .line 776
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10876,7 +10855,7 @@
     .line 891
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->rejectTime:J
 
-    const/16 p1, 0x2d9
+    const/16 p1, 0x2de
 
     .line 892
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10890,7 +10869,7 @@
     .line 1252
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_baud:I
 
-    const/16 p1, 0x2e3
+    const/16 p1, 0x2e8
 
     .line 1253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10904,7 +10883,7 @@
     .line 1456
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_endian:Z
 
-    const/16 p1, 0x2e4
+    const/16 p1, 0x2e9
 
     .line 1457
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10918,7 +10897,7 @@
     .line 1436
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_package:Z
 
-    const/16 p1, 0x2e5
+    const/16 p1, 0x2ea
 
     .line 1437
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10932,7 +10911,7 @@
     .line 1476
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_package_end:I
 
-    const/16 p1, 0x2e6
+    const/16 p1, 0x2eb
 
     .line 1477
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10946,7 +10925,7 @@
     .line 1416
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_parity:I
 
-    const/16 p1, 0x2e7
+    const/16 p1, 0x2ec
 
     .line 1417
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10960,7 +10939,7 @@
     .line 1356
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_pol:Z
 
-    const/16 p1, 0x2e8
+    const/16 p1, 0x2ed
 
     .line 1357
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10974,7 +10953,7 @@
     .line 1293
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_rx:I
 
-    const/16 v0, 0x2e9
+    const/16 v0, 0x2ee
 
     .line 1294
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10997,7 +10976,7 @@
     .line 1335
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_rx_thres:J
 
-    const/16 p1, 0x2ea
+    const/16 p1, 0x2ef
 
     .line 1336
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11011,7 +10990,7 @@
     .line 1396
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_stop:I
 
-    const/16 p1, 0x2eb
+    const/16 p1, 0x2f0
 
     .line 1397
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11025,7 +11004,7 @@
     .line 1272
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_tx:I
 
-    const/16 v0, 0x2ec
+    const/16 v0, 0x2f1
 
     .line 1273
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11048,7 +11027,7 @@
     .line 1314
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_tx_thres:J
 
-    const/16 p1, 0x2ed
+    const/16 p1, 0x2f2
 
     .line 1315
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11062,7 +11041,7 @@
     .line 1376
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_width:I
 
-    const/16 p1, 0x2ee
+    const/16 p1, 0x2f3
 
     .line 1377
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11076,7 +11055,7 @@
     .line 2731
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_crc_format:I
 
-    const/16 p1, 0x317
+    const/16 p1, 0x31c
 
     .line 2732
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11090,7 +11069,7 @@
     .line 2711
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_idle_state:I
 
-    const/16 p1, 0x318
+    const/16 p1, 0x31d
 
     .line 2712
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11104,7 +11083,7 @@
     .line 2631
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_nibbnum:J
 
-    const/16 p1, 0x319
+    const/16 p1, 0x31e
 
     .line 2632
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11118,7 +11097,7 @@
     .line 2751
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_pause_plus:I
 
-    const/16 p1, 0x31a
+    const/16 p1, 0x31f
 
     .line 2752
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11132,7 +11111,7 @@
     .line 2651
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_signal_type:I
 
-    const/16 p1, 0x31b
+    const/16 p1, 0x320
 
     .line 2652
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11146,7 +11125,7 @@
     .line 2691
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_source:I
 
-    const/16 p1, 0x31c
+    const/16 p1, 0x321
 
     .line 2692
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11160,7 +11139,7 @@
     .line 2771
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_thres:J
 
-    const/16 p1, 0x31d
+    const/16 p1, 0x322
 
     .line 2772
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11174,7 +11153,7 @@
     .line 2671
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_tick:J
 
-    const/16 p1, 0x31e
+    const/16 p1, 0x323
 
     .line 2672
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11188,7 +11167,7 @@
     .line 2611
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_tolerance:J
 
-    const/16 p1, 0x31f
+    const/16 p1, 0x324
 
     .line 2612
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11202,7 +11181,7 @@
     .line 1658
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_clock:I
 
-    const/16 p1, 0x363
+    const/16 p1, 0x36c
 
     .line 1659
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11216,7 +11195,7 @@
     .line 1803
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_clock_edge:I
 
-    const/16 p1, 0x364
+    const/16 p1, 0x36d
 
     .line 1804
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11230,7 +11209,7 @@
     .line 1740
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_clock_thres:J
 
-    const/16 p1, 0x365
+    const/16 p1, 0x36e
 
     .line 1741
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11244,7 +11223,7 @@
     .line 1618
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_cs:I
 
-    const/16 p1, 0x366
+    const/16 p1, 0x36f
 
     .line 1619
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11258,7 +11237,7 @@
     .line 1843
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_cs_polarity:I
 
-    const/16 p1, 0x367
+    const/16 p1, 0x370
 
     .line 1844
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11272,7 +11251,7 @@
     .line 1719
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_cs_thres:J
 
-    const/16 p1, 0x368
+    const/16 p1, 0x371
 
     .line 1720
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11286,7 +11265,7 @@
     .line 1823
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_data_polarity:I
 
-    const/16 p1, 0x369
+    const/16 p1, 0x372
 
     .line 1824
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11300,7 +11279,7 @@
     .line 1903
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_endian:Z
 
-    const/16 p1, 0x36a
+    const/16 p1, 0x373
 
     .line 1904
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11314,7 +11293,7 @@
     .line 1678
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_miso:I
 
-    const/16 v0, 0x36b
+    const/16 v0, 0x374
 
     .line 1679
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11337,7 +11316,7 @@
     .line 1761
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_miso_thres:J
 
-    const/16 p1, 0x36c
+    const/16 p1, 0x375
 
     .line 1762
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11351,7 +11330,7 @@
     .line 1638
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_mode:I
 
-    const/16 p1, 0x36d
+    const/16 p1, 0x376
 
     .line 1639
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11365,7 +11344,7 @@
     .line 1699
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_mosi:I
 
-    const/16 p1, 0x36e
+    const/16 p1, 0x377
 
     .line 1700
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11379,7 +11358,7 @@
     .line 1782
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_mosi_thres:J
 
-    const/16 p1, 0x36f
+    const/16 p1, 0x378
 
     .line 1783
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11393,7 +11372,7 @@
     .line 1863
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_timeout:J
 
-    const/16 p1, 0x370
+    const/16 p1, 0x379
 
     .line 1864
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11407,7 +11386,7 @@
     .line 1883
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_width:J
 
-    const/16 p1, 0x371
+    const/16 p1, 0x37a
 
     .line 1884
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11439,7 +11418,7 @@
     .line 806
     iput-object p1, p0, Lcom/rigol/scope/data/DecodeParam;->type:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    const/16 v0, 0x3c7
+    const/16 v0, 0x3d0
 
     .line 807
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11458,7 +11437,7 @@
     .line 3057
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_diff:I
 
-    const/16 p1, 0x3dc
+    const/16 p1, 0x3e5
 
     .line 3058
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11472,7 +11451,7 @@
     .line 3077
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_diff_high_thres:J
 
-    const/16 p1, 0x3dd
+    const/16 p1, 0x3e6
 
     .line 3078
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11486,7 +11465,7 @@
     .line 3098
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_diff_low_thres:J
 
-    const/16 p1, 0x3de
+    const/16 p1, 0x3e7
 
     .line 3099
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11500,7 +11479,7 @@
     .line 2975
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_dp:I
 
-    const/16 p1, 0x3e0
+    const/16 p1, 0x3e9
 
     .line 2976
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11514,7 +11493,7 @@
     .line 3015
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_dp_thres:J
 
-    const/16 p1, 0x3e1
+    const/16 p1, 0x3ea
 
     .line 3016
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11528,7 +11507,7 @@
     .line 2995
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_ds:I
 
-    const/16 p1, 0x3e2
+    const/16 p1, 0x3eb
 
     .line 2996
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11542,7 +11521,7 @@
     .line 3036
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_ds_thres:J
 
-    const/16 p1, 0x3e3
+    const/16 p1, 0x3ec
 
     .line 3037
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11556,7 +11535,7 @@
     .line 3119
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_rate:J
 
-    const/16 p1, 0x3e5
+    const/16 p1, 0x3ee
 
     .line 3120
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V

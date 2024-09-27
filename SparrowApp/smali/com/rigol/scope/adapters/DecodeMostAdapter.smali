@@ -195,7 +195,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a02d1
+    const v1, 0x7f0a02d5
 
     if-ne v0, v1, :cond_0
 
@@ -213,7 +213,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0a02cf
+    const v1, 0x7f0a02d3
 
     if-ne v0, v1, :cond_1
 
@@ -231,7 +231,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0a02d3
+    const v1, 0x7f0a02d7
 
     if-ne v0, v1, :cond_2
 

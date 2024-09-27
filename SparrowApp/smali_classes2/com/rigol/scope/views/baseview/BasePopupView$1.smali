@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 0
 
-    .line 214
+    .line 215
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView$1;->this$0:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +48,7 @@
 
     const-string p1, "onViewAttachedToWindow, v:%s"
 
-    .line 217
+    .line 218
     invoke-static {p1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -67,10 +67,10 @@
 
     const-string p1, "onViewDetachedFromWindow, v:%s"
 
-    .line 222
+    .line 223
     invoke-static {p1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 223
+    .line 224
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView$1;->this$0:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V

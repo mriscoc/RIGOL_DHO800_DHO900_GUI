@@ -66,7 +66,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3939
+    .line 3940
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v1, "language_english"
@@ -87,7 +87,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_english:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3940
+    .line 3941
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v9, "language_chinese"
@@ -108,7 +108,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_chinese:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3941
+    .line 3942
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v2, "language_traditional_chinese"
@@ -129,7 +129,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_traditional_chinese:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3942
+    .line 3943
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v9, "language_portugal"
@@ -150,7 +150,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_portugal:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3943
+    .line 3944
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v2, "language_german"
@@ -171,7 +171,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_german:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3944
+    .line 3945
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v9, "language_borland"
@@ -192,7 +192,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_borland:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3945
+    .line 3946
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v2, "language_korean"
@@ -213,7 +213,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_korean:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3946
+    .line 3947
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v9, "language_japan"
@@ -234,7 +234,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_japan:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3947
+    .line 3948
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v2, "language_french"
@@ -255,7 +255,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_french:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3948
+    .line 3949
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v9, "language_russia"
@@ -276,7 +276,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_russia:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3949
+    .line 3950
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v2, "language_spanish"
@@ -297,7 +297,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_spanish:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3950
+    .line 3951
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v9, "language_thailand"
@@ -318,7 +318,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_thailand:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3951
+    .line 3952
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const-string v2, "language_indonesia"
@@ -343,7 +343,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
-    .line 3937
+    .line 3938
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->language_english:Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     const/4 v3, 0x0
@@ -437,19 +437,19 @@
         }
     .end annotation
 
-    .line 3954
+    .line 3955
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3955
+    .line 3956
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->value1:I
 
-    .line 3956
+    .line 3957
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->value2:Ljava/lang/String;
 
-    .line 3957
+    .line 3958
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->pic1:Ljava/lang/String;
 
-    .line 3958
+    .line 3959
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->pic2:Ljava/lang/String;
 
     return-void
@@ -458,7 +458,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
     .locals 1
 
-    .line 3937
+    .line 3938
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -473,7 +473,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
     .locals 1
 
-    .line 3937
+    .line 3938
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->clone()Ljava/lang/Object;

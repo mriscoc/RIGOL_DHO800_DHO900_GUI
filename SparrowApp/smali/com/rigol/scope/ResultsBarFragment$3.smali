@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 684
+    .line 693
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->values()[Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     move-result-object v0
@@ -98,7 +98,7 @@
     :try_start_4
     sget-object v0, Lcom/rigol/scope/ResultsBarFragment$3;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MeasureQuickItemType:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->REMOVE_ALL:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->CHANGE_ITEM:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->ordinal()I
 
@@ -111,5 +111,21 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
 
     :catch_4
+    :try_start_5
+    sget-object v0, Lcom/rigol/scope/ResultsBarFragment$3;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MeasureQuickItemType:[I
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->REMOVE_ALL:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x6
+
+    aput v2, v0, v1
+    :try_end_5
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
+
+    :catch_5
     return-void
 .end method

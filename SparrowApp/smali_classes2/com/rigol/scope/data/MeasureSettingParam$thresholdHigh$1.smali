@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 3
 
-    .line 229
+    .line 241
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam$thresholdHigh$1;->this$0:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdHighAttr()Lcom/rigol/scope/cil/MessageAttr;

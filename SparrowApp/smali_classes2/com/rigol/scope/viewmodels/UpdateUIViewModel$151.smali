@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/adapters/ResultListAdapter;)V
     .locals 0
 
-    .line 2071
+    .line 2154
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$151;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$151;->val$adapter:Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 2074
+    .line 2157
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$151;->val$adapter:Lcom/rigol/scope/adapters/ResultListAdapter;
 
     const-class v0, Lcom/rigol/scope/data/MeasureResultParam;
@@ -64,7 +64,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2071
+    .line 2154
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$151;->onChanged(Ljava/lang/Boolean;)V

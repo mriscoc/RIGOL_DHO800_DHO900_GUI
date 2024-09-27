@@ -38,7 +38,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/RefParam;I)V
     .locals 0
 
-    .line 1855
+    .line 1938
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$129;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$129;->val$param:Lcom/rigol/scope/data/RefParam;
@@ -55,7 +55,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 1858
+    .line 1941
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$129;->val$param:Lcom/rigol/scope/data/RefParam;
 
     iget v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$129;->val$finalI:I
@@ -66,7 +66,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam$Param;->readSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 1860
+    .line 1943
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     move-result-object p1
@@ -79,7 +79,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1855
+    .line 1938
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$129;->onChanged(Ljava/lang/Boolean;)V

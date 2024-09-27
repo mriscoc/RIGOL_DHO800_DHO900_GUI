@@ -18,7 +18,7 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2032
+    .line 2048
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;-><init>(I)V
 
     return-void
@@ -29,7 +29,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 2028
+    .line 2044
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/ResultListAdapter$DvmDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    .line 2039
+    .line 2055
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -63,7 +63,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 2028
+    .line 2044
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$DvmDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -86,30 +86,30 @@
         }
     .end annotation
 
-    .line 2046
+    .line 2062
     invoke-super {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
 
-    .line 2048
+    .line 2064
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p3
 
     check-cast p3, Lcom/rigol/scope/databinding/AdapterItemResultDvmBinding;
 
-    .line 2049
+    .line 2065
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/data/DvmResultParam;
 
-    .line 2050
+    .line 2066
     invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readMode()Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
-    .line 2051
+    .line 2067
     invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readDVMBandwidth()I
 
-    .line 2052
+    .line 2068
     invoke-virtual {p3, p1}, Lcom/rigol/scope/databinding/AdapterItemResultDvmBinding;->setParam(Lcom/rigol/scope/data/DvmResultParam;)V
 
     return-void

@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4525
+    .line 4526
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
     const-string v1, "counter_gate_high"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->counter_gate_high:Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
-    .line 4526
+    .line 4527
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
     const-string v9, "counter_gate_low"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
-    .line 4523
+    .line 4524
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->counter_gate_high:Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 4529
+    .line 4530
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4530
+    .line 4531
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->value1:I
 
-    .line 4531
+    .line 4532
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->value2:Ljava/lang/String;
 
-    .line 4532
+    .line 4533
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->pic1:Ljava/lang/String;
 
-    .line 4533
+    .line 4534
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
     .locals 1
 
-    .line 4523
+    .line 4524
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
     .locals 1
 
-    .line 4523
+    .line 4524
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->clone()Ljava/lang/Object;

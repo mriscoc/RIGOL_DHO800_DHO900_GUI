@@ -173,7 +173,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05ab
+    const v0, 0x7f0a05b4
 
     if-ne p1, v0, :cond_0
 
@@ -206,7 +206,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05ac
+    const v0, 0x7f0a05b5
 
     if-ne p1, v0, :cond_1
 
@@ -719,9 +719,9 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a05a2 -> :sswitch_2
-        0x7f0a05ab -> :sswitch_1
-        0x7f0a05ac -> :sswitch_0
+        0x7f0a05ab -> :sswitch_2
+        0x7f0a05b4 -> :sswitch_1
+        0x7f0a05b5 -> :sswitch_0
     .end sparse-switch
 .end method
 

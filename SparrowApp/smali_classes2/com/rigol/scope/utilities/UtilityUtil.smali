@@ -61,7 +61,7 @@
 
     move-result v4
 
-    if-ge v2, v4, :cond_2
+    if-ge v2, v4, :cond_3
 
     .line 142
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -72,15 +72,70 @@
 
     if-nez v4, :cond_0
 
-    goto :goto_1
+    goto/16 :goto_1
 
-    .line 151
+    .line 150
     :cond_0
-    invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->isRemovable()Z
+    invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->getPath()Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v6, "/storage/smb"
+
+    invoke-virtual {v5, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_1
+
+    .line 152
+    new-instance v5, Lcom/rigol/scope/data/DiskParam;
+
+    invoke-direct {v5}, Lcom/rigol/scope/data/DiskParam;-><init>()V
+
+    .line 153
+    invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->getPath()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Lcom/rigol/scope/data/DiskParam;->setPath(Ljava/lang/String;)V
+
+    const-string v6, "SMB Disk (I)"
+
+    .line 155
+    invoke-virtual {v5, v6}, Lcom/rigol/scope/data/DiskParam;->setName(Ljava/lang/String;)V
+
+    .line 156
+    invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->isRemovable()Z
+
+    move-result v6
+
+    invoke-virtual {v5, v6}, Lcom/rigol/scope/data/DiskParam;->setRemovable(Z)V
+
+    const-string v6, "I:"
+
+    .line 157
+    invoke-virtual {v5, v6}, Lcom/rigol/scope/data/DiskParam;->setShorterName(Ljava/lang/String;)V
+
+    .line 158
+    invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->getPath()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Lcom/rigol/scope/data/DiskParam;->setRoot(Ljava/lang/String;)V
+
+    .line 159
+    invoke-interface {v0, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    add-int/lit8 v3, v3, 0x1
+
+    .line 164
+    :cond_1
+    invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->isRemovable()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_2
 
     const-string v5, "mounted"
 
@@ -92,14 +147,14 @@
 
     move-result v5
 
-    if-eqz v5, :cond_1
+    if-eqz v5, :cond_2
 
-    .line 153
+    .line 166
     new-instance v5, Lcom/rigol/scope/data/DiskParam;
 
     invoke-direct {v5}, Lcom/rigol/scope/data/DiskParam;-><init>()V
 
-    .line 154
+    .line 167
     invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->getPath()Ljava/lang/String;
 
     move-result-object v6
@@ -110,7 +165,7 @@
 
     int-to-char v6, v6
 
-    .line 156
+    .line 169
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -131,14 +186,14 @@
 
     invoke-virtual {v5, v7}, Lcom/rigol/scope/data/DiskParam;->setName(Ljava/lang/String;)V
 
-    .line 157
+    .line 170
     invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->isRemovable()Z
 
     move-result v7
 
     invoke-virtual {v5, v7}, Lcom/rigol/scope/data/DiskParam;->setRemovable(Z)V
 
-    .line 158
+    .line 171
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -155,33 +210,33 @@
 
     invoke-virtual {v5, v6}, Lcom/rigol/scope/data/DiskParam;->setShorterName(Ljava/lang/String;)V
 
-    .line 159
+    .line 172
     invoke-virtual {v4}, Lcom/rigol/util/DiskInfo;->getPath()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v5, v4}, Lcom/rigol/scope/data/DiskParam;->setRoot(Ljava/lang/String;)V
 
-    .line 160
+    .line 173
     invoke-interface {v0, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     add-int/lit8 v3, v3, 0x1
 
-    :cond_1
+    :cond_2
     :goto_1
     add-int/lit8 v2, v2, 0x1
 
-    goto :goto_0
+    goto/16 :goto_0
 
     :catch_0
     move-exception v1
 
-    .line 166
+    .line 179
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    :cond_2
+    :cond_3
     return-object v0
 .end method
 

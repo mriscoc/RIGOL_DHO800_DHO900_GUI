@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1701
+    .line 1784
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$114;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$114;->val$param:Lcom/rigol/scope/data/MathParam;
@@ -49,7 +49,7 @@
 .method static synthetic lambda$onChanged$0(Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1704
+    .line 1787
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readZoomEn()V
 
     return-void
@@ -60,7 +60,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 4
 
-    .line 1704
+    .line 1787
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
@@ -81,7 +81,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1701
+    .line 1784
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$114;->onChanged(Ljava/lang/Boolean;)V

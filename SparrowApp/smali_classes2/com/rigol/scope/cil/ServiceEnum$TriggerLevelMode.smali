@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5310
+    .line 5311
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
     const-string v1, "Trigger_level_abs"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->Trigger_level_abs:Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
-    .line 5311
+    .line 5312
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
     const-string v9, "Trigger_level_ref"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
-    .line 5308
+    .line 5309
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->Trigger_level_abs:Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 5314
+    .line 5315
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5315
+    .line 5316
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->value1:I
 
-    .line 5316
+    .line 5317
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->value2:Ljava/lang/String;
 
-    .line 5317
+    .line 5318
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->pic1:Ljava/lang/String;
 
-    .line 5318
+    .line 5319
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
     .locals 1
 
-    .line 5308
+    .line 5309
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
     .locals 1
 
-    .line 5308
+    .line 5309
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->clone()Ljava/lang/Object;

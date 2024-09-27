@@ -68,7 +68,7 @@
 .method public final run()V
     .locals 5
 
-    .line 680
+    .line 683
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
     iget-object v1, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$2;->$serviceInfo:Landroid/net/nsd/NsdServiceInfo;
@@ -83,13 +83,13 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/rigol/scope/data/IOParam;->access$setNsdServiceInfo(Lcom/rigol/scope/data/IOParam;Landroid/net/nsd/NsdServiceInfo;Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 681
+    .line 684
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$2;->$nsdManager:Landroid/net/nsd/NsdManager;
 
-    .line 682
+    .line 685
     iget-object v1, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$2;->$serviceInfo:Landroid/net/nsd/NsdServiceInfo;
 
-    .line 684
+    .line 687
     iget-object v2, p0, Lcom/rigol/scope/data/IOParam$applyMdns$$inlined$let$lambda$2;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-static {v2}, Lcom/rigol/scope/data/IOParam;->access$getRegisterationHttpListener$p(Lcom/rigol/scope/data/IOParam;)Lcom/rigol/scope/utilities/NsdRegistrationListenerAdapter;
@@ -100,7 +100,7 @@
 
     const/4 v3, 0x1
 
-    .line 681
+    .line 684
     invoke-virtual {v0, v1, v3, v2}, Landroid/net/nsd/NsdManager;->registerService(Landroid/net/nsd/NsdServiceInfo;ILandroid/net/nsd/NsdManager$RegistrationListener;)V
 
     return-void

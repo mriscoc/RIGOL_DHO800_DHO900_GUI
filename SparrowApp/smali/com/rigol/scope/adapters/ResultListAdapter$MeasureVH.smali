@@ -26,10 +26,10 @@
 .method public constructor <init>(Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;)V
     .locals 4
 
-    .line 1859
+    .line 1875
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/BaseViewHolder;-><init>(Landroidx/databinding/ViewDataBinding;)V
 
-    .line 1862
+    .line 1878
     new-instance v0, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;
 
     invoke-virtual {p1}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
@@ -48,7 +48,7 @@
 
     invoke-direct {v0, v1, v2, v3}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
-    .line 1864
+    .line 1880
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/FftParam;)V
     .locals 0
 
-    .line 7305
+    .line 7453
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$658;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$658;->val$param:Lcom/rigol/scope/data/FftParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 7308
+    .line 7456
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$658;->val$param:Lcom/rigol/scope/data/FftParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/FftParam;->readPeakExcur()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/FftParam;->readPeakNum()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7305
+    .line 7453
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$658;->onChanged(Ljava/lang/Boolean;)V

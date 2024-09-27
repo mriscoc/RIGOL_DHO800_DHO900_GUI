@@ -47,7 +47,7 @@
 .end method
 
 .method public static getInstance(I)Lcom/rigol/scope/cil/API;
-    .locals 5
+    .locals 4
 
     .line 53
     sget-object v0, Lcom/rigol/scope/cil/API;->instance:Lcom/rigol/scope/cil/API;
@@ -71,34 +71,20 @@
     .line 57
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    move-result-object v4
+    move-result-object p0
 
-    aput-object v4, v2, v3
+    aput-object p0, v2, v3
 
     invoke-static {v1, v2}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 58
-    new-instance v1, Lcom/rigol/scope/cil/API;
+    new-instance p0, Lcom/rigol/scope/cil/API;
 
-    invoke-direct {v1}, Lcom/rigol/scope/cil/API;-><init>()V
+    invoke-direct {p0}, Lcom/rigol/scope/cil/API;-><init>()V
 
-    sput-object v1, Lcom/rigol/scope/cil/API;->instance:Lcom/rigol/scope/cil/API;
+    sput-object p0, Lcom/rigol/scope/cil/API;->instance:Lcom/rigol/scope/cil/API;
 
-    .line 59
-    invoke-virtual {v1, p0}, Lcom/rigol/scope/cil/API;->UI_StartBusiness(I)I
-
-    .line 62
-    sget-object p0, Lcom/rigol/scope/cil/API;->instance:Lcom/rigol/scope/cil/API;
-
-    const/16 v1, 0xb
-
-    const/16 v2, 0x5748
-
-    const-string v3, "00.01.02.00.02"
-
-    invoke-virtual {p0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
-
-    .line 63
+    .line 64
     monitor-exit v0
 
     goto :goto_0
@@ -112,7 +98,7 @@
 
     throw p0
 
-    .line 65
+    .line 66
     :cond_0
     :goto_0
     sget-object p0, Lcom/rigol/scope/cil/API;->instance:Lcom/rigol/scope/cil/API;
@@ -123,7 +109,7 @@
 .method private logOut(Ljava/lang/String;IILjava/lang/Object;)V
     .locals 2
 
-    .line 70
+    .line 71
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -142,7 +128,7 @@
 
     move-result-object p2
 
-    .line 71
+    .line 72
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -161,7 +147,7 @@
 
     move-result-object p3
 
-    .line 72
+    .line 73
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -180,7 +166,7 @@
 
     move-result-object p4
 
-    .line 74
+    .line 75
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -195,7 +181,7 @@
 
     move-result-object p2
 
-    .line 75
+    .line 76
     invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -275,13 +261,39 @@
 .method public UI_Redraw(IIJ)V
     .locals 6
 
-    const-wide/16 v0, -0x1
+    if-nez p1, :cond_0
+
+    if-nez p2, :cond_0
+
+    const-wide/16 v0, 0x0
 
     cmp-long v0, p3, v0
 
     if-nez v0, :cond_0
 
+    const-string v0, "StandBy"
+
     .line 89
+    invoke-static {v0}, Ltimber/log/Timber;->tag(Ljava/lang/String;)Ltimber/log/Timber$Tree;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    const-string v2, "UI_StartBusiness method execution completed"
+
+    invoke-virtual {v0, v2, v1}, Ltimber/log/Timber$Tree;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    :cond_0
+    const-wide/16 v0, -0x1
+
+    cmp-long v0, p3, v0
+
+    if-nez v0, :cond_1
+
+    .line 95
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p3
@@ -292,8 +304,8 @@
 
     goto :goto_0
 
-    .line 93
-    :cond_0
+    .line 99
+    :cond_1
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -315,22 +327,22 @@
 .method public UI_SetErrCode(III)V
     .locals 2
 
-    .line 108
+    .line 114
     invoke-static {p3}, Lcom/rigol/scope/utilities/ContextUtil;->getMessage(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 109
+    .line 115
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 111
+    .line 117
     invoke-static {v0}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 114
+    .line 120
     :cond_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 

@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)V
     .locals 0
 
-    .line 214
+    .line 215
     iput-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$2;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 222
+    .line 223
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$2;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$102(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 217
+    .line 218
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$2;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$000(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Lcom/rigol/scope/data/VerticalParam;

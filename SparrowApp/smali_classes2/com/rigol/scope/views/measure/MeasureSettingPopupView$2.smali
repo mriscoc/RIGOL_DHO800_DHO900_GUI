@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
     .locals 0
 
-    .line 217
+    .line 219
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$2;->this$0:Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 1
 
-    .line 220
+    .line 222
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$2;->this$0:Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->access$400(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)Lcom/rigol/scope/databinding/PopupviewResultMeasureBinding;
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 217
+    .line 219
     check-cast p1, Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView$2;->onChanged(Lcom/rigol/scope/data/HorizontalParam;)V

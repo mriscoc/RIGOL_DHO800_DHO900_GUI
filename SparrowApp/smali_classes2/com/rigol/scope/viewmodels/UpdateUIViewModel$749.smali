@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/JitterParam;)V
     .locals 0
 
-    .line 8172
+    .line 8320
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$749;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$749;->val$param:Lcom/rigol/scope/data/JitterParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8175
+    .line 8323
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$749;->val$param:Lcom/rigol/scope/data/JitterParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/JitterParam;->readSmooth()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/JitterParam;->readHistogram()Z
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8172
+    .line 8320
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$749;->onChanged(Ljava/lang/Boolean;)V

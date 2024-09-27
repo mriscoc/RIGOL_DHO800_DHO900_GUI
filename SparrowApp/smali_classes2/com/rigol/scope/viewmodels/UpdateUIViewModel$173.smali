@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/StorageSaveParam;)V
     .locals 0
 
-    .line 2260
+    .line 2343
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$173;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$173;->val$param:Lcom/rigol/scope/data/StorageSaveParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 2263
+    .line 2346
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$173;->val$param:Lcom/rigol/scope/data/StorageSaveParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/StorageSaveParam;->readPathName()Ljava/lang/String;
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2260
+    .line 2343
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$173;->onChanged(Ljava/lang/Boolean;)V

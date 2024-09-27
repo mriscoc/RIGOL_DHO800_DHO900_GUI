@@ -102,7 +102,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1622
+    .line 1623
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v1, "Trigger_Edge"
@@ -123,7 +123,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Edge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1623
+    .line 1624
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Pulse"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Pulse:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1624
+    .line 1625
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_Slope"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1625
+    .line 1626
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Video"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Video:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1626
+    .line 1627
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_Pattern"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Pattern:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1627
+    .line 1628
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Duration"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Duration:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1628
+    .line 1629
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_Timeout"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Timeout:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1629
+    .line 1630
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Runt"
@@ -270,7 +270,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Runt:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1630
+    .line 1631
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_Over"
@@ -291,7 +291,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Over:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1631
+    .line 1632
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Window"
@@ -312,7 +312,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Window:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1632
+    .line 1633
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_Delay"
@@ -333,7 +333,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Delay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1633
+    .line 1634
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Setup"
@@ -354,7 +354,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Setup:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1634
+    .line 1635
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_NEdge"
@@ -375,7 +375,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_NEdge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1635
+    .line 1636
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_RS232"
@@ -396,7 +396,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_RS232:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1636
+    .line 1637
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_I2C"
@@ -417,7 +417,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2C:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1637
+    .line 1638
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_SPI"
@@ -438,7 +438,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SPI:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1638
+    .line 1639
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_CAN"
@@ -459,7 +459,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_CAN:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1639
+    .line 1640
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_CANFD"
@@ -480,7 +480,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_CANFD:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1640
+    .line 1641
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_FlexRay"
@@ -501,7 +501,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_FlexRay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1641
+    .line 1642
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_LIN"
@@ -522,7 +522,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_LIN:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1642
+    .line 1643
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_I2S"
@@ -543,7 +543,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2S:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1643
+    .line 1644
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_SBUS"
@@ -564,7 +564,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SBUS:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1644
+    .line 1645
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_1553"
@@ -585,7 +585,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_1553:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1645
+    .line 1646
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_429"
@@ -606,7 +606,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_429:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1646
+    .line 1647
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_SENT"
@@ -627,7 +627,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SENT:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1647
+    .line 1648
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Tmo"
@@ -648,7 +648,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Tmo:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1648
+    .line 1649
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_Logic"
@@ -669,7 +669,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Logic:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1649
+    .line 1650
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_SH"
@@ -690,7 +690,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SH:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1650
+    .line 1651
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_AB"
@@ -711,7 +711,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_AB:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1651
+    .line 1652
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v9, "Trigger_Area"
@@ -732,7 +732,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Area:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1652
+    .line 1653
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const-string v2, "Trigger_All"
@@ -757,7 +757,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 1620
+    .line 1621
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Edge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     const/4 v3, 0x0
@@ -959,19 +959,19 @@
         }
     .end annotation
 
-    .line 1655
+    .line 1656
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1656
+    .line 1657
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
 
-    .line 1657
+    .line 1658
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value2:Ljava/lang/String;
 
-    .line 1658
+    .line 1659
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->pic1:Ljava/lang/String;
 
-    .line 1659
+    .line 1660
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -980,7 +980,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
     .locals 1
 
-    .line 1620
+    .line 1621
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -995,7 +995,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
     .locals 1
 
-    .line 1620
+    .line 1621
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->clone()Ljava/lang/Object;

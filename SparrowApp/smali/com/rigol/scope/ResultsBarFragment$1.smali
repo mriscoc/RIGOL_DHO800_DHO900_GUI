@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/ResultsBarFragment;)V
     .locals 0
 
-    .line 282
+    .line 284
     iput-object p1, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-direct {p0}, Lcom/rigol/scope/adapters/OnItemGestureDetectorListener;-><init>()V
@@ -41,7 +41,7 @@
 
     return p1
 
-    .line 290
+    .line 292
     :cond_0
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
@@ -51,7 +51,7 @@
 
     invoke-virtual {p3, p4}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
-    .line 291
+    .line 293
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p3}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -60,7 +60,7 @@
 
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
-    .line 293
+    .line 295
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p3, p2, p4}, Lcom/rigol/scope/ResultsBarFragment;->access$100(Lcom/rigol/scope/ResultsBarFragment;Landroid/view/View;I)V
@@ -75,7 +75,7 @@
 
     return-void
 
-    .line 304
+    .line 306
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
@@ -85,7 +85,7 @@
 
     invoke-virtual {p1, p4}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
-    .line 305
+    .line 307
     iget-object p1, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -94,7 +94,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
-    .line 307
+    .line 309
     iget-object p1, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p1, p2, p4}, Lcom/rigol/scope/ResultsBarFragment;->access$100(Lcom/rigol/scope/ResultsBarFragment;Landroid/view/View;I)V
@@ -111,7 +111,7 @@
 
     return p1
 
-    .line 317
+    .line 319
     :cond_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -147,7 +147,7 @@
 
     invoke-virtual {p3, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 318
+    .line 320
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p3
@@ -164,7 +164,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
-    .line 319
+    .line 321
     invoke-static {v2}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
 
     move-result-object v2
@@ -219,10 +219,10 @@
 
     move-result-object v1
 
-    .line 318
+    .line 320
     invoke-virtual {p3, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 322
+    .line 324
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p3}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -231,7 +231,7 @@
 
     invoke-virtual {p3, p4}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
-    .line 323
+    .line 325
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p3}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -240,7 +240,7 @@
 
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
-    .line 325
+    .line 327
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p3}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -259,7 +259,7 @@
 
     if-eqz p3, :cond_1
 
-    .line 326
+    .line 328
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p3}, Lcom/rigol/scope/ResultsBarFragment;->access$200(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/data/MeasureSettingParam;
@@ -294,7 +294,7 @@
 
     invoke-virtual {p3, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 330
+    .line 332
     :cond_1
     iget-object p3, p0, Lcom/rigol/scope/ResultsBarFragment$1;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 

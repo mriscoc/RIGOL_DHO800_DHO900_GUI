@@ -274,7 +274,7 @@
     .line 55
     iput-object p1, p0, Lcom/rigol/scope/data/DiskParam;->name:Ljava/lang/String;
 
-    const/16 p1, 0x226
+    const/16 p1, 0x22a
 
     .line 56
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskParam;->notifyPropertyChanged(I)V
@@ -292,7 +292,7 @@
     .line 35
     iput-object p1, p0, Lcom/rigol/scope/data/DiskParam;->path:Ljava/lang/String;
 
-    const/16 p1, 0x254
+    const/16 p1, 0x259
 
     .line 36
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskParam;->notifyPropertyChanged(I)V
@@ -306,7 +306,7 @@
     .line 75
     iput-boolean p1, p0, Lcom/rigol/scope/data/DiskParam;->removable:Z
 
-    const/16 p1, 0x2da
+    const/16 p1, 0x2df
 
     .line 76
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskParam;->notifyPropertyChanged(I)V
@@ -324,7 +324,7 @@
     .line 45
     iput-object p1, p0, Lcom/rigol/scope/data/DiskParam;->root:Ljava/lang/String;
 
-    const/16 p1, 0x2e0
+    const/16 p1, 0x2e5
 
     .line 46
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskParam;->notifyPropertyChanged(I)V
@@ -338,7 +338,7 @@
     .line 65
     iput-object p1, p0, Lcom/rigol/scope/data/DiskParam;->shorterName:Ljava/lang/String;
 
-    const/16 p1, 0x330
+    const/16 p1, 0x336
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskParam;->notifyPropertyChanged(I)V

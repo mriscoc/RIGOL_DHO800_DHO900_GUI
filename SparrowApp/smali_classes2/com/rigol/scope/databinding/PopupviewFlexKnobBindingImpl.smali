@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e4
+    const v1, 0x7f0a08ff
 
     const/16 v2, 0xc
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/16 v2, 0xd
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/16 v2, 0xe
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0xf
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0375
+    const v1, 0x7f0a0379
 
     const/16 v2, 0x10
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0374
+    const v1, 0x7f0a0378
 
     const/16 v2, 0x11
 
@@ -342,7 +342,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xad
+    const/16 v0, 0xaf
 
     if-ne p2, v0, :cond_1
 
@@ -374,7 +374,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xc0
+    const/16 v0, 0xc3
 
     if-ne p2, v0, :cond_2
 
@@ -446,7 +446,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -478,7 +478,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3eb
+    const/16 v0, 0x3f5
 
     if-ne p2, v0, :cond_2
 
@@ -1210,7 +1210,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xae
+    const/16 p1, 0xb0
 
     .line 126
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->notifyPropertyChanged(I)V
@@ -1261,7 +1261,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->notifyPropertyChanged(I)V
@@ -1307,7 +1307,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_1
 
@@ -1319,7 +1319,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xae
+    const/16 v0, 0xb0
 
     if-ne v0, p1, :cond_2
 

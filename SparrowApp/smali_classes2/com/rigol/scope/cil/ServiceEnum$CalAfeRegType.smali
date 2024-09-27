@@ -64,7 +64,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5855
+    .line 5856
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v1, "DC_TRIM"
@@ -85,7 +85,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->DC_TRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5856
+    .line 5857
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v9, "LF_TRIM"
@@ -106,7 +106,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->LF_TRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5857
+    .line 5858
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v2, "HIZ_CC_TRIM4_VGA"
@@ -127,7 +127,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->HIZ_CC_TRIM4_VGA:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5858
+    .line 5859
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v9, "HIZ_SGA2_CC_VGA"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->HIZ_SGA2_CC_VGA:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5859
+    .line 5860
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v2, "K_INV"
@@ -169,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->K_INV:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5860
+    .line 5861
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v9, "CC_TRIM1_HF_INV"
@@ -190,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->CC_TRIM1_HF_INV:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5861
+    .line 5862
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v2, "MC_C_TRIM"
@@ -211,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->MC_C_TRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5862
+    .line 5863
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v9, "MHF_HTRIM"
@@ -232,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->MHF_HTRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5863
+    .line 5864
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v2, "MHF_LTRIM"
@@ -253,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->MHF_LTRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5864
+    .line 5865
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v9, "PK_TRIM"
@@ -274,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->PK_TRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5865
+    .line 5866
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v2, "D_COARSE_NINV"
@@ -295,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->D_COARSE_NINV:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5866
+    .line 5867
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const-string v9, "D_FINE_NINV"
@@ -320,7 +320,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
-    .line 5853
+    .line 5854
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->DC_TRIM:Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     const/4 v3, 0x0
@@ -408,19 +408,19 @@
         }
     .end annotation
 
-    .line 5869
+    .line 5870
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5870
+    .line 5871
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->value1:I
 
-    .line 5871
+    .line 5872
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->value2:Ljava/lang/String;
 
-    .line 5872
+    .line 5873
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->pic1:Ljava/lang/String;
 
-    .line 5873
+    .line 5874
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->pic2:Ljava/lang/String;
 
     return-void
@@ -429,7 +429,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
     .locals 1
 
-    .line 5853
+    .line 5854
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -444,7 +444,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
     .locals 1
 
-    .line 5853
+    .line 5854
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->clone()Ljava/lang/Object;

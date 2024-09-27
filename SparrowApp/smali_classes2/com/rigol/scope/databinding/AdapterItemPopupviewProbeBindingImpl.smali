@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0x13
 
@@ -38,7 +38,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/16 v2, 0x14
 
@@ -47,7 +47,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/16 v2, 0x15
 
@@ -56,7 +56,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0727
+    const v1, 0x7f0a0734
 
     const/16 v2, 0x16
 
@@ -432,7 +432,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x294
+    const/16 v0, 0x299
 
     if-ne p2, v0, :cond_1
 
@@ -464,7 +464,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x290
+    const/16 v0, 0x295
 
     if-ne p2, v0, :cond_2
 
@@ -496,7 +496,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x297
+    const/16 v0, 0x29c
 
     if-ne p2, v0, :cond_3
 
@@ -528,7 +528,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x293
+    const/16 v0, 0x298
 
     if-ne p2, v0, :cond_4
 
@@ -560,7 +560,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x28d
+    const/16 v0, 0x292
 
     if-ne p2, v0, :cond_5
 
@@ -592,7 +592,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x292
+    const/16 v0, 0x297
 
     if-ne p2, v0, :cond_6
 
@@ -624,7 +624,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x28c
+    const/16 v0, 0x291
 
     if-ne p2, v0, :cond_7
 
@@ -656,7 +656,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x289
+    const/16 v0, 0x28e
 
     if-ne p2, v0, :cond_8
 
@@ -688,7 +688,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x28a
+    const/16 v0, 0x28f
 
     if-ne p2, v0, :cond_9
 
@@ -720,7 +720,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x28e
+    const/16 v0, 0x293
 
     if-ne p2, v0, :cond_a
 
@@ -752,7 +752,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x291
+    const/16 v0, 0x296
 
     if-ne p2, v0, :cond_b
 
@@ -784,7 +784,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x296
+    const/16 v0, 0x29b
 
     if-ne p2, v0, :cond_c
 
@@ -816,7 +816,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x28b
+    const/16 v0, 0x290
 
     if-ne p2, v0, :cond_d
 
@@ -888,7 +888,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -3298,7 +3298,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xb0
+    const/16 p1, 0xb2
 
     .line 135
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->notifyPropertyChanged(I)V
@@ -3332,7 +3332,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x3f7
+    const/16 v0, 0x401
 
     if-ne v0, p1, :cond_0
 
@@ -3344,7 +3344,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xb0
+    const/16 v0, 0xb2
 
     if-ne v0, p1, :cond_1
 
@@ -3356,7 +3356,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x32f
+    const/16 v0, 0x335
 
     if-ne v0, p1, :cond_2
 
@@ -3406,7 +3406,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3f7
+    const/16 p1, 0x401
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->notifyPropertyChanged(I)V

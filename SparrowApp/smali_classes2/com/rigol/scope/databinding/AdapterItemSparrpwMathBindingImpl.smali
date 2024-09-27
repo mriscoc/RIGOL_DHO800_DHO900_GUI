@@ -130,7 +130,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x382
+    const/16 v0, 0x38b
 
     if-ne p2, v0, :cond_1
 
@@ -202,7 +202,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -607,7 +607,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemSparrpwMathBindingImpl;->notifyPropertyChanged(I)V
@@ -632,7 +632,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

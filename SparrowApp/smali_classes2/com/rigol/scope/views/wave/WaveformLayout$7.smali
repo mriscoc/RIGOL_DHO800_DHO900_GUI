@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
     .locals 0
 
-    .line 1329
+    .line 1330
     iput-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$7;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 1332
+    .line 1333
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1

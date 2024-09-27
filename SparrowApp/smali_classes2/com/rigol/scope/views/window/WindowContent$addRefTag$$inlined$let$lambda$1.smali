@@ -71,7 +71,7 @@
 
     iput p4, p0, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;->$index$inlined:I
 
-    .line 700
+    .line 711
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -88,7 +88,7 @@
 .method public onMove(IIII)V
     .locals 2
 
-    .line 707
+    .line 718
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getHeight()I
@@ -97,7 +97,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 708
+    .line 719
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;->$refParam$inlined:Lcom/rigol/scope/data/RefParam;
 
     iget p3, p0, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;->$index$inlined:I
@@ -106,7 +106,7 @@
 
     int-to-float p1, p2
 
-    .line 709
+    .line 720
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;->$param:Lcom/rigol/scope/data/RefParam$Param;
 
     const-string p3, "param"
@@ -137,7 +137,7 @@
 
     div-float/2addr p1, p2
 
-    .line 710
+    .line 721
     iget-object p2, p0, Lcom/rigol/scope/views/window/WindowContent$addRefTag$$inlined$let$lambda$1;->$param:Lcom/rigol/scope/data/RefParam$Param;
 
     invoke-static {p2, p3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
@@ -161,7 +161,7 @@
 .method public onStart()V
     .locals 4
 
-    .line 715
+    .line 726
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     move-result-object v0
@@ -176,7 +176,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 716
+    .line 727
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0

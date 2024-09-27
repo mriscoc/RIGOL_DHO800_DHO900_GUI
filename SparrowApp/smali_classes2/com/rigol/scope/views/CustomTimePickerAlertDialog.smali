@@ -245,7 +245,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a01f5
+    const v1, 0x7f0a01f8
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0a08e2
+    const v2, 0x7f0a08fd
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -278,7 +278,7 @@
     .line 92
     iget-object v0, p0, Lcom/rigol/scope/views/CustomTimePickerAlertDialog;->context:Landroid/content/Context;
 
-    const v2, 0x7f100c91
+    const v2, 0x7f100c97
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

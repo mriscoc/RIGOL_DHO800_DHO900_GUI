@@ -713,11 +713,11 @@
 
     move-result p1
 
-    const v0, 0x7f0a076c
+    const v0, 0x7f0a0779
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a076e
+    const v0, 0x7f0a077b
 
     if-eq p1, v0, :cond_1
 
@@ -750,7 +750,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f100377
+    const p2, 0x7f100376
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1381,22 +1381,22 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a06f9 -> :sswitch_f
-        0x7f0a06fe -> :sswitch_e
-        0x7f0a06ff -> :sswitch_d
-        0x7f0a0700 -> :sswitch_c
-        0x7f0a0704 -> :sswitch_b
-        0x7f0a0760 -> :sswitch_a
-        0x7f0a0762 -> :sswitch_9
-        0x7f0a0763 -> :sswitch_8
-        0x7f0a0765 -> :sswitch_7
-        0x7f0a0767 -> :sswitch_6
-        0x7f0a0769 -> :sswitch_5
-        0x7f0a0771 -> :sswitch_4
-        0x7f0a0775 -> :sswitch_3
-        0x7f0a0776 -> :sswitch_2
-        0x7f0a0779 -> :sswitch_1
-        0x7f0a077a -> :sswitch_0
+        0x7f0a0706 -> :sswitch_f
+        0x7f0a070b -> :sswitch_e
+        0x7f0a070c -> :sswitch_d
+        0x7f0a070d -> :sswitch_c
+        0x7f0a0711 -> :sswitch_b
+        0x7f0a076d -> :sswitch_a
+        0x7f0a076f -> :sswitch_9
+        0x7f0a0770 -> :sswitch_8
+        0x7f0a0772 -> :sswitch_7
+        0x7f0a0774 -> :sswitch_6
+        0x7f0a0776 -> :sswitch_5
+        0x7f0a077e -> :sswitch_4
+        0x7f0a0782 -> :sswitch_3
+        0x7f0a0783 -> :sswitch_2
+        0x7f0a0786 -> :sswitch_1
+        0x7f0a0787 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1422,7 +1422,7 @@
 
     move-result p1
 
-    const p3, 0x7f0a0705
+    const p3, 0x7f0a0712
 
     if-ne p1, p3, :cond_1
 
@@ -1591,12 +1591,12 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0762 -> :sswitch_5
-        0x7f0a0763 -> :sswitch_4
-        0x7f0a0765 -> :sswitch_3
-        0x7f0a0767 -> :sswitch_2
-        0x7f0a0771 -> :sswitch_1
-        0x7f0a0776 -> :sswitch_0
+        0x7f0a076f -> :sswitch_5
+        0x7f0a0770 -> :sswitch_4
+        0x7f0a0772 -> :sswitch_3
+        0x7f0a0774 -> :sswitch_2
+        0x7f0a077e -> :sswitch_1
+        0x7f0a0783 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1859,12 +1859,12 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0762 -> :sswitch_5
-        0x7f0a0763 -> :sswitch_4
-        0x7f0a0765 -> :sswitch_3
-        0x7f0a0767 -> :sswitch_2
-        0x7f0a0771 -> :sswitch_1
-        0x7f0a0776 -> :sswitch_0
+        0x7f0a076f -> :sswitch_5
+        0x7f0a0770 -> :sswitch_4
+        0x7f0a0772 -> :sswitch_3
+        0x7f0a0774 -> :sswitch_2
+        0x7f0a077e -> :sswitch_1
+        0x7f0a0783 -> :sswitch_0
     .end sparse-switch
 .end method
 

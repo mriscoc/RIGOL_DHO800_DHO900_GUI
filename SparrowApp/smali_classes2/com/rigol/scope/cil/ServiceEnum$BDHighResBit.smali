@@ -64,7 +64,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6543
+    .line 6544
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v1, "HIGH_RES_01WC"
@@ -85,7 +85,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_01WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6544
+    .line 6545
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v9, "HIGH_RES_02WC"
@@ -106,7 +106,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_02WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6545
+    .line 6546
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v2, "HIGH_RES_03WC"
@@ -127,7 +127,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_03WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6546
+    .line 6547
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v9, "HIGH_RES_04WC"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_04WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6547
+    .line 6548
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v2, "HIGH_RES_005WC"
@@ -169,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_005WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6548
+    .line 6549
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v9, "HIGH_RES_06WC"
@@ -190,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_06WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6549
+    .line 6550
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v2, "HIGH_RES_007WC"
@@ -211,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_007WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6550
+    .line 6551
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v9, "HIGH_RES_08WC"
@@ -232,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_08WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6551
+    .line 6552
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v2, "HIGH_RES_014WC"
@@ -253,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_014WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6552
+    .line 6553
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v9, "HIGH_RES_028WC"
@@ -274,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_028WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6553
+    .line 6554
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v2, "HIGH_RES_0035WC"
@@ -295,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_0035WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6554
+    .line 6555
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const-string v9, "HIGH_RES_056WC"
@@ -320,7 +320,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
-    .line 6541
+    .line 6542
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->HIGH_RES_01WC:Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     const/4 v3, 0x0
@@ -408,19 +408,19 @@
         }
     .end annotation
 
-    .line 6557
+    .line 6558
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6558
+    .line 6559
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->value1:I
 
-    .line 6559
+    .line 6560
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->value2:Ljava/lang/String;
 
-    .line 6560
+    .line 6561
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->pic1:Ljava/lang/String;
 
-    .line 6561
+    .line 6562
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->pic2:Ljava/lang/String;
 
     return-void
@@ -429,7 +429,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
     .locals 1
 
-    .line 6541
+    .line 6542
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -444,7 +444,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
     .locals 1
 
-    .line 6541
+    .line 6542
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->clone()Ljava/lang/Object;

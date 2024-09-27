@@ -64,7 +64,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8622
+    .line 8624
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v1, "API_OK"
@@ -85,7 +85,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_OK:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8624
+    .line 8626
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v9, "API_ERROR"
@@ -106,7 +106,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERROR:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8626
+    .line 8628
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v2, "API_ERR_LIMIT"
@@ -127,7 +127,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_LIMIT:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8628
+    .line 8630
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v9, "API_ERR_INVALID_CONFIG"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_INVALID_CONFIG:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8630
+    .line 8632
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v2, "API_ERR_AUTO_DISABLED"
@@ -169,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_AUTO_DISABLED:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8632
+    .line 8634
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v9, "API_ERR_NO_SIGNAL"
@@ -190,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_NO_SIGNAL:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8634
+    .line 8636
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v2, "API_ERR_OPT_UNUSABLE"
@@ -211,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_OPT_UNUSABLE:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8636
+    .line 8638
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v9, "API_ERR_QUERY_ENGINE"
@@ -232,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_QUERY_ENGINE:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8638
+    .line 8640
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v2, "API_ERR_DRV"
@@ -253,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_DRV:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8640
+    .line 8642
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v9, "API_ERR_FILE_SAVE_FAIL"
@@ -274,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_FILE_SAVE_FAIL:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8642
+    .line 8644
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v2, "API_ERR_FILE_NAME"
@@ -295,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_ERR_FILE_NAME:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8644
+    .line 8646
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const-string v9, "API_ERR_FILE_NOT_FOUND"
@@ -320,7 +320,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
-    .line 8620
+    .line 8622
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->API_OK:Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     const/4 v3, 0x0
@@ -408,19 +408,19 @@
         }
     .end annotation
 
-    .line 8647
+    .line 8649
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8648
+    .line 8650
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->value1:I
 
-    .line 8649
+    .line 8651
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->value2:Ljava/lang/String;
 
-    .line 8650
+    .line 8652
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->pic1:Ljava/lang/String;
 
-    .line 8651
+    .line 8653
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->pic2:Ljava/lang/String;
 
     return-void
@@ -429,7 +429,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
     .locals 1
 
-    .line 8620
+    .line 8622
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -444,7 +444,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
     .locals 1
 
-    .line 8620
+    .line 8622
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->clone()Ljava/lang/Object;

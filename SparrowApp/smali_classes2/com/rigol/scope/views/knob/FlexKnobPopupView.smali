@@ -508,7 +508,7 @@
 
     if-eq p1, p2, :cond_2
 
-    const p2, 0x7f0a06a0
+    const p2, 0x7f0a06ab
 
     if-eq p1, p2, :cond_1
 

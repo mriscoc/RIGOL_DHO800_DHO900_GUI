@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0xf
 
@@ -303,7 +303,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x5d
+    const/16 v0, 0x5f
 
     if-ne p2, v0, :cond_1
 
@@ -375,7 +375,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x5e
+    const/16 v0, 0x60
 
     if-ne p2, v0, :cond_1
 
@@ -407,7 +407,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x288
+    const/16 v0, 0x28d
 
     if-ne p2, v0, :cond_2
 
@@ -439,7 +439,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x255
+    const/16 v0, 0x25a
 
     if-ne p2, v0, :cond_3
 
@@ -511,7 +511,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x5e
+    const/16 v0, 0x60
 
     if-ne p2, v0, :cond_1
 
@@ -543,7 +543,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x255
+    const/16 v0, 0x25a
 
     if-ne p2, v0, :cond_2
 
@@ -615,7 +615,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -687,7 +687,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -763,7 +763,7 @@
 
     cmp-long v9, v9, v4
 
-    const v10, 0x7f0301c7
+    const v10, 0x7f0301c8
 
     const-wide/16 v11, 0x2041
 
@@ -1406,7 +1406,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x61
+    const/16 p1, 0x63
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -1457,7 +1457,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 122
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -1508,7 +1508,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x387
+    const/16 p1, 0x390
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -1533,7 +1533,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x387
+    const/16 v0, 0x390
 
     if-ne v0, p1, :cond_0
 
@@ -1545,7 +1545,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_1
 
@@ -1557,7 +1557,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x61
+    const/16 v0, 0x63
 
     if-ne v0, p1, :cond_2
 

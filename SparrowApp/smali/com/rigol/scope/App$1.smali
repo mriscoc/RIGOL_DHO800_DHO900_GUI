@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/App;)V
     .locals 0
 
-    .line 80
+    .line 82
     iput-object p1, p0, Lcom/rigol/scope/App$1;->this$0:Lcom/rigol/scope/App;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +48,7 @@
 
     const-string p1, "newConfig:%s"
 
-    .line 90
+    .line 92
     invoke-static {p1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void

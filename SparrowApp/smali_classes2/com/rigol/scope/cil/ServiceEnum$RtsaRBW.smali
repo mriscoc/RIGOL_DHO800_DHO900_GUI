@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7757
+    .line 7759
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v1, "RtsaRBW_64k"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_64k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7758
+    .line 7760
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v9, "RtsaRBW_32k"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_32k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7759
+    .line 7761
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v2, "RtsaRBW_16k"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_16k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7760
+    .line 7762
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v9, "RtsaRBW_8k"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_8k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7761
+    .line 7763
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v2, "RtsaRBW_4k"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_4k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7762
+    .line 7764
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v9, "RtsaRBW_2k"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_2k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7763
+    .line 7765
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v2, "RtsaRBW_1k"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_1k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7764
+    .line 7766
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const-string v9, "RtsaRBW_Auto"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    .line 7755
+    .line 7757
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->RtsaRBW_64k:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 7767
+    .line 7769
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7768
+    .line 7770
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->value1:I
 
-    .line 7769
+    .line 7771
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->value2:Ljava/lang/String;
 
-    .line 7770
+    .line 7772
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->pic1:Ljava/lang/String;
 
-    .line 7771
+    .line 7773
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
     .locals 1
 
-    .line 7755
+    .line 7757
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
     .locals 1
 
-    .line 7755
+    .line 7757
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->clone()Ljava/lang/Object;

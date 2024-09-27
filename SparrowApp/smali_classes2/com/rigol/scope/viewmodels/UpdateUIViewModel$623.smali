@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/UtilityParam;)V
     .locals 0
 
-    .line 6974
+    .line 7111
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$623;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$623;->val$param:Lcom/rigol/scope/data/UtilityParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 5
 
-    .line 6977
+    .line 7114
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$623;->val$param:Lcom/rigol/scope/data/UtilityParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->readLockKeyboard()Z
 
-    .line 6979
+    .line 7116
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$623;->val$param:Lcom/rigol/scope/data/UtilityParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->getLockKeyboard()Z
@@ -65,13 +65,13 @@
 
     const/4 v0, 0x0
 
-    const/16 v1, 0x575e
+    const/16 v1, 0x5760
 
     const/16 v2, 0xb
 
     if-nez p1, :cond_0
 
-    .line 6980
+    .line 7117
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -88,7 +88,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 6981
+    .line 7118
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -101,7 +101,7 @@
 
     goto :goto_0
 
-    .line 6983
+    .line 7120
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -115,7 +115,7 @@
 
     invoke-virtual {p1, v2, v1, v3, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 6984
+    .line 7121
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -132,7 +132,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 6986
+    .line 7123
     :goto_0
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$623;->val$param:Lcom/rigol/scope/data/UtilityParam;
 
@@ -142,7 +142,7 @@
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/UtilityParam;->saveReadInputKeyboard(Z)V
 
-    .line 6988
+    .line 7125
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -157,7 +157,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6974
+    .line 7111
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$623;->onChanged(Ljava/lang/Boolean;)V

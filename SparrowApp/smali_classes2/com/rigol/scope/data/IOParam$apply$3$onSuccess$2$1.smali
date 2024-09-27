@@ -75,7 +75,7 @@
 .method public final accept(Ljava/lang/Boolean;)V
     .locals 3
 
-    .line 811
+    .line 818
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2$1;->this$0:Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;
 
     iget-object p1, p1, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;->this$0:Lcom/rigol/scope/data/IOParam$apply$3;
@@ -112,7 +112,7 @@
 
     if-nez p1, :cond_0
 
-    .line 813
+    .line 820
     :try_start_0
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2$1;->this$0:Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;
 
@@ -150,7 +150,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/IOParam;->setJmDNS(Ljavax/jmdns/impl/JmDNSImpl;)V
 
-    .line 814
+    .line 821
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2$1;->this$0:Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;
 
     iget-object p1, p1, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;->this$0:Lcom/rigol/scope/data/IOParam$apply$3;
@@ -168,7 +168,7 @@
     :catch_0
     move-exception p1
 
-    .line 816
+    .line 823
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -179,7 +179,7 @@
 .method public bridge synthetic accept(Ljava/lang/Object;)V
     .locals 0
 
-    .line 775
+    .line 782
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2$1;->accept(Ljava/lang/Boolean;)V

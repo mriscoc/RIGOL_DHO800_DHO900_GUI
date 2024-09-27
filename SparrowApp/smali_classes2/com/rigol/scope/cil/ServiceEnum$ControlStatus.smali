@@ -60,7 +60,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1582
+    .line 1583
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v1, "Status_Stoped"
@@ -81,7 +81,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Stoped:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1583
+    .line 1584
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v9, "Status_Running"
@@ -102,7 +102,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Running:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1584
+    .line 1585
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v2, "Status_Autoing"
@@ -123,7 +123,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Autoing:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1585
+    .line 1586
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v9, "Status_Waiting"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Waiting:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1586
+    .line 1587
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v2, "Status_TD"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_TD:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1587
+    .line 1588
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v9, "Status_Playing"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Playing:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1588
+    .line 1589
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v2, "Status_FPGA_ERR"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_FPGA_ERR:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1590
+    .line 1591
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v9, "Status_Force_Stoped"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Force_Stoped:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1591
+    .line 1592
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v2, "Status_Record"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Record:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1592
+    .line 1593
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const-string v9, "Status_Record_Play"
@@ -274,7 +274,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
-    .line 1580
+    .line 1581
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->Status_Stoped:Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     const/4 v3, 0x0
@@ -350,19 +350,19 @@
         }
     .end annotation
 
-    .line 1595
+    .line 1596
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1596
+    .line 1597
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->value1:I
 
-    .line 1597
+    .line 1598
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->value2:Ljava/lang/String;
 
-    .line 1598
+    .line 1599
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->pic1:Ljava/lang/String;
 
-    .line 1599
+    .line 1600
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->pic2:Ljava/lang/String;
 
     return-void
@@ -371,7 +371,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
     .locals 1
 
-    .line 1580
+    .line 1581
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -386,7 +386,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
     .locals 1
 
-    .line 1580
+    .line 1581
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->clone()Ljava/lang/Object;

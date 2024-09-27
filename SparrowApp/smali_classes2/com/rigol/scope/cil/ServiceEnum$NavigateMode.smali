@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9302
+    .line 9306
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     const-string v1, "TimeOffsetMode"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->TimeOffsetMode:Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
-    .line 9303
+    .line 9307
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     const-string v9, "SearchEventMode"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->SearchEventMode:Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
-    .line 9304
+    .line 9308
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     const-string v2, "CondensationTimeMode"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
-    .line 9300
+    .line 9304
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->TimeOffsetMode:Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9307
+    .line 9311
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9308
+    .line 9312
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->value1:I
 
-    .line 9309
+    .line 9313
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->value2:Ljava/lang/String;
 
-    .line 9310
+    .line 9314
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->pic1:Ljava/lang/String;
 
-    .line 9311
+    .line 9315
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
     .locals 1
 
-    .line 9300
+    .line 9304
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
     .locals 1
 
-    .line 9300
+    .line 9304
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->clone()Ljava/lang/Object;

@@ -229,7 +229,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a03d7
+    const v0, 0x7f0a03dc
 
     if-eq p1, v0, :cond_1
 
@@ -303,7 +303,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a03d8
+    const v1, 0x7f0a03dd
 
     if-ne v0, v1, :cond_0
 

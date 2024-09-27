@@ -218,7 +218,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05b8
+    const v0, 0x7f0a05c1
 
     if-ne p1, v0, :cond_0
 
@@ -241,7 +241,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05a8
+    const v0, 0x7f0a05b1
 
     if-ne p1, v0, :cond_1
 
@@ -1217,7 +1217,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0229
+    .packed-switch 0x7f0a022d
         :pswitch_11
         :pswitch_10
         :pswitch_f
@@ -1615,11 +1615,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a059f -> :sswitch_4
-        0x7f0a05a0 -> :sswitch_3
-        0x7f0a05a6 -> :sswitch_2
-        0x7f0a05a8 -> :sswitch_1
-        0x7f0a05b8 -> :sswitch_0
+        0x7f0a05a8 -> :sswitch_4
+        0x7f0a05a9 -> :sswitch_3
+        0x7f0a05af -> :sswitch_2
+        0x7f0a05b1 -> :sswitch_1
+        0x7f0a05c1 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1650,7 +1650,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a059f
+    .packed-switch 0x7f0a05a8
         :pswitch_1
         :pswitch_0
     .end packed-switch
@@ -1721,7 +1721,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a059f
+    .packed-switch 0x7f0a05a8
         :pswitch_1
         :pswitch_0
     .end packed-switch

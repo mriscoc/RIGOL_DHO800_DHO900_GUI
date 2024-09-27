@@ -1,4 +1,4 @@
-.class public final synthetic Lcom/rigol/scope/-$$Lambda$MainActivity$BibnDAi_r2RVUbB5cpW5B-QIW5E;
+.class public final synthetic Lcom/rigol/scope/-$$Lambda$MainActivity$lYnwMT0nZRgrG-Bz52FVBcnFIjI;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -16,7 +16,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/rigol/scope/-$$Lambda$MainActivity$BibnDAi_r2RVUbB5cpW5B-QIW5E;->f$0:Lcom/rigol/scope/MainActivity;
+    iput-object p1, p0, Lcom/rigol/scope/-$$Lambda$MainActivity$lYnwMT0nZRgrG-Bz52FVBcnFIjI;->f$0:Lcom/rigol/scope/MainActivity;
 
     return-void
 .end method
@@ -26,11 +26,11 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/rigol/scope/-$$Lambda$MainActivity$BibnDAi_r2RVUbB5cpW5B-QIW5E;->f$0:Lcom/rigol/scope/MainActivity;
+    iget-object v0, p0, Lcom/rigol/scope/-$$Lambda$MainActivity$lYnwMT0nZRgrG-Bz52FVBcnFIjI;->f$0:Lcom/rigol/scope/MainActivity;
 
     check-cast p1, Landroid/view/KeyEvent;
 
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/MainActivity;->lambda$onCreate$2$MainActivity(Landroid/view/KeyEvent;)V
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/MainActivity;->lambda$onCreate$3$MainActivity(Landroid/view/KeyEvent;)V
 
     return-void
 .end method

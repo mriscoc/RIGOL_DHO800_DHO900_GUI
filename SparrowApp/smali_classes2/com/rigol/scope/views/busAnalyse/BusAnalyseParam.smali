@@ -179,7 +179,7 @@
     .line 41
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseParam;->analyse_select:I
 
-    const/16 p1, 0x2c
+    const/16 p1, 0x2d
 
     .line 42
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseParam;->notifyPropertyChanged(I)V

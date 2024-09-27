@@ -75,7 +75,7 @@
 .method public final onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1944
+    .line 1955
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAx$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -84,7 +84,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
 
-    .line 1945
+    .line 1956
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBx$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -93,7 +93,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
 
-    .line 1946
+    .line 1957
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorAy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;
@@ -102,7 +102,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/CursorTag;->invalidate()V
 
-    .line 1947
+    .line 1958
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindRef$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$getCursorBy$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/CursorTag;

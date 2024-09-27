@@ -27,7 +27,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/wave/WaveformLayout;I)V
     .locals 0
 
-    .line 1494
+    .line 1495
     iput-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$8;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     iput p2, p0, Lcom/rigol/scope/views/wave/WaveformLayout$8;->val$markId:I
@@ -42,7 +42,7 @@
 .method public onLongClick(Landroid/view/View;)Z
     .locals 5
 
-    .line 1498
+    .line 1499
     new-instance v0, Landroid/content/ClipData$Item;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -63,7 +63,7 @@
 
     invoke-direct {v0, v1}, Landroid/content/ClipData$Item;-><init>(Ljava/lang/CharSequence;)V
 
-    .line 1500
+    .line 1501
     new-instance v1, Landroid/content/ClipData;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -88,7 +88,7 @@
 
     invoke-direct {v1, v2, v3, v0}, Landroid/content/ClipData;-><init>(Ljava/lang/CharSequence;[Ljava/lang/String;Landroid/content/ClipData$Item;)V
 
-    .line 1501
+    .line 1502
     new-instance v0, Lcom/rigol/scope/views/la/MyDragshadow;
 
     iget-object v2, p0, Lcom/rigol/scope/views/wave/WaveformLayout$8;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
@@ -99,26 +99,26 @@
 
     invoke-direct {v0, v2}, Lcom/rigol/scope/views/la/MyDragshadow;-><init>(Landroid/view/View;)V
 
-    .line 1502
+    .line 1503
     new-instance v2, Landroid/graphics/Point;
 
     invoke-direct {v2}, Landroid/graphics/Point;-><init>()V
 
     const/16 v3, 0x400
 
-    .line 1503
+    .line 1504
     iput v3, v2, Landroid/graphics/Point;->x:I
 
     const/16 v3, 0x50
 
-    .line 1504
+    .line 1505
     iput v3, v2, Landroid/graphics/Point;->y:I
 
     const/4 v2, 0x0
 
     const/4 v3, 0x0
 
-    .line 1506
+    .line 1507
     invoke-virtual {p1, v1, v0, v2, v3}, Landroid/view/View;->startDragAndDrop(Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
 
     return v3

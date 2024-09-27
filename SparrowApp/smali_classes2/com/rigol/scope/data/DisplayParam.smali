@@ -838,7 +838,7 @@
     .line 167
     iput p1, p0, Lcom/rigol/scope/data/DisplayParam;->cursorsIntensity:I
 
-    const/16 p1, 0xcc
+    const/16 p1, 0xcf
 
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -878,7 +878,7 @@
     .line 155
     iput p1, p0, Lcom/rigol/scope/data/DisplayParam;->gridIntensity:I
 
-    const/16 p1, 0x163
+    const/16 p1, 0x167
 
     .line 156
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -914,7 +914,7 @@
     .line 143
     iput-object p1, p0, Lcom/rigol/scope/data/DisplayParam;->gridType:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    const/16 p1, 0x165
+    const/16 p1, 0x169
 
     .line 144
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -950,7 +950,7 @@
     .line 191
     iput-boolean p1, p0, Lcom/rigol/scope/data/DisplayParam;->paletteEnable:Z
 
-    const/16 p1, 0x24c
+    const/16 p1, 0x250
 
     .line 192
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -975,7 +975,7 @@
     .line 111
     iput-object p1, p0, Lcom/rigol/scope/data/DisplayParam;->persisTime:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    const/16 p1, 0x265
+    const/16 p1, 0x26a
 
     .line 112
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -1004,7 +1004,7 @@
     .line 179
     iput-boolean p1, p0, Lcom/rigol/scope/data/DisplayParam;->rulerEnable:Z
 
-    const/16 p1, 0x2f0
+    const/16 p1, 0x2f5
 
     .line 180
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -1040,7 +1040,7 @@
     .line 100
     iput-object p1, p0, Lcom/rigol/scope/data/DisplayParam;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
 
-    const/16 p1, 0x3c7
+    const/16 p1, 0x3d0
 
     .line 101
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -1069,7 +1069,7 @@
     .line 202
     iput-boolean p1, p0, Lcom/rigol/scope/data/DisplayParam;->waveFreeze:Z
 
-    const/16 p1, 0x401
+    const/16 p1, 0x40b
 
     .line 203
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -1113,7 +1113,7 @@
     :goto_0
     iput p1, p0, Lcom/rigol/scope/data/DisplayParam;->waveIntensity:I
 
-    const/16 p1, 0x402
+    const/16 p1, 0x40c
 
     .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V
@@ -1142,7 +1142,7 @@
     .line 213
     iput p1, p0, Lcom/rigol/scope/data/DisplayParam;->windowTransparency:I
 
-    const/16 p1, 0x42b
+    const/16 p1, 0x435
 
     .line 214
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DisplayParam;->notifyPropertyChanged(I)V

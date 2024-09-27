@@ -2618,7 +2618,7 @@
     .line 579
     iget-boolean v0, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
-    const/16 v1, 0x575e
+    const/16 v1, 0x5760
 
     const/16 v2, 0xb
 
@@ -3942,7 +3942,7 @@
     .line 568
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/LaParam;->saveBool(IZ)I
 
-    const/16 v0, 0x575e
+    const/16 v0, 0x5760
 
     const/16 v1, 0xb
 
@@ -4057,7 +4057,7 @@
     .line 165
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->calibration_Enable:Z
 
-    const/16 p1, 0x1c0
+    const/16 p1, 0x1c4
 
     .line 166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4082,7 +4082,7 @@
     .line 280
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->chanState:Ljava/lang/String;
 
-    const/16 p1, 0x1ad
+    const/16 p1, 0x1b1
 
     .line 281
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4115,7 +4115,7 @@
     .line 288
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->chanStateList:Ljava/util/List;
 
-    const/16 p1, 0xa5
+    const/16 p1, 0xa7
 
     .line 289
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4144,7 +4144,7 @@
     .line 84
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7:Z
 
-    const/16 p1, 0xcd
+    const/16 p1, 0xd0
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4173,7 +4173,7 @@
     .line 111
     iput-wide p1, p0, Lcom/rigol/scope/data/LaParam;->d0TOd7_threshold_:J
 
-    const/16 p1, 0xce
+    const/16 p1, 0xd1
 
     .line 112
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4215,7 +4215,7 @@
     .line 95
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15:Z
 
-    const/16 p1, 0xcf
+    const/16 p1, 0xd2
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4244,7 +4244,7 @@
     .line 103
     iput-wide p1, p0, Lcom/rigol/scope/data/LaParam;->d8TOd15_threshold_:J
 
-    const/16 p1, 0xd0
+    const/16 p1, 0xd3
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4374,7 +4374,7 @@
     .line 64
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->glistNow:Ljava/util/List;
 
-    const/16 p1, 0x15e
+    const/16 p1, 0x162
 
     .line 65
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4419,7 +4419,7 @@
     .line 255
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->inputLabel:Ljava/lang/String;
 
-    const/16 p1, 0x1ad
+    const/16 p1, 0x1b1
 
     .line 256
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4444,7 +4444,7 @@
     .line 263
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist:Ljava/lang/String;
 
-    const/16 p1, 0x1ad
+    const/16 p1, 0x1b1
 
     .line 264
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4477,7 +4477,7 @@
     .line 271
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->inputLabellist64:Ljava/util/List;
 
-    const/16 p1, 0x1ad
+    const/16 p1, 0x1b1
 
     .line 272
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4506,7 +4506,7 @@
     .line 158
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->laEnable:Z
 
-    const/16 p1, 0x1c0
+    const/16 p1, 0x1c4
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4558,7 +4558,7 @@
     .line 72
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->la_calibration_probe:Z
 
-    const/16 p1, 0x1c2
+    const/16 p1, 0x1c6
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4587,7 +4587,7 @@
     .line 214
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_edge_color:I
 
-    const/16 p1, 0x1c3
+    const/16 p1, 0x1c7
 
     .line 215
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4616,7 +4616,7 @@
     .line 173
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group1:I
 
-    const/16 p1, 0x1c4
+    const/16 p1, 0x1c8
 
     .line 174
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4645,7 +4645,7 @@
     .line 181
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group2:I
 
-    const/16 p1, 0x1c5
+    const/16 p1, 0x1c9
 
     .line 182
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4674,7 +4674,7 @@
     .line 189
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group3:I
 
-    const/16 p1, 0x1c5
+    const/16 p1, 0x1c9
 
     .line 190
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4703,7 +4703,7 @@
     .line 198
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_group4:I
 
-    const/16 p1, 0x1c7
+    const/16 p1, 0x1cb
 
     .line 199
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4732,7 +4732,7 @@
     .line 206
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_high_color:I
 
-    const/16 p1, 0x1c8
+    const/16 p1, 0x1cc
 
     .line 207
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4761,7 +4761,7 @@
     .line 239
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select:I
 
-    const/16 p1, 0x1cd
+    const/16 p1, 0x1d1
 
     .line 240
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4790,7 +4790,7 @@
     .line 247
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_label_view_select_chan:I
 
-    const/16 p1, 0x1cd
+    const/16 p1, 0x1d1
 
     .line 248
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4819,7 +4819,7 @@
     .line 322
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->la_labels_en:Z
 
-    const/16 p1, 0x1cb
+    const/16 p1, 0x1cf
 
     .line 323
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4848,7 +4848,7 @@
     .line 222
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_low_color:I
 
-    const/16 p1, 0x1cc
+    const/16 p1, 0x1d0
 
     .line 223
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4877,7 +4877,7 @@
     .line 230
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_order:I
 
-    const/16 p1, 0x1cd
+    const/16 p1, 0x1d1
 
     .line 231
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4926,7 +4926,7 @@
     .line 346
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_data:Ljava/lang/String;
 
-    const/16 p1, 0x1cf
+    const/16 p1, 0x1d3
 
     .line 347
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4955,7 +4955,7 @@
     .line 330
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_pro:I
 
-    const/16 p1, 0x1d0
+    const/16 p1, 0x1d4
 
     .line 331
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -4980,7 +4980,7 @@
     .line 338
     iput-object p1, p0, Lcom/rigol/scope/data/LaParam;->la_probe_cal_prostr:Ljava/lang/String;
 
-    const/16 p1, 0x1cb
+    const/16 p1, 0x1cf
 
     .line 339
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -5033,7 +5033,7 @@
     .line 126
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_size_:I
 
-    const/16 p1, 0x1d3
+    const/16 p1, 0x1d7
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -5062,7 +5062,7 @@
     .line 134
     iput p1, p0, Lcom/rigol/scope/data/LaParam;->la_source:I
 
-    const/16 p1, 0x1d4
+    const/16 p1, 0x1d8
 
     .line 135
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -5115,7 +5115,7 @@
     .line 142
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->label:Z
 
-    const/16 p1, 0x1d6
+    const/16 p1, 0x1da
 
     .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V
@@ -5144,7 +5144,7 @@
     .line 150
     iput-boolean p1, p0, Lcom/rigol/scope/data/LaParam;->labelGroup:Z
 
-    const/16 p1, 0x1d7
+    const/16 p1, 0x1db
 
     .line 151
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/LaParam;->notifyPropertyChanged(I)V

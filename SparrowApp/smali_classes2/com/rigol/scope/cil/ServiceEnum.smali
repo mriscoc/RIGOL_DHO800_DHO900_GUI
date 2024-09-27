@@ -288,7 +288,7 @@
 .method public static getAcquireDepthFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
     .locals 5
 
-    .line 1440
+    .line 1441
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->values()[Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     move-result-object v0
@@ -302,7 +302,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1442
+    .line 1443
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -393,7 +393,7 @@
 .method public static getAdcChanEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
     .locals 5
 
-    .line 9052
+    .line 9056
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     move-result-object v0
@@ -407,7 +407,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9054
+    .line 9058
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -428,7 +428,7 @@
 .method public static getAdcChanInputModeEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
     .locals 5
 
-    .line 9019
+    .line 9023
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     move-result-object v0
@@ -442,7 +442,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9021
+    .line 9025
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -463,7 +463,7 @@
 .method public static getAdcCoreEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
     .locals 5
 
-    .line 8933
+    .line 8937
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     move-result-object v0
@@ -477,7 +477,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8935
+    .line 8939
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -498,7 +498,7 @@
 .method public static getAdcInterSwitchEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
     .locals 5
 
-    .line 8966
+    .line 8970
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     move-result-object v0
@@ -512,7 +512,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8968
+    .line 8972
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -533,7 +533,7 @@
 .method public static getAdcSerialNumEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
     .locals 5
 
-    .line 9084
+    .line 9088
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
     move-result-object v0
@@ -547,7 +547,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9086
+    .line 9090
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -568,7 +568,7 @@
 .method public static getAfgBasicWaveTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AfgBasicWaveType;
     .locals 5
 
-    .line 9867
+    .line 9871
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AfgBasicWaveType;->values()[Lcom/rigol/scope/cil/ServiceEnum$AfgBasicWaveType;
 
     move-result-object v0
@@ -582,7 +582,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9869
+    .line 9873
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AfgBasicWaveType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -603,7 +603,7 @@
 .method public static getAfgImpedanceFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
     .locals 5
 
-    .line 10129
+    .line 10133
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->values()[Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
     move-result-object v0
@@ -617,7 +617,7 @@
 
     aget-object v3, v0, v2
 
-    .line 10131
+    .line 10135
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -638,7 +638,7 @@
 .method public static getAfgWaveModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AfgWaveMode;
     .locals 5
 
-    .line 9831
+    .line 9835
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AfgWaveMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$AfgWaveMode;
 
     move-result-object v0
@@ -652,7 +652,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9833
+    .line 9837
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AfgWaveMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -673,7 +673,7 @@
 .method public static getAnalyseEthTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
     .locals 5
 
-    .line 8347
+    .line 8349
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->values()[Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     move-result-object v0
@@ -687,7 +687,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8349
+    .line 8351
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -708,7 +708,7 @@
 .method public static getApiStatusFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
     .locals 5
 
-    .line 8662
+    .line 8664
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->values()[Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;
 
     move-result-object v0
@@ -722,7 +722,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8664
+    .line 8666
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ApiStatus;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -743,7 +743,7 @@
 .method public static getApiSweepTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
     .locals 5
 
-    .line 9736
+    .line 9740
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->values()[Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     move-result-object v0
@@ -757,7 +757,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9738
+    .line 9742
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -778,7 +778,7 @@
 .method public static getApiTrigInTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
     .locals 5
 
-    .line 9799
+    .line 9803
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->values()[Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
     move-result-object v0
@@ -792,7 +792,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9801
+    .line 9805
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -813,7 +813,7 @@
 .method public static getApiTrigOutSourceFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
     .locals 5
 
-    .line 9768
+    .line 9772
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->values()[Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     move-result-object v0
@@ -827,7 +827,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9770
+    .line 9774
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -848,7 +848,7 @@
 .method public static getAutoExecuteTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AutoExecuteType;
     .locals 5
 
-    .line 9531
+    .line 9535
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AutoExecuteType;->values()[Lcom/rigol/scope/cil/ServiceEnum$AutoExecuteType;
 
     move-result-object v0
@@ -862,7 +862,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9533
+    .line 9537
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AutoExecuteType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -883,7 +883,7 @@
 .method public static getAutoSetItemTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$AutoSetItemType;
     .locals 5
 
-    .line 6797
+    .line 6799
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$AutoSetItemType;->values()[Lcom/rigol/scope/cil/ServiceEnum$AutoSetItemType;
 
     move-result-object v0
@@ -897,7 +897,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6799
+    .line 6801
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$AutoSetItemType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -918,7 +918,7 @@
 .method public static getBDHighResBitFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
     .locals 5
 
-    .line 6572
+    .line 6573
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->values()[Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;
 
     move-result-object v0
@@ -932,7 +932,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6574
+    .line 6575
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BDHighResBit;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -953,7 +953,7 @@
 .method public static getBW_FILTER_CONFIG_ENFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
     .locals 5
 
-    .line 7649
+    .line 7651
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->values()[Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     move-result-object v0
@@ -967,7 +967,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7651
+    .line 7653
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1023,7 +1023,7 @@
 .method public static getBitOrderFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BitOrder;
     .locals 5
 
-    .line 3716
+    .line 3717
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BitOrder;->values()[Lcom/rigol/scope/cil/ServiceEnum$BitOrder;
 
     move-result-object v0
@@ -1037,7 +1037,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3718
+    .line 3719
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BitOrder;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1058,7 +1058,7 @@
 .method public static getBodeDispTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
     .locals 5
 
-    .line 9964
+    .line 9968
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->values()[Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
     move-result-object v0
@@ -1072,7 +1072,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9966
+    .line 9970
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1093,7 +1093,7 @@
 .method public static getBodeFileTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
     .locals 5
 
-    .line 9933
+    .line 9937
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->values()[Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     move-result-object v0
@@ -1107,7 +1107,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9935
+    .line 9939
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1128,7 +1128,7 @@
 .method public static getBodeSourceFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
     .locals 5
 
-    .line 10028
+    .line 10032
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->values()[Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     move-result-object v0
@@ -1142,7 +1142,7 @@
 
     aget-object v3, v0, v2
 
-    .line 10030
+    .line 10034
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1163,7 +1163,7 @@
 .method public static getBodeSweepFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
     .locals 5
 
-    .line 9996
+    .line 10000
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->values()[Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     move-result-object v0
@@ -1177,7 +1177,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9998
+    .line 10002
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1198,7 +1198,7 @@
 .method public static getBusAnalyseTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
     .locals 5
 
-    .line 8315
+    .line 8317
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->values()[Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
     move-result-object v0
@@ -1212,7 +1212,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8317
+    .line 8319
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1233,7 +1233,7 @@
 .method public static getBusUserFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$BusUser;
     .locals 5
 
-    .line 7415
+    .line 7417
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->values()[Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     move-result-object v0
@@ -1247,7 +1247,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7417
+    .line 7419
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1268,7 +1268,7 @@
 .method public static getBus_StatusFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
     .locals 5
 
-    .line 7711
+    .line 7713
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->values()[Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
     move-result-object v0
@@ -1282,7 +1282,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7713
+    .line 7715
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1303,7 +1303,7 @@
 .method public static getCAL_ChIDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
     .locals 5
 
-    .line 7217
+    .line 7219
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->values()[Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     move-result-object v0
@@ -1317,7 +1317,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7219
+    .line 7221
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1338,7 +1338,7 @@
 .method public static getCAL_ChStateFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
     .locals 5
 
-    .line 7180
+    .line 7182
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->values()[Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     move-result-object v0
@@ -1352,7 +1352,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7182
+    .line 7184
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1373,7 +1373,7 @@
 .method public static getCAL_ChmodeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
     .locals 5
 
-    .line 7146
+    .line 7148
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->values()[Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;
 
     move-result-object v0
@@ -1387,7 +1387,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7148
+    .line 7150
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CAL_Chmode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1408,7 +1408,7 @@
 .method public static getCRTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CRType;
     .locals 5
 
-    .line 8054
+    .line 8056
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CRType;->values()[Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     move-result-object v0
@@ -1422,7 +1422,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8056
+    .line 8058
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CRType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1443,7 +1443,7 @@
 .method public static getCalAfeRegTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
     .locals 5
 
-    .line 5884
+    .line 5885
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->values()[Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;
 
     move-result-object v0
@@ -1457,7 +1457,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5886
+    .line 5887
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CalAfeRegType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1478,7 +1478,7 @@
 .method public static getCalAfgItemFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
     .locals 5
 
-    .line 10096
+    .line 10100
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->values()[Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     move-result-object v0
@@ -1492,7 +1492,7 @@
 
     aget-object v3, v0, v2
 
-    .line 10098
+    .line 10102
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1513,7 +1513,7 @@
 .method public static getCalBwIndexFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
     .locals 5
 
-    .line 6038
+    .line 6039
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->values()[Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     move-result-object v0
@@ -1527,7 +1527,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6040
+    .line 6041
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1583,7 +1583,7 @@
 .method public static getCalFileFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CalFile;
     .locals 5
 
-    .line 6083
+    .line 6084
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->values()[Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     move-result-object v0
@@ -1597,7 +1597,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6085
+    .line 6086
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1653,7 +1653,7 @@
 .method public static getCalItemFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CalItem;
     .locals 5
 
-    .line 5938
+    .line 5939
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->values()[Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     move-result-object v0
@@ -1667,7 +1667,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5940
+    .line 5941
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1793,7 +1793,7 @@
 .method public static getCalPathFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CalPath;
     .locals 5
 
-    .line 5973
+    .line 5974
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->values()[Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     move-result-object v0
@@ -1807,7 +1807,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5975
+    .line 5976
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1863,7 +1863,7 @@
 .method public static getClockRecoveryFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ClockRecovery;
     .locals 5
 
-    .line 7988
+    .line 7990
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ClockRecovery;->values()[Lcom/rigol/scope/cil/ServiceEnum$ClockRecovery;
 
     move-result-object v0
@@ -1877,7 +1877,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7990
+    .line 7992
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ClockRecovery;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1898,7 +1898,7 @@
 .method public static getClockSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
     .locals 5
 
-    .line 8282
+    .line 8284
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->values()[Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     move-result-object v0
@@ -1912,7 +1912,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8284
+    .line 8286
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1933,7 +1933,7 @@
 .method public static getCondensationTimeDisplayModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
     .locals 5
 
-    .line 9356
+    .line 9360
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     move-result-object v0
@@ -1947,7 +1947,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9358
+    .line 9362
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -1968,7 +1968,7 @@
 .method public static getControlActionFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
     .locals 5
 
-    .line 1570
+    .line 1571
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->values()[Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v0
@@ -1982,7 +1982,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1572
+    .line 1573
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2003,7 +2003,7 @@
 .method public static getControlStatusFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
     .locals 5
 
-    .line 1610
+    .line 1611
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->values()[Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
 
     move-result-object v0
@@ -2017,7 +2017,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1612
+    .line 1613
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2038,7 +2038,7 @@
 .method public static getCounterEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CounterEvent;
     .locals 5
 
-    .line 4575
+    .line 4576
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CounterEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$CounterEvent;
 
     move-result-object v0
@@ -2052,7 +2052,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4577
+    .line 4578
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CounterEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2073,7 +2073,7 @@
 .method public static getCounterGateFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
     .locals 5
 
-    .line 4544
+    .line 4545
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->values()[Lcom/rigol/scope/cil/ServiceEnum$CounterGate;
 
     move-result-object v0
@@ -2087,7 +2087,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4546
+    .line 4547
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CounterGate;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2108,7 +2108,7 @@
 .method public static getCounterModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
     .locals 5
 
-    .line 4481
+    .line 4482
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
     move-result-object v0
@@ -2122,7 +2122,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4483
+    .line 4484
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2143,7 +2143,7 @@
 .method public static getCounterTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CounterType;
     .locals 5
 
-    .line 4513
+    .line 4514
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->values()[Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     move-result-object v0
@@ -2157,7 +2157,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4515
+    .line 4516
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2213,7 +2213,7 @@
 .method public static getCursorModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
     .locals 5
 
-    .line 4355
+    .line 4356
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -2227,7 +2227,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4357
+    .line 4358
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2248,7 +2248,7 @@
 .method public static getCursorTrackModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CursorTrackMode;
     .locals 5
 
-    .line 4388
+    .line 4389
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CursorTrackMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$CursorTrackMode;
 
     move-result-object v0
@@ -2262,7 +2262,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4390
+    .line 4391
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CursorTrackMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2283,7 +2283,7 @@
 .method public static getCursorViewFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CursorView;
     .locals 5
 
-    .line 4419
+    .line 4420
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->values()[Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v0
@@ -2297,7 +2297,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4421
+    .line 4422
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2318,7 +2318,7 @@
 .method public static getDECODEPARITYFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
     .locals 5
 
-    .line 7486
+    .line 7488
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->values()[Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     move-result-object v0
@@ -2332,7 +2332,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7488
+    .line 7490
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2353,7 +2353,7 @@
 .method public static getDacChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DacChan;
     .locals 5
 
-    .line 5622
+    .line 5623
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->values()[Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     move-result-object v0
@@ -2367,7 +2367,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5624
+    .line 5625
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2388,7 +2388,7 @@
 .method public static getDebugTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DebugType;
     .locals 5
 
-    .line 6831
+    .line 6833
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     move-result-object v0
@@ -2402,7 +2402,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6833
+    .line 6835
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2423,7 +2423,7 @@
 .method public static getDecThreTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
     .locals 5
 
-    .line 7342
+    .line 7344
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     move-result-object v0
@@ -2437,7 +2437,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7344
+    .line 7346
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2458,7 +2458,7 @@
 .method public static getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
     .locals 5
 
-    .line 6250
+    .line 6251
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object v0
@@ -2472,7 +2472,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6252
+    .line 6253
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2493,7 +2493,7 @@
 .method public static getDevStatusEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
     .locals 5
 
-    .line 8567
+    .line 8569
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;
 
     move-result-object v0
@@ -2507,7 +2507,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8569
+    .line 8571
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DevStatusEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2528,7 +2528,7 @@
 .method public static getDeviceSelfTestTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
     .locals 5
 
-    .line 9466
+    .line 9470
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     move-result-object v0
@@ -2542,7 +2542,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9468
+    .line 9472
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2563,7 +2563,7 @@
 .method public static getDisplayFormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
     .locals 5
 
-    .line 3685
+    .line 3686
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->values()[Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     move-result-object v0
@@ -2577,7 +2577,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3687
+    .line 3688
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2598,7 +2598,7 @@
 .method public static getDrvStatusFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
     .locals 5
 
-    .line 8610
+    .line 8612
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->values()[Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     move-result-object v0
@@ -2612,7 +2612,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8612
+    .line 8614
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2843,7 +2843,7 @@
 .method public static getDvmLimitTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
     .locals 5
 
-    .line 9419
+    .line 9423
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
     move-result-object v0
@@ -2857,7 +2857,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9421
+    .line 9425
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2878,7 +2878,7 @@
 .method public static getDvmModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
     .locals 5
 
-    .line 4607
+    .line 4608
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     move-result-object v0
@@ -2892,7 +2892,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4609
+    .line 4610
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2913,7 +2913,7 @@
 .method public static getEBaudRateFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
     .locals 5
 
-    .line 2617
+    .line 2618
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->values()[Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     move-result-object v0
@@ -2927,7 +2927,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2619
+    .line 2620
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2948,7 +2948,7 @@
 .method public static getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
     .locals 5
 
-    .line 1977
+    .line 1978
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->values()[Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object v0
@@ -2962,7 +2962,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1979
+    .line 1980
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -2983,7 +2983,7 @@
 .method public static getEWaveFormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
     .locals 5
 
-    .line 4976
+    .line 4977
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;->values()[Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
 
     move-result-object v0
@@ -2997,7 +2997,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4978
+    .line 4979
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3018,7 +3018,7 @@
 .method public static getEWaveGridsFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
     .locals 5
 
-    .line 5047
+    .line 5048
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->values()[Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     move-result-object v0
@@ -3032,7 +3032,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5049
+    .line 5050
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3053,7 +3053,7 @@
 .method public static getEWavePersisFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
     .locals 5
 
-    .line 5014
+    .line 5015
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->values()[Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     move-result-object v0
@@ -3067,7 +3067,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5016
+    .line 5017
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3088,7 +3088,7 @@
 .method public static getEdgeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Edge;
     .locals 5
 
-    .line 7374
+    .line 7376
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Edge;->values()[Lcom/rigol/scope/cil/ServiceEnum$Edge;
 
     move-result-object v0
@@ -3102,7 +3102,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7376
+    .line 7378
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Edge;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3123,7 +3123,7 @@
 .method public static getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
     .locals 5
 
-    .line 1943
+    .line 1944
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->values()[Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -3137,7 +3137,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1945
+    .line 1946
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3158,7 +3158,7 @@
 .method public static getEngineTimerFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
     .locals 5
 
-    .line 7817
+    .line 7819
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->values()[Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     move-result-object v0
@@ -3172,7 +3172,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7819
+    .line 7821
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3193,7 +3193,7 @@
 .method public static getEposTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EposType;
     .locals 5
 
-    .line 7073
+    .line 7075
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EposType;->values()[Lcom/rigol/scope/cil/ServiceEnum$EposType;
 
     move-result-object v0
@@ -3207,7 +3207,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7075
+    .line 7077
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EposType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3228,7 +3228,7 @@
 .method public static getEyeErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EyeErr;
     .locals 5
 
-    .line 8149
+    .line 8151
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EyeErr;->values()[Lcom/rigol/scope/cil/ServiceEnum$EyeErr;
 
     move-result-object v0
@@ -3242,7 +3242,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8151
+    .line 8153
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EyeErr;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3263,7 +3263,7 @@
 .method public static getEyeMeasTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
     .locals 5
 
-    .line 4679
+    .line 4680
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->values()[Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     move-result-object v0
@@ -3277,7 +3277,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4681
+    .line 4682
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3298,7 +3298,7 @@
 .method public static getEyeTemplateFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
     .locals 5
 
-    .line 6286
+    .line 6287
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->values()[Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;
 
     move-result-object v0
@@ -3312,7 +3312,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6288
+    .line 6289
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$EyeTemplate;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3333,7 +3333,7 @@
 .method public static getFEMStatusFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
     .locals 5
 
-    .line 9137
+    .line 9141
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->values()[Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     move-result-object v0
@@ -3347,7 +3347,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9139
+    .line 9143
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3368,7 +3368,7 @@
 .method public static getFPGACntEdgeTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FPGACntEdgeType;
     .locals 5
 
-    .line 6942
+    .line 6944
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FPGACntEdgeType;->values()[Lcom/rigol/scope/cil/ServiceEnum$FPGACntEdgeType;
 
     move-result-object v0
@@ -3382,7 +3382,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6944
+    .line 6946
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FPGACntEdgeType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3403,7 +3403,7 @@
 .method public static getFPGACntPulseTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
     .locals 5
 
-    .line 6973
+    .line 6975
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->values()[Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
     move-result-object v0
@@ -3417,7 +3417,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6975
+    .line 6977
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3438,7 +3438,7 @@
 .method public static getFPGADlyEdgeTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
     .locals 5
 
-    .line 6911
+    .line 6913
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->values()[Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
     move-result-object v0
@@ -3452,7 +3452,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6913
+    .line 6915
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3473,7 +3473,7 @@
 .method public static getFPGADlySrcFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
     .locals 5
 
-    .line 6880
+    .line 6882
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->values()[Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;
 
     move-result-object v0
@@ -3487,7 +3487,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6882
+    .line 6884
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FPGADlySrc;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3508,7 +3508,7 @@
 .method public static getFPGAEnTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
     .locals 5
 
-    .line 7010
+    .line 7012
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->values()[Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     move-result-object v0
@@ -3522,7 +3522,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7012
+    .line 7014
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3543,7 +3543,7 @@
 .method public static getFPGATopBaseMethodFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
     .locals 5
 
-    .line 7042
+    .line 7044
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->values()[Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     move-result-object v0
@@ -3557,7 +3557,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7044
+    .line 7046
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3578,7 +3578,7 @@
 .method public static getFftxTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FftxType;
     .locals 5
 
-    .line 3896
+    .line 3897
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->values()[Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     move-result-object v0
@@ -3592,7 +3592,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3898
+    .line 3899
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3648,7 +3648,7 @@
 .method public static getFlexKnobEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
     .locals 5
 
-    .line 8469
+    .line 8471
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     move-result-object v0
@@ -3662,7 +3662,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8471
+    .line 8473
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3683,7 +3683,7 @@
 .method public static getFreqTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FreqType;
     .locals 5
 
-    .line 8117
+    .line 8119
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FreqType;->values()[Lcom/rigol/scope/cil/ServiceEnum$FreqType;
 
     move-result-object v0
@@ -3697,7 +3697,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8119
+    .line 8121
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FreqType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3718,7 +3718,7 @@
 .method public static getFuncPermissionControlEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
     .locals 5
 
-    .line 9169
+    .line 9173
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     move-result-object v0
@@ -3732,7 +3732,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9171
+    .line 9175
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3753,7 +3753,7 @@
 .method public static getFunctionFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Function;
     .locals 5
 
-    .line 6208
+    .line 6209
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Function;->values()[Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     move-result-object v0
@@ -3767,7 +3767,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6210
+    .line 6211
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Function;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3788,7 +3788,7 @@
 .method public static getHDMI_RatioFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
     .locals 5
 
-    .line 8250
+    .line 8252
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->values()[Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     move-result-object v0
@@ -3802,7 +3802,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8252
+    .line 8254
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3823,7 +3823,7 @@
 .method public static getHardMeasIndexFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
     .locals 5
 
-    .line 7113
+    .line 7115
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->values()[Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;
 
     move-result-object v0
@@ -3837,7 +3837,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7115
+    .line 7117
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$HardMeasIndex;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3858,7 +3858,7 @@
 .method public static getHighResBitFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$HighResBit;
     .locals 5
 
-    .line 6531
+    .line 6532
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$HighResBit;->values()[Lcom/rigol/scope/cil/ServiceEnum$HighResBit;
 
     move-result-object v0
@@ -3872,7 +3872,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6533
+    .line 6534
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$HighResBit;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3893,7 +3893,7 @@
 .method public static getHistoTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$HistoType;
     .locals 5
 
-    .line 4640
+    .line 4641
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->values()[Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     move-result-object v0
@@ -3907,7 +3907,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4642
+    .line 4643
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3928,7 +3928,7 @@
 .method public static getHoriModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
     .locals 5
 
-    .line 7248
+    .line 7250
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$HoriMode;
 
     move-result-object v0
@@ -3942,7 +3942,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7250
+    .line 7252
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$HoriMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -3998,7 +3998,7 @@
 .method public static getHorizontalExpandFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
     .locals 5
 
-    .line 1505
+    .line 1506
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->values()[Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     move-result-object v0
@@ -4012,7 +4012,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1507
+    .line 1508
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4103,7 +4103,7 @@
 .method public static getLaGroupFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LaGroup;
     .locals 5
 
-    .line 9900
+    .line 9904
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LaGroup;->values()[Lcom/rigol/scope/cil/ServiceEnum$LaGroup;
 
     move-result-object v0
@@ -4117,7 +4117,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9902
+    .line 9906
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$LaGroup;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4138,7 +4138,7 @@
 .method public static getLaNumTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
     .locals 5
 
-    .line 5298
+    .line 5299
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->values()[Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
     move-result-object v0
@@ -4152,7 +4152,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5300
+    .line 5301
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4173,7 +4173,7 @@
 .method public static getLaProbeCalFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
     .locals 5
 
-    .line 10061
+    .line 10065
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->values()[Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     move-result-object v0
@@ -4187,7 +4187,7 @@
 
     aget-object v3, v0, v2
 
-    .line 10063
+    .line 10067
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4243,7 +4243,7 @@
 .method public static getLfTrimFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
     .locals 5
 
-    .line 6006
+    .line 6007
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->values()[Lcom/rigol/scope/cil/ServiceEnum$LfTrim;
 
     move-result-object v0
@@ -4257,7 +4257,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6008
+    .line 6009
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$LfTrim;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4278,7 +4278,7 @@
 .method public static getLinProtocolFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
     .locals 5
 
-    .line 3780
+    .line 3781
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->values()[Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     move-result-object v0
@@ -4292,7 +4292,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3782
+    .line 3783
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4313,7 +4313,7 @@
 .method public static getLogGradeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
     .locals 5
 
-    .line 8183
+    .line 8185
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->values()[Lcom/rigol/scope/cil/ServiceEnum$LogGrade;
 
     move-result-object v0
@@ -4327,7 +4327,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8185
+    .line 8187
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$LogGrade;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4348,7 +4348,7 @@
 .method public static getMaskActionActionFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MaskActionAction;
     .locals 5
 
-    .line 4883
+    .line 4884
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MaskActionAction;->values()[Lcom/rigol/scope/cil/ServiceEnum$MaskActionAction;
 
     move-result-object v0
@@ -4362,7 +4362,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4885
+    .line 4886
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MaskActionAction;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4383,7 +4383,7 @@
 .method public static getMaskActionEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
     .locals 5
 
-    .line 4852
+    .line 4853
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     move-result-object v0
@@ -4397,7 +4397,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4854
+    .line 4855
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4418,7 +4418,7 @@
 .method public static getMaskPolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
     .locals 5
 
-    .line 4945
+    .line 4946
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->values()[Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     move-result-object v0
@@ -4432,7 +4432,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4947
+    .line 4948
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4453,7 +4453,7 @@
 .method public static getMaskRangeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
     .locals 5
 
-    .line 4914
+    .line 4915
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->values()[Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     move-result-object v0
@@ -4467,7 +4467,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4916
+    .line 4917
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4488,7 +4488,7 @@
 .method public static getMathOperatorFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
     .locals 5
 
-    .line 3865
+    .line 3866
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->values()[Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
@@ -4502,7 +4502,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3867
+    .line 3868
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4523,7 +4523,7 @@
 .method public static getMathWaveTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
     .locals 5
 
-    .line 7680
+    .line 7682
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->values()[Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object v0
@@ -4537,7 +4537,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7682
+    .line 7684
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4558,7 +4558,7 @@
 .method public static getMeasSrcTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MeasSrcType;
     .locals 5
 
-    .line 4162
+    .line 4163
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MeasSrcType;->values()[Lcom/rigol/scope/cil/ServiceEnum$MeasSrcType;
 
     move-result-object v0
@@ -4572,7 +4572,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4164
+    .line 4165
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MeasSrcType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4593,7 +4593,7 @@
 .method public static getMeasTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MeasType;
     .locals 5
 
-    .line 4320
+    .line 4321
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->values()[Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v0
@@ -4607,7 +4607,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4322
+    .line 4323
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4628,7 +4628,7 @@
 .method public static getMeasureQuickItemTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
     .locals 5
 
-    .line 6670
+    .line 6672
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->values()[Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     move-result-object v0
@@ -4642,7 +4642,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6672
+    .line 6674
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4663,7 +4663,7 @@
 .method public static getModShapeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ModShape;
     .locals 5
 
-    .line 9704
+    .line 9708
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->values()[Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     move-result-object v0
@@ -4677,7 +4677,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9706
+    .line 9710
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4698,7 +4698,7 @@
 .method public static getModSourceTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ModSourceType;
     .locals 5
 
-    .line 9668
+    .line 9672
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ModSourceType;->values()[Lcom/rigol/scope/cil/ServiceEnum$ModSourceType;
 
     move-result-object v0
@@ -4712,7 +4712,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9670
+    .line 9674
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ModSourceType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4733,7 +4733,7 @@
 .method public static getModTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ModType;
     .locals 5
 
-    .line 9637
+    .line 9641
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ModType;->values()[Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     move-result-object v0
@@ -4747,7 +4747,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9639
+    .line 9643
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ModType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4768,7 +4768,7 @@
 .method public static getMuxChannelFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
     .locals 5
 
-    .line 5665
+    .line 5666
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->values()[Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     move-result-object v0
@@ -4782,7 +4782,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5667
+    .line 5668
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4803,7 +4803,7 @@
 .method public static getNavigateModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
     .locals 5
 
-    .line 9322
+    .line 9326
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;
 
     move-result-object v0
@@ -4817,7 +4817,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9324
+    .line 9328
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$NavigateMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4838,7 +4838,7 @@
 .method public static getNavigatePlayingSpeedFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
     .locals 5
 
-    .line 9388
+    .line 9392
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->values()[Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     move-result-object v0
@@ -4852,7 +4852,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9390
+    .line 9394
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4873,7 +4873,7 @@
 .method public static getNavigationTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
     .locals 5
 
-    .line 9500
+    .line 9504
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->values()[Lcom/rigol/scope/cil/ServiceEnum$NavigationType;
 
     move-result-object v0
@@ -4887,7 +4887,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9502
+    .line 9506
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$NavigationType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4908,7 +4908,7 @@
 .method public static getOptTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$OptType;
     .locals 5
 
-    .line 5234
+    .line 5235
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$OptType;->values()[Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     move-result-object v0
@@ -4922,7 +4922,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5236
+    .line 5237
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$OptType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4943,7 +4943,7 @@
 .method public static getOverEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
     .locals 5
 
-    .line 2106
+    .line 2107
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     move-result-object v0
@@ -4957,7 +4957,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2108
+    .line 2109
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -4978,7 +4978,7 @@
 .method public static getPACKAGEENDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
     .locals 5
 
-    .line 7520
+    .line 7522
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->values()[Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     move-result-object v0
@@ -4992,7 +4992,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7522
+    .line 7524
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5013,7 +5013,7 @@
 .method public static getPLLorderFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
     .locals 5
 
-    .line 8085
+    .line 8087
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->values()[Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
     move-result-object v0
@@ -5027,7 +5027,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8087
+    .line 8089
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5048,7 +5048,7 @@
 .method public static getPanelKeyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
     .locals 5
 
-    .line 8417
+    .line 8419
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->values()[Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     move-result-object v0
@@ -5062,7 +5062,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8419
+    .line 8421
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5083,7 +5083,7 @@
 .method public static getPanelLedFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
     .locals 5
 
-    .line 5715
+    .line 5716
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->values()[Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     move-result-object v0
@@ -5097,7 +5097,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5717
+    .line 5718
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5118,7 +5118,7 @@
 .method public static getParityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Parity;
     .locals 5
 
-    .line 3811
+    .line 3812
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Parity;->values()[Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
     move-result-object v0
@@ -5132,7 +5132,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3813
+    .line 3814
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Parity;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5188,7 +5188,7 @@
 .method public static getPlayActionFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
     .locals 5
 
-    .line 4790
+    .line 4791
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->values()[Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
     move-result-object v0
@@ -5202,7 +5202,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4792
+    .line 4793
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5223,7 +5223,7 @@
 .method public static getPlayDirectionFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PlayDirection;
     .locals 5
 
-    .line 4821
+    .line 4822
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PlayDirection;->values()[Lcom/rigol/scope/cil/ServiceEnum$PlayDirection;
 
     move-result-object v0
@@ -5237,7 +5237,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4823
+    .line 4824
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PlayDirection;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5258,7 +5258,7 @@
 .method public static getPolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Polarity;
     .locals 5
 
-    .line 7617
+    .line 7619
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->values()[Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
     move-result-object v0
@@ -5272,7 +5272,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7619
+    .line 7621
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5293,7 +5293,7 @@
 .method public static getPowerModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
     .locals 5
 
-    .line 9562
+    .line 9566
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
     move-result-object v0
@@ -5307,7 +5307,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9564
+    .line 9568
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5468,7 +5468,7 @@
 .method public static getProductDomainFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
     .locals 5
 
-    .line 9241
+    .line 9245
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->values()[Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     move-result-object v0
@@ -5482,7 +5482,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9243
+    .line 9247
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5503,7 +5503,7 @@
 .method public static getProductSeriesFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
     .locals 5
 
-    .line 9290
+    .line 9294
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->values()[Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     move-result-object v0
@@ -5517,7 +5517,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9292
+    .line 9296
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5538,7 +5538,7 @@
 .method public static getRateTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RateType;
     .locals 5
 
-    .line 8022
+    .line 8024
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RateType;->values()[Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     move-result-object v0
@@ -5552,7 +5552,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8024
+    .line 8026
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RateType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5573,7 +5573,7 @@
 .method public static getRecActionFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RecAction;
     .locals 5
 
-    .line 4759
+    .line 4760
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RecAction;->values()[Lcom/rigol/scope/cil/ServiceEnum$RecAction;
 
     move-result-object v0
@@ -5587,7 +5587,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4761
+    .line 4762
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RecAction;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5608,7 +5608,7 @@
 .method public static getRecordStateFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RecordState;
     .locals 5
 
-    .line 7283
+    .line 7285
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->values()[Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     move-result-object v0
@@ -5622,7 +5622,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7285
+    .line 7287
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5643,7 +5643,7 @@
 .method public static getRefClockFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RefClock;
     .locals 5
 
-    .line 4048
+    .line 4049
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->values()[Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     move-result-object v0
@@ -5657,7 +5657,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4050
+    .line 4051
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5678,7 +5678,7 @@
 .method public static getRefColorFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RefColor;
     .locals 5
 
-    .line 6705
+    .line 6707
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->values()[Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
     move-result-object v0
@@ -5692,7 +5692,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6707
+    .line 6709
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RefColor;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5713,7 +5713,7 @@
 .method public static getRtsaMarkerFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
     .locals 5
 
-    .line 7889
+    .line 7891
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;
 
     move-result-object v0
@@ -5727,7 +5727,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7891
+    .line 7893
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RtsaMarker;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5748,7 +5748,7 @@
 .method public static getRtsaModuleFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RtsaModule;
     .locals 5
 
-    .line 7745
+    .line 7747
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RtsaModule;->values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaModule;
 
     move-result-object v0
@@ -5762,7 +5762,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7747
+    .line 7749
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RtsaModule;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5783,7 +5783,7 @@
 .method public static getRtsaRBWFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
     .locals 5
 
-    .line 7782
+    .line 7784
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
     move-result-object v0
@@ -5797,7 +5797,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7784
+    .line 7786
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5818,7 +5818,7 @@
 .method public static getRtsaSaFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
     .locals 5
 
-    .line 7852
+    .line 7854
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     move-result-object v0
@@ -5832,7 +5832,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7854
+    .line 7856
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5853,7 +5853,7 @@
 .method public static getSHEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
     .locals 5
 
-    .line 2074
+    .line 2075
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     move-result-object v0
@@ -5867,7 +5867,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2076
+    .line 2077
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5888,7 +5888,7 @@
 .method public static getSIGTYPECANFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SIGTYPECAN;
     .locals 5
 
-    .line 7554
+    .line 7556
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPECAN;->values()[Lcom/rigol/scope/cil/ServiceEnum$SIGTYPECAN;
 
     move-result-object v0
@@ -5902,7 +5902,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7556
+    .line 7558
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPECAN;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5923,7 +5923,7 @@
 .method public static getSIGTYPEFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
     .locals 5
 
-    .line 7586
+    .line 7588
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->values()[Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     move-result-object v0
@@ -5937,7 +5937,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7588
+    .line 7590
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5958,7 +5958,7 @@
 .method public static getSampleModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
     .locals 5
 
-    .line 8764
+    .line 8768
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     move-result-object v0
@@ -5972,7 +5972,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8766
+    .line 8770
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -5993,7 +5993,7 @@
 .method public static getSampleRateEnumFromValue1(J)Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
     .locals 6
 
-    .line 8731
+    .line 8735
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     move-result-object v0
@@ -6007,7 +6007,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8733
+    .line 8737
     iget-wide v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->value1:J
 
     cmp-long v4, p0, v4
@@ -6030,7 +6030,7 @@
 .method public static getSaoLaCoreModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
     .locals 5
 
-    .line 8810
+    .line 8814
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     move-result-object v0
@@ -6044,7 +6044,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8812
+    .line 8816
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6065,7 +6065,7 @@
 .method public static getSearchCopyTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
     .locals 5
 
-    .line 1738
+    .line 1739
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->values()[Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
     move-result-object v0
@@ -6079,7 +6079,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1740
+    .line 1741
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6100,7 +6100,7 @@
 .method public static getSpuTxTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
     .locals 5
 
-    .line 8847
+    .line 8851
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->values()[Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     move-result-object v0
@@ -6114,7 +6114,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8849
+    .line 8853
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6135,7 +6135,7 @@
 .method public static getStatTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StatType;
     .locals 5
 
-    .line 4197
+    .line 4198
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$StatType;->values()[Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     move-result-object v0
@@ -6149,7 +6149,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4199
+    .line 4200
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$StatType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6170,7 +6170,7 @@
 .method public static getStopWidthFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StopWidth;
     .locals 5
 
-    .line 3748
+    .line 3749
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$StopWidth;->values()[Lcom/rigol/scope/cil/ServiceEnum$StopWidth;
 
     move-result-object v0
@@ -6184,7 +6184,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3750
+    .line 3751
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$StopWidth;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6205,7 +6205,7 @@
 .method public static getStorageFuncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
     .locals 5
 
-    .line 6761
+    .line 6763
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->values()[Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     move-result-object v0
@@ -6219,7 +6219,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6763
+    .line 6765
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6240,7 +6240,7 @@
 .method public static getStorageOperationChooseFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
     .locals 5
 
-    .line 6636
+    .line 6637
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->values()[Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     move-result-object v0
@@ -6254,7 +6254,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6638
+    .line 6639
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6275,7 +6275,7 @@
 .method public static getStorageOperationFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
     .locals 5
 
-    .line 6604
+    .line 6605
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->values()[Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     move-result-object v0
@@ -6289,7 +6289,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6606
+    .line 6607
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6310,7 +6310,7 @@
 .method public static getSysMessageFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
     .locals 5
 
-    .line 5786
+    .line 5787
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->values()[Lcom/rigol/scope/cil/ServiceEnum$SysMessage;
 
     move-result-object v0
@@ -6324,7 +6324,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5788
+    .line 5789
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SysMessage;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6345,7 +6345,7 @@
 .method public static getSystemLanguageFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
     .locals 5
 
-    .line 3969
+    .line 3970
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->values()[Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;
 
     move-result-object v0
@@ -6359,7 +6359,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3971
+    .line 3972
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$SystemLanguage;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6380,7 +6380,7 @@
 .method public static getTJITTER_TYPEFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
     .locals 5
 
-    .line 8534
+    .line 8536
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->values()[Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     move-result-object v0
@@ -6394,7 +6394,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8536
+    .line 8538
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6415,7 +6415,7 @@
 .method public static getTclockForFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
     .locals 5
 
-    .line 8500
+    .line 8502
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->values()[Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
     move-result-object v0
@@ -6429,7 +6429,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8502
+    .line 8504
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6450,7 +6450,7 @@
 .method public static getThreTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ThreType;
     .locals 5
 
-    .line 4450
+    .line 4451
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->values()[Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     move-result-object v0
@@ -6464,7 +6464,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4452
+    .line 4453
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6485,7 +6485,7 @@
 .method public static getTimeZoneDiffFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
     .locals 5
 
-    .line 8213
+    .line 8215
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->values()[Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;
 
     move-result-object v0
@@ -6499,7 +6499,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8215
+    .line 8217
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TimeZoneDiff;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6520,7 +6520,7 @@
 .method public static getTriggeMuxTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
     .locals 5
 
-    .line 1814
+    .line 1815
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     move-result-object v0
@@ -6534,7 +6534,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1816
+    .line 1817
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6555,7 +6555,7 @@
 .method public static getTriggerEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
     .locals 5
 
-    .line 1770
+    .line 1771
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;
 
     move-result-object v0
@@ -6569,7 +6569,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1772
+    .line 1773
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6590,7 +6590,7 @@
 .method public static getTriggerHoldModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldMode;
     .locals 5
 
-    .line 1879
+    .line 1880
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldMode;
 
     move-result-object v0
@@ -6604,7 +6604,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1881
+    .line 1882
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6625,7 +6625,7 @@
 .method public static getTriggerHoldObjFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
     .locals 5
 
-    .line 1910
+    .line 1911
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
     move-result-object v0
@@ -6639,7 +6639,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1912
+    .line 1913
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6660,7 +6660,7 @@
 .method public static getTriggerLevelModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
     .locals 5
 
-    .line 5329
+    .line 5330
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;
 
     move-result-object v0
@@ -6674,7 +6674,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5331
+    .line 5332
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerLevelMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6695,7 +6695,7 @@
 .method public static getTriggerLogicOperatorFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
     .locals 5
 
-    .line 2173
+    .line 2174
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     move-result-object v0
@@ -6709,7 +6709,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2175
+    .line 2176
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6730,7 +6730,7 @@
 .method public static getTriggerModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
     .locals 5
 
-    .line 1670
+    .line 1671
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -6744,7 +6744,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1672
+    .line 1673
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6765,7 +6765,7 @@
 .method public static getTriggerPatternFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
     .locals 5
 
-    .line 2140
+    .line 2141
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     move-result-object v0
@@ -6779,7 +6779,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2142
+    .line 2143
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6800,7 +6800,7 @@
 .method public static getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
     .locals 5
 
-    .line 2009
+    .line 2010
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -6814,7 +6814,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2011
+    .line 2012
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6835,7 +6835,7 @@
 .method public static getTriggerSweepFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;
     .locals 5
 
-    .line 1847
+    .line 1848
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;
 
     move-result-object v0
@@ -6849,7 +6849,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1849
+    .line 1850
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6870,7 +6870,7 @@
 .method public static getTrigger_1553_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
     .locals 5
 
-    .line 3550
+    .line 3551
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     move-result-object v0
@@ -6884,7 +6884,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3552
+    .line 3553
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6905,7 +6905,7 @@
 .method public static getTrigger_1553_SyncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
     .locals 5
 
-    .line 3517
+    .line 3518
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
 
     move-result-object v0
@@ -6919,7 +6919,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3519
+    .line 3520
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6940,7 +6940,7 @@
 .method public static getTrigger_1553_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
     .locals 5
 
-    .line 3485
+    .line 3486
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
 
     move-result-object v0
@@ -6954,7 +6954,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3487
+    .line 3488
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -6975,7 +6975,7 @@
 .method public static getTrigger_Can_DefineFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
     .locals 5
 
-    .line 7922
+    .line 7924
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     move-result-object v0
@@ -6989,7 +6989,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7924
+    .line 7926
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7010,7 +7010,7 @@
 .method public static getTrigger_Can_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
     .locals 5
 
-    .line 2953
+    .line 2954
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     move-result-object v0
@@ -7024,7 +7024,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2955
+    .line 2956
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7045,7 +7045,7 @@
 .method public static getTrigger_Can_FieldFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
     .locals 5
 
-    .line 2886
+    .line 2887
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;
 
     move-result-object v0
@@ -7059,7 +7059,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2888
+    .line 2889
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Field;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7080,7 +7080,7 @@
 .method public static getTrigger_Can_FrameFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Frame;
     .locals 5
 
-    .line 2919
+    .line 2920
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Frame;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Frame;
 
     move-result-object v0
@@ -7094,7 +7094,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2921
+    .line 2922
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Frame;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7115,7 +7115,7 @@
 .method public static getTrigger_Can_PhyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
     .locals 5
 
-    .line 2986
+    .line 2987
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
 
     move-result-object v0
@@ -7129,7 +7129,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2988
+    .line 2989
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7150,7 +7150,7 @@
 .method public static getTrigger_Can_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Spec;
     .locals 5
 
-    .line 3017
+    .line 3018
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Spec;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Spec;
 
     move-result-object v0
@@ -7164,7 +7164,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3019
+    .line 3020
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Spec;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7185,7 +7185,7 @@
 .method public static getTrigger_Can_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
     .locals 5
 
-    .line 2850
+    .line 2851
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     move-result-object v0
@@ -7199,7 +7199,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2852
+    .line 2853
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7220,7 +7220,7 @@
 .method public static getTrigger_Flex_BaudFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
     .locals 5
 
-    .line 3255
+    .line 3256
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
 
     move-result-object v0
@@ -7234,7 +7234,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3257
+    .line 3258
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7255,7 +7255,7 @@
 .method public static getTrigger_Flex_DefineFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
     .locals 5
 
-    .line 7953
+    .line 7955
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
     move-result-object v0
@@ -7269,7 +7269,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7955
+    .line 7957
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7290,7 +7290,7 @@
 .method public static getTrigger_Flex_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
     .locals 5
 
-    .line 3223
+    .line 3224
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     move-result-object v0
@@ -7304,7 +7304,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3225
+    .line 3226
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7325,7 +7325,7 @@
 .method public static getTrigger_Flex_FrameFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
     .locals 5
 
-    .line 3158
+    .line 3159
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     move-result-object v0
@@ -7339,7 +7339,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3160
+    .line 3161
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7360,7 +7360,7 @@
 .method public static getTrigger_Flex_PhyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
     .locals 5
 
-    .line 3286
+    .line 3287
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
 
     move-result-object v0
@@ -7374,7 +7374,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3288
+    .line 3289
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7395,7 +7395,7 @@
 .method public static getTrigger_Flex_PosFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
     .locals 5
 
-    .line 3125
+    .line 3126
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
 
     move-result-object v0
@@ -7409,7 +7409,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3127
+    .line 3128
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7430,7 +7430,7 @@
 .method public static getTrigger_Flex_SymbolFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
     .locals 5
 
-    .line 3190
+    .line 3191
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
 
     move-result-object v0
@@ -7444,7 +7444,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3192
+    .line 3193
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7465,7 +7465,7 @@
 .method public static getTrigger_Flex_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
     .locals 5
 
-    .line 3092
+    .line 3093
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
     move-result-object v0
@@ -7479,7 +7479,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3094
+    .line 3095
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7500,7 +7500,7 @@
 .method public static getTrigger_I2C_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
     .locals 5
 
-    .line 3417
+    .line 3418
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
 
     move-result-object v0
@@ -7514,7 +7514,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3419
+    .line 3420
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7535,7 +7535,7 @@
 .method public static getTrigger_I2C_WRFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
     .locals 5
 
-    .line 3385
+    .line 3386
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     move-result-object v0
@@ -7549,7 +7549,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3387
+    .line 3388
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7570,7 +7570,7 @@
 .method public static getTrigger_I2C_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
     .locals 5
 
-    .line 3353
+    .line 3354
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     move-result-object v0
@@ -7584,7 +7584,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3355
+    .line 3356
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7605,7 +7605,7 @@
 .method public static getTrigger_I2C_WidthFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
     .locals 5
 
-    .line 3451
+    .line 3452
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     move-result-object v0
@@ -7619,7 +7619,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3453
+    .line 3454
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7640,7 +7640,7 @@
 .method public static getTrigger_IIS_ChFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
     .locals 5
 
-    .line 2685
+    .line 2686
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
 
     move-result-object v0
@@ -7654,7 +7654,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2687
+    .line 2688
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7675,7 +7675,7 @@
 .method public static getTrigger_IIS_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
     .locals 5
 
-    .line 2717
+    .line 2718
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     move-result-object v0
@@ -7689,7 +7689,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2719
+    .line 2720
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7710,7 +7710,7 @@
 .method public static getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
     .locals 5
 
-    .line 2653
+    .line 2654
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object v0
@@ -7724,7 +7724,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2655
+    .line 2656
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7745,7 +7745,7 @@
 .method public static getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
     .locals 5
 
-    .line 2205
+    .line 2206
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v0
@@ -7759,7 +7759,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2207
+    .line 2208
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7780,7 +7780,7 @@
 .method public static getTrigger_Lin_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
     .locals 5
 
-    .line 2786
+    .line 2787
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
 
     move-result-object v0
@@ -7794,7 +7794,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2788
+    .line 2789
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7815,7 +7815,7 @@
 .method public static getTrigger_Lin_VerFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
     .locals 5
 
-    .line 2818
+    .line 2819
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     move-result-object v0
@@ -7829,7 +7829,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2820
+    .line 2821
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7850,7 +7850,7 @@
 .method public static getTrigger_Lin_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
     .locals 5
 
-    .line 2753
+    .line 2754
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     move-result-object v0
@@ -7864,7 +7864,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2755
+    .line 2756
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7885,7 +7885,7 @@
 .method public static getTrigger_RS232_ErrorFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
     .locals 5
 
-    .line 2413
+    .line 2414
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     move-result-object v0
@@ -7899,7 +7899,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2415
+    .line 2416
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7920,7 +7920,7 @@
 .method public static getTrigger_RS232_EventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Event;
     .locals 5
 
-    .line 2381
+    .line 2382
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Event;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Event;
 
     move-result-object v0
@@ -7934,7 +7934,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2383
+    .line 2384
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Event;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7955,7 +7955,7 @@
 .method public static getTrigger_RS232_ParityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
     .locals 5
 
-    .line 2510
+    .line 2511
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     move-result-object v0
@@ -7969,7 +7969,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2512
+    .line 2513
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -7990,7 +7990,7 @@
 .method public static getTrigger_RS232_StopFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
     .locals 5
 
-    .line 2478
+    .line 2479
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
 
     move-result-object v0
@@ -8004,7 +8004,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2480
+    .line 2481
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8025,7 +8025,7 @@
 .method public static getTrigger_RS232_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
     .locals 5
 
-    .line 2446
+    .line 2447
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
 
     move-result-object v0
@@ -8039,7 +8039,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2448
+    .line 2449
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8060,7 +8060,7 @@
 .method public static getTrigger_RS232_WidthFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
     .locals 5
 
-    .line 2543
+    .line 2544
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     move-result-object v0
@@ -8074,7 +8074,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2545
+    .line 2546
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8095,7 +8095,7 @@
 .method public static getTrigger_Serv_Can_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
     .locals 5
 
-    .line 3059
+    .line 3060
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v0
@@ -8109,7 +8109,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3061
+    .line 3062
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8130,7 +8130,7 @@
 .method public static getTrigger_Spi_CSFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
     .locals 5
 
-    .line 3317
+    .line 3318
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
     move-result-object v0
@@ -8144,7 +8144,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3319
+    .line 3320
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8165,7 +8165,7 @@
 .method public static getTrigger_Video_FormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
     .locals 5
 
-    .line 2283
+    .line 2284
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     move-result-object v0
@@ -8179,7 +8179,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2285
+    .line 2286
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8200,7 +8200,7 @@
 .method public static getTrigger_Video_SyncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
     .locals 5
 
-    .line 2238
+    .line 2239
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     move-result-object v0
@@ -8214,7 +8214,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2240
+    .line 2241
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8235,7 +8235,7 @@
 .method public static getTrigger_Video_levelFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
     .locals 5
 
-    .line 2314
+    .line 2315
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
     move-result-object v0
@@ -8249,7 +8249,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2316
+    .line 2317
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8270,7 +8270,7 @@
 .method public static getTrigger_value_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
     .locals 5
 
-    .line 2349
+    .line 2350
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     move-result-object v0
@@ -8284,7 +8284,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2351
+    .line 2352
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8305,7 +8305,7 @@
 .method public static getUartDataWidFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
     .locals 5
 
-    .line 7454
+    .line 7456
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->values()[Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     move-result-object v0
@@ -8319,7 +8319,7 @@
 
     aget-object v3, v0, v2
 
-    .line 7456
+    .line 7458
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8375,7 +8375,7 @@
 .method public static getUtilityQuickDataSourceFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
     .locals 5
 
-    .line 5468
+    .line 5469
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
     move-result-object v0
@@ -8389,7 +8389,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5470
+    .line 5471
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8410,7 +8410,7 @@
 .method public static getUtilityQuickFormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
     .locals 5
 
-    .line 5500
+    .line 5501
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     move-result-object v0
@@ -8424,7 +8424,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5502
+    .line 5503
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8445,7 +8445,7 @@
 .method public static getUtilityQuickOperationTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
     .locals 5
 
-    .line 5373
+    .line 5374
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     move-result-object v0
@@ -8459,7 +8459,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5375
+    .line 5376
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8480,7 +8480,7 @@
 .method public static getUtilityQuickSaveImageFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickSaveImage;
     .locals 5
 
-    .line 5437
+    .line 5438
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickSaveImage;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickSaveImage;
 
     move-result-object v0
@@ -8494,7 +8494,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5439
+    .line 5440
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickSaveImage;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8515,7 +8515,7 @@
 .method public static getUtilityQuickStatResetFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
     .locals 5
 
-    .line 5404
+    .line 5405
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     move-result-object v0
@@ -8529,7 +8529,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5406
+    .line 5407
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8550,7 +8550,7 @@
 .method public static getUtilityScreenSaverFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
     .locals 5
 
-    .line 5532
+    .line 5533
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     move-result-object v0
@@ -8564,7 +8564,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5534
+    .line 5535
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8585,7 +8585,7 @@
 .method public static getUtilityTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
     .locals 5
 
-    .line 5575
+    .line 5576
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     move-result-object v0
@@ -8599,7 +8599,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5577
+    .line 5578
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8620,7 +8620,7 @@
 .method public static getVersionEnumFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
     .locals 5
 
-    .line 8896
+    .line 8900
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->values()[Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     move-result-object v0
@@ -8634,7 +8634,7 @@
 
     aget-object v3, v0, v2
 
-    .line 8898
+    .line 8902
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8655,7 +8655,7 @@
 .method public static getVertExpandFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
     .locals 5
 
-    .line 3927
+    .line 3928
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->values()[Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     move-result-object v0
@@ -8669,7 +8669,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3929
+    .line 3930
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8725,7 +8725,7 @@
 .method public static getVisaTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$VisaType;
     .locals 5
 
-    .line 4130
+    .line 4131
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->values()[Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     move-result-object v0
@@ -8739,7 +8739,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4132
+    .line 4133
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8760,7 +8760,7 @@
 .method public static getWaveDataTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
     .locals 5
 
-    .line 9605
+    .line 9609
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->values()[Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     move-result-object v0
@@ -8774,7 +8774,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9607
+    .line 9611
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8795,7 +8795,7 @@
 .method public static getWaveFormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
     .locals 5
 
-    .line 6351
+    .line 6352
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->values()[Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     move-result-object v0
@@ -8809,7 +8809,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6353
+    .line 6354
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8830,7 +8830,7 @@
 .method public static getWaveModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
     .locals 5
 
-    .line 6319
+    .line 6320
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     move-result-object v0
@@ -8844,7 +8844,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6321
+    .line 6322
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8865,7 +8865,7 @@
 .method public static getWaveViewFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WaveView;
     .locals 5
 
-    .line 1471
+    .line 1472
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->values()[Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
     move-result-object v0
@@ -8879,7 +8879,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1473
+    .line 1474
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8900,7 +8900,7 @@
 .method public static getWfmLineTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WfmLineType;
     .locals 5
 
-    .line 3612
+    .line 3613
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WfmLineType;->values()[Lcom/rigol/scope/cil/ServiceEnum$WfmLineType;
 
     move-result-object v0
@@ -8914,7 +8914,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3614
+    .line 3615
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WfmLineType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8935,7 +8935,7 @@
 .method public static getWfmPaletteFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
     .locals 5
 
-    .line 3581
+    .line 3582
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->values()[Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
     move-result-object v0
@@ -8949,7 +8949,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3583
+    .line 3584
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -8970,7 +8970,7 @@
 .method public static getWindowEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
     .locals 5
 
-    .line 2042
+    .line 2043
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     move-result-object v0
@@ -8984,7 +8984,7 @@
 
     aget-object v3, v0, v2
 
-    .line 2044
+    .line 2045
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9005,7 +9005,7 @@
 .method public static getWindowTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$WindowType;
     .locals 5
 
-    .line 5843
+    .line 5844
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->values()[Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     move-result-object v0
@@ -9019,7 +9019,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5845
+    .line 5846
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9110,7 +9110,7 @@
 .method public static getenFileTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enFileType;
     .locals 5
 
-    .line 4728
+    .line 4729
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->values()[Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     move-result-object v0
@@ -9124,7 +9124,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4730
+    .line 4731
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9145,7 +9145,7 @@
 .method public static getenPeakOrderFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
     .locals 5
 
-    .line 6450
+    .line 6451
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->values()[Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     move-result-object v0
@@ -9159,7 +9159,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6452
+    .line 6453
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9180,7 +9180,7 @@
 .method public static getenVendorIDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
     .locals 5
 
-    .line 4016
+    .line 4017
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->values()[Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     move-result-object v0
@@ -9194,7 +9194,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4018
+    .line 4019
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9250,7 +9250,7 @@
 .method public static getenumRefIDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
     .locals 5
 
-    .line 3651
+    .line 3652
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->values()[Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     move-result-object v0
@@ -9264,7 +9264,7 @@
 
     aget-object v3, v0, v2
 
-    .line 3653
+    .line 3654
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9285,7 +9285,7 @@
 .method public static getenumSampleAttrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
     .locals 5
 
-    .line 5267
+    .line 5268
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->values()[Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     move-result-object v0
@@ -9299,7 +9299,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5269
+    .line 5270
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9320,7 +9320,7 @@
 .method public static getenumSearchTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
     .locals 5
 
-    .line 1707
+    .line 1708
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->values()[Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
     move-result-object v0
@@ -9334,7 +9334,7 @@
 
     aget-object v3, v0, v2
 
-    .line 1709
+    .line 1710
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9355,7 +9355,7 @@
 .method public static getfftSpecUnitFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
     .locals 5
 
-    .line 6419
+    .line 6420
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->values()[Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     move-result-object v0
@@ -9369,7 +9369,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6421
+    .line 6422
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9390,7 +9390,7 @@
 .method public static getfftWindowFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
     .locals 5
 
-    .line 6386
+    .line 6387
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->values()[Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     move-result-object v0
@@ -9404,7 +9404,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6388
+    .line 6389
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9425,7 +9425,7 @@
 .method public static getjitterResultFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
     .locals 5
 
-    .line 6490
+    .line 6491
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->values()[Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     move-result-object v0
@@ -9439,7 +9439,7 @@
 
     aget-object v3, v0, v2
 
-    .line 6492
+    .line 6493
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9460,7 +9460,7 @@
 .method public static getscpiEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
     .locals 5
 
-    .line 5143
+    .line 5144
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     move-result-object v0
@@ -9474,7 +9474,7 @@
 
     aget-object v3, v0, v2
 
-    .line 5145
+    .line 5146
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9495,7 +9495,7 @@
 .method public static getstruExectueFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$struExectue;
     .locals 5
 
-    .line 9201
+    .line 9205
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->values()[Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     move-result-object v0
@@ -9509,7 +9509,7 @@
 
     aget-object v3, v0, v2
 
-    .line 9203
+    .line 9207
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->value1:I
 
     if-ne p0, v4, :cond_0
@@ -9530,7 +9530,7 @@
 .method public static gettagNET_STATUS_ENFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
     .locals 5
 
-    .line 4098
+    .line 4099
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->values()[Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     move-result-object v0
@@ -9544,7 +9544,7 @@
 
     aget-object v3, v0, v2
 
-    .line 4100
+    .line 4101
     iget v4, v3, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->value1:I
 
     if-ne p0, v4, :cond_0

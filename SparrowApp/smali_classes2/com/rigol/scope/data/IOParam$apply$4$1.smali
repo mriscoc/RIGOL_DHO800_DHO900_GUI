@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 2
 
-    .line 837
+    .line 844
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4$1;->this$0:Lcom/rigol/scope/data/IOParam$apply$4;
 
     iget-object v0, v0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;

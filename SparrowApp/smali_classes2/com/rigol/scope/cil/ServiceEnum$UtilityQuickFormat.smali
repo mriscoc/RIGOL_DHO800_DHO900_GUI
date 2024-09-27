@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5480
+    .line 5481
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     const-string v1, "File_Format_BIN"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->File_Format_BIN:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
-    .line 5481
+    .line 5482
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     const-string v9, "File_Format_CSV"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->File_Format_CSV:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
-    .line 5482
+    .line 5483
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     const-string v2, "File_Format_WFM"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
-    .line 5478
+    .line 5479
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->File_Format_BIN:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 5485
+    .line 5486
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5486
+    .line 5487
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->value1:I
 
-    .line 5487
+    .line 5488
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->value2:Ljava/lang/String;
 
-    .line 5488
+    .line 5489
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->pic1:Ljava/lang/String;
 
-    .line 5489
+    .line 5490
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
     .locals 1
 
-    .line 5478
+    .line 5479
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
     .locals 1
 
-    .line 5478
+    .line 5479
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickFormat;->clone()Ljava/lang/Object;

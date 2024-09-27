@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 1
 
-    .line 490
+    .line 493
     new-instance v0, Lcom/rigol/scope/data/IOParam$readmDns$1$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$readmDns$1$1;-><init>(Lcom/rigol/scope/data/IOParam$readmDns$1;)V

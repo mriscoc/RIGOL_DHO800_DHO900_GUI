@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 293
+    .line 298
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$3;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 4
 
-    .line 296
+    .line 301
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    .line 303
+    .line 308
     :try_start_0
     invoke-static {}, Lcom/rigol/scope/utilities/SystemUtil;->getWindowManager()Landroid/view/IWindowManager;
 
@@ -76,14 +76,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 305
+    .line 310
     invoke-static {v2, p1}, Lcom/rigol/scope/utilities/ImageUtil;->save(Landroid/graphics/Bitmap;Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 306
+    .line 311
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -99,7 +99,7 @@
     :catch_0
     move-exception p1
 
-    .line 310
+    .line 315
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -110,7 +110,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 293
+    .line 298
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$3;->onChanged(Ljava/lang/Boolean;)V

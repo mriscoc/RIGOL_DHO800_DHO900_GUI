@@ -64,7 +64,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7386
+    .line 7388
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v1, "CHAN_NONE"
@@ -85,7 +85,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->CHAN_NONE:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7387
+    .line 7389
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v9, "CHAN1"
@@ -106,7 +106,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->CHAN1:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7388
+    .line 7390
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v2, "CHAN2"
@@ -127,7 +127,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->CHAN2:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7389
+    .line 7391
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v9, "CHAN3"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->CHAN3:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7390
+    .line 7392
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v2, "CHAN4"
@@ -169,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->CHAN4:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7391
+    .line 7393
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v9, "D7_D0"
@@ -190,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->D7_D0:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7392
+    .line 7394
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v2, "D15_D8"
@@ -211,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->D15_D8:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7393
+    .line 7395
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v9, "D15_D0"
@@ -232,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->D15_D0:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7394
+    .line 7396
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v2, "D0_D7"
@@ -253,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->D0_D7:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7395
+    .line 7397
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v9, "D8_D15"
@@ -274,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->D8_D15:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7396
+    .line 7398
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v2, "D0_D15"
@@ -295,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->D0_D15:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7397
+    .line 7399
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const-string v9, "USER"
@@ -320,7 +320,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
-    .line 7384
+    .line 7386
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->CHAN_NONE:Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     const/4 v3, 0x0
@@ -408,19 +408,19 @@
         }
     .end annotation
 
-    .line 7400
+    .line 7402
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7401
+    .line 7403
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->value1:I
 
-    .line 7402
+    .line 7404
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->value2:Ljava/lang/String;
 
-    .line 7403
+    .line 7405
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->pic1:Ljava/lang/String;
 
-    .line 7404
+    .line 7406
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->pic2:Ljava/lang/String;
 
     return-void
@@ -429,7 +429,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BusUser;
     .locals 1
 
-    .line 7384
+    .line 7386
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -444,7 +444,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BusUser;
     .locals 1
 
-    .line 7384
+    .line 7386
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusUser;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BusUser;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BusUser;->clone()Ljava/lang/Object;

@@ -100,7 +100,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7295
+    .line 7297
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v1, "thre_pal"
@@ -121,7 +121,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_pal:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7296
+    .line 7298
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_tx"
@@ -142,7 +142,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_tx:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7297
+    .line 7299
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_rx"
@@ -163,7 +163,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_rx:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7298
+    .line 7300
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_scl"
@@ -184,7 +184,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_scl:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7299
+    .line 7301
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_sda"
@@ -205,7 +205,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_sda:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7300
+    .line 7302
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_data"
@@ -226,7 +226,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_data:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7301
+    .line 7303
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_ws"
@@ -247,7 +247,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_ws:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7302
+    .line 7304
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_i2s_clk"
@@ -268,7 +268,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_i2s_clk:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7303
+    .line 7305
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_cs"
@@ -289,7 +289,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_cs:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7304
+    .line 7306
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_clk"
@@ -310,7 +310,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_clk:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7305
+    .line 7307
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_miso"
@@ -331,7 +331,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_miso:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7306
+    .line 7308
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_mosi"
@@ -352,7 +352,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_mosi:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7307
+    .line 7309
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_lin"
@@ -373,7 +373,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_lin:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7308
+    .line 7310
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_can"
@@ -394,7 +394,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_can:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7309
+    .line 7311
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_can_sub_1"
@@ -415,7 +415,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_can_sub_1:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7310
+    .line 7312
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_1553"
@@ -436,7 +436,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_1553:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7311
+    .line 7313
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_flex"
@@ -457,7 +457,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_flex:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7312
+    .line 7314
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_ch1"
@@ -478,7 +478,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_ch1:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7313
+    .line 7315
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_ch2"
@@ -499,7 +499,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_ch2:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7314
+    .line 7316
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_ch3"
@@ -520,7 +520,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_ch3:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7315
+    .line 7317
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_ch4"
@@ -541,7 +541,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_ch4:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7316
+    .line 7318
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_arinc_up"
@@ -562,7 +562,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_arinc_up:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7317
+    .line 7319
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_arinc_down"
@@ -583,7 +583,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_arinc_down:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7318
+    .line 7320
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_sent"
@@ -604,7 +604,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_sent:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7319
+    .line 7321
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_most"
@@ -625,7 +625,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_most:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7320
+    .line 7322
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_usb_dp"
@@ -646,7 +646,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_usb_dp:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7321
+    .line 7323
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_usb_ds"
@@ -667,7 +667,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_usb_ds:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7322
+    .line 7324
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_usb_diff_h"
@@ -688,7 +688,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_usb_diff_h:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7323
+    .line 7325
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v2, "thre_usb_diff_l"
@@ -709,7 +709,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_usb_diff_l:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7324
+    .line 7326
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const-string v9, "thre_pal_clk"
@@ -734,7 +734,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
-    .line 7293
+    .line 7295
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->thre_pal:Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     const/4 v3, 0x0
@@ -930,19 +930,19 @@
         }
     .end annotation
 
-    .line 7327
+    .line 7329
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7328
+    .line 7330
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->value1:I
 
-    .line 7329
+    .line 7331
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->value2:Ljava/lang/String;
 
-    .line 7330
+    .line 7332
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->pic1:Ljava/lang/String;
 
-    .line 7331
+    .line 7333
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->pic2:Ljava/lang/String;
 
     return-void
@@ -951,7 +951,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
     .locals 1
 
-    .line 7293
+    .line 7295
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -966,7 +966,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
     .locals 1
 
-    .line 7293
+    .line 7295
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DecThreType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DecThreType;->clone()Ljava/lang/Object;

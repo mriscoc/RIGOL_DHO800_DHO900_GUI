@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e4
+    const v1, 0x7f0a08ff
 
     const/4 v2, 0x6
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a079b
+    const v1, 0x7f0a07a8
 
     const/4 v2, 0x7
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0648
+    const v1, 0x7f0a0653
 
     const/16 v2, 0x8
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0649
+    const v1, 0x7f0a0654
 
     const/16 v2, 0x9
 
@@ -260,7 +260,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x20b
+    const/16 v0, 0x20f
 
     if-ne p2, v0, :cond_1
 
@@ -292,7 +292,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3a0
+    const/16 v0, 0x3a9
 
     if-ne p2, v0, :cond_2
 
@@ -324,7 +324,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x353
+    const/16 v0, 0x35c
 
     if-ne p2, v0, :cond_3
 
@@ -356,7 +356,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0xf7
+    const/16 v0, 0xfb
 
     if-ne p2, v0, :cond_4
 
@@ -428,7 +428,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -906,7 +906,7 @@
 
     move-result-object v0
 
-    const v10, 0x7f101439
+    const v10, 0x7f10144a
 
     invoke-virtual {v0, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1144,7 +1144,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 93
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->notifyPropertyChanged(I)V
@@ -1169,7 +1169,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

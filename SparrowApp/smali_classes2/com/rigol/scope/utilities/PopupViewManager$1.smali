@@ -28,7 +28,7 @@
 .method static constructor <clinit>()V
     .locals 25
 
-    .line 1252
+    .line 1256
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->values()[Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object v0
@@ -244,7 +244,7 @@
     :try_end_c
     .catch Ljava/lang/NoSuchFieldError; {:try_start_c .. :try_end_c} :catch_c
 
-    .line 1205
+    .line 1209
     :catch_c
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -547,7 +547,7 @@
     :try_end_20
     .catch Ljava/lang/NoSuchFieldError; {:try_start_20 .. :try_end_20} :catch_20
 
-    .line 1154
+    .line 1158
     :catch_20
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->values()[Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -918,7 +918,7 @@
     :try_end_39
     .catch Ljava/lang/NoSuchFieldError; {:try_start_39 .. :try_end_39} :catch_39
 
-    .line 524
+    .line 528
     :catch_39
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Function;->values()[Lcom/rigol/scope/cil/ServiceEnum$Function;
 

@@ -101,7 +101,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b30
 
     .line 2848
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->setId(I)V
@@ -146,14 +146,14 @@
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 2859
-    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterSpectrumWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterSpectrumWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast p2, Landroid/view/View;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 2860
-    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterSpectrumWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterSpectrumWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;
 
     check-cast p2, Landroid/view/View;
 
@@ -489,7 +489,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f030245
+    const v3, 0x7f030246
 
     .line 2912
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_SPECTRUM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;

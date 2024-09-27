@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/BodeParam;)V
     .locals 0
 
-    .line 8609
+    .line 8761
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$806;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$806;->val$bodeParam:Lcom/rigol/scope/data/BodeParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8612
+    .line 8764
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$806;->val$bodeParam:Lcom/rigol/scope/data/BodeParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp2()J
+    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->readBodeAmpout()J
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8609
+    .line 8761
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$806;->onChanged(Ljava/lang/Boolean;)V

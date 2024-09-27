@@ -11,7 +11,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008!\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR&\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR&\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0007\"\u0004\u0008\u0012\u0010\tR&\u0010\u0013\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0014\u0010\u0007\"\u0004\u0008\u0015\u0010\tR&\u0010\u0016\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0017\u0010\u0007\"\u0004\u0008\u0018\u0010\tR&\u0010\u0019\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001a\u0010\u0007\"\u0004\u0008\u001b\u0010\tR&\u0010\u001c\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0007\"\u0004\u0008\u001e\u0010\tR&\u0010\u001f\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0007\"\u0004\u0008!\u0010\tR&\u0010\"\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010\u0007\"\u0004\u0008$\u0010\tR&\u0010%\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\r\"\u0004\u0008\'\u0010\u000fR&\u0010(\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008)\u0010\r\"\u0004\u0008*\u0010\u000f\u00a8\u0006+"
+        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008$\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR&\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR&\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0007\"\u0004\u0008\u0012\u0010\tR&\u0010\u0013\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0014\u0010\u0007\"\u0004\u0008\u0015\u0010\tR&\u0010\u0016\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0017\u0010\u0007\"\u0004\u0008\u0018\u0010\tR&\u0010\u0019\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001a\u0010\u0007\"\u0004\u0008\u001b\u0010\tR&\u0010\u001c\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0007\"\u0004\u0008\u001e\u0010\tR&\u0010\u001f\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0007\"\u0004\u0008!\u0010\tR&\u0010\"\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010\u0007\"\u0004\u0008$\u0010\tR&\u0010%\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\u0007\"\u0004\u0008\'\u0010\tR&\u0010(\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008)\u0010\r\"\u0004\u0008*\u0010\u000fR&\u0010+\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008,\u0010\r\"\u0004\u0008-\u0010\u000f\u00a8\u0006."
     }
     d2 = {
         "Lcom/rigol/scope/data/SharedParam;",
@@ -45,6 +45,9 @@
         "showResultBar",
         "getShowResultBar",
         "setShowResultBar",
+        "showSmb",
+        "getShowSmb",
+        "setShowSmb",
         "showUsb",
         "getShowUsb",
         "setShowUsb",
@@ -82,6 +85,8 @@
 .field private showRMT:Z
 
 .field private showResultBar:Z
+
+.field private showSmb:Z
 
 .field private showUsb:Z
 
@@ -138,7 +143,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 147
+    .line 159
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->launcheNum:Z
 
     return v0
@@ -149,7 +154,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 128
+    .line 140
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->probeRequestCal:Z
 
     return v0
@@ -160,7 +165,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 103
+    .line 115
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showNetwork:Z
 
     return v0
@@ -171,7 +176,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 115
+    .line 127
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showRMT:Z
 
     return v0
@@ -184,6 +189,17 @@
 
     .line 67
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showResultBar:Z
+
+    return v0
+.end method
+
+.method public final getShowSmb()Z
+    .locals 1
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 103
+    iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showSmb:Z
 
     return v0
 .end method
@@ -204,7 +220,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 137
+    .line 149
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->viewonDrag:Z
 
     return v0
@@ -253,7 +269,7 @@
     .line 83
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->closedResultBar:Z
 
-    const/16 p1, 0xb1
+    const/16 p1, 0xb3
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -282,7 +298,7 @@
     .line 35
     iput p1, p0, Lcom/rigol/scope/data/SharedParam;->currentResultItem:I
 
-    const/16 p1, 0xc2
+    const/16 p1, 0xc5
 
     .line 36
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -293,7 +309,7 @@
 .method public final setLauncheNum(Z)V
     .locals 3
 
-    .line 150
+    .line 162
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->launcheNum:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -308,12 +324,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SharedParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 151
+    .line 163
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->launcheNum:Z
 
-    const/16 p1, 0x1dc
+    const/16 p1, 0x1e0
 
-    .line 152
+    .line 164
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -322,7 +338,7 @@
 .method public final setProbeRequestCal(Z)V
     .locals 3
 
-    .line 131
+    .line 143
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->probeRequestCal:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -337,12 +353,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SharedParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 132
+    .line 144
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->probeRequestCal:Z
 
-    const/16 p1, 0x295
+    const/16 p1, 0x29a
 
-    .line 133
+    .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -351,7 +367,7 @@
 .method public final setShowNetwork(Z)V
     .locals 3
 
-    .line 106
+    .line 118
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showNetwork:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -366,12 +382,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SharedParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 107
+    .line 119
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showNetwork:Z
 
-    const/16 p1, 0x335
+    const/16 p1, 0x33c
 
-    .line 108
+    .line 120
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -380,7 +396,7 @@
 .method public final setShowRMT(Z)V
     .locals 3
 
-    .line 118
+    .line 130
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showRMT:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -395,12 +411,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SharedParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 119
+    .line 131
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showRMT:Z
 
-    const/16 p1, 0x337
+    const/16 p1, 0x33e
 
-    .line 120
+    .line 132
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -427,9 +443,38 @@
     .line 71
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showResultBar:Z
 
-    const/16 p1, 0x338
+    const/16 p1, 0x33f
 
     .line 72
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
+
+    return-void
+.end method
+
+.method public final setShowSmb(Z)V
+    .locals 3
+
+    .line 106
+    iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->showSmb:Z
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    const-string v2, "showSmb"
+
+    invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SharedParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 107
+    iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showSmb:Z
+
+    const/16 p1, 0x341
+
+    .line 108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -456,7 +501,7 @@
     .line 95
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showUsb:Z
 
-    const/16 p1, 0x341
+    const/16 p1, 0x349
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -467,7 +512,7 @@
 .method public final setViewonDrag(Z)V
     .locals 3
 
-    .line 140
+    .line 152
     iget-boolean v0, p0, Lcom/rigol/scope/data/SharedParam;->viewonDrag:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -482,12 +527,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/SharedParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 141
+    .line 153
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->viewonDrag:Z
 
-    const/16 p1, 0x3fd
+    const/16 p1, 0x407
 
-    .line 142
+    .line 154
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -514,7 +559,7 @@
     .line 47
     iput p1, p0, Lcom/rigol/scope/data/SharedParam;->windowCount:I
 
-    const/16 p1, 0x428
+    const/16 p1, 0x432
 
     .line 48
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -543,7 +588,7 @@
     .line 59
     iput p1, p0, Lcom/rigol/scope/data/SharedParam;->xyWindowCount:I
 
-    const/16 p1, 0x431
+    const/16 p1, 0x43b
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V

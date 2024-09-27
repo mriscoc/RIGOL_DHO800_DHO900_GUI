@@ -55,7 +55,7 @@
         }
     .end annotation
 
-    .line 1143
+    .line 1154
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindHistogram$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-direct {p0}, Landroidx/databinding/Observable$OnPropertyChangedCallback;-><init>()V
@@ -68,23 +68,23 @@
 .method public onPropertyChanged(Landroidx/databinding/Observable;I)V
     .locals 5
 
-    const/16 p1, 0x3a1
+    const/16 p1, 0x3aa
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x76
+    const/16 p1, 0x78
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x1dd
+    const/16 p1, 0x1e1
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x2dd
+    const/16 p1, 0x2e2
 
     if-ne p2, p1, :cond_5
 
-    .line 1149
+    .line 1160
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindHistogram$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -115,7 +115,7 @@
     :cond_1
     move-object v0, v1
 
-    .line 1150
+    .line 1161
     :goto_0
     iget-object v2, p0, Lcom/rigol/scope/views/window/WindowContent$bindHistogram$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -177,16 +177,16 @@
 
     move-result-object v1
 
-    .line 1149
+    .line 1160
     :cond_4
     invoke-virtual {p1, v0, v2, v3, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectPosition(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
 
     :cond_5
-    const/16 p1, 0x10a
+    const/16 p1, 0x10e
 
     if-ne p2, p1, :cond_7
 
-    .line 1157
+    .line 1168
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindHistogram$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$getHistogramRect$p(Lcom/rigol/scope/views/window/WindowContent;)Lcom/rigol/scope/views/histogram/HistogramRectView;

@@ -228,7 +228,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/MiniScreenFunctionAdapter;->context:Landroid/content/Context;
 
-    const v3, 0x7f0805eb
+    const v3, 0x7f0805ed
 
     invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -309,7 +309,7 @@
 
     invoke-virtual {v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    const v4, 0x7f0a088a
+    const v4, 0x7f0a08a5
 
     const/4 v6, 0x3
 

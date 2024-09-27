@@ -680,7 +680,7 @@
 
     check-cast v1, Lcom/rigol/scope/views/LoadingPopupView;
 
-    const v2, 0x7f1011b3
+    const v2, 0x7f1011c3
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
 
@@ -1002,7 +1002,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    const p1, 0x7f1011b3
+    const p1, 0x7f1011c3
 
     .line 786
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
@@ -1200,7 +1200,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011ad
+    const p2, 0x7f1011bd
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1288,7 +1288,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101186
+    const p2, 0x7f101190    # 1.9150002E38f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1344,7 +1344,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101185
+    const p2, 0x7f10118f    # 1.915E38f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1355,7 +1355,7 @@
     return-void
 
     :cond_0
-    const p2, 0x7f0a0214
+    const p2, 0x7f0a0218
 
     if-ne p1, p2, :cond_1
 
@@ -1382,7 +1382,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011ad
+    const p2, 0x7f1011bd
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1463,7 +1463,7 @@
     goto/16 :goto_a
 
     :cond_1
-    const v1, 0x7f0a07de
+    const v1, 0x7f0a07ee
 
     if-ne v0, v1, :cond_2
 
@@ -1487,18 +1487,18 @@
     goto/16 :goto_a
 
     :cond_2
-    const v1, 0x7f0a07df
+    const v1, 0x7f0a07ef
 
     if-eq v0, v1, :cond_1d
 
-    const v1, 0x7f0a01a7
+    const v1, 0x7f0a01aa
 
     if-ne v0, v1, :cond_3
 
     goto/16 :goto_9
 
     :cond_3
-    const v1, 0x7f0a020d
+    const v1, 0x7f0a0211
 
     const/4 v2, 0x1
 
@@ -1526,7 +1526,7 @@
     goto/16 :goto_a
 
     :cond_4
-    const v1, 0x7f0a0228
+    const v1, 0x7f0a022c
 
     if-ne v0, v1, :cond_5
 
@@ -1550,7 +1550,7 @@
     goto/16 :goto_a
 
     :cond_5
-    const v1, 0x7f0a0362
+    const v1, 0x7f0a0366
 
     if-ne v0, v1, :cond_7
 
@@ -1599,7 +1599,7 @@
     goto/16 :goto_a
 
     :cond_7
-    const v1, 0x7f0a0792
+    const v1, 0x7f0a079f
 
     if-ne v0, v1, :cond_f
 
@@ -1842,18 +1842,18 @@
     goto/16 :goto_a
 
     :cond_f
-    const v1, 0x7f0a0214
+    const v1, 0x7f0a0218
 
     if-eq v0, v1, :cond_1c
 
-    const v1, 0x7f0a0215
+    const v1, 0x7f0a0219
 
     if-ne v0, v1, :cond_10
 
     goto/16 :goto_8
 
     :cond_10
-    const v1, 0x7f0a06ce
+    const v1, 0x7f0a06db
 
     if-ne v0, v1, :cond_11
 
@@ -1863,7 +1863,7 @@
     goto/16 :goto_a
 
     :cond_11
-    const v1, 0x7f0a06a5
+    const v1, 0x7f0a06b0
 
     if-ne v0, v1, :cond_15
 
@@ -1963,7 +1963,7 @@
     goto/16 :goto_a
 
     :cond_15
-    const v1, 0x7f0a01ed
+    const v1, 0x7f0a01f0
 
     if-ne v0, v1, :cond_16
 
@@ -2027,11 +2027,11 @@
     goto/16 :goto_a
 
     :cond_16
-    const v1, 0x7f0a0379
+    const v1, 0x7f0a037e
 
     if-eq v0, v1, :cond_17
 
-    const v1, 0x7f0a0219
+    const v1, 0x7f0a021d
 
     if-ne v0, v1, :cond_1e
 

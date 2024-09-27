@@ -13,8 +13,6 @@
 
 
 # instance fields
-.field private final mCallback57:Landroid/view/View$OnClickListener;
-
 .field private final mCallback58:Landroid/view/View$OnClickListener;
 
 .field private final mCallback59:Landroid/view/View$OnClickListener;
@@ -30,6 +28,8 @@
 .field private final mCallback64:Landroid/view/View$OnClickListener;
 
 .field private final mCallback65:Landroid/view/View$OnClickListener;
+
+.field private final mCallback66:Landroid/view/View$OnClickListener;
 
 .field private mDirtyFlags:J
 
@@ -49,7 +49,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0x17
 
@@ -59,7 +59,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/16 v2, 0x18
 
@@ -68,7 +68,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/16 v2, 0x19
 
@@ -77,7 +77,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0640
+    const v1, 0x7f0a064b
 
     const/16 v2, 0x1a
 
@@ -86,7 +86,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0647
+    const v1, 0x7f0a0652
 
     const/16 v2, 0x1b
 
@@ -95,7 +95,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0362
+    const v1, 0x7f0a0366
 
     const/16 v2, 0x1c
 
@@ -104,7 +104,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0364
+    const v1, 0x7f0a0368
 
     const/16 v2, 0x1d
 
@@ -474,7 +474,7 @@
     .line 112
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x9
+    const/16 v1, 0x8
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -483,7 +483,7 @@
     .line 113
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x8
+    const/4 v1, 0x7
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -492,43 +492,43 @@
     .line 114
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x3
+    const/16 v1, 0x9
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback66:Landroid/view/View$OnClickListener;
+
+    .line 115
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/4 v1, 0x2
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
     iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback59:Landroid/view/View$OnClickListener;
 
-    .line 115
+    .line 116
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/4 v1, 0x5
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback62:Landroid/view/View$OnClickListener;
+
+    .line 117
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
     const/4 v1, 0x6
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback62:Landroid/view/View$OnClickListener;
-
-    .line 116
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/4 v1, 0x7
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
     iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback63:Landroid/view/View$OnClickListener;
-
-    .line 117
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/4 v1, 0x1
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback57:Landroid/view/View$OnClickListener;
 
     .line 118
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x4
+    const/4 v1, 0x3
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -537,7 +537,7 @@
     .line 119
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x2
+    const/4 v1, 0x1
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -546,7 +546,7 @@
     .line 120
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x5
+    const/4 v1, 0x4
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -593,7 +593,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xc9
+    const/16 v0, 0xcc
 
     if-ne p2, v0, :cond_1
 
@@ -625,7 +625,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x353
+    const/16 v0, 0x35c
 
     if-ne p2, v0, :cond_2
 
@@ -657,7 +657,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x38c
+    const/16 v0, 0x395
 
     if-ne p2, v0, :cond_3
 
@@ -689,7 +689,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x357
+    const/16 v0, 0x360
 
     if-ne p2, v0, :cond_4
 
@@ -721,7 +721,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x3fc
+    const/16 v0, 0x406
 
     if-ne p2, v0, :cond_5
 
@@ -753,7 +753,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x75
+    const/16 v0, 0x77
 
     if-ne p2, v0, :cond_6
 
@@ -785,7 +785,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x41
+    const/16 v0, 0x43
 
     if-ne p2, v0, :cond_7
 
@@ -817,7 +817,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x43
+    const/16 v0, 0x45
 
     if-ne p2, v0, :cond_8
 
@@ -849,7 +849,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x7f
+    const/16 v0, 0x81
 
     if-ne p2, v0, :cond_9
 
@@ -881,7 +881,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x81
+    const/16 v0, 0x83
 
     if-ne p2, v0, :cond_a
 
@@ -913,7 +913,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x3d0
+    const/16 v0, 0x3d9
 
     if-ne p2, v0, :cond_b
 
@@ -985,7 +985,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1057,7 +1057,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x431
+    const/16 v0, 0x43b
 
     if-ne p2, v0, :cond_1
 
@@ -1129,7 +1129,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1201,7 +1201,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1273,7 +1273,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1345,7 +1345,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1417,7 +1417,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1489,7 +1489,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1561,7 +1561,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1633,7 +1633,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1705,7 +1705,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1755,7 +1755,7 @@
 
     goto/16 :goto_9
 
-    .line 1147
+    .line 1183
     :pswitch_0
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1769,12 +1769,12 @@
     :goto_0
     if-eqz v0, :cond_9
 
-    .line 1158
+    .line 1194
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_9
 
-    .line 1165
+    .line 1147
     :pswitch_1
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1788,12 +1788,12 @@
     :goto_1
     if-eqz v0, :cond_9
 
-    .line 1176
+    .line 1158
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_9
 
-    .line 1219
+    .line 1165
     :pswitch_2
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1807,12 +1807,12 @@
     :goto_2
     if-eqz v0, :cond_9
 
-    .line 1230
+    .line 1176
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_9
 
-    .line 1201
+    .line 1237
     :pswitch_3
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1826,12 +1826,12 @@
     :goto_3
     if-eqz v0, :cond_9
 
-    .line 1212
+    .line 1248
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_9
 
-    .line 1291
+    .line 1219
     :pswitch_4
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1845,12 +1845,12 @@
     :goto_4
     if-eqz v0, :cond_9
 
-    .line 1302
+    .line 1230
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_9
 
-    .line 1255
+    .line 1291
     :pswitch_5
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1864,12 +1864,12 @@
     :goto_5
     if-eqz v0, :cond_9
 
-    .line 1266
+    .line 1302
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_9
 
-    .line 1183
+    .line 1255
     :pswitch_6
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1883,12 +1883,12 @@
     :goto_6
     if-eqz v0, :cond_9
 
-    .line 1194
+    .line 1266
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_9
 
-    .line 1273
+    .line 1201
     :pswitch_7
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1902,12 +1902,12 @@
     :goto_7
     if-eqz v0, :cond_9
 
-    .line 1284
+    .line 1212
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_9
 
-    .line 1237
+    .line 1273
     :pswitch_8
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1921,7 +1921,7 @@
     :goto_8
     if-eqz v0, :cond_9
 
-    .line 1248
+    .line 1284
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     :cond_9
@@ -2282,7 +2282,7 @@
 
     move-result-object v14
 
-    const v4, 0x7f100d0c
+    const v4, 0x7f100d12
 
     invoke-virtual {v14, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2297,7 +2297,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f100d16
+    const v5, 0x7f100d1c
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2313,12 +2313,12 @@
 
     if-eqz v8, :cond_11
 
-    const v14, 0x7f100d0f
+    const v14, 0x7f100d15
 
     goto :goto_d
 
     :cond_11
-    const v14, 0x7f100d17
+    const v14, 0x7f100d1d
 
     :goto_d
     invoke-virtual {v5, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2336,7 +2336,7 @@
 
     move-wide/from16 v52, v2
 
-    const v2, 0x7f100d12
+    const v2, 0x7f100d18
 
     invoke-virtual {v14, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2353,7 +2353,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f100d1a
+    const v3, 0x7f100d20
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2369,12 +2369,12 @@
 
     if-eqz v8, :cond_13
 
-    const v14, 0x7f100cfe
+    const v14, 0x7f100d04
 
     goto :goto_f
 
     :cond_13
-    const v14, 0x7f100d15
+    const v14, 0x7f100d1b
 
     :goto_f
     invoke-virtual {v3, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -3561,7 +3561,7 @@
 
     move-wide/from16 v40, v2
 
-    const v2, 0x7f100d27
+    const v2, 0x7f100d2d
 
     invoke-virtual {v12, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3578,7 +3578,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f100d0e
+    const v3, 0x7f100d14
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3844,7 +3844,7 @@
 
     move-object/from16 v24, v13
 
-    const v13, 0x7f100d06
+    const v13, 0x7f100d0c
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3905,12 +3905,12 @@
 
     if-eqz v49, :cond_5a
 
-    const v13, 0x7f100d14
+    const v13, 0x7f100d1a
 
     goto :goto_44
 
     :cond_5a
-    const v13, 0x7f100d13
+    const v13, 0x7f100d19
 
     :goto_44
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -4040,49 +4040,49 @@
     .line 1027
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->aLocationEditText:Landroid/widget/EditText;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback62:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback63:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1028
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->aSrcSpinnermanual:Landroid/widget/TextView;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback57:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback58:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1029
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->aSrcSpinnertrack:Landroid/widget/TextView;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback59:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback60:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1030
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->aSrcSpinnerxy:Landroid/widget/TextView;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback60:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback61:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1031
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->bLocationEditText:Landroid/widget/EditText;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback63:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback64:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1032
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->bSrcSpinner:Landroid/widget/TextView;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback61:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback62:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1033
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->byLocationEditText:Landroid/widget/Button;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback65:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback66:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -4096,7 +4096,7 @@
     .line 1035
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->syncAreaSpinner:Landroid/widget/TextView;
 
-    iget-object v8, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback58:Landroid/view/View$OnClickListener;
+    iget-object v8, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback59:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -4108,7 +4108,7 @@
     .line 1037
     iget-object v5, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->unitSpinner:Landroid/widget/TextView;
 
-    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback64:Landroid/view/View$OnClickListener;
+    iget-object v6, v1, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->mCallback65:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -4712,7 +4712,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xca
+    const/16 p1, 0xcd
 
     .line 211
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->notifyPropertyChanged(I)V
@@ -4763,7 +4763,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x200
+    const/16 p1, 0x204
 
     .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->notifyPropertyChanged(I)V
@@ -4809,7 +4809,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 193
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->notifyPropertyChanged(I)V
@@ -4860,7 +4860,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x32f
+    const/16 p1, 0x335
 
     .line 202
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->notifyPropertyChanged(I)V
@@ -4911,7 +4911,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3a5
+    const/16 p1, 0x3ae
 
     .line 185
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->notifyPropertyChanged(I)V
@@ -4936,7 +4936,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x42f
+    const/16 v0, 0x439
 
     if-ne v0, p1, :cond_0
 
@@ -4948,7 +4948,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x3a5
+    const/16 v0, 0x3ae
 
     if-ne v0, p1, :cond_1
 
@@ -4960,7 +4960,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_2
 
@@ -4972,7 +4972,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x32f
+    const/16 v0, 0x335
 
     if-ne v0, p1, :cond_3
 
@@ -4984,7 +4984,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xca
+    const/16 v0, 0xcd
 
     if-ne v0, p1, :cond_4
 
@@ -4996,7 +4996,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x200
+    const/16 v0, 0x204
 
     if-ne v0, p1, :cond_5
 
@@ -5046,7 +5046,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x42f
+    const/16 p1, 0x439
 
     .line 176
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;->notifyPropertyChanged(I)V

@@ -18,7 +18,7 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1743
+    .line 1759
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;-><init>(I)V
 
     return-void
@@ -27,7 +27,7 @@
 .method static synthetic lambda$onBindViewHolder$0(Lcom/rigol/scope/data/MeasureResultParam;Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;Landroid/view/View;)V
     .locals 5
 
-    .line 1813
+    .line 1829
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getStat()I
 
     move-result p2
@@ -42,36 +42,36 @@
 
     const/4 p2, 0x0
 
-    .line 1815
+    .line 1831
     invoke-virtual {p0, p2}, Lcom/rigol/scope/data/MeasureResultParam;->setStats(I)V
 
-    .line 1816
+    .line 1832
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p2
 
-    .line 1817
+    .line 1833
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v1
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->value1:I
 
-    .line 1818
+    .line 1834
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v3
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 1819
+    .line 1835
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v4
 
     iget v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 1816
+    .line 1832
     invoke-static {v1, v3, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMeasureItem(III)I
 
     move-result v1
@@ -80,44 +80,44 @@
 
     goto :goto_0
 
-    .line 1824
+    .line 1840
     :cond_0
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MeasureResultParam;->setStats(I)V
 
-    .line 1825
+    .line 1841
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p2
 
-    .line 1826
+    .line 1842
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v1
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->value1:I
 
-    .line 1827
+    .line 1843
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v3
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 1828
+    .line 1844
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v4
 
     iget v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 1825
+    .line 1841
     invoke-static {v1, v3, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMeasureItem(III)I
 
     move-result v1
 
     invoke-virtual {p2, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 1833
+    .line 1849
     :goto_0
     iget-object p2, p1, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->arrow:Landroid/widget/ImageView;
 
@@ -133,14 +133,14 @@
 
     invoke-static {p2, p1, v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setTouchDelegateDelay(Landroid/view/View;Landroid/view/ViewGroup;II)V
 
-    .line 1836
+    .line 1852
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
 
     const/16 p2, 0x3337
 
-    .line 1838
+    .line 1854
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureResultParam;->getStat()I
 
     move-result v0
@@ -167,7 +167,7 @@
 
     move-result p0
 
-    .line 1836
+    .line 1852
     invoke-virtual {p1, v2, p2, p0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     return-void
@@ -178,7 +178,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 1739
+    .line 1755
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasureDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -199,7 +199,7 @@
         }
     .end annotation
 
-    .line 1749
+    .line 1765
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -212,7 +212,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 1739
+    .line 1755
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasureDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -235,17 +235,17 @@
         }
     .end annotation
 
-    .line 1756
+    .line 1772
     invoke-super {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
 
-    .line 1758
+    .line 1774
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p3
 
     check-cast p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;
 
-    .line 1762
+    .line 1778
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -256,7 +256,7 @@
 
     return-void
 
-    .line 1768
+    .line 1784
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -270,7 +270,7 @@
 
     if-eqz p2, :cond_3
 
-    .line 1771
+    .line 1787
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object p2
@@ -283,7 +283,7 @@
 
     if-lt p2, v0, :cond_1
 
-    .line 1772
+    .line 1788
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object p2
@@ -296,7 +296,7 @@
 
     if-gt p2, v0, :cond_1
 
-    .line 1774
+    .line 1790
     invoke-virtual {p3}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
 
     move-result-object p2
@@ -323,7 +323,7 @@
 
     goto :goto_0
 
-    .line 1778
+    .line 1794
     :cond_1
     invoke-virtual {p3}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
 
@@ -345,7 +345,7 @@
 
     move-result-object p2
 
-    .line 1780
+    .line 1796
     :goto_0
     invoke-virtual {p3}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
 
@@ -357,7 +357,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1782
+    .line 1798
     new-instance v0, Landroid/graphics/Paint;
 
     iget-object v1, p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->title:Landroid/widget/TextView;
@@ -368,12 +368,12 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(Landroid/graphics/Paint;)V
 
-    .line 1783
+    .line 1799
     invoke-virtual {p2}, Landroid/text/SpannableString;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 1784
+    .line 1800
     invoke-virtual {p3}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
 
     move-result-object v2
@@ -396,15 +396,15 @@
 
     const/high16 v4, 0x41800000    # 16.0f
 
-    .line 1783
+    .line 1799
     invoke-static {v0, v1, v2, v3, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getFitableTextSize(Landroid/graphics/Paint;Ljava/lang/String;IFF)F
 
-    .line 1790
+    .line 1806
     invoke-virtual {p2}, Landroid/text/SpannableString;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 1791
+    .line 1807
     invoke-virtual {p3}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
 
     move-result-object v2
@@ -417,20 +417,20 @@
 
     const/high16 v4, 0x41700000    # 15.0f
 
-    .line 1790
+    .line 1806
     invoke-static {v0, v1, v2, v3, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getFitableTextSize(Landroid/graphics/Paint;Ljava/lang/String;IFF)F
 
-    .line 1797
+    .line 1813
     :cond_2
     iget-object v0, p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->title:Landroid/widget/TextView;
 
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 1799
+    .line 1815
     :cond_3
     invoke-virtual {p3, p1}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->setParam(Lcom/rigol/scope/data/MeasureResultParam;)V
 
-    .line 1803
+    .line 1819
     iget-object p2, p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     invoke-virtual {p2}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -441,17 +441,17 @@
 
     if-eqz p2, :cond_4
 
-    .line 1806
+    .line 1822
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureResultParam;->getData()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->setItems(Ljava/util/List;)V
 
-    .line 1807
+    .line 1823
     invoke-virtual {p2}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->notifyDataSetChanged()V
 
-    .line 1811
+    .line 1827
     :cond_4
     iget-object p2, p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->arrow:Landroid/widget/ImageView;
 
@@ -478,7 +478,7 @@
         }
     .end annotation
 
-    .line 1846
+    .line 1862
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -487,21 +487,21 @@
 
     move-result-object v0
 
-    .line 1847
+    .line 1863
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasureDelegate;->getLayoutId()I
 
     move-result v1
 
     const/4 v2, 0x0
 
-    .line 1846
+    .line 1862
     invoke-static {v0, v1, p1, v2}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;
 
-    .line 1848
+    .line 1864
     iget-object v0, p1, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->arrow:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->getRoot()Landroid/view/View;
@@ -514,14 +514,14 @@
 
     invoke-static {v0, v1, v2}, Lcom/rigol/scope/utilities/ViewUtil;->setTouchDelegate(Landroid/view/View;Landroid/view/ViewGroup;I)V
 
-    .line 1850
+    .line 1866
     iget-object v0, p1, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->setVisibility(I)V
 
-    .line 1851
+    .line 1867
     new-instance v0, Lcom/rigol/scope/adapters/ResultListAdapter$MeasureVH;
 
     invoke-direct {v0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasureVH;-><init>(Lcom/rigol/scope/databinding/AdapterItemResultMeasureBinding;)V

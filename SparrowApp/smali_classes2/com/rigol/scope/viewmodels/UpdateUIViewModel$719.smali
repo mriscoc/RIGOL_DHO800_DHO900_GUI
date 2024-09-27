@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/views/histogram/HistogramResultParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/XYParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/views/histogram/HistogramResultParam;
+.field final synthetic val$param:Lcom/rigol/scope/data/XYParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/views/histogram/HistogramResultParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/XYParam;)V
     .locals 0
 
-    .line 7924
+    .line 8060
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$719;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$719;->val$param:Lcom/rigol/scope/views/histogram/HistogramResultParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$719;->val$param:Lcom/rigol/scope/data/XYParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 7927
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$719;->val$param:Lcom/rigol/scope/views/histogram/HistogramResultParam;
+    .line 8063
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$719;->val$param:Lcom/rigol/scope/data/XYParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readRightPosition()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/XYParam;->getGrids()Lcom/rigol/scope/data/BaseProperty;
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7924
+    .line 8060
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$719;->onChanged(Ljava/lang/Boolean;)V

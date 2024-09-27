@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2118
+    .line 2119
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const-string v1, "Trigger_pat_h"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->Trigger_pat_h:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 2119
+    .line 2120
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const-string v9, "Trigger_pat_l"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->Trigger_pat_l:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 2120
+    .line 2121
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const-string v2, "Trigger_pat_x"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->Trigger_pat_x:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 2121
+    .line 2122
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const-string v9, "Trigger_pat_rise"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->Trigger_pat_rise:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 2122
+    .line 2123
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const-string v2, "Trigger_pat_fall"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 2116
+    .line 2117
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->Trigger_pat_h:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 2125
+    .line 2126
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2126
+    .line 2127
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->value1:I
 
-    .line 2127
+    .line 2128
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->value2:Ljava/lang/String;
 
-    .line 2128
+    .line 2129
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->pic1:Ljava/lang/String;
 
-    .line 2129
+    .line 2130
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
     .locals 1
 
-    .line 2116
+    .line 2117
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
     .locals 1
 
-    .line 2116
+    .line 2117
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->clone()Ljava/lang/Object;

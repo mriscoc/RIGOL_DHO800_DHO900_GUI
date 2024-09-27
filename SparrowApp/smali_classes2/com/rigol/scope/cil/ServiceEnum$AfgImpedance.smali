@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 10109
+    .line 10113
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
     const-string v1, "IMP_OMEG"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->IMP_OMEG:Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
-    .line 10111
+    .line 10115
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
     const-string v9, "IMP_FIFTY"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
-    .line 10106
+    .line 10110
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->IMP_OMEG:Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 10114
+    .line 10118
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 10115
+    .line 10119
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->value1:I
 
-    .line 10116
+    .line 10120
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->value2:Ljava/lang/String;
 
-    .line 10117
+    .line 10121
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->pic1:Ljava/lang/String;
 
-    .line 10118
+    .line 10122
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
     .locals 1
 
-    .line 10106
+    .line 10110
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
     .locals 1
 
-    .line 10106
+    .line 10110
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AfgImpedance;->clone()Ljava/lang/Object;

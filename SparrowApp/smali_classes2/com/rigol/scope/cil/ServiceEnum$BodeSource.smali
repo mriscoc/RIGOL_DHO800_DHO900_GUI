@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 10008
+    .line 10012
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     const-string v1, "SOURCE1"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->SOURCE1:Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
-    .line 10009
+    .line 10013
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     const-string v9, "SOURCE2"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->SOURCE2:Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
-    .line 10010
+    .line 10014
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     const-string v2, "EXTSOURCE"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
-    .line 10006
+    .line 10010
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->SOURCE1:Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 10013
+    .line 10017
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 10014
+    .line 10018
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->value1:I
 
-    .line 10015
+    .line 10019
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->value2:Ljava/lang/String;
 
-    .line 10016
+    .line 10020
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->pic1:Ljava/lang/String;
 
-    .line 10017
+    .line 10021
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
     .locals 1
 
-    .line 10006
+    .line 10010
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
     .locals 1
 
-    .line 10006
+    .line 10010
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BodeSource;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BodeSource;->clone()Ljava/lang/Object;

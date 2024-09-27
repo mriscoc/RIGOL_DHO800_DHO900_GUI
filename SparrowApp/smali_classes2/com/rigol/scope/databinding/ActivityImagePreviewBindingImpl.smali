@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/ActivityImagePreviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a050b
+    const v1, 0x7f0a0513
 
     const/4 v2, 0x1
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/ActivityImagePreviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01f5
+    const v1, 0x7f0a01f8
 
     const/4 v2, 0x2
 

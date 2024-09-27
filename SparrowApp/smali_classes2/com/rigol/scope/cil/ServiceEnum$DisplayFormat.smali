@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3663
+    .line 3664
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     const-string v1, "F_HEX"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->F_HEX:Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
-    .line 3664
+    .line 3665
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     const-string v9, "F_DEC"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->F_DEC:Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
-    .line 3665
+    .line 3666
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     const-string v2, "F_BIN"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->F_BIN:Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
-    .line 3666
+    .line 3667
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     const-string v9, "F_ASC"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->F_ASC:Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
-    .line 3667
+    .line 3668
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     const-string v2, "F_LINE"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
-    .line 3661
+    .line 3662
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->F_HEX:Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 3670
+    .line 3671
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3671
+    .line 3672
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->value1:I
 
-    .line 3672
+    .line 3673
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->value2:Ljava/lang/String;
 
-    .line 3673
+    .line 3674
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->pic1:Ljava/lang/String;
 
-    .line 3674
+    .line 3675
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
     .locals 1
 
-    .line 3661
+    .line 3662
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
     .locals 1
 
-    .line 3661
+    .line 3662
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DisplayFormat;->clone()Ljava/lang/Object;

@@ -1252,345 +1252,353 @@
 
 .field public static final lessthan:I = 0x7f080595
 
-.field public static final lock:I = 0x7f080596
+.field public static final loading:I = 0x7f080596
 
-.field public static final logo:I = 0x7f080597
+.field public static final lock:I = 0x7f080597
 
-.field public static final logo2:I = 0x7f080598
+.field public static final logo:I = 0x7f080598
 
-.field public static final logo_r:I = 0x7f080599
+.field public static final logo2:I = 0x7f080599
 
-.field public static final lxi:I = 0x7f08059a
+.field public static final logo_r:I = 0x7f08059a
 
-.field public static final material_ic_calendar_black_24dp:I = 0x7f08059b
+.field public static final lxi:I = 0x7f08059b
 
-.field public static final material_ic_clear_black_24dp:I = 0x7f08059c
+.field public static final material_ic_calendar_black_24dp:I = 0x7f08059c
 
-.field public static final material_ic_edit_black_24dp:I = 0x7f08059d
+.field public static final material_ic_clear_black_24dp:I = 0x7f08059d
 
-.field public static final material_ic_keyboard_arrow_left_black_24dp:I = 0x7f08059e
+.field public static final material_ic_edit_black_24dp:I = 0x7f08059e
 
-.field public static final material_ic_keyboard_arrow_right_black_24dp:I = 0x7f08059f
+.field public static final material_ic_keyboard_arrow_left_black_24dp:I = 0x7f08059f
 
-.field public static final material_ic_menu_arrow_down_black_24dp:I = 0x7f0805a0
+.field public static final material_ic_keyboard_arrow_right_black_24dp:I = 0x7f0805a0
 
-.field public static final material_ic_menu_arrow_up_black_24dp:I = 0x7f0805a1
+.field public static final material_ic_menu_arrow_down_black_24dp:I = 0x7f0805a1
 
-.field public static final modulate_noise_wave:I = 0x7f0805a2
+.field public static final material_ic_menu_arrow_up_black_24dp:I = 0x7f0805a2
 
-.field public static final modulate_sawtooth__wave:I = 0x7f0805a3
+.field public static final modulate_noise_wave:I = 0x7f0805a3
 
-.field public static final modulate_sine_wave:I = 0x7f0805a4
+.field public static final modulate_sawtooth__wave:I = 0x7f0805a4
 
-.field public static final modulate_square3_wave:I = 0x7f0805a5
+.field public static final modulate_sine_wave:I = 0x7f0805a5
 
-.field public static final modulate_square_2wave:I = 0x7f0805a6
+.field public static final modulate_square3_wave:I = 0x7f0805a6
 
-.field public static final modulate_square_wave:I = 0x7f0805a7
+.field public static final modulate_square_2wave:I = 0x7f0805a7
 
-.field public static final modulate_triangular1_wave:I = 0x7f0805a8
+.field public static final modulate_square_wave:I = 0x7f0805a8
 
-.field public static final modulate_triangular2_wave:I = 0x7f0805a9
+.field public static final modulate_triangular1_wave:I = 0x7f0805a9
 
-.field public static final modulate_triangular_wave:I = 0x7f0805aa
+.field public static final modulate_triangular2_wave:I = 0x7f0805aa
 
-.field public static final moreless:I = 0x7f0805ab
+.field public static final modulate_triangular_wave:I = 0x7f0805ab
 
-.field public static final morethan:I = 0x7f0805ac
+.field public static final moreless:I = 0x7f0805ac
 
-.field public static final mtrl_dialog_background:I = 0x7f0805ad
+.field public static final morethan:I = 0x7f0805ad
 
-.field public static final mtrl_dropdown_arrow:I = 0x7f0805ae
+.field public static final mtrl_dialog_background:I = 0x7f0805ae
 
-.field public static final mtrl_ic_arrow_drop_down:I = 0x7f0805af
+.field public static final mtrl_dropdown_arrow:I = 0x7f0805af
 
-.field public static final mtrl_ic_arrow_drop_up:I = 0x7f0805b0
+.field public static final mtrl_ic_arrow_drop_down:I = 0x7f0805b0
 
-.field public static final mtrl_ic_cancel:I = 0x7f0805b1
+.field public static final mtrl_ic_arrow_drop_up:I = 0x7f0805b1
 
-.field public static final mtrl_ic_error:I = 0x7f0805b2
+.field public static final mtrl_ic_cancel:I = 0x7f0805b2
 
-.field public static final mtrl_popupmenu_background:I = 0x7f0805b3
+.field public static final mtrl_ic_error:I = 0x7f0805b3
 
-.field public static final mtrl_popupmenu_background_dark:I = 0x7f0805b4
+.field public static final mtrl_popupmenu_background:I = 0x7f0805b4
 
-.field public static final mtrl_tabs_default_indicator:I = 0x7f0805b5
+.field public static final mtrl_popupmenu_background_dark:I = 0x7f0805b5
 
-.field public static final navigation_empty_icon:I = 0x7f0805b6
+.field public static final mtrl_tabs_default_indicator:I = 0x7f0805b6
 
-.field public static final normal:I = 0x7f0805b7
+.field public static final navigation_empty_icon:I = 0x7f0805b7
 
-.field public static final notification_action_background:I = 0x7f0805b8
+.field public static final normal:I = 0x7f0805b8
 
-.field public static final notification_bg:I = 0x7f0805b9
+.field public static final notification_action_background:I = 0x7f0805b9
 
-.field public static final notification_bg_low:I = 0x7f0805ba
+.field public static final notification_bg:I = 0x7f0805ba
 
-.field public static final notification_bg_low_normal:I = 0x7f0805bb
+.field public static final notification_bg_low:I = 0x7f0805bb
 
-.field public static final notification_bg_low_pressed:I = 0x7f0805bc
+.field public static final notification_bg_low_normal:I = 0x7f0805bc
 
-.field public static final notification_bg_normal:I = 0x7f0805bd
+.field public static final notification_bg_low_pressed:I = 0x7f0805bd
 
-.field public static final notification_bg_normal_pressed:I = 0x7f0805be
+.field public static final notification_bg_normal:I = 0x7f0805be
 
-.field public static final notification_icon_background:I = 0x7f0805bf
+.field public static final notification_bg_normal_pressed:I = 0x7f0805bf
 
-.field public static final notification_template_icon_bg:I = 0x7f0805c0
+.field public static final notification_icon_background:I = 0x7f0805c0
 
-.field public static final notification_template_icon_low_bg:I = 0x7f0805c1
+.field public static final notification_template_icon_bg:I = 0x7f0805c1
 
-.field public static final notification_tile_bg:I = 0x7f0805c2
+.field public static final notification_template_icon_low_bg:I = 0x7f0805c2
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f0805c3
+.field public static final notification_tile_bg:I = 0x7f0805c3
 
-.field public static final num_back_normal:I = 0x7f0805c4
+.field public static final notify_panel_notification_icon_bg:I = 0x7f0805c4
 
-.field public static final num_back_pressed:I = 0x7f0805c5
+.field public static final num_back_normal:I = 0x7f0805c5
 
-.field public static final number_bg:I = 0x7f0805c6
+.field public static final num_back_pressed:I = 0x7f0805c6
 
-.field public static final peak:I = 0x7f0805c7
+.field public static final number_bg:I = 0x7f0805c7
 
-.field public static final pinch:I = 0x7f0805c8
+.field public static final peak:I = 0x7f0805c8
 
-.field public static final pinyinback:I = 0x7f0805c9
+.field public static final pinch:I = 0x7f0805c9
 
-.field public static final qrencord:I = 0x7f0805ca
+.field public static final pinyinback:I = 0x7f0805ca
 
-.field public static final radio_checked_shape:I = 0x7f0805cb
+.field public static final qrencord:I = 0x7f0805cb
 
-.field public static final radio_unchecked_shape:I = 0x7f0805cc
+.field public static final radio_checked_shape:I = 0x7f0805cc
 
-.field public static final record_beeper_off:I = 0x7f0805cd
+.field public static final radio_unchecked_shape:I = 0x7f0805cd
 
-.field public static final record_beeper_on:I = 0x7f0805ce
+.field public static final reboot:I = 0x7f0805ce
 
-.field public static final record_last:I = 0x7f0805cf
+.field public static final record_beeper_off:I = 0x7f0805cf
 
-.field public static final record_left_grey:I = 0x7f0805d0
+.field public static final record_beeper_on:I = 0x7f0805d0
 
-.field public static final record_next:I = 0x7f0805d1
+.field public static final record_last:I = 0x7f0805d1
 
-.field public static final record_no_start:I = 0x7f0805d2
+.field public static final record_left_grey:I = 0x7f0805d2
 
-.field public static final record_pause:I = 0x7f0805d3
+.field public static final record_next:I = 0x7f0805d3
 
-.field public static final record_pause1:I = 0x7f0805d4
+.field public static final record_no_start:I = 0x7f0805d4
 
-.field public static final record_play:I = 0x7f0805d5
+.field public static final record_pause:I = 0x7f0805d5
 
-.field public static final record_play1:I = 0x7f0805d6
+.field public static final record_pause1:I = 0x7f0805d6
 
-.field public static final record_play_end:I = 0x7f0805d7
+.field public static final record_play:I = 0x7f0805d7
 
-.field public static final record_play_grey:I = 0x7f0805d8
+.field public static final record_play1:I = 0x7f0805d8
 
-.field public static final record_play_loop:I = 0x7f0805d9
+.field public static final record_play_end:I = 0x7f0805d9
 
-.field public static final record_play_order:I = 0x7f0805da
+.field public static final record_play_grey:I = 0x7f0805da
 
-.field public static final record_play_reverse:I = 0x7f0805db
+.field public static final record_play_loop:I = 0x7f0805db
 
-.field public static final record_play_single:I = 0x7f0805dc
+.field public static final record_play_order:I = 0x7f0805dc
 
-.field public static final record_play_start:I = 0x7f0805dd
+.field public static final record_play_reverse:I = 0x7f0805dd
 
-.field public static final record_right_grey:I = 0x7f0805de
+.field public static final record_play_single:I = 0x7f0805de
 
-.field public static final record_start:I = 0x7f0805df
+.field public static final record_play_start:I = 0x7f0805df
 
-.field public static final red_dot_view:I = 0x7f0805e0
+.field public static final record_right_grey:I = 0x7f0805e0
 
-.field public static final rigol_scope_foreground:I = 0x7f0805e1
+.field public static final record_start:I = 0x7f0805e1
 
-.field public static final scr:I = 0x7f0805e2
+.field public static final red_dot_view:I = 0x7f0805e2
 
-.field public static final screen_btn_bg_setting_trig:I = 0x7f0805e3
+.field public static final rigol_scope_foreground:I = 0x7f0805e3
 
-.field public static final screen_btn_defaultbg_setting_trig:I = 0x7f0805e4
+.field public static final scr:I = 0x7f0805e4
 
-.field public static final sel_bg_window:I = 0x7f0805e5
+.field public static final screen_btn_bg_setting_trig:I = 0x7f0805e5
 
-.field public static final sel_edit_line:I = 0x7f0805e6
+.field public static final screen_btn_defaultbg_setting_trig:I = 0x7f0805e6
 
-.field public static final sel_keyboard_number:I = 0x7f0805e7
+.field public static final sel_bg_window:I = 0x7f0805e7
 
-.field public static final sel_keyboard_unit:I = 0x7f0805e8
+.field public static final sel_edit_line:I = 0x7f0805e8
 
-.field public static final sel_measure_content:I = 0x7f0805e9
+.field public static final sel_keyboard_number:I = 0x7f0805e9
 
-.field public static final sel_measure_title:I = 0x7f0805ea
+.field public static final sel_keyboard_unit:I = 0x7f0805ea
 
-.field public static final sel_panel_item:I = 0x7f0805eb
+.field public static final sel_measure_content:I = 0x7f0805eb
 
-.field public static final sel_panel_switch:I = 0x7f0805ec
+.field public static final sel_measure_title:I = 0x7f0805ec
 
-.field public static final sel_radio_shape:I = 0x7f0805ed
+.field public static final sel_panel_item:I = 0x7f0805ed
 
-.field public static final sel_rectangle_cyan_gray:I = 0x7f0805ee
+.field public static final sel_panel_switch:I = 0x7f0805ee
 
-.field public static final sel_rectangle_dark:I = 0x7f0805ef
+.field public static final sel_radio_shape:I = 0x7f0805ef
 
-.field public static final sel_rectangle_gray:I = 0x7f0805f0
+.field public static final sel_rectangle_cyan_gray:I = 0x7f0805f0
 
-.field public static final sel_rectangle_item:I = 0x7f0805f1
+.field public static final sel_rectangle_dark:I = 0x7f0805f1
 
-.field public static final sel_rectangle_item2:I = 0x7f0805f2
+.field public static final sel_rectangle_gray:I = 0x7f0805f2
 
-.field public static final sel_rectangle_lightgray:I = 0x7f0805f3
+.field public static final sel_rectangle_item:I = 0x7f0805f3
 
-.field public static final sel_selected:I = 0x7f0805f4
+.field public static final sel_rectangle_item2:I = 0x7f0805f4
 
-.field public static final select:I = 0x7f0805f5
+.field public static final sel_rectangle_lightgray:I = 0x7f0805f5
 
-.field public static final select_circle:I = 0x7f0805f6
+.field public static final sel_selected:I = 0x7f0805f6
 
-.field public static final select_left:I = 0x7f0805f7
+.field public static final select:I = 0x7f0805f7
 
-.field public static final select_right:I = 0x7f0805f8
+.field public static final select_circle:I = 0x7f0805f8
 
-.field public static final shape_io:I = 0x7f0805f9
+.field public static final select_left:I = 0x7f0805f9
 
-.field public static final shape_keyboard:I = 0x7f0805fa
+.field public static final select_right:I = 0x7f0805fa
 
-.field public static final shape_keyboard_unit_pressed:I = 0x7f0805fb
+.field public static final shape_io:I = 0x7f0805fb
 
-.field public static final shape_keyboard_unit_unpressed:I = 0x7f0805fc
+.field public static final shape_keyboard:I = 0x7f0805fc
 
-.field public static final space:I = 0x7f0805fd
+.field public static final shape_keyboard_unit_pressed:I = 0x7f0805fd
 
-.field public static final space_normal:I = 0x7f0805fe
+.field public static final shape_keyboard_unit_unpressed:I = 0x7f0805fe
 
-.field public static final space_pressed:I = 0x7f0805ff
+.field public static final shutdown:I = 0x7f0805ff
 
-.field public static final start_new:I = 0x7f080600
+.field public static final sleep:I = 0x7f080600
 
-.field public static final start_now:I = 0x7f080601
+.field public static final space:I = 0x7f080601
 
-.field public static final stretch:I = 0x7f080602
+.field public static final space_normal:I = 0x7f080602
 
-.field public static final test_custom_background:I = 0x7f080603
+.field public static final space_pressed:I = 0x7f080603
 
-.field public static final threshold_diagram:I = 0x7f080604
+.field public static final start_new:I = 0x7f080604
 
-.field public static final thumb_seek_bar:I = 0x7f080605
+.field public static final start_now:I = 0x7f080605
 
-.field public static final tooltip_frame_dark:I = 0x7f080606
+.field public static final stretch:I = 0x7f080606
 
-.field public static final tooltip_frame_light:I = 0x7f080607
+.field public static final test_custom_background:I = 0x7f080607
 
-.field public static final trigger_delay_falling:I = 0x7f080608
+.field public static final threshold_diagram:I = 0x7f080608
 
-.field public static final trigger_delay_falling_rising:I = 0x7f080609
+.field public static final thumb_seek_bar:I = 0x7f080609
 
-.field public static final trigger_delay_rising:I = 0x7f08060a
+.field public static final tooltip_frame_dark:I = 0x7f08060a
 
-.field public static final trigger_delay_rising_falling:I = 0x7f08060b
+.field public static final tooltip_frame_light:I = 0x7f08060b
 
-.field public static final trigger_duration:I = 0x7f08060c
+.field public static final trigger_delay_falling:I = 0x7f08060c
 
-.field public static final trigger_edge_either:I = 0x7f08060d
+.field public static final trigger_delay_falling_rising:I = 0x7f08060d
 
-.field public static final trigger_edge_falling:I = 0x7f08060e
+.field public static final trigger_delay_rising:I = 0x7f08060e
 
-.field public static final trigger_edge_rising:I = 0x7f08060f
+.field public static final trigger_delay_rising_falling:I = 0x7f08060f
 
-.field public static final trigger_nth_falling:I = 0x7f080610
+.field public static final trigger_duration:I = 0x7f080610
 
-.field public static final trigger_nth_rising:I = 0x7f080611
+.field public static final trigger_edge_either:I = 0x7f080611
 
-.field public static final trigger_over_either:I = 0x7f080612
+.field public static final trigger_edge_falling:I = 0x7f080612
 
-.field public static final trigger_over_either_enter:I = 0x7f080613
+.field public static final trigger_edge_rising:I = 0x7f080613
 
-.field public static final trigger_over_either_exit:I = 0x7f080614
+.field public static final trigger_nth_falling:I = 0x7f080614
 
-.field public static final trigger_over_either_time:I = 0x7f080615
+.field public static final trigger_nth_rising:I = 0x7f080615
 
-.field public static final trigger_over_falling:I = 0x7f080616
+.field public static final trigger_over_either:I = 0x7f080616
 
-.field public static final trigger_over_falling_enter:I = 0x7f080617
+.field public static final trigger_over_either_enter:I = 0x7f080617
 
-.field public static final trigger_over_falling_exit:I = 0x7f080618
+.field public static final trigger_over_either_exit:I = 0x7f080618
 
-.field public static final trigger_over_falling_time:I = 0x7f080619
+.field public static final trigger_over_either_time:I = 0x7f080619
 
-.field public static final trigger_over_rising:I = 0x7f08061a
+.field public static final trigger_over_falling:I = 0x7f08061a
 
-.field public static final trigger_over_rising_enter:I = 0x7f08061b
+.field public static final trigger_over_falling_enter:I = 0x7f08061b
 
-.field public static final trigger_over_rising_exit:I = 0x7f08061c
+.field public static final trigger_over_falling_exit:I = 0x7f08061c
 
-.field public static final trigger_over_rising_time:I = 0x7f08061d
+.field public static final trigger_over_falling_time:I = 0x7f08061d
 
-.field public static final trigger_pattern:I = 0x7f08061e
+.field public static final trigger_over_rising:I = 0x7f08061e
 
-.field public static final trigger_pulse_negative:I = 0x7f08061f
+.field public static final trigger_over_rising_enter:I = 0x7f08061f
 
-.field public static final trigger_pulse_positive:I = 0x7f080620
+.field public static final trigger_over_rising_exit:I = 0x7f080620
 
-.field public static final trigger_runt_negative:I = 0x7f080621
+.field public static final trigger_over_rising_time:I = 0x7f080621
 
-.field public static final trigger_runt_positive:I = 0x7f080622
+.field public static final trigger_pattern:I = 0x7f080622
 
-.field public static final trigger_setup_hold_falling:I = 0x7f080623
+.field public static final trigger_pulse_negative:I = 0x7f080623
 
-.field public static final trigger_setup_hold_falling_h:I = 0x7f080624
+.field public static final trigger_pulse_positive:I = 0x7f080624
 
-.field public static final trigger_setup_hold_falling_hold:I = 0x7f080625
+.field public static final trigger_runt_negative:I = 0x7f080625
 
-.field public static final trigger_setup_hold_falling_setup:I = 0x7f080626
+.field public static final trigger_runt_positive:I = 0x7f080626
 
-.field public static final trigger_setup_hold_falling_setup_hold:I = 0x7f080627
+.field public static final trigger_setup_hold_falling:I = 0x7f080627
 
-.field public static final trigger_setup_hold_rising:I = 0x7f080628
+.field public static final trigger_setup_hold_falling_h:I = 0x7f080628
 
-.field public static final trigger_setup_hold_rising_hold:I = 0x7f080629
+.field public static final trigger_setup_hold_falling_hold:I = 0x7f080629
 
-.field public static final trigger_setup_hold_rising_l:I = 0x7f08062a
+.field public static final trigger_setup_hold_falling_setup:I = 0x7f08062a
 
-.field public static final trigger_setup_hold_rising_setup:I = 0x7f08062b
+.field public static final trigger_setup_hold_falling_setup_hold:I = 0x7f08062b
 
-.field public static final trigger_setup_hold_rising_setup_hold:I = 0x7f08062c
+.field public static final trigger_setup_hold_rising:I = 0x7f08062c
 
-.field public static final trigger_slope_falling:I = 0x7f08062d
+.field public static final trigger_setup_hold_rising_hold:I = 0x7f08062d
 
-.field public static final trigger_slope_rising:I = 0x7f08062e
+.field public static final trigger_setup_hold_rising_l:I = 0x7f08062e
 
-.field public static final trigger_timeout_either:I = 0x7f08062f
+.field public static final trigger_setup_hold_rising_setup:I = 0x7f08062f
 
-.field public static final trigger_timeout_falling:I = 0x7f080630
+.field public static final trigger_setup_hold_rising_setup_hold:I = 0x7f080630
 
-.field public static final trigger_timeout_rising:I = 0x7f080631
+.field public static final trigger_slope_falling:I = 0x7f080631
 
-.field public static final trigger_video_negative:I = 0x7f080632
+.field public static final trigger_slope_rising:I = 0x7f080632
 
-.field public static final trigger_video_positive:I = 0x7f080633
+.field public static final trigger_timeout_either:I = 0x7f080633
 
-.field public static final ultra:I = 0x7f080634
+.field public static final trigger_timeout_falling:I = 0x7f080634
 
-.field public static final ultra_version_3:I = 0x7f080635
+.field public static final trigger_timeout_rising:I = 0x7f080635
 
-.field public static final unlock:I = 0x7f080636
+.field public static final trigger_video_negative:I = 0x7f080636
 
-.field public static final unmoreless:I = 0x7f080637
+.field public static final trigger_video_positive:I = 0x7f080637
 
-.field public static final unselect:I = 0x7f080638
+.field public static final ultra:I = 0x7f080638
 
-.field public static final unselect_circle:I = 0x7f080639
+.field public static final ultra_version_3:I = 0x7f080639
 
-.field public static final unselect_left:I = 0x7f08063a
+.field public static final unlock:I = 0x7f08063a
 
-.field public static final unselect_pause:I = 0x7f08063b
+.field public static final unmoreless:I = 0x7f08063b
 
-.field public static final unselect_right:I = 0x7f08063c
+.field public static final unselect:I = 0x7f08063c
 
-.field public static final usb:I = 0x7f08063d
+.field public static final unselect_circle:I = 0x7f08063d
 
-.field public static final utils_toast_bg:I = 0x7f08063e
+.field public static final unselect_left:I = 0x7f08063e
 
-.field public static final white_radius:I = 0x7f08063f
+.field public static final unselect_pause:I = 0x7f08063f
+
+.field public static final unselect_right:I = 0x7f080640
+
+.field public static final usb:I = 0x7f080641
+
+.field public static final utils_toast_bg:I = 0x7f080642
+
+.field public static final white_radius:I = 0x7f080643
 
 
 # direct methods

@@ -74,12 +74,12 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1579
+    .line 1590
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$hideABxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
-    .line 1581
+    .line 1592
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getCursorResultParam()Lcom/rigol/scope/data/CursorResultParam;
@@ -90,7 +90,7 @@
 
     return-void
 
-    .line 1585
+    .line 1596
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -100,7 +100,7 @@
 
     if-eqz p1, :cond_a
 
-    .line 1586
+    .line 1597
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
@@ -127,7 +127,7 @@
 
     return-void
 
-    .line 1638
+    .line 1649
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -143,14 +143,14 @@
 
     if-ne p1, v0, :cond_a
 
-    .line 1639
+    .line 1650
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$showABxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
     goto/16 :goto_2
 
-    .line 1614
+    .line 1625
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -182,7 +182,7 @@
 
     goto :goto_0
 
-    .line 1628
+    .line 1639
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -198,7 +198,7 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 1629
+    .line 1640
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -225,12 +225,12 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 1630
+    .line 1641
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$showAxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
-    .line 1632
+    .line 1643
     :cond_4
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -258,14 +258,14 @@
 
     if-ne p1, v0, :cond_a
 
-    .line 1633
+    .line 1644
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$showBxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
     goto/16 :goto_2
 
-    .line 1617
+    .line 1628
     :cond_5
     :goto_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -292,12 +292,12 @@
 
     if-gt v0, v1, :cond_6
 
-    .line 1619
+    .line 1630
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {v0}, Lcom/rigol/scope/views/window/WindowContent;->access$showAxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
-    .line 1622
+    .line 1633
     :cond_6
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -323,14 +323,14 @@
 
     if-gt p1, v0, :cond_a
 
-    .line 1624
+    .line 1635
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$showBxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
     goto :goto_2
 
-    .line 1590
+    .line 1601
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -362,7 +362,7 @@
 
     goto :goto_1
 
-    .line 1599
+    .line 1610
     :cond_8
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -378,7 +378,7 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 1600
+    .line 1611
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -405,14 +405,14 @@
 
     if-ne p1, v0, :cond_a
 
-    .line 1601
+    .line 1612
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$showABxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V
 
     goto :goto_2
 
-    .line 1593
+    .line 1604
     :cond_9
     :goto_1
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -439,7 +439,7 @@
 
     if-gt p1, v0, :cond_a
 
-    .line 1595
+    .line 1606
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$cursorObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-static {p1}, Lcom/rigol/scope/views/window/WindowContent;->access$showABxyCursor(Lcom/rigol/scope/views/window/WindowContent;)V

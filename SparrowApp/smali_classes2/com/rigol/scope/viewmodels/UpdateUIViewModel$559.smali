@@ -38,7 +38,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;I)V
     .locals 0
 
-    .line 6247
+    .line 6384
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -53,10 +53,10 @@
 .method static synthetic lambda$onChanged$0(Lcom/rigol/scope/views/baseview/BasePopupView;Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;Landroid/view/View;)V
     .locals 0
 
-    .line 6352
+    .line 6489
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
-    .line 6353
+    .line 6490
     invoke-virtual {p1}, Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;->cancel()V
 
     return-void
@@ -67,14 +67,14 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 7
 
-    .line 6250
+    .line 6387
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->isOnOff()Z
 
     move-result p1
 
-    const v0, 0x7f1011af
+    const v0, 0x7f1011bf
 
     if-eqz p1, :cond_9
 
@@ -88,7 +88,7 @@
 
     goto/16 :goto_3
 
-    .line 6257
+    .line 6394
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -102,14 +102,14 @@
 
     move-result-object p1
 
-    .line 6258
+    .line 6395
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 6259
+    .line 6396
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -129,14 +129,14 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 6266
+    .line 6403
     invoke-static {}, Lcom/rigol/scope/utilities/UtilityUtil;->getDiskList()Ljava/util/List;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 6267
+    .line 6404
     :goto_0
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -144,7 +144,7 @@
 
     if-ge v3, v4, :cond_5
 
-    .line 6268
+    .line 6405
     invoke-interface {v2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -155,7 +155,7 @@
 
     goto :goto_1
 
-    .line 6273
+    .line 6410
     :cond_2
     invoke-virtual {v4}, Lcom/rigol/scope/data/DiskParam;->getShorterName()Ljava/lang/String;
 
@@ -163,7 +163,7 @@
 
     const-string v6, "Local Disk"
 
-    .line 6275
+    .line 6412
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -175,14 +175,14 @@
     :cond_3
     if-eqz v5, :cond_4
 
-    .line 6279
+    .line 6416
     invoke-virtual {p1, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v6
 
     if-eqz v6, :cond_4
 
-    .line 6280
+    .line 6417
     invoke-virtual {v4}, Lcom/rigol/scope/data/DiskParam;->getRoot()Ljava/lang/String;
 
     move-result-object v1
@@ -203,7 +203,7 @@
     :goto_2
     if-nez v1, :cond_6
 
-    .line 6292
+    .line 6429
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -220,7 +220,7 @@
 
     return-void
 
-    .line 6297
+    .line 6434
     :cond_6
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -234,7 +234,7 @@
 
     move-result-object p1
 
-    .line 6303
+    .line 6440
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -245,12 +245,12 @@
 
     const-string v2, "/"
 
-    .line 6304
+    .line 6441
     invoke-virtual {v1, v0, v2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6309
+    .line 6446
     :cond_7
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -262,17 +262,17 @@
 
     move-result-object v0
 
-    .line 6311
+    .line 6448
     new-instance v2, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;
 
     invoke-direct {v2, p0, p1, v1, v0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559$1;-><init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;Ljava/lang/String;Ljava/lang/String;Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
-    .line 6347
+    .line 6484
     instance-of p1, v0, Lcom/rigol/scope/views/SavingLoading;
 
     if-eqz p1, :cond_8
 
-    .line 6349
+    .line 6486
     move-object p1, v0
 
     check-cast p1, Lcom/rigol/scope/views/SavingLoading;
@@ -283,7 +283,7 @@
 
     invoke-virtual {p1, v3}, Lcom/rigol/scope/views/SavingLoading;->setCancelListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6357
+    .line 6494
     invoke-virtual {p1}, Lcom/rigol/scope/views/SavingLoading;->isShowWrning()Landroidx/databinding/ObservableBoolean;
 
     move-result-object p1
@@ -298,7 +298,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    .line 6360
+    .line 6497
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance p1, Lcom/rigol/scope/viewmodels/-$$Lambda$z-tarIOTQvB_bequvIW5VQCI6RI;
@@ -307,13 +307,13 @@
 
     invoke-static {p1}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 6365
+    .line 6502
     :cond_8
     invoke-static {v2}, Lcom/blankj/utilcode/util/ThreadUtils;->executeByIo(Lcom/blankj/utilcode/util/ThreadUtils$Task;)V
 
     return-void
 
-    .line 6252
+    .line 6389
     :cond_9
     :goto_3
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
@@ -336,7 +336,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6247
+    .line 6384
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$559;->onChanged(Ljava/lang/Boolean;)V

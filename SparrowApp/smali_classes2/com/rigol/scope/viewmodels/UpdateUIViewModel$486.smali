@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 5640
+    .line 5777
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 5
 
-    .line 5643
+    .line 5780
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
@@ -64,7 +64,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
-    .line 5644
+    .line 5781
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getSpi_cs_thres()J
 
     move-result-wide v0
@@ -81,12 +81,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 5645
+    .line 5782
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readSpi_cs_thres()V
 
-    .line 5646
+    .line 5783
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getSpi_cs_thres()J
@@ -106,7 +106,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 5640
+    .line 5777
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$486;->onChanged(Ljava/lang/Boolean;)V

@@ -31,19 +31,15 @@
 
 .field final synthetic val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-.field final synthetic val$serviceId:I
-
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;ILcom/rigol/scope/data/MeasureSettingParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 0
 
-    .line 7510
+    .line 7659
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->val$serviceId:I
-
-    iput-object p3, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,32 +49,12 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 2
+    .locals 0
 
-    .line 7513
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+    .line 7662
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    move-result-object p1
-
-    iget v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->val$serviceId:I
-
-    const/16 v1, 0x333e
-
-    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/MeasureSettingParam;->readMeaType()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorB()J
 
     return-void
 .end method
@@ -86,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7510
+    .line 7659
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$681;->onChanged(Ljava/lang/Boolean;)V

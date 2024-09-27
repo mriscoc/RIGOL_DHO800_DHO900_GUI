@@ -460,7 +460,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a047d
+    const v1, 0x7f0a0482
 
     if-ne v0, v1, :cond_0
 
@@ -505,7 +505,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v1, 0x7f0a047a
+    const v1, 0x7f0a047f
 
     if-ne v0, v1, :cond_1
 
@@ -517,7 +517,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0301c7
+    const v1, 0x7f0301c8
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/views/save/SavePopupView;->getFileTypeList(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;I)Ljava/util/List;
 
@@ -537,7 +537,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const p1, 0x7f0a047f
+    const p1, 0x7f0a0484
 
     if-ne v0, p1, :cond_2
 
@@ -566,7 +566,7 @@
     goto/16 :goto_2
 
     :cond_2
-    const p1, 0x7f0a07c0
+    const p1, 0x7f0a07cd
 
     if-ne v0, p1, :cond_10
 
@@ -761,7 +761,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011b0
+    const v1, 0x7f1011c0
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -794,7 +794,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011af
+    const v0, 0x7f1011bf
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

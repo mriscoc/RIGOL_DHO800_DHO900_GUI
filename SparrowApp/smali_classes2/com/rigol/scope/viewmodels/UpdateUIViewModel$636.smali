@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
-        "Ljava/lang/Object;",
+        "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
@@ -29,13 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
+.field final synthetic val$param:Lcom/rigol/scope/data/UtilityParam;
+
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/UtilityParam;)V
     .locals 0
 
-    .line 7089
+    .line 7237
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$636;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$636;->val$param:Lcom/rigol/scope/data/UtilityParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -44,65 +48,24 @@
 
 
 # virtual methods
-.method public onChanged(Ljava/lang/Object;)V
-    .locals 4
+.method public onChanged(Ljava/lang/Boolean;)V
+    .locals 0
 
-    .line 7093
-    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+    .line 7240
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$636;->val$param:Lcom/rigol/scope/data/UtilityParam;
 
-    move-result-object p1
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->readScreenSelect()I
 
-    const/16 v0, 0xb
+    return-void
+.end method
 
-    const/16 v1, 0x5765
+.method public bridge synthetic onChanged(Ljava/lang/Object;)V
+    .locals 0
 
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
+    .line 7237
+    check-cast p1, Ljava/lang/Boolean;
 
-    move-result-wide v0
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$636;->onChanged(Ljava/lang/Boolean;)V
 
-    const-wide/32 v2, -0x10000
-
-    and-long/2addr v2, v0
-
-    const/16 p1, 0x20
-
-    shr-long/2addr v2, p1
-
-    long-to-float p1, v2
-
-    const-wide/32 v2, 0xffff
-
-    and-long/2addr v0, v2
-
-    long-to-float v0, v0
-
-    .line 7095
-    :try_start_0
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setKeyEven(FF)V
-    :try_end_0
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_2
-    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_1
-
-    :catch_0
-    move-exception p1
-
-    goto :goto_0
-
-    :catch_1
-    move-exception p1
-
-    goto :goto_0
-
-    :catch_2
-    move-exception p1
-
-    .line 7098
-    :goto_0
-    invoke-virtual {p1}, Ljava/lang/ReflectiveOperationException;->printStackTrace()V
-
-    :goto_1
     return-void
 .end method

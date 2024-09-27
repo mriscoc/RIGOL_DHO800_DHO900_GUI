@@ -122,7 +122,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8359
+    .line 8361
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v1, "KEY_CH1"
@@ -143,7 +143,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CH1:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8360
+    .line 8362
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_CH2"
@@ -164,7 +164,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CH2:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8361
+    .line 8363
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_CH3"
@@ -185,7 +185,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CH3:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8362
+    .line 8364
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_CH4"
@@ -206,7 +206,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CH4:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8363
+    .line 8365
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_VPOS1"
@@ -227,7 +227,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VPOS1:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8364
+    .line 8366
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_VPOS2"
@@ -248,7 +248,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VPOS2:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8365
+    .line 8367
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_VPOS3"
@@ -269,7 +269,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VPOS3:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8366
+    .line 8368
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_VPOS4"
@@ -290,7 +290,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VPOS4:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8367
+    .line 8369
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_VSCALE1"
@@ -311,7 +311,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VSCALE1:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8368
+    .line 8370
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_VSCALE2"
@@ -332,7 +332,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VSCALE2:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8369
+    .line 8371
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_VSCALE3"
@@ -353,7 +353,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VSCALE3:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8370
+    .line 8372
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_VSCALE4"
@@ -374,7 +374,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VSCALE4:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8371
+    .line 8373
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_MATH"
@@ -395,7 +395,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_MATH:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8372
+    .line 8374
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_REF"
@@ -416,7 +416,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_REF:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8373
+    .line 8375
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_MEASURE"
@@ -437,7 +437,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8374
+    .line 8376
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_CURSOR"
@@ -458,7 +458,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CURSOR:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8375
+    .line 8377
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_ACQUIRE"
@@ -479,7 +479,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_ACQUIRE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8376
+    .line 8378
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_RUNSTOP"
@@ -500,7 +500,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_RUNSTOP:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8377
+    .line 8379
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_CLEAR"
@@ -521,7 +521,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CLEAR:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8378
+    .line 8380
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_DISPLAY"
@@ -542,7 +542,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_DISPLAY:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8379
+    .line 8381
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_FORCE"
@@ -563,7 +563,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_FORCE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8380
+    .line 8382
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_AUTO"
@@ -584,7 +584,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_AUTO:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8381
+    .line 8383
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_SINGLE"
@@ -605,7 +605,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_SINGLE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8382
+    .line 8384
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_STORAGE"
@@ -626,7 +626,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_STORAGE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8383
+    .line 8385
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_QUICK"
@@ -647,7 +647,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_QUICK:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8384
+    .line 8386
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_DEFAULT"
@@ -668,7 +668,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_DEFAULT:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8385
+    .line 8387
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_HSCALE"
@@ -689,7 +689,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_HSCALE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8386
+    .line 8388
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_HPOS"
@@ -710,7 +710,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_HPOS:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8387
+    .line 8389
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_HMENU"
@@ -731,7 +731,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_HMENU:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8388
+    .line 8390
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_SEARCH"
@@ -752,7 +752,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_SEARCH:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8389
+    .line 8391
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_ZOOM"
@@ -773,7 +773,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_ZOOM:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8390
+    .line 8392
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_TRIGGER"
@@ -794,7 +794,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8391
+    .line 8393
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_TRIGLEVEL"
@@ -815,7 +815,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_TRIGLEVEL:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8392
+    .line 8394
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_BUS"
@@ -836,7 +836,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_BUS:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8393
+    .line 8395
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_UTILITY"
@@ -857,7 +857,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_UTILITY:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8394
+    .line 8396
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_LA"
@@ -878,7 +878,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_LA:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8395
+    .line 8397
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_VPOS"
@@ -899,7 +899,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VPOS:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8396
+    .line 8398
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_VSCALE"
@@ -920,7 +920,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_VSCALE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8397
+    .line 8399
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_ANALYSE"
@@ -941,7 +941,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_ANALYSE:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8398
+    .line 8400
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v9, "KEY_TOUCHLOCK"
@@ -962,7 +962,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_TOUCHLOCK:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8399
+    .line 8401
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const-string v2, "KEY_SLOPE"
@@ -987,7 +987,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
-    .line 8357
+    .line 8359
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->KEY_CH1:Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     const/4 v3, 0x0
@@ -1249,19 +1249,19 @@
         }
     .end annotation
 
-    .line 8402
+    .line 8404
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8403
+    .line 8405
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->value1:I
 
-    .line 8404
+    .line 8406
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->value2:Ljava/lang/String;
 
-    .line 8405
+    .line 8407
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->pic1:Ljava/lang/String;
 
-    .line 8406
+    .line 8408
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->pic2:Ljava/lang/String;
 
     return-void
@@ -1270,7 +1270,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
     .locals 1
 
-    .line 8357
+    .line 8359
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -1285,7 +1285,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
     .locals 1
 
-    .line 8357
+    .line 8359
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$PanelKey;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$PanelKey;->clone()Ljava/lang/Object;

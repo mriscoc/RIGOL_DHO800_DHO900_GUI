@@ -60,7 +60,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8860
+    .line 8864
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v1, "HDU_VERSION"
@@ -81,7 +81,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->HDU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8862
+    .line 8866
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v9, "AFE_VERSION"
@@ -102,7 +102,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->AFE_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8864
+    .line 8868
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v2, "ADC_VERSION"
@@ -123,7 +123,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->ADC_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8866
+    .line 8870
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v9, "SCU_VERSION"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->SCU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8868
+    .line 8872
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v2, "SPU_VERSION"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->SPU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8870
+    .line 8874
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v9, "WPU_VERSION"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->WPU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8872
+    .line 8876
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v2, "WAU_VERSION"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->WAU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8874
+    .line 8878
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v9, "TPU_VERSION"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->TPU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8876
+    .line 8880
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v2, "AFG_VERSION"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->AFG_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8878
+    .line 8882
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const-string v9, "DCU_VERSION"
@@ -274,7 +274,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
-    .line 8857
+    .line 8861
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->HDU_VERSION:Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     const/4 v3, 0x0
@@ -350,19 +350,19 @@
         }
     .end annotation
 
-    .line 8881
+    .line 8885
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8882
+    .line 8886
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->value1:I
 
-    .line 8883
+    .line 8887
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->value2:Ljava/lang/String;
 
-    .line 8884
+    .line 8888
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->pic1:Ljava/lang/String;
 
-    .line 8885
+    .line 8889
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -371,7 +371,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
     .locals 1
 
-    .line 8857
+    .line 8861
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -386,7 +386,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
     .locals 1
 
-    .line 8857
+    .line 8861
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$VersionEnum;->clone()Ljava/lang/Object;

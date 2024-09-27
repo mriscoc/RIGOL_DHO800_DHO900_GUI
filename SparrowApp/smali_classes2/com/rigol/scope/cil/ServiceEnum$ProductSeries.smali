@@ -80,7 +80,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9253
+    .line 9257
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v1, "SERIES_800"
@@ -101,7 +101,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9254
+    .line 9258
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_900"
@@ -122,7 +122,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9255
+    .line 9259
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_1000"
@@ -143,7 +143,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9256
+    .line 9260
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_2000"
@@ -164,7 +164,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_2000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9257
+    .line 9261
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_3000"
@@ -185,7 +185,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_3000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9258
+    .line 9262
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_4000"
@@ -206,7 +206,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_4000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9259
+    .line 9263
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_5000"
@@ -227,7 +227,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_5000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9260
+    .line 9264
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_6000"
@@ -248,7 +248,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_6000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9261
+    .line 9265
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_7000"
@@ -269,7 +269,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_7000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9262
+    .line 9266
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_8000"
@@ -290,7 +290,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_8000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9263
+    .line 9267
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_9000"
@@ -311,7 +311,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_9000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9264
+    .line 9268
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_10000"
@@ -332,7 +332,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_10000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9265
+    .line 9269
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_20000"
@@ -353,7 +353,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_20000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9266
+    .line 9270
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_30000"
@@ -374,7 +374,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_30000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9267
+    .line 9271
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_40000"
@@ -395,7 +395,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_40000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9268
+    .line 9272
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_50000"
@@ -416,7 +416,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_50000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9269
+    .line 9273
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_60000"
@@ -437,7 +437,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_60000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9270
+    .line 9274
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_70000"
@@ -458,7 +458,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_70000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9271
+    .line 9275
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v2, "SERIES_80000"
@@ -479,7 +479,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_80000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9272
+    .line 9276
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const-string v9, "SERIES_90000"
@@ -504,7 +504,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    .line 9251
+    .line 9255
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     const/4 v3, 0x0
@@ -640,19 +640,19 @@
         }
     .end annotation
 
-    .line 9275
+    .line 9279
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9276
+    .line 9280
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    .line 9277
+    .line 9281
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value2:Ljava/lang/String;
 
-    .line 9278
+    .line 9282
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->pic1:Ljava/lang/String;
 
-    .line 9279
+    .line 9283
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->pic2:Ljava/lang/String;
 
     return-void
@@ -661,7 +661,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
     .locals 1
 
-    .line 9251
+    .line 9255
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -676,7 +676,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
     .locals 1
 
-    .line 9251
+    .line 9255
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->clone()Ljava/lang/Object;

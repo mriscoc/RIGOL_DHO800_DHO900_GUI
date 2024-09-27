@@ -72,7 +72,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5588
+    .line 5589
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v1, "DAC_HZ_CH1"
@@ -93,7 +93,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_HZ_CH1:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5589
+    .line 5590
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_LZ_CH1"
@@ -114,7 +114,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_LZ_CH1:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5590
+    .line 5591
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_HZ_CH2"
@@ -135,7 +135,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_HZ_CH2:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5591
+    .line 5592
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_LZ_CH2"
@@ -156,7 +156,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_LZ_CH2:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5592
+    .line 5593
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_HZ_CH3"
@@ -177,7 +177,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_HZ_CH3:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5593
+    .line 5594
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_LZ_CH3"
@@ -198,7 +198,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_LZ_CH3:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5594
+    .line 5595
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_HZ_CH4"
@@ -219,7 +219,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_HZ_CH4:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5595
+    .line 5596
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_LZ_CH4"
@@ -240,7 +240,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_LZ_CH4:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5597
+    .line 5598
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_TDR_VR"
@@ -261,7 +261,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_TDR_VR:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5598
+    .line 5599
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_EXT_LEVEL"
@@ -282,7 +282,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_EXT_LEVEL:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5599
+    .line 5600
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_AWG_EXTA_LV"
@@ -303,7 +303,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_AWG_EXTA_LV:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5600
+    .line 5601
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_AWG_EXTB_LV"
@@ -324,7 +324,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_AWG_EXTB_LV:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5601
+    .line 5602
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_PROBE_OFFSET1"
@@ -345,7 +345,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_PROBE_OFFSET1:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5602
+    .line 5603
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_PROBE_OFFSET2"
@@ -366,7 +366,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_PROBE_OFFSET2:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5603
+    .line 5604
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v2, "DAC_PROBE_OFFSET3"
@@ -387,7 +387,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_PROBE_OFFSET3:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5604
+    .line 5605
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const-string v9, "DAC_PROBE_OFFSET4"
@@ -412,7 +412,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
-    .line 5585
+    .line 5586
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->DAC_HZ_CH1:Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     const/4 v3, 0x0
@@ -524,19 +524,19 @@
         }
     .end annotation
 
-    .line 5607
+    .line 5608
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5608
+    .line 5609
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->value1:I
 
-    .line 5609
+    .line 5610
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->value2:Ljava/lang/String;
 
-    .line 5610
+    .line 5611
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->pic1:Ljava/lang/String;
 
-    .line 5611
+    .line 5612
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->pic2:Ljava/lang/String;
 
     return-void
@@ -545,7 +545,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DacChan;
     .locals 1
 
-    .line 5585
+    .line 5586
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -560,7 +560,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DacChan;
     .locals 1
 
-    .line 5585
+    .line 5586
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DacChan;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DacChan;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DacChan;->clone()Ljava/lang/Object;

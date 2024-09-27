@@ -7162,7 +7162,7 @@
 .end method
 
 .method public updateTriggerPointTagPosition(Z)V
-    .locals 4
+    .locals 3
 
     .line 1797
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
@@ -7186,51 +7186,30 @@
 
     int-to-float v0, v0
 
-    mul-float/2addr v0, p1
-
-    const/4 v1, 0x2
-
-    new-array v1, v1, [Ljava/lang/Object;
-
-    const/4 v2, 0x0
-
-    const-string v3, "valuePercent"
-
-    aput-object v3, v1, v2
-
-    const/4 v2, 0x1
-
-    .line 1808
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object p1
-
-    aput-object p1, v1, v2
-
-    invoke-static {v1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
+    mul-float/2addr p1, v0
 
     .line 1810
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerPointTag:Lcom/rigol/scope/views/TagView;
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerPointTag:Lcom/rigol/scope/views/TagView;
 
-    float-to-int v0, v0
+    float-to-int p1, p1
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/views/TagView;->setPosition(I)V
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/views/TagView;->setPosition(I)V
 
     .line 1813
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getExpandMode()Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
+    invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getExpandMode()Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    move-result-object p1
+    move-result-object v0
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->Horizontal_Expand_Trig:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    if-ne p1, v1, :cond_1
+    if-ne v0, v1, :cond_1
 
     .line 1816
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->expandTag:Lcom/rigol/scope/views/TagView;
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->expandTag:Lcom/rigol/scope/views/TagView;
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/views/TagView;->setPosition(I)V
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/views/TagView;->setPosition(I)V
 
     :cond_1
     return-void

@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4110
+    .line 4111
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     const-string v1, "visa_type_usb"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->visa_type_usb:Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
-    .line 4111
+    .line 4112
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     const-string v9, "visa_type_lxi"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->visa_type_lxi:Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
-    .line 4112
+    .line 4113
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     const-string v2, "visa_type_socket"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
-    .line 4108
+    .line 4109
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->visa_type_usb:Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 4115
+    .line 4116
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4116
+    .line 4117
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->value1:I
 
-    .line 4117
+    .line 4118
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->value2:Ljava/lang/String;
 
-    .line 4118
+    .line 4119
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->pic1:Ljava/lang/String;
 
-    .line 4119
+    .line 4120
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$VisaType;
     .locals 1
 
-    .line 4108
+    .line 4109
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$VisaType;
     .locals 1
 
-    .line 4108
+    .line 4109
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$VisaType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$VisaType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$VisaType;->clone()Ljava/lang/Object;

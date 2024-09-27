@@ -97,7 +97,7 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v1, 0x7f030245
+    const v1, 0x7f030246
 
     .line 119
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -341,7 +341,7 @@
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    const v2, 0x7f030245
+    const v2, 0x7f030246
 
     const-string v3, "binding.title"
 

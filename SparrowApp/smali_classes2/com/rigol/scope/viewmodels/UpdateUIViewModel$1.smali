@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 244
+    .line 249
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$1;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 248
+    .line 253
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isCalibrationStarted()Z
 
     move-result p1
@@ -56,7 +56,7 @@
 
     return-void
 
-    .line 253
+    .line 258
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/KtUtilKt;->resetAll()V
 
@@ -66,7 +66,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 244
+    .line 249
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$1;->onChanged(Ljava/lang/Boolean;)V

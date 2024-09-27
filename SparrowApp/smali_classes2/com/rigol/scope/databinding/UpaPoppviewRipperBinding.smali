@@ -40,7 +40,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d0147
+    const v0, 0x7f0d0149
 
     .line 77
     invoke-static {p1, p0, v0}, Lcom/rigol/scope/databinding/UpaPoppviewRipperBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
@@ -87,7 +87,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d0147
+    const v0, 0x7f0d0149
 
     .line 42
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
@@ -104,7 +104,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d0147
+    const v0, 0x7f0d0149
 
     const/4 v1, 0x0
 

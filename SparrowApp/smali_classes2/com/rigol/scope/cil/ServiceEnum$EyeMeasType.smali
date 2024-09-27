@@ -60,7 +60,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4652
+    .line 4653
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v1, "EYE_BEGIN"
@@ -81,7 +81,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_BEGIN:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4653
+    .line 4654
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v9, "EYE_ONE"
@@ -102,7 +102,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_ONE:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4654
+    .line 4655
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v2, "EYE_ZERO"
@@ -123,7 +123,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_ZERO:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4655
+    .line 4656
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v9, "EYE_WIDTH"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_WIDTH:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4656
+    .line 4657
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v2, "EYE_HEIGHT"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_HEIGHT:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4657
+    .line 4658
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v9, "EYE_AMP"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_AMP:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4658
+    .line 4659
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v2, "EYE_CROSSPER"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_CROSSPER:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4659
+    .line 4660
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v9, "EYE_QFACTOR"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_QFACTOR:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4660
+    .line 4661
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v2, "EYE_BR"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_BR:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4661
+    .line 4662
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const-string v9, "EYE_END"
@@ -274,7 +274,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
-    .line 4650
+    .line 4651
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->EYE_BEGIN:Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     const/4 v3, 0x0
@@ -350,19 +350,19 @@
         }
     .end annotation
 
-    .line 4664
+    .line 4665
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4665
+    .line 4666
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->value1:I
 
-    .line 4666
+    .line 4667
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->value2:Ljava/lang/String;
 
-    .line 4667
+    .line 4668
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->pic1:Ljava/lang/String;
 
-    .line 4668
+    .line 4669
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->pic2:Ljava/lang/String;
 
     return-void
@@ -371,7 +371,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
     .locals 1
 
-    .line 4650
+    .line 4651
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -386,7 +386,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
     .locals 1
 
-    .line 4650
+    .line 4651
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EyeMeasType;->clone()Ljava/lang/Object;

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/AfgParam;)V
     .locals 0
 
-    .line 8723
+    .line 8873
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$822;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$822;->val$afgParam:Lcom/rigol/scope/data/AfgParam;
@@ -51,15 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8727
+    .line 8877
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$822;->val$afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->readOffset()J
-
-    .line 8728
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$822;->val$afgParam:Lcom/rigol/scope/data/AfgParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->readOffsetAttr()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->readBasicLow()I
 
     return-void
 .end method
@@ -67,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8723
+    .line 8873
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$822;->onChanged(Ljava/lang/Boolean;)V

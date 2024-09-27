@@ -14,6 +14,8 @@
 
 .field private clickedView:Landroid/view/View;
 
+.field private isChangeItem:Z
+
 .field private list_aorbParam:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -46,6 +48,8 @@
 
 .field private popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
+.field private final sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
 .field private spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
 .field private tabTitles:Ljava/util/List;
@@ -77,10 +81,10 @@
 
     const v0, 0x7f11003e
 
-    .line 130
+    .line 135
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;-><init>(I)V
 
-    .line 78
+    .line 81
     const-class v0, Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -91,7 +95,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->measureResultViewModel:Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
-    .line 80
+    .line 83
     new-instance v0, Landroidx/databinding/ObservableInt;
 
     invoke-direct {v0}, Landroidx/databinding/ObservableInt;-><init>()V
@@ -100,17 +104,22 @@
 
     const/4 v0, 0x0
 
-    .line 82
+    .line 85
+    iput-boolean v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->isChangeItem:Z
+
+    const/4 v0, 0x0
+
+    .line 87
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 89
+    .line 94
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->list_aorbParam:Ljava/util/List;
 
-    .line 91
+    .line 96
     new-instance v0, Lcom/rigol/scope/views/measure/MeasurePopupView$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/views/measure/MeasurePopupView$1;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;)V
@@ -119,14 +128,14 @@
 
     const v0, 0x7f03002f
 
-    .line 126
+    .line 131
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->tabTitles:Ljava/util/List;
 
-    .line 133
+    .line 138
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->context:Landroid/content/Context;
 
     invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -139,26 +148,26 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
-    .line 134
+    .line 139
     invoke-virtual {v0}, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setContentView(Landroid/view/View;)V
 
-    .line 135
+    .line 140
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     invoke-virtual {v0, p0}, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 136
+    .line 141
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->pic:Landroidx/databinding/ObservableInt;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->setPicObservable(Landroidx/databinding/ObservableInt;)V
 
-    .line 139
+    .line 144
     const-class v0, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -169,7 +178,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 141
+    .line 146
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -186,7 +195,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 148
+    .line 153
     :cond_0
     const-class v0, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
@@ -198,7 +207,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 150
+    .line 155
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -215,8 +224,37 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 158
+    .line 161
     :cond_1
+    const-class v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
+
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
+
+    iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
+    if-eqz v0, :cond_2
+
+    .line 163
+    iget-object v0, v0, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasChangeMeasureItem:Landroidx/lifecycle/MutableLiveData;
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v2, Lcom/rigol/scope/views/measure/MeasurePopupView$2;
+
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/measure/MeasurePopupView$2;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;)V
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 172
+    :cond_2
     new-instance v0, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->context:Landroid/content/Context;
@@ -227,10 +265,10 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
-    .line 159
+    .line 173
     invoke-virtual {v0, p0}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->setOnItemClickListener(Lcom/rigol/scope/adapters/MeasureViewPagerAdapter$OnItemClickListener;)V
 
-    .line 160
+    .line 174
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -243,7 +281,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager2/widget/ViewPager2;->setOffscreenPageLimit(I)V
 
-    .line 161
+    .line 175
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -252,7 +290,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager2/widget/ViewPager2;->registerOnPageChangeCallback(Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;)V
 
-    .line 162
+    .line 176
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -261,7 +299,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 165
+    .line 179
     new-instance v0, Lcom/google/android/material/tabs/TabLayoutMediator;
 
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
@@ -278,10 +316,10 @@
 
     invoke-direct {v0, v1, v2, v3}, Lcom/google/android/material/tabs/TabLayoutMediator;-><init>(Lcom/google/android/material/tabs/TabLayout;Landroidx/viewpager2/widget/ViewPager2;Lcom/google/android/material/tabs/TabLayoutMediator$TabConfigurationStrategy;)V
 
-    .line 172
+    .line 186
     invoke-virtual {v0}, Lcom/google/android/material/tabs/TabLayoutMediator;->attach()V
 
-    .line 175
+    .line 189
     const-class v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -290,11 +328,11 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_3
 
     const-string v1, "28_13098"
 
-    .line 177
+    .line 191
     invoke-virtual {v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -311,8 +349,8 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 186
-    :cond_2
+    .line 200
+    :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->list_aorbParam:Ljava/util/List;
 
     new-instance v7, Lcom/rigol/scope/data/AorBParam;
@@ -335,7 +373,7 @@
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 187
+    .line 201
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->list_aorbParam:Ljava/util/List;
 
     new-instance v7, Lcom/rigol/scope/data/AorBParam;
@@ -352,18 +390,18 @@
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 189
-    new-instance v0, Lcom/rigol/scope/views/measure/MeasurePopupView$2;
+    .line 203
+    new-instance v0, Lcom/rigol/scope/views/measure/MeasurePopupView$3;
 
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->context:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->list_aorbParam:Ljava/util/List;
 
-    invoke-direct {v0, p0, v1, v2}, Lcom/rigol/scope/views/measure/MeasurePopupView$2;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;Landroid/content/Context;Ljava/util/List;)V
+    invoke-direct {v0, p0, v1, v2}, Lcom/rigol/scope/views/measure/MeasurePopupView$3;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;Landroid/content/Context;Ljava/util/List;)V
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
-    .line 199
+    .line 213
     const-class v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -374,9 +412,9 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
-    .line 203
+    .line 217
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -391,14 +429,14 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    :cond_3
+    :cond_4
     return-void
 .end method
 
 .method static synthetic access$000(Lcom/rigol/scope/views/measure/MeasurePopupView;)Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
     .locals 0
 
-    .line 75
+    .line 78
     iget-object p0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     return-object p0
@@ -407,7 +445,7 @@
 .method static synthetic access$100(Lcom/rigol/scope/views/measure/MeasurePopupView;)Landroidx/databinding/ObservableInt;
     .locals 0
 
-    .line 75
+    .line 78
     iget-object p0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->pic:Landroidx/databinding/ObservableInt;
 
     return-object p0
@@ -416,7 +454,7 @@
 .method static synthetic access$200(Lcom/rigol/scope/views/measure/MeasurePopupView;)Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
     .locals 0
 
-    .line 75
+    .line 78
     iget-object p0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     return-object p0
@@ -425,16 +463,25 @@
 .method static synthetic access$300(Lcom/rigol/scope/views/measure/MeasurePopupView;)Lcom/rigol/scope/data/MeasureSettingParam;
     .locals 0
 
-    .line 75
+    .line 78
     iget-object p0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     return-object p0
 .end method
 
+.method static synthetic access$402(Lcom/rigol/scope/views/measure/MeasurePopupView;Z)Z
+    .locals 0
+
+    .line 78
+    iput-boolean p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->isChangeItem:Z
+
+    return p1
+.end method
+
 .method private refreshPageCurrentItem()V
     .locals 2
 
-    .line 367
+    .line 381
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -445,10 +492,10 @@
 
     const/4 v1, 0x0
 
-    .line 373
+    .line 387
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setPageCurrentItem(IZ)V
 
-    .line 376
+    .line 390
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->notifyDataSetChanged()V
@@ -459,7 +506,7 @@
 .method private selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 240
+    .line 254
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -470,18 +517,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 242
+    .line 256
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveSelectSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 246
+    .line 260
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     if-eqz p1, :cond_1
 
-    .line 247
+    .line 261
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->notifyDataSetChanged()V
 
     :cond_1
@@ -491,7 +538,7 @@
 .method private selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 253
+    .line 267
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -502,18 +549,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 255
+    .line 269
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveSelectSourceB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 259
+    .line 273
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     if-eqz p1, :cond_1
 
-    .line 260
+    .line 274
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->notifyDataSetChanged()V
 
     :cond_1
@@ -523,7 +570,7 @@
 .method private selectedItemCCW()V
     .locals 5
 
-    .line 347
+    .line 361
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -536,14 +583,14 @@
 
     check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 348
+    .line 362
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 349
+    .line 363
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -562,7 +609,7 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 350
+    .line 364
     invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView;->getChildCount()I
 
     move-result v0
@@ -575,10 +622,10 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 349
+    .line 363
     invoke-static {v0, v1}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 352
+    .line 366
     invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object v0
@@ -587,7 +634,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 354
+    .line 368
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->getCurrentItem()I
 
     move-result v1
@@ -596,7 +643,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->setCurrentItem(I)V
 
-    .line 355
+    .line 369
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->notifyDataSetChanged()V
 
     :cond_0
@@ -606,7 +653,7 @@
 .method private selectedItemCW()V
     .locals 5
 
-    .line 334
+    .line 348
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -619,14 +666,14 @@
 
     check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 335
+    .line 349
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
     check-cast v2, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 336
+    .line 350
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -645,7 +692,7 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 337
+    .line 351
     invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView;->getChildCount()I
 
     move-result v0
@@ -658,10 +705,10 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 336
+    .line 350
     invoke-static {v0, v1}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 339
+    .line 353
     invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object v0
@@ -670,7 +717,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 341
+    .line 355
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->getCurrentItem()I
 
     move-result v1
@@ -679,7 +726,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->setCurrentItem(I)V
 
-    .line 342
+    .line 356
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->notifyDataSetChanged()V
 
     :cond_0
@@ -697,19 +744,19 @@
         }
     .end annotation
 
-    .line 219
+    .line 233
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getDefaultItem(Ljava/util/List;)Lcom/rigol/scope/data/VerticalParam;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 220
+    .line 234
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_0
 
-    .line 221
+    .line 235
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -725,10 +772,10 @@
 .method public synthetic lambda$new$0$MeasurePopupView(Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 1
 
-    .line 143
+    .line 148
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 144
+    .line 149
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->setParam(Lcom/rigol/scope/data/MeasureSettingParam;)V
@@ -739,10 +786,10 @@
 .method public synthetic lambda$new$1$MeasurePopupView(Ljava/util/ArrayList;)V
     .locals 0
 
-    .line 152
+    .line 157
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->verticalParams:Ljava/util/List;
 
-    .line 153
+    .line 158
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setSelectSourceA(Ljava/util/List;)V
 
     return-void
@@ -753,10 +800,10 @@
 
     const v0, 0x7f0d0066
 
-    .line 167
+    .line 181
     invoke-virtual {p1, v0}, Lcom/google/android/material/tabs/TabLayout$Tab;->setCustomView(I)Lcom/google/android/material/tabs/TabLayout$Tab;
 
-    .line 168
+    .line 182
     invoke-virtual {p1}, Lcom/google/android/material/tabs/TabLayout$Tab;->getCustomView()Landroid/view/View;
 
     move-result-object p1
@@ -765,7 +812,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 170
+    .line 184
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->tabTitles:Ljava/util/List;
 
     invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -787,12 +834,12 @@
 .method public synthetic lambda$new$3$MeasurePopupView(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 179
+    .line 193
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     if-eqz p1, :cond_0
 
-    .line 180
+    .line 194
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->notifyDataSetChanged()V
 
     :cond_0
@@ -802,23 +849,23 @@
 .method public synthetic lambda$new$4$MeasurePopupView(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 207
+    .line 221
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
 
-    const v0, 0x7f0a04f0
+    const v0, 0x7f0a04f5
 
     if-ne p1, v0, :cond_0
 
-    .line 208
+    .line 222
     invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
 
     goto :goto_0
 
-    .line 209
+    .line 223
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
 
@@ -826,11 +873,11 @@
 
     move-result p1
 
-    const v0, 0x7f0a04f2
+    const v0, 0x7f0a04f7
 
     if-ne p1, v0, :cond_1
 
-    .line 210
+    .line 224
     invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
 
     :cond_1
@@ -841,7 +888,7 @@
 .method public synthetic lambda$new$5$MeasurePopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
-    .line 204
+    .line 218
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -854,7 +901,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 205
+    .line 219
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     iget-object v3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
@@ -886,16 +933,16 @@
 .method public synthetic lambda$onClick$6$MeasurePopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 271
+    .line 285
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 272
+    .line 286
     iput-object p2, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 273
+    .line 287
     iput-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->mappingObjects:Ljava/util/List;
 
-    .line 274
+    .line 288
     iput-object p4, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -904,7 +951,7 @@
 .method public synthetic lambda$onClick$7$MeasurePopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 277
+    .line 291
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -913,16 +960,16 @@
 .method public synthetic lambda$onClick$8$MeasurePopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 283
+    .line 297
     iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 284
+    .line 298
     iput-object p2, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 285
+    .line 299
     iput-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->mappingObjects:Ljava/util/List;
 
-    .line 286
+    .line 300
     iput-object p4, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -931,7 +978,7 @@
 .method public synthetic lambda$onClick$9$MeasurePopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 289
+    .line 303
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -940,12 +987,12 @@
 .method public notifyData()V
     .locals 1
 
-    .line 381
+    .line 395
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     if-eqz v0, :cond_0
 
-    .line 382
+    .line 396
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->notifyDataSetChanged()V
 
     :cond_0
@@ -955,18 +1002,18 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    .line 266
+    .line 280
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v0
 
-    const v1, 0x7f0a04f0
+    const v1, 0x7f0a04f5
 
     if-ne v0, v1, :cond_0
 
     const v0, 0x7f030048
 
-    .line 268
+    .line 282
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
@@ -975,7 +1022,7 @@
 
     move-result-object v0
 
-    .line 269
+    .line 283
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->anchor:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/measure/-$$Lambda$MeasurePopupView$e3qcakGkn3xIKUAxWLmR6R5lV4o;
@@ -991,13 +1038,13 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0a04f2
+    const v1, 0x7f0a04f7
 
     if-ne v0, v1, :cond_1
 
     const v0, 0x7f030049
 
-    .line 280
+    .line 294
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
@@ -1006,7 +1053,7 @@
 
     move-result-object v0
 
-    .line 281
+    .line 295
     iget-object v1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->anchor:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/views/measure/-$$Lambda$MeasurePopupView$V4BWOu3sUo1sbnEZB6aMA2VKUPs;
@@ -1022,11 +1069,11 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a0ac5
+    const p1, 0x7f0a0ae2
 
     if-ne v0, p1, :cond_2
 
-    .line 293
+    .line 307
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1038,21 +1085,21 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a07ea
+    const p1, 0x7f0a07fc
 
     if-ne v0, p1, :cond_3
 
-    .line 295
+    .line 309
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
 
-    .line 296
+    .line 310
     instance-of v0, p1, Lcom/rigol/scope/MainActivity;
 
     if-eqz v0, :cond_3
 
-    .line 297
+    .line 311
     check-cast p1, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {p1}, Lcom/rigol/scope/MainActivity;->getResultBarFragment()Lcom/rigol/scope/ResultsBarFragment;
@@ -1061,7 +1108,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 299
+    .line 313
     const-class v0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/ResultsBarFragment;->showPopupView(Ljava/lang/Class;)V
@@ -1071,8 +1118,34 @@
     return-void
 .end method
 
-.method public onItemClick(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILjava/util/List;Z)V
+.method public onDismiss()V
     .locals 3
+
+    .line 515
+    iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
+
+    const/16 v1, 0x3308
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
+
+    .line 516
+    iput-boolean v2, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->isChangeItem:Z
+
+    const/16 v0, 0x11
+
+    .line 517
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setGravity(I)V
+
+    .line 518
+    invoke-super {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onDismiss()V
+
+    return-void
+.end method
+
+.method public onItemClick(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILjava/util/List;Z)V
+    .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1084,7 +1157,7 @@
         }
     .end annotation
 
-    .line 407
+    .line 422
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -1113,7 +1186,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 408
+    .line 423
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -1130,7 +1203,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    .line 409
+    .line 424
     invoke-virtual {v2}, Lcom/rigol/scope/data/MeasureSettingParam;->getSelectSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
@@ -1157,10 +1230,10 @@
 
     move-result-object v1
 
-    .line 408
+    .line 423
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 411
+    .line 426
     invoke-interface {p4, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -1171,12 +1244,12 @@
 
     move-result p1
 
-    .line 414
+    .line 429
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->pic:Landroidx/databinding/ObservableInt;
 
     invoke-virtual {p3, p1}, Landroidx/databinding/ObservableInt;->set(I)V
 
-    .line 417
+    .line 432
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object p3, p3, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -1193,7 +1266,7 @@
 
     goto :goto_0
 
-    .line 424
+    .line 439
     :cond_0
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
@@ -1217,7 +1290,7 @@
 
     goto :goto_1
 
-    .line 422
+    .line 437
     :cond_1
     :goto_0
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -1232,7 +1305,7 @@
 
     move-result p1
 
-    .line 427
+    .line 442
     :goto_1
     iget-object p3, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->measureResultViewModel:Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
@@ -1246,86 +1319,123 @@
 
     check-cast p3, Ljava/util/List;
 
-    if-nez p5, :cond_6
+    if-eqz p5, :cond_2
 
-    if-eqz p3, :cond_5
+    .line 445
+    iget-boolean v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->isChangeItem:Z
+
+    if-eqz v0, :cond_2
+
+    return-void
+
+    :cond_2
+    if-nez p5, :cond_8
+
+    .line 450
+    iget-boolean v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->isChangeItem:Z
+
+    if-nez v0, :cond_8
 
     const/4 v0, 0x0
 
+    if-eqz p3, :cond_6
+
     move v1, v0
 
-    .line 433
+    move v2, v1
+
+    .line 454
     :goto_2
+    invoke-interface {p3}, Ljava/util/List;->size()I
+
+    move-result v3
+
+    if-ge v1, v3, :cond_4
+
+    .line 455
+    invoke-interface {p3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    .line 456
+    instance-of v3, v3, Lcom/rigol/scope/data/MeasureResultParam;
+
+    if-eqz v3, :cond_3
+
+    add-int/lit8 v2, v2, 0x1
+
+    :cond_3
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_2
+
+    :cond_4
+    add-int/2addr v2, p4
+
+    const/16 v1, 0xe
+
+    if-le v2, v1, :cond_6
+
+    .line 464
     invoke-interface {p3}, Ljava/util/List;->size()I
 
     move-result v2
 
-    if-ge v0, v2, :cond_3
-
-    .line 434
-    invoke-interface {p3, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    .line 435
-    instance-of v2, v2, Lcom/rigol/scope/data/MeasureResultParam;
-
-    if-eqz v2, :cond_2
-
-    add-int/lit8 v1, v1, 0x1
-
-    :cond_2
-    add-int/lit8 v0, v0, 0x1
-
-    goto :goto_2
-
-    :cond_3
-    add-int/2addr v1, p4
-
-    const/16 v0, 0xe
-
-    if-le v1, v0, :cond_5
-
-    .line 443
-    invoke-interface {p3}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    sub-int/2addr v1, p4
+    sub-int/2addr v2, p4
 
     :goto_3
-    if-ltz v1, :cond_5
+    if-ltz v2, :cond_6
 
-    .line 444
-    invoke-interface {p3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    .line 465
+    invoke-interface {p3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p4
 
-    .line 445
-    instance-of v2, p4, Lcom/rigol/scope/data/MeasureResultParam;
+    .line 466
+    instance-of v3, p4, Lcom/rigol/scope/data/MeasureResultParam;
 
-    if-eqz v2, :cond_4
+    if-eqz v3, :cond_5
 
-    add-int/lit8 v0, v0, -0x1
+    add-int/lit8 v1, v1, -0x1
 
-    if-gtz v0, :cond_4
+    if-gtz v1, :cond_5
 
-    .line 448
+    .line 469
     check-cast p4, Lcom/rigol/scope/data/MeasureResultParam;
 
     invoke-virtual {p4}, Lcom/rigol/scope/data/MeasureResultParam;->remove()V
 
-    :cond_4
-    add-int/lit8 v1, v1, -0x1
+    :cond_5
+    add-int/lit8 v2, v2, -0x1
 
     goto :goto_3
 
-    .line 455
-    :cond_5
+    .line 476
+    :cond_6
+    iget-object p4, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
+    if-eqz p4, :cond_7
+
+    iget-object p4, p4, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasRemoveMeasureItem:Landroidx/lifecycle/MutableLiveData;
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-virtual {p4, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+
+    .line 477
+    :cond_7
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->addMeasureItem(I)V
 
-    .line 459
-    :cond_6
+    goto :goto_4
+
+    .line 480
+    :cond_8
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->changeMeasureItem(I)V
+
+    .line 484
+    :goto_4
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p4
@@ -1334,7 +1444,7 @@
 
     new-instance v1, Lcom/rigol/scope/data/TwoTuple;
 
-    .line 460
+    .line 485
     invoke-static {p5}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p5
@@ -1345,17 +1455,17 @@
 
     invoke-direct {v1, p5, p1}, Lcom/rigol/scope/data/TwoTuple;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 459
+    .line 484
     invoke-virtual {p4, p2, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(IILjava/lang/Object;)V
 
-    .line 462
+    .line 487
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
 
-    new-instance p2, Lcom/rigol/scope/views/measure/MeasurePopupView$3;
+    new-instance p2, Lcom/rigol/scope/views/measure/MeasurePopupView$4;
 
-    invoke-direct {p2, p0, p3}, Lcom/rigol/scope/views/measure/MeasurePopupView$3;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;Ljava/util/List;)V
+    invoke-direct {p2, p0, p3}, Lcom/rigol/scope/views/measure/MeasurePopupView$4;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;Ljava/util/List;)V
 
     const-wide/16 p3, 0x64
 
@@ -1367,24 +1477,24 @@
 .method public onLocaleChanged()V
     .locals 2
 
-    .line 394
+    .line 408
     invoke-super {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onLocaleChanged()V
 
     const v0, 0x7f03002f
 
-    .line 395
+    .line 409
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->tabTitles:Ljava/util/List;
 
-    .line 397
+    .line 411
     sget-object v0, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->pagerResouces:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 398
+    .line 412
     sget-object v0, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->pagerResouces:Ljava/util/List;
 
     const v1, 0x7f030053
@@ -1395,7 +1505,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 399
+    .line 413
     sget-object v0, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->pagerResouces:Ljava/util/List;
 
     const v1, 0x7f030035
@@ -1406,7 +1516,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 400
+    .line 414
     sget-object v0, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->pagerResouces:Ljava/util/List;
 
     const v1, 0x7f030041
@@ -1417,7 +1527,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 401
+    .line 415
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->viewPagerAdapter:Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;
 
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/MeasureViewPagerAdapter;->notifyDataSetChanged()V
@@ -1428,7 +1538,7 @@
 .method public onPanelKeyUp(ILandroid/view/KeyEvent;)V
     .locals 3
 
-    .line 307
+    .line 321
     invoke-super {p0, p1, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->onPanelKeyUp(ILandroid/view/KeyEvent;)V
 
     const/16 p2, 0x51
@@ -1445,19 +1555,19 @@
 
     goto :goto_0
 
-    .line 311
+    .line 325
     :cond_0
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectedItemCCW()V
 
     goto :goto_0
 
-    .line 315
+    .line 329
     :cond_1
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectedItemCW()V
 
     goto :goto_0
 
-    .line 318
+    .line 332
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
@@ -1471,14 +1581,14 @@
 
     check-cast p1, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 319
+    .line 333
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAt(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 320
+    .line 334
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1497,7 +1607,7 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 321
+    .line 335
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getChildCount()I
 
     move-result p1
@@ -1510,10 +1620,10 @@
 
     new-array p2, p2, [Ljava/lang/Object;
 
-    .line 320
+    .line 334
     invoke-static {p1, p2}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 323
+    .line 337
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p1
@@ -1522,7 +1632,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 325
+    .line 339
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->getCurrentItem()I
 
     move-result p1
@@ -1541,13 +1651,22 @@
 .method protected onPrepare()V
     .locals 1
 
-    .line 476
+    .line 501
     invoke-super {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onPrepare()V
 
-    .line 477
+    .line 502
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->verticalParams:Ljava/util/List;
 
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setSelectSourceA(Ljava/util/List;)V
+
+    return-void
+.end method
+
+.method public setGravity(I)V
+    .locals 0
+
+    .line 510
+    iput p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->gravity:I
 
     return-void
 .end method
@@ -1557,7 +1676,7 @@
 
     const/4 v0, 0x1
 
-    .line 231
+    .line 245
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setPageCurrentItem(IZ)V
 
     return-void
@@ -1566,7 +1685,7 @@
 .method public setPageCurrentItem(IZ)V
     .locals 1
 
-    .line 235
+    .line 249
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewMeasureBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewMeasureBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -1579,10 +1698,10 @@
 .method public showAsDropDown(Landroid/view/View;III)V
     .locals 0
 
-    .line 361
+    .line 375
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->refreshPageCurrentItem()V
 
-    .line 362
+    .line 376
     invoke-super {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAsDropDown(Landroid/view/View;III)V
 
     return-void
@@ -1591,10 +1710,10 @@
 .method public showAtLocation(Landroid/view/View;III)V
     .locals 0
 
-    .line 388
+    .line 402
     invoke-direct {p0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->refreshPageCurrentItem()V
 
-    .line 389
+    .line 403
     invoke-super {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAtLocation(Landroid/view/View;III)V
 
     return-void

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 5173
+    .line 5310
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$430;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$430;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -51,19 +51,19 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 5176
+    .line 5313
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$430;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readBus_ONOFF()V
 
-    .line 5178
+    .line 5315
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;->refreshCHList()V
 
-    .line 5180
+    .line 5317
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -78,7 +78,7 @@
 
     iput-boolean v0, p1, Lcom/rigol/scope/utilities/FunctionManager;->decodeSwitch:Z
 
-    .line 5181
+    .line 5318
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -101,7 +101,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 5173
+    .line 5310
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$430;->onChanged(Ljava/lang/Boolean;)V

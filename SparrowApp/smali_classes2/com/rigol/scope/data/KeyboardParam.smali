@@ -329,7 +329,7 @@
 
     invoke-static {p1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    const/16 p1, 0x46
+    const/16 p1, 0x48
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -343,7 +343,7 @@
     .line 59
     iput-wide p1, p0, Lcom/rigol/scope/data/KeyboardParam;->defaultValue:D
 
-    const/16 p1, 0xdc
+    const/16 p1, 0xdf
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -357,7 +357,7 @@
     .line 45
     iput-wide p1, p0, Lcom/rigol/scope/data/KeyboardParam;->maxValue:D
 
-    const/16 p1, 0x208
+    const/16 p1, 0x20c
 
     .line 46
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -371,7 +371,7 @@
     .line 52
     iput-wide p1, p0, Lcom/rigol/scope/data/KeyboardParam;->minValue:D
 
-    const/16 p1, 0x219
+    const/16 p1, 0x21d
 
     .line 53
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V

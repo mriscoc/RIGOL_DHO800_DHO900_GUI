@@ -1199,8 +1199,8 @@
         0x7f0a0027 -> :sswitch_4
         0x7f0a0028 -> :sswitch_3
         0x7f0a00d0 -> :sswitch_2
-        0x7f0a0875 -> :sswitch_1
-        0x7f0a0a6f -> :sswitch_0
+        0x7f0a0890 -> :sswitch_1
+        0x7f0a0a8a -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1449,7 +1449,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a0b24
+    const p1, 0x7f0a0b41
 
     const/4 v1, 0x1
 
@@ -1613,7 +1613,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const p1, 0x7f0a061d
+    const p1, 0x7f0a0626
 
     if-ne v0, p1, :cond_4
 
@@ -1632,7 +1632,7 @@
     goto/16 :goto_1
 
     :cond_4
-    const p1, 0x7f0a08ff
+    const p1, 0x7f0a091a
 
     if-ne v0, p1, :cond_5
 
@@ -1651,7 +1651,7 @@
     goto/16 :goto_1
 
     :cond_5
-    const p1, 0x7f0a0b45
+    const p1, 0x7f0a0b62
 
     if-ne v0, p1, :cond_7
 
@@ -1928,7 +1928,7 @@
     goto/16 :goto_69
 
     :cond_1
-    const v3, 0x7f0a0875
+    const v3, 0x7f0a0890
 
     if-ne v1, v3, :cond_2
 
@@ -2140,7 +2140,7 @@
     goto/16 :goto_69
 
     :cond_7
-    const v3, 0x7f0a0a6f
+    const v3, 0x7f0a0a8a
 
     if-ne v1, v3, :cond_9
 
@@ -6224,7 +6224,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0xc9
+    const/16 v1, 0xcc
 
     .line 1117
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -6232,7 +6232,7 @@
     .line 1119
     iget-object v0, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
-    const/16 v1, 0x3fc
+    const/16 v1, 0x406
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
 

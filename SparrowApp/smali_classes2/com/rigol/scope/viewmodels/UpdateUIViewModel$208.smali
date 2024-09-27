@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/CursorResultParam;)V
     .locals 0
 
-    .line 2635
+    .line 2772
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$208;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$208;->val$param:Lcom/rigol/scope/data/CursorResultParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 2638
+    .line 2775
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$208;->val$param:Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->readBy()J
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2635
+    .line 2772
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$208;->onChanged(Ljava/lang/Boolean;)V

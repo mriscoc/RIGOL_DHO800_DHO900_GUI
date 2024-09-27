@@ -721,15 +721,15 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a05e8 -> :sswitch_8
-        0x7f0a05e9 -> :sswitch_7
-        0x7f0a0604 -> :sswitch_6
-        0x7f0a0652 -> :sswitch_5
-        0x7f0a070b -> :sswitch_4
-        0x7f0a070c -> :sswitch_3
-        0x7f0a08c7 -> :sswitch_2
-        0x7f0a09d5 -> :sswitch_1
-        0x7f0a0a90 -> :sswitch_0
+        0x7f0a05f1 -> :sswitch_8
+        0x7f0a05f2 -> :sswitch_7
+        0x7f0a060d -> :sswitch_6
+        0x7f0a065d -> :sswitch_5
+        0x7f0a0718 -> :sswitch_4
+        0x7f0a0719 -> :sswitch_3
+        0x7f0a08e2 -> :sswitch_2
+        0x7f0a09f0 -> :sswitch_1
+        0x7f0a0aab -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1094,15 +1094,15 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0604
+    const v0, 0x7f0a060d
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0a08c7
+    const v0, 0x7f0a08e2
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a0a90
+    const v0, 0x7f0a0aab
 
     if-eq p1, v0, :cond_1
 
@@ -1198,15 +1198,15 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0a0604
+    const v0, 0x7f0a060d
 
     if-eq p2, v0, :cond_3
 
-    const v0, 0x7f0a08c7
+    const v0, 0x7f0a08e2
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a0a90
+    const v0, 0x7f0a0aab
 
     if-eq p2, v0, :cond_1
 

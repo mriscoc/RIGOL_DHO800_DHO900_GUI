@@ -379,83 +379,87 @@
 
 .field private static final LAYOUT_POPUPVIEWOPENSOURCE:I = 0xb6
 
-.field private static final LAYOUT_POPUPVIEWPROBE:I = 0xb7
+.field private static final LAYOUT_POPUPVIEWPOWER:I = 0xb7
 
-.field private static final LAYOUT_POPUPVIEWREF:I = 0xb8
+.field private static final LAYOUT_POPUPVIEWPROBE:I = 0xb8
 
-.field private static final LAYOUT_POPUPVIEWREMIND:I = 0xb9
+.field private static final LAYOUT_POPUPVIEWREF:I = 0xb9
 
-.field private static final LAYOUT_POPUPVIEWRESULTCOUNTER:I = 0xba
+.field private static final LAYOUT_POPUPVIEWREMIND:I = 0xba
 
-.field private static final LAYOUT_POPUPVIEWRESULTCURSOR:I = 0xbb
+.field private static final LAYOUT_POPUPVIEWRESULTCOUNTER:I = 0xbb
 
-.field private static final LAYOUT_POPUPVIEWRESULTDVM:I = 0xbc
+.field private static final LAYOUT_POPUPVIEWRESULTCURSOR:I = 0xbc
 
-.field private static final LAYOUT_POPUPVIEWRESULTHISTOGRAM:I = 0xbd
+.field private static final LAYOUT_POPUPVIEWRESULTDVM:I = 0xbd
 
-.field private static final LAYOUT_POPUPVIEWRESULTMEASURE:I = 0xbe
+.field private static final LAYOUT_POPUPVIEWRESULTHISTOGRAM:I = 0xbe
 
-.field private static final LAYOUT_POPUPVIEWRTSA:I = 0xbf
+.field private static final LAYOUT_POPUPVIEWRESULTMEASURE:I = 0xbf
 
-.field private static final LAYOUT_POPUPVIEWSAVE:I = 0xc0
+.field private static final LAYOUT_POPUPVIEWRTSA:I = 0xc0
 
-.field private static final LAYOUT_POPUPVIEWSCREENFLIP:I = 0xc1
+.field private static final LAYOUT_POPUPVIEWSAVE:I = 0xc1
 
-.field private static final LAYOUT_POPUPVIEWSEARCH:I = 0xc2
+.field private static final LAYOUT_POPUPVIEWSCREENFLIP:I = 0xc2
 
-.field private static final LAYOUT_POPUPVIEWSPINNER:I = 0xc3
+.field private static final LAYOUT_POPUPVIEWSEARCH:I = 0xc3
 
-.field private static final LAYOUT_POPUPVIEWSTARTMENU:I = 0xc4
+.field private static final LAYOUT_POPUPVIEWSMBSETTING:I = 0xc4
 
-.field private static final LAYOUT_POPUPVIEWSTORAGE:I = 0xc5
+.field private static final LAYOUT_POPUPVIEWSPINNER:I = 0xc5
 
-.field private static final LAYOUT_POPUPVIEWTRIGGER:I = 0xc6
+.field private static final LAYOUT_POPUPVIEWSTARTMENU:I = 0xc6
 
-.field private static final LAYOUT_POPUPVIEWUPA:I = 0xc7
+.field private static final LAYOUT_POPUPVIEWSTORAGE:I = 0xc7
 
-.field private static final LAYOUT_POPUPVIEWUPDATE:I = 0xc8
+.field private static final LAYOUT_POPUPVIEWTRIGGER:I = 0xc8
 
-.field private static final LAYOUT_POPUPVIEWUPGRADE:I = 0xc9
+.field private static final LAYOUT_POPUPVIEWUPA:I = 0xc9
 
-.field private static final LAYOUT_POPUPVIEWUTILITY:I = 0xca
+.field private static final LAYOUT_POPUPVIEWUPDATE:I = 0xca
 
-.field private static final LAYOUT_POPUPVIEWVERTICAL:I = 0xcb
+.field private static final LAYOUT_POPUPVIEWUPGRADE:I = 0xcb
 
-.field private static final LAYOUT_POPUPVIEWWAVEINTENSITY:I = 0xcc
+.field private static final LAYOUT_POPUPVIEWUTILITY:I = 0xcc
 
-.field private static final LAYOUT_POPUPVIEWWAVERECORD:I = 0xcd
+.field private static final LAYOUT_POPUPVIEWVERTICAL:I = 0xcd
 
-.field private static final LAYOUT_POPUPVIEWXY:I = 0xce
+.field private static final LAYOUT_POPUPVIEWWAVEINTENSITY:I = 0xce
 
-.field private static final LAYOUT_POPUVIEWHELP:I = 0xcf
+.field private static final LAYOUT_POPUPVIEWWAVERECORD:I = 0xcf
 
-.field private static final LAYOUT_POPUVIEWMINIBODE:I = 0xd0
+.field private static final LAYOUT_POPUPVIEWXY:I = 0xd0
 
-.field private static final LAYOUT_PRESENTATIONMINISCREEN:I = 0xd1
+.field private static final LAYOUT_POPUVIEWHELP:I = 0xd1
 
-.field private static final LAYOUT_PRESENTATIONMOTOR:I = 0xd2
+.field private static final LAYOUT_POPUVIEWMINIBODE:I = 0xd2
 
-.field private static final LAYOUT_TABLESIMPLE:I = 0xd3
+.field private static final LAYOUT_PRESENTATIONMINISCREEN:I = 0xd3
 
-.field private static final LAYOUT_UPAPOPPVIEWRIPPER:I = 0xd4
+.field private static final LAYOUT_PRESENTATIONMOTOR:I = 0xd4
 
-.field private static final LAYOUT_UPAPOPUPVIEWCONNECTION:I = 0xd5
+.field private static final LAYOUT_TABLESIMPLE:I = 0xd5
 
-.field private static final LAYOUT_WINDOWBODE:I = 0xd6
+.field private static final LAYOUT_UPAPOPPVIEWRIPPER:I = 0xd6
 
-.field private static final LAYOUT_WINDOWSIMPLE:I = 0xd7
+.field private static final LAYOUT_UPAPOPUPVIEWCONNECTION:I = 0xd7
 
-.field private static final LAYOUT_WINDOWWAVEFORM:I = 0xd8
+.field private static final LAYOUT_WINDOWBODE:I = 0xd8
+
+.field private static final LAYOUT_WINDOWSIMPLE:I = 0xd9
+
+.field private static final LAYOUT_WINDOWWAVEFORM:I = 0xda
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 668
+    .line 674
     new-instance v0, Landroid/util/SparseIntArray;
 
-    const/16 v1, 0xd8
+    const/16 v1, 0xda
 
     invoke-direct {v0, v1}, Landroid/util/SparseIntArray;-><init>(I)V
 
@@ -465,10 +469,10 @@
 
     const/4 v3, 0x1
 
-    .line 671
+    .line 677
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 672
+    .line 678
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d001d
@@ -477,7 +481,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 673
+    .line 679
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d001e
@@ -486,7 +490,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 674
+    .line 680
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d001f
@@ -495,7 +499,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 675
+    .line 681
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0020
@@ -504,7 +508,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 676
+    .line 682
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0023
@@ -513,7 +517,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 677
+    .line 683
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0024
@@ -522,7 +526,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 678
+    .line 684
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0025
@@ -531,7 +535,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 679
+    .line 685
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0026
@@ -540,7 +544,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 680
+    .line 686
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0027
@@ -549,7 +553,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 681
+    .line 687
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0028
@@ -558,7 +562,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 682
+    .line 688
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0029
@@ -567,7 +571,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 683
+    .line 689
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d002a
@@ -576,7 +580,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 684
+    .line 690
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d002b
@@ -585,7 +589,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 685
+    .line 691
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d002c
@@ -594,7 +598,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 686
+    .line 692
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d002d
@@ -603,7 +607,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 687
+    .line 693
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d002e
@@ -612,7 +616,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 688
+    .line 694
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d002f
@@ -621,7 +625,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 689
+    .line 695
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0030
@@ -630,7 +634,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 690
+    .line 696
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0031
@@ -639,7 +643,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 691
+    .line 697
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0032
@@ -648,7 +652,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 692
+    .line 698
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0033
@@ -657,7 +661,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 693
+    .line 699
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0034
@@ -666,7 +670,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 694
+    .line 700
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0035
@@ -675,7 +679,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 695
+    .line 701
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0036
@@ -684,7 +688,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 696
+    .line 702
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0037
@@ -693,7 +697,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 697
+    .line 703
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0038
@@ -702,7 +706,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 698
+    .line 704
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0039
@@ -711,7 +715,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 699
+    .line 705
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d003a
@@ -720,7 +724,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 700
+    .line 706
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d003b
@@ -729,7 +733,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 701
+    .line 707
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d003c
@@ -738,7 +742,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 702
+    .line 708
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d003d
@@ -747,7 +751,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 703
+    .line 709
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d003e
@@ -756,7 +760,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 704
+    .line 710
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d003f
@@ -765,7 +769,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 705
+    .line 711
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0040
@@ -774,7 +778,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 706
+    .line 712
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0041
@@ -783,7 +787,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 707
+    .line 713
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0042
@@ -792,7 +796,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 708
+    .line 714
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0043
@@ -801,7 +805,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 709
+    .line 715
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0044
@@ -810,7 +814,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 710
+    .line 716
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0045
@@ -819,7 +823,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 711
+    .line 717
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0046
@@ -828,7 +832,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 712
+    .line 718
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0047
@@ -837,7 +841,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 713
+    .line 719
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0048
@@ -846,7 +850,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 714
+    .line 720
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0049
@@ -855,7 +859,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 715
+    .line 721
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d004a
@@ -864,7 +868,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 716
+    .line 722
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d004b
@@ -873,7 +877,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 717
+    .line 723
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d004c
@@ -882,7 +886,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 718
+    .line 724
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d004d
@@ -891,7 +895,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 719
+    .line 725
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d004e
@@ -900,7 +904,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 720
+    .line 726
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d004f
@@ -909,7 +913,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 721
+    .line 727
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0050
@@ -918,7 +922,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 722
+    .line 728
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0051
@@ -927,7 +931,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 723
+    .line 729
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0052
@@ -936,7 +940,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 724
+    .line 730
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0053
@@ -945,7 +949,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 725
+    .line 731
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0054
@@ -954,7 +958,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 726
+    .line 732
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0055
@@ -963,7 +967,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 727
+    .line 733
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0056
@@ -972,7 +976,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 728
+    .line 734
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0057
@@ -981,7 +985,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 729
+    .line 735
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0058
@@ -990,7 +994,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 730
+    .line 736
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0059
@@ -999,7 +1003,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 731
+    .line 737
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d005a
@@ -1008,7 +1012,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 732
+    .line 738
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d005b
@@ -1017,7 +1021,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 733
+    .line 739
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d005c
@@ -1026,7 +1030,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 734
+    .line 740
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d005d
@@ -1035,7 +1039,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 735
+    .line 741
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d005e
@@ -1044,7 +1048,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 736
+    .line 742
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d005f
@@ -1053,7 +1057,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 737
+    .line 743
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0060
@@ -1062,7 +1066,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 738
+    .line 744
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0061
@@ -1071,7 +1075,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 739
+    .line 745
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0062
@@ -1080,7 +1084,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 740
+    .line 746
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0063
@@ -1089,7 +1093,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 741
+    .line 747
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0064
@@ -1098,7 +1102,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 742
+    .line 748
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0065
@@ -1107,7 +1111,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 743
+    .line 749
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0067
@@ -1116,7 +1120,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 744
+    .line 750
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0068
@@ -1125,7 +1129,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 745
+    .line 751
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0069
@@ -1134,7 +1138,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 746
+    .line 752
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d006a
@@ -1143,7 +1147,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 747
+    .line 753
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d006b
@@ -1152,7 +1156,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 748
+    .line 754
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d006c
@@ -1161,7 +1165,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 749
+    .line 755
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d006d
@@ -1170,7 +1174,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 750
+    .line 756
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d006e
@@ -1179,7 +1183,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 751
+    .line 757
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d006f
@@ -1188,7 +1192,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 752
+    .line 758
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0070
@@ -1197,7 +1201,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 753
+    .line 759
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0071
@@ -1206,7 +1210,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 754
+    .line 760
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0072
@@ -1215,7 +1219,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 755
+    .line 761
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0073
@@ -1224,7 +1228,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 756
+    .line 762
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0074
@@ -1233,7 +1237,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 757
+    .line 763
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0075
@@ -1242,7 +1246,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 758
+    .line 764
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0076
@@ -1251,7 +1255,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 759
+    .line 765
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0077
@@ -1260,7 +1264,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 760
+    .line 766
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0078
@@ -1269,7 +1273,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 761
+    .line 767
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0079
@@ -1278,7 +1282,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 762
+    .line 768
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d007a
@@ -1287,7 +1291,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 763
+    .line 769
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d007b
@@ -1296,7 +1300,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 764
+    .line 770
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d007c
@@ -1305,7 +1309,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 765
+    .line 771
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d007d
@@ -1314,7 +1318,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 766
+    .line 772
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d007e
@@ -1323,7 +1327,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 767
+    .line 773
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d007f
@@ -1332,7 +1336,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 768
+    .line 774
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0080
@@ -1341,7 +1345,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 769
+    .line 775
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0081
@@ -1350,7 +1354,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 770
+    .line 776
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0082
@@ -1359,7 +1363,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 771
+    .line 777
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0083
@@ -1368,7 +1372,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 772
+    .line 778
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0084
@@ -1377,7 +1381,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 773
+    .line 779
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0085
@@ -1386,7 +1390,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 774
+    .line 780
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0086
@@ -1395,7 +1399,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 775
+    .line 781
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0087
@@ -1404,7 +1408,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 776
+    .line 782
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0088
@@ -1413,7 +1417,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 777
+    .line 783
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0089
@@ -1422,7 +1426,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 778
+    .line 784
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d008a
@@ -1431,7 +1435,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 779
+    .line 785
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d008b
@@ -1440,7 +1444,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 780
+    .line 786
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d008c
@@ -1449,7 +1453,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 781
+    .line 787
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d008d
@@ -1458,7 +1462,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 782
+    .line 788
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d008e
@@ -1467,7 +1471,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 783
+    .line 789
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d008f
@@ -1476,7 +1480,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 784
+    .line 790
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0090
@@ -1485,7 +1489,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 785
+    .line 791
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0091
@@ -1494,7 +1498,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 786
+    .line 792
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0092
@@ -1503,7 +1507,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 787
+    .line 793
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0093
@@ -1512,7 +1516,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 788
+    .line 794
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0094
@@ -1521,7 +1525,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 789
+    .line 795
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0095
@@ -1530,7 +1534,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 790
+    .line 796
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0096
@@ -1539,7 +1543,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 791
+    .line 797
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0097
@@ -1548,7 +1552,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 792
+    .line 798
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0098
@@ -1557,7 +1561,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 793
+    .line 799
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0099
@@ -1566,7 +1570,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 794
+    .line 800
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d009a
@@ -1575,7 +1579,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 795
+    .line 801
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d009b
@@ -1584,7 +1588,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 796
+    .line 802
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d009c
@@ -1593,7 +1597,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 797
+    .line 803
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d009d
@@ -1602,7 +1606,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 798
+    .line 804
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d009e
@@ -1611,7 +1615,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 799
+    .line 805
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d009f
@@ -1620,7 +1624,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 800
+    .line 806
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a0
@@ -1629,7 +1633,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 801
+    .line 807
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a1
@@ -1638,7 +1642,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 802
+    .line 808
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a2
@@ -1647,7 +1651,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 803
+    .line 809
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a3
@@ -1656,7 +1660,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 804
+    .line 810
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a4
@@ -1665,7 +1669,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 805
+    .line 811
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a5
@@ -1674,7 +1678,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 806
+    .line 812
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a6
@@ -1683,7 +1687,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 807
+    .line 813
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00a9
@@ -1692,7 +1696,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 808
+    .line 814
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00ac
@@ -1701,7 +1705,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 809
+    .line 815
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00ae
@@ -1710,7 +1714,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 810
+    .line 816
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c0
@@ -1719,7 +1723,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 811
+    .line 817
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c1
@@ -1728,7 +1732,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 812
+    .line 818
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c2
@@ -1737,7 +1741,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 813
+    .line 819
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c3
@@ -1746,7 +1750,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 814
+    .line 820
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c4
@@ -1755,7 +1759,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 815
+    .line 821
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c5
@@ -1764,7 +1768,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 816
+    .line 822
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00c6
@@ -1773,7 +1777,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 817
+    .line 823
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f2
@@ -1782,7 +1786,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 818
+    .line 824
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f3
@@ -1791,7 +1795,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 819
+    .line 825
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f4
@@ -1800,7 +1804,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 820
+    .line 826
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f5
@@ -1809,7 +1813,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 821
+    .line 827
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f6
@@ -1818,7 +1822,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 822
+    .line 828
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f7
@@ -1827,7 +1831,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 823
+    .line 829
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f8
@@ -1836,7 +1840,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 824
+    .line 830
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00f9
@@ -1845,7 +1849,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 825
+    .line 831
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00fa
@@ -1854,7 +1858,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 826
+    .line 832
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00fb
@@ -1863,7 +1867,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 827
+    .line 833
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00fc
@@ -1872,7 +1876,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 828
+    .line 834
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00fd
@@ -1881,7 +1885,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 829
+    .line 835
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00fe
@@ -1890,7 +1894,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 830
+    .line 836
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d00ff
@@ -1899,7 +1903,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 831
+    .line 837
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0100
@@ -1908,7 +1912,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 832
+    .line 838
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0101
@@ -1917,7 +1921,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 833
+    .line 839
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0102
@@ -1926,7 +1930,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 834
+    .line 840
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0103
@@ -1935,7 +1939,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 835
+    .line 841
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0104
@@ -1944,7 +1948,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 836
+    .line 842
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0105
@@ -1953,7 +1957,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 837
+    .line 843
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0106
@@ -1962,7 +1966,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 838
+    .line 844
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0107
@@ -1971,7 +1975,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 839
+    .line 845
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0108
@@ -1980,7 +1984,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 840
+    .line 846
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0109
@@ -1989,7 +1993,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 841
+    .line 847
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d010a
@@ -1998,7 +2002,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 842
+    .line 848
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d010b
@@ -2007,7 +2011,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 843
+    .line 849
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d010c
@@ -2016,7 +2020,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 844
+    .line 850
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d010d
@@ -2025,7 +2029,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 845
+    .line 851
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d010e
@@ -2034,7 +2038,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 846
+    .line 852
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d010f
@@ -2043,7 +2047,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 847
+    .line 853
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0110
@@ -2052,7 +2056,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 848
+    .line 854
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0111
@@ -2061,7 +2065,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 849
+    .line 855
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0112
@@ -2070,7 +2074,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 850
+    .line 856
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0113
@@ -2079,7 +2083,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 851
+    .line 857
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0114
@@ -2088,7 +2092,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 852
+    .line 858
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0115
@@ -2097,7 +2101,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 853
+    .line 859
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0116
@@ -2106,7 +2110,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 854
+    .line 860
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0117
@@ -2115,7 +2119,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 855
+    .line 861
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0118
@@ -2124,7 +2128,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 856
+    .line 862
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0119
@@ -2133,7 +2137,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 857
+    .line 863
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d011a
@@ -2142,7 +2146,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 858
+    .line 864
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d011b
@@ -2151,7 +2155,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 859
+    .line 865
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d011c
@@ -2160,7 +2164,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 860
+    .line 866
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d011d
@@ -2169,7 +2173,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 861
+    .line 867
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d011e
@@ -2178,7 +2182,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 862
+    .line 868
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d011f
@@ -2187,7 +2191,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 863
+    .line 869
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0120
@@ -2196,7 +2200,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 864
+    .line 870
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0121
@@ -2205,7 +2209,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 865
+    .line 871
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0122
@@ -2214,7 +2218,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 866
+    .line 872
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0123
@@ -2223,7 +2227,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 867
+    .line 873
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0124
@@ -2232,7 +2236,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 868
+    .line 874
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0125
@@ -2241,7 +2245,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 869
+    .line 875
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0126
@@ -2250,7 +2254,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 870
+    .line 876
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0127
@@ -2259,7 +2263,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 871
+    .line 877
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0128
@@ -2268,7 +2272,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 872
+    .line 878
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0129
@@ -2277,25 +2281,25 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 873
+    .line 879
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d012b
+    const v2, 0x7f0d012a
 
     const/16 v3, 0xcb
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 874
+    .line 880
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d012c
+    const v2, 0x7f0d012b
 
     const/16 v3, 0xcc
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 875
+    .line 881
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d012d
@@ -2304,7 +2308,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 876
+    .line 882
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d012e
@@ -2313,7 +2317,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 877
+    .line 883
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d012f
@@ -2322,7 +2326,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 878
+    .line 884
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0130
@@ -2331,7 +2335,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 879
+    .line 885
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0131
@@ -2340,7 +2344,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 880
+    .line 886
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d0132
@@ -2349,55 +2353,73 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 881
+    .line 887
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d0138
+    const v2, 0x7f0d0133
 
     const/16 v3, 0xd3
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 882
+    .line 888
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d0147
+    const v2, 0x7f0d0134
 
     const/16 v3, 0xd4
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 883
+    .line 889
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d0148
+    const v2, 0x7f0d013a
 
     const/16 v3, 0xd5
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 884
+    .line 890
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d014a
+    const v2, 0x7f0d0149
 
     const/16 v3, 0xd6
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 885
+    .line 891
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0d014b
+    const v2, 0x7f0d014a
 
     const/16 v3, 0xd7
 
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 886
+    .line 892
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     const v2, 0x7f0d014c
+
+    const/16 v3, 0xd8
+
+    invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
+
+    .line 893
+    sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
+
+    const v2, 0x7f0d014d
+
+    const/16 v3, 0xd9
+
+    invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
+
+    .line 894
+    sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
+
+    const v2, 0x7f0d014e
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -2407,7 +2429,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 235
+    .line 237
     invoke-direct {p0}, Landroidx/databinding/DataBinderMapper;-><init>()V
 
     return-void
@@ -2425,21 +2447,21 @@
     :pswitch_0
     const-string p3, "layout/adapter_item_result_dvm_0"
 
-    .line 1187
+    .line 1195
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 1188
+    .line 1196
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1190
+    .line 1198
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2464,21 +2486,21 @@
     :pswitch_1
     const-string p3, "layout/adapter_item_result_cursor_0"
 
-    .line 1181
+    .line 1189
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 1182
+    .line 1190
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultCursorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultCursorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1184
+    .line 1192
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2503,21 +2525,21 @@
     :pswitch_2
     const-string p3, "layout/adapter_item_result_counter_0"
 
-    .line 1175
+    .line 1183
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 1176
+    .line 1184
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1178
+    .line 1186
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2542,21 +2564,21 @@
     :pswitch_3
     const-string p3, "layout/adapter_item_recyclerview_0"
 
-    .line 1169
+    .line 1177
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 1170
+    .line 1178
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemRecyclerviewBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemRecyclerviewBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1172
+    .line 1180
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2581,21 +2603,21 @@
     :pswitch_4
     const-string p3, "layout/adapter_item_quality_0"
 
-    .line 1163
+    .line 1171
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 1164
+    .line 1172
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemQualityBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemQualityBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1166
+    .line 1174
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2620,21 +2642,21 @@
     :pswitch_5
     const-string p3, "layout/adapter_item_popupview_vertical_0"
 
-    .line 1157
+    .line 1165
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_5
 
-    .line 1158
+    .line 1166
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1160
+    .line 1168
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2659,21 +2681,21 @@
     :pswitch_6
     const-string p3, "layout/adapter_item_popupview_probe_0"
 
-    .line 1151
+    .line 1159
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_6
 
-    .line 1152
+    .line 1160
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1154
+    .line 1162
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2698,21 +2720,21 @@
     :pswitch_7
     const-string p3, "layout/adapter_item_popupview_measure_0"
 
-    .line 1145
+    .line 1153
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_7
 
-    .line 1146
+    .line 1154
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemPopupviewMeasureBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewMeasureBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1148
+    .line 1156
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2737,21 +2759,21 @@
     :pswitch_8
     const-string p3, "layout/adapter_item_popupview_flex_knob_0"
 
-    .line 1139
+    .line 1147
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_8
 
-    .line 1140
+    .line 1148
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemPopupviewFlexKnobBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewFlexKnobBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1142
+    .line 1150
     :cond_8
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2776,21 +2798,21 @@
     :pswitch_9
     const-string p3, "layout/adapter_item_popupview_decode_0"
 
-    .line 1133
+    .line 1141
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_9
 
-    .line 1134
+    .line 1142
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1136
+    .line 1144
     :cond_9
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2815,21 +2837,21 @@
     :pswitch_a
     const-string p3, "layout/adapter_item_option_0"
 
-    .line 1127
+    .line 1135
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_a
 
-    .line 1128
+    .line 1136
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemOptionBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemOptionBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1130
+    .line 1138
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2854,21 +2876,21 @@
     :pswitch_b
     const-string p3, "layout/adapter_item_math_0"
 
-    .line 1121
+    .line 1129
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_b
 
-    .line 1122
+    .line 1130
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemMathBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemMathBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1124
+    .line 1132
     :cond_b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2893,21 +2915,21 @@
     :pswitch_c
     const-string p3, "layout/adapter_item_la_0"
 
-    .line 1115
+    .line 1123
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_c
 
-    .line 1116
+    .line 1124
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemLaBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemLaBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1118
+    .line 1126
     :cond_c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2932,21 +2954,21 @@
     :pswitch_d
     const-string p3, "layout/adapter_item_flex_knob_0"
 
-    .line 1109
+    .line 1117
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_d
 
-    .line 1110
+    .line 1118
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemFlexKnobBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemFlexKnobBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1112
+    .line 1120
     :cond_d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2971,21 +2993,21 @@
     :pswitch_e
     const-string p3, "layout/adapter_item_disk_manage_0"
 
-    .line 1103
+    .line 1111
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_e
 
-    .line 1104
+    .line 1112
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemDiskManageBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemDiskManageBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1106
+    .line 1114
     :cond_e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3010,21 +3032,21 @@
     :pswitch_f
     const-string p3, "layout/adapter_item_autoset_0"
 
-    .line 1097
+    .line 1105
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_f
 
-    .line 1098
+    .line 1106
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemAutosetBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemAutosetBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1100
+    .line 1108
     :cond_f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3049,21 +3071,21 @@
     :pswitch_10
     const-string p3, "layout/adapter_eye_pll_0"
 
-    .line 1091
+    .line 1099
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_10
 
-    .line 1092
+    .line 1100
     new-instance p3, Lcom/rigol/scope/databinding/AdapterEyePllBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterEyePllBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1094
+    .line 1102
     :cond_10
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3088,21 +3110,21 @@
     :pswitch_11
     const-string p3, "layout/adapter_eye_explicit_0"
 
-    .line 1085
+    .line 1093
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_11
 
-    .line 1086
+    .line 1094
     new-instance p3, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1088
+    .line 1096
     :cond_11
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3127,21 +3149,21 @@
     :pswitch_12
     const-string p3, "layout/adapter_eye_constant_0"
 
-    .line 1079
+    .line 1087
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_12
 
-    .line 1080
+    .line 1088
     new-instance p3, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1082
+    .line 1090
     :cond_12
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3166,21 +3188,21 @@
     :pswitch_13
     const-string p3, "layout/adapter_decode_usb_0"
 
-    .line 1073
+    .line 1081
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_13
 
-    .line 1074
+    .line 1082
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeUsbBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeUsbBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1076
+    .line 1084
     :cond_13
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3205,21 +3227,21 @@
     :pswitch_14
     const-string p3, "layout/adapter_decode_spi_0"
 
-    .line 1067
+    .line 1075
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_14
 
-    .line 1068
+    .line 1076
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeSpiBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeSpiBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1070
+    .line 1078
     :cond_14
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3244,21 +3266,21 @@
     :pswitch_15
     const-string p3, "layout/adapter_decode_sent_0"
 
-    .line 1061
+    .line 1069
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_15
 
-    .line 1062
+    .line 1070
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeSentBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeSentBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1064
+    .line 1072
     :cond_15
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3283,21 +3305,21 @@
     :pswitch_16
     const-string p3, "layout/adapter_decode_rs232_0"
 
-    .line 1055
+    .line 1063
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_16
 
-    .line 1056
+    .line 1064
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeRs232BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeRs232BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1058
+    .line 1066
     :cond_16
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3322,21 +3344,21 @@
     :pswitch_17
     const-string p3, "layout/adapter_decode_parallel_0"
 
-    .line 1049
+    .line 1057
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_17
 
-    .line 1050
+    .line 1058
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeParallelBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeParallelBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1052
+    .line 1060
     :cond_17
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3361,21 +3383,21 @@
     :pswitch_18
     const-string p3, "layout/adapter_decode_most_0"
 
-    .line 1043
+    .line 1051
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_18
 
-    .line 1044
+    .line 1052
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1046
+    .line 1054
     :cond_18
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3400,21 +3422,21 @@
     :pswitch_19
     const-string p3, "layout/adapter_decode_lin_0"
 
-    .line 1037
+    .line 1045
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_19
 
-    .line 1038
+    .line 1046
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1040
+    .line 1048
     :cond_19
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3439,21 +3461,21 @@
     :pswitch_1a
     const-string p3, "layout/adapter_decode_i2s_0"
 
-    .line 1031
+    .line 1039
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1a
 
-    .line 1032
+    .line 1040
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeI2sBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeI2sBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1034
+    .line 1042
     :cond_1a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3478,21 +3500,21 @@
     :pswitch_1b
     const-string p3, "layout/adapter_decode_i2c_0"
 
-    .line 1025
+    .line 1033
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1b
 
-    .line 1026
+    .line 1034
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeI2cBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeI2cBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1028
+    .line 1036
     :cond_1b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3517,21 +3539,21 @@
     :pswitch_1c
     const-string p3, "layout/adapter_decode_flexray_0"
 
-    .line 1019
+    .line 1027
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1c
 
-    .line 1020
+    .line 1028
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeFlexrayBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeFlexrayBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1022
+    .line 1030
     :cond_1c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3556,21 +3578,21 @@
     :pswitch_1d
     const-string p3, "layout/adapter_decode_can_0"
 
-    .line 1013
+    .line 1021
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1d
 
-    .line 1014
+    .line 1022
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeCanBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeCanBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1016
+    .line 1024
     :cond_1d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3595,21 +3617,21 @@
     :pswitch_1e
     const-string p3, "layout/adapter_decode_arinc429_0"
 
-    .line 1007
+    .line 1015
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1e
 
-    .line 1008
+    .line 1016
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecodeArinc429BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecodeArinc429BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1010
+    .line 1018
     :cond_1e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3634,21 +3656,21 @@
     :pswitch_1f
     const-string p3, "layout/adapter_decode_1553b_0"
 
-    .line 1001
+    .line 1009
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1f
 
-    .line 1002
+    .line 1010
     new-instance p3, Lcom/rigol/scope/databinding/AdapterDecode1553bBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterDecode1553bBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1004
+    .line 1012
     :cond_1f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3673,21 +3695,21 @@
     :pswitch_20
     const-string p3, "layout/adapter_bus_usb_analyse_0"
 
-    .line 995
+    .line 1003
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_20
 
-    .line 996
+    .line 1004
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusUsbAnalyseBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusUsbAnalyseBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 998
+    .line 1006
     :cond_20
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3712,21 +3734,21 @@
     :pswitch_21
     const-string p3, "layout/adapter_bus_setting_0"
 
-    .line 989
+    .line 997
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_21
 
-    .line 990
+    .line 998
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusSettingBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusSettingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 992
+    .line 1000
     :cond_21
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3751,21 +3773,21 @@
     :pswitch_22
     const-string p3, "layout/adapter_bus_eth_analyse_10baset_0"
 
-    .line 983
+    .line 991
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_22
 
-    .line 984
+    .line 992
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse10basetBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse10basetBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 986
+    .line 994
     :cond_22
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3790,21 +3812,21 @@
     :pswitch_23
     const-string p3, "layout/adapter_bus_eth_analyse_100baset_0"
 
-    .line 977
+    .line 985
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_23
 
-    .line 978
+    .line 986
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 980
+    .line 988
     :cond_23
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3829,21 +3851,21 @@
     :pswitch_24
     const-string p3, "layout/adapter_bus_eth_analyse_1000baset_0"
 
-    .line 971
+    .line 979
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_24
 
-    .line 972
+    .line 980
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse1000basetBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse1000basetBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 974
+    .line 982
     :cond_24
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3868,21 +3890,21 @@
     :pswitch_25
     const-string p3, "layout/adapter_bus_eth_analyse_0"
 
-    .line 965
+    .line 973
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_25
 
-    .line 966
+    .line 974
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 968
+    .line 976
     :cond_25
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3907,21 +3929,21 @@
     :pswitch_26
     const-string p3, "layout/adapter_bus_analyse_select_item_0"
 
-    .line 959
+    .line 967
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_26
 
-    .line 960
+    .line 968
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBusAnalyseSelectItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBusAnalyseSelectItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 962
+    .line 970
     :cond_26
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3946,21 +3968,21 @@
     :pswitch_27
     const-string p3, "layout/adapter_bode_saving_senior_0"
 
-    .line 953
+    .line 961
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_27
 
-    .line 954
+    .line 962
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 956
+    .line 964
     :cond_27
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3985,21 +4007,21 @@
     :pswitch_28
     const-string p3, "layout/adapter_bode_basic_senior_0"
 
-    .line 947
+    .line 955
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_28
 
-    .line 948
+    .line 956
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBodeBasicSeniorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBodeBasicSeniorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 950
+    .line 958
     :cond_28
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4024,21 +4046,21 @@
     :pswitch_29
     const-string p3, "layout/adapter_bode_af_senior_0"
 
-    .line 941
+    .line 949
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_29
 
-    .line 942
+    .line 950
     new-instance p3, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 944
+    .line 952
     :cond_29
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4063,21 +4085,21 @@
     :pswitch_2a
     const-string p3, "layout/adapter_awg_0"
 
-    .line 935
+    .line 943
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2a
 
-    .line 936
+    .line 944
     new-instance p3, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 938
+    .line 946
     :cond_2a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4102,21 +4124,21 @@
     :pswitch_2b
     const-string p3, "layout/adapter_afg_0"
 
-    .line 929
+    .line 937
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2b
 
-    .line 930
+    .line 938
     new-instance p3, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 932
+    .line 940
     :cond_2b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4141,21 +4163,21 @@
     :pswitch_2c
     const-string p3, "layout/activity_screen_saver_0"
 
-    .line 923
+    .line 931
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2c
 
-    .line 924
+    .line 932
     new-instance p3, Lcom/rigol/scope/databinding/ActivityScreenSaverBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/ActivityScreenSaverBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 926
+    .line 934
     :cond_2c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4180,21 +4202,21 @@
     :pswitch_2d
     const-string p3, "layout/activity_rigol_key_test3_0"
 
-    .line 917
+    .line 925
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2d
 
-    .line 918
+    .line 926
     new-instance p3, Lcom/rigol/scope/databinding/ActivityRigolKeyTest3BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/ActivityRigolKeyTest3BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 920
+    .line 928
     :cond_2d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4219,21 +4241,21 @@
     :pswitch_2e
     const-string p3, "layout/activity_rigol_key_test2_0"
 
-    .line 911
+    .line 919
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2e
 
-    .line 912
+    .line 920
     new-instance p3, Lcom/rigol/scope/databinding/ActivityRigolKeyTest2BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/ActivityRigolKeyTest2BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 914
+    .line 922
     :cond_2e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4258,21 +4280,21 @@
     :pswitch_2f
     const-string p3, "layout/activity_main_0"
 
-    .line 905
+    .line 913
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2f
 
-    .line 906
+    .line 914
     new-instance p3, Lcom/rigol/scope/databinding/ActivityMainBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/ActivityMainBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 908
+    .line 916
     :cond_2f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4297,21 +4319,21 @@
     :pswitch_30
     const-string p3, "layout/activity_image_preview_0"
 
-    .line 899
+    .line 907
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_30
 
-    .line 900
+    .line 908
     new-instance p3, Lcom/rigol/scope/databinding/ActivityImagePreviewBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/ActivityImagePreviewBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 902
+    .line 910
     :cond_30
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4336,21 +4358,21 @@
     :pswitch_31
     const-string p3, "layout/abapter_la_senior_0"
 
-    .line 893
+    .line 901
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_31
 
-    .line 894
+    .line 902
     new-instance p3, Lcom/rigol/scope/databinding/AbapterLaSeniorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AbapterLaSeniorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 896
+    .line 904
     :cond_31
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4441,21 +4463,21 @@
     :pswitch_0
     const-string p3, "layout/adapter_trigger_i2s_0"
 
-    .line 1494
+    .line 1502
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 1495
+    .line 1503
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerI2sBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerI2sBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1497
+    .line 1505
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4480,21 +4502,21 @@
     :pswitch_1
     const-string p3, "layout/adapter_trigger_i2c_0"
 
-    .line 1488
+    .line 1496
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 1489
+    .line 1497
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerI2cBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerI2cBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1491
+    .line 1499
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4519,21 +4541,21 @@
     :pswitch_2
     const-string p3, "layout/adapter_trigger_flexray_0"
 
-    .line 1482
+    .line 1490
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 1483
+    .line 1491
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerFlexrayBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerFlexrayBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1485
+    .line 1493
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4558,21 +4580,21 @@
     :pswitch_3
     const-string p3, "layout/adapter_trigger_edge_0"
 
-    .line 1476
+    .line 1484
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 1477
+    .line 1485
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerEdgeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerEdgeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1479
+    .line 1487
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4597,21 +4619,21 @@
     :pswitch_4
     const-string p3, "layout/adapter_trigger_duration_0"
 
-    .line 1470
+    .line 1478
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 1471
+    .line 1479
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerDurationBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerDurationBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1473
+    .line 1481
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4636,21 +4658,21 @@
     :pswitch_5
     const-string p3, "layout/adapter_trigger_delay_0"
 
-    .line 1464
+    .line 1472
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_5
 
-    .line 1465
+    .line 1473
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerDelayBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerDelayBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1467
+    .line 1475
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4675,21 +4697,21 @@
     :pswitch_6
     const-string p3, "layout/adapter_trigger_can_0"
 
-    .line 1458
+    .line 1466
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_6
 
-    .line 1459
+    .line 1467
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerCanBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerCanBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1461
+    .line 1469
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4714,21 +4736,21 @@
     :pswitch_7
     const-string p3, "layout/adapter_trigger_1553b_0"
 
-    .line 1452
+    .line 1460
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_7
 
-    .line 1453
+    .line 1461
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTrigger1553bBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTrigger1553bBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1455
+    .line 1463
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4753,21 +4775,21 @@
     :pswitch_8
     const-string p3, "layout/adapter_storage_upgrade_0"
 
-    .line 1446
+    .line 1454
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_8
 
-    .line 1447
+    .line 1455
     new-instance p3, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1449
+    .line 1457
     :cond_8
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4792,21 +4814,21 @@
     :pswitch_9
     const-string p3, "layout/adapter_storage_save_0"
 
-    .line 1440
+    .line 1448
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_9
 
-    .line 1441
+    .line 1449
     new-instance p3, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterStorageSaveBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1443
+    .line 1451
     :cond_9
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4831,21 +4853,21 @@
     :pswitch_a
     const-string p3, "layout/adapter_storage_load_0"
 
-    .line 1434
+    .line 1442
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_a
 
-    .line 1435
+    .line 1443
     new-instance p3, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1437
+    .line 1445
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4870,21 +4892,21 @@
     :pswitch_b
     const-string p3, "layout/adapter_stat_reset_0"
 
-    .line 1428
+    .line 1436
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_b
 
-    .line 1429
+    .line 1437
     new-instance p3, Lcom/rigol/scope/databinding/AdapterStatResetBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterStatResetBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1431
+    .line 1439
     :cond_b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4909,21 +4931,21 @@
     :pswitch_c
     const-string p3, "layout/adapter_search_trigger_pulse_0"
 
-    .line 1422
+    .line 1430
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_c
 
-    .line 1423
+    .line 1431
     new-instance p3, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1425
+    .line 1433
     :cond_c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4948,21 +4970,21 @@
     :pswitch_d
     const-string p3, "layout/adapter_search_edge_0"
 
-    .line 1416
+    .line 1424
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_d
 
-    .line 1417
+    .line 1425
     new-instance p3, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1419
+    .line 1427
     :cond_d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -4987,21 +5009,21 @@
     :pswitch_e
     const-string p3, "layout/adapter_rtsa_peak_0"
 
-    .line 1410
+    .line 1418
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_e
 
-    .line 1411
+    .line 1419
     new-instance p3, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1413
+    .line 1421
     :cond_e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5026,21 +5048,21 @@
     :pswitch_f
     const-string p3, "layout/adapter_rtsa_marker_0"
 
-    .line 1404
+    .line 1412
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_f
 
-    .line 1405
+    .line 1413
     new-instance p3, Lcom/rigol/scope/databinding/AdapterRtsaMarkerBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterRtsaMarkerBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1407
+    .line 1415
     :cond_f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5065,21 +5087,21 @@
     :pswitch_10
     const-string p3, "layout/adapter_rtsa_basesetting_0"
 
-    .line 1398
+    .line 1406
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_10
 
-    .line 1399
+    .line 1407
     new-instance p3, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1401
+    .line 1409
     :cond_10
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5104,21 +5126,21 @@
     :pswitch_11
     const-string p3, "layout/adapter_math_logic_0"
 
-    .line 1392
+    .line 1400
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_11
 
-    .line 1393
+    .line 1401
     new-instance p3, Lcom/rigol/scope/databinding/AdapterMathLogicBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterMathLogicBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1395
+    .line 1403
     :cond_11
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5143,21 +5165,21 @@
     :pswitch_12
     const-string p3, "layout/adapter_math_fun_0"
 
-    .line 1386
+    .line 1394
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_12
 
-    .line 1387
+    .line 1395
     new-instance p3, Lcom/rigol/scope/databinding/AdapterMathFunBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterMathFunBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1389
+    .line 1397
     :cond_12
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5182,21 +5204,21 @@
     :pswitch_13
     const-string p3, "layout/adapter_math_filter_0"
 
-    .line 1380
+    .line 1388
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_13
 
-    .line 1381
+    .line 1389
     new-instance p3, Lcom/rigol/scope/databinding/AdapterMathFilterBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterMathFilterBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1383
+    .line 1391
     :cond_13
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5221,21 +5243,21 @@
     :pswitch_14
     const-string p3, "layout/adapter_math_fft_0"
 
-    .line 1374
+    .line 1382
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_14
 
-    .line 1375
+    .line 1383
     new-instance p3, Lcom/rigol/scope/databinding/AdapterMathFftBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterMathFftBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1377
+    .line 1385
     :cond_14
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5260,21 +5282,21 @@
     :pswitch_15
     const-string p3, "layout/adapter_math_arith_0"
 
-    .line 1368
+    .line 1376
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_15
 
-    .line 1369
+    .line 1377
     new-instance p3, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1371
+    .line 1379
     :cond_15
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5299,21 +5321,21 @@
     :pswitch_16
     const-string p3, "layout/adapter_la_color_0"
 
-    .line 1362
+    .line 1370
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_16
 
-    .line 1363
+    .line 1371
     new-instance p3, Lcom/rigol/scope/databinding/AdapterLaColorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterLaColorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1365
+    .line 1373
     :cond_16
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5338,21 +5360,21 @@
     :pswitch_17
     const-string p3, "layout/adapter_la_basic_0"
 
-    .line 1356
+    .line 1364
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_17
 
-    .line 1357
+    .line 1365
     new-instance p3, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1359
+    .line 1367
     :cond_17
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5377,21 +5399,21 @@
     :pswitch_18
     const-string p3, "layout/adapter_jitter_pll_0"
 
-    .line 1350
+    .line 1358
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_18
 
-    .line 1351
+    .line 1359
     new-instance p3, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1353
+    .line 1361
     :cond_18
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5416,21 +5438,21 @@
     :pswitch_19
     const-string p3, "layout/adapter_jitter_explicit_0"
 
-    .line 1344
+    .line 1352
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_19
 
-    .line 1345
+    .line 1353
     new-instance p3, Lcom/rigol/scope/databinding/AdapterJitterExplicitBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterJitterExplicitBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1347
+    .line 1355
     :cond_19
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5455,21 +5477,21 @@
     :pswitch_1a
     const-string p3, "layout/adapter_jitter_constant_0"
 
-    .line 1338
+    .line 1346
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1a
 
-    .line 1339
+    .line 1347
     new-instance p3, Lcom/rigol/scope/databinding/AdapterJitterConstantBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterJitterConstantBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1341
+    .line 1349
     :cond_1a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5494,21 +5516,21 @@
     :pswitch_1b
     const-string p3, "layout/adapter_item_vertical_0"
 
-    .line 1332
+    .line 1340
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1b
 
-    .line 1333
+    .line 1341
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemVerticalBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemVerticalBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1335
+    .line 1343
     :cond_1b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5533,21 +5555,21 @@
     :pswitch_1c
     const-string p3, "layout/adapter_item_spinner_disk_0"
 
-    .line 1326
+    .line 1334
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1c
 
-    .line 1327
+    .line 1335
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSpinnerDiskBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSpinnerDiskBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1329
+    .line 1337
     :cond_1c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5572,21 +5594,21 @@
     :pswitch_1d
     const-string p3, "layout/adapter_item_spinner_0"
 
-    .line 1320
+    .line 1328
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1d
 
-    .line 1321
+    .line 1329
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSpinnerBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSpinnerBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1323
+    .line 1331
     :cond_1d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5611,21 +5633,21 @@
     :pswitch_1e
     const-string p3, "layout/adapter_item_sparrpw_math_0"
 
-    .line 1314
+    .line 1322
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1e
 
-    .line 1315
+    .line 1323
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSparrpwMathBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSparrpwMathBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1317
+    .line 1325
     :cond_1e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5650,21 +5672,21 @@
     :pswitch_1f
     const-string p3, "layout/adapter_item_simple4_0"
 
-    .line 1308
+    .line 1316
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1f
 
-    .line 1309
+    .line 1317
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSimple4BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSimple4BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1311
+    .line 1319
     :cond_1f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5689,21 +5711,21 @@
     :pswitch_20
     const-string p3, "layout/adapter_item_simple3_0"
 
-    .line 1302
+    .line 1310
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_20
 
-    .line 1303
+    .line 1311
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSimple3BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSimple3BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1305
+    .line 1313
     :cond_20
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5728,21 +5750,21 @@
     :pswitch_21
     const-string p3, "layout/adapter_item_simple2_0"
 
-    .line 1296
+    .line 1304
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_21
 
-    .line 1297
+    .line 1305
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSimple2BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSimple2BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1299
+    .line 1307
     :cond_21
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5767,21 +5789,21 @@
     :pswitch_22
     const-string p3, "layout/adapter_item_simple_0"
 
-    .line 1290
+    .line 1298
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_22
 
-    .line 1291
+    .line 1299
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSimpleBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSimpleBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1293
+    .line 1301
     :cond_22
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5806,21 +5828,21 @@
     :pswitch_23
     const-string p3, "layout/adapter_item_shortcut_0"
 
-    .line 1284
+    .line 1292
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_23
 
-    .line 1285
+    .line 1293
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemShortcutBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemShortcutBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1287
+    .line 1295
     :cond_23
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5845,21 +5867,21 @@
     :pswitch_24
     const-string p3, "layout/adapter_item_self_test_0"
 
-    .line 1278
+    .line 1286
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_24
 
-    .line 1279
+    .line 1287
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemSelfTestBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemSelfTestBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1281
+    .line 1289
     :cond_24
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5884,21 +5906,21 @@
     :pswitch_25
     const-string p3, "layout/adapter_item_rtsa_0"
 
-    .line 1272
+    .line 1280
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_25
 
-    .line 1273
+    .line 1281
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemRtsaBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemRtsaBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1275
+    .line 1283
     :cond_25
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5923,21 +5945,21 @@
     :pswitch_26
     const-string p3, "layout/adapter_item_ripple_0"
 
-    .line 1266
+    .line 1274
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_26
 
-    .line 1267
+    .line 1275
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemRippleBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemRippleBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1269
+    .line 1277
     :cond_26
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -5962,21 +5984,21 @@
     :pswitch_27
     const-string p3, "layout/adapter_item_result_table_header_0"
 
-    .line 1260
+    .line 1268
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_27
 
-    .line 1261
+    .line 1269
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultTableHeaderBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultTableHeaderBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1263
+    .line 1271
     :cond_27
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6001,21 +6023,21 @@
     :pswitch_28
     const-string p3, "layout/adapter_item_result_table_content_0"
 
-    .line 1254
+    .line 1262
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_28
 
-    .line 1255
+    .line 1263
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultTableContentBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultTableContentBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1257
+    .line 1265
     :cond_28
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6040,21 +6062,21 @@
     :pswitch_29
     const-string p3, "layout/adapter_item_result_measure_0"
 
-    .line 1248
+    .line 1256
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_29
 
-    .line 1249
+    .line 1257
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultMeasureBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1251
+    .line 1259
     :cond_29
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6079,21 +6101,21 @@
     :pswitch_2a
     const-string p3, "layout/adapter_item_result_meas_histogram_0"
 
-    .line 1242
+    .line 1250
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2a
 
-    .line 1243
+    .line 1251
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1245
+    .line 1253
     :cond_2a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6118,21 +6140,21 @@
     :pswitch_2b
     const-string p3, "layout/adapter_item_result_mask_0"
 
-    .line 1236
+    .line 1244
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2b
 
-    .line 1237
+    .line 1245
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultMaskBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultMaskBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1239
+    .line 1247
     :cond_2b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6157,21 +6179,21 @@
     :pswitch_2c
     const-string p3, "layout/adapter_item_result_marker_0"
 
-    .line 1230
+    .line 1238
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2c
 
-    .line 1231
+    .line 1239
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultMarkerBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultMarkerBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1233
+    .line 1241
     :cond_2c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6196,21 +6218,21 @@
     :pswitch_2d
     const-string p3, "layout/adapter_item_result_jitter_0"
 
-    .line 1224
+    .line 1232
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2d
 
-    .line 1225
+    .line 1233
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultJitterBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultJitterBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1227
+    .line 1235
     :cond_2d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6235,21 +6257,21 @@
     :pswitch_2e
     const-string p3, "layout/adapter_item_result_item_towview_0"
 
-    .line 1218
+    .line 1226
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2e
 
-    .line 1219
+    .line 1227
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1221
+    .line 1229
     :cond_2e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6274,21 +6296,21 @@
     :pswitch_2f
     const-string p3, "layout/adapter_item_result_item_0"
 
-    .line 1212
+    .line 1220
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2f
 
-    .line 1213
+    .line 1221
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1215
+    .line 1223
     :cond_2f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6313,21 +6335,21 @@
     :pswitch_30
     const-string p3, "layout/adapter_item_result_histogram_0"
 
-    .line 1206
+    .line 1214
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_30
 
-    .line 1207
+    .line 1215
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultHistogramBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultHistogramBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1209
+    .line 1217
     :cond_30
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6352,21 +6374,21 @@
     :pswitch_31
     const-string p3, "layout/adapter_item_result_eye_0"
 
-    .line 1200
+    .line 1208
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_31
 
-    .line 1201
+    .line 1209
     new-instance p3, Lcom/rigol/scope/databinding/AdapterItemResultEyeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterItemResultEyeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1203
+    .line 1211
     :cond_31
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6457,21 +6479,21 @@
     :pswitch_0
     const-string p3, "layout/popupview_afg_awg_0"
 
-    .line 1801
+    .line 1809
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 1802
+    .line 1810
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAfgAwgBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAfgAwgBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1804
+    .line 1812
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6496,21 +6518,21 @@
     :pswitch_1
     const-string p3, "layout/popupview_adcser_0"
 
-    .line 1795
+    .line 1803
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 1796
+    .line 1804
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAdcserBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAdcserBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1798
+    .line 1806
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6535,21 +6557,21 @@
     :pswitch_2
     const-string p3, "layout/popupview_adc_setting_0"
 
-    .line 1789
+    .line 1797
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 1790
+    .line 1798
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAdcSettingBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAdcSettingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1792
+    .line 1800
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6574,21 +6596,21 @@
     :pswitch_3
     const-string p3, "layout/popup_math_list_0"
 
-    .line 1783
+    .line 1791
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 1784
+    .line 1792
     new-instance p3, Lcom/rigol/scope/databinding/PopupMathListBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupMathListBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1786
+    .line 1794
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6613,21 +6635,21 @@
     :pswitch_4
     const-string p3, "layout/math_recyclerview_0"
 
-    .line 1777
+    .line 1785
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 1778
+    .line 1786
     new-instance p3, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1780
+    .line 1788
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6652,21 +6674,21 @@
     :pswitch_5
     const-string p3, "layout/fragment_waveform_0"
 
-    .line 1771
+    .line 1779
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_5
 
-    .line 1772
+    .line 1780
     new-instance p3, Lcom/rigol/scope/databinding/FragmentWaveformBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/FragmentWaveformBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1774
+    .line 1782
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6691,21 +6713,21 @@
     :pswitch_6
     const-string p3, "layout/fragment_settings_bar_0"
 
-    .line 1765
+    .line 1773
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_6
 
-    .line 1766
+    .line 1774
     new-instance p3, Lcom/rigol/scope/databinding/FragmentSettingsBarBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/FragmentSettingsBarBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1768
+    .line 1776
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6730,21 +6752,21 @@
     :pswitch_7
     const-string p3, "layout/fragment_results_bar_0"
 
-    .line 1759
+    .line 1767
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_7
 
-    .line 1760
+    .line 1768
     new-instance p3, Lcom/rigol/scope/databinding/FragmentResultsBarBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/FragmentResultsBarBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1762
+    .line 1770
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6769,21 +6791,21 @@
     :pswitch_8
     const-string p3, "layout/fragment_navigation_bar_0"
 
-    .line 1753
+    .line 1761
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_8
 
-    .line 1754
+    .line 1762
     new-instance p3, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1756
+    .line 1764
     :cond_8
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6808,21 +6830,21 @@
     :pswitch_9
     const-string p3, "layout/fragment_cont_0"
 
-    .line 1747
+    .line 1755
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_9
 
-    .line 1748
+    .line 1756
     new-instance p3, Lcom/rigol/scope/databinding/FragmentContBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/FragmentContBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1750
+    .line 1758
     :cond_9
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6847,21 +6869,21 @@
     :pswitch_a
     const-string p3, "layout/format_transform_key_0"
 
-    .line 1741
+    .line 1749
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_a
 
-    .line 1742
+    .line 1750
     new-instance p3, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1744
+    .line 1752
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6886,21 +6908,21 @@
     :pswitch_b
     const-string p3, "layout/custom_timepicker_dialog_ant_0"
 
-    .line 1735
+    .line 1743
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_b
 
-    .line 1736
+    .line 1744
     new-instance p3, Lcom/rigol/scope/databinding/CustomTimepickerDialogAntBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/CustomTimepickerDialogAntBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1738
+    .line 1746
     :cond_b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6925,21 +6947,21 @@
     :pswitch_c
     const-string p3, "layout/custom_datepicker_dialog_ant_0"
 
-    .line 1729
+    .line 1737
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_c
 
-    .line 1730
+    .line 1738
     new-instance p3, Lcom/rigol/scope/databinding/CustomDatepickerDialogAntBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/CustomDatepickerDialogAntBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1732
+    .line 1740
     :cond_c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -6964,21 +6986,21 @@
     :pswitch_d
     const-string p3, "layout/bode_result_popuwin_0"
 
-    .line 1723
+    .line 1731
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_d
 
-    .line 1724
+    .line 1732
     new-instance p3, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1726
+    .line 1734
     :cond_d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7003,21 +7025,21 @@
     :pswitch_e
     const-string p3, "layout/adapter_wave_save_0"
 
-    .line 1717
+    .line 1725
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_e
 
-    .line 1718
+    .line 1726
     new-instance p3, Lcom/rigol/scope/databinding/AdapterWaveSaveBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterWaveSaveBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1720
+    .line 1728
     :cond_e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7042,21 +7064,21 @@
     :pswitch_f
     const-string p3, "layout/adapter_utilty_power_item_0"
 
-    .line 1711
+    .line 1719
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_f
 
-    .line 1712
+    .line 1720
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtiltyPowerItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtiltyPowerItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1714
+    .line 1722
     :cond_f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7081,21 +7103,21 @@
     :pswitch_10
     const-string p3, "layout/adapter_utility_selfcheck_0"
 
-    .line 1705
+    .line 1713
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_10
 
-    .line 1706
+    .line 1714
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilitySelfcheckBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilitySelfcheckBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1708
+    .line 1716
     :cond_10
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7120,21 +7142,21 @@
     :pswitch_11
     const-string p3, "layout/adapter_utility_screensaver_0"
 
-    .line 1699
+    .line 1707
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_11
 
-    .line 1700
+    .line 1708
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1702
+    .line 1710
     :cond_11
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7159,21 +7181,21 @@
     :pswitch_12
     const-string p3, "layout/adapter_utility_save_wave_0"
 
-    .line 1693
+    .line 1701
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_12
 
-    .line 1694
+    .line 1702
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1696
+    .line 1704
     :cond_12
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7198,21 +7220,21 @@
     :pswitch_13
     const-string p3, "layout/adapter_utility_save_group_0"
 
-    .line 1687
+    .line 1695
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_13
 
-    .line 1688
+    .line 1696
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilitySaveGroupBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilitySaveGroupBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1690
+    .line 1698
     :cond_13
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7237,21 +7259,21 @@
     :pswitch_14
     const-string p3, "layout/adapter_utility_quick_title_0"
 
-    .line 1681
+    .line 1689
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_14
 
-    .line 1682
+    .line 1690
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityQuickTitleBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityQuickTitleBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1684
+    .line 1692
     :cond_14
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7276,21 +7298,21 @@
     :pswitch_15
     const-string p3, "layout/adapter_utility_quick_screenshot_0"
 
-    .line 1675
+    .line 1683
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_15
 
-    .line 1676
+    .line 1684
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1678
+    .line 1686
     :cond_15
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7315,21 +7337,21 @@
     :pswitch_16
     const-string p3, "layout/adapter_utility_quick_0"
 
-    .line 1669
+    .line 1677
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_16
 
-    .line 1670
+    .line 1678
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityQuickBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityQuickBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1672
+    .line 1680
     :cond_16
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7354,21 +7376,21 @@
     :pswitch_17
     const-string p3, "layout/adapter_utility_other_0"
 
-    .line 1663
+    .line 1671
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_17
 
-    .line 1664
+    .line 1672
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityOtherBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityOtherBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1666
+    .line 1674
     :cond_17
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7393,21 +7415,21 @@
     :pswitch_18
     const-string p3, "layout/adapter_utility_lansetting_item_test_0"
 
-    .line 1657
+    .line 1665
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_18
 
-    .line 1658
+    .line 1666
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1660
+    .line 1668
     :cond_18
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7432,21 +7454,21 @@
     :pswitch_19
     const-string p3, "layout/adapter_utility_lansetting_item_0"
 
-    .line 1651
+    .line 1659
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_19
 
-    .line 1652
+    .line 1660
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1654
+    .line 1662
     :cond_19
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7471,21 +7493,21 @@
     :pswitch_1a
     const-string p3, "layout/adapter_utility_information_0"
 
-    .line 1645
+    .line 1653
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1a
 
-    .line 1646
+    .line 1654
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityInformationBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityInformationBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1648
+    .line 1656
     :cond_1a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7510,21 +7532,21 @@
     :pswitch_1b
     const-string p3, "layout/adapter_utility_email_0"
 
-    .line 1639
+    .line 1647
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1b
 
-    .line 1640
+    .line 1648
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1642
+    .line 1650
     :cond_1b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7549,21 +7571,21 @@
     :pswitch_1c
     const-string p3, "layout/adapter_utility_calibration_0"
 
-    .line 1633
+    .line 1641
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1c
 
-    .line 1634
+    .line 1642
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityCalibrationBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1636
+    .line 1644
     :cond_1c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7588,21 +7610,21 @@
     :pswitch_1d
     const-string p3, "layout/adapter_utility_basesetting_0"
 
-    .line 1627
+    .line 1635
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1d
 
-    .line 1628
+    .line 1636
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityBasesettingBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityBasesettingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1630
+    .line 1638
     :cond_1d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7627,21 +7649,21 @@
     :pswitch_1e
     const-string p3, "layout/adapter_utility_autosetting_0"
 
-    .line 1621
+    .line 1629
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1e
 
-    .line 1622
+    .line 1630
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityAutosettingBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityAutosettingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1624
+    .line 1632
     :cond_1e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7666,21 +7688,21 @@
     :pswitch_1f
     const-string p3, "layout/adapter_utility_allmeasure_0"
 
-    .line 1615
+    .line 1623
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1f
 
-    .line 1616
+    .line 1624
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityAllmeasureBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityAllmeasureBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1618
+    .line 1626
     :cond_1f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7705,21 +7727,21 @@
     :pswitch_20
     const-string p3, "layout/adapter_utility_about_item_0"
 
-    .line 1609
+    .line 1617
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_20
 
-    .line 1610
+    .line 1618
     new-instance p3, Lcom/rigol/scope/databinding/AdapterUtilityAboutItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterUtilityAboutItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1612
+    .line 1620
     :cond_20
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7744,21 +7766,21 @@
     :pswitch_21
     const-string p3, "layout/adapter_type_text_item_0"
 
-    .line 1603
+    .line 1611
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_21
 
-    .line 1604
+    .line 1612
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTypeTextItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTypeTextItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1606
+    .line 1614
     :cond_21
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7783,21 +7805,21 @@
     :pswitch_22
     const-string p3, "layout/adapter_type_text_group_0"
 
-    .line 1597
+    .line 1605
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_22
 
-    .line 1598
+    .line 1606
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTypeTextGroupBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTypeTextGroupBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1600
+    .line 1608
     :cond_22
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7822,21 +7844,21 @@
     :pswitch_23
     const-string p3, "layout/adapter_type_switch_item_0"
 
-    .line 1591
+    .line 1599
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_23
 
-    .line 1592
+    .line 1600
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTypeSwitchItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTypeSwitchItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1594
+    .line 1602
     :cond_23
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7861,21 +7883,21 @@
     :pswitch_24
     const-string p3, "layout/adapter_type_spinner_item_0"
 
-    .line 1585
+    .line 1593
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_24
 
-    .line 1586
+    .line 1594
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTypeSpinnerItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTypeSpinnerItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1588
+    .line 1596
     :cond_24
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7900,21 +7922,21 @@
     :pswitch_25
     const-string p3, "layout/adapter_type_checkbox_item_0"
 
-    .line 1579
+    .line 1587
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_25
 
-    .line 1580
+    .line 1588
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTypeCheckboxItemBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTypeCheckboxItemBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1582
+    .line 1590
     :cond_25
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7939,21 +7961,21 @@
     :pswitch_26
     const-string p3, "layout/adapter_trigger_video_0"
 
-    .line 1573
+    .line 1581
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_26
 
-    .line 1574
+    .line 1582
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerVideoBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerVideoBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1576
+    .line 1584
     :cond_26
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -7978,21 +8000,21 @@
     :pswitch_27
     const-string p3, "layout/adapter_trigger_timeout_0"
 
-    .line 1567
+    .line 1575
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_27
 
-    .line 1568
+    .line 1576
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerTimeoutBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerTimeoutBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1570
+    .line 1578
     :cond_27
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8017,21 +8039,21 @@
     :pswitch_28
     const-string p3, "layout/adapter_trigger_spi_0"
 
-    .line 1561
+    .line 1569
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_28
 
-    .line 1562
+    .line 1570
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerSpiBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerSpiBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1564
+    .line 1572
     :cond_28
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8056,21 +8078,21 @@
     :pswitch_29
     const-string p3, "layout/adapter_trigger_slope_0"
 
-    .line 1555
+    .line 1563
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_29
 
-    .line 1556
+    .line 1564
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerSlopeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerSlopeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1558
+    .line 1566
     :cond_29
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8095,21 +8117,21 @@
     :pswitch_2a
     const-string p3, "layout/adapter_trigger_setup_hold_0"
 
-    .line 1549
+    .line 1557
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2a
 
-    .line 1550
+    .line 1558
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerSetupHoldBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerSetupHoldBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1552
+    .line 1560
     :cond_2a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8134,21 +8156,21 @@
     :pswitch_2b
     const-string p3, "layout/adapter_trigger_runt_0"
 
-    .line 1543
+    .line 1551
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2b
 
-    .line 1544
+    .line 1552
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerRuntBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1546
+    .line 1554
     :cond_2b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8173,21 +8195,21 @@
     :pswitch_2c
     const-string p3, "layout/adapter_trigger_rs232_0"
 
-    .line 1537
+    .line 1545
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2c
 
-    .line 1538
+    .line 1546
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerRs232BindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerRs232BindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1540
+    .line 1548
     :cond_2c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8212,21 +8234,21 @@
     :pswitch_2d
     const-string p3, "layout/adapter_trigger_pulse_0"
 
-    .line 1531
+    .line 1539
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2d
 
-    .line 1532
+    .line 1540
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerPulseBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerPulseBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1534
+    .line 1542
     :cond_2d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8251,21 +8273,21 @@
     :pswitch_2e
     const-string p3, "layout/adapter_trigger_pattern_0"
 
-    .line 1525
+    .line 1533
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2e
 
-    .line 1526
+    .line 1534
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerPatternBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerPatternBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1528
+    .line 1536
     :cond_2e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8290,21 +8312,21 @@
     :pswitch_2f
     const-string p3, "layout/adapter_trigger_over_0"
 
-    .line 1519
+    .line 1527
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2f
 
-    .line 1520
+    .line 1528
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerOverBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerOverBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1522
+    .line 1530
     :cond_2f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8329,21 +8351,21 @@
     :pswitch_30
     const-string p3, "layout/adapter_trigger_nth_0"
 
-    .line 1513
+    .line 1521
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_30
 
-    .line 1514
+    .line 1522
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerNthBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerNthBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1516
+    .line 1524
     :cond_30
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8368,21 +8390,21 @@
     :pswitch_31
     const-string p3, "layout/adapter_trigger_lin_0"
 
-    .line 1507
+    .line 1515
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_31
 
-    .line 1508
+    .line 1516
     new-instance p3, Lcom/rigol/scope/databinding/AdapterTriggerLinBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/AdapterTriggerLinBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1510
+    .line 1518
     :cond_31
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8471,102 +8493,24 @@
     return-object p1
 
     :pswitch_0
-    const-string p3, "layout/popupview_update_0"
+    const-string p3, "layout/popupview_trigger_0"
 
-    .line 2108
+    .line 2116
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 2109
-    new-instance p3, Lcom/rigol/scope/databinding/PopupviewUpdateBindingImpl;
-
-    invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewUpdateBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
-
-    return-object p3
-
-    .line 2111
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p3, "The tag for popupview_update is invalid. Received: "
-
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-
-    :pswitch_1
-    const-string p3, "layout/popupview_upa_0"
-
-    .line 2102
-    invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p3
-
-    if-eqz p3, :cond_1
-
-    .line 2103
-    new-instance p3, Lcom/rigol/scope/databinding/PopupviewUpaBindingImpl;
-
-    invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewUpaBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
-
-    return-object p3
-
-    .line 2105
-    :cond_1
-    new-instance p1, Ljava/lang/IllegalArgumentException;
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p3, "The tag for popupview_upa is invalid. Received: "
-
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-
-    :pswitch_2
-    const-string p3, "layout/popupview_trigger_0"
-
-    .line 2096
-    invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p3
-
-    if-eqz p3, :cond_2
-
-    .line 2097
+    .line 2117
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2099
-    :cond_2
+    .line 2119
+    :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8587,25 +8531,25 @@
 
     throw p1
 
-    :pswitch_3
+    :pswitch_1
     const-string p3, "layout/popupview_storage_0"
 
-    .line 2090
+    .line 2110
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_3
+    if-eqz p3, :cond_1
 
-    .line 2091
+    .line 2111
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewStorageBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewStorageBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2093
-    :cond_3
+    .line 2113
+    :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8626,25 +8570,25 @@
 
     throw p1
 
-    :pswitch_4
+    :pswitch_2
     const-string p3, "layout/popupview_start_menu_0"
 
-    .line 2084
+    .line 2104
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_4
+    if-eqz p3, :cond_2
 
-    .line 2085
+    .line 2105
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewStartMenuBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewStartMenuBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2087
-    :cond_4
+    .line 2107
+    :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8665,25 +8609,25 @@
 
     throw p1
 
-    :pswitch_5
+    :pswitch_3
     const-string p3, "layout/popupview_spinner_0"
 
-    .line 2078
+    .line 2098
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_5
+    if-eqz p3, :cond_3
 
-    .line 2079
+    .line 2099
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewSpinnerBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewSpinnerBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2081
-    :cond_5
+    .line 2101
+    :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8704,25 +8648,64 @@
 
     throw p1
 
-    :pswitch_6
-    const-string p3, "layout/popupview_search_0"
+    :pswitch_4
+    const-string p3, "layout/popupview_smb_setting_0"
 
-    .line 2072
+    .line 2092
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_6
+    if-eqz p3, :cond_4
 
-    .line 2073
+    .line 2093
+    new-instance p3, Lcom/rigol/scope/databinding/PopupviewSmbSettingBindingImpl;
+
+    invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewSmbSettingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
+
+    return-object p3
+
+    .line 2095
+    :cond_4
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string p3, "The tag for popupview_smb_setting is invalid. Received: "
+
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :pswitch_5
+    const-string p3, "layout/popupview_search_0"
+
+    .line 2086
+    invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p3
+
+    if-eqz p3, :cond_5
+
+    .line 2087
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewSearchBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewSearchBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2075
-    :cond_6
+    .line 2089
+    :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8743,25 +8726,25 @@
 
     throw p1
 
-    :pswitch_7
+    :pswitch_6
     const-string p3, "layout/popupview_screen_flip_0"
 
-    .line 2066
+    .line 2080
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_7
+    if-eqz p3, :cond_6
 
-    .line 2067
+    .line 2081
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewScreenFlipBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewScreenFlipBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2069
-    :cond_7
+    .line 2083
+    :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8782,25 +8765,25 @@
 
     throw p1
 
-    :pswitch_8
+    :pswitch_7
     const-string p3, "layout/popupview_save_0"
 
-    .line 2060
+    .line 2074
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_8
+    if-eqz p3, :cond_7
 
-    .line 2061
+    .line 2075
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2063
-    :cond_8
+    .line 2077
+    :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8821,25 +8804,25 @@
 
     throw p1
 
-    :pswitch_9
+    :pswitch_8
     const-string p3, "layout/popupview_rtsa_0"
 
-    .line 2054
+    .line 2068
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_9
+    if-eqz p3, :cond_8
 
-    .line 2055
+    .line 2069
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewRtsaBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewRtsaBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2057
-    :cond_9
+    .line 2071
+    :cond_8
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8860,25 +8843,25 @@
 
     throw p1
 
-    :pswitch_a
+    :pswitch_9
     const-string p3, "layout/popupview_result_measure_0"
 
-    .line 2048
+    .line 2062
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_a
+    if-eqz p3, :cond_9
 
-    .line 2049
+    .line 2063
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewResultMeasureBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewResultMeasureBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2051
-    :cond_a
+    .line 2065
+    :cond_9
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8899,25 +8882,25 @@
 
     throw p1
 
-    :pswitch_b
+    :pswitch_a
     const-string p3, "layout/popupview_result_histogram_0"
 
-    .line 2042
+    .line 2056
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_b
+    if-eqz p3, :cond_a
 
-    .line 2043
+    .line 2057
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewResultHistogramBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewResultHistogramBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2045
-    :cond_b
+    .line 2059
+    :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8938,25 +8921,25 @@
 
     throw p1
 
-    :pswitch_c
+    :pswitch_b
     const-string p3, "layout/popupview_result_dvm_0"
 
-    .line 2036
+    .line 2050
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_c
+    if-eqz p3, :cond_b
 
-    .line 2037
+    .line 2051
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewResultDvmBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewResultDvmBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2039
-    :cond_c
+    .line 2053
+    :cond_b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -8977,25 +8960,25 @@
 
     throw p1
 
-    :pswitch_d
+    :pswitch_c
     const-string p3, "layout/popupview_result_cursor_0"
 
-    .line 2030
+    .line 2044
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_d
+    if-eqz p3, :cond_c
 
-    .line 2031
+    .line 2045
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewResultCursorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2033
-    :cond_d
+    .line 2047
+    :cond_c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -9016,25 +8999,25 @@
 
     throw p1
 
-    :pswitch_e
+    :pswitch_d
     const-string p3, "layout/popupview_result_counter_0"
 
-    .line 2024
+    .line 2038
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_e
+    if-eqz p3, :cond_d
 
-    .line 2025
+    .line 2039
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewResultCounterBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewResultCounterBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2027
-    :cond_e
+    .line 2041
+    :cond_d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -9055,25 +9038,25 @@
 
     throw p1
 
-    :pswitch_f
+    :pswitch_e
     const-string p3, "layout/popupview_remind_0"
 
-    .line 2018
+    .line 2032
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_f
+    if-eqz p3, :cond_e
 
-    .line 2019
+    .line 2033
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewRemindBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewRemindBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2021
-    :cond_f
+    .line 2035
+    :cond_e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -9094,25 +9077,25 @@
 
     throw p1
 
-    :pswitch_10
+    :pswitch_f
     const-string p3, "layout/popupview_ref_0"
 
-    .line 2012
+    .line 2026
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_10
+    if-eqz p3, :cond_f
 
-    .line 2013
+    .line 2027
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewRefBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewRefBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2015
-    :cond_10
+    .line 2029
+    :cond_f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -9133,25 +9116,25 @@
 
     throw p1
 
-    :pswitch_11
+    :pswitch_10
     const-string p3, "layout/popupview_probe_0"
 
-    .line 2006
+    .line 2020
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
-    if-eqz p3, :cond_11
+    if-eqz p3, :cond_10
 
-    .line 2007
+    .line 2021
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewProbeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewProbeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2009
-    :cond_11
+    .line 2023
+    :cond_10
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -9172,24 +9155,63 @@
 
     throw p1
 
+    :pswitch_11
+    const-string p3, "layout/popupview_power_0"
+
+    .line 2014
+    invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p3
+
+    if-eqz p3, :cond_11
+
+    .line 2015
+    new-instance p3, Lcom/rigol/scope/databinding/PopupviewPowerBindingImpl;
+
+    invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewPowerBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
+
+    return-object p3
+
+    .line 2017
+    :cond_11
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string p3, "The tag for popupview_power is invalid. Received: "
+
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
     :pswitch_12
     const-string p3, "layout/popupview_opensource_0"
 
-    .line 2000
+    .line 2008
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_12
 
-    .line 2001
+    .line 2009
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewOpensourceBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewOpensourceBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2003
+    .line 2011
     :cond_12
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9214,21 +9236,21 @@
     :pswitch_13
     const-string p3, "layout/popupview_navigate_0"
 
-    .line 1994
+    .line 2002
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_13
 
-    .line 1995
+    .line 2003
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1997
+    .line 2005
     :cond_13
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9253,21 +9275,21 @@
     :pswitch_14
     const-string p3, "layout/popupview_multi_window_0"
 
-    .line 1988
+    .line 1996
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_14
 
-    .line 1989
+    .line 1997
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewMultiWindowBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1991
+    .line 1999
     :cond_14
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9292,21 +9314,21 @@
     :pswitch_15
     const-string p3, "layout/popupview_measure_0"
 
-    .line 1982
+    .line 1990
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_15
 
-    .line 1983
+    .line 1991
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewMeasureBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1985
+    .line 1993
     :cond_15
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9331,21 +9353,21 @@
     :pswitch_16
     const-string p3, "layout/popupview_math_0"
 
-    .line 1976
+    .line 1984
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_16
 
-    .line 1977
+    .line 1985
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewMathBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewMathBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1979
+    .line 1987
     :cond_16
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9370,21 +9392,21 @@
     :pswitch_17
     const-string p3, "layout/popupview_mask_0"
 
-    .line 1970
+    .line 1978
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_17
 
-    .line 1971
+    .line 1979
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewMaskBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewMaskBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1973
+    .line 1981
     :cond_17
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9409,21 +9431,21 @@
     :pswitch_18
     const-string p3, "layout/popupview_logcat_0"
 
-    .line 1964
+    .line 1972
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_18
 
-    .line 1965
+    .line 1973
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewLogcatBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewLogcatBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1967
+    .line 1975
     :cond_18
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9448,21 +9470,21 @@
     :pswitch_19
     const-string p3, "layout/popupview_loading_0"
 
-    .line 1958
+    .line 1966
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_19
 
-    .line 1959
+    .line 1967
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewLoadingBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewLoadingBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1961
+    .line 1969
     :cond_19
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9487,21 +9509,21 @@
     :pswitch_1a
     const-string p3, "layout/popupview_load_0"
 
-    .line 1952
+    .line 1960
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1a
 
-    .line 1953
+    .line 1961
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewLoadBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewLoadBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1955
+    .line 1963
     :cond_1a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9526,21 +9548,21 @@
     :pswitch_1b
     const-string p3, "layout/popupview_la_calibration_0"
 
-    .line 1946
+    .line 1954
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1b
 
-    .line 1947
+    .line 1955
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1949
+    .line 1957
     :cond_1b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9565,21 +9587,21 @@
     :pswitch_1c
     const-string p3, "layout/popupview_la_0"
 
-    .line 1940
+    .line 1948
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1c
 
-    .line 1941
+    .line 1949
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewLaBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewLaBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1943
+    .line 1951
     :cond_1c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9604,21 +9626,21 @@
     :pswitch_1d
     const-string p3, "layout/popupview_keyboard_0"
 
-    .line 1934
+    .line 1942
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1d
 
-    .line 1935
+    .line 1943
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewKeyboardBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewKeyboardBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1937
+    .line 1945
     :cond_1d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9643,21 +9665,21 @@
     :pswitch_1e
     const-string p3, "layout/popupview_jitter_0"
 
-    .line 1928
+    .line 1936
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1e
 
-    .line 1929
+    .line 1937
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1931
+    .line 1939
     :cond_1e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9682,21 +9704,21 @@
     :pswitch_1f
     const-string p3, "layout/popupview_horizontal_0"
 
-    .line 1922
+    .line 1930
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1f
 
-    .line 1923
+    .line 1931
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1925
+    .line 1933
     :cond_1f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9721,21 +9743,21 @@
     :pswitch_20
     const-string p3, "layout/popupview_flex_knob_0"
 
-    .line 1916
+    .line 1924
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_20
 
-    .line 1917
+    .line 1925
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1919
+    .line 1927
     :cond_20
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9760,21 +9782,21 @@
     :pswitch_21
     const-string p3, "layout/popupview_eyemove_0"
 
-    .line 1910
+    .line 1918
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_21
 
-    .line 1911
+    .line 1919
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewEyemoveBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewEyemoveBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1913
+    .line 1921
     :cond_21
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9799,21 +9821,21 @@
     :pswitch_22
     const-string p3, "layout/popupview_eyeconfig_0"
 
-    .line 1904
+    .line 1912
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_22
 
-    .line 1905
+    .line 1913
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewEyeconfigBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewEyeconfigBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1907
+    .line 1915
     :cond_22
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9838,21 +9860,21 @@
     :pswitch_23
     const-string p3, "layout/popupview_eye_0"
 
-    .line 1898
+    .line 1906
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_23
 
-    .line 1899
+    .line 1907
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1901
+    .line 1909
     :cond_23
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9877,21 +9899,21 @@
     :pswitch_24
     const-string p3, "layout/popupview_display_0"
 
-    .line 1892
+    .line 1900
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_24
 
-    .line 1893
+    .line 1901
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewDisplayBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewDisplayBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1895
+    .line 1903
     :cond_24
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9916,21 +9938,21 @@
     :pswitch_25
     const-string p3, "layout/popupview_disk_manage_0"
 
-    .line 1886
+    .line 1894
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_25
 
-    .line 1887
+    .line 1895
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1889
+    .line 1897
     :cond_25
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9955,21 +9977,21 @@
     :pswitch_26
     const-string p3, "layout/popupview_decode_0"
 
-    .line 1880
+    .line 1888
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_26
 
-    .line 1881
+    .line 1889
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewDecodeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewDecodeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1883
+    .line 1891
     :cond_26
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -9994,21 +10016,21 @@
     :pswitch_27
     const-string p3, "layout/popupview_ddr_0"
 
-    .line 1874
+    .line 1882
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_27
 
-    .line 1875
+    .line 1883
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1877
+    .line 1885
     :cond_27
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10033,21 +10055,21 @@
     :pswitch_28
     const-string p3, "layout/popupview_custom_list_0"
 
-    .line 1868
+    .line 1876
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_28
 
-    .line 1869
+    .line 1877
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewCustomListBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewCustomListBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1871
+    .line 1879
     :cond_28
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10072,21 +10094,21 @@
     :pswitch_29
     const-string p3, "layout/popupview_calibration_0"
 
-    .line 1862
+    .line 1870
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_29
 
-    .line 1863
+    .line 1871
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewCalibrationBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1865
+    .line 1873
     :cond_29
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10111,21 +10133,21 @@
     :pswitch_2a
     const-string p3, "layout/popupview_bus_analyse_0"
 
-    .line 1856
+    .line 1864
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2a
 
-    .line 1857
+    .line 1865
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewBusAnalyseBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewBusAnalyseBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1859
+    .line 1867
     :cond_2a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10150,21 +10172,21 @@
     :pswitch_2b
     const-string p3, "layout/popupview_bode_0"
 
-    .line 1850
+    .line 1858
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2b
 
-    .line 1851
+    .line 1859
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewBodeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewBodeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1853
+    .line 1861
     :cond_2b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10189,21 +10211,21 @@
     :pswitch_2c
     const-string p3, "layout/popupview_board_test_0"
 
-    .line 1844
+    .line 1852
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2c
 
-    .line 1845
+    .line 1853
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewBoardTestBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewBoardTestBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1847
+    .line 1855
     :cond_2c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10228,21 +10250,21 @@
     :pswitch_2d
     const-string p3, "layout/popupview_autoset_0"
 
-    .line 1838
+    .line 1846
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2d
 
-    .line 1839
+    .line 1847
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAutosetBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAutosetBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1841
+    .line 1849
     :cond_2d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10267,21 +10289,21 @@
     :pswitch_2e
     const-string p3, "layout/popupview_analyse_usb_result_0"
 
-    .line 1832
+    .line 1840
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2e
 
-    .line 1833
+    .line 1841
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAnalyseUsbResultBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1835
+    .line 1843
     :cond_2e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10306,21 +10328,21 @@
     :pswitch_2f
     const-string p3, "layout/popupview_analyse_eth_result_0"
 
-    .line 1826
+    .line 1834
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2f
 
-    .line 1827
+    .line 1835
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAnalyseEthResultBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAnalyseEthResultBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1829
+    .line 1837
     :cond_2f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10345,21 +10367,21 @@
     :pswitch_30
     const-string p3, "layout/popupview_analyse_0"
 
-    .line 1820
+    .line 1828
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_30
 
-    .line 1821
+    .line 1829
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAnalyseBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAnalyseBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1823
+    .line 1831
     :cond_30
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10384,21 +10406,21 @@
     :pswitch_31
     const-string p3, "layout/popupview_alert_0"
 
-    .line 1814
+    .line 1822
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_31
 
-    .line 1815
+    .line 1823
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 1817
+    .line 1825
     :cond_31
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10489,21 +10511,21 @@
     :pswitch_0
     const-string p3, "layout/window_waveform_0"
 
-    .line 2211
+    .line 2231
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 2212
+    .line 2232
     new-instance p3, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2214
+    .line 2234
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10528,21 +10550,21 @@
     :pswitch_1
     const-string p3, "layout/window_simple_0"
 
-    .line 2205
+    .line 2225
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 2206
+    .line 2226
     new-instance p3, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2208
+    .line 2228
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10567,21 +10589,21 @@
     :pswitch_2
     const-string p3, "layout/window_bode_0"
 
-    .line 2199
+    .line 2219
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 2200
+    .line 2220
     new-instance p3, Lcom/rigol/scope/databinding/WindowBodeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/WindowBodeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2202
+    .line 2222
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10606,21 +10628,21 @@
     :pswitch_3
     const-string p3, "layout/upa_popupview_connection_0"
 
-    .line 2193
+    .line 2213
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 2194
+    .line 2214
     new-instance p3, Lcom/rigol/scope/databinding/UpaPopupviewConnectionBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/UpaPopupviewConnectionBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2196
+    .line 2216
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10645,21 +10667,21 @@
     :pswitch_4
     const-string p3, "layout/upa_poppview_ripper_0"
 
-    .line 2187
+    .line 2207
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 2188
+    .line 2208
     new-instance p3, Lcom/rigol/scope/databinding/UpaPoppviewRipperBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/UpaPoppviewRipperBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2190
+    .line 2210
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10684,21 +10706,21 @@
     :pswitch_5
     const-string p3, "layout/table_simple_0"
 
-    .line 2181
+    .line 2201
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_5
 
-    .line 2182
+    .line 2202
     new-instance p3, Lcom/rigol/scope/databinding/TableSimpleBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/TableSimpleBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2184
+    .line 2204
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10723,21 +10745,21 @@
     :pswitch_6
     const-string p3, "layout/presentation_motor_0"
 
-    .line 2175
+    .line 2195
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_6
 
-    .line 2176
+    .line 2196
     new-instance p3, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2178
+    .line 2198
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10762,21 +10784,21 @@
     :pswitch_7
     const-string p3, "layout/presentation_miniscreen_0"
 
-    .line 2169
+    .line 2189
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_7
 
-    .line 2170
+    .line 2190
     new-instance p3, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PresentationMiniscreenBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2172
+    .line 2192
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10801,21 +10823,21 @@
     :pswitch_8
     const-string p3, "layout/popuview_mini_bode_0"
 
-    .line 2163
+    .line 2183
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_8
 
-    .line 2164
+    .line 2184
     new-instance p3, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopuviewMiniBodeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2166
+    .line 2186
     :cond_8
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10840,21 +10862,21 @@
     :pswitch_9
     const-string p3, "layout/popuview_help_0"
 
-    .line 2157
+    .line 2177
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_9
 
-    .line 2158
+    .line 2178
     new-instance p3, Lcom/rigol/scope/databinding/PopuviewHelpBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopuviewHelpBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2160
+    .line 2180
     :cond_9
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10879,21 +10901,21 @@
     :pswitch_a
     const-string p3, "layout/popupview_xy_0"
 
-    .line 2151
+    .line 2171
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_a
 
-    .line 2152
+    .line 2172
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewXyBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewXyBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2154
+    .line 2174
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10918,21 +10940,21 @@
     :pswitch_b
     const-string p3, "layout/popupview_wave_record_0"
 
-    .line 2145
+    .line 2165
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_b
 
-    .line 2146
+    .line 2166
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2148
+    .line 2168
     :cond_b
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10957,21 +10979,21 @@
     :pswitch_c
     const-string p3, "layout/popupview_wave_intensity_0"
 
-    .line 2139
+    .line 2159
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_c
 
-    .line 2140
+    .line 2160
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewWaveIntensityBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewWaveIntensityBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2142
+    .line 2162
     :cond_c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -10996,21 +11018,21 @@
     :pswitch_d
     const-string p3, "layout/popupview_vertical_0"
 
-    .line 2133
+    .line 2153
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_d
 
-    .line 2134
+    .line 2154
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewVerticalBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewVerticalBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2136
+    .line 2156
     :cond_d
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -11035,21 +11057,21 @@
     :pswitch_e
     const-string p3, "layout/popupview_utility_0"
 
-    .line 2127
+    .line 2147
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_e
 
-    .line 2128
+    .line 2148
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewUtilityBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewUtilityBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2130
+    .line 2150
     :cond_e
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -11074,21 +11096,21 @@
     :pswitch_f
     const-string p3, "layout/popupview_upgrade_0"
 
-    .line 2121
+    .line 2141
     invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
 
     if-eqz p3, :cond_f
 
-    .line 2122
+    .line 2142
     new-instance p3, Lcom/rigol/scope/databinding/PopupviewUpgradeBindingImpl;
 
     invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewUpgradeBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object p3
 
-    .line 2124
+    .line 2144
     :cond_f
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -11110,10 +11132,90 @@
 
     throw p1
 
+    :pswitch_10
+    const-string p3, "layout/popupview_update_0"
+
+    .line 2135
+    invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p3
+
+    if-eqz p3, :cond_10
+
+    .line 2136
+    new-instance p3, Lcom/rigol/scope/databinding/PopupviewUpdateBindingImpl;
+
+    invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewUpdateBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
+
+    return-object p3
+
+    .line 2138
+    :cond_10
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string p3, "The tag for popupview_update is invalid. Received: "
+
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :pswitch_11
+    const-string p3, "layout/popupview_upa_0"
+
+    .line 2129
+    invoke-virtual {p3, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p3
+
+    if-eqz p3, :cond_11
+
+    .line 2130
+    new-instance p3, Lcom/rigol/scope/databinding/PopupviewUpaBindingImpl;
+
+    invoke-direct {p3, p1, p2}, Lcom/rigol/scope/databinding/PopupviewUpaBindingImpl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
+
+    return-object p3
+
+    .line 2132
+    :cond_11
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string p3, "The tag for popupview_upa is invalid. Received: "
+
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
     nop
 
     :pswitch_data_0
     .packed-switch 0xc9
+        :pswitch_11
+        :pswitch_10
         :pswitch_f
         :pswitch_e
         :pswitch_d
@@ -11146,14 +11248,14 @@
         }
     .end annotation
 
-    .line 2285
+    .line 2305
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2286
+    .line 2306
     new-instance v1, Landroidx/databinding/library/baseAdapters/DataBinderMapperImpl;
 
     invoke-direct {v1}, Landroidx/databinding/library/baseAdapters/DataBinderMapperImpl;-><init>()V
@@ -11166,7 +11268,7 @@
 .method public convertBrIdToString(I)Ljava/lang/String;
     .locals 1
 
-    .line 2279
+    .line 2299
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl$InnerBrLookup;->sKeys:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -11181,7 +11283,7 @@
 .method public getDataBinder(Landroidx/databinding/DataBindingComponent;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
     .locals 3
 
-    .line 2222
+    .line 2242
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
     invoke-virtual {v0, p3}, Landroid/util/SparseIntArray;->get(I)I
@@ -11190,7 +11292,7 @@
 
     if-lez p3, :cond_6
 
-    .line 2224
+    .line 2244
     invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v0
@@ -11199,7 +11301,7 @@
 
     add-int/lit8 v1, p3, -0x1
 
-    .line 2229
+    .line 2249
     div-int/lit8 v1, v1, 0x32
 
     if-eqz v1, :cond_4
@@ -11222,7 +11324,7 @@
 
     goto :goto_0
 
-    .line 2244
+    .line 2264
     :cond_0
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/rigol/scope/DataBinderMapperImpl;->internalGetViewDataBinding4(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
@@ -11230,7 +11332,7 @@
 
     return-object p1
 
-    .line 2241
+    .line 2261
     :cond_1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/rigol/scope/DataBinderMapperImpl;->internalGetViewDataBinding3(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
@@ -11238,7 +11340,7 @@
 
     return-object p1
 
-    .line 2238
+    .line 2258
     :cond_2
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/rigol/scope/DataBinderMapperImpl;->internalGetViewDataBinding2(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
@@ -11246,7 +11348,7 @@
 
     return-object p1
 
-    .line 2235
+    .line 2255
     :cond_3
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/rigol/scope/DataBinderMapperImpl;->internalGetViewDataBinding1(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
@@ -11254,7 +11356,7 @@
 
     return-object p1
 
-    .line 2232
+    .line 2252
     :cond_4
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/rigol/scope/DataBinderMapperImpl;->internalGetViewDataBinding0(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
@@ -11262,7 +11364,7 @@
 
     return-object p1
 
-    .line 2226
+    .line 2246
     :cond_5
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -11286,14 +11388,14 @@
 
     if-eqz p2, :cond_2
 
-    .line 2253
+    .line 2273
     array-length v0, p2
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 2256
+    .line 2276
     :cond_0
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl;->INTERNAL_LAYOUT_ID_LOOKUP:Landroid/util/SparseIntArray;
 
@@ -11305,7 +11407,7 @@
 
     const/4 p3, 0x0
 
-    .line 2258
+    .line 2278
     aget-object p2, p2, p3
 
     invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -11316,7 +11418,7 @@
 
     goto :goto_0
 
-    .line 2260
+    .line 2280
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -11340,7 +11442,7 @@
 
     return v0
 
-    .line 2273
+    .line 2293
     :cond_0
     sget-object v1, Lcom/rigol/scope/DataBinderMapperImpl$InnerLayoutIdLookup;->sKeys:Ljava/util/HashMap;
 
@@ -11354,7 +11456,7 @@
 
     goto :goto_0
 
-    .line 2274
+    .line 2294
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 975
+    .line 1058
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$39;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$39;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 978
+    .line 1061
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$39;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMaxFrame()J
 
-    .line 979
+    .line 1062
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$39;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMaxFrameAttr()V
@@ -67,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 975
+    .line 1058
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$39;->onChanged(Ljava/lang/Boolean;)V

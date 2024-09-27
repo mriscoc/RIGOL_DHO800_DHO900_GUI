@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6985
+    .line 6987
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v1, "FPGA_CH_LA_DIS"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_CH_LA_DIS:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6986
+    .line 6988
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v9, "FPGA_ZOOM_EN"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_ZOOM_EN:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6987
+    .line 6989
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v2, "FPGA_CH_MAIN_EN"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_CH_MAIN_EN:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6988
+    .line 6990
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v9, "FPGA_LA_MAIN_EN"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_LA_MAIN_EN:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6989
+    .line 6991
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v2, "FPGA_CH_LA_MAIN_EN"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_CH_LA_MAIN_EN:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6990
+    .line 6992
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v9, "FPGA_CH_ZOOM_EN"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_CH_ZOOM_EN:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6991
+    .line 6993
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v2, "FPGA_LA_ZOOM_EN"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_LA_ZOOM_EN:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6992
+    .line 6994
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const-string v9, "FPGA_CH_LA_ZOOM_EN"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
-    .line 6983
+    .line 6985
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->FPGA_CH_LA_DIS:Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 6995
+    .line 6997
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6996
+    .line 6998
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->value1:I
 
-    .line 6997
+    .line 6999
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->value2:Ljava/lang/String;
 
-    .line 6998
+    .line 7000
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->pic1:Ljava/lang/String;
 
-    .line 6999
+    .line 7001
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
     .locals 1
 
-    .line 6983
+    .line 6985
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
     .locals 1
 
-    .line 6983
+    .line 6985
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FPGAEnType;->clone()Ljava/lang/Object;

@@ -17,19 +17,25 @@
         0x3
     }
     d1 = {
-        "\u0000T\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0010\u000b\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008;\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0010\u0002\n\u0002\u00086\u0018\u0000 \u00b2\u00012\u00020\u0001:\u0002\u00b2\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010|\u001a\u00020}H\u0016J\u0006\u0010~\u001a\u00020\nJ\u0006\u0010\u007f\u001a\u00020\u0010J\u0007\u0010\u0080\u0001\u001a\u00020\u0010J\u0007\u0010\u0081\u0001\u001a\u00020\u0010J\u0007\u0010\u0082\u0001\u001a\u00020%J\u0007\u0010\u0083\u0001\u001a\u00020%J\u0007\u0010\u0084\u0001\u001a\u00020%J\u0007\u0010\u0085\u0001\u001a\u00020\nJ\u0007\u0010\u0086\u0001\u001a\u00020vJ\u0007\u0010\u0087\u0001\u001a\u000201J\u0007\u0010\u0088\u0001\u001a\u00020%J\u0007\u0010\u0089\u0001\u001a\u00020\nJ\u0007\u0010\u008a\u0001\u001a\u00020\nJ\u0007\u0010\u008b\u0001\u001a\u00020\nJ\u0007\u0010\u008c\u0001\u001a\u000201J\u0007\u0010\u008d\u0001\u001a\u000201J\u0007\u0010\u008e\u0001\u001a\u00020\nJ\u0007\u0010\u008f\u0001\u001a\u00020%J\u0007\u0010\u0090\u0001\u001a\u00020\u0010J\u0007\u0010\u0091\u0001\u001a\u00020\u0010J\u0007\u0010\u0092\u0001\u001a\u00020\u0010J\u0007\u0010\u0093\u0001\u001a\u000201J\u0007\u0010\u0094\u0001\u001a\u00020mJ\u0007\u0010\u0095\u0001\u001a\u00020\nJ\t\u0010\u0096\u0001\u001a\u00020}H\u0016J\u000f\u0010\u0097\u0001\u001a\u00020}2\u0006\u0010\u000b\u001a\u00020\nJ\u000f\u0010\u0098\u0001\u001a\u00020}2\u0006\u0010\u0011\u001a\u00020\u0010J\u0010\u0010\u0099\u0001\u001a\u00020}2\u0007\u0010\u009a\u0001\u001a\u00020\u0010J\u000f\u0010\u009b\u0001\u001a\u00020}2\u0006\u0010\u001c\u001a\u00020\u0010J\u000f\u0010\u009c\u0001\u001a\u00020}2\u0006\u0010&\u001a\u00020%J\u000f\u0010\u009d\u0001\u001a\u00020}2\u0006\u0010+\u001a\u00020%J\u0010\u0010\u009e\u0001\u001a\u00020}2\u0007\u0010\u009f\u0001\u001a\u00020%J\u0010\u0010\u00a0\u0001\u001a\u00020}2\u0007\u0010\u00a1\u0001\u001a\u00020vJ\u0010\u0010\u00a2\u0001\u001a\u00020}2\u0007\u0010\u00a3\u0001\u001a\u000201J\u000f\u0010\u00a4\u0001\u001a\u00020}2\u0006\u00107\u001a\u00020%J\u000f\u0010\u00a5\u0001\u001a\u00020}2\u0006\u0010:\u001a\u00020\nJ\u000f\u0010\u00a6\u0001\u001a\u00020}2\u0006\u0010=\u001a\u00020\nJ\u0010\u0010\u00a7\u0001\u001a\u00020}2\u0007\u0010\u00a3\u0001\u001a\u000201J\u0010\u0010\u00a8\u0001\u001a\u00020}2\u0007\u0010\u00a3\u0001\u001a\u000201J\u000f\u0010\u00a9\u0001\u001a\u00020}2\u0006\u0010O\u001a\u00020\nJ\u000f\u0010\u00aa\u0001\u001a\u00020}2\u0006\u0010U\u001a\u00020%J\u000f\u0010\u00ab\u0001\u001a\u00020}2\u0006\u0010X\u001a\u00020\u0010J\u000f\u0010\u00ac\u0001\u001a\u00020}2\u0006\u0010^\u001a\u00020\u0010J\u000f\u0010\u00ad\u0001\u001a\u00020}2\u0006\u0010d\u001a\u00020\u0010J\u000f\u0010\u00ae\u0001\u001a\u00020}2\u0006\u0010j\u001a\u000201J\u000f\u0010\u00af\u0001\u001a\u00020}2\u0006\u0010n\u001a\u00020mJ\u000f\u0010\u00b0\u0001\u001a\u00020}2\u0006\u0010s\u001a\u00020\nJ\u0007\u0010\u00b1\u0001\u001a\u00020}R\u001a\u0010\u0003\u001a\u00020\u0004X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R&\u0010\u000b\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR&\u0010\u0011\u001a\u00020\u00102\u0006\u0010\t\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0012\u0010\u0013\"\u0004\u0008\u0014\u0010\u0015R\u001a\u0010\u0016\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0018\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR&\u0010\u001c\u001a\u00020\u00102\u0006\u0010\t\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0013\"\u0004\u0008\u001e\u0010\u0015R\u001a\u0010\u001f\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0019\"\u0004\u0008!\u0010\u001bR&\u0010\"\u001a\u00020\u00102\u0006\u0010\t\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010\u0013\"\u0004\u0008$\u0010\u0015R&\u0010&\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\'\u0010(\"\u0004\u0008)\u0010*R&\u0010+\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008,\u0010(\"\u0004\u0008-\u0010*R&\u0010.\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008/\u0010(\"\u0004\u00080\u0010*R&\u00102\u001a\u0002012\u0006\u0010\t\u001a\u0002018G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00083\u00104\"\u0004\u00085\u00106R&\u00107\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010(\"\u0004\u00089\u0010*R&\u0010:\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010\r\"\u0004\u0008<\u0010\u000fR&\u0010=\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008>\u0010\r\"\u0004\u0008?\u0010\u000fR&\u0010@\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008A\u0010\r\"\u0004\u0008B\u0010\u000fR&\u0010C\u001a\u0002012\u0006\u0010\t\u001a\u0002018G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008D\u00104\"\u0004\u0008E\u00106R&\u0010F\u001a\u0002012\u0006\u0010\t\u001a\u0002018G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008G\u00104\"\u0004\u0008H\u00106R&\u0010I\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008J\u0010(\"\u0004\u0008K\u0010*R&\u0010L\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008M\u0010(\"\u0004\u0008N\u0010*R&\u0010O\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008P\u0010\r\"\u0004\u0008Q\u0010\u000fR\u001a\u0010R\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008S\u0010\u0019\"\u0004\u0008T\u0010\u001bR&\u0010U\u001a\u00020%2\u0006\u0010\t\u001a\u00020%8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008V\u0010(\"\u0004\u0008W\u0010*R&\u0010X\u001a\u00020\u00102\u0006\u0010\t\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Y\u0010\u0013\"\u0004\u0008Z\u0010\u0015R\u001a\u0010[\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\\\u0010\u0019\"\u0004\u0008]\u0010\u001bR&\u0010^\u001a\u00020\u00102\u0006\u0010\t\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008_\u0010\u0013\"\u0004\u0008`\u0010\u0015R\u001a\u0010a\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008b\u0010\u0019\"\u0004\u0008c\u0010\u001bR&\u0010d\u001a\u00020\u00102\u0006\u0010\t\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008e\u0010\u0013\"\u0004\u0008f\u0010\u0015R\u001a\u0010g\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008h\u0010\u0019\"\u0004\u0008i\u0010\u001bR&\u0010j\u001a\u0002012\u0006\u0010\t\u001a\u0002018G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008k\u00104\"\u0004\u0008l\u00106R&\u0010n\u001a\u00020m2\u0006\u0010\t\u001a\u00020m8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008o\u0010p\"\u0004\u0008q\u0010rR&\u0010s\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\n8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008t\u0010\r\"\u0004\u0008u\u0010\u000fR&\u0010w\u001a\u00020v2\u0006\u0010\t\u001a\u00020v8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008x\u0010y\"\u0004\u0008z\u0010{\u00a8\u0006\u00b3\u0001"
+        "\u0000T\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0010\u000b\n\u0002\u0008D\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0010\u0002\n\u0002\u00088\u0018\u0000 \u00b7\u00012\u00020\u0001:\u0002\u00b7\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\t\u0010\u007f\u001a\u00030\u0080\u0001H\u0016J\u0007\u0010\u0081\u0001\u001a\u00020\u0004J\u0007\u0010\u0082\u0001\u001a\u00020\u0010J\u0007\u0010\u0083\u0001\u001a\u00020\u0016J\u0007\u0010\u0084\u0001\u001a\u00020\u0016J\u0007\u0010\u0085\u0001\u001a\u00020\u0016J\u0007\u0010\u0086\u0001\u001a\u00020+J\u0007\u0010\u0087\u0001\u001a\u00020+J\u0007\u0010\u0088\u0001\u001a\u00020+J\u0007\u0010\u0089\u0001\u001a\u00020\u0010J\u0007\u0010\u008a\u0001\u001a\u00020yJ\u0007\u0010\u008b\u0001\u001a\u00020\u0004J\u0007\u0010\u008c\u0001\u001a\u00020+J\u0007\u0010\u008d\u0001\u001a\u00020\u0010J\u0007\u0010\u008e\u0001\u001a\u00020\u0010J\u0007\u0010\u008f\u0001\u001a\u00020\u0010J\u0007\u0010\u0090\u0001\u001a\u00020\u0004J\u0007\u0010\u0091\u0001\u001a\u00020\u0004J\u0007\u0010\u0092\u0001\u001a\u00020\u0010J\u0007\u0010\u0093\u0001\u001a\u00020+J\u0007\u0010\u0094\u0001\u001a\u00020\u0016J\u0007\u0010\u0095\u0001\u001a\u00020\u0016J\u0007\u0010\u0096\u0001\u001a\u00020\u0016J\u0007\u0010\u0097\u0001\u001a\u00020\u0004J\u0007\u0010\u0098\u0001\u001a\u00020pJ\u0007\u0010\u0099\u0001\u001a\u00020\u0010J\n\u0010\u009a\u0001\u001a\u00030\u0080\u0001H\u0016J\u0010\u0010\u009b\u0001\u001a\u00030\u0080\u00012\u0006\u0010\u0005\u001a\u00020\u0004J\u0010\u0010\u009c\u0001\u001a\u00030\u0080\u00012\u0006\u0010\u0011\u001a\u00020\u0010J\u0010\u0010\u009d\u0001\u001a\u00030\u0080\u00012\u0006\u0010\u0017\u001a\u00020\u0016J\u0011\u0010\u009e\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u009f\u0001\u001a\u00020\u0016J\u0010\u0010\u00a0\u0001\u001a\u00030\u0080\u00012\u0006\u0010\"\u001a\u00020\u0016J\u0010\u0010\u00a1\u0001\u001a\u00030\u0080\u00012\u0006\u0010,\u001a\u00020+J\u0010\u0010\u00a2\u0001\u001a\u00030\u0080\u00012\u0006\u00101\u001a\u00020+J\u0011\u0010\u00a3\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u00a4\u0001\u001a\u00020+J\u0011\u0010\u00a5\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u00a6\u0001\u001a\u00020yJ\u0011\u0010\u00a7\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u00a8\u0001\u001a\u00020\u0004J\u0010\u0010\u00a9\u0001\u001a\u00030\u0080\u00012\u0006\u0010:\u001a\u00020+J\u0010\u0010\u00aa\u0001\u001a\u00030\u0080\u00012\u0006\u0010=\u001a\u00020\u0010J\u0010\u0010\u00ab\u0001\u001a\u00030\u0080\u00012\u0006\u0010@\u001a\u00020\u0010J\u0011\u0010\u00ac\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u00a8\u0001\u001a\u00020\u0004J\u0011\u0010\u00ad\u0001\u001a\u00030\u0080\u00012\u0007\u0010\u00a8\u0001\u001a\u00020\u0004J\u0010\u0010\u00ae\u0001\u001a\u00030\u0080\u00012\u0006\u0010R\u001a\u00020\u0010J\u0010\u0010\u00af\u0001\u001a\u00030\u0080\u00012\u0006\u0010X\u001a\u00020+J\u0010\u0010\u00b0\u0001\u001a\u00030\u0080\u00012\u0006\u0010[\u001a\u00020\u0016J\u0010\u0010\u00b1\u0001\u001a\u00030\u0080\u00012\u0006\u0010a\u001a\u00020\u0016J\u0010\u0010\u00b2\u0001\u001a\u00030\u0080\u00012\u0006\u0010g\u001a\u00020\u0016J\u0010\u0010\u00b3\u0001\u001a\u00030\u0080\u00012\u0006\u0010m\u001a\u00020\u0004J\u0010\u0010\u00b4\u0001\u001a\u00030\u0080\u00012\u0006\u0010q\u001a\u00020pJ\u0010\u0010\u00b5\u0001\u001a\u00030\u0080\u00012\u0006\u0010v\u001a\u00020\u0010J\u0008\u0010\u00b6\u0001\u001a\u00030\u0080\u0001R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR\u001a\u0010\n\u001a\u00020\u000bX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR&\u0010\u0011\u001a\u00020\u00102\u0006\u0010\u0003\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0012\u0010\u0013\"\u0004\u0008\u0014\u0010\u0015R&\u0010\u0017\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0018\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR\u001a\u0010\u001c\u001a\u00020\u001dX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001e\u0010\u001f\"\u0004\u0008 \u0010!R&\u0010\"\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010\u0019\"\u0004\u0008$\u0010\u001bR\u001a\u0010%\u001a\u00020\u001dX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\u001f\"\u0004\u0008\'\u0010!R&\u0010(\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008)\u0010\u0019\"\u0004\u0008*\u0010\u001bR&\u0010,\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008-\u0010.\"\u0004\u0008/\u00100R&\u00101\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00082\u0010.\"\u0004\u00083\u00100R&\u00104\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00085\u0010.\"\u0004\u00086\u00100R&\u00107\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010\u0007\"\u0004\u00089\u0010\tR&\u0010:\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010.\"\u0004\u0008<\u00100R&\u0010=\u001a\u00020\u00102\u0006\u0010\u0003\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008>\u0010\u0013\"\u0004\u0008?\u0010\u0015R&\u0010@\u001a\u00020\u00102\u0006\u0010\u0003\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008A\u0010\u0013\"\u0004\u0008B\u0010\u0015R&\u0010C\u001a\u00020\u00102\u0006\u0010\u0003\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008D\u0010\u0013\"\u0004\u0008E\u0010\u0015R&\u0010F\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008G\u0010\u0007\"\u0004\u0008H\u0010\tR&\u0010I\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008J\u0010\u0007\"\u0004\u0008K\u0010\tR&\u0010L\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008M\u0010.\"\u0004\u0008N\u00100R&\u0010O\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008P\u0010.\"\u0004\u0008Q\u00100R&\u0010R\u001a\u00020\u00102\u0006\u0010\u0003\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008S\u0010\u0013\"\u0004\u0008T\u0010\u0015R\u001a\u0010U\u001a\u00020\u001dX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008V\u0010\u001f\"\u0004\u0008W\u0010!R&\u0010X\u001a\u00020+2\u0006\u0010\u0003\u001a\u00020+8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Y\u0010.\"\u0004\u0008Z\u00100R&\u0010[\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\\\u0010\u0019\"\u0004\u0008]\u0010\u001bR\u001a\u0010^\u001a\u00020\u001dX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008_\u0010\u001f\"\u0004\u0008`\u0010!R&\u0010a\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008b\u0010\u0019\"\u0004\u0008c\u0010\u001bR\u001a\u0010d\u001a\u00020\u001dX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008e\u0010\u001f\"\u0004\u0008f\u0010!R&\u0010g\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008h\u0010\u0019\"\u0004\u0008i\u0010\u001bR\u001a\u0010j\u001a\u00020\u001dX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008k\u0010\u001f\"\u0004\u0008l\u0010!R&\u0010m\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008n\u0010\u0007\"\u0004\u0008o\u0010\tR&\u0010q\u001a\u00020p2\u0006\u0010\u0003\u001a\u00020p8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008r\u0010s\"\u0004\u0008t\u0010uR&\u0010v\u001a\u00020\u00102\u0006\u0010\u0003\u001a\u00020\u00108G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008w\u0010\u0013\"\u0004\u0008x\u0010\u0015R&\u0010z\u001a\u00020y2\u0006\u0010\u0003\u001a\u00020y8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008{\u0010|\"\u0004\u0008}\u0010~\u00a8\u0006\u00b8\u0001"
     }
     d2 = {
         "Lcom/rigol/scope/data/MeasureSettingParam;",
         "Lcom/rigol/scope/data/BaseParam;",
         "()V",
+        "value",
+        "Lcom/rigol/scope/cil/ServiceEnum$Chan;",
+        "allItemSource",
+        "getAllItemSource",
+        "()Lcom/rigol/scope/cil/ServiceEnum$Chan;",
+        "setAllItemSource",
+        "(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V",
         "aorBManager",
         "Lcom/rigol/scope/utilities/AorBManager;",
         "getAorBManager",
         "()Lcom/rigol/scope/utilities/AorBManager;",
         "setAorBManager",
         "(Lcom/rigol/scope/utilities/AorBManager;)V",
-        "value",
         "",
         "baseMethod",
         "getBaseMethod",
@@ -69,12 +75,9 @@
         "histoEnable",
         "getHistoEnable",
         "setHistoEnable",
-        "Lcom/rigol/scope/cil/ServiceEnum$Chan;",
         "measureAllSrc",
         "getMeasureAllSrc",
-        "()Lcom/rigol/scope/cil/ServiceEnum$Chan;",
         "setMeasureAllSrc",
-        "(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V",
         "methodState",
         "getMethodState",
         "setMethodState",
@@ -146,6 +149,7 @@
         "(Ljava/lang/String;)V",
         "readAll",
         "",
+        "readAllItemSource",
         "readBaseMethod",
         "readCursorA",
         "readCursorB",
@@ -171,6 +175,7 @@
         "readThresholdType",
         "readTopMethod",
         "reset",
+        "saveAllItemSource",
         "saveBaseMethod",
         "saveCursorA",
         "saveCursorAB",
@@ -227,6 +232,8 @@
 
 
 # instance fields
+.field private allItemSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
 .field public aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
 .field private baseMethod:I
@@ -312,48 +319,55 @@
 
     const/16 v0, 0x1c
 
-    .line 50
+    .line 51
     invoke-direct {p0, v0}, Lcom/rigol/scope/data/BaseParam;-><init>(I)V
 
-    .line 72
+    .line 73
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_SELECT_SOURCE_A$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 83
+    .line 84
+    invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_ALLITEMSOURCE$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->allItemSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    .line 95
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_SELECT_SOURCE_B$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 117
+    .line 129
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const/16 v0, 0x3e8
 
-    .line 177
+    .line 189
     iput v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCount:I
 
-    .line 184
+    .line 196
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCountAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 192
+    .line 204
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_THRESHOLDTYPE$p()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    .line 205
+    .line 217
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_THRESHOLDSOURCE$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -362,34 +376,34 @@
 
     const-wide/16 v0, 0x5a
 
-    .line 216
+    .line 228
     iput-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHigh:J
 
     const-wide/16 v0, 0x32
 
-    .line 237
+    .line 249
     iput-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddle:J
 
     const-wide/16 v0, 0xa
 
-    .line 258
+    .line 270
     iput-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLow:J
 
-    .line 279
+    .line 291
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 284
+    .line 296
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 289
+    .line 301
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
@@ -398,27 +412,27 @@
 
     const-string v0, ""
 
-    .line 362
+    .line 374
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
     const-wide/16 v0, 0xc8
 
-    .line 376
+    .line 388
     iput-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorA:J
 
     const-wide/16 v0, 0x320
 
-    .line 391
+    .line 403
     iput-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorB:J
 
-    .line 426
+    .line 438
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 427
+    .line 439
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
@@ -430,10 +444,21 @@
 
 
 # virtual methods
+.method public final getAllItemSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+    .locals 1
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 84
+    iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->allItemSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    return-object v0
+.end method
+
 .method public final getAorBManager()Lcom/rigol/scope/utilities/AorBManager;
     .locals 2
 
-    .line 67
+    .line 68
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     if-nez v0, :cond_0
@@ -451,7 +476,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 323
+    .line 335
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->baseMethod:I
 
     return v0
@@ -462,7 +487,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 376
+    .line 388
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorA:J
 
     return-wide v0
@@ -471,7 +496,7 @@
 .method public final getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 426
+    .line 438
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -482,7 +507,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 391
+    .line 403
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorB:J
 
     return-wide v0
@@ -491,7 +516,7 @@
 .method public final getCursorBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 427
+    .line 439
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -502,7 +527,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 406
+    .line 418
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBothAB:J
 
     return-wide v0
@@ -513,7 +538,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 142
+    .line 154
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorIndicator:Z
 
     return v0
@@ -524,7 +549,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 154
+    .line 166
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorThreshold:Z
 
     return v0
@@ -535,7 +560,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 350
+    .line 362
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->histoEnable:Z
 
     return v0
@@ -546,7 +571,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 117
+    .line 129
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -557,7 +582,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 297
+    .line 309
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->methodState:Z
 
     return v0
@@ -568,7 +593,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 131
+    .line 143
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->mode:I
 
     return v0
@@ -579,7 +604,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 338
+    .line 350
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->region:I
 
     return v0
@@ -590,7 +615,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 419
+    .line 431
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->regionSelect:I
 
     return v0
@@ -601,7 +626,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 72
+    .line 73
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -612,7 +637,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 83
+    .line 95
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -623,7 +648,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 94
+    .line 106
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showSelectSourceB:Z
 
     return v0
@@ -634,7 +659,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 105
+    .line 117
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showThresLine:Z
 
     return v0
@@ -645,7 +670,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 177
+    .line 189
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCount:I
 
     return v0
@@ -654,7 +679,7 @@
 .method public final getStatCountAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 184
+    .line 196
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCountAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -665,7 +690,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 166
+    .line 178
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statisticState:Z
 
     return v0
@@ -676,7 +701,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 216
+    .line 228
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHigh:J
 
     return-wide v0
@@ -685,7 +710,7 @@
 .method public final getThresholdHighAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 279
+    .line 291
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -696,7 +721,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 258
+    .line 270
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLow:J
 
     return-wide v0
@@ -705,7 +730,7 @@
 .method public final getThresholdLowAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 289
+    .line 301
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -716,7 +741,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 237
+    .line 249
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddle:J
 
     return-wide v0
@@ -725,7 +750,7 @@
 .method public final getThresholdMiddleAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 284
+    .line 296
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -736,7 +761,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 205
+    .line 217
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -747,7 +772,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 192
+    .line 204
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     return-object v0
@@ -758,7 +783,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 310
+    .line 322
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->topMethod:I
 
     return v0
@@ -769,7 +794,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 362
+    .line 374
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
     return-object v0
@@ -778,130 +803,130 @@
 .method public readAll()V
     .locals 4
 
-    .line 432
+    .line 444
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->readAll()V
 
-    .line 434
+    .line 446
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readMeasureAllSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 436
+    .line 448
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readMode()I
 
-    .line 437
+    .line 449
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorIndicator()Z
 
-    .line 438
+    .line 450
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorThreshold()Z
 
-    .line 439
+    .line 451
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readStatisticState()Z
 
-    .line 440
+    .line 452
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readStatCount()I
 
-    .line 441
+    .line 453
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCountAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x3326
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 443
+    .line 455
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    .line 444
+    .line 456
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 445
+    .line 457
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdHigh()J
 
-    .line 446
+    .line 458
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdMiddle()J
 
-    .line 447
+    .line 459
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdLow()J
 
-    .line 448
+    .line 460
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x3331
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 449
+    .line 461
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x3332
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 450
+    .line 462
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x3333
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 452
+    .line 464
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readMethodState()Z
 
-    .line 453
+    .line 465
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readTopMethod()I
 
-    .line 454
+    .line 466
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBaseMethod()I
 
-    .line 455
+    .line 467
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readRegion()I
 
-    .line 456
+    .line 468
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorA()J
 
-    .line 457
+    .line 469
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorB()J
 
-    .line 458
+    .line 470
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readCursorBothAB()J
 
-    .line 459
+    .line 471
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x331d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 460
+    .line 472
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x331e
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 461
+    .line 473
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readSelectSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 462
+    .line 474
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readSelectSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 463
+    .line 475
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readHistoEnable()Z
 
-    .line 464
+    .line 476
     invoke-virtual {p0}, Lcom/rigol/scope/data/MeasureSettingParam;->readMeasHistoWindowTitle()Ljava/lang/String;
 
-    .line 465
+    .line 477
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     iget-object v1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     if-ne v0, v1, :cond_0
 
-    .line 466
+    .line 478
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_ABS:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 467
+    .line 479
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -914,7 +939,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 469
+    .line 481
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
@@ -923,19 +948,45 @@
     return-void
 .end method
 
+.method public final readAllItemSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+    .locals 2
+
+    const/16 v0, 0x33db
+
+    .line 605
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    move-result-object v0
+
+    const-string v1, "ServiceEnum.getChanFromV\u2026S_CHANGED_ALLITEMSOURCE))"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setAllItemSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+
+    .line 606
+    iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->allItemSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    return-object v0
+.end method
+
 .method public final readBaseMethod()I
     .locals 1
 
     const/16 v0, 0x331a
 
-    .line 550
+    .line 562
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setBaseMethod(I)V
 
-    .line 551
+    .line 563
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->baseMethod:I
 
     return v0
@@ -946,14 +997,14 @@
 
     const/16 v0, 0x331d
 
-    .line 560
+    .line 572
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorA(J)V
 
-    .line 561
+    .line 573
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorA:J
 
     return-wide v0
@@ -964,14 +1015,14 @@
 
     const/16 v0, 0x331e
 
-    .line 565
+    .line 577
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorB(J)V
 
-    .line 566
+    .line 578
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorB:J
 
     return-wide v0
@@ -982,14 +1033,14 @@
 
     const/16 v0, 0x331f
 
-    .line 570
+    .line 582
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorBothAB(J)V
 
-    .line 571
+    .line 583
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBothAB:J
 
     return-wide v0
@@ -1000,14 +1051,14 @@
 
     const/16 v0, 0x3322
 
-    .line 489
+    .line 501
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorIndicator(Z)V
 
-    .line 490
+    .line 502
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorIndicator:Z
 
     return v0
@@ -1018,14 +1069,14 @@
 
     const/16 v0, 0x3340
 
-    .line 494
+    .line 506
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorThreshold(Z)V
 
-    .line 495
+    .line 507
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorThreshold:Z
 
     return v0
@@ -1036,14 +1087,14 @@
 
     const/16 v0, 0x33d7
 
-    .line 583
+    .line 595
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setHistoEnable(Z)V
 
-    .line 584
+    .line 596
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->histoEnable:Z
 
     return v0
@@ -1054,7 +1105,7 @@
 
     const/16 v0, 0x3394
 
-    .line 708
+    .line 729
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
@@ -1067,19 +1118,19 @@
 
     const/16 v0, 0x33d8
 
-    .line 587
+    .line 599
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setWindowTitleString(Ljava/lang/String;)V
 
-    .line 589
+    .line 601
     iget-object v1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    .line 590
+    .line 602
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
     return-object v0
@@ -1090,7 +1141,7 @@
 
     const/16 v0, 0x330f
 
-    .line 479
+    .line 491
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
@@ -1105,7 +1156,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setMeasureAllSrc(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 480
+    .line 492
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -1116,14 +1167,14 @@
 
     const/16 v0, 0x3318
 
-    .line 540
+    .line 552
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setMethodState(Z)V
 
-    .line 541
+    .line 553
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->methodState:Z
 
     return v0
@@ -1134,14 +1185,14 @@
 
     const/16 v0, 0x331b
 
-    .line 484
+    .line 496
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setMode(I)V
 
-    .line 485
+    .line 497
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->mode:I
 
     return v0
@@ -1152,7 +1203,7 @@
 
     const/16 v0, 0x3308
 
-    .line 475
+    .line 487
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
@@ -1165,14 +1216,14 @@
 
     const/16 v0, 0x331c
 
-    .line 555
+    .line 567
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setRegion(I)V
 
-    .line 556
+    .line 568
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->region:I
 
     return v0
@@ -1183,7 +1234,7 @@
 
     const/16 v0, 0x3305
 
-    .line 574
+    .line 586
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
@@ -1198,7 +1249,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setSelectSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 575
+    .line 587
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -1209,7 +1260,7 @@
 
     const/16 v0, 0x3306
 
-    .line 578
+    .line 590
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
@@ -1224,7 +1275,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setSelectSourceB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 579
+    .line 591
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -1235,14 +1286,14 @@
 
     const/16 v0, 0x3326
 
-    .line 504
+    .line 516
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatCount(I)V
 
-    .line 505
+    .line 517
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCount:I
 
     return v0
@@ -1253,14 +1304,14 @@
 
     const/16 v0, 0x3323
 
-    .line 499
+    .line 511
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatisticState(Z)V
 
-    .line 500
+    .line 512
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statisticState:Z
 
     return v0
@@ -1271,14 +1322,14 @@
 
     const/16 v0, 0x3331
 
-    .line 524
+    .line 536
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdHigh(J)V
 
-    .line 526
+    .line 538
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHigh:J
 
     return-wide v0
@@ -1289,14 +1340,14 @@
 
     const/16 v0, 0x3333
 
-    .line 535
+    .line 547
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdLow(J)V
 
-    .line 536
+    .line 548
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLow:J
 
     return-wide v0
@@ -1307,14 +1358,14 @@
 
     const/16 v0, 0x3332
 
-    .line 530
+    .line 542
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdMiddle(J)V
 
-    .line 531
+    .line 543
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddle:J
 
     return-wide v0
@@ -1325,7 +1376,7 @@
 
     const/16 v0, 0x3312
 
-    .line 519
+    .line 531
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
@@ -1340,7 +1391,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 520
+    .line 532
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -1351,7 +1402,7 @@
 
     const/16 v0, 0x3313
 
-    .line 509
+    .line 521
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v1
@@ -1374,15 +1425,15 @@
 
     const-string v1, "MeasureSettingParam: %s"
 
-    .line 511
+    .line 523
     invoke-static {v1, v0}, Ltimber/log/Timber;->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 512
+    .line 524
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     return-object v0
 
-    .line 514
+    .line 526
     :cond_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
@@ -1398,7 +1449,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 515
+    .line 527
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     return-object v0
@@ -1409,14 +1460,14 @@
 
     const/16 v0, 0x3319
 
-    .line 545
+    .line 557
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setTopMethod(I)V
 
-    .line 546
+    .line 558
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->topMethod:I
 
     return v0
@@ -1425,17 +1476,17 @@
 .method public reset()V
     .locals 3
 
-    .line 718
+    .line 739
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
-    .line 720
+    .line 741
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_SELECT_SOURCE_A$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setSelectSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 721
+    .line 742
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_SELECT_SOURCE_B$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -1444,31 +1495,31 @@
 
     const/4 v0, 0x0
 
-    .line 722
+    .line 743
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setShowSelectSourceB(Z)V
 
-    .line 723
+    .line 744
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setShowThresLine(Z)V
 
-    .line 724
+    .line 745
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setMode(I)V
 
-    .line 725
+    .line 746
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorIndicator(Z)V
 
     const/16 v1, 0x3e8
 
-    .line 726
+    .line 747
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatCount(I)V
 
-    .line 728
+    .line 749
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_THRESHOLDTYPE$p()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 729
+    .line 750
     invoke-static {}, Lcom/rigol/scope/data/MeasureSettingParamKt;->access$getDEFAULT_THRESHOLDSOURCE$p()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -1477,48 +1528,68 @@
 
     const-wide/16 v1, 0x5a
 
-    .line 730
+    .line 751
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdHigh(J)V
 
     const-wide/16 v1, 0x32
 
-    .line 731
+    .line 752
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdMiddle(J)V
 
     const-wide/16 v1, 0xa
 
-    .line 732
+    .line 753
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdLow(J)V
 
-    .line 734
+    .line 755
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setMethodState(Z)V
 
-    .line 735
+    .line 756
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setTopMethod(I)V
 
-    .line 736
+    .line 757
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setBaseMethod(I)V
 
-    .line 737
+    .line 758
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setRegion(I)V
 
     const-wide/16 v1, 0xc8
 
-    .line 739
+    .line 760
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorA(J)V
 
     const-wide/16 v1, 0x320
 
-    .line 740
+    .line 761
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorB(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 741
+    .line 762
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorBothAB(J)V
 
-    .line 743
+    .line 764
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->setHistoEnable(Z)V
+
+    return-void
+.end method
+
+.method public final saveAllItemSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+    .locals 1
+
+    const-string v0, "allItemSource"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 611
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setAllItemSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+
+    .line 612
+    iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    const/16 v0, 0x33db
+
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
     return-void
 .end method
@@ -1526,12 +1597,12 @@
 .method public final saveBaseMethod(I)V
     .locals 1
 
-    .line 683
+    .line 704
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setBaseMethod(I)V
 
     const/16 v0, 0x331a
 
-    .line 684
+    .line 705
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
     return-void
@@ -1540,12 +1611,12 @@
 .method public final saveCursorA(J)V
     .locals 1
 
-    .line 693
+    .line 714
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorA(J)V
 
     const/16 v0, 0x331d
 
-    .line 694
+    .line 715
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
 
     return-void
@@ -1554,12 +1625,12 @@
 .method public final saveCursorAB(J)V
     .locals 1
 
-    .line 703
+    .line 724
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorBothAB(J)V
 
     const/16 v0, 0x331f
 
-    .line 704
+    .line 725
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
 
     return-void
@@ -1568,12 +1639,12 @@
 .method public final saveCursorB(J)V
     .locals 1
 
-    .line 698
+    .line 719
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorB(J)V
 
     const/16 v0, 0x331e
 
-    .line 699
+    .line 720
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
 
     return-void
@@ -1582,12 +1653,12 @@
 .method public final saveCursorIndicator(Z)V
     .locals 1
 
-    .line 628
+    .line 649
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorIndicator(Z)V
 
     const/16 v0, 0x3322
 
-    .line 629
+    .line 650
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
 
     return-void
@@ -1596,12 +1667,12 @@
 .method public final saveCursorThreshold(Z)V
     .locals 1
 
-    .line 633
+    .line 654
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorThreshold(Z)V
 
     const/16 v0, 0x3340
 
-    .line 634
+    .line 655
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
 
     return-void
@@ -1610,17 +1681,17 @@
 .method public final saveHistoEnable(Z)V
     .locals 1
 
-    .line 595
+    .line 616
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setHistoEnable(Z)V
 
-    .line 596
+    .line 617
     iget-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->histoEnable:Z
 
     const/16 v0, 0x33d7
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
 
-    .line 597
+    .line 618
     iget-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->histoEnable:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1639,10 +1710,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 600
+    .line 621
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setWindowTitleString(Ljava/lang/String;)V
 
-    .line 601
+    .line 622
     iget-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
     const/16 v0, 0x33d8
@@ -1659,10 +1730,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 613
+    .line 634
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setMeasureAllSrc(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 614
+    .line 635
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     const/16 v0, 0x330f
@@ -1675,12 +1746,12 @@
 .method public final saveMethodState(Z)V
     .locals 1
 
-    .line 673
+    .line 694
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setMethodState(Z)V
 
     const/16 v0, 0x3318
 
-    .line 674
+    .line 695
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
 
     return-void
@@ -1689,12 +1760,12 @@
 .method public final saveMode(I)V
     .locals 1
 
-    .line 623
+    .line 644
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setMode(I)V
 
     const/16 v0, 0x331b
 
-    .line 624
+    .line 645
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
     return-void
@@ -1703,12 +1774,12 @@
 .method public final saveRegion(I)V
     .locals 1
 
-    .line 688
+    .line 709
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setRegion(I)V
 
     const/16 v0, 0x331c
 
-    .line 689
+    .line 710
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
     return-void
@@ -1721,10 +1792,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 605
+    .line 626
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setSelectSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 606
+    .line 627
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     const/16 v0, 0x3305
@@ -1741,10 +1812,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 609
+    .line 630
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setSelectSourceB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 610
+    .line 631
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     const/16 v0, 0x3306
@@ -1757,12 +1828,12 @@
 .method public final saveStatCount(I)V
     .locals 1
 
-    .line 643
+    .line 664
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatCount(I)V
 
     const/16 v0, 0x3326
 
-    .line 644
+    .line 665
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
     return-void
@@ -1771,12 +1842,12 @@
 .method public final saveStatisticState(Z)V
     .locals 1
 
-    .line 638
+    .line 659
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatisticState(Z)V
 
     const/16 v0, 0x3323
 
-    .line 639
+    .line 660
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
 
     return-void
@@ -1785,12 +1856,12 @@
 .method public final saveThresholdHigh(J)V
     .locals 1
 
-    .line 658
+    .line 679
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdHigh(J)V
 
     const/16 v0, 0x3331
 
-    .line 659
+    .line 680
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
 
     return-void
@@ -1799,12 +1870,12 @@
 .method public final saveThresholdLow(J)V
     .locals 1
 
-    .line 668
+    .line 689
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdLow(J)V
 
     const/16 v0, 0x3333
 
-    .line 669
+    .line 690
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
 
     return-void
@@ -1813,12 +1884,12 @@
 .method public final saveThresholdMiddle(J)V
     .locals 1
 
-    .line 663
+    .line 684
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdMiddle(J)V
 
     const/16 v0, 0x3332
 
-    .line 664
+    .line 685
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
 
     return-void
@@ -1831,10 +1902,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 653
+    .line 674
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 654
+    .line 675
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     const/16 v0, 0x3312
@@ -1851,10 +1922,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 648
+    .line 669
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 649
+    .line 670
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->value1:I
 
     const/16 v0, 0x3313
@@ -1867,12 +1938,12 @@
 .method public final saveTopMethod(I)V
     .locals 1
 
-    .line 678
+    .line 699
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setTopMethod(I)V
 
     const/16 v0, 0x3319
 
-    .line 679
+    .line 700
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
     return-void
@@ -1885,8 +1956,33 @@
 
     const/4 v1, 0x0
 
-    .line 619
+    .line 640
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
+
+    return-void
+.end method
+
+.method public final setAllItemSource(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+    .locals 2
+
+    const-string v0, "value"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 86
+    iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->allItemSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    const-string v1, "allItemSource"
+
+    invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 87
+    iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->allItemSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    const/16 p1, 0x2b
+
+    .line 88
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
 .end method
@@ -1898,7 +1994,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 67
+    .line 68
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-void
@@ -1907,12 +2003,12 @@
 .method public final setBaseMethod(I)V
     .locals 0
 
-    .line 328
+    .line 340
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->baseMethod:I
 
-    const/16 p1, 0x45
+    const/16 p1, 0x47
 
-    .line 329
+    .line 341
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -1921,15 +2017,15 @@
 .method public final setCursorA(J)V
     .locals 2
 
-    .line 381
+    .line 393
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorA:J
 
-    const/16 p1, 0xc3
+    const/16 p1, 0xc6
 
-    .line 382
+    .line 394
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 385
+    .line 397
     new-instance p1, Lcom/rigol/scope/data/MeasureSettingParam$cursorA$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/data/MeasureSettingParam$cursorA$1;-><init>(Lcom/rigol/scope/data/MeasureSettingParam;)V
@@ -1950,7 +2046,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 426
+    .line 438
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-void
@@ -1959,15 +2055,15 @@
 .method public final setCursorB(J)V
     .locals 2
 
-    .line 396
+    .line 408
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorB:J
 
-    const/16 p1, 0xc5
+    const/16 p1, 0xc8
 
-    .line 397
+    .line 409
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 400
+    .line 412
     new-instance p1, Lcom/rigol/scope/data/MeasureSettingParam$cursorB$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/data/MeasureSettingParam$cursorB$1;-><init>(Lcom/rigol/scope/data/MeasureSettingParam;)V
@@ -1988,7 +2084,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 427
+    .line 439
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-void
@@ -1997,12 +2093,12 @@
 .method public final setCursorBothAB(J)V
     .locals 0
 
-    .line 411
+    .line 423
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBothAB:J
 
-    const/16 p1, 0xc6
+    const/16 p1, 0xc9
 
-    .line 412
+    .line 424
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2011,7 +2107,7 @@
 .method public final setCursorIndicator(Z)V
     .locals 3
 
-    .line 144
+    .line 156
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorIndicator:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2026,15 +2122,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 145
+    .line 157
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorIndicator:Z
 
-    const/16 p1, 0xc8
+    const/16 p1, 0xcb
 
-    .line 146
+    .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 147
+    .line 159
     iget-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorIndicator:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2051,7 +2147,7 @@
 .method public final setCursorThreshold(Z)V
     .locals 3
 
-    .line 156
+    .line 168
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorThreshold:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2066,15 +2162,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 157
+    .line 169
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorThreshold:Z
 
-    const/16 p1, 0xcb
+    const/16 p1, 0xce
 
-    .line 158
+    .line 170
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 159
+    .line 171
     iget-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorThreshold:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2091,12 +2187,12 @@
 .method public final setHistoEnable(Z)V
     .locals 0
 
-    .line 355
+    .line 367
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->histoEnable:Z
 
-    const/16 p1, 0x171
+    const/16 p1, 0x175
 
-    .line 356
+    .line 368
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2109,22 +2205,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 119
+    .line 131
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-string v1, "measureAllSrc"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 120
+    .line 132
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x20c
+    const/16 p1, 0x210
 
-    .line 121
+    .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 122
+    .line 134
     iget-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const/16 v0, 0x330f
@@ -2137,12 +2233,12 @@
 .method public final setMethodState(Z)V
     .locals 0
 
-    .line 302
+    .line 314
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->methodState:Z
 
-    const/16 p1, 0x212
+    const/16 p1, 0x216
 
-    .line 303
+    .line 315
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2151,7 +2247,7 @@
 .method public final setMode(I)V
     .locals 3
 
-    .line 133
+    .line 145
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->mode:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2166,12 +2262,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 134
+    .line 146
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->mode:I
 
-    const/16 p1, 0x21b
+    const/16 p1, 0x21f
 
-    .line 135
+    .line 147
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2180,12 +2276,12 @@
 .method public final setRegion(I)V
     .locals 0
 
-    .line 343
+    .line 355
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->region:I
 
-    const/16 p1, 0x2d7
+    const/16 p1, 0x2dc
 
-    .line 344
+    .line 356
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2194,7 +2290,7 @@
 .method public final setRegionSelect(I)V
     .locals 3
 
-    .line 421
+    .line 433
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->regionSelect:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2209,12 +2305,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 422
+    .line 434
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->regionSelect:I
 
-    const/16 p1, 0x2d8
+    const/16 p1, 0x2dd
 
-    .line 423
+    .line 435
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2227,19 +2323,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 74
+    .line 75
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-string v1, "selectSourceA"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 75
+    .line 76
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x311
+    const/16 p1, 0x316
 
-    .line 76
+    .line 77
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2252,19 +2348,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 85
+    .line 97
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-string v1, "selectSourceB"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 86
+    .line 98
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x312
+    const/16 p1, 0x317
 
-    .line 87
+    .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2273,7 +2369,7 @@
 .method public final setShowSelectSourceB(Z)V
     .locals 3
 
-    .line 96
+    .line 108
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showSelectSourceB:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2288,12 +2384,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 97
+    .line 109
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showSelectSourceB:Z
 
-    const/16 p1, 0x339
+    const/16 p1, 0x340
 
-    .line 98
+    .line 110
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2302,7 +2398,7 @@
 .method public final setShowThresLine(Z)V
     .locals 3
 
-    .line 107
+    .line 119
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showThresLine:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2317,15 +2413,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 108
+    .line 120
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showThresLine:Z
 
-    const/16 p1, 0x33e
+    const/16 p1, 0x346
 
-    .line 109
+    .line 121
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 110
+    .line 122
     iget-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showThresLine:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2342,7 +2438,7 @@
 .method public final setStatCount(I)V
     .locals 3
 
-    .line 179
+    .line 191
     iget v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCount:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2357,12 +2453,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 180
+    .line 192
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCount:I
 
-    const/16 p1, 0x37c
+    const/16 p1, 0x385
 
-    .line 181
+    .line 193
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2375,7 +2471,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 184
+    .line 196
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCountAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-void
@@ -2384,7 +2480,7 @@
 .method public final setStatisticState(Z)V
     .locals 3
 
-    .line 168
+    .line 180
     iget-boolean v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statisticState:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2399,12 +2495,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 169
+    .line 181
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statisticState:Z
 
-    const/16 p1, 0x381
+    const/16 p1, 0x38a
 
-    .line 170
+    .line 182
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2413,7 +2509,7 @@
 .method public final setThresholdHigh(J)V
     .locals 3
 
-    .line 218
+    .line 230
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHigh:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2428,15 +2524,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 219
+    .line 231
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHigh:J
 
-    const/16 v0, 0x395
+    const/16 v0, 0x39e
 
-    .line 220
+    .line 232
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 221
+    .line 233
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
@@ -2445,7 +2541,7 @@
 
     const/16 v0, 0x3331
 
-    .line 223
+    .line 235
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -2454,7 +2550,7 @@
 
     const/16 v0, 0x3332
 
-    .line 224
+    .line 236
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -2463,14 +2559,14 @@
 
     const/16 v0, 0x3333
 
-    .line 225
+    .line 237
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    .line 228
+    .line 240
     :cond_0
     new-instance p1, Lcom/rigol/scope/data/MeasureSettingParam$thresholdHigh$1;
 
@@ -2492,7 +2588,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 279
+    .line 291
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-void
@@ -2501,7 +2597,7 @@
 .method public final setThresholdLow(J)V
     .locals 3
 
-    .line 260
+    .line 272
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLow:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2516,15 +2612,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 261
+    .line 273
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLow:J
 
-    const/16 v0, 0x396
+    const/16 v0, 0x39f
 
-    .line 262
+    .line 274
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 266
+    .line 278
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -2533,7 +2629,7 @@
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    .line 267
+    .line 279
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -2542,7 +2638,7 @@
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    .line 268
+    .line 280
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -2551,7 +2647,7 @@
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    .line 271
+    .line 283
     new-instance p1, Lcom/rigol/scope/data/MeasureSettingParam$thresholdLow$1;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/data/MeasureSettingParam$thresholdLow$1;-><init>(Lcom/rigol/scope/data/MeasureSettingParam;)V
@@ -2572,7 +2668,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 289
+    .line 301
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-void
@@ -2581,7 +2677,7 @@
 .method public final setThresholdMiddle(J)V
     .locals 3
 
-    .line 239
+    .line 251
     iget-wide v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddle:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2596,15 +2692,15 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 240
+    .line 252
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddle:J
 
-    const/16 v0, 0x397
+    const/16 v0, 0x3a0
 
-    .line 241
+    .line 253
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 242
+    .line 254
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
@@ -2613,7 +2709,7 @@
 
     const/16 v0, 0x3331
 
-    .line 244
+    .line 256
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -2622,7 +2718,7 @@
 
     const/16 v0, 0x3332
 
-    .line 245
+    .line 257
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -2631,14 +2727,14 @@
 
     const/16 v0, 0x3333
 
-    .line 246
+    .line 258
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    .line 249
+    .line 261
     :cond_0
     new-instance p1, Lcom/rigol/scope/data/MeasureSettingParam$thresholdMiddle$1;
 
@@ -2660,7 +2756,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 284
+    .line 296
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-void
@@ -2673,19 +2769,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 207
+    .line 219
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-string v1, "thresholdSource"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 208
+    .line 220
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x398
+    const/16 p1, 0x3a1
 
-    .line 209
+    .line 221
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2698,22 +2794,22 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 194
+    .line 206
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     const-string v1, "thresholdType"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 195
+    .line 207
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    const/16 p1, 0x399
+    const/16 p1, 0x3a2
 
-    .line 196
+    .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
-    .line 197
+    .line 209
     iget-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     const/16 v0, 0x3313
@@ -2726,12 +2822,12 @@
 .method public final setTopMethod(I)V
     .locals 0
 
-    .line 315
+    .line 327
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->topMethod:I
 
-    const/16 p1, 0x3a2
+    const/16 p1, 0x3ab
 
-    .line 316
+    .line 328
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2744,12 +2840,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 367
+    .line 379
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
-    const/16 p1, 0x42a
+    const/16 p1, 0x434
 
-    .line 368
+    .line 380
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
 
     return-void

@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/4 v2, 0x5
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/4 v2, 0x6
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/4 v2, 0x7
 
@@ -292,7 +292,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x116
+    const/16 v0, 0x11a
 
     if-ne p2, v0, :cond_1
 
@@ -324,7 +324,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x115
+    const/16 v0, 0x119
 
     if-ne p2, v0, :cond_2
 
@@ -396,7 +396,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -468,7 +468,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -913,7 +913,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->notifyPropertyChanged(I)V
@@ -964,7 +964,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->notifyPropertyChanged(I)V
@@ -989,7 +989,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 
@@ -1001,7 +1001,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_1
 

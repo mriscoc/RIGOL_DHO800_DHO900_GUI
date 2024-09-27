@@ -74,12 +74,12 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 5
 
-    .line 1790
+    .line 1801
     instance-of v0, p1, Ljava/lang/Integer;
 
     if-eqz v0, :cond_b
 
-    .line 1791
+    .line 1802
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->getRefParam()Lcom/rigol/scope/data/RefParam;
@@ -88,7 +88,7 @@
 
     if-eqz v0, :cond_b
 
-    .line 1793
+    .line 1804
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -101,7 +101,7 @@
 
     if-eqz v0, :cond_b
 
-    .line 1797
+    .line 1808
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -110,7 +110,7 @@
 
     return-void
 
-    .line 1802
+    .line 1813
     :cond_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -140,7 +140,7 @@
 
     if-gt v1, v2, :cond_3
 
-    .line 1805
+    .line 1816
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     instance-of v2, v1, Lcom/rigol/scope/views/baseview/MainWaveformView;
@@ -154,7 +154,7 @@
     :cond_1
     move v3, v4
 
-    .line 1806
+    .line 1817
     :cond_2
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -166,7 +166,7 @@
 
     goto/16 :goto_0
 
-    .line 1807
+    .line 1818
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -192,7 +192,7 @@
 
     if-gt v1, v2, :cond_b
 
-    .line 1809
+    .line 1820
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -205,7 +205,7 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 1810
+    .line 1821
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowContent;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -222,7 +222,7 @@
 
     move v3, v4
 
-    .line 1811
+    .line 1822
     :cond_4
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -234,7 +234,7 @@
 
     goto/16 :goto_0
 
-    .line 1812
+    .line 1823
     :cond_5
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -248,7 +248,7 @@
 
     if-ne v1, v2, :cond_7
 
-    .line 1813
+    .line 1824
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowContent;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -265,7 +265,7 @@
 
     move v3, v4
 
-    .line 1814
+    .line 1825
     :cond_6
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -277,7 +277,7 @@
 
     goto :goto_0
 
-    .line 1815
+    .line 1826
     :cond_7
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -291,7 +291,7 @@
 
     if-ne v1, v2, :cond_9
 
-    .line 1816
+    .line 1827
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowContent;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -308,7 +308,7 @@
 
     move v3, v4
 
-    .line 1817
+    .line 1828
     :cond_8
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
@@ -320,7 +320,7 @@
 
     goto :goto_0
 
-    .line 1818
+    .line 1829
     :cond_9
     invoke-virtual {v0}, Lcom/rigol/scope/data/RefParam$Param;->getSaveChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -334,7 +334,7 @@
 
     if-ne v1, v2, :cond_b
 
-    .line 1819
+    .line 1830
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowContent;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -351,7 +351,7 @@
 
     move v3, v4
 
-    .line 1820
+    .line 1831
     :cond_a
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$refObserver$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 

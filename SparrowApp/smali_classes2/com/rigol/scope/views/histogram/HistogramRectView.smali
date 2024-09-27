@@ -258,7 +258,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 217
+    .line 241
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     const/16 p1, 0x28
@@ -268,10 +268,10 @@
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 198
+    .line 222
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    .line 218
+    .line 242
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->init()V
 
     return-void
@@ -280,7 +280,7 @@
 .method public constructor <init>(Landroid/content/Context;FFFF)V
     .locals 0
 
-    .line 221
+    .line 245
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     const/16 p1, 0x28
@@ -290,10 +290,10 @@
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 198
+    .line 222
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    .line 222
+    .line 246
     invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
@@ -312,7 +312,7 @@
 
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectPosition(Ljava/lang/Float;Ljava/lang/Float;Ljava/lang/Float;Ljava/lang/Float;)V
 
-    .line 223
+    .line 247
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->init()V
 
     return-void
@@ -321,7 +321,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 213
+    .line 237
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/16 p1, 0x28
@@ -331,10 +331,10 @@
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 198
+    .line 222
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    .line 214
+    .line 238
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->init()V
 
     return-void
@@ -343,7 +343,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 205
+    .line 229
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/16 p1, 0x28
@@ -353,10 +353,10 @@
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 198
+    .line 222
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    .line 210
+    .line 234
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->init()V
 
     return-void
@@ -365,7 +365,7 @@
 .method private final drawLine(Landroid/graphics/Canvas;FFFF)V
     .locals 7
 
-    .line 698
+    .line 722
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -374,7 +374,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 723
+    .line 747
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -385,7 +385,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 725
+    .line 749
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->dp3:I
 
     div-int/lit8 v0, v0, 0x2
@@ -394,14 +394,14 @@
 
     sub-float v2, p2, v0
 
-    .line 727
+    .line 751
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float v0, v0
 
     add-float v4, p2, v0
 
-    .line 729
+    .line 753
     iget-object v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v6}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -414,14 +414,14 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 733
+    .line 757
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float v0, v0
 
     add-float v5, p3, v0
 
-    .line 734
+    .line 758
     iget-object v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v6}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -432,7 +432,7 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 735
+    .line 759
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->dp3:I
 
     div-int/lit8 v0, v0, 0x2
@@ -441,14 +441,14 @@
 
     add-float v2, p4, v0
 
-    .line 737
+    .line 761
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float v0, v0
 
     sub-float v4, p4, v0
 
-    .line 739
+    .line 763
     iget-object v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v6}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -457,14 +457,14 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 743
+    .line 767
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float v0, v0
 
     add-float v5, p3, v0
 
-    .line 744
+    .line 768
     iget-object v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v6}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -475,14 +475,14 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 748
+    .line 772
     iget p3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float p3, p3
 
     sub-float v4, p5, p3
 
-    .line 749
+    .line 773
     iget-object v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -497,7 +497,7 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 750
+    .line 774
     iget p3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->dp3:I
 
     div-int/lit8 p3, p3, 0x2
@@ -506,14 +506,14 @@
 
     sub-float v1, p2, p3
 
-    .line 752
+    .line 776
     iget p3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float p3, p3
 
     add-float v3, p2, p3
 
-    .line 754
+    .line 778
     iget-object v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -522,7 +522,7 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 755
+    .line 779
     iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->dp3:I
 
     div-int/lit8 p2, p2, 0x2
@@ -531,28 +531,28 @@
 
     add-float v1, p4, p2
 
-    .line 757
+    .line 781
     iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float p2, p2
 
     sub-float v3, p4, p2
 
-    .line 759
+    .line 783
     iget-object v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 763
+    .line 787
     iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     int-to-float p2, p2
 
     sub-float v4, p5, p2
 
-    .line 764
+    .line 788
     iget-object v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -569,7 +569,7 @@
 .method private final init()V
     .locals 2
 
-    .line 227
+    .line 251
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -584,7 +584,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->dp3:I
 
-    .line 228
+    .line 252
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -599,21 +599,21 @@
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->dp1:I
 
-    .line 229
+    .line 253
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
-    .line 230
+    .line 254
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 231
+    .line 255
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -622,7 +622,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 232
+    .line 256
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -637,16 +637,7 @@
 .method private final initParams()V
     .locals 3
 
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    const-string v1, "Rect: initParams();"
-
-    .line 646
-    invoke-static {v1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 647
+    .line 671
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
     const/high16 v1, -0x40800000    # -1.0f
@@ -655,7 +646,7 @@
 
     if-nez v0, :cond_0
 
-    .line 648
+    .line 672
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v0
@@ -664,7 +655,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
-    .line 649
+    .line 673
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v0
@@ -677,7 +668,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 650
+    .line 674
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v0
@@ -690,7 +681,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 651
+    .line 675
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v0
@@ -703,7 +694,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 652
+    .line 676
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v0
@@ -718,7 +709,7 @@
 
     goto :goto_1
 
-    .line 654
+    .line 678
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
@@ -738,7 +729,7 @@
 
     div-float/2addr v0, v1
 
-    .line 655
+    .line 679
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
     const/4 v2, 0x1
@@ -749,7 +740,7 @@
 
     if-lez v1, :cond_1
 
-    .line 656
+    .line 680
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
@@ -758,7 +749,7 @@
 
     goto :goto_0
 
-    .line 658
+    .line 682
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
@@ -766,11 +757,11 @@
 
     div-int/lit8 v1, v1, 0x64
 
-    .line 655
+    .line 679
     :goto_0
     iput v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
-    .line 660
+    .line 684
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
     cmpl-float v0, v1, v0
@@ -781,10 +772,10 @@
 
     if-lez v0, :cond_2
 
-    .line 661
+    .line 685
     invoke-virtual {p0, v2}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 662
+    .line 686
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v0
@@ -793,7 +784,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 663
+    .line 687
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v0
@@ -804,7 +795,7 @@
 
     div-float/2addr v0, v2
 
-    .line 664
+    .line 688
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v2
@@ -819,7 +810,7 @@
 
     invoke-virtual {p0, v2}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 665
+    .line 689
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     add-float/2addr v1, v0
@@ -828,11 +819,11 @@
 
     goto :goto_1
 
-    .line 667
+    .line 691
     :cond_2
     invoke-virtual {p0, v2}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 668
+    .line 692
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v0
@@ -841,7 +832,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 669
+    .line 693
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v0
@@ -852,7 +843,7 @@
 
     mul-float/2addr v0, v2
 
-    .line 670
+    .line 694
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v2
@@ -867,7 +858,7 @@
 
     invoke-virtual {p0, v2}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 671
+    .line 695
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     add-float/2addr v1, v0
@@ -885,7 +876,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 771
+    .line 795
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
@@ -900,7 +891,7 @@
 
     if-eqz p2, :cond_1
 
-    .line 772
+    .line 796
     invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
@@ -915,7 +906,7 @@
 
     if-eqz p3, :cond_2
 
-    .line 773
+    .line 797
     invoke-virtual {p3}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
@@ -930,7 +921,7 @@
 
     if-eqz p4, :cond_3
 
-    .line 774
+    .line 798
     invoke-virtual {p4}, Ljava/lang/Float;->floatValue()F
 
     move-result v0
@@ -938,54 +929,7 @@
     :cond_3
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 776
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p2, "Rect:Left:"
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string p2, " Right:"
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string p2, " Top:"
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string p2, " Bottom:"
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget p2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 p2, 0x0
-
-    new-array p2, p2, [Ljava/lang/Object;
-
-    invoke-static {p1, p2}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 777
+    .line 804
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
     return-void
@@ -996,7 +940,7 @@
 .method public final getCallback()Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;
     .locals 1
 
-    .line 203
+    .line 227
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->callback:Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;
 
     return-object v0
@@ -1009,28 +953,28 @@
 
     new-array v0, v0, [F
 
-    .line 625
+    .line 649
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     const/4 v2, 0x0
 
     aput v1, v0, v2
 
-    .line 626
+    .line 650
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     const/4 v2, 0x1
 
     aput v1, v0, v2
 
-    .line 627
+    .line 651
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     const/4 v2, 0x2
 
     aput v1, v0, v2
 
-    .line 628
+    .line 652
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     const/4 v2, 0x3
@@ -1097,7 +1041,7 @@
 .method public final getRealBottom()F
     .locals 1
 
-    .line 169
+    .line 190
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realBottom:F
 
     return v0
@@ -1106,7 +1050,7 @@
 .method public final getRealLeft()F
     .locals 1
 
-    .line 142
+    .line 154
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realLeft:F
 
     return v0
@@ -1115,7 +1059,7 @@
 .method public final getRealRight()F
     .locals 1
 
-    .line 151
+    .line 166
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realRight:F
 
     return v0
@@ -1124,7 +1068,7 @@
 .method public final getRealTop()F
     .locals 1
 
-    .line 160
+    .line 178
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realTop:F
 
     return v0
@@ -1133,7 +1077,7 @@
 .method public final getRectBottom()F
     .locals 1
 
-    .line 133
+    .line 142
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     return v0
@@ -1142,7 +1086,7 @@
 .method public final getRectHeight()I
     .locals 1
 
-    .line 634
+    .line 658
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v0
@@ -1162,7 +1106,7 @@
 .method public final getRectRight()F
     .locals 1
 
-    .line 115
+    .line 118
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     return v0
@@ -1171,7 +1115,7 @@
 .method public final getRectTop()F
     .locals 1
 
-    .line 124
+    .line 130
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     return v0
@@ -1180,7 +1124,7 @@
 .method public final getRectWidth()I
     .locals 1
 
-    .line 632
+    .line 656
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v0
@@ -1207,111 +1151,49 @@
 .end method
 
 .method public final isClick(FFFFJJJ)Z
-    .locals 14
+    .locals 0
 
-    move v0, p1
+    sub-float/2addr p3, p1
 
-    move/from16 v1, p2
+    .line 635
+    invoke-static {p3}, Ljava/lang/Math;->abs(F)F
 
-    move/from16 v2, p3
+    move-result p1
 
-    move/from16 v3, p4
+    sub-float/2addr p4, p2
 
-    move-wide/from16 v4, p5
+    .line 636
+    invoke-static {p4}, Ljava/lang/Math;->abs(F)F
 
-    move-wide/from16 v6, p7
+    move-result p2
 
-    sub-float v8, v2, v0
+    sub-long/2addr p7, p5
 
-    .line 611
-    invoke-static {v8}, Ljava/lang/Math;->abs(F)F
+    const/16 p3, 0x14
 
-    move-result v8
+    int-to-float p3, p3
 
-    sub-float v9, v3, v1
+    cmpg-float p1, p1, p3
 
-    .line 612
-    invoke-static {v9}, Ljava/lang/Math;->abs(F)F
+    if-gtz p1, :cond_0
 
-    move-result v9
+    cmpg-float p1, p2, p3
 
-    sub-long v10, v6, v4
+    if-gtz p1, :cond_0
 
-    .line 614
-    new-instance v12, Ljava/lang/StringBuilder;
+    cmp-long p1, p7, p9
 
-    invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
+    if-gtz p1, :cond_0
 
-    const-string v13, "thisX:"
+    const/4 p1, 0x1
 
-    invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string v2, ", lastX:"
-
-    invoke-virtual {v12, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12, p1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string v0, ", thisY:"
-
-    invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string v0, ", lastY:"
-
-    invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    const-string v0, " thisEventTime:"
-
-    invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12, v6, v7}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    const-string v0, ", lastDownTime:"
-
-    invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    const-string v0, ", "
-
-    invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v12}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    new-array v2, v1, [Ljava/lang/Object;
-
-    invoke-static {v0, v2}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    const/16 v0, 0x14
-
-    int-to-float v0, v0
-
-    cmpg-float v2, v8, v0
-
-    if-gtz v2, :cond_0
-
-    cmpg-float v0, v9, v0
-
-    if-gtz v0, :cond_0
-
-    cmp-long v0, v10, p9
-
-    if-gtz v0, :cond_0
-
-    const/4 v1, 0x1
+    goto :goto_0
 
     :cond_0
-    return v1
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
 .end method
 
 .method public final isLeft()Z
@@ -1393,7 +1275,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 677
+    .line 701
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->paint:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -1404,7 +1286,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 683
+    .line 707
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     const/4 v1, 0x0
@@ -1415,10 +1297,10 @@
 
     if-gez v0, :cond_0
 
-    .line 684
+    .line 708
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->initParams()V
 
-    .line 686
+    .line 710
     :cond_0
     iget v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
@@ -1436,12 +1318,12 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 688
+    .line 712
     iget-boolean v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isChangeSize:Z
 
     if-eqz v0, :cond_1
 
-    .line 690
+    .line 714
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
@@ -1463,10 +1345,10 @@
 .method protected onMeasure(II)V
     .locals 0
 
-    .line 641
+    .line 665
     invoke-super {p0, p1, p2}, Landroid/view/View;->onMeasure(II)V
 
-    .line 642
+    .line 666
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->initParams()V
 
     return-void
@@ -1479,7 +1361,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 236
+    .line 260
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v0
@@ -1494,118 +1376,71 @@
 
     if-eq v0, v2, :cond_43
 
-    const/4 v4, 0x3
+    const/4 v4, 0x2
 
-    const/4 v5, 0x2
+    if-eq v0, v4, :cond_0
 
-    if-eq v0, v5, :cond_0
+    const/4 v1, 0x3
 
-    if-eq v0, v4, :cond_43
+    if-eq v0, v1, :cond_43
 
     goto/16 :goto_e
 
-    .line 276
+    .line 300
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
 
-    .line 277
+    .line 301
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result p1
 
-    .line 279
-    iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
+    .line 303
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    sub-float v6, v0, v6
+    sub-float v5, v0, v5
 
-    .line 280
-    iget v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
+    .line 304
+    iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
-    sub-float v7, p1, v7
+    sub-float v6, p1, v6
 
-    const/4 v8, 0x6
+    .line 309
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isMove:Z
 
-    new-array v8, v8, [Ljava/lang/Object;
+    if-eqz v7, :cond_5
 
-    const-string v9, "rectLeftrectLeft"
-
-    aput-object v9, v8, v3
-
-    const-string v9, "\u8fb9\u754c"
-
-    aput-object v9, v8, v2
-
-    .line 281
-    iget v9, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
-
-    invoke-static {v9}, Ljava/lang/String;->valueOf(F)Ljava/lang/String;
-
-    move-result-object v9
-
-    aput-object v9, v8, v5
-
-    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v9
-
-    aput-object v9, v8, v4
-
-    const/4 v4, 0x4
-
-    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v9
-
-    aput-object v9, v8, v4
-
-    const/4 v4, 0x5
-
-    iget v9, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
-
-    invoke-static {v9}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v9
-
-    aput-object v9, v8, v4
-
-    invoke-static {v8}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
-
-    .line 285
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isMove:Z
-
-    if-eqz v4, :cond_5
-
-    .line 286
+    .line 310
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    add-float/2addr v1, v6
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 287
+    .line 311
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    add-float/2addr v1, v6
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 288
+    .line 312
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    add-float/2addr v1, v7
+    add-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 289
+    .line 313
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    add-float/2addr v1, v7
+    add-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 292
+    .line 316
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     int-to-float v3, v3
@@ -1626,22 +1461,22 @@
 
     if-lez v1, :cond_2
 
-    .line 293
+    .line 317
     :cond_1
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    sub-float/2addr v1, v6
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 294
+    .line 318
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    sub-float/2addr v1, v6
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 298
+    .line 322
     :cond_2
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
@@ -1661,101 +1496,101 @@
 
     if-lez v1, :cond_4
 
-    .line 299
+    .line 323
     :cond_3
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    sub-float/2addr v1, v7
+    sub-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 300
+    .line 324
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    sub-float/2addr v1, v7
+    sub-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 304
+    .line 328
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 305
+    .line 329
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 306
+    .line 330
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     goto/16 :goto_e
 
-    .line 310
+    .line 334
     :cond_5
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
+    iget v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
     const/high16 v8, -0x40800000    # -1.0f
 
-    cmpg-float v4, v4, v8
+    cmpg-float v7, v7, v8
 
     const/4 v8, 0x0
 
-    if-eqz v4, :cond_39
+    if-eqz v7, :cond_39
 
-    .line 311
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
+    .line 335
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
-    if-eqz v4, :cond_9
+    if-eqz v7, :cond_9
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
-    if-nez v4, :cond_6
+    if-nez v7, :cond_6
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
-    if-eqz v4, :cond_9
+    if-eqz v7, :cond_9
 
-    .line 312
+    .line 336
     :cond_6
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideLeft:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideLeft:Z
 
-    if-nez v4, :cond_11
+    if-nez v7, :cond_11
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
-    if-nez v4, :cond_11
+    if-nez v7, :cond_11
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
-    if-nez v4, :cond_11
+    if-nez v7, :cond_11
 
-    .line 313
+    .line 337
+    invoke-static {v5}, Ljava/lang/Math;->abs(F)F
+
+    move-result v7
+
+    .line 338
     invoke-static {v6}, Ljava/lang/Math;->abs(F)F
-
-    move-result v4
-
-    .line 314
-    invoke-static {v7}, Ljava/lang/Math;->abs(F)F
 
     move-result v9
 
-    cmpl-float v10, v4, v9
+    cmpl-float v10, v7, v9
 
     if-lez v10, :cond_7
 
     int-to-float v10, v1
 
-    cmpl-float v10, v4, v10
+    cmpl-float v10, v7, v10
 
     if-lez v10, :cond_7
 
-    .line 316
+    .line 340
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideLeft:Z
 
     goto/16 :goto_0
 
     :cond_7
-    cmpg-float v4, v4, v9
+    cmpg-float v7, v7, v9
 
-    if-gez v4, :cond_11
+    if-gez v7, :cond_11
 
     int-to-float v1, v1
 
@@ -1763,79 +1598,79 @@
 
     if-lez v1, :cond_11
 
-    .line 318
+    .line 342
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
     if-eqz v1, :cond_8
 
-    .line 319
+    .line 343
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
     goto/16 :goto_0
 
-    .line 321
+    .line 345
     :cond_8
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
     goto/16 :goto_0
 
-    .line 325
+    .line 349
     :cond_9
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
-    if-eqz v4, :cond_d
+    if-eqz v7, :cond_d
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
-    if-nez v4, :cond_a
+    if-nez v7, :cond_a
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
-    if-eqz v4, :cond_d
+    if-eqz v7, :cond_d
 
-    .line 326
+    .line 350
     :cond_a
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideRight:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideRight:Z
 
-    if-nez v4, :cond_11
+    if-nez v7, :cond_11
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
-    if-nez v4, :cond_11
+    if-nez v7, :cond_11
 
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
+    iget-boolean v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
-    if-nez v4, :cond_11
+    if-nez v7, :cond_11
 
-    .line 327
+    .line 351
+    invoke-static {v5}, Ljava/lang/Math;->abs(F)F
+
+    move-result v7
+
+    .line 352
     invoke-static {v6}, Ljava/lang/Math;->abs(F)F
-
-    move-result v4
-
-    .line 328
-    invoke-static {v7}, Ljava/lang/Math;->abs(F)F
 
     move-result v9
 
-    cmpl-float v10, v4, v9
+    cmpl-float v10, v7, v9
 
     if-lez v10, :cond_b
 
     int-to-float v10, v1
 
-    cmpl-float v10, v4, v10
+    cmpl-float v10, v7, v10
 
     if-lez v10, :cond_b
 
-    .line 330
+    .line 354
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideRight:Z
 
     goto :goto_0
 
     :cond_b
-    cmpg-float v4, v4, v9
+    cmpg-float v7, v7, v9
 
-    if-gez v4, :cond_11
+    if-gez v7, :cond_11
 
     int-to-float v1, v1
 
@@ -1843,23 +1678,23 @@
 
     if-lez v1, :cond_11
 
-    .line 332
+    .line 356
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
     if-eqz v1, :cond_c
 
-    .line 333
+    .line 357
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
     goto :goto_0
 
-    .line 335
+    .line 359
     :cond_c
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
     goto :goto_0
 
-    .line 339
+    .line 363
     :cond_d
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
@@ -1869,12 +1704,12 @@
 
     if-nez v1, :cond_e
 
-    .line 340
+    .line 364
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideLeft:Z
 
     goto :goto_0
 
-    .line 341
+    .line 365
     :cond_e
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
@@ -1884,12 +1719,12 @@
 
     if-nez v1, :cond_f
 
-    .line 342
+    .line 366
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideRight:Z
 
     goto :goto_0
 
-    .line 343
+    .line 367
     :cond_f
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
@@ -1899,12 +1734,12 @@
 
     if-nez v1, :cond_10
 
-    .line 344
+    .line 368
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
     goto :goto_0
 
-    .line 345
+    .line 369
     :cond_10
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
@@ -1914,24 +1749,24 @@
 
     if-nez v1, :cond_11
 
-    .line 346
+    .line 370
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
-    .line 348
+    .line 372
     :cond_11
     :goto_0
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideLeft:Z
 
     if-eqz v1, :cond_1b
 
-    .line 349
+    .line 373
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    add-float/2addr v1, v6
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 350
+    .line 374
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     int-to-float v3, v3
@@ -1942,95 +1777,95 @@
 
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 351
+    .line 375
     :cond_12
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    sub-float v4, v1, v4
+    sub-float v5, v1, v5
 
-    .line 352
+    .line 376
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
 
     int-to-float v7, v7
 
-    cmpg-float v7, v4, v7
+    cmpg-float v7, v5, v7
 
     if-gez v7, :cond_13
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
-    int-to-float v4, v6
+    int-to-float v5, v6
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
-    .line 354
+    .line 378
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 356
+    .line 380
     :cond_13
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    div-float/2addr v4, v1
+    div-float/2addr v5, v1
 
-    .line 357
+    .line 381
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
 
     int-to-float v7, v7
 
-    cmpg-float v7, v4, v7
+    cmpg-float v7, v5, v7
 
     if-gez v7, :cond_14
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
-    int-to-float v4, v6
+    int-to-float v5, v6
 
-    mul-float/2addr v1, v4
+    mul-float/2addr v1, v5
 
-    .line 360
+    .line 384
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     sub-float/2addr v6, v1
 
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 362
+    .line 386
     :cond_14
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
     if-eqz v1, :cond_15
 
-    .line 363
+    .line 387
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    add-float/2addr v1, v4
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
     goto :goto_1
 
-    .line 364
+    .line 388
     :cond_15
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
     if-eqz v1, :cond_16
 
-    .line 365
+    .line 389
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
     goto :goto_1
 
-    .line 367
+    .line 391
     :cond_16
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
@@ -2038,25 +1873,25 @@
 
     sub-float/2addr v1, v6
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
-    int-to-float v5, v5
+    int-to-float v4, v4
 
-    div-float/2addr v1, v5
+    div-float/2addr v1, v4
 
     add-float/2addr v6, v1
 
-    .line 369
+    .line 393
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 370
-    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
+    .line 394
+    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    sub-float/2addr v5, v1
+    sub-float/2addr v4, v1
 
-    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
+    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 372
+    .line 396
     :goto_1
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
@@ -2064,13 +1899,13 @@
 
     if-gez v1, :cond_18
 
-    .line 373
+    .line 397
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 374
-    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
+    .line 398
+    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 375
+    .line 399
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
@@ -2083,7 +1918,7 @@
 
     if-lez v1, :cond_17
 
-    .line 376
+    .line 400
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v1
@@ -2092,7 +1927,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 378
+    .line 402
     :cond_17
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
@@ -2100,7 +1935,7 @@
 
     mul-float/2addr v1, v3
 
-    .line 379
+    .line 403
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     sub-float/2addr v3, v1
@@ -2109,21 +1944,21 @@
 
     goto :goto_2
 
-    .line 380
+    .line 404
     :cond_18
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
-    move-result v5
+    move-result v4
 
-    int-to-float v5, v5
+    int-to-float v4, v4
 
-    cmpl-float v1, v1, v5
+    cmpl-float v1, v1, v4
 
     if-lez v1, :cond_1a
 
-    .line 381
+    .line 405
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v1
@@ -2132,28 +1967,28 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 382
+    .line 406
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v1
 
     int-to-float v1, v1
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 383
+    .line 407
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     cmpg-float v1, v1, v3
 
     if-gez v1, :cond_19
 
-    .line 384
+    .line 408
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 386
+    .line 410
     :cond_19
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
@@ -2165,49 +2000,49 @@
 
     mul-float/2addr v1, v3
 
-    .line 387
+    .line 411
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     sub-float/2addr v3, v1
 
     invoke-virtual {p0, v3}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 390
+    .line 414
     :cond_1a
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 391
+    .line 415
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 392
+    .line 416
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     goto/16 :goto_e
 
-    .line 393
+    .line 417
     :cond_1b
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideRight:Z
 
     if-eqz v1, :cond_25
 
-    .line 394
+    .line 418
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    add-float/2addr v1, v6
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 395
+    .line 419
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
-    move-result v4
+    move-result v5
 
-    int-to-float v4, v4
+    int-to-float v5, v5
 
-    cmpl-float v1, v1, v4
+    cmpl-float v1, v1, v5
 
     if-lez v1, :cond_1c
 
@@ -2219,15 +2054,15 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 396
+    .line 420
     :cond_1c
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
-    .line 397
+    .line 421
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
@@ -2238,22 +2073,22 @@
 
     if-gez v7, :cond_1d
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
     int-to-float v1, v6
 
-    add-float/2addr v4, v1
+    add-float/2addr v5, v1
 
-    .line 399
-    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
+    .line 423
+    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 401
+    .line 425
     :cond_1d
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    div-float/2addr v1, v4
+    div-float/2addr v1, v5
 
-    .line 402
+    .line 426
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
@@ -2264,26 +2099,26 @@
 
     if-gez v7, :cond_1e
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
     int-to-float v1, v6
 
-    mul-float/2addr v4, v1
+    mul-float/2addr v5, v1
 
-    .line 405
+    .line 429
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    add-float/2addr v6, v4
+    add-float/2addr v6, v5
 
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 407
+    .line 431
     :cond_1e
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
+    iget-boolean v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
-    if-eqz v4, :cond_1f
+    if-eqz v5, :cond_1f
 
-    .line 408
+    .line 432
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     add-float/2addr v4, v1
@@ -2292,13 +2127,13 @@
 
     goto :goto_3
 
-    .line 409
+    .line 433
     :cond_1f
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
+    iget-boolean v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
-    if-eqz v4, :cond_20
+    if-eqz v5, :cond_20
 
-    .line 410
+    .line 434
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     sub-float/2addr v4, v1
@@ -2307,33 +2142,33 @@
 
     goto :goto_3
 
-    .line 412
+    .line 436
     :cond_20
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    sub-float/2addr v4, v6
+    sub-float/2addr v5, v6
 
-    sub-float/2addr v4, v1
+    sub-float/2addr v5, v1
 
-    int-to-float v5, v5
+    int-to-float v4, v4
 
-    div-float/2addr v4, v5
+    div-float/2addr v5, v4
 
-    add-float/2addr v6, v4
+    add-float/2addr v6, v5
 
-    .line 414
+    .line 438
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 415
-    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
+    .line 439
+    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    sub-float/2addr v5, v4
+    sub-float/2addr v4, v5
 
-    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
+    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 417
+    .line 441
     :goto_3
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
@@ -2343,13 +2178,13 @@
 
     if-gez v4, :cond_22
 
-    .line 418
+    .line 442
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 419
+    .line 443
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 420
+    .line 444
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
@@ -2362,7 +2197,7 @@
 
     if-lez v1, :cond_21
 
-    .line 421
+    .line 445
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v1
@@ -2371,7 +2206,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 423
+    .line 447
     :cond_21
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
@@ -2379,7 +2214,7 @@
 
     mul-float/2addr v1, v3
 
-    .line 424
+    .line 448
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     add-float/2addr v3, v1
@@ -2388,7 +2223,7 @@
 
     goto :goto_4
 
-    .line 425
+    .line 449
     :cond_22
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
@@ -2402,7 +2237,7 @@
 
     if-lez v4, :cond_24
 
-    .line 426
+    .line 450
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v4
@@ -2411,7 +2246,7 @@
 
     invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 427
+    .line 451
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
     move-result v4
@@ -2422,17 +2257,17 @@
 
     invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 428
+    .line 452
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     cmpg-float v1, v1, v3
 
     if-gez v1, :cond_23
 
-    .line 429
+    .line 453
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 431
+    .line 455
     :cond_23
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
@@ -2444,40 +2279,40 @@
 
     mul-float/2addr v1, v3
 
-    .line 432
+    .line 456
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     add-float/2addr v3, v1
 
     invoke-virtual {p0, v3}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 435
+    .line 459
     :cond_24
     :goto_4
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 436
+    .line 460
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 437
+    .line 461
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     goto/16 :goto_e
 
-    .line 438
+    .line 462
     :cond_25
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
     if-eqz v1, :cond_2f
 
-    .line 439
+    .line 463
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    add-float/2addr v1, v7
+    add-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 440
+    .line 464
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     int-to-float v3, v3
@@ -2488,95 +2323,95 @@
 
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 441
+    .line 465
     :cond_26
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    sub-float v4, v1, v4
+    sub-float v5, v1, v5
 
-    .line 442
+    .line 466
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
 
     int-to-float v7, v7
 
-    cmpg-float v7, v4, v7
+    cmpg-float v7, v5, v7
 
     if-gez v7, :cond_27
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
-    int-to-float v4, v6
+    int-to-float v5, v6
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
-    .line 444
+    .line 468
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 446
+    .line 470
     :cond_27
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    mul-float/2addr v4, v1
+    mul-float/2addr v5, v1
 
-    .line 447
+    .line 471
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
 
     int-to-float v7, v7
 
-    cmpg-float v7, v4, v7
+    cmpg-float v7, v5, v7
 
     if-gez v7, :cond_28
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
-    int-to-float v4, v6
+    int-to-float v5, v6
 
-    div-float v1, v4, v1
+    div-float v1, v5, v1
 
-    .line 450
+    .line 474
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     sub-float/2addr v6, v1
 
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 452
+    .line 476
     :cond_28
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
     if-eqz v1, :cond_29
 
-    .line 453
+    .line 477
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    add-float/2addr v1, v4
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
     goto :goto_5
 
-    .line 454
+    .line 478
     :cond_29
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
     if-eqz v1, :cond_2a
 
-    .line 455
+    .line 479
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
     goto :goto_5
 
-    .line 457
+    .line 481
     :cond_2a
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
@@ -2584,25 +2419,25 @@
 
     sub-float/2addr v1, v6
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
-    int-to-float v5, v5
+    int-to-float v4, v4
 
-    div-float/2addr v1, v5
+    div-float/2addr v1, v4
 
     add-float/2addr v6, v1
 
-    .line 459
+    .line 483
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 460
-    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
+    .line 484
+    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    sub-float/2addr v5, v1
+    sub-float/2addr v4, v1
 
-    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
+    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 462
+    .line 486
     :goto_5
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
@@ -2610,13 +2445,13 @@
 
     if-gez v1, :cond_2c
 
-    .line 463
+    .line 487
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 464
-    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
+    .line 488
+    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 465
+    .line 489
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
@@ -2629,7 +2464,7 @@
 
     if-lez v1, :cond_2b
 
-    .line 466
+    .line 490
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
@@ -2638,7 +2473,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 468
+    .line 492
     :cond_2b
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
@@ -2646,7 +2481,7 @@
 
     div-float/2addr v1, v3
 
-    .line 469
+    .line 493
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     sub-float/2addr v3, v1
@@ -2655,21 +2490,21 @@
 
     goto :goto_6
 
-    .line 470
+    .line 494
     :cond_2c
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
-    move-result v5
+    move-result v4
 
-    int-to-float v5, v5
+    int-to-float v4, v4
 
-    cmpl-float v1, v1, v5
+    cmpl-float v1, v1, v4
 
     if-lez v1, :cond_2e
 
-    .line 471
+    .line 495
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
@@ -2678,83 +2513,83 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 472
+    .line 496
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
 
     int-to-float v1, v1
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 473
+    .line 497
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     cmpg-float v1, v1, v3
 
     if-gez v1, :cond_2d
 
-    .line 474
+    .line 498
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 475
+    .line 499
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
 
-    int-to-float v4, v1
+    int-to-float v5, v1
 
-    .line 477
+    .line 501
     :cond_2d
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    div-float/2addr v4, v1
+    div-float/2addr v5, v1
 
-    .line 478
+    .line 502
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 481
+    .line 505
     :cond_2e
     :goto_6
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 482
+    .line 506
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 483
+    .line 507
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     goto/16 :goto_e
 
-    .line 484
+    .line 508
     :cond_2f
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
     if-eqz v1, :cond_4b
 
-    .line 485
+    .line 509
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    add-float/2addr v1, v7
+    add-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 486
+    .line 510
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
 
-    move-result v4
+    move-result v5
 
-    int-to-float v4, v4
+    int-to-float v5, v5
 
-    cmpl-float v1, v1, v4
+    cmpl-float v1, v1, v5
 
     if-lez v1, :cond_30
 
@@ -2766,15 +2601,15 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 487
+    .line 511
     :cond_30
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    sub-float/2addr v1, v4
+    sub-float/2addr v1, v5
 
-    .line 488
+    .line 512
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
@@ -2785,22 +2620,22 @@
 
     if-gez v7, :cond_31
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
     int-to-float v1, v6
 
-    add-float/2addr v4, v1
+    add-float/2addr v5, v1
 
-    .line 490
-    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
+    .line 514
+    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 492
+    .line 516
     :cond_31
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
-    mul-float/2addr v1, v4
+    mul-float/2addr v1, v5
 
-    .line 493
+    .line 517
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
     mul-int/lit8 v7, v6, 0x2
@@ -2811,26 +2646,26 @@
 
     if-gez v7, :cond_32
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v6, v4
 
     int-to-float v1, v6
 
-    div-float v4, v1, v4
+    div-float v5, v1, v5
 
-    .line 496
+    .line 520
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    add-float/2addr v6, v4
+    add-float/2addr v6, v5
 
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 498
+    .line 522
     :cond_32
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
+    iget-boolean v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
-    if-eqz v4, :cond_33
+    if-eqz v5, :cond_33
 
-    .line 499
+    .line 523
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     add-float/2addr v4, v1
@@ -2839,13 +2674,13 @@
 
     goto :goto_7
 
-    .line 500
+    .line 524
     :cond_33
-    iget-boolean v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
+    iget-boolean v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
-    if-eqz v4, :cond_34
+    if-eqz v5, :cond_34
 
-    .line 501
+    .line 525
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     sub-float/2addr v4, v1
@@ -2854,33 +2689,33 @@
 
     goto :goto_7
 
-    .line 503
+    .line 527
     :cond_34
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    sub-float/2addr v4, v6
+    sub-float/2addr v5, v6
 
-    sub-float/2addr v4, v1
+    sub-float/2addr v5, v1
 
-    int-to-float v5, v5
+    int-to-float v4, v4
 
-    div-float/2addr v4, v5
+    div-float/2addr v5, v4
 
-    add-float/2addr v6, v4
+    add-float/2addr v6, v5
 
-    .line 505
+    .line 529
     invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 506
-    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
+    .line 530
+    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    sub-float/2addr v5, v4
+    sub-float/2addr v4, v5
 
-    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
+    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 508
+    .line 532
     :goto_7
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
@@ -2890,13 +2725,13 @@
 
     if-gez v4, :cond_36
 
-    .line 509
+    .line 533
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 510
+    .line 534
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 511
+    .line 535
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
@@ -2909,7 +2744,7 @@
 
     if-lez v1, :cond_35
 
-    .line 512
+    .line 536
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
@@ -2918,7 +2753,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 514
+    .line 538
     :cond_35
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
@@ -2926,7 +2761,7 @@
 
     div-float/2addr v1, v3
 
-    .line 515
+    .line 539
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     add-float/2addr v3, v1
@@ -2935,7 +2770,7 @@
 
     goto :goto_8
 
-    .line 516
+    .line 540
     :cond_36
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
@@ -2949,7 +2784,7 @@
 
     if-lez v4, :cond_38
 
-    .line 517
+    .line 541
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v4
@@ -2958,7 +2793,7 @@
 
     invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 518
+    .line 542
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v4
@@ -2969,118 +2804,118 @@
 
     invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 519
+    .line 543
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     cmpg-float v3, v4, v3
 
     if-gez v3, :cond_37
 
-    .line 520
+    .line 544
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 521
+    .line 545
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
     move-result v1
 
     int-to-float v1, v1
 
-    .line 523
+    .line 547
     :cond_37
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
     div-float/2addr v1, v3
 
-    .line 524
+    .line 548
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     add-float/2addr v3, v1
 
     invoke-virtual {p0, v3}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 526
+    .line 550
     :cond_38
     :goto_8
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 527
+    .line 551
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 528
+    .line 552
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     goto/16 :goto_e
 
-    .line 531
+    .line 555
     :cond_39
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
     if-eqz v1, :cond_3b
 
-    .line 532
+    .line 556
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    add-float/2addr v1, v6
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 533
+    .line 557
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    int-to-float v4, v3
+    int-to-float v5, v3
 
-    cmpg-float v1, v1, v4
+    cmpg-float v1, v1, v5
 
     if-gez v1, :cond_3a
 
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
-    .line 534
+    .line 558
     :cond_3a
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
+    iget v7, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
-    mul-int/lit8 v9, v6, 0x2
+    mul-int/lit8 v9, v7, 0x2
 
     int-to-float v9, v9
 
-    sub-float v9, v4, v9
+    sub-float v9, v5, v9
 
     cmpl-float v1, v1, v9
 
     if-lez v1, :cond_3e
 
-    mul-int/2addr v6, v5
+    mul-int/2addr v7, v4
 
-    int-to-float v1, v6
+    int-to-float v1, v7
 
-    sub-float/2addr v4, v1
+    sub-float/2addr v5, v1
 
-    .line 535
-    invoke-virtual {p0, v4}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
+    .line 559
+    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectLeft(F)V
 
     goto :goto_9
 
-    .line 538
+    .line 562
     :cond_3b
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
     if-eqz v1, :cond_3e
 
-    .line 539
+    .line 563
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "Rect:"
+    const-string v7, "Rect:"
 
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -3090,42 +2925,42 @@
 
     invoke-static {v1, v9}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 540
+    .line 564
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    add-float/2addr v1, v6
+    add-float/2addr v1, v5
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 541
+    .line 565
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    new-array v6, v3, [Ljava/lang/Object;
+    new-array v5, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v6}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v5}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 542
+    .line 566
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredWidth()I
 
-    move-result v6
+    move-result v5
 
-    int-to-float v6, v6
+    int-to-float v5, v5
 
-    cmpl-float v1, v1, v6
+    cmpl-float v1, v1, v5
 
     if-lez v1, :cond_3c
 
@@ -3137,11 +2972,11 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 543
+    .line 567
     :cond_3c
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    iget v6, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
 
     iget v9, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
@@ -3149,56 +2984,56 @@
 
     int-to-float v10, v10
 
-    add-float/2addr v10, v6
+    add-float/2addr v10, v5
 
     cmpg-float v1, v1, v10
 
     if-gez v1, :cond_3d
 
-    mul-int/2addr v9, v5
+    mul-int/2addr v9, v4
 
     int-to-float v1, v9
 
-    add-float/2addr v6, v1
+    add-float/2addr v5, v1
 
-    .line 544
-    invoke-virtual {p0, v6}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
+    .line 568
+    invoke-virtual {p0, v5}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectRight(F)V
 
-    .line 545
+    .line 569
     :cond_3d
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    new-array v4, v3, [Ljava/lang/Object;
+    new-array v5, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v4}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v5}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 549
+    .line 573
     :cond_3e
     :goto_9
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
     if-eqz v1, :cond_40
 
-    .line 550
+    .line 574
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    add-float/2addr v1, v7
+    add-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 551
+    .line 575
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     int-to-float v3, v3
@@ -3209,15 +3044,15 @@
 
     invoke-virtual {p0, v8}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
-    .line 552
+    .line 576
     :cond_3f
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
-    mul-int/lit8 v6, v4, 0x2
+    mul-int/lit8 v6, v5, 0x2
 
     int-to-float v6, v6
 
@@ -3227,31 +3062,31 @@
 
     if-lez v1, :cond_42
 
-    mul-int/2addr v4, v5
+    mul-int/2addr v5, v4
 
-    int-to-float v1, v4
+    int-to-float v1, v5
 
     sub-float/2addr v3, v1
 
-    .line 553
+    .line 577
     invoke-virtual {p0, v3}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectTop(F)V
 
     goto :goto_a
 
-    .line 554
+    .line 578
     :cond_40
     iget-boolean v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
     if-eqz v1, :cond_42
 
-    .line 555
+    .line 579
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
-    add-float/2addr v1, v7
+    add-float/2addr v1, v6
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 556
+    .line 580
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->getMeasuredHeight()I
@@ -3272,15 +3107,15 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 557
+    .line 581
     :cond_41
     iget v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
 
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
 
-    iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
+    iget v5, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->cornerLength:I
 
-    mul-int/lit8 v6, v4, 0x2
+    mul-int/lit8 v6, v5, 0x2
 
     int-to-float v6, v6
 
@@ -3290,60 +3125,60 @@
 
     if-gez v1, :cond_42
 
-    mul-int/2addr v4, v5
+    mul-int/2addr v5, v4
 
-    int-to-float v1, v4
+    int-to-float v1, v5
 
     add-float/2addr v3, v1
 
-    .line 558
+    .line 582
     invoke-virtual {p0, v3}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectBottom(F)V
 
-    .line 560
+    .line 584
     :cond_42
     :goto_a
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 561
+    .line 585
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 562
+    .line 586
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     goto/16 :goto_e
 
-    .line 567
+    .line 591
     :cond_43
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
-    .line 568
+    .line 592
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
-    .line 569
+    .line 593
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
-    .line 570
+    .line 594
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
-    .line 571
+    .line 595
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isMove:Z
 
-    .line 572
+    .line 596
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isChangeSize:Z
 
-    .line 573
+    .line 597
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideLeft:Z
 
-    .line 574
+    .line 598
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideRight:Z
 
-    .line 575
+    .line 599
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideTop:Z
 
-    .line 576
+    .line 600
     iput-boolean v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isSlideBottom:Z
 
-    .line 577
+    .line 601
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
 
     const/16 v1, 0x4b0
@@ -3354,7 +3189,7 @@
 
     if-gez v1, :cond_4b
 
-    .line 579
+    .line 603
     iget-object v1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->callback:Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;
 
     if-eqz v1, :cond_44
@@ -3369,7 +3204,7 @@
 
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 580
+    .line 604
     :cond_44
     iget v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->lastDownX:F
 
@@ -3399,7 +3234,7 @@
 
     if-eqz p1, :cond_4b
 
-    .line 583
+    .line 607
     iget-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->callback:Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;
 
     if-eqz p1, :cond_4b
@@ -3410,7 +3245,7 @@
 
     goto/16 :goto_e
 
-    .line 238
+    .line 262
     :cond_45
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -3418,35 +3253,35 @@
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
-    .line 239
+    .line 263
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v0
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
-    .line 240
+    .line 264
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->lastDownX:F
 
-    .line 241
+    .line 265
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v0
 
     iput v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->lastDownY:F
 
-    .line 242
+    .line 266
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getEventTime()J
 
     move-result-wide v4
 
     iput-wide v4, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->lastDownTime:J
 
-    .line 243
+    .line 267
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3467,7 +3302,7 @@
 
     invoke-static {v0, v3}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 244
+    .line 268
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
@@ -3538,12 +3373,12 @@
 
     if-gtz v0, :cond_46
 
-    .line 248
+    .line 272
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
 
     goto :goto_b
 
-    .line 249
+    .line 273
     :cond_46
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downX:F
 
@@ -3567,10 +3402,10 @@
 
     if-ltz v0, :cond_47
 
-    .line 250
+    .line 274
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isRight:Z
 
-    .line 253
+    .line 277
     :cond_47
     :goto_b
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
@@ -3583,7 +3418,7 @@
 
     float-to-int p1, v0
 
-    .line 254
+    .line 278
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
     iget v3, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->distance:I
@@ -3604,12 +3439,12 @@
 
     if-gtz v0, :cond_48
 
-    .line 255
+    .line 279
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isTop:Z
 
     goto :goto_c
 
-    .line 256
+    .line 280
     :cond_48
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->downY:F
 
@@ -3633,10 +3468,10 @@
 
     if-ltz p1, :cond_49
 
-    .line 257
+    .line 281
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isBottom:Z
 
-    .line 260
+    .line 284
     :cond_49
     :goto_c
     iget-boolean p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isLeft:Z
@@ -3655,20 +3490,20 @@
 
     if-nez p1, :cond_4a
 
-    .line 261
+    .line 285
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isMove:Z
 
     goto :goto_d
 
-    .line 265
+    .line 289
     :cond_4a
     iput-boolean v2, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->isChangeSize:Z
 
-    .line 267
+    .line 291
     :goto_d
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
-    .line 273
+    .line 297
     iget-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->callback:Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;
 
     if-eqz p1, :cond_4b
@@ -3681,7 +3516,7 @@
     :goto_e
     return v2
 
-    .line 271
+    .line 295
     :cond_4c
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -3693,7 +3528,7 @@
 .method public final setAspect(F)V
     .locals 0
 
-    .line 637
+    .line 661
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->aspect:F
 
     return-void
@@ -3711,7 +3546,7 @@
 .method public final setCallback(Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;)V
     .locals 0
 
-    .line 203
+    .line 227
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->callback:Lcom/rigol/scope/views/histogram/HistogramRectView$Callback;
 
     return-void
@@ -3799,242 +3634,67 @@
 .end method
 
 .method public final setRealBottom(F)V
-    .locals 1
+    .locals 0
 
-    .line 171
+    .line 192
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realBottom:F
-
-    .line 172
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectBottom: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realBottom:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRealLeft(F)V
-    .locals 1
+    .locals 0
 
-    .line 144
+    .line 156
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realLeft:F
-
-    .line 145
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectLeft: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realLeft:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRealRight(F)V
-    .locals 1
+    .locals 0
 
-    .line 153
+    .line 168
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realRight:F
-
-    .line 154
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectRight: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realRight:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRealTop(F)V
-    .locals 1
+    .locals 0
 
-    .line 162
+    .line 180
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realTop:F
-
-    .line 163
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectTop: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->realTop:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRectBottom(F)V
-    .locals 1
+    .locals 0
 
-    .line 135
+    .line 144
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
-
-    .line 136
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectBottom: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectBottom:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRectLeft(F)V
-    .locals 1
+    .locals 0
 
     .line 108
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
-
-    .line 109
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectLeft: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectLeft:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRectPosition(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
-    .locals 3
+    .locals 2
 
-    .line 784
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "Histogram:UI:HistogramRect:setRectPosition:Left:"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v1, " Right:"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v1, " Top:"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    const-string v1, " Bottom:"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    new-array v2, v1, [Ljava/lang/Object;
-
-    invoke-static {v0, v2}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
+    const/4 v0, 0x0
 
     if-eqz p1, :cond_0
 
-    .line 786
+    .line 813
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -4042,22 +3702,22 @@
     goto :goto_0
 
     :cond_0
-    move p1, v1
+    move p1, v0
 
     :goto_0
     int-to-float p1, p1
 
-    const/16 v0, 0x3e8
+    const/16 v1, 0x3e8
 
-    int-to-float v0, v0
+    int-to-float v1, v1
 
-    div-float/2addr p1, v0
+    div-float/2addr p1, v1
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRealLeft(F)V
 
     if-eqz p2, :cond_1
 
-    .line 788
+    .line 815
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -4065,18 +3725,18 @@
     goto :goto_1
 
     :cond_1
-    move p1, v1
+    move p1, v0
 
     :goto_1
     int-to-float p1, p1
 
-    div-float/2addr p1, v0
+    div-float/2addr p1, v1
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRealRight(F)V
 
     if-eqz p3, :cond_2
 
-    .line 789
+    .line 816
     invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -4084,7 +3744,7 @@
     goto :goto_2
 
     :cond_2
-    move p1, v1
+    move p1, v0
 
     :goto_2
     int-to-float p1, p1
@@ -4099,87 +3759,41 @@
 
     if-eqz p4, :cond_3
 
-    .line 790
+    .line 817
     invoke-virtual {p4}, Ljava/lang/Integer;->intValue()I
 
-    move-result v1
+    move-result v0
 
     :cond_3
-    int-to-float p1, v1
+    int-to-float p1, v0
 
     div-float/2addr p1, p2
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRealBottom(F)V
 
-    .line 791
+    .line 818
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->initParams()V
 
-    .line 792
+    .line 819
     invoke-virtual {p0}, Lcom/rigol/scope/views/histogram/HistogramRectView;->invalidate()V
 
     return-void
 .end method
 
 .method public final setRectRight(F)V
-    .locals 1
+    .locals 0
 
-    .line 117
+    .line 120
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
-
-    .line 118
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectRight: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectRight:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final setRectTop(F)V
-    .locals 1
+    .locals 0
 
-    .line 126
+    .line 132
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
-
-    .line 127
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Histogram:UI:HistogramRectView:rectTop: "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramRectView;->rectTop:F
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method

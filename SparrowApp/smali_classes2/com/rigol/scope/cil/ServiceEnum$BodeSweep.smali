@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9976
+    .line 9980
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     const-string v1, "LOG_SWEEP"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->LOG_SWEEP:Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
-    .line 9977
+    .line 9981
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     const-string v9, "LINE_SWEEP"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->LINE_SWEEP:Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
-    .line 9978
+    .line 9982
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     const-string v2, "POINT_SWEEP"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
-    .line 9974
+    .line 9978
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->LOG_SWEEP:Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9981
+    .line 9985
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9982
+    .line 9986
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->value1:I
 
-    .line 9983
+    .line 9987
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->value2:Ljava/lang/String;
 
-    .line 9984
+    .line 9988
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->pic1:Ljava/lang/String;
 
-    .line 9985
+    .line 9989
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
     .locals 1
 
-    .line 9974
+    .line 9978
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
     .locals 1
 
-    .line 9974
+    .line 9978
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BodeSweep;->clone()Ljava/lang/Object;

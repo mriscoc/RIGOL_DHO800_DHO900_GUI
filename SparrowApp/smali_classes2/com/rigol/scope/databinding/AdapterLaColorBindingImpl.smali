@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterLaColorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05a3
+    const v1, 0x7f0a05ac
 
     const/16 v2, 0x8
 
@@ -235,7 +235,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1cb
+    const/16 v0, 0x1cf
 
     if-ne p2, v0, :cond_1
 
@@ -267,7 +267,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x1ca
+    const/16 v0, 0x1ce
 
     if-ne p2, v0, :cond_2
 
@@ -299,7 +299,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x1ad
+    const/16 v0, 0x1b1
 
     if-ne p2, v0, :cond_3
 
@@ -331,7 +331,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x1c9
+    const/16 v0, 0x1cd
 
     if-ne p2, v0, :cond_4
 
@@ -932,7 +932,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x253
+    const/16 p1, 0x257
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterLaColorBindingImpl;->notifyPropertyChanged(I)V
@@ -957,7 +957,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x253
+    const/16 v0, 0x257
 
     if-ne v0, p1, :cond_0
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/LaParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/UpaRippleParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$laParam:Lcom/rigol/scope/data/LaParam;
+.field final synthetic val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/LaParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/UpaRippleParam;)V
     .locals 0
 
-    .line 8338
+    .line 8485
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$766;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$766;->val$laParam:Lcom/rigol/scope/data/LaParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$766;->val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8341
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$766;->val$laParam:Lcom/rigol/scope/data/LaParam;
+    .line 8488
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$766;->val$upaRippleParam:Lcom/rigol/scope/data/UpaRippleParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readLaProbeCalProString()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaRippleParam;->readPowerCurr()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8338
+    .line 8485
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$766;->onChanged(Ljava/lang/Boolean;)V

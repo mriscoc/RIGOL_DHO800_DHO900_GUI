@@ -344,7 +344,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x3a0
+    const/16 v2, 0x3a9
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -357,7 +357,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x3c7
+    const/16 v2, 0x3d0
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -370,7 +370,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x149
+    const/16 v2, 0x14d
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -383,7 +383,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x118
+    const/16 v2, 0x11c
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -396,7 +396,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x119
+    const/16 v2, 0x11d
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 

@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3760
+    .line 3761
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     const-string v1, "Lin_1X"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->Lin_1X:Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
-    .line 3761
+    .line 3762
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     const-string v9, "Lin_2X"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->Lin_2X:Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
-    .line 3762
+    .line 3763
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     const-string v2, "Lin_both"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
-    .line 3758
+    .line 3759
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->Lin_1X:Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 3765
+    .line 3766
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3766
+    .line 3767
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->value1:I
 
-    .line 3767
+    .line 3768
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->value2:Ljava/lang/String;
 
-    .line 3768
+    .line 3769
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->pic1:Ljava/lang/String;
 
-    .line 3769
+    .line 3770
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
     .locals 1
 
-    .line 3758
+    .line 3759
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
     .locals 1
 
-    .line 3758
+    .line 3759
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$LinProtocol;->clone()Ljava/lang/Object;

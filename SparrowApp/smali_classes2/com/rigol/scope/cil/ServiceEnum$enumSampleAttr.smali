@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5246
+    .line 5247
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     const-string v1, "e_sample_norm"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->e_sample_norm:Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
-    .line 5247
+    .line 5248
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     const-string v9, "e_sample_peak"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->e_sample_peak:Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
-    .line 5248
+    .line 5249
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     const-string v2, "e_sample_head"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->e_sample_head:Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
-    .line 5249
+    .line 5250
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     const-string v9, "e_sample_tail"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
-    .line 5244
+    .line 5245
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->e_sample_norm:Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 5252
+    .line 5253
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5253
+    .line 5254
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->value1:I
 
-    .line 5254
+    .line 5255
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->value2:Ljava/lang/String;
 
-    .line 5255
+    .line 5256
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->pic1:Ljava/lang/String;
 
-    .line 5256
+    .line 5257
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
     .locals 1
 
-    .line 5244
+    .line 5245
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
     .locals 1
 
-    .line 5244
+    .line 5245
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$enumSampleAttr;->clone()Ljava/lang/Object;

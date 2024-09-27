@@ -836,7 +836,7 @@
 
     move-result p1
 
-    const v0, 0x7f03023e
+    const v0, 0x7f03023f
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -985,7 +985,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f100377
+    const p1, 0x7f100376
 
     .line 291
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -1002,7 +1002,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0a73
+    const v1, 0x7f0a0a8e
 
     if-eq v0, v1, :cond_0
 
@@ -1012,7 +1012,7 @@
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/upa/UpaPopupview;->anchor:Landroid/view/View;
 
-    const v1, 0x7f03023e
+    const v1, 0x7f03023f
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 

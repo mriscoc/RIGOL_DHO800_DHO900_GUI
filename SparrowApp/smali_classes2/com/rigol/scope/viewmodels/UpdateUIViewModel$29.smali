@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 821
+    .line 904
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$29;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$29;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 824
+    .line 907
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$29;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 821
+    .line 904
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$29;->onChanged(Ljava/lang/Boolean;)V

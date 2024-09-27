@@ -53,7 +53,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$$inlined$let$lambda$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
-    .line 1772
+    .line 1783
     invoke-direct {p0}, Landroidx/databinding/Observable$OnPropertyChangedCallback;-><init>()V
 
     return-void
@@ -64,11 +64,11 @@
 .method public onPropertyChanged(Landroidx/databinding/Observable;I)V
     .locals 0
 
-    const/16 p1, 0x403
+    const/16 p1, 0x40d
 
     if-ne p2, p1, :cond_0
 
-    .line 1775
+    .line 1786
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$$inlined$let$lambda$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getMeasureSettingParam()Lcom/rigol/scope/data/MeasureSettingParam;
@@ -85,7 +85,7 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1776
+    .line 1787
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$bindMeasureCursor$$inlined$let$lambda$1;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->showMeasureCursor()V

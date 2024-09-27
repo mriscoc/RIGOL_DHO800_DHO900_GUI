@@ -107,17 +107,18 @@
 
     move-result-object v1
 
+    if-eqz v1, :cond_4
+
+    .line 105
     const-class v3, Lcom/rigol/scope/views/FileSaveLoading;
 
     invoke-virtual {v1, v3}, Lcom/rigol/scope/utilities/PopupViewManager;->get(Ljava/lang/Class;)Lcom/rigol/scope/views/baseview/BasePopupView;
 
     move-result-object v1
 
-    const-string v3, "PopupViewManager.getInst\u2026eSaveLoading::class.java)"
+    if-eqz v1, :cond_4
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 105
+    .line 106
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v0
@@ -142,7 +143,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 107
+    .line 108
     check-cast v1, Lcom/rigol/scope/views/LoadingPopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/LoadingPopupView;->isShowWrning()Landroidx/databinding/ObservableBoolean;
@@ -153,14 +154,14 @@
 
     invoke-virtual {v0, v2}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    const v0, 0x7f1011b3
+    const v0, 0x7f1011c3
 
-    .line 108
+    .line 109
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
 
     goto :goto_1
 
-    .line 107
+    .line 108
     :cond_1
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -171,7 +172,7 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    .line 112
+    .line 113
     check-cast v1, Lcom/rigol/scope/views/LoadingPopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/LoadingPopupView;->isShowWrning()Landroidx/databinding/ObservableBoolean;
@@ -180,8 +181,7 @@
 
     invoke-virtual {v0, v5}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    :goto_1
-    return-void
+    goto :goto_1
 
     :cond_3
     new-instance v0, Ljava/lang/NullPointerException;
@@ -191,6 +191,7 @@
     throw v0
 
     :cond_4
+    :goto_1
     return-void
 .end method
 

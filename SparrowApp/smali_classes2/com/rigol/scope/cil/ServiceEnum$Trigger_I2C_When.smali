@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3329
+    .line 3330
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v1, "trig_i2c_start"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_start:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3330
+    .line 3331
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v9, "trig_i2c_end"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_end:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3331
+    .line 3332
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v2, "trig_i2c_restart"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_restart:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3332
+    .line 3333
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v9, "trig_i2c_nack"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_nack:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3333
+    .line 3334
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v2, "trig_i2c_addr"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_addr:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3334
+    .line 3335
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v9, "trig_i2c_data"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3335
+    .line 3336
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const-string v2, "trig_i2c_addr_data"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    .line 3327
+    .line 3328
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_start:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 3338
+    .line 3339
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3339
+    .line 3340
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->value1:I
 
-    .line 3340
+    .line 3341
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->value2:Ljava/lang/String;
 
-    .line 3341
+    .line 3342
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->pic1:Ljava/lang/String;
 
-    .line 3342
+    .line 3343
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
     .locals 1
 
-    .line 3327
+    .line 3328
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
     .locals 1
 
-    .line 3327
+    .line 3328
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->clone()Ljava/lang/Object;

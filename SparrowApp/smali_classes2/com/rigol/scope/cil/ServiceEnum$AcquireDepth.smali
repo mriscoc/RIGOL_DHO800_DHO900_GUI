@@ -55,6 +55,8 @@
 
 .field public static final enum Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
+.field public static final enum Acquire_Depth_5M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
 .field public static final enum Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
 
@@ -180,7 +182,7 @@
     .line 1412
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v9, "Acquire_Depth_10M"
+    const-string v9, "Acquire_Depth_5M"
 
     const/4 v10, 0x5
 
@@ -196,12 +198,12 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_5M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1413
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v2, "Acquire_Depth_25M"
+    const-string v2, "Acquire_Depth_10M"
 
     const/4 v3, 0x6
 
@@ -217,12 +219,12 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1414
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v9, "Acquire_Depth_50M"
+    const-string v9, "Acquire_Depth_25M"
 
     const/4 v10, 0x7
 
@@ -238,12 +240,12 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1415
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v2, "Acquire_Depth_100M"
+    const-string v2, "Acquire_Depth_50M"
 
     const/16 v3, 0x8
 
@@ -259,12 +261,12 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1416
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v9, "Acquire_Depth_125M"
+    const-string v9, "Acquire_Depth_100M"
 
     const/16 v10, 0x9
 
@@ -280,12 +282,12 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1417
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v2, "Acquire_Depth_200M"
+    const-string v2, "Acquire_Depth_125M"
 
     const/16 v3, 0xa
 
@@ -301,12 +303,12 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_200M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1418
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v9, "Acquire_Depth_250M"
+    const-string v9, "Acquire_Depth_200M"
 
     const/16 v10, 0xb
 
@@ -322,12 +324,12 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_200M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1419
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v2, "Acquire_Depth_500M"
+    const-string v2, "Acquire_Depth_250M"
 
     const/16 v3, 0xc
 
@@ -343,12 +345,12 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1420
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v9, "Acquire_Depth_1G"
+    const-string v9, "Acquire_Depth_500M"
 
     const/16 v10, 0xd
 
@@ -364,12 +366,12 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1421
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v2, "Acquire_Depth_2G"
+    const-string v2, "Acquire_Depth_1G"
 
     const/16 v3, 0xe
 
@@ -385,12 +387,12 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     .line 1422
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const-string v9, "Acquire_Depth_2_5G"
+    const-string v9, "Acquire_Depth_2G"
 
     const/16 v10, 0xf
 
@@ -406,9 +408,30 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    .line 1423
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    const-string v2, "Acquire_Depth_2_5G"
+
+    const/16 v3, 0x10
+
+    const/16 v4, 0x10
+
+    const-string v5, ""
+
+    const-string v6, ""
+
+    const-string v7, ""
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2_5G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    const/16 v1, 0x10
+    const/16 v1, 0x11
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
@@ -443,67 +466,73 @@
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_5M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/4 v3, 0x5
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/4 v3, 0x6
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/4 v3, 0x7
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0x8
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0x9
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_200M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0xa
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_200M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0xb
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0xc
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0xd
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
     const/16 v3, 0xe
 
     aput-object v2, v1, v3
 
-    const/16 v2, 0xf
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    const/16 v3, 0xf
+
+    aput-object v2, v1, v3
+
+    const/16 v2, 0x10
 
     aput-object v0, v1, v2
 
@@ -524,19 +553,19 @@
         }
     .end annotation
 
-    .line 1425
+    .line 1426
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1426
+    .line 1427
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    .line 1427
+    .line 1428
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value2:Ljava/lang/String;
 
-    .line 1428
+    .line 1429
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->pic1:Ljava/lang/String;
 
-    .line 1429
+    .line 1430
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->pic2:Ljava/lang/String;
 
     return-void

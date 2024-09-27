@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e0
+    const v1, 0x7f0a05e9
 
     const/16 v2, 0x16
 
@@ -38,7 +38,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e2
+    const v1, 0x7f0a05eb
 
     const/16 v2, 0x17
 
@@ -47,7 +47,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0859
+    const v1, 0x7f0a0874
 
     const/16 v2, 0x18
 
@@ -56,7 +56,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0824
+    const v1, 0x7f0a083f
 
     const/16 v2, 0x19
 
@@ -425,7 +425,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x324
+    const/16 v0, 0x32a
 
     if-ne p2, v0, :cond_1
 
@@ -457,7 +457,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x404
+    const/16 v0, 0x40e
 
     if-ne p2, v0, :cond_2
 
@@ -617,7 +617,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x406
+    const/16 v0, 0x410
 
     if-ne p2, v0, :cond_7
 
@@ -649,7 +649,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x407
+    const/16 v0, 0x411
 
     if-ne p2, v0, :cond_8
 
@@ -681,7 +681,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x408
+    const/16 v0, 0x412
 
     if-ne p2, v0, :cond_9
 
@@ -713,7 +713,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x405
+    const/16 v0, 0x40f
 
     if-ne p2, v0, :cond_a
 
@@ -745,7 +745,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x40b
+    const/16 v0, 0x415
 
     if-ne p2, v0, :cond_b
 
@@ -777,7 +777,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x40a
+    const/16 v0, 0x414
 
     if-ne p2, v0, :cond_c
 
@@ -809,7 +809,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x409
+    const/16 v0, 0x413
 
     if-ne p2, v0, :cond_d
 
@@ -881,7 +881,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -953,7 +953,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1025,7 +1025,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1097,7 +1097,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1169,7 +1169,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -3595,7 +3595,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;->notifyPropertyChanged(I)V
@@ -3620,7 +3620,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

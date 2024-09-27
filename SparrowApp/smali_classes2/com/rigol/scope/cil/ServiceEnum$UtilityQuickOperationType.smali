@@ -70,7 +70,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5341
+    .line 5342
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v1, "QUICK_SaveImage"
@@ -91,7 +91,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_SaveImage:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5342
+    .line 5343
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_SaveWave"
@@ -112,7 +112,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_SaveWave:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5343
+    .line 5344
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_SaveSetup"
@@ -133,7 +133,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_SaveSetup:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5344
+    .line 5345
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_LoadSetup"
@@ -154,7 +154,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_LoadSetup:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5345
+    .line 5346
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_LoadWave"
@@ -175,7 +175,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_LoadWave:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5346
+    .line 5347
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_FreezeWave"
@@ -196,7 +196,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_FreezeWave:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5347
+    .line 5348
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_AllMeasure"
@@ -217,7 +217,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_AllMeasure:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5348
+    .line 5349
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_StatReset"
@@ -238,7 +238,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_StatReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5349
+    .line 5350
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_Print"
@@ -259,7 +259,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_Print:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5350
+    .line 5351
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_Email"
@@ -280,7 +280,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_Email:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5351
+    .line 5352
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_LoadMask"
@@ -301,7 +301,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_LoadMask:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5352
+    .line 5353
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_LoadArb"
@@ -322,7 +322,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_LoadArb:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5353
+    .line 5354
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_Record"
@@ -343,7 +343,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_Record:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5354
+    .line 5355
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v9, "QUICK_SelectSave"
@@ -364,7 +364,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_SelectSave:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5355
+    .line 5356
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const-string v2, "QUICK_Resume"
@@ -389,7 +389,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    .line 5339
+    .line 5340
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->QUICK_SaveImage:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     const/4 v3, 0x0
@@ -495,19 +495,19 @@
         }
     .end annotation
 
-    .line 5358
+    .line 5359
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5359
+    .line 5360
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->value1:I
 
-    .line 5360
+    .line 5361
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->value2:Ljava/lang/String;
 
-    .line 5361
+    .line 5362
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->pic1:Ljava/lang/String;
 
-    .line 5362
+    .line 5363
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->pic2:Ljava/lang/String;
 
     return-void
@@ -516,7 +516,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
     .locals 1
 
-    .line 5339
+    .line 5340
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -531,7 +531,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
     .locals 1
 
-    .line 5339
+    .line 5340
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->clone()Ljava/lang/Object;

@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 258
+    .line 263
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$2;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 262
+    .line 267
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -60,10 +60,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 264
+    .line 269
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
-    .line 266
+    .line 271
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -77,10 +77,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 268
+    .line 273
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
-    .line 271
+    .line 276
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -94,17 +94,17 @@
 
     move-result p1
 
-    .line 272
+    .line 277
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getStorageFuncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     move-result-object p1
 
-    .line 273
+    .line 278
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SECURITYCLEAR:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     if-ne p1, v0, :cond_3
 
-    .line 274
+    .line 279
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -117,7 +117,7 @@
 
     if-nez p1, :cond_2
 
-    .line 276
+    .line 281
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -126,7 +126,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011b1
+    const v0, 0x7f1011c1
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -134,7 +134,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showLong(Ljava/lang/CharSequence;)V
 
-    .line 278
+    .line 283
     const-class p1, Lcom/rigol/scope/viewmodels/DiskManageViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -145,7 +145,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 280
+    .line 285
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DiskManageViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -158,12 +158,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 282
+    .line 287
     invoke-virtual {p1}, Lcom/rigol/scope/data/DiskManageParam;->loadFiles()V
 
     goto :goto_0
 
-    .line 286
+    .line 291
     :cond_2
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -173,7 +173,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011af
+    const v0, 0x7f1011bf
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 258
+    .line 263
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$2;->onChanged(Ljava/lang/Boolean;)V

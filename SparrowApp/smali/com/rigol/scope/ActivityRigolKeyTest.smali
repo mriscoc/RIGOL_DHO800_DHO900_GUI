@@ -172,7 +172,7 @@
     :cond_0
     or-int/lit16 p1, p1, 0x1000
 
-    .line 566
+    .line 567
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -198,20 +198,20 @@
 .method private addKeyType(Ljava/lang/String;I)V
     .locals 2
 
-    .line 755
+    .line 756
     :try_start_0
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 756
+    .line 757
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x5769
+    const/16 v0, 0x576b
 
     iget-object v1, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
@@ -228,7 +228,7 @@
     :catch_0
     move-exception p1
 
-    .line 758
+    .line 759
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
     :goto_0
@@ -238,20 +238,20 @@
 .method private addKeyType(Ljava/lang/String;Z)V
     .locals 2
 
-    .line 765
+    .line 766
     :try_start_0
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 766
+    .line 767
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x5769
+    const/16 v0, 0x576b
 
     iget-object v1, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
@@ -268,7 +268,7 @@
     :catch_0
     move-exception p1
 
-    .line 768
+    .line 769
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
     :goto_0
@@ -278,7 +278,7 @@
 .method private initJson()V
     .locals 4
 
-    .line 822
+    .line 823
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -290,311 +290,311 @@
 
     const/4 v2, 0x0
 
-    .line 824
+    .line 825
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 825
+    .line 826
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_cursor"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 826
+    .line 827
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_analyse"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 827
+    .line 828
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_single"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 828
+    .line 829
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_auto"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 829
+    .line 830
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_runstop"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 830
+    .line 831
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_default"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 831
+    .line 832
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_clear"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 832
+    .line 833
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_touchlock"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 833
+    .line 834
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_quick"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 834
+    .line 835
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_trigger"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 835
+    .line 836
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_slope"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 836
+    .line 837
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_force"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 837
+    .line 838
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_ch1"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 838
+    .line 839
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_ch2"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 839
+    .line 840
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_ch3"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 840
+    .line 841
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_ch4"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 841
+    .line 842
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_la"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 842
+    .line 843
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_g1"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 843
+    .line 844
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_g2"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 844
+    .line 845
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_math"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 845
+    .line 846
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_ref"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 846
+    .line 847
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_acquire"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 847
+    .line 848
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_zoom"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 848
+    .line 849
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_navigate"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 849
+    .line 850
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_search"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 850
+    .line 851
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_last"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 851
+    .line 852
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_pause"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 852
+    .line 853
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_next"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 853
+    .line 854
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob1"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 854
+    .line 855
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob2"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 855
+    .line 856
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob3"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 856
+    .line 857
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob4"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 857
+    .line 858
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob5"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 858
+    .line 859
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob6"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 859
+    .line 860
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "btn_knob7"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
-    .line 860
+    .line 861
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob1"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 861
+    .line 862
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob2"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 862
+    .line 863
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob3"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 863
+    .line 864
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob4"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 864
+    .line 865
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob5"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 865
+    .line 866
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob6"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 866
+    .line 867
     iget-object v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
     const-string v1, "knob7"
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 867
+    .line 868
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x5769
+    const/16 v2, 0x576b
 
     iget-object v3, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->jsonObject:Lorg/json/JSONObject;
 
@@ -611,7 +611,7 @@
     :catch_0
     move-exception v0
 
-    .line 869
+    .line 870
     invoke-virtual {v0}, Lorg/json/JSONException;->printStackTrace()V
 
     :goto_0
@@ -625,17 +625,17 @@
 
     const/4 p1, 0x0
 
-    const p3, 0x7f080638
+    const p3, 0x7f08063c
 
-    .line 625
+    .line 626
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805f5
+    const p1, 0x7f0805f7
 
-    .line 627
+    .line 628
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     const/4 p1, 0x1
@@ -649,27 +649,27 @@
 
     const/4 v0, 0x0
 
-    .line 602
+    .line 603
     iput v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->count:I
 
     const-string v1, "0"
 
-    .line 603
+    .line 604
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080639
+    const p1, 0x7f08063d
 
-    .line 606
+    .line 607
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805f6
+    const p1, 0x7f0805f8
 
-    .line 608
+    .line 609
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     const/4 v0, 0x1
@@ -683,27 +683,27 @@
 
     const/4 v0, 0x0
 
-    .line 571
+    .line 572
     iput v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->count:I
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f08063a
+    const p1, 0x7f08063e
 
-    .line 574
+    .line 575
     invoke-virtual {p2, p1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805f7
+    const p1, 0x7f0805f9
 
-    .line 576
+    .line 577
     invoke-virtual {p2, p1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     const/4 v0, 0x1
 
-    .line 579
+    .line 580
     :goto_0
     invoke-virtual {p3}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
@@ -719,7 +719,7 @@
 
     add-int/lit8 p1, p1, -0x1
 
-    .line 581
+    .line 582
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -736,17 +736,17 @@
 
     const/4 p1, 0x0
 
-    const p3, 0x7f0805d8
+    const p3, 0x7f0805da
 
-    .line 682
+    .line 683
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805d6
+    const p1, 0x7f0805d8
 
-    .line 684
+    .line 685
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     const/4 p1, 0x1
@@ -762,17 +762,17 @@
 
     const/4 p1, 0x0
 
-    const p3, 0x7f0805de
+    const p3, 0x7f0805e0
 
-    .line 663
+    .line 664
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805d1
+    const p1, 0x7f0805d3
 
-    .line 665
+    .line 666
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     const/4 p1, 0x1
@@ -788,17 +788,17 @@
 
     const/4 p1, 0x0
 
-    const p3, 0x7f0805d0
+    const p3, 0x7f0805d2
 
-    .line 644
+    .line 645
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805cf
+    const p1, 0x7f0805d1
 
-    .line 646
+    .line 647
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
     const/4 p1, 0x1
@@ -812,29 +812,29 @@
 
     const/4 v0, 0x0
 
-    .line 586
+    .line 587
     iput v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->count:I
 
     const/4 v1, 0x1
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f08063c
+    const p1, 0x7f080640
 
-    .line 589
+    .line 590
     invoke-virtual {p2, p1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0805f8
+    const p1, 0x7f0805fa
 
-    .line 591
+    .line 592
     invoke-virtual {p2, p1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     move v0, v1
 
-    .line 594
+    .line 595
     :goto_0
     invoke-virtual {p3}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
@@ -850,7 +850,7 @@
 
     add-int/2addr p1, v1
 
-    .line 596
+    .line 597
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -865,18 +865,18 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    .line 717
+    .line 718
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
 
-    const v0, 0x7f0a0423
+    const v0, 0x7f0a0428
 
     if-eq p1, v0, :cond_0
 
     goto/16 :goto_0
 
-    .line 720
+    .line 721
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -888,13 +888,13 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x575e
+    const/16 v2, 0x5760
 
     const/4 v3, 0x0
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 721
+    .line 722
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -905,7 +905,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 722
+    .line 723
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -916,7 +916,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 723
+    .line 724
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -927,7 +927,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 725
+    .line 726
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -938,7 +938,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 726
+    .line 727
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -949,7 +949,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 727
+    .line 728
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -960,7 +960,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 728
+    .line 729
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -971,7 +971,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 730
+    .line 731
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -982,7 +982,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 731
+    .line 732
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -993,7 +993,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 733
+    .line 734
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1004,7 +1004,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 734
+    .line 735
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1015,7 +1015,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 736
+    .line 737
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1026,7 +1026,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 737
+    .line 738
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1037,7 +1037,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 739
+    .line 740
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1048,7 +1048,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 741
+    .line 742
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1059,7 +1059,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 743
+    .line 744
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -1070,7 +1070,7 @@
 
     invoke-virtual {p1, v1, v2, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 744
+    .line 745
     invoke-virtual {p0}, Lcom/rigol/scope/ActivityRigolKeyTest;->finish()V
 
     :goto_0
@@ -1117,7 +1117,7 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x575e
+    const/16 v2, 0x5760
 
     const/4 v3, 0x0
 
@@ -1373,7 +1373,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x574c
+    const/16 v0, 0x574e
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -1409,7 +1409,7 @@
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
     .locals 0
 
-    .line 547
+    .line 548
     invoke-super {p0, p1, p2}, Lcom/rigol/scope/SelfTestActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result p1
@@ -1451,7 +1451,7 @@
 
     const/4 v2, 0x0
 
-    const/16 v3, 0x575e
+    const/16 v3, 0x5760
 
     const/16 v4, 0xb
 
@@ -1698,6 +1698,11 @@
     move-result v0
 
     iput-boolean v0, p0, Lcom/rigol/scope/ActivityRigolKeyTest;->HORIZONTAL_LEVEL_PRESSED:Z
+
+    const-string v1, "btn_knob7"
+
+    .line 493
+    invoke-direct {p0, v1, v0}, Lcom/rigol/scope/ActivityRigolKeyTest;->addKeyType(Ljava/lang/String;Z)V
 
     goto/16 :goto_3
 
@@ -3132,13 +3137,15 @@
 
     invoke-direct {p0, v1, v0}, Lcom/rigol/scope/ActivityRigolKeyTest;->addKeyType(Ljava/lang/String;Z)V
 
-    .line 512
+    .line 513
     :goto_3
     invoke-super {p0, p1, p2}, Lcom/rigol/scope/SelfTestActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result p1
 
     return p1
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -3223,10 +3230,10 @@
 .method protected onPause()V
     .locals 5
 
-    .line 692
+    .line 693
     invoke-super {p0}, Lcom/rigol/scope/SelfTestActivity;->onPause()V
 
-    .line 695
+    .line 696
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -3239,11 +3246,11 @@
 
     const/16 v3, 0xb
 
-    const/16 v4, 0x575e
+    const/16 v4, 0x5760
 
     invoke-virtual {v0, v3, v4, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 696
+    .line 697
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -3256,7 +3263,7 @@
 
     invoke-virtual {v0, v3, v4, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 697
+    .line 698
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -3269,7 +3276,7 @@
 
     invoke-virtual {v0, v3, v4, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 698
+    .line 699
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0

@@ -222,11 +222,11 @@
 
     move-result p1
 
-    const v0, 0x7f0a01a7
+    const v0, 0x7f0a01aa
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0a06a5
+    const v0, 0x7f0a06b0
 
     if-eq p1, v0, :cond_0
 

@@ -103,7 +103,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b30
 
     .line 455
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->setId(I)V
@@ -176,14 +176,14 @@
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 586
-    iget-object p2, p0, Lcom/rigol/scope/views/window/FFTWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/RtsaGridRulerView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/FFTWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast p2, Landroid/view/View;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 587
-    iget-object p2, p0, Lcom/rigol/scope/views/window/FFTWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/FFTWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/RtsaGridRulerView;
 
     check-cast p2, Landroid/view/View;
 
@@ -269,7 +269,7 @@
 
     invoke-static {p2, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f030245
+    const v1, 0x7f030246
 
     .line 601
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_FFT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;

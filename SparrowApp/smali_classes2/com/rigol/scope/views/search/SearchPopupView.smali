@@ -817,7 +817,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a03ca
+    const v1, 0x7f0a03cf
 
     const/4 v2, 0x0
 
@@ -836,7 +836,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f100377
+    const p1, 0x7f100376
 
     .line 351
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -920,7 +920,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a061f
+    const v0, 0x7f0a0628
 
     if-ne p1, v0, :cond_6
 
@@ -1033,7 +1033,7 @@
     .line 269
     iput-boolean v1, p0, Lcom/rigol/scope/views/search/SearchPopupView;->isEnable:Z
 
-    const v2, 0x7f0a0a68
+    const v2, 0x7f0a0a83
 
     if-ne v0, v2, :cond_1
 
@@ -1060,7 +1060,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const p1, 0x7f0a020f
+    const p1, 0x7f0a0213
 
     if-ne v0, p1, :cond_2
 
@@ -1072,7 +1072,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const p1, 0x7f0a020e
+    const p1, 0x7f0a0212
 
     if-ne v0, p1, :cond_3
 
@@ -1084,7 +1084,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const p1, 0x7f0a07c0
+    const p1, 0x7f0a07cd
 
     if-ne v0, p1, :cond_6
 
@@ -1117,7 +1117,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011af
+    const v0, 0x7f1011bf
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1180,7 +1180,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f0a06fb
+    const p1, 0x7f0a0708
 
     if-ne v0, p1, :cond_7
 
@@ -1196,7 +1196,7 @@
     goto :goto_0
 
     :cond_7
-    const p1, 0x7f0a0706
+    const p1, 0x7f0a0713
 
     if-ne v0, p1, :cond_8
 
@@ -1212,7 +1212,7 @@
     goto :goto_0
 
     :cond_8
-    const p1, 0x7f0a0682
+    const p1, 0x7f0a068d
 
     if-ne v0, p1, :cond_9
 

@@ -58,7 +58,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 152
+    .line 219
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/util/DiskInfo;->path:Ljava/lang/String;
@@ -75,7 +75,7 @@
 .method public final getPath()Ljava/lang/String;
     .locals 1
 
-    .line 152
+    .line 219
     iget-object v0, p0, Lcom/rigol/util/DiskInfo;->path:Ljava/lang/String;
 
     return-object v0
@@ -84,7 +84,7 @@
 .method public final getState()Ljava/lang/String;
     .locals 1
 
-    .line 152
+    .line 219
     iget-object v0, p0, Lcom/rigol/util/DiskInfo;->state:Ljava/lang/String;
 
     return-object v0
@@ -93,7 +93,7 @@
 .method public final isRemovable()Z
     .locals 1
 
-    .line 152
+    .line 219
     iget-boolean v0, p0, Lcom/rigol/util/DiskInfo;->isRemovable:Z
 
     return v0
@@ -102,7 +102,7 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 156
+    .line 223
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -111,7 +111,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 157
+    .line 224
     iget-object v1, p0, Lcom/rigol/util/DiskInfo;->path:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -120,7 +120,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 158
+    .line 225
     iget-object v1, p0, Lcom/rigol/util/DiskInfo;->state:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -129,7 +129,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 159
+    .line 226
     iget-boolean v1, p0, Lcom/rigol/util/DiskInfo;->isRemovable:Z
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;

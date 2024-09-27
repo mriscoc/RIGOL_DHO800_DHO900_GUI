@@ -208,49 +208,49 @@
 
 .field public static final kbd_bg_black_four_rect:I = 0x7f08058d
 
-.field public static final notification_action_background:I = 0x7f0805b8
+.field public static final notification_action_background:I = 0x7f0805b9
 
-.field public static final notification_bg:I = 0x7f0805b9
+.field public static final notification_bg:I = 0x7f0805ba
 
-.field public static final notification_bg_low:I = 0x7f0805ba
+.field public static final notification_bg_low:I = 0x7f0805bb
 
-.field public static final notification_bg_low_normal:I = 0x7f0805bb
+.field public static final notification_bg_low_normal:I = 0x7f0805bc
 
-.field public static final notification_bg_low_pressed:I = 0x7f0805bc
+.field public static final notification_bg_low_pressed:I = 0x7f0805bd
 
-.field public static final notification_bg_normal:I = 0x7f0805bd
+.field public static final notification_bg_normal:I = 0x7f0805be
 
-.field public static final notification_bg_normal_pressed:I = 0x7f0805be
+.field public static final notification_bg_normal_pressed:I = 0x7f0805bf
 
-.field public static final notification_icon_background:I = 0x7f0805bf
+.field public static final notification_icon_background:I = 0x7f0805c0
 
-.field public static final notification_template_icon_bg:I = 0x7f0805c0
+.field public static final notification_template_icon_bg:I = 0x7f0805c1
 
-.field public static final notification_template_icon_low_bg:I = 0x7f0805c1
+.field public static final notification_template_icon_low_bg:I = 0x7f0805c2
 
-.field public static final notification_tile_bg:I = 0x7f0805c2
+.field public static final notification_tile_bg:I = 0x7f0805c3
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f0805c3
+.field public static final notify_panel_notification_icon_bg:I = 0x7f0805c4
 
-.field public static final num_back_normal:I = 0x7f0805c4
+.field public static final num_back_normal:I = 0x7f0805c5
 
-.field public static final num_back_pressed:I = 0x7f0805c5
+.field public static final num_back_pressed:I = 0x7f0805c6
 
-.field public static final number_bg:I = 0x7f0805c6
+.field public static final number_bg:I = 0x7f0805c7
 
-.field public static final pinyinback:I = 0x7f0805c9
+.field public static final pinyinback:I = 0x7f0805ca
 
-.field public static final shape_keyboard:I = 0x7f0805fa
+.field public static final shape_keyboard:I = 0x7f0805fc
 
-.field public static final space:I = 0x7f0805fd
+.field public static final space:I = 0x7f080601
 
-.field public static final space_normal:I = 0x7f0805fe
+.field public static final space_normal:I = 0x7f080602
 
-.field public static final space_pressed:I = 0x7f0805ff
+.field public static final space_pressed:I = 0x7f080603
 
-.field public static final tooltip_frame_dark:I = 0x7f080606
+.field public static final tooltip_frame_dark:I = 0x7f08060a
 
-.field public static final tooltip_frame_light:I = 0x7f080607
+.field public static final tooltip_frame_light:I = 0x7f08060b
 
 
 # direct methods

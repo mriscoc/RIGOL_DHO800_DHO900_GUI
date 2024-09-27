@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2185
+    .line 2186
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     const-string v1, "Trigger_Level_High"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    .line 2186
+    .line 2187
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     const-string v9, "Trigger_Level_Low"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Low:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    .line 2187
+    .line 2188
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     const-string v2, "Trigger_Level_Double"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    .line 2183
+    .line 2184
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2190
+    .line 2191
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2191
+    .line 2192
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
 
-    .line 2192
+    .line 2193
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value2:Ljava/lang/String;
 
-    .line 2193
+    .line 2194
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->pic1:Ljava/lang/String;
 
-    .line 2194
+    .line 2195
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
     .locals 1
 
-    .line 2183
+    .line 2184
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
     .locals 1
 
-    .line 2183
+    .line 2184
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->clone()Ljava/lang/Object;

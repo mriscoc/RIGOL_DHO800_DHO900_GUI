@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 0
 
-    .line 2768
+    .line 2905
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 4
 
-    .line 2771
+    .line 2908
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -64,7 +64,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2772
+    .line 2909
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -75,7 +75,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2773
+    .line 2910
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -86,7 +86,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2774
+    .line 2911
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -97,7 +97,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2775
+    .line 2912
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -108,7 +108,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2776
+    .line 2913
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -119,7 +119,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2777
+    .line 2914
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -130,7 +130,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2778
+    .line 2915
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -141,7 +141,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    .line 2779
+    .line 2916
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p1
@@ -150,19 +150,19 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 2780
+    .line 2917
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readLevel()J
 
     move-result-wide v0
 
-    .line 2781
+    .line 2918
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 2782
+    .line 2919
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -188,7 +188,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2768
+    .line 2905
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$217;->onChanged(Ljava/lang/Boolean;)V

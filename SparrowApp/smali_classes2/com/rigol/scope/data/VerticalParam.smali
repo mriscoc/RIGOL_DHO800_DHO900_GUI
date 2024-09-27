@@ -2481,7 +2481,7 @@
     .line 145
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->bandLimit:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    const/16 p1, 0x44
+    const/16 p1, 0x46
 
     .line 146
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2530,7 +2530,7 @@
     .line 457
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->chanDelay:J
 
-    const/16 p1, 0xa0
+    const/16 p1, 0xa2
 
     .line 458
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2575,7 +2575,7 @@
     .line 134
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    const/16 p1, 0xbd
+    const/16 p1, 0xc0
 
     .line 135
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2624,7 +2624,7 @@
     .line 395
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
-    const/16 p1, 0x135
+    const/16 p1, 0x139
 
     .line 396
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2669,7 +2669,7 @@
     .line 373
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->impedance:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
-    const/16 p1, 0x1aa
+    const/16 p1, 0x1ae
 
     .line 374
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2718,7 +2718,7 @@
     .line 318
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->impedanceEnable:Z
 
-    const/16 p1, 0x1ab
+    const/16 p1, 0x1af
 
     .line 319
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2767,7 +2767,7 @@
     .line 384
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->invert:Z
 
-    const/16 p1, 0x1b7
+    const/16 p1, 0x1bb
 
     .line 385
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2808,7 +2808,7 @@
     .line 468
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->label:Ljava/lang/String;
 
-    const/16 p1, 0x1d6
+    const/16 p1, 0x1da
 
     .line 469
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2864,7 +2864,7 @@
     .line 437
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
-    const/16 p1, 0x230
+    const/16 p1, 0x234
 
     .line 438
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2933,7 +2933,7 @@
     .line 446
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
-    const/16 p1, 0x280
+    const/16 p1, 0x285
 
     .line 447
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -2982,7 +2982,7 @@
     .line 351
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeBias:J
 
-    const/16 p1, 0x289
+    const/16 p1, 0x28e
 
     .line 352
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3031,7 +3031,7 @@
     .line 276
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCal:Z
 
-    const/16 p1, 0x28a
+    const/16 p1, 0x28f
 
     .line 277
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3076,7 +3076,7 @@
     .line 234
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCalTime:Ljava/lang/String;
 
-    const/16 p1, 0x28b
+    const/16 p1, 0x290
 
     .line 235
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3125,7 +3125,7 @@
     .line 362
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCurrentBias:J
 
-    const/16 p1, 0x28c
+    const/16 p1, 0x291
 
     .line 363
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3174,7 +3174,7 @@
     .line 340
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelay:J
 
-    const/16 p1, 0x28d
+    const/16 p1, 0x292
 
     .line 341
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3223,7 +3223,7 @@
     .line 329
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDemagVisible:Z
 
-    const/16 p1, 0x28e
+    const/16 p1, 0x293
 
     .line 330
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3268,7 +3268,7 @@
     .line 174
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
-    const/16 p1, 0x28f
+    const/16 p1, 0x294
 
     .line 175
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3425,7 +3425,7 @@
     .line 287
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeInsert:Z
 
-    const/16 p1, 0x290
+    const/16 p1, 0x295
 
     .line 288
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3492,7 +3492,7 @@
     .line 201
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeMFR:Ljava/lang/String;
 
-    const/16 p1, 0x291
+    const/16 p1, 0x296
 
     .line 202
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3537,7 +3537,7 @@
     .line 212
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeModel:Ljava/lang/String;
 
-    const/16 p1, 0x292
+    const/16 p1, 0x297
 
     .line 213
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3582,7 +3582,7 @@
     .line 156
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatio:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    const/16 p1, 0x293
+    const/16 p1, 0x298
 
     .line 157
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3646,7 +3646,7 @@
     .line 307
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioEnable:Z
 
-    const/16 p1, 0x294
+    const/16 p1, 0x299
 
     .line 308
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3691,7 +3691,7 @@
     .line 223
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeSN:Ljava/lang/String;
 
-    const/16 p1, 0x296
+    const/16 p1, 0x29b
 
     .line 224
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3736,7 +3736,7 @@
     .line 245
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
-    const/16 p1, 0x297
+    const/16 p1, 0x29c
 
     .line 246
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3871,7 +3871,7 @@
     .line 419
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setRealScale(J)V
 
-    const/16 p1, 0x2ff
+    const/16 p1, 0x304
 
     .line 420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3931,7 +3931,7 @@
     .line 480
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->showLabel:Z
 
-    const/16 p1, 0x334
+    const/16 p1, 0x33a
 
     .line 481
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -3987,7 +3987,7 @@
     .line 122
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    const/16 p1, 0x382
+    const/16 p1, 0x38b
 
     .line 123
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
@@ -4039,7 +4039,7 @@
     .line 406
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3d0
+    const/16 p1, 0x3d9
 
     .line 407
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V

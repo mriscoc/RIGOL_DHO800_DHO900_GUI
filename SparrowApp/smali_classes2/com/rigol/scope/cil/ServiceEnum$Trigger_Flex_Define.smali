@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7934
+    .line 7936
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
     const-string v1, "trig_flex_define_id"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->trig_flex_define_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
-    .line 7935
+    .line 7937
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
     const-string v9, "trig_flex_define_cyc"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
-    .line 7932
+    .line 7934
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->trig_flex_define_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 7938
+    .line 7940
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7939
+    .line 7941
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->value1:I
 
-    .line 7940
+    .line 7942
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->value2:Ljava/lang/String;
 
-    .line 7941
+    .line 7943
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->pic1:Ljava/lang/String;
 
-    .line 7942
+    .line 7944
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
     .locals 1
 
-    .line 7932
+    .line 7934
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
     .locals 1
 
-    .line 7932
+    .line 7934
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Define;->clone()Ljava/lang/Object;

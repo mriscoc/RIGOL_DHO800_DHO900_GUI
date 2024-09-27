@@ -120,7 +120,7 @@
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/BaseProperty;->save(Ljava/lang/Object;)V
 
     :cond_1
-    const p1, 0x7f10037a
+    const p1, 0x7f100379
 
     .line 339
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V

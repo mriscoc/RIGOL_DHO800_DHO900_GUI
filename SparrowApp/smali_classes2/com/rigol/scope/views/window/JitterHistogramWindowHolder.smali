@@ -101,7 +101,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b30
 
     .line 2933
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->setId(I)V
@@ -146,14 +146,14 @@
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 2944
-    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterHistogramWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterHistogramWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast p2, Landroid/view/View;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 2945
-    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterHistogramWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterHistogramWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;
 
     check-cast p2, Landroid/view/View;
 
@@ -489,7 +489,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f030245
+    const v3, 0x7f030246
 
     .line 2997
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;

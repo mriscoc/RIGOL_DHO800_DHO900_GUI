@@ -55,7 +55,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d012c
+    const v0, 0x7f0d012e
 
     .line 100
     invoke-static {p1, p0, v0}, Lcom/rigol/scope/databinding/PopupviewWaveIntensityBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
@@ -102,7 +102,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d012c
+    const v0, 0x7f0d012e
 
     .line 65
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
@@ -119,7 +119,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0d012c
+    const v0, 0x7f0d012e
 
     const/4 v1, 0x0
 

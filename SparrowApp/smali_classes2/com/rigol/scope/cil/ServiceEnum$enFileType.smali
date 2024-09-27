@@ -80,7 +80,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4691
+    .line 4692
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v1, "FILETYPE_PNG"
@@ -101,7 +101,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_PNG:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4692
+    .line 4693
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_BMP"
@@ -122,7 +122,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_BMP:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4693
+    .line 4694
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_JPG"
@@ -143,7 +143,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_JPG:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4694
+    .line 4695
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_TIF"
@@ -164,7 +164,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_TIF:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4695
+    .line 4696
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_GIF"
@@ -185,7 +185,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_GIF:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4696
+    .line 4697
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_BIN"
@@ -206,7 +206,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_BIN:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4697
+    .line 4698
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_CSV"
@@ -227,7 +227,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_CSV:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4698
+    .line 4699
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_WFM"
@@ -248,7 +248,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_WFM:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4699
+    .line 4700
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_REF"
@@ -269,7 +269,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_REF:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4700
+    .line 4701
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_STP"
@@ -290,7 +290,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_STP:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4701
+    .line 4702
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_PF"
@@ -311,7 +311,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_PF:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4702
+    .line 4703
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_HTM"
@@ -332,7 +332,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_HTM:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4703
+    .line 4704
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_ARB"
@@ -353,7 +353,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_ARB:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4704
+    .line 4705
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_REC"
@@ -374,7 +374,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_REC:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4705
+    .line 4706
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_TXT"
@@ -395,7 +395,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_TXT:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4706
+    .line 4707
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_GEL"
@@ -416,7 +416,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_GEL:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4707
+    .line 4708
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_DAT"
@@ -437,7 +437,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_DAT:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4708
+    .line 4709
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "FILETYPE_ANY"
@@ -458,7 +458,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_ANY:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4709
+    .line 4710
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v2, "FILETYPE_HTML"
@@ -479,7 +479,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_HTML:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4710
+    .line 4711
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const-string v9, "All_FILETYPE"
@@ -504,7 +504,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
-    .line 4689
+    .line 4690
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_PNG:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     const/4 v3, 0x0
@@ -640,19 +640,19 @@
         }
     .end annotation
 
-    .line 4713
+    .line 4714
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4714
+    .line 4715
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    .line 4715
+    .line 4716
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value2:Ljava/lang/String;
 
-    .line 4716
+    .line 4717
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->pic1:Ljava/lang/String;
 
-    .line 4717
+    .line 4718
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->pic2:Ljava/lang/String;
 
     return-void
@@ -661,7 +661,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$enFileType;
     .locals 1
 
-    .line 4689
+    .line 4690
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -676,7 +676,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$enFileType;
     .locals 1
 
-    .line 4689
+    .line 4690
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$enFileType;->clone()Ljava/lang/Object;

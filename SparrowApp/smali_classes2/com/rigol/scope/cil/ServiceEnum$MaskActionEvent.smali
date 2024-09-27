@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4833
+    .line 4834
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     const-string v1, "mask_action_on_fail"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->mask_action_on_fail:Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
-    .line 4834
+    .line 4835
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     const-string v9, "mask_action_on_pass"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
-    .line 4831
+    .line 4832
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->mask_action_on_fail:Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 4837
+    .line 4838
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4838
+    .line 4839
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->value1:I
 
-    .line 4839
+    .line 4840
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->value2:Ljava/lang/String;
 
-    .line 4840
+    .line 4841
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->pic1:Ljava/lang/String;
 
-    .line 4841
+    .line 4842
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
     .locals 1
 
-    .line 4831
+    .line 4832
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
     .locals 1
 
-    .line 4831
+    .line 4832
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->clone()Ljava/lang/Object;

@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemSpinnerDiskBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e2
+    const v1, 0x7f0a08fd
 
     const/4 v2, 0x1
 

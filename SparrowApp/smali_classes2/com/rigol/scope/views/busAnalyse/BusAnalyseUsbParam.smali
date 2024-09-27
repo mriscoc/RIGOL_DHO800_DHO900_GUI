@@ -253,7 +253,7 @@
     .line 100
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_diff_source:I
 
-    const/16 v0, 0x3df
+    const/16 v0, 0x3e8
 
     .line 101
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
@@ -272,7 +272,7 @@
     .line 112
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_point:I
 
-    const/16 v0, 0x3e4
+    const/16 v0, 0x3ed
 
     .line 113
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
@@ -291,7 +291,7 @@
     .line 157
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_source_dp:I
 
-    const/16 v0, 0x3e6
+    const/16 v0, 0x3ef
 
     .line 158
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
@@ -310,7 +310,7 @@
     .line 168
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_source_ds:I
 
-    const/16 v0, 0x3e7
+    const/16 v0, 0x3f0
 
     .line 169
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
@@ -375,7 +375,7 @@
     .line 85
     iput-wide p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->srcHscale:J
 
-    const/16 p1, 0x377
+    const/16 p1, 0x380
 
     .line 86
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
@@ -389,7 +389,7 @@
     .line 73
     iput-wide p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->srcVscale:J
 
-    const/16 p1, 0x378
+    const/16 p1, 0x381
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V
@@ -403,7 +403,7 @@
     .line 124
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->usb_type:I
 
-    const/16 p1, 0x3e8
+    const/16 p1, 0x3f1
 
     .line 125
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;->notifyPropertyChanged(I)V

@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7192
+    .line 7194
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v1, "cal_ch1_id"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch1_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7193
+    .line 7195
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v9, "cal_ch2_id"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch2_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7194
+    .line 7196
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v2, "cal_ch3_id"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch3_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7195
+    .line 7197
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v9, "cal_ch4_id"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch4_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7196
+    .line 7198
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v2, "cal_ch5_id"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch5_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7197
+    .line 7199
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v9, "cal_ch6_id"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch6_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7198
+    .line 7200
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v2, "cal_ch7_id"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch7_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7199
+    .line 7201
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const-string v9, "cal_ch8_id"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
-    .line 7190
+    .line 7192
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->cal_ch1_id:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 7202
+    .line 7204
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7203
+    .line 7205
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->value1:I
 
-    .line 7204
+    .line 7206
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->value2:Ljava/lang/String;
 
-    .line 7205
+    .line 7207
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->pic1:Ljava/lang/String;
 
-    .line 7206
+    .line 7208
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
     .locals 1
 
-    .line 7190
+    .line 7192
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
     .locals 1
 
-    .line 7190
+    .line 7192
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CAL_ChID;->clone()Ljava/lang/Object;

@@ -321,7 +321,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f03021f
+    const v2, 0x7f030220
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -358,7 +358,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030232
+    const v2, 0x7f030233
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -399,7 +399,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->value1:I
 
-    const v2, 0x7f03021e
+    const v2, 0x7f03021f
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -427,7 +427,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;->value1:I
 
-    const v2, 0x7f030220
+    const v2, 0x7f030221
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -481,7 +481,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->value1:I
 
-    const v2, 0x7f03021c
+    const v2, 0x7f03021d
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -951,7 +951,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a09d5
+    const v0, 0x7f0a09f0
 
     if-ne p1, v0, :cond_0
 
@@ -968,7 +968,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0946
+    const v0, 0x7f0a0961
 
     if-ne p1, v0, :cond_1
 
@@ -1375,21 +1375,21 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_f
-        0x7f0a0690 -> :sswitch_e
-        0x7f0a0801 -> :sswitch_d
-        0x7f0a093f -> :sswitch_c
-        0x7f0a0941 -> :sswitch_b
-        0x7f0a0942 -> :sswitch_a
-        0x7f0a09ba -> :sswitch_9
-        0x7f0a09c9 -> :sswitch_8
-        0x7f0a09ca -> :sswitch_7
-        0x7f0a09cb -> :sswitch_6
-        0x7f0a09cc -> :sswitch_5
-        0x7f0a09cd -> :sswitch_4
-        0x7f0a09ce -> :sswitch_3
-        0x7f0a0a02 -> :sswitch_2
-        0x7f0a0a03 -> :sswitch_1
-        0x7f0a0a04 -> :sswitch_0
+        0x7f0a069b -> :sswitch_e
+        0x7f0a0813 -> :sswitch_d
+        0x7f0a095a -> :sswitch_c
+        0x7f0a095c -> :sswitch_b
+        0x7f0a095d -> :sswitch_a
+        0x7f0a09d5 -> :sswitch_9
+        0x7f0a09e4 -> :sswitch_8
+        0x7f0a09e5 -> :sswitch_7
+        0x7f0a09e6 -> :sswitch_6
+        0x7f0a09e7 -> :sswitch_5
+        0x7f0a09e8 -> :sswitch_4
+        0x7f0a09e9 -> :sswitch_3
+        0x7f0a0a1d -> :sswitch_2
+        0x7f0a0a1e -> :sswitch_1
+        0x7f0a0a1f -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1416,7 +1416,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f030229
+    const v0, 0x7f03022a
 
     .line 422
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1542,7 +1542,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03021d
+    const v0, 0x7f03021e
 
     .line 478
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1574,7 +1574,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03021b
+    const v0, 0x7f03021c
 
     .line 436
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1750,13 +1750,13 @@
     .sparse-switch
         0x7f0a00c3 -> :sswitch_8
         0x7f0a0190 -> :sswitch_7
-        0x7f0a0240 -> :sswitch_6
-        0x7f0a0690 -> :sswitch_5
-        0x7f0a0801 -> :sswitch_4
-        0x7f0a092f -> :sswitch_3
-        0x7f0a0946 -> :sswitch_2
-        0x7f0a099d -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a0244 -> :sswitch_6
+        0x7f0a069b -> :sswitch_5
+        0x7f0a0813 -> :sswitch_4
+        0x7f0a094a -> :sswitch_3
+        0x7f0a0961 -> :sswitch_2
+        0x7f0a09b8 -> :sswitch_1
+        0x7f0a09f0 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2019,7 +2019,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0a092f
+    const v3, 0x7f0a094a
 
     if-ne v1, v3, :cond_0
 
@@ -2130,11 +2130,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0240
+    const v0, 0x7f0a0244
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a099d
+    const v0, 0x7f0a09b8
 
     if-eq p1, v0, :cond_1
 
@@ -2192,11 +2192,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0240
+    const v0, 0x7f0a0244
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a099d
+    const v0, 0x7f0a09b8
 
     if-eq p2, v0, :cond_1
 

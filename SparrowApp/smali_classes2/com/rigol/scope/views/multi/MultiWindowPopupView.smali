@@ -1796,7 +1796,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0a04f0
+    .packed-switch 0x7f0a04f5
         :pswitch_4
         :pswitch_0
         :pswitch_3
@@ -1887,7 +1887,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1010a9
+    const p2, 0x7f1010af
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1970,7 +1970,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1010a9
+    const p2, 0x7f1010af
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2358,7 +2358,7 @@
 
     const/16 v3, 0x11
 
-    const v4, 0x7f0a04f2
+    const v4, 0x7f0a04f7
 
     if-ne v0, v4, :cond_6
 
@@ -2570,7 +2570,7 @@
 
     move-result v0
 
-    const v4, 0x7f0a04f4
+    const v4, 0x7f0a04f9
 
     if-ne v0, v4, :cond_d
 
@@ -2790,7 +2790,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a04f6
+    const v1, 0x7f0a04fb
 
     if-ne v0, v1, :cond_e
 
@@ -2828,7 +2828,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a04f0
+    const v1, 0x7f0a04f5
 
     if-ne v0, v1, :cond_10
 
@@ -2917,7 +2917,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a06a6
+    const v0, 0x7f0a06b1
 
     if-ne p1, v0, :cond_1a
 

@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 2391
+    .line 2528
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$187;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 3
 
-    .line 2395
+    .line 2532
     const-class p1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -58,7 +58,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 2397
+    .line 2534
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -73,10 +73,10 @@
 
     const/4 v0, 0x1
 
-    .line 2399
+    .line 2536
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/UtilityParam;->setProjectMode(Z)V
 
-    .line 2403
+    .line 2540
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -94,7 +94,7 @@
 
     if-nez p1, :cond_1
 
-    .line 2405
+    .line 2542
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -109,13 +109,13 @@
 
     const/4 v2, 0x0
 
-    .line 2406
+    .line 2543
     invoke-virtual {p1, v2}, Lcom/rigol/scope/views/calibration/CalibrationPopupView;->setProbe(Z)V
 
-    .line 2407
+    .line 2544
     invoke-virtual {p1}, Lcom/rigol/scope/views/calibration/CalibrationPopupView;->show()V
 
-    .line 2408
+    .line 2545
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -130,7 +130,7 @@
 
     goto :goto_0
 
-    .line 2410
+    .line 2547
     :cond_1
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -151,7 +151,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2391
+    .line 2528
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$187;->onChanged(Ljava/lang/Boolean;)V

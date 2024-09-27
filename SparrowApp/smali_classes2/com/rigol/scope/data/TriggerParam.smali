@@ -1872,7 +1872,7 @@
 .method public Cycmax(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)Z
     .locals 1
 
-    .line 6111
+    .line 6112
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     if-eq p1, v0, :cond_1
@@ -1902,7 +1902,7 @@
 .method public Cycmin(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)Z
     .locals 1
 
-    .line 6123
+    .line 6124
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     if-eq p1, v0, :cond_0
@@ -1920,7 +1920,7 @@
 .method public ReadWriteDirection(Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;)Z
     .locals 1
 
-    .line 6055
+    .line 6056
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->trig_i2c_addr:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     if-ne p1, v0, :cond_0
@@ -1952,20 +1952,20 @@
 .method public binaryTransformtoHex(Ljava/lang/String;)Ljava/lang/String;
     .locals 16
 
-    .line 8948
+    .line 8949
     invoke-virtual/range {p1 .. p1}, Ljava/lang/String;->length()I
 
-    .line 8950
+    .line 8951
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 8951
+    .line 8952
     invoke-virtual/range {p1 .. p1}, Ljava/lang/String;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 8953
+    .line 8954
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v2
@@ -1982,7 +1982,7 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 8954
+    .line 8955
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v2
@@ -1991,7 +1991,7 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 8955
+    .line 8956
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v2
@@ -2006,7 +2006,7 @@
 
     if-eq v2, v8, :cond_1
 
-    .line 8956
+    .line 8957
     :cond_0
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -2016,7 +2016,7 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 8957
+    .line 8958
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v2
@@ -2033,13 +2033,13 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 8958
+    .line 8959
     :cond_1
     invoke-virtual {v1, v5, v4}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 8959
+    .line 8960
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -2050,7 +2050,7 @@
 
     const/4 v3, 0x0
 
-    .line 8960
+    .line 8961
     :goto_0
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -2062,7 +2062,7 @@
 
     if-ge v3, v9, :cond_2
 
-    .line 8961
+    .line 8962
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -2081,13 +2081,13 @@
 
     goto :goto_0
 
-    .line 8965
+    .line 8966
     :cond_2
     invoke-virtual {v1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v2
 
-    .line 8967
+    .line 8968
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -2097,7 +2097,7 @@
     :goto_1
     if-ge v9, v3, :cond_e
 
-    .line 8970
+    .line 8971
     aget-char v10, v2, v9
 
     const-string v11, "X"
@@ -2126,7 +2126,7 @@
 
     goto/16 :goto_6
 
-    .line 8973
+    .line 8974
     :cond_3
     aget-char v15, v2, v9
 
@@ -2160,7 +2160,7 @@
 
     add-int/lit8 v12, v11, 0x1
 
-    .line 8996
+    .line 8997
     invoke-virtual {v1, v11, v12}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v11
@@ -2181,7 +2181,7 @@
 
     goto :goto_2
 
-    .line 8998
+    .line 8999
     :cond_5
     invoke-static {v10}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
@@ -2191,7 +2191,7 @@
 
     goto :goto_7
 
-    .line 8974
+    .line 8975
     :cond_6
     :goto_3
     aget-char v15, v2, v9
@@ -2212,7 +2212,7 @@
 
     goto :goto_5
 
-    .line 8977
+    .line 8978
     :cond_7
     aget-char v11, v2, v9
 
@@ -2232,7 +2232,7 @@
 
     const-string v6, "-"
 
-    .line 8979
+    .line 8980
     invoke-virtual {v0, v6}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     goto :goto_7
@@ -2247,17 +2247,17 @@
 
     add-int v12, v9, v10
 
-    .line 8984
+    .line 8985
     aget-char v13, v2, v12
 
     if-ne v13, v6, :cond_9
 
     const/16 v13, 0x30
 
-    .line 8985
+    .line 8986
     aput-char v13, v2, v12
 
-    .line 8987
+    .line 8988
     :cond_9
     aget-char v12, v2, v12
 
@@ -2281,7 +2281,7 @@
 
     goto :goto_4
 
-    .line 8990
+    .line 8991
     :cond_a
     invoke-static {v11}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
@@ -2291,14 +2291,14 @@
 
     goto :goto_7
 
-    .line 8976
+    .line 8977
     :cond_b
     :goto_5
     invoke-virtual {v0, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     goto :goto_7
 
-    .line 8972
+    .line 8973
     :cond_c
     :goto_6
     invoke-virtual {v0, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
@@ -2308,7 +2308,7 @@
 
     if-ge v6, v3, :cond_d
 
-    .line 9001
+    .line 9002
     aget-char v6, v2, v6
 
     const/16 v10, 0x20
@@ -2322,7 +2322,7 @@
 
     goto/16 :goto_1
 
-    .line 9008
+    .line 9009
     :cond_e
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -2332,7 +2332,7 @@
 
     move-result-object v0
 
-    .line 9010
+    .line 9011
     array-length v1, v0
 
     sub-int/2addr v1, v8
@@ -2340,7 +2340,7 @@
     :goto_8
     if-ltz v1, :cond_10
 
-    .line 9011
+    .line 9012
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2355,7 +2355,7 @@
 
     move-result-object v2
 
-    .line 9012
+    .line 9013
     rem-int/lit8 v3, v8, 0x2
 
     if-nez v3, :cond_f
@@ -2364,7 +2364,7 @@
 
     if-eq v8, v3, :cond_f
 
-    .line 9013
+    .line 9014
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -2386,13 +2386,13 @@
 
     goto :goto_8
 
-    .line 9017
+    .line 9018
     :cond_10
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 9018
+    .line 9019
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -2413,12 +2413,12 @@
 
     move-object/from16 v0, p0
 
-    .line 9832
+    .line 9833
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
-    .line 9833
+    .line 9834
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -2433,7 +2433,7 @@
 
     move-result-wide v2
 
-    .line 9834
+    .line 9835
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v5
@@ -2468,7 +2468,7 @@
 
     double-to-long v1, v1
 
-    .line 9839
+    .line 9840
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -2477,7 +2477,7 @@
 
     if-ne v3, v5, :cond_2
 
-    .line 9844
+    .line 9845
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2488,7 +2488,7 @@
 
     move-result-wide v3
 
-    .line 9845
+    .line 9846
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v5
@@ -2503,12 +2503,12 @@
 
     if-lez v7, :cond_0
 
-    .line 9847
+    .line 9848
     invoke-virtual {v0, v11, v12}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelA(J)V
 
     goto :goto_0
 
-    .line 9849
+    .line 9850
     :cond_0
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelA(J)V
 
@@ -2517,18 +2517,18 @@
 
     if-gez v3, :cond_1
 
-    .line 9853
+    .line 9854
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9855
+    .line 9856
     :cond_1
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9857
+    .line 9858
     :cond_2
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -2536,7 +2536,7 @@
 
     if-ne v3, v5, :cond_5
 
-    .line 9862
+    .line 9863
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2547,7 +2547,7 @@
 
     move-result-wide v3
 
-    .line 9863
+    .line 9864
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v5
@@ -2562,12 +2562,12 @@
 
     if-lez v7, :cond_3
 
-    .line 9865
+    .line 9866
     invoke-virtual {v0, v11, v12}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelA(J)V
 
     goto :goto_1
 
-    .line 9867
+    .line 9868
     :cond_3
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelA(J)V
 
@@ -2576,18 +2576,18 @@
 
     if-gez v3, :cond_4
 
-    .line 9871
+    .line 9872
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9873
+    .line 9874
     :cond_4
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9875
+    .line 9876
     :cond_5
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -2595,7 +2595,7 @@
 
     if-ne v3, v5, :cond_8
 
-    .line 9880
+    .line 9881
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2606,7 +2606,7 @@
 
     move-result-wide v3
 
-    .line 9881
+    .line 9882
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v5
@@ -2621,12 +2621,12 @@
 
     if-lez v7, :cond_6
 
-    .line 9883
+    .line 9884
     invoke-virtual {v0, v11, v12}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelA(J)V
 
     goto :goto_2
 
-    .line 9885
+    .line 9886
     :cond_6
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelA(J)V
 
@@ -2635,18 +2635,18 @@
 
     if-gez v3, :cond_7
 
-    .line 9889
+    .line 9890
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9891
+    .line 9892
     :cond_7
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9893
+    .line 9894
     :cond_8
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -2654,7 +2654,7 @@
 
     if-ne v3, v5, :cond_b
 
-    .line 9898
+    .line 9899
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2665,7 +2665,7 @@
 
     move-result-wide v3
 
-    .line 9899
+    .line 9900
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v5
@@ -2680,12 +2680,12 @@
 
     if-lez v7, :cond_9
 
-    .line 9901
+    .line 9902
     invoke-virtual {v0, v11, v12}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelA(J)V
 
     goto :goto_3
 
-    .line 9903
+    .line 9904
     :cond_9
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelA(J)V
 
@@ -2694,18 +2694,18 @@
 
     if-gez v3, :cond_a
 
-    .line 9907
+    .line 9908
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9909
+    .line 9910
     :cond_a
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9911
+    .line 9912
     :cond_b
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -2717,7 +2717,7 @@
 
     if-ne v3, v5, :cond_12
 
-    .line 9919
+    .line 9920
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -2732,7 +2732,7 @@
 
     move-result-wide v1
 
-    .line 9920
+    .line 9921
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2755,7 +2755,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 9924
+    .line 9925
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2766,7 +2766,7 @@
 
     move-result-wide v8
 
-    .line 9926
+    .line 9927
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->delayChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2787,7 +2787,7 @@
 
     if-gt v3, v5, :cond_c
 
-    .line 9927
+    .line 9928
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelA(J)V
 
     goto :goto_4
@@ -2797,7 +2797,7 @@
 
     if-lez v3, :cond_d
 
-    .line 9930
+    .line 9931
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelA(J)V
 
     goto :goto_4
@@ -2807,16 +2807,16 @@
 
     if-gez v3, :cond_e
 
-    .line 9932
+    .line 9933
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelA(J)V
 
     goto :goto_4
 
-    .line 9934
+    .line 9935
     :cond_e
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelA(J)V
 
-    .line 9943
+    .line 9944
     :goto_4
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -2832,7 +2832,7 @@
 
     move-result-wide v1
 
-    .line 9944
+    .line 9945
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2855,7 +2855,7 @@
 
     sub-long/2addr v1, v3
 
-    .line 9948
+    .line 9949
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2866,7 +2866,7 @@
 
     move-result-wide v3
 
-    .line 9950
+    .line 9951
     iget-object v7, v0, Lcom/rigol/scope/data/TriggerParam;->delayChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2887,7 +2887,7 @@
 
     if-gt v7, v8, :cond_f
 
-    .line 9951
+    .line 9952
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelB(J)V
 
     goto/16 :goto_b
@@ -2897,7 +2897,7 @@
 
     if-lez v7, :cond_10
 
-    .line 9955
+    .line 9956
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelB(J)V
 
     goto/16 :goto_b
@@ -2907,18 +2907,18 @@
 
     if-gez v5, :cond_11
 
-    .line 9957
+    .line 9958
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9959
+    .line 9960
     :cond_11
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelB(J)V
 
     goto/16 :goto_b
 
-    .line 9964
+    .line 9965
     :cond_12
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -2926,7 +2926,7 @@
 
     if-ne v3, v5, :cond_19
 
-    .line 9972
+    .line 9973
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -2941,7 +2941,7 @@
 
     move-result-wide v1
 
-    .line 9973
+    .line 9974
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2964,7 +2964,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 9977
+    .line 9978
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -2975,7 +2975,7 @@
 
     move-result-wide v8
 
-    .line 9978
+    .line 9979
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -2996,7 +2996,7 @@
 
     if-gt v3, v5, :cond_13
 
-    .line 9979
+    .line 9980
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelA(J)V
 
     goto :goto_5
@@ -3006,7 +3006,7 @@
 
     if-lez v3, :cond_14
 
-    .line 9982
+    .line 9983
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelA(J)V
 
     goto :goto_5
@@ -3016,16 +3016,16 @@
 
     if-gez v3, :cond_15
 
-    .line 9984
+    .line 9985
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelA(J)V
 
     goto :goto_5
 
-    .line 9986
+    .line 9987
     :cond_15
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelA(J)V
 
-    .line 9995
+    .line 9996
     :goto_5
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3041,7 +3041,7 @@
 
     move-result-wide v1
 
-    .line 9996
+    .line 9997
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3064,7 +3064,7 @@
 
     sub-long/2addr v1, v3
 
-    .line 10000
+    .line 10001
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3075,7 +3075,7 @@
 
     move-result-wide v3
 
-    .line 10001
+    .line 10002
     iget-object v7, v0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -3096,7 +3096,7 @@
 
     if-gt v7, v8, :cond_16
 
-    .line 10002
+    .line 10003
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelB(J)V
 
     goto/16 :goto_b
@@ -3106,7 +3106,7 @@
 
     if-lez v7, :cond_17
 
-    .line 10005
+    .line 10006
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelB(J)V
 
     goto/16 :goto_b
@@ -3116,18 +3116,18 @@
 
     if-gez v5, :cond_18
 
-    .line 10007
+    .line 10008
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 10009
+    .line 10010
     :cond_18
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelB(J)V
 
     goto/16 :goto_b
 
-    .line 10013
+    .line 10014
     :cond_19
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3135,7 +3135,7 @@
 
     if-ne v3, v5, :cond_20
 
-    .line 10021
+    .line 10022
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -3150,7 +3150,7 @@
 
     move-result-wide v1
 
-    .line 10022
+    .line 10023
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3173,7 +3173,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 10026
+    .line 10027
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3184,7 +3184,7 @@
 
     move-result-wide v8
 
-    .line 10027
+    .line 10028
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->iicChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -3205,7 +3205,7 @@
 
     if-gt v3, v5, :cond_1a
 
-    .line 10028
+    .line 10029
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelA(J)V
 
     goto :goto_6
@@ -3215,7 +3215,7 @@
 
     if-lez v3, :cond_1b
 
-    .line 10031
+    .line 10032
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelA(J)V
 
     goto :goto_6
@@ -3225,16 +3225,16 @@
 
     if-gez v3, :cond_1c
 
-    .line 10033
+    .line 10034
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelA(J)V
 
     goto :goto_6
 
-    .line 10035
+    .line 10036
     :cond_1c
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelA(J)V
 
-    .line 10044
+    .line 10045
     :goto_6
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3250,7 +3250,7 @@
 
     move-result-wide v1
 
-    .line 10045
+    .line 10046
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3273,7 +3273,7 @@
 
     sub-long/2addr v1, v3
 
-    .line 10049
+    .line 10050
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3284,7 +3284,7 @@
 
     move-result-wide v3
 
-    .line 10050
+    .line 10051
     iget-object v7, v0, Lcom/rigol/scope/data/TriggerParam;->iicChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -3305,7 +3305,7 @@
 
     if-gt v7, v8, :cond_1d
 
-    .line 10051
+    .line 10052
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelB(J)V
 
     goto/16 :goto_b
@@ -3315,7 +3315,7 @@
 
     if-lez v7, :cond_1e
 
-    .line 10054
+    .line 10055
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelB(J)V
 
     goto/16 :goto_b
@@ -3325,18 +3325,18 @@
 
     if-gez v5, :cond_1f
 
-    .line 10056
+    .line 10057
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelB(J)V
 
     goto/16 :goto_b
 
-    .line 10058
+    .line 10059
     :cond_1f
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelB(J)V
 
     goto/16 :goto_b
 
-    .line 10062
+    .line 10063
     :cond_20
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3344,7 +3344,7 @@
 
     if-ne v3, v5, :cond_2a
 
-    .line 10071
+    .line 10072
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -3359,7 +3359,7 @@
 
     move-result-wide v1
 
-    .line 10072
+    .line 10073
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3382,7 +3382,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 10076
+    .line 10077
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3393,7 +3393,7 @@
 
     move-result-wide v8
 
-    .line 10077
+    .line 10078
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->spiChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -3414,7 +3414,7 @@
 
     if-gt v3, v5, :cond_21
 
-    .line 10078
+    .line 10079
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelA(J)V
 
     goto :goto_7
@@ -3424,7 +3424,7 @@
 
     if-lez v3, :cond_22
 
-    .line 10081
+    .line 10082
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelA(J)V
 
     goto :goto_7
@@ -3434,16 +3434,16 @@
 
     if-gez v3, :cond_23
 
-    .line 10083
+    .line 10084
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelA(J)V
 
     goto :goto_7
 
-    .line 10085
+    .line 10086
     :cond_23
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelA(J)V
 
-    .line 10094
+    .line 10095
     :goto_7
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3459,7 +3459,7 @@
 
     move-result-wide v1
 
-    .line 10095
+    .line 10096
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3482,7 +3482,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 10099
+    .line 10100
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3493,7 +3493,7 @@
 
     move-result-wide v8
 
-    .line 10100
+    .line 10101
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->spiChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -3514,7 +3514,7 @@
 
     if-gt v3, v5, :cond_24
 
-    .line 10101
+    .line 10102
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelB(J)V
 
     goto :goto_8
@@ -3524,7 +3524,7 @@
 
     if-lez v3, :cond_25
 
-    .line 10104
+    .line 10105
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelB(J)V
 
     goto :goto_8
@@ -3534,16 +3534,16 @@
 
     if-gez v3, :cond_26
 
-    .line 10106
+    .line 10107
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelB(J)V
 
     goto :goto_8
 
-    .line 10108
+    .line 10109
     :cond_26
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelB(J)V
 
-    .line 10117
+    .line 10118
     :goto_8
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3559,7 +3559,7 @@
 
     move-result-wide v1
 
-    .line 10118
+    .line 10119
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3582,7 +3582,7 @@
 
     sub-long/2addr v1, v3
 
-    .line 10122
+    .line 10123
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3593,7 +3593,7 @@
 
     move-result-wide v3
 
-    .line 10123
+    .line 10124
     iget-object v7, v0, Lcom/rigol/scope/data/TriggerParam;->spiChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -3614,7 +3614,7 @@
 
     if-gt v7, v8, :cond_27
 
-    .line 10124
+    .line 10125
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelC(J)V
 
     goto/16 :goto_b
@@ -3624,7 +3624,7 @@
 
     if-lez v7, :cond_28
 
-    .line 10127
+    .line 10128
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelC(J)V
 
     goto/16 :goto_b
@@ -3634,18 +3634,18 @@
 
     if-gez v5, :cond_29
 
-    .line 10129
+    .line 10130
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelC(J)V
 
     goto/16 :goto_b
 
-    .line 10131
+    .line 10132
     :cond_29
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelC(J)V
 
     goto/16 :goto_b
 
-    .line 10135
+    .line 10136
     :cond_2a
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3653,7 +3653,7 @@
 
     if-ne v3, v5, :cond_31
 
-    .line 10144
+    .line 10145
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -3668,7 +3668,7 @@
 
     move-result-wide v1
 
-    .line 10145
+    .line 10146
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3691,7 +3691,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 10149
+    .line 10150
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3706,7 +3706,7 @@
 
     if-lez v3, :cond_2b
 
-    .line 10151
+    .line 10152
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setIislevelA(J)V
 
     goto :goto_9
@@ -3716,16 +3716,16 @@
 
     if-gez v3, :cond_2c
 
-    .line 10153
+    .line 10154
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setIislevelA(J)V
 
     goto :goto_9
 
-    .line 10155
+    .line 10156
     :cond_2c
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setIislevelA(J)V
 
-    .line 10162
+    .line 10163
     :goto_9
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3741,7 +3741,7 @@
 
     move-result-wide v1
 
-    .line 10163
+    .line 10164
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3764,7 +3764,7 @@
 
     sub-long/2addr v1, v8
 
-    .line 10167
+    .line 10168
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3779,7 +3779,7 @@
 
     if-lez v3, :cond_2d
 
-    .line 10169
+    .line 10170
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setIislevelB(J)V
 
     goto :goto_a
@@ -3789,16 +3789,16 @@
 
     if-gez v3, :cond_2e
 
-    .line 10171
+    .line 10172
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setIislevelB(J)V
 
     goto :goto_a
 
-    .line 10173
+    .line 10174
     :cond_2e
     invoke-virtual {v0, v8, v9}, Lcom/rigol/scope/data/TriggerParam;->setIislevelB(J)V
 
-    .line 10180
+    .line 10181
     :goto_a
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3814,7 +3814,7 @@
 
     move-result-wide v1
 
-    .line 10181
+    .line 10182
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3837,7 +3837,7 @@
 
     sub-long/2addr v1, v3
 
-    .line 10185
+    .line 10186
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -3852,7 +3852,7 @@
 
     if-lez v7, :cond_2f
 
-    .line 10187
+    .line 10188
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setIislevelC(J)V
 
     goto/16 :goto_b
@@ -3862,18 +3862,18 @@
 
     if-gez v5, :cond_30
 
-    .line 10189
+    .line 10190
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setIislevelC(J)V
 
     goto/16 :goto_b
 
-    .line 10191
+    .line 10192
     :cond_30
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setIislevelC(J)V
 
     goto/16 :goto_b
 
-    .line 10194
+    .line 10195
     :cond_31
     iget-object v3, v0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3883,7 +3883,7 @@
 
     if-ne v3, v5, :cond_35
 
-    .line 10195
+    .line 10196
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v3
@@ -3900,13 +3900,13 @@
 
     if-ne v3, v5, :cond_35
 
-    .line 10199
+    .line 10200
     :cond_32
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
-    .line 10200
+    .line 10201
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -3929,7 +3929,7 @@
 
     double-to-long v1, v1
 
-    .line 10205
+    .line 10206
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v5
@@ -3942,7 +3942,7 @@
 
     if-lez v7, :cond_33
 
-    .line 10207
+    .line 10208
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     goto :goto_b
@@ -3952,18 +3952,18 @@
 
     if-gez v3, :cond_34
 
-    .line 10209
+    .line 10210
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     goto :goto_b
 
-    .line 10211
+    .line 10212
     :cond_34
     invoke-virtual {v0, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     goto :goto_b
 
-    .line 10215
+    .line 10216
     :cond_35
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3973,7 +3973,7 @@
 
     move-result-wide v3
 
-    .line 10216
+    .line 10217
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v5
@@ -4002,7 +4002,7 @@
 
     if-lez v5, :cond_36
 
-    .line 10218
+    .line 10219
     invoke-virtual {v0, v11, v12}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     goto :goto_b
@@ -4012,12 +4012,12 @@
 
     if-gez v5, :cond_37
 
-    .line 10220
+    .line 10221
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     goto :goto_b
 
-    .line 10222
+    .line 10223
     :cond_37
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
@@ -4069,7 +4069,7 @@
 
     float-to-long v2, p1
 
-    .line 6168
+    .line 6169
     div-long/2addr v0, v2
 
     return-wide v0
@@ -4083,7 +4083,7 @@
 .method public frameIDmax(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)Z
     .locals 1
 
-    .line 6099
+    .line 6100
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     if-eq p1, v0, :cond_1
@@ -4113,7 +4113,7 @@
 .method public frameIDmin(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)Z
     .locals 1
 
-    .line 6089
+    .line 6090
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     if-eq p1, v0, :cond_0
@@ -4142,7 +4142,7 @@
 .method public getAllDataBinary()Ljava/lang/String;
     .locals 11
 
-    .line 10806
+    .line 10807
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -4161,7 +4161,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 10807
+    .line 10808
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -4172,17 +4172,17 @@
 
     move-result-wide v0
 
-    .line 10811
+    .line 10812
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 10812
+    .line 10813
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 10814
+    .line 10815
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -4193,7 +4193,7 @@
 
     move v4, v6
 
-    .line 10815
+    .line 10816
     :goto_0
     rem-int/lit8 v7, v1, 0x8
 
@@ -4201,7 +4201,7 @@
 
     if-ge v4, v7, :cond_0
 
-    .line 10816
+    .line 10817
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -4218,7 +4218,7 @@
 
     goto :goto_0
 
-    .line 10819
+    .line 10820
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -4226,7 +4226,7 @@
 
     div-int/lit8 v1, v1, 0x8
 
-    .line 10820
+    .line 10821
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
     move-result v4
@@ -4235,7 +4235,7 @@
 
     move v4, v6
 
-    .line 10821
+    .line 10822
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
@@ -4247,7 +4247,7 @@
 
     if-ge v4, v7, :cond_1
 
-    .line 10822
+    .line 10823
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -4264,26 +4264,26 @@
 
     goto :goto_1
 
-    .line 10826
+    .line 10827
     :cond_1
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 10828
+    .line 10829
     :goto_2
     array-length v1, v0
 
     if-ge v6, v1, :cond_3
 
-    .line 10829
+    .line 10830
     rem-int/lit8 v1, v6, 0x8
 
     if-nez v1, :cond_2
 
     if-eqz v6, :cond_2
 
-    .line 10830
+    .line 10831
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4296,7 +4296,7 @@
 
     move-result-object v3
 
-    .line 10832
+    .line 10833
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -4319,7 +4319,7 @@
     :cond_3
     return-object v3
 
-    .line 10835
+    .line 10836
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -4331,36 +4331,36 @@
 
     if-ne v0, v1, :cond_8
 
-    .line 10838
+    .line 10839
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4f64
 
-    .line 10839
+    .line 10840
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 10843
+    .line 10844
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 10844
+    .line 10845
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 10846
+    .line 10847
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v4
 
     if-ge v1, v4, :cond_5
 
-    .line 10847
+    .line 10848
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -4370,7 +4370,7 @@
 
     if-ge v6, v4, :cond_5
 
-    .line 10848
+    .line 10849
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4387,13 +4387,13 @@
 
     goto :goto_3
 
-    .line 10852
+    .line 10853
     :cond_5
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 10854
+    .line 10855
     array-length v1, v0
 
     sub-int/2addr v1, v7
@@ -4401,7 +4401,7 @@
     :goto_4
     if-ltz v1, :cond_7
 
-    .line 10855
+    .line 10856
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4416,7 +4416,7 @@
 
     move-result-object v3
 
-    .line 10856
+    .line 10857
     rem-int/lit8 v4, v7, 0x8
 
     if-nez v4, :cond_6
@@ -4425,7 +4425,7 @@
 
     if-eq v7, v4, :cond_6
 
-    .line 10857
+    .line 10858
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4445,13 +4445,13 @@
 
     goto :goto_4
 
-    .line 10861
+    .line 10862
     :cond_7
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 10862
+    .line 10863
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -4462,7 +4462,7 @@
 
     return-object v0
 
-    .line 10864
+    .line 10865
     :cond_8
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -4474,43 +4474,43 @@
 
     if-ne v0, v1, :cond_e
 
-    .line 10867
+    .line 10868
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4fea
 
-    .line 10868
+    .line 10869
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 10872
+    .line 10873
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 10873
+    .line 10874
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 10875
+    .line 10876
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
     move-result v4
 
     mul-int/lit8 v4, v4, 0x8
 
-    .line 10876
+    .line 10877
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v9
 
     if-ne v9, v7, :cond_9
 
-    .line 10877
+    .line 10878
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v4
@@ -4533,7 +4533,7 @@
 
     if-ge v6, v4, :cond_b
 
-    .line 10885
+    .line 10886
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4550,13 +4550,13 @@
 
     goto :goto_6
 
-    .line 10889
+    .line 10890
     :cond_b
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 10891
+    .line 10892
     array-length v1, v0
 
     sub-int/2addr v1, v7
@@ -4564,7 +4564,7 @@
     :goto_7
     if-ltz v1, :cond_d
 
-    .line 10892
+    .line 10893
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4579,7 +4579,7 @@
 
     move-result-object v3
 
-    .line 10893
+    .line 10894
     rem-int/lit8 v4, v7, 0x8
 
     if-nez v4, :cond_c
@@ -4588,7 +4588,7 @@
 
     if-eq v7, v4, :cond_c
 
-    .line 10894
+    .line 10895
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4608,13 +4608,13 @@
 
     goto :goto_7
 
-    .line 10898
+    .line 10899
     :cond_d
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 10899
+    .line 10900
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -4625,7 +4625,7 @@
 
     return-object v0
 
-    .line 10901
+    .line 10902
     :cond_e
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -4635,7 +4635,7 @@
 
     if-ne v0, v1, :cond_13
 
-    .line 10903
+    .line 10904
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -4646,12 +4646,12 @@
 
     move-result-object v0
 
-    .line 10906
+    .line 10907
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 10908
+    .line 10909
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -4662,7 +4662,7 @@
 
     move v4, v6
 
-    .line 10909
+    .line 10910
     :goto_8
     rem-int/lit8 v7, v1, 0x8
 
@@ -4670,7 +4670,7 @@
 
     if-ge v4, v7, :cond_f
 
-    .line 10910
+    .line 10911
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -4687,7 +4687,7 @@
 
     goto :goto_8
 
-    .line 10913
+    .line 10914
     :cond_f
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -4695,7 +4695,7 @@
 
     div-int/lit8 v1, v1, 0x8
 
-    .line 10914
+    .line 10915
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
     move-result v4
@@ -4704,7 +4704,7 @@
 
     move v4, v6
 
-    .line 10915
+    .line 10916
     :goto_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
@@ -4716,7 +4716,7 @@
 
     if-ge v4, v7, :cond_10
 
-    .line 10916
+    .line 10917
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -4733,26 +4733,26 @@
 
     goto :goto_9
 
-    .line 10920
+    .line 10921
     :cond_10
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 10922
+    .line 10923
     :goto_a
     array-length v1, v0
 
     if-ge v6, v1, :cond_12
 
-    .line 10923
+    .line 10924
     rem-int/lit8 v1, v6, 0x8
 
     if-nez v1, :cond_11
 
     if-eqz v6, :cond_11
 
-    .line 10924
+    .line 10925
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4765,7 +4765,7 @@
 
     move-result-object v3
 
-    .line 10926
+    .line 10927
     :cond_11
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -4788,7 +4788,7 @@
     :cond_12
     return-object v3
 
-    .line 10929
+    .line 10930
     :cond_13
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -4798,36 +4798,36 @@
 
     if-ne v0, v1, :cond_17
 
-    .line 10932
+    .line 10933
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4fe0
 
-    .line 10933
+    .line 10934
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 10937
+    .line 10938
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 10938
+    .line 10939
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 10940
+    .line 10941
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v4
 
     if-ge v1, v4, :cond_14
 
-    .line 10941
+    .line 10942
     :goto_b
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -4837,7 +4837,7 @@
 
     if-ge v6, v4, :cond_14
 
-    .line 10942
+    .line 10943
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4854,13 +4854,13 @@
 
     goto :goto_b
 
-    .line 10946
+    .line 10947
     :cond_14
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 10948
+    .line 10949
     array-length v1, v0
 
     sub-int/2addr v1, v7
@@ -4868,7 +4868,7 @@
     :goto_c
     if-ltz v1, :cond_16
 
-    .line 10949
+    .line 10950
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4883,7 +4883,7 @@
 
     move-result-object v3
 
-    .line 10950
+    .line 10951
     rem-int/lit8 v4, v7, 0x8
 
     if-nez v4, :cond_15
@@ -4892,7 +4892,7 @@
 
     if-eq v7, v4, :cond_15
 
-    .line 10951
+    .line 10952
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -4912,13 +4912,13 @@
 
     goto :goto_c
 
-    .line 10955
+    .line 10956
     :cond_16
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 10956
+    .line 10957
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -4929,7 +4929,7 @@
 
     return-object v0
 
-    .line 10958
+    .line 10959
     :cond_17
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -4939,31 +4939,31 @@
 
     if-ne v0, v1, :cond_1d
 
-    .line 10961
+    .line 10962
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4fe1
 
-    .line 10962
+    .line 10963
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 10966
+    .line 10967
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 10967
+    .line 10968
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     const/16 v4, 0x10
 
-    .line 10970
+    .line 10971
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v9
@@ -4976,7 +4976,7 @@
 
     goto :goto_d
 
-    .line 10972
+    .line 10973
     :cond_18
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -4999,7 +4999,7 @@
 
     if-ge v6, v4, :cond_1a
 
-    .line 10977
+    .line 10978
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5016,13 +5016,13 @@
 
     goto :goto_e
 
-    .line 10981
+    .line 10982
     :cond_1a
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 10983
+    .line 10984
     array-length v1, v0
 
     sub-int/2addr v1, v7
@@ -5030,7 +5030,7 @@
     :goto_f
     if-ltz v1, :cond_1c
 
-    .line 10984
+    .line 10985
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5045,7 +5045,7 @@
 
     move-result-object v3
 
-    .line 10985
+    .line 10986
     rem-int/lit8 v4, v7, 0x8
 
     if-nez v4, :cond_1b
@@ -5054,7 +5054,7 @@
 
     if-eq v7, v4, :cond_1b
 
-    .line 10986
+    .line 10987
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5074,13 +5074,13 @@
 
     goto :goto_f
 
-    .line 10990
+    .line 10991
     :cond_1c
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 10991
+    .line 10992
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -5100,7 +5100,7 @@
 .method public getAllDataHex()Ljava/lang/String;
     .locals 14
 
-    .line 10998
+    .line 10999
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -5121,19 +5121,19 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 11001
+    .line 11002
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4f54
 
-    .line 11002
+    .line 11003
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 11006
+    .line 11007
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
@@ -5142,12 +5142,12 @@
 
     move-result-object v0
 
-    .line 11007
+    .line 11008
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 11009
+    .line 11010
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -5158,7 +5158,7 @@
 
     move v4, v7
 
-    .line 11010
+    .line 11011
     :goto_0
     rem-int/lit8 v8, v1, 0x2
 
@@ -5166,7 +5166,7 @@
 
     if-ge v4, v8, :cond_0
 
-    .line 11011
+    .line 11012
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -5183,7 +5183,7 @@
 
     goto :goto_0
 
-    .line 11014
+    .line 11015
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -5191,7 +5191,7 @@
 
     div-int/2addr v1, v5
 
-    .line 11015
+    .line 11016
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
     move-result v4
@@ -5200,7 +5200,7 @@
 
     move v4, v7
 
-    .line 11016
+    .line 11017
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
@@ -5212,7 +5212,7 @@
 
     if-ge v4, v8, :cond_1
 
-    .line 11017
+    .line 11018
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -5229,26 +5229,26 @@
 
     goto :goto_1
 
-    .line 11021
+    .line 11022
     :cond_1
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 11023
+    .line 11024
     :goto_2
     array-length v1, v0
 
     if-ge v7, v1, :cond_3
 
-    .line 11024
+    .line 11025
     rem-int/lit8 v1, v7, 0x2
 
     if-nez v1, :cond_2
 
     if-eqz v7, :cond_2
 
-    .line 11025
+    .line 11026
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -5261,7 +5261,7 @@
 
     move-result-object v3
 
-    .line 11027
+    .line 11028
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -5284,7 +5284,7 @@
     :cond_3
     return-object v3
 
-    .line 11030
+    .line 11031
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5298,19 +5298,19 @@
 
     if-ne v0, v1, :cond_9
 
-    .line 11033
+    .line 11034
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4f64
 
-    .line 11034
+    .line 11035
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 11038
+    .line 11039
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
@@ -5319,19 +5319,19 @@
 
     move-result-object v0
 
-    .line 11039
+    .line 11040
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 11041
+    .line 11042
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v4
 
     div-int/2addr v4, v8
 
-    .line 11042
+    .line 11043
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v5
@@ -5350,7 +5350,7 @@
 
     if-ge v7, v5, :cond_6
 
-    .line 11047
+    .line 11048
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -5367,13 +5367,13 @@
 
     goto :goto_3
 
-    .line 11050
+    .line 11051
     :cond_6
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 11052
+    .line 11053
     array-length v1, v0
 
     sub-int/2addr v1, v9
@@ -5381,7 +5381,7 @@
     :goto_4
     if-ltz v1, :cond_8
 
-    .line 11053
+    .line 11054
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5396,7 +5396,7 @@
 
     move-result-object v3
 
-    .line 11054
+    .line 11055
     rem-int/lit8 v4, v9, 0x2
 
     if-nez v4, :cond_7
@@ -5405,7 +5405,7 @@
 
     if-eq v9, v4, :cond_7
 
-    .line 11055
+    .line 11056
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5425,18 +5425,18 @@
 
     goto :goto_4
 
-    .line 11059
+    .line 11060
     :cond_8
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11060
+    .line 11061
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11061
+    .line 11062
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -5447,7 +5447,7 @@
 
     return-object v0
 
-    .line 11063
+    .line 11064
     :cond_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5457,19 +5457,19 @@
 
     if-ne v0, v1, :cond_f
 
-    .line 11066
+    .line 11067
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4fea
 
-    .line 11067
+    .line 11068
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 11071
+    .line 11072
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
@@ -5478,29 +5478,29 @@
 
     move-result-object v0
 
-    .line 11072
+    .line 11073
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 11074
+    .line 11075
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
     move-result v4
 
     mul-int/2addr v4, v8
 
-    .line 11075
+    .line 11076
     div-int/2addr v4, v5
 
-    .line 11076
+    .line 11077
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v5
 
     if-ne v5, v9, :cond_b
 
-    .line 11077
+    .line 11078
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v4
@@ -5514,7 +5514,7 @@
     :cond_a
     const/16 v4, 0xb
 
-    .line 11082
+    .line 11083
     :goto_5
     div-int/2addr v4, v8
 
@@ -5528,7 +5528,7 @@
 
     if-ge v7, v5, :cond_c
 
-    .line 11086
+    .line 11087
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -5545,13 +5545,13 @@
 
     goto :goto_6
 
-    .line 11089
+    .line 11090
     :cond_c
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 11091
+    .line 11092
     array-length v1, v0
 
     sub-int/2addr v1, v9
@@ -5559,7 +5559,7 @@
     :goto_7
     if-ltz v1, :cond_e
 
-    .line 11092
+    .line 11093
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5574,7 +5574,7 @@
 
     move-result-object v3
 
-    .line 11093
+    .line 11094
     rem-int/lit8 v4, v9, 0x2
 
     if-nez v4, :cond_d
@@ -5583,7 +5583,7 @@
 
     if-eq v9, v4, :cond_d
 
-    .line 11094
+    .line 11095
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5603,13 +5603,13 @@
 
     goto :goto_7
 
-    .line 11098
+    .line 11099
     :cond_e
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11099
+    .line 11100
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -5620,7 +5620,7 @@
 
     return-object v0
 
-    .line 11101
+    .line 11102
     :cond_f
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5630,7 +5630,7 @@
 
     if-ne v0, v1, :cond_16
 
-    .line 11102
+    .line 11103
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -5641,14 +5641,14 @@
 
     move-result-object v0
 
-    .line 11108
+    .line 11109
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     move v4, v7
 
-    .line 11110
+    .line 11111
     :goto_8
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -5667,7 +5667,7 @@
 
     add-int/lit8 v13, v12, 0x1
 
-    .line 11113
+    .line 11114
     invoke-virtual {v0, v12, v13}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v12
@@ -5688,7 +5688,7 @@
 
     goto :goto_9
 
-    .line 11115
+    .line 11116
     :cond_10
     invoke-static {v11}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
@@ -5700,7 +5700,7 @@
 
     goto :goto_8
 
-    .line 11117
+    .line 11118
     :cond_11
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -5710,12 +5710,12 @@
 
     move-result-object v0
 
-    .line 11121
+    .line 11122
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 11123
+    .line 11124
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -5726,7 +5726,7 @@
 
     move v4, v7
 
-    .line 11124
+    .line 11125
     :goto_a
     rem-int/lit8 v8, v1, 0x2
 
@@ -5734,7 +5734,7 @@
 
     if-ge v4, v8, :cond_12
 
-    .line 11125
+    .line 11126
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -5751,7 +5751,7 @@
 
     goto :goto_a
 
-    .line 11128
+    .line 11129
     :cond_12
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -5759,7 +5759,7 @@
 
     div-int/2addr v1, v5
 
-    .line 11129
+    .line 11130
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
     move-result v4
@@ -5768,7 +5768,7 @@
 
     move v4, v7
 
-    .line 11130
+    .line 11131
     :goto_b
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
@@ -5780,7 +5780,7 @@
 
     if-ge v4, v8, :cond_13
 
-    .line 11131
+    .line 11132
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -5797,26 +5797,26 @@
 
     goto :goto_b
 
-    .line 11135
+    .line 11136
     :cond_13
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 11137
+    .line 11138
     :goto_c
     array-length v1, v0
 
     if-ge v7, v1, :cond_15
 
-    .line 11138
+    .line 11139
     rem-int/lit8 v1, v7, 0x2
 
     if-nez v1, :cond_14
 
     if-eqz v7, :cond_14
 
-    .line 11139
+    .line 11140
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -5829,7 +5829,7 @@
 
     move-result-object v3
 
-    .line 11141
+    .line 11142
     :cond_14
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -5852,7 +5852,7 @@
     :cond_15
     return-object v3
 
-    .line 11144
+    .line 11145
     :cond_16
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5862,19 +5862,19 @@
 
     if-ne v0, v1, :cond_1b
 
-    .line 11147
+    .line 11148
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4fe0
 
-    .line 11148
+    .line 11149
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 11152
+    .line 11153
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
@@ -5883,19 +5883,19 @@
 
     move-result-object v0
 
-    .line 11153
+    .line 11154
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 11155
+    .line 11156
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v4
 
     div-int/2addr v4, v8
 
-    .line 11156
+    .line 11157
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v5
@@ -5914,7 +5914,7 @@
 
     if-ge v7, v5, :cond_18
 
-    .line 11161
+    .line 11162
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -5931,13 +5931,13 @@
 
     goto :goto_d
 
-    .line 11164
+    .line 11165
     :cond_18
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 11166
+    .line 11167
     array-length v1, v0
 
     sub-int/2addr v1, v9
@@ -5945,7 +5945,7 @@
     :goto_e
     if-ltz v1, :cond_1a
 
-    .line 11167
+    .line 11168
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5960,7 +5960,7 @@
 
     move-result-object v3
 
-    .line 11168
+    .line 11169
     rem-int/lit8 v4, v9, 0x2
 
     if-nez v4, :cond_19
@@ -5969,7 +5969,7 @@
 
     if-eq v9, v4, :cond_19
 
-    .line 11169
+    .line 11170
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -5989,18 +5989,18 @@
 
     goto :goto_e
 
-    .line 11173
+    .line 11174
     :cond_1a
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11174
+    .line 11175
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11175
+    .line 11176
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -6011,7 +6011,7 @@
 
     return-object v0
 
-    .line 11177
+    .line 11178
     :cond_1b
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6021,19 +6021,19 @@
 
     if-ne v0, v1, :cond_21
 
-    .line 11180
+    .line 11181
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x4fe1
 
-    .line 11181
+    .line 11182
     invoke-virtual {v0, v4, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 11185
+    .line 11186
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
@@ -6042,14 +6042,14 @@
 
     move-result-object v0
 
-    .line 11186
+    .line 11187
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     const/16 v4, 0x10
 
-    .line 11189
+    .line 11190
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v10
@@ -6060,7 +6060,7 @@
 
     goto :goto_f
 
-    .line 11191
+    .line 11192
     :cond_1c
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -6072,7 +6072,7 @@
 
     const/16 v4, 0xc
 
-    .line 11194
+    .line 11195
     :cond_1d
     :goto_f
     div-int/2addr v4, v8
@@ -6084,7 +6084,7 @@
 
     if-ge v7, v5, :cond_1e
 
-    .line 11196
+    .line 11197
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -6101,13 +6101,13 @@
 
     goto :goto_10
 
-    .line 11199
+    .line 11200
     :cond_1e
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 11201
+    .line 11202
     array-length v1, v0
 
     sub-int/2addr v1, v9
@@ -6115,7 +6115,7 @@
     :goto_11
     if-ltz v1, :cond_20
 
-    .line 11202
+    .line 11203
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -6130,14 +6130,14 @@
 
     move-result-object v3
 
-    .line 11203
+    .line 11204
     rem-int/lit8 v4, v9, 0x2
 
     if-nez v4, :cond_1f
 
     if-eqz v9, :cond_1f
 
-    .line 11204
+    .line 11205
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -6157,18 +6157,18 @@
 
     goto :goto_11
 
-    .line 11208
+    .line 11209
     :cond_20
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11209
+    .line 11210
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11210
+    .line 11211
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -6190,7 +6190,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5830
+    .line 5831
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->allWidth:I
 
     return v0
@@ -6199,7 +6199,7 @@
 .method public getAllWidthAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3415
+    .line 3416
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->allWidthAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -6208,7 +6208,7 @@
 .method public getAllXBinary()Ljava/lang/String;
     .locals 10
 
-    .line 11219
+    .line 11220
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -6225,7 +6225,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 11220
+    .line 11221
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
@@ -6233,7 +6233,7 @@
 
     if-ge v3, v0, :cond_0
 
-    .line 11221
+    .line 11222
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6250,13 +6250,13 @@
 
     goto :goto_0
 
-    .line 11223
+    .line 11224
     :cond_0
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11224
+    .line 11225
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6273,7 +6273,7 @@
 
     return-object v0
 
-    .line 11226
+    .line 11227
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6289,7 +6289,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 11228
+    .line 11229
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -6297,7 +6297,7 @@
 
     if-ge v3, v0, :cond_3
 
-    .line 11229
+    .line 11230
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6310,12 +6310,12 @@
 
     move-result-object v0
 
-    .line 11230
+    .line 11231
     rem-int/lit8 v1, v8, 0x8
 
     if-nez v1, :cond_2
 
-    .line 11231
+    .line 11232
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6337,18 +6337,18 @@
 
     goto :goto_1
 
-    .line 11235
+    .line 11236
     :cond_3
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11236
+    .line 11237
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11237
+    .line 11238
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -6357,7 +6357,7 @@
 
     move-result-object v0
 
-    .line 11238
+    .line 11239
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6374,7 +6374,7 @@
 
     return-object v0
 
-    .line 11240
+    .line 11241
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6386,14 +6386,14 @@
 
     if-ne v0, v1, :cond_8
 
-    .line 11242
+    .line 11243
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v0
 
     if-nez v0, :cond_6
 
-    .line 11243
+    .line 11244
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
@@ -6401,7 +6401,7 @@
 
     if-ge v3, v0, :cond_5
 
-    .line 11244
+    .line 11245
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6418,13 +6418,13 @@
 
     goto :goto_2
 
-    .line 11246
+    .line 11247
     :cond_5
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11247
+    .line 11248
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6441,7 +6441,7 @@
 
     return-object v0
 
-    .line 11251
+    .line 11252
     :cond_6
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
@@ -6449,7 +6449,7 @@
 
     if-ne v0, v8, :cond_14
 
-    .line 11253
+    .line 11254
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v0
@@ -6458,7 +6458,7 @@
 
     const-string v9, "XXXXX XXXXXXXX XXXXXXXX XXXXXXXX"
 
-    .line 11258
+    .line 11259
     :cond_7
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -6476,7 +6476,7 @@
 
     return-object v9
 
-    .line 11261
+    .line 11262
     :cond_8
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6486,7 +6486,7 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 11262
+    .line 11263
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
@@ -6494,7 +6494,7 @@
 
     if-ge v3, v0, :cond_9
 
-    .line 11263
+    .line 11264
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6511,13 +6511,13 @@
 
     goto :goto_3
 
-    .line 11265
+    .line 11266
     :cond_9
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11266
+    .line 11267
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6534,7 +6534,7 @@
 
     return-object v0
 
-    .line 11268
+    .line 11269
     :cond_a
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6546,7 +6546,7 @@
 
     move v0, v8
 
-    .line 11270
+    .line 11271
     :goto_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -6554,7 +6554,7 @@
 
     if-ge v3, v1, :cond_c
 
-    .line 11271
+    .line 11272
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6567,12 +6567,12 @@
 
     move-result-object v1
 
-    .line 11272
+    .line 11273
     rem-int/lit8 v2, v0, 0x8
 
     if-nez v2, :cond_b
 
-    .line 11273
+    .line 11274
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -6594,18 +6594,18 @@
 
     goto :goto_4
 
-    .line 11277
+    .line 11278
     :cond_c
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11278
+    .line 11279
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11279
+    .line 11280
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -6614,7 +6614,7 @@
 
     move-result-object v0
 
-    .line 11280
+    .line 11281
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v1
@@ -6629,7 +6629,7 @@
 
     goto :goto_5
 
-    .line 11284
+    .line 11285
     :cond_d
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -6647,7 +6647,7 @@
 
     goto :goto_6
 
-    .line 11281
+    .line 11282
     :cond_e
     :goto_5
     new-instance v1, Ljava/lang/StringBuilder;
@@ -6664,7 +6664,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
-    .line 11282
+    .line 11283
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6682,7 +6682,7 @@
     :goto_6
     return-object v0
 
-    .line 11287
+    .line 11288
     :cond_f
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6692,7 +6692,7 @@
 
     if-ne v0, v1, :cond_14
 
-    .line 11288
+    .line 11289
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v0
@@ -6701,7 +6701,7 @@
 
     if-nez v0, :cond_10
 
-    .line 11290
+    .line 11291
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6721,7 +6721,7 @@
 
     goto :goto_8
 
-    .line 11291
+    .line 11292
     :cond_10
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -6729,7 +6729,7 @@
 
     if-ne v0, v8, :cond_11
 
-    .line 11293
+    .line 11294
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6746,7 +6746,7 @@
 
     goto :goto_7
 
-    .line 11294
+    .line 11295
     :cond_11
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -6758,7 +6758,7 @@
 
     const-string v5, "XXXXX"
 
-    .line 11296
+    .line 11297
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6775,7 +6775,7 @@
 
     goto :goto_8
 
-    .line 11297
+    .line 11298
     :cond_12
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -6785,7 +6785,7 @@
 
     if-ne v0, v1, :cond_13
 
-    .line 11299
+    .line 11300
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6815,7 +6815,7 @@
 .method public getAllXHex()Ljava/lang/String;
     .locals 11
 
-    .line 11309
+    .line 11310
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -6832,7 +6832,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 11310
+    .line 11311
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
@@ -6840,7 +6840,7 @@
 
     if-ge v3, v0, :cond_0
 
-    .line 11311
+    .line 11312
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -6857,13 +6857,13 @@
 
     goto :goto_0
 
-    .line 11313
+    .line 11314
     :cond_0
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11314
+    .line 11315
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6880,7 +6880,7 @@
 
     return-object v0
 
-    .line 11316
+    .line 11317
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -6896,14 +6896,14 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 11318
+    .line 11319
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x4
 
-    .line 11319
+    .line 11320
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v1
@@ -6918,7 +6918,7 @@
     :goto_1
     if-ge v3, v0, :cond_4
 
-    .line 11323
+    .line 11324
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6931,12 +6931,12 @@
 
     move-result-object v1
 
-    .line 11324
+    .line 11325
     rem-int/lit8 v2, v8, 0x2
 
     if-nez v2, :cond_3
 
-    .line 11325
+    .line 11326
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -6958,18 +6958,18 @@
 
     goto :goto_1
 
-    .line 11329
+    .line 11330
     :cond_4
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11330
+    .line 11331
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11331
+    .line 11332
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -6978,7 +6978,7 @@
 
     move-result-object v0
 
-    .line 11332
+    .line 11333
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -6995,7 +6995,7 @@
 
     return-object v0
 
-    .line 11334
+    .line 11335
     :cond_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -7009,14 +7009,14 @@
 
     if-ne v0, v1, :cond_9
 
-    .line 11336
+    .line 11337
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v0
 
     if-nez v0, :cond_7
 
-    .line 11337
+    .line 11338
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
@@ -7024,7 +7024,7 @@
 
     if-ge v3, v0, :cond_6
 
-    .line 11338
+    .line 11339
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7041,13 +7041,13 @@
 
     goto :goto_2
 
-    .line 11340
+    .line 11341
     :cond_6
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11341
+    .line 11342
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -7066,7 +7066,7 @@
 
     return-object v0
 
-    .line 11345
+    .line 11346
     :cond_7
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
@@ -7074,7 +7074,7 @@
 
     if-ne v0, v8, :cond_16
 
-    .line 11347
+    .line 11348
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v0
@@ -7083,7 +7083,7 @@
 
     const-string v9, "XX XX XX XX"
 
-    .line 11352
+    .line 11353
     :cond_8
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -7101,7 +7101,7 @@
 
     return-object v9
 
-    .line 11355
+    .line 11356
     :cond_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -7111,7 +7111,7 @@
 
     if-ne v0, v1, :cond_b
 
-    .line 11356
+    .line 11357
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
@@ -7119,7 +7119,7 @@
 
     if-ge v3, v0, :cond_a
 
-    .line 11357
+    .line 11358
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7136,13 +7136,13 @@
 
     goto :goto_3
 
-    .line 11359
+    .line 11360
     :cond_a
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11360
+    .line 11361
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -7159,7 +7159,7 @@
 
     return-object v0
 
-    .line 11362
+    .line 11363
     :cond_b
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -7169,14 +7169,14 @@
 
     if-ne v0, v1, :cond_11
 
-    .line 11364
+    .line 11365
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x4
 
-    .line 11365
+    .line 11366
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v1
@@ -7193,7 +7193,7 @@
     :goto_4
     if-ge v3, v0, :cond_e
 
-    .line 11369
+    .line 11370
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -7206,12 +7206,12 @@
 
     move-result-object v2
 
-    .line 11370
+    .line 11371
     rem-int/lit8 v5, v1, 0x2
 
     if-nez v5, :cond_d
 
-    .line 11371
+    .line 11372
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -7233,18 +7233,18 @@
 
     goto :goto_4
 
-    .line 11375
+    .line 11376
     :cond_e
     invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11376
+    .line 11377
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11377
+    .line 11378
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -7253,7 +7253,7 @@
 
     move-result-object v0
 
-    .line 11378
+    .line 11379
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v1
@@ -7268,7 +7268,7 @@
 
     goto :goto_5
 
-    .line 11382
+    .line 11383
     :cond_f
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -7286,7 +7286,7 @@
 
     goto :goto_6
 
-    .line 11379
+    .line 11380
     :cond_10
     :goto_5
     new-instance v1, Ljava/lang/StringBuilder;
@@ -7303,7 +7303,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
-    .line 11380
+    .line 11381
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -7321,7 +7321,7 @@
     :goto_6
     return-object v0
 
-    .line 11385
+    .line 11386
     :cond_11
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -7331,7 +7331,7 @@
 
     if-ne v0, v1, :cond_16
 
-    .line 11386
+    .line 11387
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v0
@@ -7340,7 +7340,7 @@
 
     if-nez v0, :cond_12
 
-    .line 11388
+    .line 11389
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7360,7 +7360,7 @@
 
     goto :goto_8
 
-    .line 11389
+    .line 11390
     :cond_12
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -7368,7 +7368,7 @@
 
     if-ne v0, v8, :cond_13
 
-    .line 11391
+    .line 11392
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7385,7 +7385,7 @@
 
     goto :goto_7
 
-    .line 11392
+    .line 11393
     :cond_13
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -7395,7 +7395,7 @@
 
     if-ne v0, v1, :cond_14
 
-    .line 11394
+    .line 11395
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7414,7 +7414,7 @@
 
     goto :goto_8
 
-    .line 11395
+    .line 11396
     :cond_14
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -7424,7 +7424,7 @@
 
     if-ne v0, v1, :cond_15
 
-    .line 11397
+    .line 11398
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -7463,7 +7463,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5944
+    .line 5945
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->bitType:I
 
     return v0
@@ -7485,7 +7485,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5022
+    .line 5023
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->canBaud:I
 
     return v0
@@ -7494,7 +7494,7 @@
 .method public getCanBaudRateAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3335
+    .line 3336
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->canBaudRateAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -7503,7 +7503,7 @@
 .method public getCanDataByteAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3343
+    .line 3344
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->canDataByteAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -7514,7 +7514,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 10249
+    .line 10250
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->canDataIdType:I
 
     return v0
@@ -7536,7 +7536,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5194
+    .line 5195
     iget-boolean v0, p0, Lcom/rigol/scope/data/TriggerParam;->canDefine:Z
 
     return v0
@@ -7547,7 +7547,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5032
+    .line 5033
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->canFdBaud:I
 
     return v0
@@ -7556,7 +7556,7 @@
 .method public getCanFdBaudRateAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3339
+    .line 3340
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->canFdBaudRateAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -7589,7 +7589,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3797
+    .line 3798
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -7600,7 +7600,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4281
+    .line 4282
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -7611,7 +7611,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4294
+    .line 4295
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -7622,12 +7622,12 @@
 
     const v0, 0x7f0803e8
 
-    .line 6017
+    .line 6018
     invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ContextUtil;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 6018
+    .line 6019
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;Lcom/rigol/scope/cil/ServiceEnum$Chan;)I
 
     move-result p1
@@ -7642,7 +7642,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4551
+    .line 4552
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     return-object v0
@@ -7651,14 +7651,14 @@
 .method public getChanOffset()J
     .locals 2
 
-    .line 3821
+    .line 3822
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Edge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v0, v1, :cond_1
 
-    .line 3822
+    .line 3823
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v0
@@ -7680,7 +7680,7 @@
 
     return-wide v0
 
-    .line 3825
+    .line 3826
     :cond_1
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanOffset:J
 
@@ -7692,7 +7692,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4541
+    .line 4542
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     return-object v0
@@ -7701,7 +7701,7 @@
 .method public getChanScale()J
     .locals 2
 
-    .line 3813
+    .line 3814
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanScale:J
 
     return-wide v0
@@ -7809,7 +7809,7 @@
 .method public getChanValuesDisplay(Lcom/rigol/scope/cil/ServiceEnum$Chan;)Ljava/lang/String;
     .locals 2
 
-    .line 3978
+    .line 3979
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     const/4 v0, 0x1
@@ -7971,7 +7971,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3728
+    .line 3729
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
     return v0
@@ -7982,7 +7982,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3738
+    .line 3739
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->channelB:I
 
     return v0
@@ -7993,7 +7993,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3748
+    .line 3749
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->channelC:I
 
     return v0
@@ -8004,7 +8004,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5267
+    .line 5268
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->compareLowerLimit:J
 
     return-wide v0
@@ -8015,7 +8015,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5256
+    .line 5257
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->compareUperLimit:J
 
     return-wide v0
@@ -8026,7 +8026,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4439
+    .line 4440
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     return-object v0
@@ -8057,7 +8057,7 @@
 .method public getDataBitsAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3367
+    .line 3368
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->dataBitsAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -8077,7 +8077,7 @@
 .method public getDataHex()Ljava/lang/String;
     .locals 5
 
-    .line 10770
+    .line 10771
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2C:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -8086,7 +8086,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 10771
+    .line 10772
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue1Str()Ljava/lang/String;
 
     move-result-object v0
@@ -8097,7 +8097,7 @@
 
     return-object v0
 
-    .line 10772
+    .line 10773
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -8105,7 +8105,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 10773
+    .line 10774
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue2Str()Ljava/lang/String;
 
     move-result-object v0
@@ -8116,7 +8116,7 @@
 
     return-object v0
 
-    .line 10774
+    .line 10775
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -8124,14 +8124,14 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 10775
+    .line 10776
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 10776
+    .line 10777
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3DataStr()Ljava/lang/String;
 
     move-result-object v0
@@ -8142,7 +8142,7 @@
 
     return-object v0
 
-    .line 10778
+    .line 10779
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3IdStr()Ljava/lang/String;
 
@@ -8154,7 +8154,7 @@
 
     return-object v0
 
-    .line 10780
+    .line 10781
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -8162,7 +8162,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 10781
+    .line 10782
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue4Str()Ljava/lang/String;
 
     move-result-object v0
@@ -8173,7 +8173,7 @@
 
     return-object v0
 
-    .line 10782
+    .line 10783
     :cond_4
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -8185,14 +8185,14 @@
 
     if-ne v0, v1, :cond_7
 
-    .line 10783
+    .line 10784
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v0
 
     if-nez v0, :cond_5
 
-    .line 10784
+    .line 10785
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5Str()Ljava/lang/String;
 
     move-result-object v0
@@ -8203,7 +8203,7 @@
 
     return-object v0
 
-    .line 10785
+    .line 10786
     :cond_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -8211,7 +8211,7 @@
 
     if-ne v0, v4, :cond_6
 
-    .line 10786
+    .line 10787
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MinStr()Ljava/lang/String;
 
     move-result-object v0
@@ -8222,7 +8222,7 @@
 
     return-object v0
 
-    .line 10787
+    .line 10788
     :cond_6
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -8230,7 +8230,7 @@
 
     if-ne v0, v3, :cond_b
 
-    .line 10788
+    .line 10789
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MaxStr()Ljava/lang/String;
 
     move-result-object v0
@@ -8241,7 +8241,7 @@
 
     return-object v0
 
-    .line 10790
+    .line 10791
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -8249,14 +8249,14 @@
 
     if-ne v0, v1, :cond_b
 
-    .line 10791
+    .line 10792
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v0
 
     if-nez v0, :cond_8
 
-    .line 10792
+    .line 10793
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6MaxStr()Ljava/lang/String;
 
     move-result-object v0
@@ -8267,7 +8267,7 @@
 
     return-object v0
 
-    .line 10793
+    .line 10794
     :cond_8
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -8275,7 +8275,7 @@
 
     if-ne v0, v4, :cond_9
 
-    .line 10794
+    .line 10795
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6Str()Ljava/lang/String;
 
     move-result-object v0
@@ -8286,7 +8286,7 @@
 
     return-object v0
 
-    .line 10795
+    .line 10796
     :cond_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -8294,7 +8294,7 @@
 
     if-ne v0, v3, :cond_a
 
-    .line 10796
+    .line 10797
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6RtaStr()Ljava/lang/String;
 
     move-result-object v0
@@ -8305,7 +8305,7 @@
 
     return-object v0
 
-    .line 10797
+    .line 10798
     :cond_a
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -8315,7 +8315,7 @@
 
     if-ne v0, v1, :cond_b
 
-    .line 10798
+    .line 10799
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6BitStr()Ljava/lang/String;
 
     move-result-object v0
@@ -8337,7 +8337,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4305
+    .line 4306
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->delayChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -8348,7 +8348,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4318
+    .line 4319
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->delayChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -8403,7 +8403,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5914
+    .line 5915
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->downType:I
 
     return v0
@@ -8425,7 +8425,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4522
+    .line 4523
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->durationPattern:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     return-object v0
@@ -8447,7 +8447,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4826
+    .line 4827
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRate:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     return-object v0
@@ -8458,7 +8458,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5012
+    .line 5013
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRateCan:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     return-object v0
@@ -8469,7 +8469,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5408
+    .line 5409
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRateLin:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     return-object v0
@@ -8480,7 +8480,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4716
+    .line 4717
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->eMoreThan:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     return-object v0
@@ -8502,7 +8502,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4562
+    .line 4563
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -8513,7 +8513,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4643
+    .line 4644
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlopeA:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -8524,7 +8524,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4654
+    .line 4655
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlopeB:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -8544,7 +8544,7 @@
 .method public getFdSamplePointsAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3375
+    .line 3376
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->fdSamplePointsAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -8566,7 +8566,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3840
+    .line 3841
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue1Str:Ljava/lang/String;
 
     return-object v0
@@ -8577,7 +8577,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3855
+    .line 3856
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue2Str:Ljava/lang/String;
 
     return-object v0
@@ -8588,7 +8588,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3870
+    .line 3871
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue3DataStr:Ljava/lang/String;
 
     return-object v0
@@ -8599,7 +8599,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3880
+    .line 3881
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue3IdStr:Ljava/lang/String;
 
     return-object v0
@@ -8610,7 +8610,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3895
+    .line 3896
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue4Str:Ljava/lang/String;
 
     return-object v0
@@ -8621,7 +8621,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3925
+    .line 3926
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5MaxStr:Ljava/lang/String;
 
     return-object v0
@@ -8632,7 +8632,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3915
+    .line 3916
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5MinStr:Ljava/lang/String;
 
     return-object v0
@@ -8643,7 +8643,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3905
+    .line 3906
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5Str:Ljava/lang/String;
 
     return-object v0
@@ -8654,7 +8654,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3965
+    .line 3966
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6BitStr:Ljava/lang/String;
 
     return-object v0
@@ -8665,7 +8665,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3945
+    .line 3946
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6MaxStr:Ljava/lang/String;
 
     return-object v0
@@ -8676,7 +8676,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3955
+    .line 3956
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6RtaStr:Ljava/lang/String;
 
     return-object v0
@@ -8687,7 +8687,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3935
+    .line 3936
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6Str:Ljava/lang/String;
 
     return-object v0
@@ -8718,7 +8718,7 @@
 .method public getHoldOffAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3175
+    .line 3176
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->holdOffAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -8727,7 +8727,7 @@
 .method public getHoldTimeAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3323
+    .line 3324
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->holdTimeAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -8747,7 +8747,7 @@
 .method public getI2cAddressAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3351
+    .line 3352
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->i2cAddressAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -8756,7 +8756,7 @@
 .method public getI2cByteLengthAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3355
+    .line 3356
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->i2cByteLengthAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -8767,7 +8767,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4919
+    .line 4920
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->i2cDataType:I
 
     return v0
@@ -8778,7 +8778,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 10238
+    .line 10239
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->i2sDataType:I
 
     return v0
@@ -8791,22 +8791,22 @@
 
     const-string v1, ""
 
-    .line 11840
+    .line 11841
     invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 11841
+    .line 11842
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v2
 
-    .line 11843
+    .line 11844
     invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v3
 
-    .line 11844
+    .line 11845
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v4
@@ -8819,7 +8819,7 @@
 
     move v3, v5
 
-    .line 11845
+    .line 11846
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -8829,7 +8829,7 @@
 
     if-ge v3, v6, :cond_0
 
-    .line 11846
+    .line 11847
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -8848,7 +8848,7 @@
 
     goto :goto_0
 
-    .line 11848
+    .line 11849
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -8864,7 +8864,7 @@
 
     goto :goto_2
 
-    .line 11850
+    .line 11851
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -8877,7 +8877,7 @@
     :goto_1
     if-ge p1, v2, :cond_2
 
-    .line 11851
+    .line 11852
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -8899,13 +8899,13 @@
     :cond_2
     move-object p1, v4
 
-    .line 11856
+    .line 11857
     :goto_2
     new-instance v2, Ljava/lang/StringBuffer;
 
     invoke-direct {v2, p1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11857
+    .line 11858
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v2
@@ -8914,7 +8914,7 @@
 
     move-result-object v2
 
-    .line 11858
+    .line 11859
     :goto_3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -8922,14 +8922,14 @@
 
     if-ge v5, v3, :cond_4
 
-    .line 11859
+    .line 11860
     rem-int/lit8 v3, v5, 0x8
 
     if-nez v3, :cond_3
 
     if-eqz v5, :cond_3
 
-    .line 11860
+    .line 11861
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -8942,7 +8942,7 @@
 
     move-result-object v1
 
-    .line 11862
+    .line 11863
     :cond_3
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -8966,13 +8966,13 @@
 
     goto :goto_3
 
-    .line 11864
+    .line 11865
     :cond_4
     new-instance p1, Ljava/lang/StringBuffer;
 
     invoke-direct {p1, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11865
+    .line 11866
     invoke-virtual {p1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object p1
@@ -8989,7 +8989,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5053
+    .line 5054
     iget-boolean v0, p0, Lcom/rigol/scope/data/TriggerParam;->idExtended:Z
 
     return v0
@@ -9000,7 +9000,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5287
+    .line 5288
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->idLowerLimit:J
 
     return-wide v0
@@ -9011,7 +9011,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5277
+    .line 5278
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->idUperLimit:J
 
     return-wide v0
@@ -9033,7 +9033,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4362
+    .line 4363
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9044,7 +9044,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4367
+    .line 4368
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9077,7 +9077,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4413
+    .line 4414
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9088,7 +9088,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4418
+    .line 4419
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9099,7 +9099,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4428
+    .line 4429
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9110,7 +9110,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5840
+    .line 5841
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisDataType:I
 
     return v0
@@ -9121,7 +9121,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5850
+    .line 5851
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisMaxDataType:I
 
     return v0
@@ -9132,7 +9132,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5860
+    .line 5861
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisMinDataType:I
 
     return v0
@@ -9143,7 +9143,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4632
+    .line 4633
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -9187,7 +9187,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3769
+    .line 3770
     iget-boolean v0, p0, Lcom/rigol/scope/data/TriggerParam;->isNoise:Z
 
     return v0
@@ -9198,7 +9198,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3763
+    .line 3764
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->itemPosition:I
 
     return v0
@@ -9229,7 +9229,7 @@
 .method public getLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3179
+    .line 3180
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->levelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9260,7 +9260,7 @@
 .method public getLevelStepAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3183
+    .line 3184
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->levelStepAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9271,7 +9271,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5493
+    .line 5494
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->linBaud:I
 
     return v0
@@ -9280,7 +9280,7 @@
 .method public getLinBaudRateAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3347
+    .line 3348
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->linBaudRateAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9291,7 +9291,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5418
+    .line 5419
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->linByte:I
 
     return v0
@@ -9300,7 +9300,7 @@
 .method public getLinByteAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3359
+    .line 3360
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->linByteAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9311,7 +9311,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5467
+    .line 5468
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->linDataType:I
 
     return v0
@@ -9322,7 +9322,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5477
+    .line 5478
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->linId:I
 
     return v0
@@ -9331,7 +9331,7 @@
 .method public getLinIdAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3363
+    .line 3364
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->linIdAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9362,7 +9362,7 @@
 .method public getLowerAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3243
+    .line 3244
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->lowerAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9384,7 +9384,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 10260
+    .line 10261
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdDataType:I
 
     return v0
@@ -9395,7 +9395,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4793
+    .line 4794
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     return-object v0
@@ -9439,7 +9439,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4612
+    .line 4613
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->nthSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -9448,7 +9448,7 @@
 .method public getNthedgeNumberAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3315
+    .line 3316
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->edgeNumberAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9457,7 +9457,7 @@
 .method public getNthidelTimeAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3311
+    .line 3312
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->idelTimeAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9468,7 +9468,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4738
+    .line 4739
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->overEvent:Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     return-object v0
@@ -9479,7 +9479,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4592
+    .line 4593
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->overSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -9499,7 +9499,7 @@
 .method public getOverTimeAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3291
+    .line 3292
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->overTimeAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9510,7 +9510,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4782
+    .line 4783
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->overTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     return-object v0
@@ -9519,12 +9519,12 @@
 .method public getOverValue()J
     .locals 4
 
-    .line 6225
+    .line 6226
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
 
     move-result-wide v0
 
-    .line 6226
+    .line 6227
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
 
     move-result-wide v2
@@ -9561,7 +9561,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4463
+    .line 4464
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->pattern:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     return-object v0
@@ -9572,7 +9572,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4675
+    .line 4676
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->polarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     return-object v0
@@ -9629,7 +9629,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4665
+    .line 4666
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->pulsePolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     return-object v0
@@ -9640,7 +9640,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4836
+    .line 4837
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->rs232BaudRate:I
 
     return v0
@@ -9649,7 +9649,7 @@
 .method public getRs232BaudRateAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3331
+    .line 3332
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->rs232BaudRateAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9669,7 +9669,7 @@
 .method public getRs232DataAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3327
+    .line 3328
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->rs232DataAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9680,7 +9680,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5934
+    .line 5935
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->rtaType:I
 
     return v0
@@ -9702,7 +9702,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4695
+    .line 4696
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     return-object v0
@@ -9713,7 +9713,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4771
+    .line 4772
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     return-object v0
@@ -9733,12 +9733,12 @@
 .method public getRuntValue()J
     .locals 4
 
-    .line 6236
+    .line 6237
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
 
     move-result-wide v0
 
-    .line 6237
+    .line 6238
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
 
     move-result-wide v2
@@ -9775,7 +9775,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4804
+    .line 4805
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->sHEvent:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     return-object v0
@@ -9795,7 +9795,7 @@
 .method public getSamplePointsAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3371
+    .line 3372
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->samplePointsAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9806,7 +9806,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3720
+    .line 3721
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -9860,7 +9860,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4331
+    .line 4332
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9871,7 +9871,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4344
+    .line 4345
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -9882,7 +9882,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4705
+    .line 4706
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     return-object v0
@@ -9893,7 +9893,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4602
+    .line 4603
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -9924,7 +9924,7 @@
 .method public getSetupTimeAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3319
+    .line 3320
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupTimeAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -9935,7 +9935,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4572
+    .line 4573
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->slope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -9957,7 +9957,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4760
+    .line 4761
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopeTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     return-object v0
@@ -10001,7 +10001,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4383
+    .line 4384
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -10012,7 +10012,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4388
+    .line 4389
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -10023,7 +10023,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4398
+    .line 4399
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -10034,7 +10034,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4940
+    .line 4941
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiDataType:I
 
     return v0
@@ -10045,7 +10045,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4622
+    .line 4623
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -10111,7 +10111,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4582
+    .line 4583
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->timeoutSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     return-object v0
@@ -10120,7 +10120,7 @@
 .method public getTimeoutTimeAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3271
+    .line 3272
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->timeoutTimeAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -10131,7 +10131,7 @@
 
     move-object/from16 v0, p0
 
-    .line 11456
+    .line 11457
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v1
@@ -10152,14 +10152,14 @@
 
     if-ne v1, v2, :cond_7
 
-    .line 11458
+    .line 11459
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getI2cDataType()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 11459
+    .line 11460
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue1Str()Ljava/lang/String;
 
     move-result-object v1
@@ -10170,7 +10170,7 @@
 
     return-object v1
 
-    .line 11465
+    .line 11466
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -10182,7 +10182,7 @@
 
     move-result-object v1
 
-    .line 11467
+    .line 11468
     iget-object v2, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue1Str:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -10193,24 +10193,24 @@
 
     goto :goto_0
 
-    .line 11470
+    .line 11471
     :cond_1
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue1Str:Ljava/lang/String;
 
-    .line 11472
+    .line 11473
     :goto_0
     invoke-virtual {v1, v7, v9}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 11474
+    .line 11475
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     div-int/2addr v2, v4
 
-    .line 11476
+    .line 11477
     iget v3, v0, Lcom/rigol/scope/data/TriggerParam;->byteLength:I
 
     if-ge v2, v3, :cond_3
@@ -10219,7 +10219,7 @@
 
     const/4 v3, 0x0
 
-    .line 11477
+    .line 11478
     :goto_1
     iget v10, v0, Lcom/rigol/scope/data/TriggerParam;->byteLength:I
 
@@ -10229,7 +10229,7 @@
 
     if-ge v3, v10, :cond_2
 
-    .line 11478
+    .line 11479
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -10246,7 +10246,7 @@
 
     goto :goto_1
 
-    .line 11480
+    .line 11481
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -10271,7 +10271,7 @@
 
     move-object v2, v9
 
-    .line 11482
+    .line 11483
     :goto_2
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -10279,7 +10279,7 @@
 
     if-ge v3, v4, :cond_4
 
-    .line 11483
+    .line 11484
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -10308,7 +10308,7 @@
     :goto_3
     const/4 v6, 0x0
 
-    .line 11487
+    .line 11488
     :goto_4
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -10316,14 +10316,14 @@
 
     if-ge v6, v2, :cond_6
 
-    .line 11488
+    .line 11489
     rem-int/lit8 v2, v6, 0x8
 
     if-nez v2, :cond_5
 
     if-eqz v6, :cond_5
 
-    .line 11489
+    .line 11490
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -10336,7 +10336,7 @@
 
     move-result-object v9
 
-    .line 11491
+    .line 11492
     :cond_5
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -10363,7 +10363,7 @@
     :cond_6
     return-object v9
 
-    .line 11496
+    .line 11497
     :cond_7
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -10373,14 +10373,14 @@
 
     if-ne v1, v2, :cond_f
 
-    .line 11498
+    .line 11499
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getSpiDataType()I
 
     move-result v1
 
     if-nez v1, :cond_8
 
-    .line 11499
+    .line 11500
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue2Str()Ljava/lang/String;
 
     move-result-object v1
@@ -10391,7 +10391,7 @@
 
     return-object v1
 
-    .line 11505
+    .line 11506
     :cond_8
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -10403,7 +10403,7 @@
 
     move-result-object v1
 
-    .line 11507
+    .line 11508
     iget-object v2, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue2Str:Ljava/lang/String;
 
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -10414,27 +10414,27 @@
 
     goto :goto_5
 
-    .line 11510
+    .line 11511
     :cond_9
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue2Str:Ljava/lang/String;
 
-    .line 11512
+    .line 11513
     :goto_5
     invoke-virtual {v1, v7, v9}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 11513
+    .line 11514
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
-    .line 11515
+    .line 11516
     invoke-virtual {v1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v3
 
-    .line 11517
+    .line 11518
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v4
@@ -10445,7 +10445,7 @@
 
     const/4 v3, 0x0
 
-    .line 11518
+    .line 11519
     :goto_6
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -10455,7 +10455,7 @@
 
     if-ge v3, v8, :cond_a
 
-    .line 11519
+    .line 11520
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -10472,7 +10472,7 @@
 
     goto :goto_6
 
-    .line 11521
+    .line 11522
     :cond_a
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -10488,7 +10488,7 @@
 
     goto :goto_8
 
-    .line 11523
+    .line 11524
     :cond_b
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -10501,7 +10501,7 @@
     :goto_7
     if-ge v1, v2, :cond_c
 
-    .line 11524
+    .line 11525
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -10523,13 +10523,13 @@
     :cond_c
     move-object v1, v4
 
-    .line 11530
+    .line 11531
     :goto_8
     new-instance v2, Ljava/lang/StringBuffer;
 
     invoke-direct {v2, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11531
+    .line 11532
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v2
@@ -10540,7 +10540,7 @@
 
     const/4 v6, 0x0
 
-    .line 11532
+    .line 11533
     :goto_9
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -10548,14 +10548,14 @@
 
     if-ge v6, v3, :cond_e
 
-    .line 11533
+    .line 11534
     rem-int/lit8 v3, v6, 0x8
 
     if-nez v3, :cond_d
 
     if-eqz v6, :cond_d
 
-    .line 11534
+    .line 11535
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -10568,7 +10568,7 @@
 
     move-result-object v9
 
-    .line 11536
+    .line 11537
     :cond_d
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -10592,13 +10592,13 @@
 
     goto :goto_9
 
-    .line 11538
+    .line 11539
     :cond_e
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v9}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 11539
+    .line 11540
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -10609,7 +10609,7 @@
 
     return-object v1
 
-    .line 11542
+    .line 11543
     :cond_f
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -10619,21 +10619,21 @@
 
     if-ne v1, v2, :cond_25
 
-    .line 11544
+    .line 11545
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v1
 
     if-nez v1, :cond_16
 
-    .line 11546
+    .line 11547
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataType()I
 
     move-result v1
 
     if-nez v1, :cond_10
 
-    .line 11547
+    .line 11548
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3DataStr()Ljava/lang/String;
 
     move-result-object v1
@@ -10644,7 +10644,7 @@
 
     return-object v1
 
-    .line 11553
+    .line 11554
     :cond_10
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue3DataStr:Ljava/lang/String;
 
@@ -10652,14 +10652,14 @@
 
     move-result-object v1
 
-    .line 11554
+    .line 11555
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     div-int/2addr v2, v4
 
-    .line 11556
+    .line 11557
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
     move-result v3
@@ -10670,7 +10670,7 @@
 
     const/4 v3, 0x0
 
-    .line 11557
+    .line 11558
     :goto_a
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
@@ -10682,7 +10682,7 @@
 
     if-ge v3, v10, :cond_11
 
-    .line 11558
+    .line 11559
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -10699,7 +10699,7 @@
 
     goto :goto_a
 
-    .line 11560
+    .line 11561
     :cond_11
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -10715,7 +10715,7 @@
 
     goto :goto_c
 
-    .line 11562
+    .line 11563
     :cond_12
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
@@ -10736,7 +10736,7 @@
 
     if-ge v3, v4, :cond_13
 
-    .line 11563
+    .line 11564
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -10765,7 +10765,7 @@
     :goto_c
     const/4 v6, 0x0
 
-    .line 11567
+    .line 11568
     :goto_d
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -10773,14 +10773,14 @@
 
     if-ge v6, v2, :cond_15
 
-    .line 11568
+    .line 11569
     rem-int/lit8 v2, v6, 0x8
 
     if-nez v2, :cond_14
 
     if-eqz v6, :cond_14
 
-    .line 11569
+    .line 11570
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -10793,7 +10793,7 @@
 
     move-result-object v9
 
-    .line 11571
+    .line 11572
     :cond_14
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -10820,7 +10820,7 @@
     :cond_15
     return-object v9
 
-    .line 11579
+    .line 11580
     :cond_16
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getCanIdType()I
 
@@ -10828,7 +10828,7 @@
 
     if-nez v1, :cond_17
 
-    .line 11580
+    .line 11581
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3IdStr()Ljava/lang/String;
 
     move-result-object v1
@@ -10839,7 +10839,7 @@
 
     return-object v1
 
-    .line 11586
+    .line 11587
     :cond_17
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
@@ -10849,7 +10849,7 @@
 
     const/16 v1, 0x1d
 
-    .line 11587
+    .line 11588
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCanIdBits(I)V
 
     goto :goto_e
@@ -10857,10 +10857,10 @@
     :cond_18
     const/16 v1, 0xb
 
-    .line 11589
+    .line 11590
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCanIdBits(I)V
 
-    .line 11664
+    .line 11665
     :goto_e
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatValue3IdStr:Ljava/lang/String;
 
@@ -10872,7 +10872,7 @@
 
     move-result-object v1
 
-    .line 11669
+    .line 11670
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v2
@@ -10891,7 +10891,7 @@
 
     const/4 v2, 0x0
 
-    .line 11670
+    .line 11671
     :goto_f
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -10899,7 +10899,7 @@
 
     if-ge v2, v13, :cond_1c
 
-    .line 11671
+    .line 11672
     invoke-virtual {v1, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v13
@@ -10908,7 +10908,7 @@
 
     if-nez v2, :cond_19
 
-    .line 11673
+    .line 11674
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -10923,7 +10923,7 @@
 
     goto :goto_11
 
-    .line 11675
+    .line 11676
     :cond_19
     new-instance v13, Ljava/lang/StringBuilder;
 
@@ -10942,7 +10942,7 @@
     :cond_1a
     add-int/lit8 v13, v2, 0x1
 
-    .line 11678
+    .line 11679
     invoke-virtual {v1, v2, v13}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v13
@@ -10955,7 +10955,7 @@
 
     move-result-object v13
 
-    .line 11679
+    .line 11680
     invoke-virtual {v13}, Ljava/lang/String;->length()I
 
     move-result v14
@@ -10969,7 +10969,7 @@
 
     if-ge v15, v6, :cond_1b
 
-    .line 11682
+    .line 11683
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -10986,7 +10986,7 @@
 
     goto :goto_10
 
-    .line 11685
+    .line 11686
     :cond_1b
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -11007,26 +11007,26 @@
 
     goto :goto_f
 
-    .line 11688
+    .line 11689
     :cond_1c
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v12}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 11689
+    .line 11690
     invoke-virtual {v1, v8, v7}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v2, 0xe
 
-    .line 11690
+    .line 11691
     invoke-virtual {v1, v2, v7}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v2, 0x17
 
-    .line 11691
+    .line 11692
     invoke-virtual {v1, v2, v7}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11692
+    .line 11693
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -11038,7 +11038,7 @@
 
     const/4 v5, 0x0
 
-    .line 11694
+    .line 11695
     :goto_12
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -11046,7 +11046,7 @@
 
     if-ge v5, v6, :cond_23
 
-    .line 11695
+    .line 11696
     invoke-virtual {v1, v5}, Ljava/lang/String;->charAt(I)C
 
     move-result v6
@@ -11055,7 +11055,7 @@
 
     if-nez v5, :cond_1e
 
-    .line 11697
+    .line 11698
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -11072,7 +11072,7 @@
 
     goto :goto_16
 
-    .line 11699
+    .line 11700
     :cond_1e
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -11091,7 +11091,7 @@
     :cond_1f
     add-int/lit8 v6, v5, 0x1
 
-    .line 11702
+    .line 11703
     invoke-virtual {v1, v5, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v6
@@ -11104,7 +11104,7 @@
 
     move-result-object v6
 
-    .line 11703
+    .line 11704
     invoke-virtual {v6}, Ljava/lang/String;->length()I
 
     move-result v8
@@ -11118,7 +11118,7 @@
 
     if-ge v12, v13, :cond_20
 
-    .line 11706
+    .line 11707
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -11135,7 +11135,7 @@
 
     goto :goto_13
 
-    .line 11708
+    .line 11709
     :cond_20
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -11159,7 +11159,7 @@
 
     if-ge v12, v13, :cond_22
 
-    .line 11711
+    .line 11712
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -11176,7 +11176,7 @@
 
     goto :goto_14
 
-    .line 11714
+    .line 11715
     :cond_22
     :goto_15
     new-instance v8, Ljava/lang/StringBuilder;
@@ -11199,7 +11199,7 @@
     :cond_23
     move-object v1, v2
 
-    .line 11720
+    .line 11721
     :goto_17
     invoke-virtual {v1, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -11207,13 +11207,13 @@
 
     if-eqz v2, :cond_24
 
-    .line 11721
+    .line 11722
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue3IdStr:Ljava/lang/String;
 
     :cond_24
     return-object v1
 
-    .line 11726
+    .line 11727
     :cond_25
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -11223,14 +11223,14 @@
 
     if-ne v1, v2, :cond_2d
 
-    .line 11728
+    .line 11729
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getLinDataType()I
 
     move-result v1
 
     if-nez v1, :cond_26
 
-    .line 11729
+    .line 11730
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue4Str()Ljava/lang/String;
 
     move-result-object v1
@@ -11241,7 +11241,7 @@
 
     return-object v1
 
-    .line 11735
+    .line 11736
     :cond_26
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -11253,7 +11253,7 @@
 
     move-result-object v1
 
-    .line 11737
+    .line 11738
     iget-object v2, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue4Str:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -11264,24 +11264,24 @@
 
     goto :goto_18
 
-    .line 11740
+    .line 11741
     :cond_27
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue4Str:Ljava/lang/String;
 
-    .line 11744
+    .line 11745
     :goto_18
     invoke-virtual {v1, v7, v9}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 11745
+    .line 11746
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     div-int/2addr v2, v4
 
-    .line 11747
+    .line 11748
     iget v3, v0, Lcom/rigol/scope/data/TriggerParam;->linByte:I
 
     if-ge v2, v3, :cond_29
@@ -11290,7 +11290,7 @@
 
     const/4 v3, 0x0
 
-    .line 11748
+    .line 11749
     :goto_19
     iget v8, v0, Lcom/rigol/scope/data/TriggerParam;->linByte:I
 
@@ -11300,7 +11300,7 @@
 
     if-ge v3, v8, :cond_28
 
-    .line 11749
+    .line 11750
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -11317,7 +11317,7 @@
 
     goto :goto_19
 
-    .line 11751
+    .line 11752
     :cond_28
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -11342,7 +11342,7 @@
 
     move-object v2, v9
 
-    .line 11753
+    .line 11754
     :goto_1a
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -11350,7 +11350,7 @@
 
     if-ge v3, v4, :cond_2a
 
-    .line 11754
+    .line 11755
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -11379,7 +11379,7 @@
     :goto_1b
     const/4 v6, 0x0
 
-    .line 11758
+    .line 11759
     :goto_1c
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -11387,14 +11387,14 @@
 
     if-ge v6, v2, :cond_2c
 
-    .line 11759
+    .line 11760
     rem-int/lit8 v2, v6, 0x8
 
     if-nez v2, :cond_2b
 
     if-eqz v6, :cond_2b
 
-    .line 11760
+    .line 11761
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -11407,7 +11407,7 @@
 
     move-result-object v9
 
-    .line 11762
+    .line 11763
     :cond_2b
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -11434,7 +11434,7 @@
     :cond_2c
     return-object v9
 
-    .line 11766
+    .line 11767
     :cond_2d
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -11446,21 +11446,21 @@
 
     if-ne v1, v2, :cond_33
 
-    .line 11768
+    .line 11769
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v1
 
     if-nez v1, :cond_2f
 
-    .line 11770
+    .line 11771
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
     move-result v1
 
     if-nez v1, :cond_2e
 
-    .line 11771
+    .line 11772
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5Str()Ljava/lang/String;
 
     move-result-object v1
@@ -11471,7 +11471,7 @@
 
     return-object v1
 
-    .line 11775
+    .line 11776
     :cond_2e
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5Str:Ljava/lang/String;
 
@@ -11481,7 +11481,7 @@
 
     return-object v1
 
-    .line 11779
+    .line 11780
     :cond_2f
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -11489,14 +11489,14 @@
 
     if-ne v1, v3, :cond_31
 
-    .line 11781
+    .line 11782
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
     move-result v1
 
     if-nez v1, :cond_30
 
-    .line 11782
+    .line 11783
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MinStr()Ljava/lang/String;
 
     move-result-object v1
@@ -11507,7 +11507,7 @@
 
     return-object v1
 
-    .line 11786
+    .line 11787
     :cond_30
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5MinStr:Ljava/lang/String;
 
@@ -11517,7 +11517,7 @@
 
     return-object v1
 
-    .line 11792
+    .line 11793
     :cond_31
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
@@ -11525,7 +11525,7 @@
 
     if-nez v1, :cond_32
 
-    .line 11793
+    .line 11794
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MaxStr()Ljava/lang/String;
 
     move-result-object v1
@@ -11536,7 +11536,7 @@
 
     return-object v1
 
-    .line 11797
+    .line 11798
     :cond_32
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5MaxStr:Ljava/lang/String;
 
@@ -11546,7 +11546,7 @@
 
     return-object v1
 
-    .line 11800
+    .line 11801
     :cond_33
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -11556,21 +11556,21 @@
 
     if-ne v1, v2, :cond_3b
 
-    .line 11802
+    .line 11803
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v1
 
     if-nez v1, :cond_35
 
-    .line 11803
+    .line 11804
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getUpType()I
 
     move-result v1
 
     if-nez v1, :cond_34
 
-    .line 11804
+    .line 11805
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6MaxStr()Ljava/lang/String;
 
     move-result-object v1
@@ -11581,13 +11581,13 @@
 
     return-object v1
 
-    .line 11806
+    .line 11807
     :cond_34
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6MaxStr:Ljava/lang/String;
 
     return-object v1
 
-    .line 11810
+    .line 11811
     :cond_35
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -11595,14 +11595,14 @@
 
     if-ne v1, v3, :cond_37
 
-    .line 11811
+    .line 11812
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getDownType()I
 
     move-result v1
 
     if-nez v1, :cond_36
 
-    .line 11812
+    .line 11813
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6Str()Ljava/lang/String;
 
     move-result-object v1
@@ -11613,13 +11613,13 @@
 
     return-object v1
 
-    .line 11814
+    .line 11815
     :cond_36
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6Str:Ljava/lang/String;
 
     return-object v1
 
-    .line 11818
+    .line 11819
     :cond_37
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -11629,14 +11629,14 @@
 
     if-ne v1, v2, :cond_39
 
-    .line 11819
+    .line 11820
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getRtaType()I
 
     move-result v1
 
     if-nez v1, :cond_38
 
-    .line 11820
+    .line 11821
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6RtaStr()Ljava/lang/String;
 
     move-result-object v1
@@ -11647,13 +11647,13 @@
 
     return-object v1
 
-    .line 11822
+    .line 11823
     :cond_38
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6RtaStr:Ljava/lang/String;
 
     return-object v1
 
-    .line 11827
+    .line 11828
     :cond_39
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getBitType()I
 
@@ -11661,7 +11661,7 @@
 
     if-nez v1, :cond_3a
 
-    .line 11828
+    .line 11829
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6BitStr()Ljava/lang/String;
 
     move-result-object v1
@@ -11672,7 +11672,7 @@
 
     return-object v1
 
-    .line 11830
+    .line 11831
     :cond_3a
     iget-object v1, v0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6BitStr:Ljava/lang/String;
 
@@ -13778,7 +13778,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 3780
+    .line 3781
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     return-object v0
@@ -13830,7 +13830,7 @@
 
     goto/16 :goto_0
 
-    .line 4082
+    .line 4083
     :cond_0
     sget-object v5, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$TriggerMode:[I
 
@@ -13890,7 +13890,7 @@
 
     goto/16 :goto_0
 
-    .line 4240
+    .line 4241
     :pswitch_8
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$EdgeSlope:[I
 
@@ -13911,13 +13911,13 @@
 
     goto/16 :goto_0
 
-    .line 4221
+    .line 4222
     :pswitch_9
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     if-ne v1, v2, :cond_4
 
-    .line 4222
+    .line 4223
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_setup:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     if-ne v0, v1, :cond_2
@@ -13926,7 +13926,7 @@
 
     goto/16 :goto_0
 
-    .line 4224
+    .line 4225
     :cond_2
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_hold:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
@@ -13941,13 +13941,13 @@
 
     goto/16 :goto_0
 
-    .line 4229
+    .line 4230
     :cond_4
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     if-ne v1, v2, :cond_1d
 
-    .line 4230
+    .line 4231
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_setup:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     if-ne v0, v1, :cond_5
@@ -13956,7 +13956,7 @@
 
     goto/16 :goto_0
 
-    .line 4232
+    .line 4233
     :cond_5
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_hold:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
@@ -13971,7 +13971,7 @@
 
     goto/16 :goto_0
 
-    .line 4206
+    .line 4207
     :pswitch_a
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
@@ -13985,7 +13985,7 @@
 
     goto/16 :goto_0
 
-    .line 4209
+    .line 4210
     :cond_7
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
@@ -13999,7 +13999,7 @@
 
     goto/16 :goto_0
 
-    .line 4212
+    .line 4213
     :cond_8
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
@@ -14013,7 +14013,7 @@
 
     goto/16 :goto_0
 
-    .line 4215
+    .line 4216
     :cond_9
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
@@ -14027,7 +14027,7 @@
 
     goto/16 :goto_0
 
-    .line 4162
+    .line 4163
     :pswitch_b
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$EdgeSlope:[I
 
@@ -14043,7 +14043,7 @@
 
     if-eq v0, v6, :cond_d
 
-    .line 4191
+    .line 4192
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$OverEvent:[I
 
     invoke-virtual/range {p9 .. p9}, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->ordinal()I
@@ -14075,7 +14075,7 @@
 
     goto/16 :goto_0
 
-    .line 4177
+    .line 4178
     :cond_d
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$OverEvent:[I
 
@@ -14108,7 +14108,7 @@
 
     goto/16 :goto_0
 
-    .line 4164
+    .line 4165
     :cond_11
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$OverEvent:[I
 
@@ -14141,7 +14141,7 @@
 
     goto/16 :goto_0
 
-    .line 4151
+    .line 4152
     :pswitch_c
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$TriggerPulsePolarity:[I
 
@@ -14162,7 +14162,7 @@
 
     goto/16 :goto_0
 
-    .line 4137
+    .line 4138
     :pswitch_d
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$EdgeSlope:[I
 
@@ -14200,7 +14200,7 @@
 
     goto :goto_0
 
-    .line 4120
+    .line 4121
     :pswitch_10
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$TriggerPulsePolarity:[I
 
@@ -14221,7 +14221,7 @@
 
     goto :goto_0
 
-    .line 4109
+    .line 4110
     :pswitch_11
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$EdgeSlope:[I
 
@@ -14242,7 +14242,7 @@
 
     goto :goto_0
 
-    .line 4098
+    .line 4099
     :pswitch_12
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$TriggerPulsePolarity:[I
 
@@ -14263,7 +14263,7 @@
 
     goto :goto_0
 
-    .line 4084
+    .line 4085
     :pswitch_13
     sget-object v0, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$EdgeSlope:[I
 
@@ -14323,7 +14323,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5893
+    .line 5894
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     return-object v0
@@ -14334,7 +14334,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5882
+    .line 5883
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_Sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
 
     return-object v0
@@ -14345,7 +14345,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5871
+    .line 5872
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
 
     return-object v0
@@ -14356,7 +14356,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4951
+    .line 4952
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Can_Phy:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
 
     return-object v0
@@ -14367,7 +14367,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5298
+    .line 5299
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Baud:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
 
     return-object v0
@@ -14378,7 +14378,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5364
+    .line 5365
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     return-object v0
@@ -14389,7 +14389,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5342
+    .line 5343
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Frame:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     return-object v0
@@ -14400,7 +14400,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5309
+    .line 5310
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Phy:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
 
     return-object v0
@@ -14411,7 +14411,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5331
+    .line 5332
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Pos:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
 
     return-object v0
@@ -14422,7 +14422,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5353
+    .line 5354
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Symbol:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
 
     return-object v0
@@ -14433,7 +14433,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5320
+    .line 5321
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
     return-object v0
@@ -14444,7 +14444,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4897
+    .line 4898
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_Spec:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
 
     return-object v0
@@ -14455,7 +14455,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4908
+    .line 4909
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_WR:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     return-object v0
@@ -14466,7 +14466,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4886
+    .line 4887
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     return-object v0
@@ -14477,7 +14477,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5532
+    .line 5533
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_Ch:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
 
     return-object v0
@@ -14488,7 +14488,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5554
+    .line 5555
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_Spec:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     return-object v0
@@ -14499,7 +14499,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5543
+    .line 5544
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     return-object v0
@@ -14510,7 +14510,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5386
+    .line 5387
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp_Cyc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     return-object v0
@@ -14521,7 +14521,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5375
+    .line 5376
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     return-object v0
@@ -14532,7 +14532,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4749
+    .line 4750
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     return-object v0
@@ -14543,7 +14543,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5510
+    .line 5511
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
 
     return-object v0
@@ -14554,7 +14554,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5397
+    .line 5398
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_Ver:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     return-object v0
@@ -14565,7 +14565,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5521
+    .line 5522
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     return-object v0
@@ -14576,7 +14576,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4875
+    .line 4876
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Parity:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     return-object v0
@@ -14587,7 +14587,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4864
+    .line 4865
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Stop:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
 
     return-object v0
@@ -14598,7 +14598,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4815
+    .line 4816
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
 
     return-object v0
@@ -14609,7 +14609,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4853
+    .line 4854
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Width:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     return-object v0
@@ -14620,7 +14620,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4962
+    .line 4963
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Serv_Can_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     return-object v0
@@ -14631,7 +14631,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4930
+    .line 4931
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Spi_CS:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
     return-object v0
@@ -14642,7 +14642,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5904
+    .line 5905
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_value_cmp:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     return-object v0
@@ -14653,17 +14653,17 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5955
+    .line 5956
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
-    .line 5957
+    .line 5958
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     if-ne v0, v1, :cond_0
 
-    .line 5959
+    .line 5960
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->unit:[Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     const/4 v1, 0x0
@@ -14672,7 +14672,7 @@
 
     return-object v0
 
-    .line 5961
+    .line 5962
     :cond_0
     iget v1, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
@@ -14682,12 +14682,12 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 5963
+    .line 5964
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
 
-    .line 5965
+    .line 5966
     :cond_1
     iget v1, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
@@ -14697,12 +14697,12 @@
 
     if-lt v1, v2, :cond_2
 
-    .line 5967
+    .line 5968
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
 
-    .line 5970
+    .line 5971
     :cond_2
     sget-object v1, Lcom/rigol/scope/data/TriggerParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Unit:[I
 
@@ -14732,30 +14732,30 @@
 
     if-eq v0, v1, :cond_3
 
-    .line 5984
+    .line 5985
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     goto :goto_0
 
-    .line 5981
+    .line 5982
     :cond_3
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_U:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     goto :goto_0
 
-    .line 5978
+    .line 5979
     :cond_4
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_A:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     goto :goto_0
 
-    .line 5975
+    .line 5976
     :cond_5
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     goto :goto_0
 
-    .line 5972
+    .line 5973
     :cond_6
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_W:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
@@ -14768,7 +14768,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5924
+    .line 5925
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->upType:I
 
     return v0
@@ -14788,7 +14788,7 @@
 .method public getUpperAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3247
+    .line 3248
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->upperAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14799,7 +14799,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4452
+    .line 4453
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->videoFormat:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     return-object v0
@@ -14808,7 +14808,7 @@
 .method public getVideoLineNumberAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3251
+    .line 3252
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->videoLineNumber:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14819,7 +14819,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4685
+    .line 4686
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->videoPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     return-object v0
@@ -14830,7 +14830,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 4727
+    .line 4728
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->videoSync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     return-object v0
@@ -14841,7 +14841,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5565
+    .line 5566
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->width:I
 
     return v0
@@ -14850,7 +14850,7 @@
 .method public getWidthAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3411
+    .line 3412
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->widthAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14859,7 +14859,7 @@
 .method public getcompareLowerLimitAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3383
+    .line 3384
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->compareLowerLimitAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14868,7 +14868,7 @@
 .method public getcompareUperLimitAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3379
+    .line 3380
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->compareUperLimitAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14877,7 +14877,7 @@
 .method public getdelayLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3187
+    .line 3188
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->delayLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14886,7 +14886,7 @@
 .method public getdelayLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3191
+    .line 3192
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->delayLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14895,7 +14895,7 @@
 .method public getdelayLowerAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3303
+    .line 3304
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->delayLowerAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14904,7 +14904,7 @@
 .method public getdelayUpperAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3307
+    .line 3308
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->delayUpperAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14913,7 +14913,7 @@
 .method public getdurationLowerAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3263
+    .line 3264
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->durationLowerAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14922,7 +14922,7 @@
 .method public getdurationUpperAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3267
+    .line 3268
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->durationUpperAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -14931,12 +14931,12 @@
 .method public getfRatio()F
     .locals 3
 
-    .line 6134
+    .line 6135
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
-    .line 6135
+    .line 6136
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v1
@@ -14953,7 +14953,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6136
+    .line 6137
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v1
@@ -14970,7 +14970,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6137
+    .line 6138
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v1
@@ -14979,7 +14979,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6138
+    .line 6139
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -14992,12 +14992,12 @@
 
     move-result v0
 
-    .line 6139
+    .line 6140
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
-    .line 6141
+    .line 6142
     :cond_0
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -15005,7 +15005,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 6142
+    .line 6143
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15018,13 +15018,13 @@
 
     goto :goto_0
 
-    .line 6143
+    .line 6144
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v0, v1, :cond_2
 
-    .line 6144
+    .line 6145
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15037,13 +15037,13 @@
 
     goto :goto_0
 
-    .line 6145
+    .line 6146
     :cond_2
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan3:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v0, v1, :cond_3
 
-    .line 6146
+    .line 6147
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15056,13 +15056,13 @@
 
     goto :goto_0
 
-    .line 6147
+    .line 6148
     :cond_3
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan4:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v0, v1, :cond_4
 
-    .line 6148
+    .line 6149
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15085,7 +15085,7 @@
 .method public getidLowerLimitAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3391
+    .line 3392
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->idLowerLimitAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15094,7 +15094,7 @@
 .method public getidUperLimitAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3387
+    .line 3388
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->idUperLimitAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15103,7 +15103,7 @@
 .method public getiicLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3203
+    .line 3204
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iicLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15112,7 +15112,7 @@
 .method public getiicLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3207
+    .line 3208
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iicLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15121,7 +15121,7 @@
 .method public getiisLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3223
+    .line 3224
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15130,7 +15130,7 @@
 .method public getiisLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3227
+    .line 3228
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15139,7 +15139,7 @@
 .method public getiisLevelCAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3231
+    .line 3232
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->iisLevelCAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15148,7 +15148,7 @@
 .method public getlinSamplePositonsAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3395
+    .line 3396
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->linSamplePositionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15157,7 +15157,7 @@
 .method public getmilstdLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3399
+    .line 3400
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15166,7 +15166,7 @@
 .method public getmilstdLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3403
+    .line 3404
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15175,7 +15175,7 @@
 .method public getoverLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3295
+    .line 3296
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->overLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15184,7 +15184,7 @@
 .method public getoverLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3299
+    .line 3300
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->overLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15193,7 +15193,7 @@
 .method public getruntLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3283
+    .line 3284
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15202,7 +15202,7 @@
 .method public getruntLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3287
+    .line 3288
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15211,7 +15211,7 @@
 .method public getruntLowerAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3275
+    .line 3276
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtLowerAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15220,7 +15220,7 @@
 .method public getruntUpperAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3279
+    .line 3280
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtUpperAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15229,7 +15229,7 @@
 .method public getsetupHoldLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3195
+    .line 3196
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15238,7 +15238,7 @@
 .method public getsetupHoldLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3199
+    .line 3200
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15247,7 +15247,7 @@
 .method public getslopeLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3235
+    .line 3236
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopeLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15256,7 +15256,7 @@
 .method public getslopeLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3239
+    .line 3240
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopeLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15265,7 +15265,7 @@
 .method public getslopeLowerAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3255
+    .line 3256
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopeLowerAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15274,7 +15274,7 @@
 .method public getslopeUpperAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3259
+    .line 3260
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopeUpperAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15283,7 +15283,7 @@
 .method public getspiLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3211
+    .line 3212
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiLevelAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15292,7 +15292,7 @@
 .method public getspiLevelBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3215
+    .line 3216
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiLevelBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15301,7 +15301,7 @@
 .method public getspiLevelCAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3219
+    .line 3220
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiLevelCAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15310,7 +15310,7 @@
 .method public getspiTimeoutAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 3407
+    .line 3408
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->spiTimeoutAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -15338,7 +15338,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 5245
+    .line 5246
     iget-boolean v0, p0, Lcom/rigol/scope/data/TriggerParam;->Define:Z
 
     return v0
@@ -15347,7 +15347,7 @@
 .method public isShow()I
     .locals 5
 
-    .line 10271
+    .line 10272
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -15356,7 +15356,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 10272
+    .line 10273
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v0
@@ -15374,7 +15374,7 @@
 
     return v0
 
-    .line 10274
+    .line 10275
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -15390,14 +15390,14 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 10275
+    .line 10276
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v0
 
     if-ne v0, v3, :cond_2
 
-    .line 10276
+    .line 10277
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v0
@@ -15412,7 +15412,7 @@
     :cond_2
     return v4
 
-    .line 10283
+    .line 10284
     :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -15422,7 +15422,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 10284
+    .line 10285
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v0
@@ -15435,7 +15435,7 @@
 
     goto :goto_0
 
-    .line 10286
+    .line 10287
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -15445,7 +15445,7 @@
 
     if-ne v0, v1, :cond_6
 
-    .line 10287
+    .line 10288
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v0
@@ -15456,7 +15456,7 @@
 
     return v3
 
-    .line 10289
+    .line 10290
     :cond_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -15475,7 +15475,7 @@
 
     const/4 v0, 0x1
 
-    .line 6404
+    .line 6405
     iput-boolean v0, p0, Lcom/rigol/scope/data/TriggerParam;->enableToSetLevel:Z
 
     return-void
@@ -15543,7 +15543,7 @@
 .method public postWay(III)V
     .locals 1
 
-    .line 10232
+    .line 10233
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15556,7 +15556,7 @@
 .method public readAlignment()V
     .locals 3
 
-    .line 8375
+    .line 8376
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15565,12 +15565,12 @@
 
     const/16 v2, 0x4f8a
 
-    .line 8376
+    .line 8377
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8377
+    .line 8378
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     move-result-object v0
@@ -15583,37 +15583,37 @@
 .method public readAll()V
     .locals 4
 
-    .line 2908
+    .line 2909
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readTriggerMode()V
 
-    .line 2910
+    .line 2911
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readedgeSlope()V
 
-    .line 2911
+    .line 2912
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readEdgeCoupling()V
 
-    .line 2913
+    .line 2914
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readsourceChan()V
 
-    .line 2915
+    .line 2916
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readPulsePolarity()V
 
-    .line 2917
+    .line 2918
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSlopePolarity()V
 
-    .line 2919
+    .line 2920
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readVideoPolarity()V
 
-    .line 2921
+    .line 2922
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiClkSource()V
 
-    .line 2922
+    .line 2923
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiMisoSource()V
 
-    .line 2923
+    .line 2924
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiCsSource()V
 
-    .line 2926
+    .line 2927
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15630,7 +15630,7 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->nMode:I
 
-    .line 2929
+    .line 2930
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15647,7 +15647,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->holdOff:J
 
-    .line 2932
+    .line 2933
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15664,7 +15664,7 @@
 
     iput-boolean v0, p0, Lcom/rigol/scope/data/TriggerParam;->isNoise:Z
 
-    .line 2935
+    .line 2936
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15679,7 +15679,7 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
-    .line 2938
+    .line 2939
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15692,13 +15692,13 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->level:J
 
-    .line 2939
+    .line 2940
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->levelB:J
 
-    .line 2940
+    .line 2941
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->levelC:J
 
-    .line 2944
+    .line 2945
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15711,7 +15711,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->delaylevelA:J
 
-    .line 2945
+    .line 2946
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15724,7 +15724,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->delaylevelB:J
 
-    .line 2949
+    .line 2950
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15737,7 +15737,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldlevelA:J
 
-    .line 2950
+    .line 2951
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15750,7 +15750,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldlevelB:J
 
-    .line 2954
+    .line 2955
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15763,7 +15763,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelA:J
 
-    .line 2955
+    .line 2956
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15776,7 +15776,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelB:J
 
-    .line 2960
+    .line 2961
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15789,7 +15789,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelA:J
 
-    .line 2961
+    .line 2962
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15802,7 +15802,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelB:J
 
-    .line 2962
+    .line 2963
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15815,7 +15815,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelC:J
 
-    .line 2967
+    .line 2968
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15828,7 +15828,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelA:J
 
-    .line 2968
+    .line 2969
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15841,7 +15841,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelB:J
 
-    .line 2969
+    .line 2970
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15854,7 +15854,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelC:J
 
-    .line 2973
+    .line 2974
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15867,7 +15867,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelA:J
 
-    .line 2974
+    .line 2975
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15880,7 +15880,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelB:J
 
-    .line 2978
+    .line 2979
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15893,7 +15893,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelA:J
 
-    .line 2979
+    .line 2980
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15906,7 +15906,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelB:J
 
-    .line 2983
+    .line 2984
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15919,7 +15919,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelA:J
 
-    .line 2984
+    .line 2985
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15932,7 +15932,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelB:J
 
-    .line 2988
+    .line 2989
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15945,7 +15945,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelA:J
 
-    .line 2989
+    .line 2990
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15958,7 +15958,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelB:J
 
-    .line 2994
+    .line 2995
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15971,7 +15971,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->lowerLimit:J
 
-    .line 2995
+    .line 2996
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15984,7 +15984,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->uperLimit:J
 
-    .line 3000
+    .line 3001
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -15997,7 +15997,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->slopeLowerLimit:J
 
-    .line 3001
+    .line 3002
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16010,7 +16010,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->slopeUperLimit:J
 
-    .line 3006
+    .line 3007
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16023,7 +16023,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->durationLowerLimit:J
 
-    .line 3007
+    .line 3008
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16036,7 +16036,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->durationUperLimit:J
 
-    .line 3012
+    .line 3013
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16049,7 +16049,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->runtLowerLimit:J
 
-    .line 3013
+    .line 3014
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16062,7 +16062,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->runtUperLimit:J
 
-    .line 3018
+    .line 3019
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16075,7 +16075,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->delayLowerLimit:J
 
-    .line 3019
+    .line 3020
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16088,7 +16088,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->delayUperLimit:J
 
-    .line 3023
+    .line 3024
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16101,7 +16101,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->timeOut:J
 
-    .line 3027
+    .line 3028
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16114,7 +16114,7 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->linesNumber:I
 
-    .line 3031
+    .line 3032
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16127,13 +16127,13 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->overTime:J
 
-    .line 3034
+    .line 3035
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readpatternValue()V
 
-    .line 3037
+    .line 3038
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readdurationPatternValue()V
 
-    .line 3041
+    .line 3042
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16148,7 +16148,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->idelTime:J
 
-    .line 3043
+    .line 3044
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16161,7 +16161,7 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->edgeNumber:I
 
-    .line 3048
+    .line 3049
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16174,7 +16174,7 @@
 
     iput-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->setup:J
 
-    .line 3049
+    .line 3050
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16187,304 +16187,304 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->hold:J
 
-    .line 3052
+    .line 3053
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRs232Data()V
 
-    .line 3054
+    .line 3055
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRs232BaudRate()V
 
-    .line 3056
+    .line 3057
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readI2cAddress()V
 
-    .line 3057
+    .line 3058
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readI2CCodeString()V
 
-    .line 3058
+    .line 3059
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readByteLength()V
 
-    .line 3061
+    .line 3062
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiWhen()V
 
-    .line 3062
+    .line 3063
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiSlope()V
 
-    .line 3063
+    .line 3064
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiCsMode()V
 
-    .line 3064
+    .line 3065
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiDataBits()V
 
-    .line 3065
+    .line 3066
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiTimeout()V
 
-    .line 3066
+    .line 3067
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSpiCodeString()V
 
-    .line 3068
+    .line 3069
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readclkEdge()V
 
-    .line 3071
+    .line 3072
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanSamplePoint()V
 
-    .line 3072
+    .line 3073
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanFdSamplePoint()V
 
-    .line 3073
+    .line 3074
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanBaud()V
 
-    .line 3074
+    .line 3075
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanFdBaud()V
 
-    .line 3075
+    .line 3076
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanDataByte()V
 
-    .line 3076
+    .line 3077
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanDataString()V
 
-    .line 3077
+    .line 3078
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanIdString()V
 
-    .line 3080
+    .line 3081
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readFlexRayCYCmax()V
 
-    .line 3081
+    .line 3082
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readFlexRayCYCmin()V
 
-    .line 3082
+    .line 3083
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readFlexIdMax()V
 
-    .line 3083
+    .line 3084
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readFlexIdMin()V
 
-    .line 3085
+    .line 3086
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinSamplePosition()V
 
-    .line 3086
+    .line 3087
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinBaud()V
 
-    .line 3087
+    .line 3088
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinDataByte()V
 
-    .line 3088
+    .line 3089
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinID()V
 
-    .line 3089
+    .line 3090
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinCodeString()V
 
-    .line 3091
+    .line 3092
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readwidth()V
 
-    .line 3092
+    .line 3093
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readallWidth()V
 
-    .line 3093
+    .line 3094
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readI2sMaxString()V
 
-    .line 3094
+    .line 3095
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readI2sMinString()V
 
-    .line 3097
+    .line 3098
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readMaxString()V
 
-    .line 3098
+    .line 3099
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readMinString()V
 
-    .line 3099
+    .line 3100
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRtaString()V
 
-    .line 3100
+    .line 3101
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readBitString()V
 
-    .line 3103
+    .line 3104
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->checkLevel()V
 
-    .line 3106
+    .line 3107
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLevelStepAttr()V
 
-    .line 3107
+    .line 3108
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readHoldOffAttr()V
 
-    .line 3108
+    .line 3109
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLevelAttr()V
 
-    .line 3109
+    .line 3110
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLevelBAttr()V
 
-    .line 3110
+    .line 3111
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLevelCAttr()V
 
-    .line 3111
+    .line 3112
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readdelayLevelAttr()V
 
-    .line 3112
+    .line 3113
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readdelayLevelBAttr()V
 
-    .line 3113
+    .line 3114
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readsetupHoldLevelAttr()V
 
-    .line 3114
+    .line 3115
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readsetupHoldLevelBAttr()V
 
-    .line 3115
+    .line 3116
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readiicLevelAttr()V
 
-    .line 3116
+    .line 3117
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readiicLevelBAttr()V
 
-    .line 3117
+    .line 3118
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readspiLevelAttr()V
 
-    .line 3118
+    .line 3119
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readspiLevelBAttr()V
 
-    .line 3119
+    .line 3120
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readspiLevelCAttr()V
 
-    .line 3120
+    .line 3121
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readiisLevelAttr()V
 
-    .line 3121
+    .line 3122
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readiisLevelBAttr()V
 
-    .line 3122
+    .line 3123
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readiisLevelCAttr()V
 
-    .line 3123
+    .line 3124
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readslopeLevelAttr()V
 
-    .line 3124
+    .line 3125
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readslopeLevelBAttr()V
 
-    .line 3125
+    .line 3126
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readvideoLineNumber()V
 
-    .line 3126
+    .line 3127
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readPulseLowerLimitAttr()V
 
-    .line 3127
+    .line 3128
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readPulseUpperLimitAttr()V
 
-    .line 3128
+    .line 3129
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSlopeLowerLimitAttr()V
 
-    .line 3129
+    .line 3130
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSlopeUpperLimitAttr()V
 
-    .line 3130
+    .line 3131
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readDurationLowerLimitAttr()V
 
-    .line 3131
+    .line 3132
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readDurationUpperLimitAttr()V
 
-    .line 3132
+    .line 3133
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readTimeoutTimeAttr()V
 
-    .line 3133
+    .line 3134
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRuntLowerLimitAttr()V
 
-    .line 3134
+    .line 3135
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRuntUpperLimitAttr()V
 
-    .line 3135
+    .line 3136
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readruntLevelAttr()V
 
-    .line 3136
+    .line 3137
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readruntLevelBAttr()V
 
-    .line 3137
+    .line 3138
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readOverTimeAttr()V
 
-    .line 3138
+    .line 3139
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readoverLevelAttr()V
 
-    .line 3139
+    .line 3140
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readoverLevelBAttr()V
 
-    .line 3140
+    .line 3141
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readDelayLowerLimitAttr()V
 
-    .line 3141
+    .line 3142
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readDelayUpperLimitAttr()V
 
-    .line 3142
+    .line 3143
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readNthidelTimeAttr()V
 
-    .line 3143
+    .line 3144
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readNthedgeNumberAttr()V
 
-    .line 3144
+    .line 3145
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSetupTimeAttr()V
 
-    .line 3145
+    .line 3146
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readHoldTimeAttr()V
 
-    .line 3146
+    .line 3147
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRs232DataAttr()V
 
-    .line 3147
+    .line 3148
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRs232BaudRateAttr()V
 
-    .line 3148
+    .line 3149
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanBaudRateAttr()V
 
-    .line 3149
+    .line 3150
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanFdBaudRateAttr()V
 
-    .line 3150
+    .line 3151
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readCanDataByteAttr()V
 
-    .line 3151
+    .line 3152
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinBaudRateAttr()V
 
-    .line 3152
+    .line 3153
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readI2cAddressAttr()V
 
-    .line 3153
+    .line 3154
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readI2cByteLengthAttr()V
 
-    .line 3154
+    .line 3155
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinByteAttr()V
 
-    .line 3155
+    .line 3156
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readLinIdAttr()V
 
-    .line 3156
+    .line 3157
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readdataBitsAttr()V
 
-    .line 3157
+    .line 3158
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readSamplePointsAttr()V
 
-    .line 3158
+    .line 3159
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readFdSamplePointsAttr()V
 
-    .line 3159
+    .line 3160
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readcompareUperLimitAttr()V
 
-    .line 3160
+    .line 3161
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readcompareLowerLimitAttr()V
 
-    .line 3161
+    .line 3162
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readidUperLimitAttr()V
 
-    .line 3162
+    .line 3163
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readidLowerLimitAttr()V
 
-    .line 3163
+    .line 3164
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readlinSamplePositionAttr()V
 
-    .line 3164
+    .line 3165
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readmilstdLevelAttr()V
 
-    .line 3165
+    .line 3166
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readmilstdLevelBAttr()V
 
-    .line 3166
+    .line 3167
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readspiTimeOutAttr()V
 
-    .line 3167
+    .line 3168
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readwidthAttr()V
 
-    .line 3168
+    .line 3169
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readallWidthAttr()V
 
     return-void
@@ -16493,7 +16493,7 @@
 .method public readAudio()V
     .locals 3
 
-    .line 8343
+    .line 8344
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16502,12 +16502,12 @@
 
     const/16 v2, 0x4f81
 
-    .line 8344
+    .line 8345
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8345
+    .line 8346
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_ChFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
 
     move-result-object v0
@@ -16544,7 +16544,7 @@
 
     invoke-virtual {v2, v1, v3, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 2896
+    .line 2897
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -16553,7 +16553,7 @@
 
     const-string v2, " "
 
-    .line 2897
+    .line 2898
     invoke-virtual {v1, v0, v2}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -16562,7 +16562,7 @@
 
     move-result-object v0
 
-    .line 2898
+    .line 2899
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -16607,7 +16607,7 @@
 .method public readCanBaud()V
     .locals 3
 
-    .line 7800
+    .line 7801
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16616,12 +16616,12 @@
 
     const/16 v2, 0x4f6f
 
-    .line 7801
+    .line 7802
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7802
+    .line 7803
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setCanBaud(I)V
 
     return-void
@@ -16630,7 +16630,7 @@
 .method public readCanBaudRateAttr()V
     .locals 4
 
-    .line 3620
+    .line 3621
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16649,7 +16649,7 @@
 .method public readCanCode()V
     .locals 7
 
-    .line 7994
+    .line 7995
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v0
@@ -16668,7 +16668,7 @@
 
     if-eq v0, v1, :cond_4
 
-    .line 7995
+    .line 7996
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v0
@@ -16685,7 +16685,7 @@
 
     goto/16 :goto_1
 
-    .line 8009
+    .line 8010
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
@@ -16695,7 +16695,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 8010
+    .line 8011
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v0
@@ -16704,7 +16704,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 8011
+    .line 8012
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v0
@@ -16719,7 +16719,7 @@
 
     if-eqz v0, :cond_7
 
-    .line 8013
+    .line 8014
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -16731,17 +16731,17 @@
 
     move-result-object v0
 
-    .line 8015
+    .line 8016
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 8016
+    .line 8017
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8017
+    .line 8018
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->reverse()Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -16754,7 +16754,7 @@
     :goto_0
     if-ge v4, v1, :cond_3
 
-    .line 8019
+    .line 8020
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -16773,14 +16773,14 @@
 
     add-int/lit8 v4, v4, 0x1
 
-    .line 8020
+    .line 8021
     rem-int/lit8 v6, v4, 0x8
 
     if-nez v6, :cond_2
 
     if-eq v4, v1, :cond_2
 
-    .line 8021
+    .line 8022
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -16795,13 +16795,13 @@
 
     goto :goto_0
 
-    .line 8024
+    .line 8025
     :cond_3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8025
+    .line 8026
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -16826,7 +16826,7 @@
 
     goto :goto_3
 
-    .line 7997
+    .line 7998
     :cond_4
     :goto_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -16839,7 +16839,7 @@
 
     move-result-object v0
 
-    .line 7999
+    .line 8000
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -16848,7 +16848,7 @@
     :goto_2
     if-ge v4, v1, :cond_6
 
-    .line 8001
+    .line 8002
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -16867,14 +16867,14 @@
 
     add-int/lit8 v4, v4, 0x1
 
-    .line 8002
+    .line 8003
     rem-int/lit8 v6, v4, 0x8
 
     if-nez v6, :cond_5
 
     if-eq v4, v1, :cond_5
 
-    .line 8003
+    .line 8004
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -16889,7 +16889,7 @@
 
     goto :goto_2
 
-    .line 8006
+    .line 8007
     :cond_6
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -16913,7 +16913,7 @@
 .method public readCanData()V
     .locals 15
 
-    .line 7887
+    .line 7888
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -16926,22 +16926,22 @@
 
     move-result-object v0
 
-    .line 7889
+    .line 7890
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v0
 
-    .line 7893
+    .line 7894
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7895
+    .line 7896
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v3
 
-    .line 7897
+    .line 7898
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v4
@@ -16968,7 +16968,7 @@
 
     if-eq v4, v5, :cond_b
 
-    .line 7898
+    .line 7899
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Serv_Can_When()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v4
@@ -16985,7 +16985,7 @@
 
     goto/16 :goto_6
 
-    .line 7933
+    .line 7934
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanIdType()I
 
@@ -16993,17 +16993,17 @@
 
     if-ne v4, v12, :cond_1
 
-    .line 7935
+    .line 7936
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7936
+    .line 7937
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7937
+    .line 7938
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -17016,7 +17016,7 @@
     :goto_0
     const/16 v0, 0xb
 
-    .line 7940
+    .line 7941
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
     move-result v1
@@ -17025,7 +17025,7 @@
 
     const/16 v0, 0x1d
 
-    .line 7944
+    .line 7945
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanIdType()I
 
@@ -17040,7 +17040,7 @@
 
     if-ge v11, v1, :cond_3
 
-    .line 7948
+    .line 7949
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -17057,13 +17057,13 @@
 
     goto :goto_1
 
-    .line 7952
+    .line 7953
     :cond_3
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 7954
+    .line 7955
     array-length v1, v0
 
     sub-int/2addr v1, v12
@@ -17071,7 +17071,7 @@
     :goto_2
     if-ltz v1, :cond_5
 
-    .line 7955
+    .line 7956
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -17086,7 +17086,7 @@
 
     move-result-object v2
 
-    .line 7956
+    .line 7957
     rem-int v3, v12, v8
 
     if-nez v3, :cond_4
@@ -17095,7 +17095,7 @@
 
     if-eq v12, v3, :cond_4
 
-    .line 7957
+    .line 7958
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -17117,13 +17117,13 @@
 
     goto :goto_2
 
-    .line 7961
+    .line 7962
     :cond_5
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v13}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 7962
+    .line 7963
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -17146,11 +17146,11 @@
 
     goto/16 :goto_5
 
-    .line 7967
+    .line 7968
     :cond_6
     div-int/lit8 v1, v0, 0x4
 
-    .line 7968
+    .line 7969
     rem-int/lit8 v0, v0, 0x4
 
     if-eqz v0, :cond_7
@@ -17165,7 +17165,7 @@
 
     if-ge v11, v0, :cond_8
 
-    .line 7973
+    .line 7974
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -17182,13 +17182,13 @@
 
     goto :goto_3
 
-    .line 7976
+    .line 7977
     :cond_8
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 7978
+    .line 7979
     array-length v1, v0
 
     sub-int/2addr v1, v12
@@ -17196,7 +17196,7 @@
     :goto_4
     if-ltz v1, :cond_a
 
-    .line 7979
+    .line 7980
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -17211,7 +17211,7 @@
 
     move-result-object v2
 
-    .line 7980
+    .line 7981
     rem-int v3, v12, v8
 
     if-nez v3, :cond_9
@@ -17220,7 +17220,7 @@
 
     if-eq v12, v3, :cond_9
 
-    .line 7981
+    .line 7982
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -17242,13 +17242,13 @@
 
     goto :goto_4
 
-    .line 7985
+    .line 7986
     :cond_a
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v13}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 7986
+    .line 7987
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -17269,13 +17269,13 @@
 
     move-result-object v0
 
-    .line 7988
+    .line 7989
     :goto_5
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue3IdStr(Ljava/lang/String;)V
 
     goto/16 :goto_c
 
-    .line 7899
+    .line 7900
     :cond_b
     :goto_6
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataType()I
@@ -17284,12 +17284,12 @@
 
     if-ne v4, v12, :cond_c
 
-    .line 7901
+    .line 7902
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7902
+    .line 7903
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
@@ -17299,7 +17299,7 @@
     :cond_c
     move v8, v14
 
-    .line 7905
+    .line 7906
     :goto_7
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -17311,7 +17311,7 @@
 
     move v0, v11
 
-    .line 7906
+    .line 7907
     :goto_8
     rem-int v1, v3, v8
 
@@ -17319,7 +17319,7 @@
 
     if-ge v0, v1, :cond_d
 
-    .line 7907
+    .line 7908
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -17336,7 +17336,7 @@
 
     goto :goto_8
 
-    .line 7910
+    .line 7911
     :cond_d
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -17344,7 +17344,7 @@
 
     div-int/2addr v0, v8
 
-    .line 7911
+    .line 7912
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
     move-result v1
@@ -17353,7 +17353,7 @@
 
     move v1, v11
 
-    .line 7912
+    .line 7913
     :goto_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataByte()I
 
@@ -17365,7 +17365,7 @@
 
     if-ge v1, v3, :cond_e
 
-    .line 7913
+    .line 7914
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -17382,26 +17382,26 @@
 
     goto :goto_9
 
-    .line 7916
+    .line 7917
     :cond_e
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 7917
+    .line 7918
     :goto_a
     array-length v1, v0
 
     if-ge v11, v1, :cond_10
 
-    .line 7918
+    .line 7919
     rem-int v1, v11, v8
 
     if-nez v1, :cond_f
 
     if-eqz v11, :cond_f
 
-    .line 7919
+    .line 7920
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -17414,7 +17414,7 @@
 
     move-result-object v13
 
-    .line 7921
+    .line 7922
     :cond_f
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -17434,7 +17434,7 @@
 
     goto :goto_a
 
-    .line 7924
+    .line 7925
     :cond_10
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataType()I
 
@@ -17442,7 +17442,7 @@
 
     if-nez v0, :cond_11
 
-    .line 7925
+    .line 7926
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -17457,7 +17457,7 @@
 
     goto :goto_b
 
-    .line 7927
+    .line 7928
     :cond_11
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -17471,7 +17471,7 @@
 
     move-result-object v0
 
-    .line 7929
+    .line 7930
     :goto_b
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue3DataStr(Ljava/lang/String;)V
 
@@ -17482,7 +17482,7 @@
 .method public readCanDataByte()V
     .locals 3
 
-    .line 7856
+    .line 7857
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17491,12 +17491,12 @@
 
     const/16 v2, 0x4f6b
 
-    .line 7857
+    .line 7858
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7859
+    .line 7860
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDataByte(I)V
 
     return-void
@@ -17505,7 +17505,7 @@
 .method public readCanDataByteAttr()V
     .locals 4
 
-    .line 3629
+    .line 3630
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17617,7 +17617,7 @@
 .method public readCanDefine()V
     .locals 3
 
-    .line 7845
+    .line 7846
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17643,12 +17643,12 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 7849
+    .line 7850
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setCanDefine(Z)V
 
     goto :goto_1
 
-    .line 7847
+    .line 7848
     :cond_1
     :goto_0
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCanDefine(Z)V
@@ -17660,7 +17660,7 @@
 .method public readCanFdBaud()V
     .locals 3
 
-    .line 7806
+    .line 7807
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17669,12 +17669,12 @@
 
     const/16 v2, 0x5059
 
-    .line 7807
+    .line 7808
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7808
+    .line 7809
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setCanFdBaud(I)V
 
     return-void
@@ -17683,7 +17683,7 @@
 .method public readCanFdBaudRateAttr()V
     .locals 4
 
-    .line 3624
+    .line 3625
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17702,7 +17702,7 @@
 .method public readCanFdSamplePoint()V
     .locals 3
 
-    .line 7834
+    .line 7835
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17711,14 +17711,14 @@
 
     const/16 v2, 0x505a
 
-    .line 7835
+    .line 7836
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 7836
+    .line 7837
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFdSamplePoints(J)V
 
     return-void
@@ -17727,7 +17727,7 @@
 .method public readCanIdExtended()V
     .locals 3
 
-    .line 7840
+    .line 7841
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17749,7 +17749,7 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 7841
+    .line 7842
     :goto_0
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIdExtended(Z)V
 
@@ -17759,7 +17759,7 @@
 .method public readCanIdFilter()V
     .locals 4
 
-    .line 7864
+    .line 7865
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17780,10 +17780,10 @@
 
     if-nez v0, :cond_1
 
-    .line 7867
+    .line 7868
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setCanDataIdType(I)V
 
-    .line 7868
+    .line 7869
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3IdStr()Ljava/lang/String;
 
     move-result-object v0
@@ -17794,22 +17794,22 @@
 
     if-eqz v0, :cond_0
 
-    .line 7869
+    .line 7870
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/TriggerParam;->setCanIdType(I)V
 
     goto :goto_0
 
-    .line 7871
+    .line 7872
     :cond_0
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setCanIdType(I)V
 
     goto :goto_0
 
-    .line 7876
+    .line 7877
     :cond_1
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/TriggerParam;->setCanDataIdType(I)V
 
-    .line 7877
+    .line 7878
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3DataStr()Ljava/lang/String;
 
     move-result-object v0
@@ -17820,12 +17820,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 7878
+    .line 7879
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/TriggerParam;->setCanDataType(I)V
 
     goto :goto_0
 
-    .line 7880
+    .line 7881
     :cond_2
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setCanDataType(I)V
 
@@ -17961,7 +17961,7 @@
 .method public readCanSamplePoint()V
     .locals 3
 
-    .line 7828
+    .line 7829
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17970,14 +17970,14 @@
 
     const/16 v2, 0x4f70
 
-    .line 7829
+    .line 7830
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 7830
+    .line 7831
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSamplePoints(J)V
 
     return-void
@@ -17986,7 +17986,7 @@
 .method public readCanSingnal()V
     .locals 3
 
-    .line 7814
+    .line 7815
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -17995,12 +17995,12 @@
 
     const/16 v2, 0x4f6e
 
-    .line 7815
+    .line 7816
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7816
+    .line 7817
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Can_PhyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
 
     move-result-object v0
@@ -18013,7 +18013,7 @@
 .method public readCanSource()V
     .locals 3
 
-    .line 7794
+    .line 7795
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18022,12 +18022,12 @@
 
     const/16 v2, 0x5028
 
-    .line 7795
+    .line 7796
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7796
+    .line 7797
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -18040,7 +18040,7 @@
 .method public readCanWhen()V
     .locals 3
 
-    .line 7822
+    .line 7823
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18049,12 +18049,12 @@
 
     const/16 v2, 0x4f67
 
-    .line 7823
+    .line 7824
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7824
+    .line 7825
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Serv_Can_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object v0
@@ -18069,10 +18069,10 @@
 
     const/4 v0, 0x2
 
-    .line 8296
+    .line 8297
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setI2sDataType(I)V
 
-    .line 8297
+    .line 8298
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MaxStr()Ljava/lang/String;
 
     move-result-object v0
@@ -18087,7 +18087,7 @@
 
     const/4 v0, 0x0
 
-    .line 8298
+    .line 8299
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIisMaxDataType(I)V
 
     goto :goto_0
@@ -18095,7 +18095,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 8300
+    .line 8301
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIisMaxDataType(I)V
 
     :goto_0
@@ -18107,10 +18107,10 @@
 
     const/4 v0, 0x1
 
-    .line 8287
+    .line 8288
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setI2sDataType(I)V
 
-    .line 8288
+    .line 8289
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MinStr()Ljava/lang/String;
 
     move-result-object v1
@@ -18125,12 +18125,12 @@
 
     const/4 v0, 0x0
 
-    .line 8289
+    .line 8290
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIisMinDataType(I)V
 
     goto :goto_0
 
-    .line 8291
+    .line 8292
     :cond_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIisMinDataType(I)V
 
@@ -18141,7 +18141,7 @@
 .method public readDelayHighLevel()V
     .locals 10
 
-    .line 7202
+    .line 7203
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18158,7 +18158,7 @@
 
     move-result-wide v0
 
-    .line 7203
+    .line 7204
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -18187,7 +18187,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7208
+    .line 7209
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -18200,7 +18200,7 @@
 
     move-result-wide v6
 
-    .line 7209
+    .line 7210
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Delay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -18223,20 +18223,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7210
+    .line 7211
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelA(J)V
 
-    .line 7211
+    .line 7212
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelayChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7212
+    .line 7213
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7213
+    .line 7214
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -18260,7 +18260,7 @@
 .method public readDelayLowLevel()V
     .locals 10
 
-    .line 7222
+    .line 7223
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18277,7 +18277,7 @@
 
     move-result-wide v0
 
-    .line 7223
+    .line 7224
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -18306,7 +18306,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7228
+    .line 7229
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -18319,7 +18319,7 @@
 
     move-result-wide v6
 
-    .line 7229
+    .line 7230
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Delay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -18342,20 +18342,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7230
+    .line 7231
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setDelaylevelB(J)V
 
-    .line 7231
+    .line 7232
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelayChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7232
+    .line 7233
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7233
+    .line 7234
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -18379,7 +18379,7 @@
 .method public readDelayLowerLimitAttr()V
     .locals 4
 
-    .line 3580
+    .line 3581
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18398,7 +18398,7 @@
 .method public readDelayLwidth()V
     .locals 3
 
-    .line 7184
+    .line 7185
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18407,12 +18407,12 @@
 
     const/16 v2, 0x501b
 
-    .line 7185
+    .line 7186
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7186
+    .line 7187
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setDelayLowerLimit(J)V
 
     return-void
@@ -18421,7 +18421,7 @@
 .method public readDelaySlopeA()V
     .locals 3
 
-    .line 7168
+    .line 7169
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18430,12 +18430,12 @@
 
     const/16 v2, 0x5018
 
-    .line 7169
+    .line 7170
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7170
+    .line 7171
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -18448,7 +18448,7 @@
 .method public readDelaySlopeB()V
     .locals 3
 
-    .line 7176
+    .line 7177
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18457,12 +18457,12 @@
 
     const/16 v2, 0x5019
 
-    .line 7177
+    .line 7178
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7178
+    .line 7179
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -18475,7 +18475,7 @@
 .method public readDelaySourceA()V
     .locals 3
 
-    .line 7142
+    .line 7143
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18484,19 +18484,19 @@
 
     const/16 v2, 0x4f37
 
-    .line 7143
+    .line 7144
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7144
+    .line 7145
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setDelayChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7145
+    .line 7146
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -18509,7 +18509,7 @@
 .method public readDelaySourceB()V
     .locals 3
 
-    .line 7151
+    .line 7152
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18518,19 +18518,19 @@
 
     const/16 v2, 0x4f39
 
-    .line 7152
+    .line 7153
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7153
+    .line 7154
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setDelayChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7154
+    .line 7155
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -18543,7 +18543,7 @@
 .method public readDelayUpperLimitAttr()V
     .locals 4
 
-    .line 3585
+    .line 3586
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18562,7 +18562,7 @@
 .method public readDelayUwidth()V
     .locals 3
 
-    .line 7192
+    .line 7193
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18571,12 +18571,12 @@
 
     const/16 v2, 0x501a
 
-    .line 7193
+    .line 7194
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7194
+    .line 7195
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setDelayUperLimit(J)V
 
     return-void
@@ -18585,7 +18585,7 @@
 .method public readDelayWhen()V
     .locals 3
 
-    .line 7160
+    .line 7161
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18594,12 +18594,12 @@
 
     const/16 v2, 0x4f36
 
-    .line 7161
+    .line 7162
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7162
+    .line 7163
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object v0
@@ -18612,7 +18612,7 @@
 .method public readDurationLevel()V
     .locals 5
 
-    .line 6962
+    .line 6963
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18625,7 +18625,7 @@
 
     move-result-wide v2
 
-    .line 6963
+    .line 6964
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18636,7 +18636,7 @@
 
     move-result v0
 
-    .line 6964
+    .line 6965
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v4
@@ -18645,17 +18645,17 @@
 
     if-ne v0, v4, :cond_0
 
-    .line 6965
+    .line 6966
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Duration:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v0, v4, :cond_0
 
-    .line 6966
+    .line 6967
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6967
+    .line 6968
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -18679,7 +18679,7 @@
 .method public readDurationLowerLimitAttr()V
     .locals 4
 
-    .line 3534
+    .line 3535
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18698,7 +18698,7 @@
 .method public readDurationLwidth()V
     .locals 3
 
-    .line 6948
+    .line 6949
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18707,12 +18707,12 @@
 
     const/16 v2, 0x500d
 
-    .line 6949
+    .line 6950
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6950
+    .line 6951
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setDurationLowerLimit(J)V
 
     return-void
@@ -18721,7 +18721,7 @@
 .method public readDurationSource()V
     .locals 3
 
-    .line 6932
+    .line 6933
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18730,12 +18730,12 @@
 
     const/16 v2, 0x5008
 
-    .line 6933
+    .line 6934
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6934
+    .line 6935
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -18748,7 +18748,7 @@
 .method public readDurationUpperLimitAttr()V
     .locals 4
 
-    .line 3539
+    .line 3540
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18767,7 +18767,7 @@
 .method public readDurationUwidth()V
     .locals 3
 
-    .line 6956
+    .line 6957
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18776,12 +18776,12 @@
 
     const/16 v2, 0x500c
 
-    .line 6957
+    .line 6958
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6958
+    .line 6959
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setDurationUperLimit(J)V
 
     return-void
@@ -18790,7 +18790,7 @@
 .method public readDurationWhen()V
     .locals 3
 
-    .line 6940
+    .line 6941
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18799,12 +18799,12 @@
 
     const/16 v2, 0x4f2d
 
-    .line 6941
+    .line 6942
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6942
+    .line 6943
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object v0
@@ -18817,7 +18817,7 @@
 .method public readEdgeCoupling()V
     .locals 3
 
-    .line 9048
+    .line 9049
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18830,7 +18830,7 @@
 
     move-result v0
 
-    .line 9049
+    .line 9050
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getCouplingFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v0
@@ -18843,7 +18843,7 @@
 .method public readEdgeSlope()V
     .locals 3
 
-    .line 9059
+    .line 9060
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18856,7 +18856,7 @@
 
     move-result v0
 
-    .line 9060
+    .line 9061
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -18869,7 +18869,7 @@
 .method public readEdgeSource()I
     .locals 3
 
-    .line 9025
+    .line 9026
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18888,7 +18888,7 @@
 .method public readEdgeSweep()V
     .locals 3
 
-    .line 9075
+    .line 9076
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18901,7 +18901,7 @@
 
     move-result v0
 
-    .line 9076
+    .line 9077
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setNMode(I)V
 
     return-void
@@ -18910,7 +18910,7 @@
 .method public readFdSamplePointsAttr()V
     .locals 4
 
-    .line 3667
+    .line 3668
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18963,7 +18963,7 @@
 .method public readFlexRayBaud()V
     .locals 3
 
-    .line 8042
+    .line 8043
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18972,12 +18972,12 @@
 
     const/16 v2, 0x4f94
 
-    .line 8043
+    .line 8044
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8044
+    .line 8045
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_BaudFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
 
     move-result-object v0
@@ -18990,7 +18990,7 @@
 .method public readFlexRayCH()V
     .locals 3
 
-    .line 8110
+    .line 8111
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -18999,12 +18999,12 @@
 
     const/16 v2, 0x4f95
 
-    .line 8111
+    .line 8112
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8112
+    .line 8113
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_PhyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
 
     move-result-object v0
@@ -19017,7 +19017,7 @@
 .method public readFlexRayCYCcomp()V
     .locals 3
 
-    .line 8102
+    .line 8103
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19026,12 +19026,12 @@
 
     const/16 v2, 0x4f93
 
-    .line 8103
+    .line 8104
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8104
+    .line 8105
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object v0
@@ -19044,7 +19044,7 @@
 .method public readFlexRayCYCmax()V
     .locals 3
 
-    .line 8118
+    .line 8119
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19053,14 +19053,14 @@
 
     const/16 v2, 0x4f99
 
-    .line 8119
+    .line 8120
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 8120
+    .line 8121
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCompareUperLimit(J)V
 
     return-void
@@ -19069,7 +19069,7 @@
 .method public readFlexRayCYCmin()V
     .locals 3
 
-    .line 8126
+    .line 8127
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19078,14 +19078,14 @@
 
     const/16 v2, 0x4f98
 
-    .line 8127
+    .line 8128
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 8128
+    .line 8129
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCompareLowerLimit(J)V
 
     return-void
@@ -19094,7 +19094,7 @@
 .method public readFlexRayError()V
     .locals 3
 
-    .line 8066
+    .line 8067
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19103,12 +19103,12 @@
 
     const/16 v2, 0x4f91
 
-    .line 8067
+    .line 8068
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8068
+    .line 8069
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     move-result-object v0
@@ -19121,7 +19121,7 @@
 .method public readFlexRayFrame()V
     .locals 3
 
-    .line 8080
+    .line 8081
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19130,12 +19130,12 @@
 
     const/16 v2, 0x4f8f
 
-    .line 8081
+    .line 8082
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8082
+    .line 8083
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_FrameFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     move-result-object v0
@@ -19148,7 +19148,7 @@
 .method public readFlexRayIDcomp()V
     .locals 3
 
-    .line 8094
+    .line 8095
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19157,12 +19157,12 @@
 
     const/16 v2, 0x4f92
 
-    .line 8095
+    .line 8096
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8096
+    .line 8097
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object v0
@@ -19175,7 +19175,7 @@
 .method public readFlexRayIDmax()V
     .locals 3
 
-    .line 8134
+    .line 8135
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19184,14 +19184,14 @@
 
     const/16 v2, 0x4f97
 
-    .line 8135
+    .line 8136
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 8136
+    .line 8137
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIdUperLimit(J)V
 
     return-void
@@ -19200,7 +19200,7 @@
 .method public readFlexRayIDmin()V
     .locals 3
 
-    .line 8142
+    .line 8143
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19209,14 +19209,14 @@
 
     const/16 v2, 0x4f96
 
-    .line 8143
+    .line 8144
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 8144
+    .line 8145
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIdLowerLimit(J)V
 
     return-void
@@ -19225,7 +19225,7 @@
 .method public readFlexRayPost()V
     .locals 3
 
-    .line 8058
+    .line 8059
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19234,12 +19234,12 @@
 
     const/16 v2, 0x4f8e
 
-    .line 8059
+    .line 8060
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8060
+    .line 8061
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_PosFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
 
     move-result-object v0
@@ -19252,7 +19252,7 @@
 .method public readFlexRaySource()V
     .locals 3
 
-    .line 8034
+    .line 8035
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19261,12 +19261,12 @@
 
     const/16 v2, 0x502d
 
-    .line 8035
+    .line 8036
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8036
+    .line 8037
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -19279,7 +19279,7 @@
 .method public readFlexRaySymbol()V
     .locals 3
 
-    .line 8074
+    .line 8075
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19288,12 +19288,12 @@
 
     const/16 v2, 0x4f90
 
-    .line 8075
+    .line 8076
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8076
+    .line 8077
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_SymbolFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
 
     move-result-object v0
@@ -19306,7 +19306,7 @@
 .method public readFlexRayWhen()V
     .locals 3
 
-    .line 8050
+    .line 8051
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19315,12 +19315,12 @@
 
     const/16 v2, 0x4f8d
 
-    .line 8051
+    .line 8052
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8052
+    .line 8053
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
     move-result-object v0
@@ -19333,7 +19333,7 @@
 .method public readFlexrayDefine()V
     .locals 3
 
-    .line 8086
+    .line 8087
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19342,12 +19342,12 @@
 
     const/16 v2, 0x4f9a
 
-    .line 8087
+    .line 8088
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 8088
+    .line 8089
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDefine(Z)V
 
     return-void
@@ -19356,7 +19356,7 @@
 .method public readHoldOff()V
     .locals 3
 
-    .line 9085
+    .line 9086
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19369,7 +19369,7 @@
 
     move-result-wide v0
 
-    .line 9086
+    .line 9087
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setHoldOff(J)V
 
     return-void
@@ -19378,7 +19378,7 @@
 .method public readHoldOffAttr()V
     .locals 4
 
-    .line 3421
+    .line 3422
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19397,7 +19397,7 @@
 .method public readHoldTime()V
     .locals 3
 
-    .line 7292
+    .line 7293
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19406,12 +19406,12 @@
 
     const/16 v2, 0x4f41
 
-    .line 7293
+    .line 7294
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7294
+    .line 7295
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setHold(J)V
 
     return-void
@@ -19420,7 +19420,7 @@
 .method public readHoldTimeAttr()V
     .locals 4
 
-    .line 3606
+    .line 3607
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19439,7 +19439,7 @@
 .method public readI2CAddrData()V
     .locals 3
 
-    .line 7470
+    .line 7471
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19448,12 +19448,12 @@
 
     const/16 v2, 0x4f50
 
-    .line 7471
+    .line 7472
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7472
+    .line 7473
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_I2C_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
 
     move-result-object v0
@@ -19466,7 +19466,7 @@
 .method public readI2CClkLevel()V
     .locals 10
 
-    .line 7548
+    .line 7549
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19483,7 +19483,7 @@
 
     move-result-wide v0
 
-    .line 7549
+    .line 7550
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -19512,7 +19512,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7553
+    .line 7554
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -19525,7 +19525,7 @@
 
     move-result-wide v6
 
-    .line 7554
+    .line 7555
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2C:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -19548,20 +19548,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7555
+    .line 7556
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelA(J)V
 
-    .line 7556
+    .line 7557
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7557
+    .line 7558
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIicChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7558
+    .line 7559
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -19678,7 +19678,7 @@
 .method public readI2CData()V
     .locals 8
 
-    .line 7486
+    .line 7487
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19687,17 +19687,17 @@
 
     const/16 v2, 0x4f54
 
-    .line 7487
+    .line 7488
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7491
+    .line 7492
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7492
+    .line 7493
     iget v3, p0, Lcom/rigol/scope/data/TriggerParam;->i2cDataType:I
 
     const/4 v4, 0x1
@@ -19706,12 +19706,12 @@
 
     const/4 v2, 0x2
 
-    .line 7494
+    .line 7495
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7495
+    .line 7496
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v0
@@ -19727,13 +19727,13 @@
     :cond_0
     const/16 v0, 0x8
 
-    .line 7498
+    .line 7499
     :goto_0
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 7500
+    .line 7501
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -19748,7 +19748,7 @@
 
     move v3, v5
 
-    .line 7501
+    .line 7502
     :goto_1
     rem-int v6, v1, v0
 
@@ -19756,7 +19756,7 @@
 
     if-ge v3, v6, :cond_1
 
-    .line 7502
+    .line 7503
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -19773,7 +19773,7 @@
 
     goto :goto_1
 
-    .line 7505
+    .line 7506
     :cond_1
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -19781,7 +19781,7 @@
 
     div-int/2addr v1, v0
 
-    .line 7506
+    .line 7507
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
     move-result v3
@@ -19790,7 +19790,7 @@
 
     move v3, v5
 
-    .line 7507
+    .line 7508
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getByteLength()I
 
@@ -19802,7 +19802,7 @@
 
     if-ge v3, v6, :cond_2
 
-    .line 7508
+    .line 7509
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -19819,7 +19819,7 @@
 
     goto :goto_2
 
-    .line 7512
+    .line 7513
     :cond_2
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
@@ -19827,20 +19827,20 @@
 
     const-string v2, ""
 
-    .line 7514
+    .line 7515
     :goto_3
     array-length v3, v1
 
     if-ge v5, v3, :cond_4
 
-    .line 7515
+    .line 7516
     rem-int v3, v5, v0
 
     if-nez v3, :cond_3
 
     if-eqz v5, :cond_3
 
-    .line 7516
+    .line 7517
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -19855,7 +19855,7 @@
 
     move-result-object v2
 
-    .line 7518
+    .line 7519
     :cond_3
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -19875,13 +19875,13 @@
 
     goto :goto_3
 
-    .line 7521
+    .line 7522
     :cond_4
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->i2cDataType:I
 
     if-nez v0, :cond_5
 
-    .line 7522
+    .line 7523
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -19898,7 +19898,7 @@
 
     goto :goto_4
 
-    .line 7524
+    .line 7525
     :cond_5
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -19914,7 +19914,7 @@
 
     move-result-object v0
 
-    .line 7526
+    .line 7527
     :goto_4
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue1Str(Ljava/lang/String;)V
 
@@ -19924,7 +19924,7 @@
 .method public readI2CDataLevel()V
     .locals 10
 
-    .line 7569
+    .line 7570
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -19941,7 +19941,7 @@
 
     move-result-wide v0
 
-    .line 7570
+    .line 7571
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -19970,7 +19970,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7574
+    .line 7575
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -19983,7 +19983,7 @@
 
     move-result-wide v6
 
-    .line 7575
+    .line 7576
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2C:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -20006,20 +20006,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7576
+    .line 7577
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setIiclevelB(J)V
 
-    .line 7577
+    .line 7578
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7578
+    .line 7579
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIicChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7579
+    .line 7580
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -20043,7 +20043,7 @@
 .method public readI2CDirection()V
     .locals 3
 
-    .line 7478
+    .line 7479
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20052,12 +20052,12 @@
 
     const/16 v2, 0x4f56
 
-    .line 7479
+    .line 7480
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7480
+    .line 7481
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_I2C_WRFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     move-result-object v0
@@ -20070,7 +20070,7 @@
 .method public readI2CScl()V
     .locals 3
 
-    .line 7444
+    .line 7445
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20079,19 +20079,19 @@
 
     const/16 v2, 0x4f4c
 
-    .line 7445
+    .line 7446
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7446
+    .line 7447
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIicChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7447
+    .line 7448
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -20104,7 +20104,7 @@
 .method public readI2CSda()V
     .locals 3
 
-    .line 7453
+    .line 7454
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20113,19 +20113,19 @@
 
     const/16 v2, 0x4f4d
 
-    .line 7454
+    .line 7455
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7455
+    .line 7456
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIicChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7456
+    .line 7457
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -20138,7 +20138,7 @@
 .method public readI2CWhen()V
     .locals 3
 
-    .line 7462
+    .line 7463
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20147,12 +20147,12 @@
 
     const/16 v2, 0x4f4e
 
-    .line 7463
+    .line 7464
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7464
+    .line 7465
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_I2C_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     move-result-object v0
@@ -20187,7 +20187,7 @@
 .method public readI2cAddressAttr()V
     .locals 4
 
-    .line 3639
+    .line 3640
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20206,7 +20206,7 @@
 .method public readI2cByteLengthAttr()V
     .locals 4
 
-    .line 3644
+    .line 3645
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20225,7 +20225,7 @@
 .method public readI2cCode()V
     .locals 5
 
-    .line 7531
+    .line 7532
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20238,7 +20238,7 @@
 
     move-result-object v0
 
-    .line 7533
+    .line 7534
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -20251,7 +20251,7 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 7535
+    .line 7536
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -20270,14 +20270,14 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 7536
+    .line 7537
     rem-int/lit8 v4, v3, 0x8
 
     if-nez v4, :cond_0
 
     if-eq v3, v1, :cond_0
 
-    .line 7537
+    .line 7538
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -20294,7 +20294,7 @@
 
     goto :goto_0
 
-    .line 7540
+    .line 7541
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -20601,7 +20601,7 @@
 .method public readIisClkLevel()V
     .locals 10
 
-    .line 8597
+    .line 8598
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20618,7 +20618,7 @@
 
     move-result-wide v0
 
-    .line 8598
+    .line 8599
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -20647,7 +20647,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 8602
+    .line 8603
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -20660,7 +20660,7 @@
 
     move-result-wide v6
 
-    .line 8603
+    .line 8604
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2S:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -20683,20 +20683,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 8604
+    .line 8605
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setIislevelA(J)V
 
-    .line 8605
+    .line 8606
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 8606
+    .line 8607
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 8607
+    .line 8608
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -20720,7 +20720,7 @@
 .method public readIisCode()V
     .locals 7
 
-    .line 8553
+    .line 8554
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20745,7 +20745,7 @@
 
     if-ne v0, v6, :cond_2
 
-    .line 8557
+    .line 8558
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20756,17 +20756,17 @@
 
     move-result-object v0
 
-    .line 8559
+    .line 8560
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 8560
+    .line 8561
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8561
+    .line 8562
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->reverse()Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -20779,7 +20779,7 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 8563
+    .line 8564
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -20798,14 +20798,14 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 8564
+    .line 8565
     rem-int/lit8 v6, v3, 0x8
 
     if-nez v6, :cond_0
 
     if-eq v3, v1, :cond_0
 
-    .line 8565
+    .line 8566
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -20820,13 +20820,13 @@
 
     goto :goto_0
 
-    .line 8568
+    .line 8569
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8569
+    .line 8570
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->reverse()Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -20835,7 +20835,7 @@
 
     move-result-object v0
 
-    .line 8570
+    .line 8571
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -20850,7 +20850,7 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
-    .line 8571
+    .line 8572
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -20872,7 +20872,7 @@
 
     if-ne v0, v6, :cond_5
 
-    .line 8576
+    .line 8577
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20883,17 +20883,17 @@
 
     move-result-object v0
 
-    .line 8578
+    .line 8579
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 8579
+    .line 8580
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8580
+    .line 8581
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->reverse()Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -20906,7 +20906,7 @@
     :goto_1
     if-ge v3, v1, :cond_4
 
-    .line 8582
+    .line 8583
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -20925,14 +20925,14 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 8583
+    .line 8584
     rem-int/lit8 v6, v3, 0x8
 
     if-nez v6, :cond_3
 
     if-eq v3, v1, :cond_3
 
-    .line 8584
+    .line 8585
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -20947,13 +20947,13 @@
 
     goto :goto_1
 
-    .line 8587
+    .line 8588
     :cond_4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8588
+    .line 8589
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -20984,7 +20984,7 @@
 .method public readIisData()V
     .locals 12
 
-    .line 8383
+    .line 8384
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -20997,12 +20997,12 @@
 
     move-result-wide v0
 
-    .line 8387
+    .line 8388
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 8389
+    .line 8390
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v3
@@ -21013,19 +21013,19 @@
 
     if-nez v3, :cond_0
 
-    .line 8390
+    .line 8391
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
     move-result v3
 
     if-ne v3, v5, :cond_2
 
-    .line 8392
+    .line 8393
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8393
+    .line 8394
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
@@ -21035,7 +21035,7 @@
 
     goto :goto_1
 
-    .line 8397
+    .line 8398
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -21043,26 +21043,26 @@
 
     if-ne v3, v5, :cond_1
 
-    .line 8398
+    .line 8399
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
     move-result v3
 
     if-ne v3, v5, :cond_2
 
-    .line 8400
+    .line 8401
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8401
+    .line 8402
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_0
 
-    .line 8405
+    .line 8406
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -21070,19 +21070,19 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 8406
+    .line 8407
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
     move-result v3
 
     if-ne v3, v5, :cond_2
 
-    .line 8408
+    .line 8409
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8409
+    .line 8410
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
@@ -21092,13 +21092,13 @@
     :cond_2
     const/16 v0, 0x8
 
-    .line 8412
+    .line 8413
     :goto_1
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 8414
+    .line 8415
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v3
@@ -21117,21 +21117,21 @@
 
     if-nez v3, :cond_c
 
-    .line 8415
+    .line 8416
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
     move-result v3
 
     if-nez v3, :cond_6
 
-    .line 8417
+    .line 8418
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v3
 
     if-ge v1, v3, :cond_3
 
-    .line 8418
+    .line 8419
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -21141,7 +21141,7 @@
 
     if-ge v10, v3, :cond_3
 
-    .line 8419
+    .line 8420
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21158,13 +21158,13 @@
 
     goto :goto_2
 
-    .line 8423
+    .line 8424
     :cond_3
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 8425
+    .line 8426
     array-length v2, v1
 
     sub-int/2addr v2, v5
@@ -21172,7 +21172,7 @@
     :goto_3
     if-ltz v2, :cond_5
 
-    .line 8426
+    .line 8427
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21187,7 +21187,7 @@
 
     move-result-object v3
 
-    .line 8427
+    .line 8428
     rem-int v4, v5, v0
 
     if-nez v4, :cond_4
@@ -21196,7 +21196,7 @@
 
     if-eq v5, v4, :cond_4
 
-    .line 8428
+    .line 8429
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21218,13 +21218,13 @@
 
     goto :goto_3
 
-    .line 8432
+    .line 8433
     :cond_5
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8433
+    .line 8434
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -21247,7 +21247,7 @@
 
     goto/16 :goto_6
 
-    .line 8434
+    .line 8435
     :cond_6
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
@@ -21255,14 +21255,14 @@
 
     if-ne v3, v5, :cond_b
 
-    .line 8436
+    .line 8437
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v3
 
     div-int/lit8 v3, v3, 0x4
 
-    .line 8437
+    .line 8438
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v4
@@ -21281,7 +21281,7 @@
 
     if-ge v10, v4, :cond_8
 
-    .line 8442
+    .line 8443
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21298,13 +21298,13 @@
 
     goto :goto_4
 
-    .line 8445
+    .line 8446
     :cond_8
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 8447
+    .line 8448
     array-length v2, v1
 
     sub-int/2addr v2, v5
@@ -21312,7 +21312,7 @@
     :goto_5
     if-ltz v2, :cond_a
 
-    .line 8448
+    .line 8449
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21327,7 +21327,7 @@
 
     move-result-object v3
 
-    .line 8449
+    .line 8450
     rem-int v4, v5, v0
 
     if-nez v4, :cond_9
@@ -21336,7 +21336,7 @@
 
     if-eq v5, v4, :cond_9
 
-    .line 8450
+    .line 8451
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21358,13 +21358,13 @@
 
     goto :goto_5
 
-    .line 8454
+    .line 8455
     :cond_a
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8455
+    .line 8456
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -21385,17 +21385,17 @@
 
     move-result-object v11
 
-    .line 8457
+    .line 8458
     :cond_b
     :goto_6
     invoke-virtual {p0, v11}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
-    .line 8458
+    .line 8459
     invoke-virtual {p0, v11}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MinStr(Ljava/lang/String;)V
 
     goto/16 :goto_11
 
-    .line 8459
+    .line 8460
     :cond_c
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -21403,21 +21403,21 @@
 
     if-ne v3, v5, :cond_16
 
-    .line 8460
+    .line 8461
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
     move-result v3
 
     if-nez v3, :cond_10
 
-    .line 8462
+    .line 8463
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v3
 
     if-ge v1, v3, :cond_d
 
-    .line 8463
+    .line 8464
     :goto_7
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -21427,7 +21427,7 @@
 
     if-ge v10, v3, :cond_d
 
-    .line 8464
+    .line 8465
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21444,13 +21444,13 @@
 
     goto :goto_7
 
-    .line 8468
+    .line 8469
     :cond_d
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 8470
+    .line 8471
     array-length v2, v1
 
     sub-int/2addr v2, v5
@@ -21458,7 +21458,7 @@
     :goto_8
     if-ltz v2, :cond_f
 
-    .line 8471
+    .line 8472
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21473,7 +21473,7 @@
 
     move-result-object v3
 
-    .line 8472
+    .line 8473
     rem-int v4, v5, v0
 
     if-nez v4, :cond_e
@@ -21482,7 +21482,7 @@
 
     if-eq v5, v4, :cond_e
 
-    .line 8473
+    .line 8474
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21504,13 +21504,13 @@
 
     goto :goto_8
 
-    .line 8477
+    .line 8478
     :cond_f
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8478
+    .line 8479
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -21533,7 +21533,7 @@
 
     goto/16 :goto_b
 
-    .line 8479
+    .line 8480
     :cond_10
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
@@ -21541,14 +21541,14 @@
 
     if-ne v3, v5, :cond_15
 
-    .line 8481
+    .line 8482
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v3
 
     div-int/lit8 v3, v3, 0x4
 
-    .line 8482
+    .line 8483
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v4
@@ -21567,7 +21567,7 @@
 
     if-ge v10, v4, :cond_12
 
-    .line 8487
+    .line 8488
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21584,13 +21584,13 @@
 
     goto :goto_9
 
-    .line 8490
+    .line 8491
     :cond_12
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 8492
+    .line 8493
     array-length v2, v1
 
     sub-int/2addr v2, v5
@@ -21598,7 +21598,7 @@
     :goto_a
     if-ltz v2, :cond_14
 
-    .line 8493
+    .line 8494
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21613,7 +21613,7 @@
 
     move-result-object v3
 
-    .line 8494
+    .line 8495
     rem-int v4, v5, v0
 
     if-nez v4, :cond_13
@@ -21622,7 +21622,7 @@
 
     if-eq v5, v4, :cond_13
 
-    .line 8495
+    .line 8496
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21644,13 +21644,13 @@
 
     goto :goto_a
 
-    .line 8499
+    .line 8500
     :cond_14
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8500
+    .line 8501
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -21671,17 +21671,17 @@
 
     move-result-object v11
 
-    .line 8502
+    .line 8503
     :cond_15
     :goto_b
     invoke-virtual {p0, v11}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MinStr(Ljava/lang/String;)V
 
-    .line 8503
+    .line 8504
     invoke-virtual {p0, v11}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
     goto/16 :goto_11
 
-    .line 8504
+    .line 8505
     :cond_16
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
@@ -21689,21 +21689,21 @@
 
     if-ne v3, v4, :cond_20
 
-    .line 8505
+    .line 8506
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
     move-result v3
 
     if-nez v3, :cond_1a
 
-    .line 8507
+    .line 8508
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v3
 
     if-ge v1, v3, :cond_17
 
-    .line 8508
+    .line 8509
     :goto_c
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -21713,7 +21713,7 @@
 
     if-ge v10, v3, :cond_17
 
-    .line 8509
+    .line 8510
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21730,13 +21730,13 @@
 
     goto :goto_c
 
-    .line 8513
+    .line 8514
     :cond_17
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 8515
+    .line 8516
     array-length v2, v1
 
     sub-int/2addr v2, v5
@@ -21744,7 +21744,7 @@
     :goto_d
     if-ltz v2, :cond_19
 
-    .line 8516
+    .line 8517
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21759,7 +21759,7 @@
 
     move-result-object v3
 
-    .line 8517
+    .line 8518
     rem-int v4, v5, v0
 
     if-nez v4, :cond_18
@@ -21768,7 +21768,7 @@
 
     if-eq v5, v4, :cond_18
 
-    .line 8518
+    .line 8519
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21790,13 +21790,13 @@
 
     goto :goto_d
 
-    .line 8522
+    .line 8523
     :cond_19
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8523
+    .line 8524
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -21819,7 +21819,7 @@
 
     goto/16 :goto_10
 
-    .line 8524
+    .line 8525
     :cond_1a
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
@@ -21827,14 +21827,14 @@
 
     if-ne v3, v5, :cond_1f
 
-    .line 8526
+    .line 8527
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v3
 
     div-int/lit8 v3, v3, 0x4
 
-    .line 8527
+    .line 8528
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v4
@@ -21853,7 +21853,7 @@
 
     if-ge v10, v4, :cond_1c
 
-    .line 8532
+    .line 8533
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21870,13 +21870,13 @@
 
     goto :goto_e
 
-    .line 8535
+    .line 8536
     :cond_1c
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 8537
+    .line 8538
     array-length v2, v1
 
     sub-int/2addr v2, v5
@@ -21884,7 +21884,7 @@
     :goto_f
     if-ltz v2, :cond_1e
 
-    .line 8538
+    .line 8539
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -21899,7 +21899,7 @@
 
     move-result-object v3
 
-    .line 8539
+    .line 8540
     rem-int v4, v5, v0
 
     if-nez v4, :cond_1d
@@ -21908,7 +21908,7 @@
 
     if-eq v5, v4, :cond_1d
 
-    .line 8540
+    .line 8541
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -21930,13 +21930,13 @@
 
     goto :goto_f
 
-    .line 8544
+    .line 8545
     :cond_1e
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8545
+    .line 8546
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -21957,7 +21957,7 @@
 
     move-result-object v11
 
-    .line 8547
+    .line 8548
     :cond_1f
     :goto_10
     invoke-virtual {p0, v11}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MaxStr(Ljava/lang/String;)V
@@ -21970,7 +21970,7 @@
 .method public readIisDataLevel()V
     .locals 10
 
-    .line 8635
+    .line 8636
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -21987,7 +21987,7 @@
 
     move-result-wide v0
 
-    .line 8636
+    .line 8637
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -22016,7 +22016,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 8640
+    .line 8641
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -22029,7 +22029,7 @@
 
     move-result-wide v6
 
-    .line 8641
+    .line 8642
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2S:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -22052,20 +22052,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 8642
+    .line 8643
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setIislevelC(J)V
 
-    .line 8643
+    .line 8644
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 8644
+    .line 8645
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisChanC()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 8645
+    .line 8646
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -22089,7 +22089,7 @@
 .method public readIisWsLevel()V
     .locals 10
 
-    .line 8616
+    .line 8617
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22106,7 +22106,7 @@
 
     move-result-wide v0
 
-    .line 8617
+    .line 8618
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -22135,7 +22135,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 8621
+    .line 8622
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -22148,7 +22148,7 @@
 
     move-result-wide v6
 
-    .line 8622
+    .line 8623
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_I2S:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -22171,20 +22171,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 8623
+    .line 8624
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setIislevelB(J)V
 
-    .line 8624
+    .line 8625
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 8625
+    .line 8626
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIisChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 8626
+    .line 8627
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -22208,7 +22208,7 @@
 .method public readLevel()J
     .locals 3
 
-    .line 9119
+    .line 9120
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22227,7 +22227,7 @@
 .method public readLevelAttr()V
     .locals 4
 
-    .line 3425
+    .line 3426
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22246,7 +22246,7 @@
 .method public readLevelBAttr()V
     .locals 4
 
-    .line 3433
+    .line 3434
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22265,7 +22265,7 @@
 .method public readLevelCAttr()V
     .locals 4
 
-    .line 3437
+    .line 3438
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22284,7 +22284,7 @@
 .method public readLevelSelect()V
     .locals 3
 
-    .line 6834
+    .line 6835
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22293,12 +22293,12 @@
 
     const/16 v2, 0x504a
 
-    .line 6835
+    .line 6836
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6836
+    .line 6837
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v0
@@ -22311,7 +22311,7 @@
 .method public readLevelStepAttr()V
     .locals 4
 
-    .line 3429
+    .line 3430
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22330,7 +22330,7 @@
 .method public readLinBaud()V
     .locals 3
 
-    .line 8169
+    .line 8170
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22339,12 +22339,12 @@
 
     const/16 v2, 0x4f7b
 
-    .line 8170
+    .line 8171
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8171
+    .line 8172
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setLinBaud(I)V
 
     return-void
@@ -22353,7 +22353,7 @@
 .method public readLinBaudRateAttr()V
     .locals 4
 
-    .line 3634
+    .line 3635
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22372,7 +22372,7 @@
 .method public readLinByteAttr()V
     .locals 4
 
-    .line 3649
+    .line 3650
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22391,7 +22391,7 @@
 .method public readLinCode()V
     .locals 5
 
-    .line 8272
+    .line 8273
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22404,7 +22404,7 @@
 
     move-result-object v0
 
-    .line 8274
+    .line 8275
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -22417,7 +22417,7 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 8276
+    .line 8277
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -22436,14 +22436,14 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 8277
+    .line 8278
     rem-int/lit8 v4, v3, 0x8
 
     if-nez v4, :cond_0
 
     if-eq v3, v1, :cond_0
 
-    .line 8278
+    .line 8279
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -22460,7 +22460,7 @@
 
     goto :goto_0
 
-    .line 8281
+    .line 8282
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -22577,7 +22577,7 @@
 .method public readLinData()V
     .locals 8
 
-    .line 8216
+    .line 8217
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22590,17 +22590,17 @@
 
     move-result-object v0
 
-    .line 8217
+    .line 8218
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v0
 
-    .line 8221
+    .line 8222
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 8222
+    .line 8223
     iget v3, p0, Lcom/rigol/scope/data/TriggerParam;->linDataType:I
 
     const/4 v4, 0x1
@@ -22609,12 +22609,12 @@
 
     const/4 v2, 0x2
 
-    .line 8225
+    .line 8226
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8226
+    .line 8227
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v0
@@ -22630,13 +22630,13 @@
     :cond_0
     const/16 v0, 0x8
 
-    .line 8229
+    .line 8230
     :goto_0
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 8231
+    .line 8232
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -22651,7 +22651,7 @@
 
     move v3, v5
 
-    .line 8233
+    .line 8234
     :goto_1
     rem-int v6, v1, v0
 
@@ -22659,7 +22659,7 @@
 
     if-ge v3, v6, :cond_1
 
-    .line 8235
+    .line 8236
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -22676,7 +22676,7 @@
 
     goto :goto_1
 
-    .line 8239
+    .line 8240
     :cond_1
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -22684,7 +22684,7 @@
 
     div-int/2addr v1, v0
 
-    .line 8240
+    .line 8241
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
     move-result v3
@@ -22693,7 +22693,7 @@
 
     move v3, v5
 
-    .line 8242
+    .line 8243
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinByte()I
 
@@ -22705,7 +22705,7 @@
 
     if-ge v3, v6, :cond_2
 
-    .line 8244
+    .line 8245
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -22722,7 +22722,7 @@
 
     goto :goto_2
 
-    .line 8248
+    .line 8249
     :cond_2
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
@@ -22730,20 +22730,20 @@
 
     const-string v2, ""
 
-    .line 8250
+    .line 8251
     :goto_3
     array-length v3, v1
 
     if-ge v5, v3, :cond_4
 
-    .line 8252
+    .line 8253
     rem-int v3, v5, v0
 
     if-nez v3, :cond_3
 
     if-eqz v5, :cond_3
 
-    .line 8254
+    .line 8255
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -22758,7 +22758,7 @@
 
     move-result-object v2
 
-    .line 8256
+    .line 8257
     :cond_3
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -22778,13 +22778,13 @@
 
     goto :goto_3
 
-    .line 8259
+    .line 8260
     :cond_4
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->linDataType:I
 
     if-nez v0, :cond_5
 
-    .line 8261
+    .line 8262
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -22801,7 +22801,7 @@
 
     goto :goto_4
 
-    .line 8265
+    .line 8266
     :cond_5
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -22817,7 +22817,7 @@
 
     move-result-object v0
 
-    .line 8267
+    .line 8268
     :goto_4
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue4Str(Ljava/lang/String;)V
 
@@ -22827,7 +22827,7 @@
 .method public readLinDataByte()V
     .locals 3
 
-    .line 8209
+    .line 8210
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22836,12 +22836,12 @@
 
     const/16 v2, 0x4f79
 
-    .line 8210
+    .line 8211
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8211
+    .line 8212
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setLinByte(I)V
 
     return-void
@@ -22850,7 +22850,7 @@
 .method public readLinErrType()V
     .locals 3
 
-    .line 8193
+    .line 8194
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22859,12 +22859,12 @@
 
     const/16 v2, 0x4f74
 
-    .line 8194
+    .line 8195
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8195
+    .line 8196
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Lin_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
 
     move-result-object v0
@@ -22877,7 +22877,7 @@
 .method public readLinID()V
     .locals 3
 
-    .line 8201
+    .line 8202
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22886,12 +22886,12 @@
 
     const/16 v2, 0x4f76
 
-    .line 8202
+    .line 8203
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8203
+    .line 8204
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setLinId(I)V
 
     return-void
@@ -22900,7 +22900,7 @@
 .method public readLinIdAttr()V
     .locals 4
 
-    .line 3654
+    .line 3655
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22919,7 +22919,7 @@
 .method public readLinSamplePosition()V
     .locals 3
 
-    .line 8177
+    .line 8178
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22928,14 +22928,14 @@
 
     const/16 v2, 0x4f7c
 
-    .line 8178
+    .line 8179
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
     int-to-long v0, v0
 
-    .line 8179
+    .line 8180
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLinSamplePosition(J)V
 
     return-void
@@ -22944,7 +22944,7 @@
 .method public readLinSource()V
     .locals 3
 
-    .line 8153
+    .line 8154
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22953,12 +22953,12 @@
 
     const/16 v2, 0x5039
 
-    .line 8154
+    .line 8155
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8155
+    .line 8156
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -22971,7 +22971,7 @@
 .method public readLinVersion()V
     .locals 3
 
-    .line 8161
+    .line 8162
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -22980,12 +22980,12 @@
 
     const/16 v2, 0x4f7a
 
-    .line 8162
+    .line 8163
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8163
+    .line 8164
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Lin_VerFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     move-result-object v0
@@ -22998,7 +22998,7 @@
 .method public readLinWhen()V
     .locals 3
 
-    .line 8185
+    .line 8186
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23007,12 +23007,12 @@
 
     const/16 v2, 0x4f73
 
-    .line 8186
+    .line 8187
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8187
+    .line 8188
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Lin_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     move-result-object v0
@@ -23127,7 +23127,7 @@
 .method public readMilstdCode()V
     .locals 6
 
-    .line 8921
+    .line 8922
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23150,7 +23150,7 @@
 
     if-ne v0, v5, :cond_0
 
-    .line 8924
+    .line 8925
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23161,12 +23161,12 @@
 
     move-result-object v0
 
-    .line 8925
+    .line 8926
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8926
+    .line 8927
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23196,7 +23196,7 @@
 
     if-ne v0, v5, :cond_1
 
-    .line 8930
+    .line 8931
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23207,12 +23207,12 @@
 
     move-result-object v0
 
-    .line 8931
+    .line 8932
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8932
+    .line 8933
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23242,7 +23242,7 @@
 
     if-ne v0, v2, :cond_2
 
-    .line 8935
+    .line 8936
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23253,12 +23253,12 @@
 
     move-result-object v0
 
-    .line 8936
+    .line 8937
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8937
+    .line 8938
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23284,7 +23284,7 @@
 
     if-ne v0, v5, :cond_3
 
-    .line 8940
+    .line 8941
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23295,12 +23295,12 @@
 
     move-result-object v0
 
-    .line 8941
+    .line 8942
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8942
+    .line 8943
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23331,7 +23331,7 @@
 .method public readMilstdData()V
     .locals 12
 
-    .line 8734
+    .line 8735
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -23344,12 +23344,12 @@
 
     move-result-wide v0
 
-    .line 8738
+    .line 8739
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 8741
+    .line 8742
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v3
@@ -23372,32 +23372,32 @@
 
     if-nez v3, :cond_4
 
-    .line 8743
+    .line 8744
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getUpType()I
 
     move-result v3
 
     if-ne v3, v9, :cond_0
 
-    .line 8745
+    .line 8746
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8746
+    .line 8747
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
     move v11, v8
 
-    .line 8748
+    .line 8749
     :cond_0
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 8750
+    .line 8751
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -23408,7 +23408,7 @@
 
     move v1, v7
 
-    .line 8751
+    .line 8752
     :goto_0
     rem-int v3, v0, v11
 
@@ -23416,7 +23416,7 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 8752
+    .line 8753
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -23433,7 +23433,7 @@
 
     goto :goto_0
 
-    .line 8755
+    .line 8756
     :cond_1
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -23452,7 +23452,7 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 8758
+    .line 8759
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -23469,26 +23469,26 @@
 
     goto :goto_1
 
-    .line 8762
+    .line 8763
     :cond_2
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 8764
+    .line 8765
     :goto_2
     array-length v1, v0
 
     if-ge v7, v1, :cond_11
 
-    .line 8765
+    .line 8766
     rem-int v1, v7, v11
 
     if-nez v1, :cond_3
 
     if-eqz v7, :cond_3
 
-    .line 8766
+    .line 8767
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -23501,7 +23501,7 @@
 
     move-result-object v10
 
-    .line 8768
+    .line 8769
     :cond_3
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -23521,7 +23521,7 @@
 
     goto :goto_2
 
-    .line 8772
+    .line 8773
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -23529,32 +23529,32 @@
 
     if-ne v3, v9, :cond_9
 
-    .line 8774
+    .line 8775
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDownType()I
 
     move-result v3
 
     if-ne v3, v9, :cond_5
 
-    .line 8776
+    .line 8777
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8777
+    .line 8778
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
     move v11, v8
 
-    .line 8779
+    .line 8780
     :cond_5
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 8781
+    .line 8782
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -23565,7 +23565,7 @@
 
     move v1, v7
 
-    .line 8782
+    .line 8783
     :goto_3
     rem-int v3, v0, v11
 
@@ -23573,7 +23573,7 @@
 
     if-ge v1, v3, :cond_6
 
-    .line 8783
+    .line 8784
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -23590,7 +23590,7 @@
 
     goto :goto_3
 
-    .line 8786
+    .line 8787
     :cond_6
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -23609,7 +23609,7 @@
 
     if-ge v1, v3, :cond_7
 
-    .line 8789
+    .line 8790
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -23626,26 +23626,26 @@
 
     goto :goto_4
 
-    .line 8793
+    .line 8794
     :cond_7
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 8795
+    .line 8796
     :goto_5
     array-length v1, v0
 
     if-ge v7, v1, :cond_11
 
-    .line 8796
+    .line 8797
     rem-int v1, v7, v11
 
     if-nez v1, :cond_8
 
     if-eqz v7, :cond_8
 
-    .line 8797
+    .line 8798
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -23658,7 +23658,7 @@
 
     move-result-object v10
 
-    .line 8799
+    .line 8800
     :cond_8
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -23678,7 +23678,7 @@
 
     goto :goto_5
 
-    .line 8803
+    .line 8804
     :cond_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -23688,26 +23688,26 @@
 
     const/4 v3, 0x5
 
-    .line 8805
+    .line 8806
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRtaType()I
 
     move-result v4
 
     if-ne v4, v9, :cond_a
 
-    .line 8807
+    .line 8808
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8808
+    .line 8809
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
     move v3, v8
 
-    .line 8810
+    .line 8811
     :cond_a
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -23720,7 +23720,7 @@
 
     if-ge v7, v1, :cond_b
 
-    .line 8814
+    .line 8815
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -23742,7 +23742,7 @@
 
     goto :goto_9
 
-    .line 8820
+    .line 8821
     :cond_c
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -23752,26 +23752,26 @@
 
     const/16 v3, 0xb
 
-    .line 8822
+    .line 8823
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getBitType()I
 
     move-result v10
 
     if-ne v10, v9, :cond_d
 
-    .line 8825
+    .line 8826
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8826
+    .line 8827
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
     move v3, v5
 
-    .line 8829
+    .line 8830
     :cond_d
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -23784,7 +23784,7 @@
 
     if-ge v7, v1, :cond_e
 
-    .line 8832
+    .line 8833
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -23801,25 +23801,25 @@
 
     goto :goto_7
 
-    .line 8835
+    .line 8836
     :cond_e
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 8837
+    .line 8838
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getBitType()I
 
     move-result v1
 
     if-nez v1, :cond_f
 
-    .line 8838
+    .line 8839
     invoke-virtual {v0, v5, v4}, Ljava/lang/StringBuffer;->insert(ILjava/lang/String;)Ljava/lang/StringBuffer;
 
     goto :goto_8
 
-    .line 8839
+    .line 8840
     :cond_f
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getBitType()I
 
@@ -23827,17 +23827,17 @@
 
     if-ne v1, v9, :cond_10
 
-    .line 8840
+    .line 8841
     invoke-virtual {v0, v9, v4}, Ljava/lang/StringBuffer;->insert(ILjava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 8842
+    .line 8843
     :cond_10
     :goto_8
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v10
 
-    .line 8846
+    .line 8847
     :cond_11
     :goto_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
@@ -23850,14 +23850,14 @@
 
     if-nez v0, :cond_14
 
-    .line 8847
+    .line 8848
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getUpType()I
 
     move-result v0
 
     if-nez v0, :cond_12
 
-    .line 8848
+    .line 8849
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23872,7 +23872,7 @@
 
     goto :goto_a
 
-    .line 8849
+    .line 8850
     :cond_12
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getUpType()I
 
@@ -23880,7 +23880,7 @@
 
     if-ne v0, v9, :cond_13
 
-    .line 8850
+    .line 8851
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23893,14 +23893,14 @@
 
     move-result-object v10
 
-    .line 8852
+    .line 8853
     :cond_13
     :goto_a
     invoke-virtual {p0, v10}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6MaxStr(Ljava/lang/String;)V
 
     goto/16 :goto_e
 
-    .line 8855
+    .line 8856
     :cond_14
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -23908,14 +23908,14 @@
 
     if-ne v0, v9, :cond_17
 
-    .line 8856
+    .line 8857
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDownType()I
 
     move-result v0
 
     if-nez v0, :cond_15
 
-    .line 8857
+    .line 8858
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23930,7 +23930,7 @@
 
     goto :goto_b
 
-    .line 8858
+    .line 8859
     :cond_15
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDownType()I
 
@@ -23938,7 +23938,7 @@
 
     if-ne v0, v9, :cond_16
 
-    .line 8859
+    .line 8860
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23951,14 +23951,14 @@
 
     move-result-object v10
 
-    .line 8861
+    .line 8862
     :cond_16
     :goto_b
     invoke-virtual {p0, v10}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6Str(Ljava/lang/String;)V
 
     goto :goto_e
 
-    .line 8864
+    .line 8865
     :cond_17
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -23966,14 +23966,14 @@
 
     if-ne v0, v8, :cond_1a
 
-    .line 8865
+    .line 8866
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRtaType()I
 
     move-result v0
 
     if-nez v0, :cond_18
 
-    .line 8866
+    .line 8867
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -23988,7 +23988,7 @@
 
     goto :goto_c
 
-    .line 8867
+    .line 8868
     :cond_18
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRtaType()I
 
@@ -23996,7 +23996,7 @@
 
     if-ne v0, v9, :cond_19
 
-    .line 8868
+    .line 8869
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -24009,14 +24009,14 @@
 
     move-result-object v10
 
-    .line 8870
+    .line 8871
     :cond_19
     :goto_c
     invoke-virtual {p0, v10}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6RtaStr(Ljava/lang/String;)V
 
     goto :goto_e
 
-    .line 8873
+    .line 8874
     :cond_1a
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -24024,14 +24024,14 @@
 
     if-ne v0, v5, :cond_1d
 
-    .line 8874
+    .line 8875
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getBitType()I
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    .line 8875
+    .line 8876
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -24046,7 +24046,7 @@
 
     goto :goto_d
 
-    .line 8876
+    .line 8877
     :cond_1b
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getBitType()I
 
@@ -24054,7 +24054,7 @@
 
     if-ne v0, v9, :cond_1c
 
-    .line 8877
+    .line 8878
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -24067,7 +24067,7 @@
 
     move-result-object v10
 
-    .line 8879
+    .line 8880
     :cond_1c
     :goto_d
     invoke-virtual {p0, v10}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6BitStr(Ljava/lang/String;)V
@@ -24082,10 +24082,10 @@
 
     const/4 v0, 0x3
 
-    .line 8911
+    .line 8912
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setMilstdDataType(I)V
 
-    .line 8912
+    .line 8913
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6BitStr()Ljava/lang/String;
 
     move-result-object v0
@@ -24100,7 +24100,7 @@
 
     const/4 v0, 0x0
 
-    .line 8913
+    .line 8914
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setBitType(I)V
 
     goto :goto_0
@@ -24108,7 +24108,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 8915
+    .line 8916
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setBitType(I)V
 
     :goto_0
@@ -24118,7 +24118,7 @@
 .method public readMilstdDataComp()V
     .locals 3
 
-    .line 8702
+    .line 8703
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24127,12 +24127,12 @@
 
     const/16 v2, 0x4f9f
 
-    .line 8703
+    .line 8704
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8704
+    .line 8705
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_value_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     move-result-object v0
@@ -24147,10 +24147,10 @@
 
     const/4 v0, 0x0
 
-    .line 8884
+    .line 8885
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setMilstdDataType(I)V
 
-    .line 8885
+    .line 8886
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6MaxStr()Ljava/lang/String;
 
     move-result-object v1
@@ -24163,7 +24163,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 8886
+    .line 8887
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setUpType(I)V
 
     goto :goto_0
@@ -24171,7 +24171,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 8888
+    .line 8889
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setUpType(I)V
 
     :goto_0
@@ -24183,10 +24183,10 @@
 
     const/4 v0, 0x1
 
-    .line 8893
+    .line 8894
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setMilstdDataType(I)V
 
-    .line 8894
+    .line 8895
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6Str()Ljava/lang/String;
 
     move-result-object v1
@@ -24201,12 +24201,12 @@
 
     const/4 v0, 0x0
 
-    .line 8895
+    .line 8896
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDownType(I)V
 
     goto :goto_0
 
-    .line 8897
+    .line 8898
     :cond_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDownType(I)V
 
@@ -24219,10 +24219,10 @@
 
     const/4 v0, 0x2
 
-    .line 8902
+    .line 8903
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setMilstdDataType(I)V
 
-    .line 8903
+    .line 8904
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue6RtaStr()Ljava/lang/String;
 
     move-result-object v0
@@ -24237,7 +24237,7 @@
 
     const/4 v0, 0x0
 
-    .line 8904
+    .line 8905
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setRtaType(I)V
 
     goto :goto_0
@@ -24245,7 +24245,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 8906
+    .line 8907
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setRtaType(I)V
 
     :goto_0
@@ -24255,7 +24255,7 @@
 .method public readMilstdErrType()V
     .locals 3
 
-    .line 8694
+    .line 8695
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24264,12 +24264,12 @@
 
     const/16 v2, 0x4fa5
 
-    .line 8695
+    .line 8696
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8696
+    .line 8697
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_1553_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     move-result-object v0
@@ -24282,7 +24282,7 @@
 .method public readMilstdHighLevel()V
     .locals 6
 
-    .line 8709
+    .line 8710
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24295,7 +24295,7 @@
 
     move-result-wide v2
 
-    .line 8710
+    .line 8711
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -24312,13 +24312,13 @@
 
     if-eqz v0, :cond_0
 
-    .line 8711
+    .line 8712
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelA(J)V
 
-    .line 8712
+    .line 8713
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 8713
+    .line 8714
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
 
     move-result-wide v4
@@ -24327,12 +24327,12 @@
 
     const/16 v0, 0x4fe6
 
-    .line 8714
+    .line 8715
     invoke-virtual {p0, v1, v0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     const/16 v0, 0x4fe7
 
-    .line 8715
+    .line 8716
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
 
     move-result-wide v2
@@ -24346,7 +24346,7 @@
 .method public readMilstdLevelSelect()V
     .locals 3
 
-    .line 8678
+    .line 8679
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24355,12 +24355,12 @@
 
     const/16 v2, 0x5020
 
-    .line 8679
+    .line 8680
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8680
+    .line 8681
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v0
@@ -24373,7 +24373,7 @@
 .method public readMilstdLowLevel()V
     .locals 6
 
-    .line 8720
+    .line 8721
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -24382,7 +24382,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 8722
+    .line 8723
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24395,22 +24395,22 @@
 
     move-result-wide v0
 
-    .line 8723
+    .line 8724
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelB(J)V
 
-    .line 8724
+    .line 8725
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
 
     move-result-wide v3
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 8725
+    .line 8726
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
     const/16 v3, 0x4fe6
 
-    .line 8726
+    .line 8727
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
 
     move-result-wide v4
@@ -24419,7 +24419,7 @@
 
     const/16 v3, 0x4fe7
 
-    .line 8727
+    .line 8728
     invoke-virtual {p0, v2, v3, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     :cond_0
@@ -24429,7 +24429,7 @@
 .method public readMilstdPolarity()V
     .locals 3
 
-    .line 8662
+    .line 8663
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24438,12 +24438,12 @@
 
     const/16 v2, 0x5021
 
-    .line 8663
+    .line 8664
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 8664
+    .line 8665
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -24456,7 +24456,7 @@
 .method public readMilstdSource()V
     .locals 3
 
-    .line 8654
+    .line 8655
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24465,12 +24465,12 @@
 
     const/16 v2, 0x501f
 
-    .line 8655
+    .line 8656
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8656
+    .line 8657
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -24483,7 +24483,7 @@
 .method public readMilstdSyncType()V
     .locals 3
 
-    .line 8686
+    .line 8687
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24492,12 +24492,12 @@
 
     const/16 v2, 0x4f9e
 
-    .line 8687
+    .line 8688
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8688
+    .line 8689
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_1553_SyncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
 
     move-result-object v0
@@ -24510,7 +24510,7 @@
 .method public readMilstdWhen()V
     .locals 3
 
-    .line 8670
+    .line 8671
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24519,12 +24519,12 @@
 
     const/16 v2, 0x4f9d
 
-    .line 8671
+    .line 8672
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8672
+    .line 8673
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_1553_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
 
     move-result-object v0
@@ -24639,7 +24639,7 @@
 .method public readNoise()V
     .locals 3
 
-    .line 9043
+    .line 9044
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24652,7 +24652,7 @@
 
     move-result v0
 
-    .line 9044
+    .line 9045
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIsNoise(Z)V
 
     return-void
@@ -24661,7 +24661,7 @@
 .method public readNthSlope()V
     .locals 3
 
-    .line 7351
+    .line 7352
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24670,12 +24670,12 @@
 
     const/16 v2, 0x501e
 
-    .line 7352
+    .line 7353
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7353
+    .line 7354
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -24688,7 +24688,7 @@
 .method public readNthSource()V
     .locals 3
 
-    .line 7343
+    .line 7344
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24697,12 +24697,12 @@
 
     const/16 v2, 0x501d
 
-    .line 7344
+    .line 7345
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7345
+    .line 7346
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -24715,7 +24715,7 @@
 .method public readNthedgeNumber()V
     .locals 3
 
-    .line 7367
+    .line 7368
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24724,12 +24724,12 @@
 
     const/16 v2, 0x4f43
 
-    .line 7368
+    .line 7369
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7369
+    .line 7370
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setEdgeNumber(I)V
 
     return-void
@@ -24738,7 +24738,7 @@
 .method public readNthedgeNumberAttr()V
     .locals 4
 
-    .line 3596
+    .line 3597
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24757,7 +24757,7 @@
 .method public readNthidelTime()V
     .locals 3
 
-    .line 7359
+    .line 7360
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24766,12 +24766,12 @@
 
     const/16 v2, 0x4f42
 
-    .line 7360
+    .line 7361
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7361
+    .line 7362
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIdelTime(J)V
 
     return-void
@@ -24780,7 +24780,7 @@
 .method public readNthidelTimeAttr()V
     .locals 4
 
-    .line 3591
+    .line 3592
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24799,7 +24799,7 @@
 .method public readOverHighLevel()V
     .locals 6
 
-    .line 7115
+    .line 7116
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24812,7 +24812,7 @@
 
     move-result-wide v2
 
-    .line 7116
+    .line 7117
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -24829,13 +24829,13 @@
 
     if-eqz v0, :cond_0
 
-    .line 7118
+    .line 7119
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelA(J)V
 
-    .line 7119
+    .line 7120
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7120
+    .line 7121
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
 
     move-result-wide v4
@@ -24844,12 +24844,12 @@
 
     const/16 v0, 0x4fe6
 
-    .line 7121
+    .line 7122
     invoke-virtual {p0, v1, v0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     const/16 v0, 0x4fe7
 
-    .line 7122
+    .line 7123
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
 
     move-result-wide v2
@@ -24863,7 +24863,7 @@
 .method public readOverLevelSelect()V
     .locals 3
 
-    .line 7108
+    .line 7109
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24872,12 +24872,12 @@
 
     const/16 v2, 0x504d
 
-    .line 7109
+    .line 7110
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7110
+    .line 7111
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v0
@@ -24890,7 +24890,7 @@
 .method public readOverLowLevel()V
     .locals 5
 
-    .line 7127
+    .line 7128
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -24899,7 +24899,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 7129
+    .line 7130
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24912,27 +24912,27 @@
 
     move-result-wide v0
 
-    .line 7130
+    .line 7131
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelB(J)V
 
-    .line 7131
+    .line 7132
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
 
     move-result-wide v3
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7132
+    .line 7133
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
     const/16 v3, 0x4fe7
 
-    .line 7133
+    .line 7134
     invoke-virtual {p0, v2, v3, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     const/16 v0, 0x4fe6
 
-    .line 7134
+    .line 7135
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
 
     move-result-wide v3
@@ -24946,7 +24946,7 @@
 .method public readOverPos()V
     .locals 3
 
-    .line 7092
+    .line 7093
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24955,12 +24955,12 @@
 
     const/16 v2, 0x4f33
 
-    .line 7093
+    .line 7094
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7094
+    .line 7095
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getOverEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     move-result-object v0
@@ -24973,7 +24973,7 @@
 .method public readOverSlope()V
     .locals 3
 
-    .line 7084
+    .line 7085
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -24982,12 +24982,12 @@
 
     const/16 v2, 0x4f35
 
-    .line 7085
+    .line 7086
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7086
+    .line 7087
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -25000,7 +25000,7 @@
 .method public readOverSource()V
     .locals 3
 
-    .line 7076
+    .line 7077
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25009,12 +25009,12 @@
 
     const/16 v2, 0x5015
 
-    .line 7077
+    .line 7078
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7078
+    .line 7079
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -25027,7 +25027,7 @@
 .method public readOverTime()V
     .locals 3
 
-    .line 7100
+    .line 7101
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25036,12 +25036,12 @@
 
     const/16 v2, 0x4f34
 
-    .line 7101
+    .line 7102
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7102
+    .line 7103
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setOverTime(J)V
 
     return-void
@@ -25050,7 +25050,7 @@
 .method public readOverTimeAttr()V
     .locals 4
 
-    .line 3567
+    .line 3568
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25069,7 +25069,7 @@
 .method public readPatternChan()V
     .locals 3
 
-    .line 6910
+    .line 6911
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25078,12 +25078,12 @@
 
     const/16 v2, 0x5003
 
-    .line 6911
+    .line 6912
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6912
+    .line 6913
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -25096,7 +25096,7 @@
 .method public readPatternLevel()V
     .locals 5
 
-    .line 6916
+    .line 6917
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25109,7 +25109,7 @@
 
     move-result-wide v2
 
-    .line 6917
+    .line 6918
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25120,7 +25120,7 @@
 
     move-result v0
 
-    .line 6918
+    .line 6919
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v4
@@ -25129,17 +25129,17 @@
 
     if-ne v0, v4, :cond_0
 
-    .line 6919
+    .line 6920
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Pattern:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v0, v4, :cond_0
 
-    .line 6921
+    .line 6922
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6922
+    .line 6923
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -25163,7 +25163,7 @@
 .method public readPulseChan()V
     .locals 3
 
-    .line 6761
+    .line 6762
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25172,12 +25172,12 @@
 
     const/16 v2, 0x4ffa
 
-    .line 6762
+    .line 6763
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6763
+    .line 6764
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -25190,7 +25190,7 @@
 .method public readPulseLowerLimitAttr()V
     .locals 4
 
-    .line 3514
+    .line 3515
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25209,7 +25209,7 @@
 .method public readPulseLwidth()V
     .locals 3
 
-    .line 6773
+    .line 6774
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25218,12 +25218,12 @@
 
     const/16 v2, 0x4ffd
 
-    .line 6774
+    .line 6775
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6775
+    .line 6776
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLowerLimit(J)V
 
     return-void
@@ -25232,7 +25232,7 @@
 .method public readPulsePolarity()V
     .locals 3
 
-    .line 6767
+    .line 6768
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25241,12 +25241,12 @@
 
     const/16 v2, 0x4ffb
 
-    .line 6768
+    .line 6769
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6769
+    .line 6770
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -25259,7 +25259,7 @@
 .method public readPulseUpperLimitAttr()V
     .locals 4
 
-    .line 3519
+    .line 3520
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25278,7 +25278,7 @@
 .method public readPulseUwidth()V
     .locals 3
 
-    .line 6779
+    .line 6780
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25287,12 +25287,12 @@
 
     const/16 v2, 0x4ffc
 
-    .line 6780
+    .line 6781
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6781
+    .line 6782
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setUperLimit(J)V
 
     return-void
@@ -25301,7 +25301,7 @@
 .method public readPulseWhen()V
     .locals 3
 
-    .line 6785
+    .line 6786
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25310,12 +25310,12 @@
 
     const/16 v2, 0x4f23
 
-    .line 6786
+    .line 6787
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6787
+    .line 6788
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object v0
@@ -25328,7 +25328,7 @@
 .method public readRS232Baudrate()V
     .locals 3
 
-    .line 7433
+    .line 7434
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25337,12 +25337,12 @@
 
     const/16 v2, 0x4f49
 
-    .line 7434
+    .line 7435
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7436
+    .line 7437
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setRs232BaudRate(I)V
 
     return-void
@@ -25351,7 +25351,7 @@
 .method public readRS232DataWidth()V
     .locals 3
 
-    .line 7424
+    .line 7425
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25360,19 +25360,19 @@
 
     const/16 v2, 0x4f4a
 
-    .line 7425
+    .line 7426
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7426
+    .line 7427
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_WidthFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setTrigger_RS232_Width(Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;)V
 
-    .line 7427
+    .line 7428
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->readRs232DataAttr()V
 
     return-void
@@ -25381,7 +25381,7 @@
 .method public readRS232Parity()V
     .locals 3
 
-    .line 7393
+    .line 7394
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25390,12 +25390,12 @@
 
     const/16 v2, 0x4f48
 
-    .line 7394
+    .line 7395
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7395
+    .line 7396
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_ParityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     move-result-object v0
@@ -25408,7 +25408,7 @@
 .method public readRS232Polarity()V
     .locals 3
 
-    .line 7401
+    .line 7402
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25417,12 +25417,12 @@
 
     const/16 v2, 0x4f46
 
-    .line 7402
+    .line 7403
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7403
+    .line 7404
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -25435,7 +25435,7 @@
 .method public readRS232Source()V
     .locals 3
 
-    .line 7377
+    .line 7378
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25444,12 +25444,12 @@
 
     const/16 v2, 0x503d
 
-    .line 7378
+    .line 7379
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7379
+    .line 7380
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -25462,7 +25462,7 @@
 .method public readRS232StopBit()V
     .locals 3
 
-    .line 7409
+    .line 7410
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25471,12 +25471,12 @@
 
     const/16 v2, 0x4f47
 
-    .line 7410
+    .line 7411
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7411
+    .line 7412
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_StopFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
 
     move-result-object v0
@@ -25489,7 +25489,7 @@
 .method public readRS232When()V
     .locals 3
 
-    .line 7385
+    .line 7386
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25498,12 +25498,12 @@
 
     const/16 v2, 0x4f45
 
-    .line 7386
+    .line 7387
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7387
+    .line 7388
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
 
     move-result-object v0
@@ -25516,7 +25516,7 @@
 .method public readRs232BaudRate()V
     .locals 3
 
-    .line 4846
+    .line 4847
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25531,7 +25531,7 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->rs232BaudRate:I
 
-    .line 4847
+    .line 4848
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEBaudRateFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     move-result-object v0
@@ -25544,7 +25544,7 @@
 .method public readRs232BaudRateAttr()V
     .locals 4
 
-    .line 3616
+    .line 3617
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25587,7 +25587,7 @@
 .method public readRs232DataAttr()V
     .locals 4
 
-    .line 3611
+    .line 3612
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25653,7 +25653,7 @@
 .method public readRuntHighLevel()V
     .locals 6
 
-    .line 7049
+    .line 7050
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25666,7 +25666,7 @@
 
     move-result-wide v2
 
-    .line 7050
+    .line 7051
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -25683,13 +25683,13 @@
 
     if-eqz v0, :cond_0
 
-    .line 7052
+    .line 7053
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7053
+    .line 7054
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelA(J)V
 
-    .line 7054
+    .line 7055
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
 
     move-result-wide v4
@@ -25698,12 +25698,12 @@
 
     const/16 v0, 0x4fe6
 
-    .line 7055
+    .line 7056
     invoke-virtual {p0, v1, v0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     const/16 v0, 0x4fe7
 
-    .line 7056
+    .line 7057
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
 
     move-result-wide v2
@@ -25717,7 +25717,7 @@
 .method public readRuntLevelSelect()V
     .locals 3
 
-    .line 7018
+    .line 7019
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25726,12 +25726,12 @@
 
     const/16 v2, 0x5047
 
-    .line 7019
+    .line 7020
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7020
+    .line 7021
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v0
@@ -25744,7 +25744,7 @@
 .method public readRuntLowLevel()V
     .locals 6
 
-    .line 7061
+    .line 7062
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -25753,7 +25753,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 7063
+    .line 7064
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25766,22 +25766,22 @@
 
     move-result-wide v0
 
-    .line 7064
+    .line 7065
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelB(J)V
 
-    .line 7065
+    .line 7066
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
 
     move-result-wide v3
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7066
+    .line 7067
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
     const/16 v3, 0x4fe6
 
-    .line 7067
+    .line 7068
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
 
     move-result-wide v4
@@ -25790,7 +25790,7 @@
 
     const/16 v3, 0x4fe7
 
-    .line 7068
+    .line 7069
     invoke-virtual {p0, v2, v3, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     :cond_0
@@ -25800,7 +25800,7 @@
 .method public readRuntLowerLimitAttr()V
     .locals 4
 
-    .line 3549
+    .line 3550
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25819,7 +25819,7 @@
 .method public readRuntLwidth()V
     .locals 3
 
-    .line 7034
+    .line 7035
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25828,12 +25828,12 @@
 
     const/16 v2, 0x5014
 
-    .line 7035
+    .line 7036
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7036
+    .line 7037
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setRuntLowerLimit(J)V
 
     return-void
@@ -25842,7 +25842,7 @@
 .method public readRuntPolarity()V
     .locals 3
 
-    .line 7010
+    .line 7011
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25851,12 +25851,12 @@
 
     const/16 v2, 0x5012
 
-    .line 7011
+    .line 7012
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7012
+    .line 7013
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -25869,7 +25869,7 @@
 .method public readRuntSource()V
     .locals 3
 
-    .line 7002
+    .line 7003
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25878,12 +25878,12 @@
 
     const/16 v2, 0x5011
 
-    .line 7003
+    .line 7004
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7004
+    .line 7005
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -25896,7 +25896,7 @@
 .method public readRuntUpperLimitAttr()V
     .locals 4
 
-    .line 3554
+    .line 3555
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25915,7 +25915,7 @@
 .method public readRuntUwidth()V
     .locals 3
 
-    .line 7042
+    .line 7043
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25924,12 +25924,12 @@
 
     const/16 v2, 0x5013
 
-    .line 7043
+    .line 7044
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7044
+    .line 7045
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setRuntUperLimit(J)V
 
     return-void
@@ -25938,7 +25938,7 @@
 .method public readRuntWhen()V
     .locals 3
 
-    .line 7026
+    .line 7027
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25947,12 +25947,12 @@
 
     const/16 v2, 0x4f2f
 
-    .line 7027
+    .line 7028
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7028
+    .line 7029
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object v0
@@ -25965,7 +25965,7 @@
 .method public readSamplePointsAttr()V
     .locals 4
 
-    .line 3663
+    .line 3664
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25984,7 +25984,7 @@
 .method public readSetupHoldDataType()V
     .locals 3
 
-    .line 7267
+    .line 7268
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -25993,12 +25993,12 @@
 
     const/16 v2, 0x4f3e
 
-    .line 7268
+    .line 7269
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7270
+    .line 7271
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -26011,7 +26011,7 @@
 .method public readSetupHoldHighLevel()V
     .locals 10
 
-    .line 7303
+    .line 7304
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26028,7 +26028,7 @@
 
     move-result-wide v0
 
-    .line 7304
+    .line 7305
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -26057,7 +26057,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7308
+    .line 7309
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -26070,7 +26070,7 @@
 
     move-result-wide v6
 
-    .line 7309
+    .line 7310
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Setup:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -26093,20 +26093,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7310
+    .line 7311
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelB(J)V
 
-    .line 7311
+    .line 7312
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7312
+    .line 7313
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSetupHoldChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7313
+    .line 7314
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -26130,7 +26130,7 @@
 .method public readSetupHoldLowLevel()V
     .locals 10
 
-    .line 7323
+    .line 7324
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26147,7 +26147,7 @@
 
     move-result-wide v0
 
-    .line 7324
+    .line 7325
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -26176,7 +26176,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7329
+    .line 7330
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -26189,7 +26189,7 @@
 
     move-result-wide v6
 
-    .line 7330
+    .line 7331
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Setup:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -26212,20 +26212,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7331
+    .line 7332
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldlevelA(J)V
 
-    .line 7332
+    .line 7333
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7333
+    .line 7334
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSetupHoldChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7334
+    .line 7335
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -26249,7 +26249,7 @@
 .method public readSetupHoldSlope()V
     .locals 3
 
-    .line 7259
+    .line 7260
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26258,12 +26258,12 @@
 
     const/16 v2, 0x501c
 
-    .line 7260
+    .line 7261
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7261
+    .line 7262
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -26276,7 +26276,7 @@
 .method public readSetupHoldSourceA()V
     .locals 3
 
-    .line 7241
+    .line 7242
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26285,19 +26285,19 @@
 
     const/16 v2, 0x4f3d
 
-    .line 7242
+    .line 7243
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7243
+    .line 7244
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7244
+    .line 7245
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -26310,7 +26310,7 @@
 .method public readSetupHoldSourceB()V
     .locals 3
 
-    .line 7250
+    .line 7251
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26319,19 +26319,19 @@
 
     const/16 v2, 0x4f3c
 
-    .line 7251
+    .line 7252
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7252
+    .line 7253
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSetupHoldChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7253
+    .line 7254
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -26344,7 +26344,7 @@
 .method public readSetupHoldWhen()V
     .locals 3
 
-    .line 7276
+    .line 7277
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26353,12 +26353,12 @@
 
     const/16 v2, 0x4f3f
 
-    .line 7277
+    .line 7278
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7278
+    .line 7279
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getSHEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     move-result-object v0
@@ -26371,7 +26371,7 @@
 .method public readSetupTime()V
     .locals 3
 
-    .line 7284
+    .line 7285
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26380,12 +26380,12 @@
 
     const/16 v2, 0x4f40
 
-    .line 7285
+    .line 7286
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7286
+    .line 7287
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSetup(J)V
 
     return-void
@@ -26394,7 +26394,7 @@
 .method public readSetupTimeAttr()V
     .locals 4
 
-    .line 3601
+    .line 3602
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26413,7 +26413,7 @@
 .method public readSlopeChan()V
     .locals 3
 
-    .line 6794
+    .line 6795
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26422,12 +26422,12 @@
 
     const/16 v2, 0x4ffe
 
-    .line 6795
+    .line 6796
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6796
+    .line 6797
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -26440,7 +26440,7 @@
 .method public readSlopeHighLevel()V
     .locals 6
 
-    .line 6840
+    .line 6841
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26453,7 +26453,7 @@
 
     move-result-wide v2
 
-    .line 6842
+    .line 6843
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -26470,27 +26470,27 @@
 
     if-eqz v0, :cond_0
 
-    .line 6844
+    .line 6845
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6845
+    .line 6846
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
 
     move-result-wide v4
 
     invoke-virtual {p0, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6846
+    .line 6847
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelA(J)V
 
     const/16 v0, 0x4fe6
 
-    .line 6848
+    .line 6849
     invoke-virtual {p0, v1, v0, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     const/16 v0, 0x4fe7
 
-    .line 6849
+    .line 6850
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
 
     move-result-wide v2
@@ -26504,7 +26504,7 @@
 .method public readSlopeLowLevel()V
     .locals 5
 
-    .line 6854
+    .line 6855
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -26513,7 +26513,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 6855
+    .line 6856
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26526,27 +26526,27 @@
 
     move-result-wide v0
 
-    .line 6856
+    .line 6857
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelB(J)V
 
-    .line 6857
+    .line 6858
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
 
     move-result-wide v3
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6858
+    .line 6859
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
     const/16 v3, 0x4fe7
 
-    .line 6860
+    .line 6861
     invoke-virtual {p0, v2, v3, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     const/16 v0, 0x4fe6
 
-    .line 6861
+    .line 6862
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
 
     move-result-wide v3
@@ -26560,7 +26560,7 @@
 .method public readSlopeLowerLimitAttr()V
     .locals 4
 
-    .line 3524
+    .line 3525
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26579,7 +26579,7 @@
 .method public readSlopeLwidth()V
     .locals 3
 
-    .line 6810
+    .line 6811
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26588,12 +26588,12 @@
 
     const/16 v2, 0x5000
 
-    .line 6811
+    .line 6812
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6812
+    .line 6813
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSlopeLowerLimit(J)V
 
     return-void
@@ -26602,7 +26602,7 @@
 .method public readSlopePolarity()V
     .locals 3
 
-    .line 6826
+    .line 6827
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26611,12 +26611,12 @@
 
     const/16 v2, 0x4f22
 
-    .line 6827
+    .line 6828
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6828
+    .line 6829
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -26629,7 +26629,7 @@
 .method public readSlopeUpperLimitAttr()V
     .locals 4
 
-    .line 3529
+    .line 3530
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26648,7 +26648,7 @@
 .method public readSlopeUwidth()V
     .locals 3
 
-    .line 6818
+    .line 6819
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26657,12 +26657,12 @@
 
     const/16 v2, 0x4fff
 
-    .line 6819
+    .line 6820
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6820
+    .line 6821
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSlopeUperLimit(J)V
 
     return-void
@@ -26671,7 +26671,7 @@
 .method public readSlopeWhen()V
     .locals 3
 
-    .line 6802
+    .line 6803
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26680,12 +26680,12 @@
 
     const/16 v2, 0x4f24
 
-    .line 6803
+    .line 6804
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6804
+    .line 6805
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object v0
@@ -26698,7 +26698,7 @@
 .method public readSpiClkLevel()V
     .locals 10
 
-    .line 7617
+    .line 7618
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26715,7 +26715,7 @@
 
     move-result-wide v0
 
-    .line 7618
+    .line 7619
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -26744,7 +26744,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7622
+    .line 7623
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -26757,7 +26757,7 @@
 
     move-result-wide v6
 
-    .line 7623
+    .line 7624
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SPI:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -26780,20 +26780,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7624
+    .line 7625
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelA(J)V
 
-    .line 7625
+    .line 7626
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7626
+    .line 7627
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSpiChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7627
+    .line 7628
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -26843,7 +26843,7 @@
 .method public readSpiCode()V
     .locals 5
 
-    .line 7766
+    .line 7767
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -26856,17 +26856,17 @@
 
     move-result-object v0
 
-    .line 7768
+    .line 7769
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 7769
+    .line 7770
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 7770
+    .line 7771
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->reverse()Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -26883,7 +26883,7 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 7772
+    .line 7773
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -26902,14 +26902,14 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 7773
+    .line 7774
     rem-int/lit8 v4, v3, 0x8
 
     if-nez v4, :cond_0
 
     if-eq v3, v1, :cond_0
 
-    .line 7774
+    .line 7775
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -26926,13 +26926,13 @@
 
     goto :goto_0
 
-    .line 7777
+    .line 7778
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 7778
+    .line 7779
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -27088,7 +27088,7 @@
 .method public readSpiCs()V
     .locals 3
 
-    .line 7606
+    .line 7607
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27097,19 +27097,19 @@
 
     const/16 v2, 0x4f5d
 
-    .line 7607
+    .line 7608
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7608
+    .line 7609
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSpiChanC(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7609
+    .line 7610
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -27122,7 +27122,7 @@
 .method public readSpiCsLevel()V
     .locals 10
 
-    .line 7655
+    .line 7656
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27139,7 +27139,7 @@
 
     move-result-wide v0
 
-    .line 7656
+    .line 7657
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -27168,7 +27168,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7660
+    .line 7661
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -27181,7 +27181,7 @@
 
     move-result-wide v6
 
-    .line 7661
+    .line 7662
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SPI:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -27204,20 +27204,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7662
+    .line 7663
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelC(J)V
 
-    .line 7663
+    .line 7664
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7664
+    .line 7665
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSpiChanC()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7665
+    .line 7666
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -27241,7 +27241,7 @@
 .method public readSpiCsMode()V
     .locals 3
 
-    .line 7688
+    .line 7689
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27250,12 +27250,12 @@
 
     const/16 v2, 0x4f60
 
-    .line 7689
+    .line 7690
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7690
+    .line 7691
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -27294,7 +27294,7 @@
 .method public readSpiData()V
     .locals 11
 
-    .line 7704
+    .line 7705
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27303,17 +27303,17 @@
 
     const/16 v2, 0x4f64
 
-    .line 7705
+    .line 7706
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7709
+    .line 7710
     invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7710
+    .line 7711
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSpiDataType()I
 
     move-result v3
@@ -27324,12 +27324,12 @@
 
     const/4 v2, 0x2
 
-    .line 7712
+    .line 7713
     invoke-static {v0, v1}, Ljava/lang/Long;->toHexString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7713
+    .line 7714
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v0
@@ -27345,13 +27345,13 @@
     :cond_0
     const/16 v0, 0x8
 
-    .line 7715
+    .line 7716
     :goto_0
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 7717
+    .line 7718
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSpiDataType()I
 
     move-result v3
@@ -27366,14 +27366,14 @@
 
     if-nez v3, :cond_4
 
-    .line 7719
+    .line 7720
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v3
 
     if-ge v1, v3, :cond_1
 
-    .line 7720
+    .line 7721
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -27383,7 +27383,7 @@
 
     if-ge v7, v3, :cond_1
 
-    .line 7721
+    .line 7722
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -27400,13 +27400,13 @@
 
     goto :goto_1
 
-    .line 7725
+    .line 7726
     :cond_1
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 7727
+    .line 7728
     array-length v2, v1
 
     sub-int/2addr v2, v4
@@ -27414,7 +27414,7 @@
     :goto_2
     if-ltz v2, :cond_3
 
-    .line 7728
+    .line 7729
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -27429,7 +27429,7 @@
 
     move-result-object v3
 
-    .line 7729
+    .line 7730
     rem-int v6, v4, v0
 
     if-nez v6, :cond_2
@@ -27438,7 +27438,7 @@
 
     if-eq v4, v6, :cond_2
 
-    .line 7730
+    .line 7731
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -27460,13 +27460,13 @@
 
     goto :goto_2
 
-    .line 7734
+    .line 7735
     :cond_3
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v8}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 7735
+    .line 7736
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -27491,7 +27491,7 @@
 
     goto/16 :goto_5
 
-    .line 7740
+    .line 7741
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
@@ -27499,7 +27499,7 @@
 
     div-int/lit8 v3, v3, 0x4
 
-    .line 7741
+    .line 7742
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDataBits()I
 
     move-result v9
@@ -27518,7 +27518,7 @@
 
     if-ge v7, v9, :cond_6
 
-    .line 7746
+    .line 7747
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -27535,13 +27535,13 @@
 
     goto :goto_3
 
-    .line 7749
+    .line 7750
     :cond_6
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 7751
+    .line 7752
     array-length v2, v1
 
     sub-int/2addr v2, v4
@@ -27549,7 +27549,7 @@
     :goto_4
     if-ltz v2, :cond_8
 
-    .line 7752
+    .line 7753
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -27564,7 +27564,7 @@
 
     move-result-object v3
 
-    .line 7753
+    .line 7754
     rem-int v6, v4, v0
 
     if-nez v6, :cond_7
@@ -27573,7 +27573,7 @@
 
     if-eq v4, v6, :cond_7
 
-    .line 7754
+    .line 7755
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -27595,13 +27595,13 @@
 
     goto :goto_4
 
-    .line 7758
+    .line 7759
     :cond_8
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v8}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 7759
+    .line 7760
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -27624,7 +27624,7 @@
 
     move-result-object v0
 
-    .line 7761
+    .line 7762
     :goto_5
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue2Str(Ljava/lang/String;)V
 
@@ -27634,7 +27634,7 @@
 .method public readSpiDataBits()V
     .locals 3
 
-    .line 7784
+    .line 7785
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27643,12 +27643,12 @@
 
     const/16 v2, 0x4f62
 
-    .line 7785
+    .line 7786
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7786
+    .line 7787
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDataBits(I)V
 
     return-void
@@ -27657,7 +27657,7 @@
 .method public readSpiDataLevel()V
     .locals 10
 
-    .line 7636
+    .line 7637
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27674,7 +27674,7 @@
 
     move-result-wide v0
 
-    .line 7637
+    .line 7638
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -27703,7 +27703,7 @@
 
     sub-long/2addr v0, v2
 
-    .line 7641
+    .line 7642
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -27716,7 +27716,7 @@
 
     move-result-wide v6
 
-    .line 7642
+    .line 7643
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_SPI:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -27739,20 +27739,20 @@
 
     if-gtz v0, :cond_0
 
-    .line 7643
+    .line 7644
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setSpilevelB(J)V
 
-    .line 7644
+    .line 7645
     invoke-virtual {p0, v6, v7}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 7645
+    .line 7646
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSpiChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7646
+    .line 7647
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -27802,7 +27802,7 @@
 .method public readSpiScl()V
     .locals 3
 
-    .line 7588
+    .line 7589
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27811,19 +27811,19 @@
 
     const/16 v2, 0x4f5b
 
-    .line 7589
+    .line 7590
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7590
+    .line 7591
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSpiChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7591
+    .line 7592
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -27836,7 +27836,7 @@
 .method public readSpiSda()V
     .locals 3
 
-    .line 7597
+    .line 7598
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27845,19 +27845,19 @@
 
     const/16 v2, 0x4f5c
 
-    .line 7598
+    .line 7599
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 7599
+    .line 7600
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSpiChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 7600
+    .line 7601
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -27870,7 +27870,7 @@
 .method public readSpiSlope()V
     .locals 3
 
-    .line 7672
+    .line 7673
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27879,12 +27879,12 @@
 
     const/16 v2, 0x5050
 
-    .line 7673
+    .line 7674
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7674
+    .line 7675
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -27897,7 +27897,7 @@
 .method public readSpiTimeout()V
     .locals 3
 
-    .line 7696
+    .line 7697
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27906,12 +27906,12 @@
 
     const/16 v2, 0x4f5e
 
-    .line 7697
+    .line 7698
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 7698
+    .line 7699
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSpiTimeOut(J)V
 
     return-void
@@ -27920,7 +27920,7 @@
 .method public readSpiWhen()V
     .locals 3
 
-    .line 7680
+    .line 7681
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27929,12 +27929,12 @@
 
     const/16 v2, 0x4f5f
 
-    .line 7681
+    .line 7682
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 7682
+    .line 7683
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Spi_CSFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
     move-result-object v0
@@ -27947,7 +27947,7 @@
 .method public readTimeoutSlope()V
     .locals 3
 
-    .line 6985
+    .line 6986
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27956,12 +27956,12 @@
 
     const/16 v2, 0x5010
 
-    .line 6986
+    .line 6987
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6987
+    .line 6988
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -27974,7 +27974,7 @@
 .method public readTimeoutSource()V
     .locals 3
 
-    .line 6977
+    .line 6978
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -27983,12 +27983,12 @@
 
     const/16 v2, 0x500f
 
-    .line 6978
+    .line 6979
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6979
+    .line 6980
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -28001,7 +28001,7 @@
 .method public readTimeoutTime()V
     .locals 3
 
-    .line 6993
+    .line 6994
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28010,12 +28010,12 @@
 
     const/16 v2, 0x4f2e
 
-    .line 6994
+    .line 6995
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6995
+    .line 6996
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setTimeOut(J)V
 
     return-void
@@ -28024,7 +28024,7 @@
 .method public readTimeoutTimeAttr()V
     .locals 4
 
-    .line 3544
+    .line 3545
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28069,7 +28069,7 @@
 .method public readTriggerType()I
     .locals 3
 
-    .line 9115
+    .line 9116
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28088,7 +28088,7 @@
 .method public readVideoChan()V
     .locals 3
 
-    .line 6869
+    .line 6870
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28097,12 +28097,12 @@
 
     const/16 v2, 0x5001
 
-    .line 6870
+    .line 6871
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6871
+    .line 6872
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -28115,7 +28115,7 @@
 .method public readVideoLine()V
     .locals 3
 
-    .line 6901
+    .line 6902
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28124,12 +28124,12 @@
 
     const/16 v2, 0x4f28
 
-    .line 6902
+    .line 6903
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6903
+    .line 6904
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setLinesNumber(I)V
 
     return-void
@@ -28138,7 +28138,7 @@
 .method public readVideoPolarity()V
     .locals 3
 
-    .line 6877
+    .line 6878
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28147,12 +28147,12 @@
 
     const/16 v2, 0x5002
 
-    .line 6878
+    .line 6879
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 6879
+    .line 6880
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object v0
@@ -28165,7 +28165,7 @@
 .method public readVideoStandard()V
     .locals 3
 
-    .line 6885
+    .line 6886
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28174,12 +28174,12 @@
 
     const/16 v2, 0x4f27
 
-    .line 6886
+    .line 6887
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6887
+    .line 6888
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Video_FormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     move-result-object v0
@@ -28192,7 +28192,7 @@
 .method public readVideoSync()V
     .locals 3
 
-    .line 6893
+    .line 6894
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28201,12 +28201,12 @@
 
     const/16 v2, 0x4f26
 
-    .line 6894
+    .line 6895
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 6895
+    .line 6896
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Video_SyncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     move-result-object v0
@@ -28219,7 +28219,7 @@
 .method public readallWidth()V
     .locals 3
 
-    .line 8367
+    .line 8368
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28228,12 +28228,12 @@
 
     const/16 v2, 0x4f88
 
-    .line 8368
+    .line 8369
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8369
+    .line 8370
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setAllWidth(I)V
 
     return-void
@@ -28242,7 +28242,7 @@
 .method public readallWidthAttr()V
     .locals 4
 
-    .line 3715
+    .line 3716
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28261,7 +28261,7 @@
 .method public readclkEdge()V
     .locals 3
 
-    .line 8335
+    .line 8336
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28270,12 +28270,12 @@
 
     const/16 v2, 0x4f7f
 
-    .line 8336
+    .line 8337
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8337
+    .line 8338
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v0
@@ -28288,7 +28288,7 @@
 .method public readclkSource()V
     .locals 3
 
-    .line 8308
+    .line 8309
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28297,19 +28297,19 @@
 
     const/16 v2, 0x4f7e
 
-    .line 8309
+    .line 8310
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8310
+    .line 8311
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIisChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 8311
+    .line 8312
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -28322,7 +28322,7 @@
 .method public readcompareLowerLimitAttr()V
     .locals 4
 
-    .line 3677
+    .line 3678
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28341,7 +28341,7 @@
 .method public readcompareUperLimitAttr()V
     .locals 4
 
-    .line 3672
+    .line 3673
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28360,7 +28360,7 @@
 .method public readdataBitsAttr()V
     .locals 4
 
-    .line 3659
+    .line 3660
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28379,7 +28379,7 @@
 .method public readdelayLevelAttr()V
     .locals 4
 
-    .line 3447
+    .line 3448
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28398,7 +28398,7 @@
 .method public readdelayLevelBAttr()V
     .locals 4
 
-    .line 3452
+    .line 3453
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28553,7 +28553,7 @@
 .method public readidLowerLimitAttr()V
     .locals 4
 
-    .line 3687
+    .line 3688
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28572,7 +28572,7 @@
 .method public readidUperLimitAttr()V
     .locals 4
 
-    .line 3682
+    .line 3683
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28591,7 +28591,7 @@
 .method public readiicLevelAttr()V
     .locals 4
 
-    .line 3466
+    .line 3467
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28610,7 +28610,7 @@
 .method public readiicLevelBAttr()V
     .locals 4
 
-    .line 3471
+    .line 3472
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28629,7 +28629,7 @@
 .method public readiisLevelAttr()V
     .locals 4
 
-    .line 3491
+    .line 3492
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28648,7 +28648,7 @@
 .method public readiisLevelBAttr()V
     .locals 4
 
-    .line 3496
+    .line 3497
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28667,7 +28667,7 @@
 .method public readiisLevelCAttr()V
     .locals 4
 
-    .line 3501
+    .line 3502
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28686,7 +28686,7 @@
 .method public readiisWhen()V
     .locals 3
 
-    .line 8351
+    .line 8352
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28695,12 +28695,12 @@
 
     const/16 v2, 0x4f83
 
-    .line 8352
+    .line 8353
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8353
+    .line 8354
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object v0
@@ -28713,7 +28713,7 @@
 .method public readlinSamplePositionAttr()V
     .locals 4
 
-    .line 3692
+    .line 3693
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28732,7 +28732,7 @@
 .method public readmilstdLevelAttr()V
     .locals 4
 
-    .line 3696
+    .line 3697
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28751,7 +28751,7 @@
 .method public readmilstdLevelBAttr()V
     .locals 4
 
-    .line 3700
+    .line 3701
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28770,7 +28770,7 @@
 .method public readoverLevelAttr()V
     .locals 4
 
-    .line 3571
+    .line 3572
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28789,7 +28789,7 @@
 .method public readoverLevelBAttr()V
     .locals 4
 
-    .line 3575
+    .line 3576
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -28960,14 +28960,14 @@
 .method public readprobeRatio(Lcom/rigol/scope/cil/ServiceEnum$Chan;)F
     .locals 2
 
-    .line 9090
+    .line 9091
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const/16 v1, 0x73e
 
     if-ne p1, v0, :cond_0
 
-    .line 9091
+    .line 9092
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -28980,13 +28980,13 @@
 
     return p1
 
-    .line 9092
+    .line 9093
     :cond_0
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p1, v0, :cond_1
 
-    .line 9093
+    .line 9094
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -28999,13 +28999,13 @@
 
     return p1
 
-    .line 9094
+    .line 9095
     :cond_1
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan3:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p1, v0, :cond_2
 
-    .line 9095
+    .line 9096
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -29018,13 +29018,13 @@
 
     return p1
 
-    .line 9096
+    .line 9097
     :cond_2
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan4:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p1, v0, :cond_3
 
-    .line 9097
+    .line 9098
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
@@ -29046,7 +29046,7 @@
 .method public readruntLevelAttr()V
     .locals 4
 
-    .line 3558
+    .line 3559
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29065,7 +29065,7 @@
 .method public readruntLevelBAttr()V
     .locals 4
 
-    .line 3562
+    .line 3563
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29084,7 +29084,7 @@
 .method public readsdaSource()V
     .locals 3
 
-    .line 8326
+    .line 8327
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29093,19 +29093,19 @@
 
     const/16 v2, 0x4f82
 
-    .line 8327
+    .line 8328
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8328
+    .line 8329
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIisChanC(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 8329
+    .line 8330
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -29118,7 +29118,7 @@
 .method public readsetupHoldLevelAttr()V
     .locals 4
 
-    .line 3457
+    .line 3458
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29137,7 +29137,7 @@
 .method public readsetupHoldLevelBAttr()V
     .locals 4
 
-    .line 3462
+    .line 3463
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29156,7 +29156,7 @@
 .method public readslopeLevelAttr()V
     .locals 4
 
-    .line 3505
+    .line 3506
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29175,7 +29175,7 @@
 .method public readslopeLevelBAttr()V
     .locals 4
 
-    .line 3509
+    .line 3510
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29220,7 +29220,7 @@
 .method public readspiLevelAttr()V
     .locals 4
 
-    .line 3476
+    .line 3477
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29239,7 +29239,7 @@
 .method public readspiLevelBAttr()V
     .locals 4
 
-    .line 3481
+    .line 3482
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29258,7 +29258,7 @@
 .method public readspiLevelCAttr()V
     .locals 4
 
-    .line 3486
+    .line 3487
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29277,7 +29277,7 @@
 .method public readspiTimeOutAttr()V
     .locals 4
 
-    .line 3705
+    .line 3706
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29296,7 +29296,7 @@
 .method public readvideoLineNumber()V
     .locals 4
 
-    .line 3442
+    .line 3443
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29315,7 +29315,7 @@
 .method public readwidth()V
     .locals 3
 
-    .line 8359
+    .line 8360
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29324,12 +29324,12 @@
 
     const/16 v2, 0x4f89
 
-    .line 8360
+    .line 8361
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8361
+    .line 8362
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setWidth(I)V
 
     return-void
@@ -29338,7 +29338,7 @@
 .method public readwidthAttr()V
     .locals 4
 
-    .line 3710
+    .line 3711
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29357,7 +29357,7 @@
 .method public readwsSource()V
     .locals 3
 
-    .line 8317
+    .line 8318
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29366,19 +29366,19 @@
 
     const/16 v2, 0x4f80
 
-    .line 8318
+    .line 8319
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
     move-result v0
 
-    .line 8319
+    .line 8320
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIisChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 8320
+    .line 8321
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -29391,168 +29391,168 @@
 .method public reset()V
     .locals 5
 
-    .line 6526
+    .line 6527
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
     const/16 v0, 0x29
 
-    .line 6527
+    .line 6528
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setServiceId(I)V
 
     const-wide/32 v0, 0x3b9aca00
 
-    .line 6529
+    .line 6530
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setTimeOut(J)V
 
     const/4 v0, 0x1
 
-    .line 6531
+    .line 6532
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setByteLength(I)V
 
-    .line 6533
+    .line 6534
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDataByte(I)V
 
-    .line 6535
+    .line 6536
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setLinByte(I)V
 
-    .line 6537
+    .line 6538
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Edge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setTriggerMode(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;)V
 
     const-string v0, "[bin]XXXXXXXX"
 
-    .line 6538
+    .line 6539
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue1Str(Ljava/lang/String;)V
 
     const-string v1, "XXXXXXXX"
 
-    .line 6539
+    .line 6540
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue1Str:Ljava/lang/String;
 
     const/4 v2, 0x0
 
-    .line 6540
+    .line 6541
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setI2cDataType(I)V
 
-    .line 6541
+    .line 6542
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue2Str(Ljava/lang/String;)V
 
-    .line 6542
+    .line 6543
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue2Str:Ljava/lang/String;
 
-    .line 6543
+    .line 6544
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setSpiDataType(I)V
 
-    .line 6544
+    .line 6545
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue3DataStr(Ljava/lang/String;)V
 
-    .line 6545
+    .line 6546
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue3DataStr:Ljava/lang/String;
 
-    .line 6546
+    .line 6547
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setCanDataType(I)V
 
     const-string v3, "[bin]XXX XXXXXXXX"
 
-    .line 6547
+    .line 6548
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue3IdStr(Ljava/lang/String;)V
 
     const-string v4, "XXX XXXXXXXX"
 
-    .line 6548
+    .line 6549
     iput-object v4, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue3IdStr:Ljava/lang/String;
 
-    .line 6549
+    .line 6550
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setCanIdType(I)V
 
-    .line 6550
+    .line 6551
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue4Str(Ljava/lang/String;)V
 
-    .line 6551
+    .line 6552
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue4Str:Ljava/lang/String;
 
-    .line 6552
+    .line 6553
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setLinDataType(I)V
 
     const-string v0, "[bin]XXXX"
 
-    .line 6553
+    .line 6554
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
     const-string v1, "XXXX"
 
-    .line 6554
+    .line 6555
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5Str:Ljava/lang/String;
 
-    .line 6555
+    .line 6556
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setIisDataType(I)V
 
-    .line 6556
+    .line 6557
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MinStr(Ljava/lang/String;)V
 
-    .line 6557
+    .line 6558
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5MinStr:Ljava/lang/String;
 
-    .line 6558
+    .line 6559
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setIisMinDataType(I)V
 
-    .line 6559
+    .line 6560
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MaxStr(Ljava/lang/String;)V
 
-    .line 6560
+    .line 6561
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5MaxStr:Ljava/lang/String;
 
-    .line 6561
+    .line 6562
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setIisMaxDataType(I)V
 
     const-string v0, "[bin]XXXXXXXX XXXXXXXX"
 
-    .line 6562
+    .line 6563
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6Str(Ljava/lang/String;)V
 
     const-string v1, "XXXXXXXX XXXXXXXX"
 
-    .line 6563
+    .line 6564
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6Str:Ljava/lang/String;
 
-    .line 6564
+    .line 6565
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setDownType(I)V
 
-    .line 6565
+    .line 6566
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6MaxStr(Ljava/lang/String;)V
 
-    .line 6566
+    .line 6567
     iput-object v1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6MaxStr:Ljava/lang/String;
 
-    .line 6567
+    .line 6568
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setUpType(I)V
 
     const-string v0, "[bin]XXXXX"
 
-    .line 6568
+    .line 6569
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6RtaStr(Ljava/lang/String;)V
 
     const-string v0, "XXXXX"
 
-    .line 6569
+    .line 6570
     iput-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6RtaStr:Ljava/lang/String;
 
-    .line 6570
+    .line 6571
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setRtaType(I)V
 
-    .line 6571
+    .line 6572
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue6BitStr(Ljava/lang/String;)V
 
-    .line 6572
+    .line 6573
     iput-object v4, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6BitStr:Ljava/lang/String;
 
-    .line 6573
+    .line 6574
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/TriggerParam;->setBitType(I)V
 
     const/4 v0, 0x3
 
-    .line 6574
+    .line 6575
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChannel(I)V
 
     return-void
@@ -29561,7 +29561,7 @@
 .method public rollTriggerLevel(Landroid/view/KeyEvent;ZLcom/rigol/scope/viewmodels/PanelKeyViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 3
 
-    .line 11878
+    .line 11879
     const-class v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -29570,7 +29570,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
-    .line 11879
+    .line 11880
     const-class v1, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -29579,17 +29579,17 @@
 
     check-cast v1, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
-    .line 11882
+    .line 11883
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz v0, :cond_0
 
-    .line 11884
+    .line 11885
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 11885
+    .line 11886
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -29608,10 +29608,10 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 11889
+    .line 11890
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 11890
+    .line 11891
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -29627,12 +29627,12 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 11893
+    .line 11894
     invoke-virtual {p3, v0, v2, p4, p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->handleLevelCW(Lcom/rigol/scope/data/HorizontalParam;Ljava/util/List;Lcom/rigol/scope/data/TriggerParam;Landroid/view/KeyEvent;)V
 
     goto :goto_1
 
-    .line 11895
+    .line 11896
     :cond_2
     invoke-virtual {p3, v0, v2, p4, p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->handleLevelCCW(Lcom/rigol/scope/data/HorizontalParam;Ljava/util/List;Lcom/rigol/scope/data/TriggerParam;Landroid/view/KeyEvent;)V
 
@@ -29658,7 +29658,7 @@
 .method public saveButtonLevel()V
     .locals 4
 
-    .line 9103
+    .line 9104
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29677,7 +29677,7 @@
 .method public saveButtonLevelA()V
     .locals 4
 
-    .line 9107
+    .line 9108
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29696,7 +29696,7 @@
 .method public saveButtonLevelB()V
     .locals 4
 
-    .line 9111
+    .line 9112
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29735,10 +29735,10 @@
 .method public saveCanBaud(I)V
     .locals 3
 
-    .line 5041
+    .line 5042
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setCanBaud(I)V
 
-    .line 5042
+    .line 5043
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29761,7 +29761,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 9502
+    .line 9503
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -29772,7 +29772,7 @@
 
     goto :goto_0
 
-    .line 9504
+    .line 9505
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -29782,7 +29782,7 @@
 
     invoke-virtual {v2, v1, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9507
+    .line 9508
     :goto_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setCanDefine(Z)V
 
@@ -29792,10 +29792,10 @@
 .method public saveCanFdBaud(I)V
     .locals 3
 
-    .line 5046
+    .line 5047
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setCanFdBaud(I)V
 
-    .line 5047
+    .line 5048
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29812,7 +29812,7 @@
 .method public saveCanFdSamplePoints(I)V
     .locals 3
 
-    .line 9484
+    .line 9485
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29825,7 +29825,7 @@
 
     int-to-long v0, p1
 
-    .line 9485
+    .line 9486
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFdSamplePoints(J)V
 
     return-void
@@ -29840,7 +29840,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 9512
+    .line 9513
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -29851,7 +29851,7 @@
 
     goto :goto_0
 
-    .line 9514
+    .line 9515
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -29861,7 +29861,7 @@
 
     invoke-virtual {v2, v1, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9516
+    .line 9517
     :goto_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setIdExtended(Z)V
 
@@ -29871,7 +29871,7 @@
 .method public saveCanSamplePoints(I)V
     .locals 3
 
-    .line 9479
+    .line 9480
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29884,7 +29884,7 @@
 
     int-to-long v0, p1
 
-    .line 9480
+    .line 9481
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setSamplePoints(J)V
 
     return-void
@@ -29893,7 +29893,7 @@
 .method public saveCanSignal(I)V
     .locals 3
 
-    .line 9496
+    .line 9497
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29904,7 +29904,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9497
+    .line 9498
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Can_PhyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
 
     move-result-object p1
@@ -29917,7 +29917,7 @@
 .method public saveCanSource(I)V
     .locals 3
 
-    .line 9521
+    .line 9522
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29928,7 +29928,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9522
+    .line 9523
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -29941,7 +29941,7 @@
 .method public saveCanWhen(I)V
     .locals 3
 
-    .line 9490
+    .line 9491
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -29952,7 +29952,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9491
+    .line 9492
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Serv_Can_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     move-result-object p1
@@ -30055,7 +30055,7 @@
 .method public saveDelayLowerLimit(J)V
     .locals 3
 
-    .line 9370
+    .line 9371
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30066,7 +30066,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9371
+    .line 9372
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setDelayLowerLimit(J)V
 
     return-void
@@ -30075,7 +30075,7 @@
 .method public saveDelaySlopeA(Z)V
     .locals 3
 
-    .line 9352
+    .line 9353
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30086,7 +30086,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9353
+    .line 9354
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -30099,7 +30099,7 @@
 .method public saveDelaySlopeB(Z)V
     .locals 3
 
-    .line 9358
+    .line 9359
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30110,7 +30110,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9359
+    .line 9360
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -30123,7 +30123,7 @@
 .method public saveDelaySourceA(I)V
     .locals 3
 
-    .line 9332
+    .line 9333
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30134,14 +30134,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9333
+    .line 9334
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDelayChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9334
+    .line 9335
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -30154,7 +30154,7 @@
 .method public saveDelaySourceB(I)V
     .locals 3
 
-    .line 9339
+    .line 9340
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30165,14 +30165,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9340
+    .line 9341
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setDelayChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9341
+    .line 9342
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -30185,7 +30185,7 @@
 .method public saveDelayUpperLimit(J)V
     .locals 3
 
-    .line 9364
+    .line 9365
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30196,7 +30196,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9365
+    .line 9366
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setDelayUperLimit(J)V
 
     return-void
@@ -30205,7 +30205,7 @@
 .method public saveDelayWhen(I)V
     .locals 3
 
-    .line 9346
+    .line 9347
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30216,7 +30216,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9347
+    .line 9348
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object p1
@@ -30229,7 +30229,7 @@
 .method public saveDurationCode(I)V
     .locals 3
 
-    .line 9231
+    .line 9232
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30246,7 +30246,7 @@
 .method public saveDurationLowerLimit(J)V
     .locals 3
 
-    .line 9242
+    .line 9243
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30257,7 +30257,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9243
+    .line 9244
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setDurationLowerLimit(J)V
 
     return-void
@@ -30266,7 +30266,7 @@
 .method public saveDurationSource(I)V
     .locals 3
 
-    .line 9219
+    .line 9220
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30277,7 +30277,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9220
+    .line 9221
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -30290,7 +30290,7 @@
 .method public saveDurationUperLimit(J)V
     .locals 3
 
-    .line 9236
+    .line 9237
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30301,7 +30301,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9237
+    .line 9238
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setDurationUperLimit(J)V
 
     return-void
@@ -30310,7 +30310,7 @@
 .method public saveDurationWhen(I)V
     .locals 3
 
-    .line 9225
+    .line 9226
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30321,7 +30321,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9226
+    .line 9227
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object p1
@@ -30334,7 +30334,7 @@
 .method public saveEdgeCoupling(I)V
     .locals 3
 
-    .line 9053
+    .line 9054
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30345,7 +30345,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9054
+    .line 9055
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getCouplingFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object p1
@@ -30358,7 +30358,7 @@
 .method public saveEdgeSlope(I)V
     .locals 3
 
-    .line 9065
+    .line 9066
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30369,7 +30369,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9066
+    .line 9067
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -30382,7 +30382,7 @@
 .method public saveEdgeSource(I)V
     .locals 3
 
-    .line 9033
+    .line 9034
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30403,7 +30403,7 @@
 
     aput-object v2, v0, v1
 
-    .line 9034
+    .line 9035
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -30420,7 +30420,7 @@
 .method public saveFlexrayBaudValue(I)V
     .locals 3
 
-    .line 9694
+    .line 9695
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30431,7 +30431,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9695
+    .line 9696
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_BaudFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
 
     move-result-object p1
@@ -30450,7 +30450,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 9718
+    .line 9719
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -30461,7 +30461,7 @@
 
     goto :goto_0
 
-    .line 9721
+    .line 9722
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -30471,7 +30471,7 @@
 
     invoke-virtual {v2, v1, v0, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9723
+    .line 9724
     :goto_0
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_PhyFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
 
@@ -30485,7 +30485,7 @@
 .method public saveFlexrayCycCompValue(I)V
     .locals 3
 
-    .line 9658
+    .line 9659
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30496,7 +30496,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9659
+    .line 9660
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object p1
@@ -30509,7 +30509,7 @@
 .method public saveFlexrayDefine(Z)V
     .locals 3
 
-    .line 9706
+    .line 9707
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30520,7 +30520,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9707
+    .line 9708
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setDefine(Z)V
 
     return-void
@@ -30529,7 +30529,7 @@
 .method public saveFlexrayDownCycValue(I)V
     .locals 3
 
-    .line 9634
+    .line 9635
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30542,7 +30542,7 @@
 
     int-to-long v0, p1
 
-    .line 9635
+    .line 9636
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCompareLowerLimit(J)V
 
     return-void
@@ -30551,7 +30551,7 @@
 .method public saveFlexrayDownIdValue(I)V
     .locals 3
 
-    .line 9646
+    .line 9647
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30564,7 +30564,7 @@
 
     int-to-long v0, p1
 
-    .line 9647
+    .line 9648
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIdLowerLimit(J)V
 
     return-void
@@ -30573,7 +30573,7 @@
 .method public saveFlexrayErrorValue(I)V
     .locals 3
 
-    .line 9670
+    .line 9671
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30584,7 +30584,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9671
+    .line 9672
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     move-result-object p1
@@ -30597,7 +30597,7 @@
 .method public saveFlexrayFrameValue(I)V
     .locals 3
 
-    .line 9682
+    .line 9683
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30608,7 +30608,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9683
+    .line 9684
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_FrameFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
     move-result-object p1
@@ -30621,7 +30621,7 @@
 .method public saveFlexrayIdCompValue(I)V
     .locals 3
 
-    .line 9664
+    .line 9665
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30632,7 +30632,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9665
+    .line 9666
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object p1
@@ -30645,7 +30645,7 @@
 .method public saveFlexrayPostTypeValue(I)V
     .locals 3
 
-    .line 9688
+    .line 9689
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30656,7 +30656,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9689
+    .line 9690
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_PosFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
 
     move-result-object p1
@@ -30669,7 +30669,7 @@
 .method public saveFlexraySource(I)V
     .locals 3
 
-    .line 9700
+    .line 9701
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30680,7 +30680,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9701
+    .line 9702
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -30693,7 +30693,7 @@
 .method public saveFlexraySymbolValue(I)V
     .locals 3
 
-    .line 9676
+    .line 9677
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30704,7 +30704,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9677
+    .line 9678
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_SymbolFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
 
     move-result-object p1
@@ -30717,7 +30717,7 @@
 .method public saveFlexrayUpCycValue(I)V
     .locals 3
 
-    .line 9640
+    .line 9641
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30730,7 +30730,7 @@
 
     int-to-long v0, p1
 
-    .line 9641
+    .line 9642
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCompareUperLimit(J)V
 
     return-void
@@ -30739,7 +30739,7 @@
 .method public saveFlexrayUpIdValue(I)V
     .locals 3
 
-    .line 9652
+    .line 9653
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30752,7 +30752,7 @@
 
     int-to-long v0, p1
 
-    .line 9653
+    .line 9654
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setIdUperLimit(J)V
 
     return-void
@@ -30761,7 +30761,7 @@
 .method public saveFlexrayWhen(I)V
     .locals 3
 
-    .line 9711
+    .line 9712
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30772,7 +30772,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9712
+    .line 9713
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Flex_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
     move-result-object p1
@@ -30785,7 +30785,7 @@
 .method public saveHoldValue(J)V
     .locals 3
 
-    .line 9414
+    .line 9415
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30796,7 +30796,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9415
+    .line 9416
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setHold(J)V
 
     return-void
@@ -30805,7 +30805,7 @@
 .method public saveI2cAddrWidthValue(I)V
     .locals 3
 
-    .line 9602
+    .line 9603
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30816,7 +30816,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9603
+    .line 9604
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_I2C_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
 
     move-result-object p1
@@ -30849,7 +30849,7 @@
 .method public saveI2cDirectionValue(I)V
     .locals 3
 
-    .line 9608
+    .line 9609
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30860,7 +30860,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9609
+    .line 9610
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_I2C_WRFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     move-result-object p1
@@ -30873,7 +30873,7 @@
 .method public saveI2cSourceScl(I)V
     .locals 3
 
-    .line 9621
+    .line 9622
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30884,14 +30884,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9622
+    .line 9623
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIicChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9623
+    .line 9624
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -30904,7 +30904,7 @@
 .method public saveI2cSourceSda(I)V
     .locals 3
 
-    .line 9614
+    .line 9615
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30915,14 +30915,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9615
+    .line 9616
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setIicChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9616
+    .line 9617
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -30935,7 +30935,7 @@
 .method public saveI2cWhen(I)V
     .locals 3
 
-    .line 9628
+    .line 9629
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30946,7 +30946,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9629
+    .line 9630
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_I2C_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
     move-result-object p1
@@ -30959,7 +30959,7 @@
 .method public saveI2sAlignmentValue(I)V
     .locals 3
 
-    .line 9740
+    .line 9741
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30970,7 +30970,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9741
+    .line 9742
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_SpecFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
     move-result-object p1
@@ -30983,7 +30983,7 @@
 .method public saveI2sAllWidthValue(I)V
     .locals 3
 
-    .line 9728
+    .line 9729
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -30994,7 +30994,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9729
+    .line 9730
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setAllWidth(I)V
 
     return-void
@@ -31003,7 +31003,7 @@
 .method public saveI2sAudioValue(I)V
     .locals 3
 
-    .line 9746
+    .line 9747
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -31014,7 +31014,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9747
+    .line 9748
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_ChFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
 
     move-result-object p1
@@ -31027,7 +31027,7 @@
 .method public saveI2sEdgeValue(I)V
     .locals 3
 
-    .line 9752
+    .line 9753
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -31038,7 +31038,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9753
+    .line 9754
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -31051,7 +31051,7 @@
 .method public saveI2sWidthValue(I)V
     .locals 3
 
-    .line 9734
+    .line 9735
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -31062,7 +31062,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9735
+    .line 9736
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setWidth(I)V
 
     return-void
@@ -31240,7 +31240,7 @@
 .method public saveIisWhen(I)V
     .locals 3
 
-    .line 9779
+    .line 9780
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -31251,7 +31251,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9780
+    .line 9781
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_IIS_data_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     move-result-object p1
@@ -31264,10 +31264,10 @@
 .method public saveLevel(J)V
     .locals 3
 
-    .line 6181
+    .line 6182
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6182
+    .line 6183
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Edge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
@@ -31334,11 +31334,11 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 6193
+    .line 6194
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6196
+    .line 6197
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -31366,7 +31366,7 @@
 
     monitor-enter p0
 
-    .line 6387
+    .line 6388
     :try_start_0
     iget-boolean p3, p0, Lcom/rigol/scope/data/TriggerParam;->enableToSetLevel:Z
     :try_end_0
@@ -31374,26 +31374,26 @@
 
     if-nez p3, :cond_0
 
-    .line 6389
+    .line 6390
     monitor-exit p0
 
     return-void
 
-    .line 6393
+    .line 6394
     :cond_0
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->level:J
 
     add-long/2addr v0, p1
 
-    .line 6396
+    .line 6397
     iget-wide v2, p0, Lcom/rigol/scope/data/TriggerParam;->level:J
 
     invoke-static {v2, v3, v0, v1}, Lcom/rigol/scope/utilities/OffsetUtil;->isCloseToAndOverZero(JJ)Z
 
     move-result p3
 
-    .line 6397
+    .line 6398
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -31426,10 +31426,10 @@
 
     const-wide/16 v0, 0x0
 
-    .line 6402
+    .line 6403
     iput-boolean v3, p0, Lcom/rigol/scope/data/TriggerParam;->enableToSetLevel:Z
 
-    .line 6404
+    .line 6405
     new-instance p3, Lcom/rigol/scope/data/-$$Lambda$TriggerParam$uQPUXz0AW1RxdWp-JbQ5jWZF7g0;
 
     invoke-direct {p3, p0}, Lcom/rigol/scope/data/-$$Lambda$TriggerParam$uQPUXz0AW1RxdWp-JbQ5jWZF7g0;-><init>(Lcom/rigol/scope/data/TriggerParam;)V
@@ -31438,7 +31438,7 @@
 
     invoke-static {p3, v4, v5}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThreadDelayed(Ljava/lang/Runnable;J)V
 
-    .line 6407
+    .line 6408
     :cond_1
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31452,33 +31452,33 @@
 
     if-ne p3, v2, :cond_4
 
-    .line 6409
+    .line 6410
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->slopeTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     if-ne p3, v0, :cond_2
 
-    .line 6410
+    .line 6411
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelA:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveSlopeLevelASync(J)V
 
-    .line 6411
+    .line 6412
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelB:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6412
+    .line 6413
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelB:J
 
     invoke-virtual {p0, v6, v5, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     goto/16 :goto_0
 
-    .line 6413
+    .line 6414
     :cond_2
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->slopeTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31486,26 +31486,26 @@
 
     if-ne p3, v0, :cond_3
 
-    .line 6414
+    .line 6415
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelB:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveSlopeLevelBSync(J)V
 
-    .line 6415
+    .line 6416
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelA:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6416
+    .line 6417
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelA:J
 
     invoke-virtual {p0, v6, v4, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     goto/16 :goto_0
 
-    .line 6417
+    .line 6418
     :cond_3
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->slopeTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31513,7 +31513,7 @@
 
     if-ne p3, v0, :cond_1f
 
-    .line 6418
+    .line 6419
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->slopelevelA:J
 
     add-long/2addr p1, v0
@@ -31522,7 +31522,7 @@
 
     goto/16 :goto_0
 
-    .line 6420
+    .line 6421
     :cond_4
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31530,33 +31530,33 @@
 
     if-ne p3, v2, :cond_7
 
-    .line 6422
+    .line 6423
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->runtTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     if-ne p3, v0, :cond_5
 
-    .line 6423
+    .line 6424
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelA:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveRuntLevelASync(J)V
 
-    .line 6424
+    .line 6425
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelB:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6425
+    .line 6426
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelB:J
 
     invoke-virtual {p0, v6, v5, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     goto/16 :goto_0
 
-    .line 6426
+    .line 6427
     :cond_5
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->runtTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31564,26 +31564,26 @@
 
     if-ne p3, v0, :cond_6
 
-    .line 6427
+    .line 6428
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelB:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveRuntLevelBSync(J)V
 
-    .line 6428
+    .line 6429
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelA:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6429
+    .line 6430
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelA:J
 
     invoke-virtual {p0, v6, v4, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     goto/16 :goto_0
 
-    .line 6430
+    .line 6431
     :cond_6
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->runtTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31591,7 +31591,7 @@
 
     if-ne p3, v0, :cond_1f
 
-    .line 6431
+    .line 6432
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->runtlevelA:J
 
     add-long/2addr p1, v0
@@ -31600,7 +31600,7 @@
 
     goto/16 :goto_0
 
-    .line 6433
+    .line 6434
     :cond_7
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31608,26 +31608,26 @@
 
     if-ne p3, v2, :cond_a
 
-    .line 6435
+    .line 6436
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->overTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     if-ne p3, v0, :cond_8
 
-    .line 6436
+    .line 6437
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelA:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveOverLevelASync(J)V
 
-    .line 6437
+    .line 6438
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelB:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6438
+    .line 6439
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -31646,7 +31646,7 @@
 
     goto/16 :goto_0
 
-    .line 6439
+    .line 6440
     :cond_8
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->overTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31654,19 +31654,19 @@
 
     if-ne p3, v0, :cond_9
 
-    .line 6440
+    .line 6441
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelB:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveOverLevelBSync(J)V
 
-    .line 6441
+    .line 6442
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelA:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6442
+    .line 6443
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -31685,7 +31685,7 @@
 
     goto/16 :goto_0
 
-    .line 6443
+    .line 6444
     :cond_9
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->overTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31693,7 +31693,7 @@
 
     if-ne p3, v0, :cond_1f
 
-    .line 6444
+    .line 6445
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->overlevelA:J
 
     add-long/2addr p1, v0
@@ -31702,7 +31702,7 @@
 
     goto/16 :goto_0
 
-    .line 6447
+    .line 6448
     :cond_a
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31710,26 +31710,26 @@
 
     if-ne p3, v2, :cond_d
 
-    .line 6449
+    .line 6450
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->milstdTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     if-ne p3, v0, :cond_b
 
-    .line 6450
+    .line 6451
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelA:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveMilstdLevelASync(J)V
 
-    .line 6451
+    .line 6452
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelB:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6452
+    .line 6453
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -31748,7 +31748,7 @@
 
     goto/16 :goto_0
 
-    .line 6453
+    .line 6454
     :cond_b
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->milstdTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31756,19 +31756,19 @@
 
     if-ne p3, v0, :cond_c
 
-    .line 6454
+    .line 6455
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelB:J
 
     add-long/2addr v0, p1
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveMilstdLevelBSync(J)V
 
-    .line 6455
+    .line 6456
     iget-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelA:J
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6456
+    .line 6457
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -31787,7 +31787,7 @@
 
     goto/16 :goto_0
 
-    .line 6457
+    .line 6458
     :cond_c
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->milstdTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -31795,7 +31795,7 @@
 
     if-ne p3, v0, :cond_1f
 
-    .line 6458
+    .line 6459
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelA:J
 
     add-long/2addr p1, v0
@@ -31804,7 +31804,7 @@
 
     goto/16 :goto_0
 
-    .line 6461
+    .line 6462
     :cond_d
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31812,14 +31812,14 @@
 
     if-ne p3, v2, :cond_10
 
-    .line 6462
+    .line 6463
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->delayChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p3, v2, :cond_e
 
-    .line 6463
+    .line 6464
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->delaylevelA:J
 
     add-long/2addr v0, p1
@@ -31828,7 +31828,7 @@
 
     goto/16 :goto_0
 
-    .line 6464
+    .line 6465
     :cond_e
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -31836,7 +31836,7 @@
 
     if-ne p3, v2, :cond_f
 
-    .line 6465
+    .line 6466
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->delaylevelB:J
 
     add-long/2addr v0, p1
@@ -31845,13 +31845,13 @@
 
     goto/16 :goto_0
 
-    .line 6467
+    .line 6468
     :cond_f
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveLevelSync(J)V
 
     goto/16 :goto_0
 
-    .line 6469
+    .line 6470
     :cond_10
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31859,14 +31859,14 @@
 
     if-ne p3, v2, :cond_13
 
-    .line 6470
+    .line 6471
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p3, v2, :cond_11
 
-    .line 6471
+    .line 6472
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldlevelA:J
 
     add-long/2addr v0, p1
@@ -31875,7 +31875,7 @@
 
     goto/16 :goto_0
 
-    .line 6472
+    .line 6473
     :cond_11
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -31883,7 +31883,7 @@
 
     if-ne p3, v2, :cond_12
 
-    .line 6473
+    .line 6474
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldlevelB:J
 
     add-long/2addr v0, p1
@@ -31892,13 +31892,13 @@
 
     goto/16 :goto_0
 
-    .line 6475
+    .line 6476
     :cond_12
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveLevelSync(J)V
 
     goto/16 :goto_0
 
-    .line 6477
+    .line 6478
     :cond_13
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31906,14 +31906,14 @@
 
     if-ne p3, v2, :cond_16
 
-    .line 6478
+    .line 6479
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p3, v2, :cond_14
 
-    .line 6479
+    .line 6480
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelA:J
 
     add-long/2addr v0, p1
@@ -31922,7 +31922,7 @@
 
     goto/16 :goto_0
 
-    .line 6480
+    .line 6481
     :cond_14
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -31930,7 +31930,7 @@
 
     if-ne p3, v2, :cond_15
 
-    .line 6481
+    .line 6482
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelB:J
 
     add-long/2addr v0, p1
@@ -31939,13 +31939,13 @@
 
     goto/16 :goto_0
 
-    .line 6483
+    .line 6484
     :cond_15
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveLevelSync(J)V
 
     goto/16 :goto_0
 
-    .line 6485
+    .line 6486
     :cond_16
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -31953,7 +31953,7 @@
 
     if-ne p3, v2, :cond_1a
 
-    .line 6486
+    .line 6487
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -31964,7 +31964,7 @@
 
     if-ne p3, v2, :cond_17
 
-    .line 6487
+    .line 6488
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelA:J
 
     add-long/2addr v0, p1
@@ -31981,12 +31981,12 @@
 
     aput-object p2, p1, v4
 
-    .line 6488
+    .line 6489
     invoke-static {p1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
-    .line 6489
+    .line 6490
     :cond_17
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -31994,7 +31994,7 @@
 
     if-ne p3, v2, :cond_18
 
-    .line 6490
+    .line 6491
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelB:J
 
     add-long/2addr v0, p1
@@ -32011,12 +32011,12 @@
 
     aput-object p2, p1, v4
 
-    .line 6491
+    .line 6492
     invoke-static {p1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6492
+    .line 6493
     :cond_18
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -32024,14 +32024,14 @@
 
     if-ne p3, v2, :cond_19
 
-    .line 6494
+    .line 6495
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Spi_CS:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;->trig_spi_cs:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
     if-ne p3, v0, :cond_1f
 
-    .line 6495
+    .line 6496
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelC:J
 
     add-long/2addr v0, p1
@@ -32048,18 +32048,18 @@
 
     aput-object p2, p1, v4
 
-    .line 6496
+    .line 6497
     invoke-static {p1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6502
+    .line 6503
     :cond_19
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveLevelSync(J)V
 
     goto :goto_0
 
-    .line 6504
+    .line 6505
     :cond_1a
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -32067,14 +32067,14 @@
 
     if-ne p3, v2, :cond_1e
 
-    .line 6505
+    .line 6506
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p3, v2, :cond_1b
 
-    .line 6506
+    .line 6507
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelA:J
 
     add-long/2addr v0, p1
@@ -32083,7 +32083,7 @@
 
     goto :goto_0
 
-    .line 6507
+    .line 6508
     :cond_1b
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -32091,7 +32091,7 @@
 
     if-ne p3, v2, :cond_1c
 
-    .line 6508
+    .line 6509
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelB:J
 
     add-long/2addr v0, p1
@@ -32100,7 +32100,7 @@
 
     goto :goto_0
 
-    .line 6509
+    .line 6510
     :cond_1c
     iget-object p3, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -32108,7 +32108,7 @@
 
     if-ne p3, v2, :cond_1d
 
-    .line 6510
+    .line 6511
     iget-wide v0, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelC:J
 
     add-long/2addr v0, p1
@@ -32117,19 +32117,19 @@
 
     goto :goto_0
 
-    .line 6512
+    .line 6513
     :cond_1d
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveLevelSync(J)V
 
     goto :goto_0
 
-    .line 6515
+    .line 6516
     :cond_1e
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->saveLevelSync(J)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6517
+    .line 6518
     :cond_1f
     :goto_0
     monitor-exit p0
@@ -32147,14 +32147,14 @@
 .method public saveLevelSync(J)V
     .locals 2
 
-    .line 6206
+    .line 6207
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->saveLevel(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fab
 
-    .line 6207
+    .line 6208
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
     return-void
@@ -32163,7 +32163,7 @@
 .method public saveLinBaud(I)V
     .locals 3
 
-    .line 5503
+    .line 5504
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32174,7 +32174,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 5504
+    .line 5505
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setLinBaud(I)V
 
     return-void
@@ -32183,10 +32183,10 @@
 .method public saveLinByte(I)V
     .locals 3
 
-    .line 5460
+    .line 5461
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setLinByte(I)V
 
-    .line 5462
+    .line 5463
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32203,7 +32203,7 @@
 .method public saveLinErrorType(I)V
     .locals 3
 
-    .line 9533
+    .line 9534
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32214,7 +32214,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9534
+    .line 9535
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Lin_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
 
     move-result-object p1
@@ -32227,10 +32227,10 @@
 .method public saveLinId(I)V
     .locals 3
 
-    .line 5486
+    .line 5487
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setLinId(I)V
 
-    .line 5488
+    .line 5489
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32247,7 +32247,7 @@
 .method public saveLinSamplePoints(I)V
     .locals 3
 
-    .line 9539
+    .line 9540
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32260,7 +32260,7 @@
 
     int-to-long v0, p1
 
-    .line 9540
+    .line 9541
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLinSamplePosition(J)V
 
     return-void
@@ -32269,7 +32269,7 @@
 .method public saveLinSource(I)V
     .locals 3
 
-    .line 9527
+    .line 9528
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32280,7 +32280,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9528
+    .line 9529
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -32293,7 +32293,7 @@
 .method public saveLinVersion(I)V
     .locals 3
 
-    .line 9551
+    .line 9552
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32304,7 +32304,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9552
+    .line 9553
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Lin_VerFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     move-result-object p1
@@ -32317,7 +32317,7 @@
 .method public saveLinWhen(I)V
     .locals 3
 
-    .line 9545
+    .line 9546
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32328,7 +32328,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9546
+    .line 9547
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Lin_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     move-result-object p1
@@ -32341,10 +32341,10 @@
 .method public saveLinesNumber(I)V
     .locals 3
 
-    .line 6037
+    .line 6038
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setLinesNumber(I)V
 
-    .line 6039
+    .line 6040
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32361,7 +32361,7 @@
 .method public saveMilstdCompare(I)V
     .locals 3
 
-    .line 9803
+    .line 9804
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32372,7 +32372,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9804
+    .line 9805
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_value_cmpFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     move-result-object p1
@@ -32385,7 +32385,7 @@
 .method public saveMilstdErrorValue(I)V
     .locals 3
 
-    .line 9785
+    .line 9786
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32396,7 +32396,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9786
+    .line 9787
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_1553_ErrFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     move-result-object p1
@@ -32409,20 +32409,20 @@
 .method public saveMilstdLevelASync(J)V
     .locals 3
 
-    .line 6351
+    .line 6352
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6352
+    .line 6353
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelA(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe6
 
-    .line 6353
+    .line 6354
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6354
+    .line 6355
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32431,7 +32431,7 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 6355
+    .line 6356
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32442,7 +32442,7 @@
 
     goto :goto_0
 
-    .line 6359
+    .line 6360
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -32454,7 +32454,7 @@
 
     goto :goto_1
 
-    .line 6357
+    .line 6358
     :cond_1
     :goto_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -32472,20 +32472,20 @@
 .method public saveMilstdLevelBSync(J)V
     .locals 3
 
-    .line 6369
+    .line 6370
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6370
+    .line 6371
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setMilstdlevelB(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe7
 
-    .line 6371
+    .line 6372
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6372
+    .line 6373
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32494,7 +32494,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6373
+    .line 6374
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32503,7 +32503,7 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6375
+    .line 6376
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -32520,7 +32520,7 @@
 .method public saveMilstdLevelSelect(I)V
     .locals 3
 
-    .line 9815
+    .line 9816
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32531,7 +32531,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9816
+    .line 9817
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p1
@@ -32544,7 +32544,7 @@
 .method public saveMilstdPolarity(Z)V
     .locals 3
 
-    .line 9821
+    .line 9822
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32555,7 +32555,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9822
+    .line 9823
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object p1
@@ -32568,7 +32568,7 @@
 .method public saveMilstdSource(I)V
     .locals 3
 
-    .line 9797
+    .line 9798
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32579,7 +32579,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9798
+    .line 9799
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -32592,7 +32592,7 @@
 .method public saveMilstdSyncValue(I)V
     .locals 3
 
-    .line 9791
+    .line 9792
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32603,7 +32603,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9792
+    .line 9793
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_1553_SyncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
 
     move-result-object p1
@@ -32616,7 +32616,7 @@
 .method public saveMilstdWhen(I)V
     .locals 3
 
-    .line 9809
+    .line 9810
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32627,7 +32627,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9810
+    .line 9811
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_1553_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
 
     move-result-object p1
@@ -32640,7 +32640,7 @@
 .method public saveNoise(Z)V
     .locals 3
 
-    .line 9038
+    .line 9039
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32651,7 +32651,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9039
+    .line 9040
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setIsNoise(Z)V
 
     return-void
@@ -32660,10 +32660,10 @@
 .method public saveNthEdgeNumber(I)V
     .locals 3
 
-    .line 6046
+    .line 6047
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setEdgeNumber(I)V
 
-    .line 6048
+    .line 6049
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32680,7 +32680,7 @@
 .method public saveNthIdleTime(J)V
     .locals 3
 
-    .line 9432
+    .line 9433
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32691,7 +32691,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9433
+    .line 9434
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setIdelTime(J)V
 
     return-void
@@ -32700,7 +32700,7 @@
 .method public saveNthSlope(Z)V
     .locals 3
 
-    .line 9426
+    .line 9427
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32713,7 +32713,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 9427
+    .line 9428
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     goto :goto_0
@@ -32730,7 +32730,7 @@
 .method public saveNthSource(I)V
     .locals 3
 
-    .line 9420
+    .line 9421
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32741,7 +32741,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9421
+    .line 9422
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -32754,7 +32754,7 @@
 .method public saveOverEvent(I)V
     .locals 3
 
-    .line 9314
+    .line 9315
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32765,7 +32765,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9315
+    .line 9316
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getOverEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     move-result-object p1
@@ -32778,20 +32778,20 @@
 .method public saveOverLevelASync(J)V
     .locals 3
 
-    .line 6317
+    .line 6318
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 6318
+    .line 6319
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelA(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe6
 
-    .line 6319
+    .line 6320
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6320
+    .line 6321
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32800,7 +32800,7 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 6321
+    .line 6322
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32811,7 +32811,7 @@
 
     goto :goto_0
 
-    .line 6325
+    .line 6326
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -32823,7 +32823,7 @@
 
     goto :goto_1
 
-    .line 6323
+    .line 6324
     :cond_1
     :goto_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -32841,20 +32841,20 @@
 .method public saveOverLevelBSync(J)V
     .locals 3
 
-    .line 6335
+    .line 6336
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
-    .line 6336
+    .line 6337
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setOverlevelB(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe7
 
-    .line 6337
+    .line 6338
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6338
+    .line 6339
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32863,7 +32863,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6339
+    .line 6340
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -32872,7 +32872,7 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6341
+    .line 6342
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -32889,7 +32889,7 @@
 .method public saveOverSelect(I)V
     .locals 3
 
-    .line 9320
+    .line 9321
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32900,7 +32900,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9321
+    .line 9322
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p1
@@ -32913,7 +32913,7 @@
 .method public saveOverSlope(I)V
     .locals 3
 
-    .line 9308
+    .line 9309
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32924,7 +32924,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9309
+    .line 9310
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -32937,7 +32937,7 @@
 .method public saveOverSource(I)V
     .locals 3
 
-    .line 9302
+    .line 9303
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32948,7 +32948,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9303
+    .line 9304
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -32961,7 +32961,7 @@
 .method public saveOverTimeValue(J)V
     .locals 3
 
-    .line 9326
+    .line 9327
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32972,7 +32972,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9327
+    .line 9328
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setOverTime(J)V
 
     return-void
@@ -32981,7 +32981,7 @@
 .method public savePatternCode(I)V
     .locals 3
 
-    .line 9214
+    .line 9215
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -32998,7 +32998,7 @@
 .method public savePatternSource(I)V
     .locals 3
 
-    .line 9208
+    .line 9209
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33009,7 +33009,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9209
+    .line 9210
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -33022,10 +33022,10 @@
 .method public savePulseLowerLimit(J)V
     .locals 3
 
-    .line 9143
+    .line 9144
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLowerLimit(J)V
 
-    .line 9144
+    .line 9145
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33042,10 +33042,10 @@
 .method public savePulsePolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
     .locals 3
 
-    .line 9133
+    .line 9134
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setPolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
 
-    .line 9134
+    .line 9135
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33064,7 +33064,7 @@
 .method public savePulseSource(I)V
     .locals 3
 
-    .line 9123
+    .line 9124
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33075,7 +33075,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9124
+    .line 9125
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -33088,10 +33088,10 @@
 .method public savePulseUperLimit(J)V
     .locals 3
 
-    .line 9138
+    .line 9139
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setUperLimit(J)V
 
-    .line 9139
+    .line 9140
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33108,10 +33108,10 @@
 .method public savePulseWhen(Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;)V
     .locals 3
 
-    .line 9128
+    .line 9129
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setEMoreThan(Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;)V
 
-    .line 9129
+    .line 9130
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33130,7 +33130,7 @@
 .method public saveRs232BaudRate(I)V
     .locals 3
 
-    .line 9468
+    .line 9469
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33141,7 +33141,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9469
+    .line 9470
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setRs232BaudRate(I)V
 
     return-void
@@ -33172,7 +33172,7 @@
 .method public saveRs232Parity(I)V
     .locals 3
 
-    .line 9462
+    .line 9463
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33183,7 +33183,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9463
+    .line 9464
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_ParityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
     move-result-object p1
@@ -33196,7 +33196,7 @@
 .method public saveRs232Polarity(Z)V
     .locals 3
 
-    .line 9444
+    .line 9445
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33207,7 +33207,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9445
+    .line 9446
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object p1
@@ -33220,7 +33220,7 @@
 .method public saveRs232Source(I)V
     .locals 3
 
-    .line 9438
+    .line 9439
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33231,7 +33231,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9439
+    .line 9440
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -33244,7 +33244,7 @@
 .method public saveRs232Stop(I)V
     .locals 3
 
-    .line 9456
+    .line 9457
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33255,7 +33255,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9457
+    .line 9458
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_StopFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
 
     move-result-object p1
@@ -33268,7 +33268,7 @@
 .method public saveRs232When(I)V
     .locals 3
 
-    .line 9450
+    .line 9451
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33279,7 +33279,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9451
+    .line 9452
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_WhenFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
 
     move-result-object p1
@@ -33292,7 +33292,7 @@
 .method public saveRs232Width(I)V
     .locals 3
 
-    .line 9474
+    .line 9475
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33303,7 +33303,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9475
+    .line 9476
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_RS232_WidthFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
     move-result-object p1
@@ -33316,20 +33316,20 @@
 .method public saveRuntLevelASync(J)V
     .locals 3
 
-    .line 6282
+    .line 6283
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe6
 
-    .line 6283
+    .line 6284
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6284
+    .line 6285
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelA(J)V
 
-    .line 6285
+    .line 6286
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33338,7 +33338,7 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 6286
+    .line 6287
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33349,7 +33349,7 @@
 
     goto :goto_0
 
-    .line 6290
+    .line 6291
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -33361,7 +33361,7 @@
 
     goto :goto_1
 
-    .line 6288
+    .line 6289
     :cond_1
     :goto_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -33379,20 +33379,20 @@
 .method public saveRuntLevelBSync(J)V
     .locals 3
 
-    .line 6300
+    .line 6301
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe7
 
-    .line 6301
+    .line 6302
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6302
+    .line 6303
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setRuntlevelB(J)V
 
-    .line 6303
+    .line 6304
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33401,7 +33401,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6304
+    .line 6305
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33410,7 +33410,7 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6306
+    .line 6307
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -33427,7 +33427,7 @@
 .method public saveRuntLevelSelect(I)V
     .locals 3
 
-    .line 9272
+    .line 9273
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33438,7 +33438,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9273
+    .line 9274
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p1
@@ -33451,7 +33451,7 @@
 .method public saveRuntLower(J)V
     .locals 3
 
-    .line 9296
+    .line 9297
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33462,7 +33462,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9297
+    .line 9298
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setRuntLowerLimit(J)V
 
     return-void
@@ -33471,7 +33471,7 @@
 .method public saveRuntPolarity(I)V
     .locals 3
 
-    .line 9284
+    .line 9285
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33482,7 +33482,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9285
+    .line 9286
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object p1
@@ -33495,7 +33495,7 @@
 .method public saveRuntSource(I)V
     .locals 3
 
-    .line 9266
+    .line 9267
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33506,7 +33506,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9267
+    .line 9268
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -33519,7 +33519,7 @@
 .method public saveRuntUpper(J)V
     .locals 3
 
-    .line 9290
+    .line 9291
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33530,7 +33530,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9291
+    .line 9292
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setRuntUperLimit(J)V
 
     return-void
@@ -33539,7 +33539,7 @@
 .method public saveRuntWhen(I)V
     .locals 3
 
-    .line 9278
+    .line 9279
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33550,7 +33550,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9279
+    .line 9280
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object p1
@@ -33563,7 +33563,7 @@
 .method public saveSetupHold(I)V
     .locals 3
 
-    .line 9376
+    .line 9377
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33574,7 +33574,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9377
+    .line 9378
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getSHEventFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     move-result-object p1
@@ -33587,7 +33587,7 @@
 .method public saveSetupHoldData(Z)V
     .locals 3
 
-    .line 9388
+    .line 9389
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33598,7 +33598,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9389
+    .line 9390
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object p1
@@ -33681,7 +33681,7 @@
 .method public saveSetupHoldSlope(Z)V
     .locals 3
 
-    .line 9382
+    .line 9383
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33692,7 +33692,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9383
+    .line 9384
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -33705,7 +33705,7 @@
 .method public saveSetupValue(J)V
     .locals 3
 
-    .line 9408
+    .line 9409
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33716,7 +33716,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9409
+    .line 9410
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setSetup(J)V
 
     return-void
@@ -33725,7 +33725,7 @@
 .method public saveSlope(I)V
     .locals 3
 
-    .line 9166
+    .line 9167
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33736,7 +33736,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9167
+    .line 9168
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -33749,20 +33749,20 @@
 .method public saveSlopeLevelASync(J)V
     .locals 3
 
-    .line 6249
+    .line 6250
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe6
 
-    .line 6250
+    .line 6251
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6251
+    .line 6252
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelA(J)V
 
-    .line 6252
+    .line 6253
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33771,7 +33771,7 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 6253
+    .line 6254
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33782,7 +33782,7 @@
 
     goto :goto_0
 
-    .line 6257
+    .line 6258
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -33794,7 +33794,7 @@
 
     goto :goto_1
 
-    .line 6255
+    .line 6256
     :cond_1
     :goto_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -33812,20 +33812,20 @@
 .method public saveSlopeLevelBSync(J)V
     .locals 3
 
-    .line 6267
+    .line 6268
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
 
     const/16 v0, 0x29
 
     const/16 v1, 0x4fe7
 
-    .line 6268
+    .line 6269
     invoke-virtual {p0, v0, v1, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->syncInterfaceData(IIJ)V
 
-    .line 6269
+    .line 6270
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setSlopelevelB(J)V
 
-    .line 6270
+    .line 6271
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33834,7 +33834,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6271
+    .line 6272
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -33843,7 +33843,7 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6272
+    .line 6273
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -33860,7 +33860,7 @@
 .method public saveSlopeLevelSelect(I)V
     .locals 3
 
-    .line 9154
+    .line 9155
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33871,7 +33871,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9155
+    .line 9156
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Level_IDFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p1
@@ -33884,10 +33884,10 @@
 .method public saveSlopeLowerLimit(J)V
     .locals 3
 
-    .line 9177
+    .line 9178
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setSlopeLowerLimit(J)V
 
-    .line 9179
+    .line 9180
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33904,7 +33904,7 @@
 .method public saveSlopeSource(I)V
     .locals 3
 
-    .line 9149
+    .line 9150
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33915,7 +33915,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9150
+    .line 9151
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -33928,10 +33928,10 @@
 .method public saveSlopeUperLimit(J)V
     .locals 3
 
-    .line 9171
+    .line 9172
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setSlopeUperLimit(J)V
 
-    .line 9173
+    .line 9174
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33948,7 +33948,7 @@
 .method public saveSlopeWhen(I)V
     .locals 3
 
-    .line 9160
+    .line 9161
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33959,7 +33959,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9161
+    .line 9162
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEMoreThanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     move-result-object p1
@@ -33972,7 +33972,7 @@
 .method public saveSourceClock(I)V
     .locals 3
 
-    .line 9394
+    .line 9395
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -33983,14 +33983,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9395
+    .line 9396
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9396
+    .line 9397
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34003,7 +34003,7 @@
 .method public saveSourceData(I)V
     .locals 3
 
-    .line 9401
+    .line 9402
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34014,14 +34014,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9402
+    .line 9403
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9403
+    .line 9404
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34034,7 +34034,7 @@
 .method public saveSourceScl(I)V
     .locals 3
 
-    .line 9772
+    .line 9773
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34045,14 +34045,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9773
+    .line 9774
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9774
+    .line 9775
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34065,7 +34065,7 @@
 .method public saveSourceSda(I)V
     .locals 3
 
-    .line 9758
+    .line 9759
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34076,14 +34076,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9759
+    .line 9760
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9760
+    .line 9761
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34096,7 +34096,7 @@
 .method public saveSourceWs(I)V
     .locals 3
 
-    .line 9765
+    .line 9766
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34107,14 +34107,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9766
+    .line 9767
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9767
+    .line 9768
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34127,7 +34127,7 @@
 .method public saveSpiCsMode(Z)V
     .locals 3
 
-    .line 9584
+    .line 9585
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34138,7 +34138,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9585
+    .line 9586
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object p1
@@ -34256,7 +34256,7 @@
 .method public saveSpiSlope(Z)V
     .locals 3
 
-    .line 9596
+    .line 9597
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34269,7 +34269,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 9597
+    .line 9598
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     goto :goto_0
@@ -34286,7 +34286,7 @@
 .method public saveSpiSourceCs(I)V
     .locals 3
 
-    .line 9577
+    .line 9578
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34297,14 +34297,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9578
+    .line 9579
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9579
+    .line 9580
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34317,7 +34317,7 @@
 .method public saveSpiSourceScl(I)V
     .locals 3
 
-    .line 9563
+    .line 9564
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34328,14 +34328,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9564
+    .line 9565
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9565
+    .line 9566
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34348,7 +34348,7 @@
 .method public saveSpiSourceSda(I)V
     .locals 3
 
-    .line 9570
+    .line 9571
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34359,14 +34359,14 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9571
+    .line 9572
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 9572
+    .line 9573
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34379,7 +34379,7 @@
 .method public saveSpiTimeout(J)V
     .locals 3
 
-    .line 9557
+    .line 9558
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34390,7 +34390,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9558
+    .line 9559
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setSpiTimeOut(J)V
 
     return-void
@@ -34399,7 +34399,7 @@
 .method public saveSpiTimeout(Z)V
     .locals 3
 
-    .line 9590
+    .line 9591
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34410,7 +34410,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 9591
+    .line 9592
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Spi_CSFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
     move-result-object p1
@@ -34423,7 +34423,7 @@
 .method public saveSweep(I)V
     .locals 3
 
-    .line 9070
+    .line 9071
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34434,7 +34434,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9071
+    .line 9072
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setNMode(I)V
 
     return-void
@@ -34443,7 +34443,7 @@
 .method public saveTimeoutSlope(I)V
     .locals 3
 
-    .line 9254
+    .line 9255
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34454,7 +34454,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9255
+    .line 9256
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEdgeSlopeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object p1
@@ -34467,7 +34467,7 @@
 .method public saveTimeoutSource(I)V
     .locals 3
 
-    .line 9248
+    .line 9249
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34478,7 +34478,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9249
+    .line 9250
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34491,7 +34491,7 @@
 .method public saveTimeoutValue(J)V
     .locals 3
 
-    .line 9260
+    .line 9261
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34502,7 +34502,7 @@
 
     invoke-virtual {v0, v1, v2, p1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
-    .line 9261
+    .line 9262
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setTimeOut(J)V
 
     return-void
@@ -34511,7 +34511,7 @@
 .method public saveVideoFormat(I)V
     .locals 3
 
-    .line 9202
+    .line 9203
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34522,7 +34522,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9203
+    .line 9204
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Video_FormatFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     move-result-object p1
@@ -34535,7 +34535,7 @@
 .method public saveVideoLines(I)V
     .locals 3
 
-    .line 9190
+    .line 9191
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34546,7 +34546,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9191
+    .line 9192
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTrigger_Video_SyncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     move-result-object p1
@@ -34559,7 +34559,7 @@
 .method public saveVideoPolarity(I)V
     .locals 3
 
-    .line 9196
+    .line 9197
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34570,7 +34570,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9197
+    .line 9198
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getTriggerPulsePolarityFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
     move-result-object p1
@@ -34583,7 +34583,7 @@
 .method public saveVideoSource(I)V
     .locals 3
 
-    .line 9184
+    .line 9185
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34594,7 +34594,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 9185
+    .line 9186
     invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -34607,10 +34607,10 @@
 .method public saveholdOff(J)V
     .locals 3
 
-    .line 9080
+    .line 9081
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setHoldOff(J)V
 
-    .line 9081
+    .line 9082
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -34641,12 +34641,12 @@
 .method public setAllWidth(I)V
     .locals 0
 
-    .line 5834
+    .line 5835
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->allWidth:I
 
-    const/16 p1, 0x2b
+    const/16 p1, 0x2c
 
-    .line 5835
+    .line 5836
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -34664,12 +34664,12 @@
 .method public setBitType(I)V
     .locals 0
 
-    .line 5948
+    .line 5949
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->bitType:I
 
-    const/16 p1, 0x57
+    const/16 p1, 0x59
 
-    .line 5949
+    .line 5950
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -34681,7 +34681,7 @@
     .line 1776
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->byteLength:I
 
-    const/16 v0, 0x82
+    const/16 v0, 0x84
 
     .line 1777
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34917,12 +34917,12 @@
 .method public setCanBaud(I)V
     .locals 0
 
-    .line 5026
+    .line 5027
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canBaud:I
 
-    const/16 p1, 0x85
+    const/16 p1, 0x87
 
-    .line 5027
+    .line 5028
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -34931,12 +34931,12 @@
 .method public setCanDataIdType(I)V
     .locals 0
 
-    .line 10253
+    .line 10254
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canDataIdType:I
 
-    const/16 p1, 0x86
+    const/16 p1, 0x88
 
-    .line 10254
+    .line 10255
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -34948,7 +34948,7 @@
     .line 1938
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canDataType:I
 
-    const/16 p1, 0x87
+    const/16 p1, 0x89
 
     .line 1939
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34959,19 +34959,19 @@
 .method public setCanDefine(Z)V
     .locals 0
 
-    .line 5198
+    .line 5199
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->canDefine:Z
 
     if-nez p1, :cond_0
 
     const/16 p1, 0x40
 
-    .line 5200
+    .line 5201
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setKeyNumMax(I)V
 
     goto :goto_0
 
-    .line 5202
+    .line 5203
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
@@ -34981,7 +34981,7 @@
 
     const/16 p1, 0x1d
 
-    .line 5203
+    .line 5204
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setKeyNumMax(I)V
 
     goto :goto_0
@@ -34989,13 +34989,13 @@
     :cond_1
     const/16 p1, 0xb
 
-    .line 5205
+    .line 5206
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setKeyNumMax(I)V
 
     :goto_0
-    const/16 p1, 0x88
+    const/16 p1, 0x8a
 
-    .line 5239
+    .line 5240
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35004,12 +35004,12 @@
 .method public setCanFdBaud(I)V
     .locals 0
 
-    .line 5036
+    .line 5037
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canFdBaud:I
 
-    const/16 p1, 0x89
+    const/16 p1, 0x8b
 
-    .line 5037
+    .line 5038
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35021,7 +35021,7 @@
     .line 1958
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canIdBits:I
 
-    const/16 p1, 0x8a
+    const/16 p1, 0x8c
 
     .line 1959
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35035,7 +35035,7 @@
     .line 1948
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canIdType:I
 
-    const/16 p1, 0x8b
+    const/16 p1, 0x8d
 
     .line 1949
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35046,21 +35046,21 @@
 .method public setChan(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 3
 
-    .line 3802
+    .line 3803
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 3804
+    .line 3805
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 3805
+    .line 3806
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgress()V
 
-    const/16 v0, 0x95
-
-    .line 3806
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
+    const/16 v0, 0x97
 
     .line 3807
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
+
+    .line 3808
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -35081,18 +35081,18 @@
 .method public setChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4285
+    .line 4286
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 4286
+    .line 4287
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 4287
+    .line 4288
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x9e
+    const/16 p1, 0xa0
 
-    .line 4288
+    .line 4289
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35101,12 +35101,12 @@
 .method public setChanC(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4298
+    .line 4299
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x9f
+    const/16 p1, 0xa1
 
-    .line 4299
+    .line 4300
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35117,7 +35117,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 6027
+    .line 6028
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -35126,7 +35126,7 @@
 
     move-result p2
 
-    .line 6028
+    .line 6029
     check-cast p1, Landroid/widget/TextView;
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
@@ -35138,12 +35138,12 @@
 .method public setChanDurationPattern([Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;)V
     .locals 0
 
-    .line 4555
+    .line 4556
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    const/16 p1, 0xa1
+    const/16 p1, 0xa3
 
-    .line 4556
+    .line 4557
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35152,7 +35152,7 @@
 .method public setChanOffset(J)V
     .locals 0
 
-    .line 3830
+    .line 3831
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanOffset:J
 
     return-void
@@ -35161,12 +35161,12 @@
 .method public setChanPattern([Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;)V
     .locals 0
 
-    .line 4545
+    .line 4546
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    const/16 p1, 0xa3
+    const/16 p1, 0xa5
 
-    .line 4546
+    .line 4547
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35175,7 +35175,7 @@
 .method public setChanScale(J)V
     .locals 0
 
-    .line 3817
+    .line 3818
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanScale:J
 
     return-void
@@ -35184,12 +35184,12 @@
 .method public setChannel(I)V
     .locals 0
 
-    .line 3732
+    .line 3733
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
-    const/16 p1, 0xa8
+    const/16 p1, 0xaa
 
-    .line 3733
+    .line 3734
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35198,12 +35198,12 @@
 .method public setChannelB(I)V
     .locals 0
 
-    .line 3742
+    .line 3743
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->channelB:I
 
-    const/16 p1, 0xaa
+    const/16 p1, 0xac
 
-    .line 3743
+    .line 3744
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35212,12 +35212,12 @@
 .method public setChannelC(I)V
     .locals 0
 
-    .line 3752
+    .line 3753
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->channelC:I
 
-    const/16 p1, 0xac
+    const/16 p1, 0xae
 
-    .line 3753
+    .line 3754
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35226,12 +35226,12 @@
 .method public setCompareLowerLimit(J)V
     .locals 0
 
-    .line 5271
+    .line 5272
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->compareLowerLimit:J
 
-    const/16 p1, 0xb7
+    const/16 p1, 0xb9
 
-    .line 5272
+    .line 5273
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35240,12 +35240,12 @@
 .method public setCompareUperLimit(J)V
     .locals 0
 
-    .line 5260
+    .line 5261
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->compareUperLimit:J
 
-    const/16 p1, 0xb8
+    const/16 p1, 0xba
 
-    .line 5261
+    .line 5262
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -35254,15 +35254,15 @@
 .method public setCoupling(Lcom/rigol/scope/cil/ServiceEnum$Coupling;)V
     .locals 3
 
-    .line 4443
+    .line 4444
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    const/16 v0, 0xbd
+    const/16 v0, 0xc0
 
-    .line 4444
+    .line 4445
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
-    .line 4446
+    .line 4447
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -35291,7 +35291,7 @@
     .line 1835
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue1Str(Ljava/lang/String;)V
 
-    const/16 p1, 0xd3
+    const/16 p1, 0xd6
 
     .line 1836
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35305,7 +35305,7 @@
     .line 1545
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->dataBits:I
 
-    const/16 p1, 0xd4
+    const/16 p1, 0xd7
 
     .line 1546
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35894,7 +35894,7 @@
     .line 1885
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->dataByte:I
 
-    const/16 p1, 0xd5
+    const/16 p1, 0xd8
 
     .line 1886
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36152,12 +36152,12 @@
 .method public setDefine(Z)V
     .locals 0
 
-    .line 5249
+    .line 5250
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->Define:Z
 
-    const/16 p1, 0xdd
+    const/16 p1, 0xe0
 
-    .line 5250
+    .line 5251
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36166,18 +36166,18 @@
 .method public setDelayChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4309
+    .line 4310
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->delayChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 4310
+    .line 4311
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 4311
+    .line 4312
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0xe1
+    const/16 p1, 0xe4
 
-    .line 4312
+    .line 4313
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36186,18 +36186,18 @@
 .method public setDelayChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4322
+    .line 4323
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->delayChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 4323
+    .line 4324
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 4324
+    .line 4325
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0xe2
+    const/16 p1, 0xe5
 
-    .line 4325
+    .line 4326
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36209,7 +36209,7 @@
     .line 1505
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->delayLowerLimit:J
 
-    const/16 p1, 0xe3
+    const/16 p1, 0xe6
 
     .line 1506
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36223,7 +36223,7 @@
     .line 1495
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->delayUperLimit:J
 
-    const/16 p1, 0xe4
+    const/16 p1, 0xe7
 
     .line 1496
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36240,7 +36240,7 @@
     .line 1026
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0xe5
+    const/16 p1, 0xe8
 
     .line 1027
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36257,7 +36257,7 @@
     .line 1046
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0xe6
+    const/16 p1, 0xe9
 
     .line 1047
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36268,10 +36268,10 @@
 .method public setDownType(I)V
     .locals 0
 
-    .line 5918
+    .line 5919
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->downType:I
 
-    .line 5919
+    .line 5920
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36283,7 +36283,7 @@
     .line 1465
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->durationLowerLimit:J
 
-    const/16 p1, 0xf4
+    const/16 p1, 0xf8
 
     .line 1466
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36294,10 +36294,10 @@
 .method public setDurationPattern(Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;)V
     .locals 2
 
-    .line 4526
+    .line 4527
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->durationPattern:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 4527
+    .line 4528
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -36306,7 +36306,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 4528
+    .line 4529
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x0
@@ -36315,7 +36315,7 @@
 
     goto :goto_0
 
-    .line 4529
+    .line 4530
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -36325,7 +36325,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 4530
+    .line 4531
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x1
@@ -36334,7 +36334,7 @@
 
     goto :goto_0
 
-    .line 4531
+    .line 4532
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -36344,7 +36344,7 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 4532
+    .line 4533
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x2
@@ -36353,7 +36353,7 @@
 
     goto :goto_0
 
-    .line 4533
+    .line 4534
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -36363,7 +36363,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 4534
+    .line 4535
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x3
@@ -36372,9 +36372,9 @@
 
     :cond_3
     :goto_0
-    const/16 p1, 0xf5
+    const/16 p1, 0xf9
 
-    .line 4536
+    .line 4537
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36386,7 +36386,7 @@
     .line 1455
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->durationUperLimit:J
 
-    const/16 p1, 0xf6
+    const/16 p1, 0xfa
 
     .line 1456
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36397,12 +36397,12 @@
 .method public setEBaudRate(Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;)V
     .locals 0
 
-    .line 4830
+    .line 4831
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRate:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    const/16 p1, 0xf8
+    const/16 p1, 0xfc
 
-    .line 4831
+    .line 4832
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36411,12 +36411,12 @@
 .method public setEBaudRateCan(Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;)V
     .locals 0
 
-    .line 5016
+    .line 5017
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRateCan:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    const/16 p1, 0xf9
+    const/16 p1, 0xfd
 
-    .line 5017
+    .line 5018
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36425,12 +36425,12 @@
 .method public setEBaudRateLin(Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;)V
     .locals 0
 
-    .line 5412
+    .line 5413
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRateLin:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    const/16 p1, 0xfa
+    const/16 p1, 0xfe
 
-    .line 5413
+    .line 5414
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36439,12 +36439,12 @@
 .method public setEMoreThan(Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;)V
     .locals 0
 
-    .line 4720
+    .line 4721
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eMoreThan:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    const/16 p1, 0xfb
+    const/16 p1, 0xff
 
-    .line 4721
+    .line 4722
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36456,7 +36456,7 @@
     .line 1713
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeNumber:I
 
-    const/16 p1, 0x101
+    const/16 p1, 0x105
 
     .line 1714
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36467,12 +36467,12 @@
 .method public setEdgeSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4566
+    .line 4567
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x105
+    const/16 p1, 0x109
 
-    .line 4567
+    .line 4568
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36481,12 +36481,12 @@
 .method public setEdgeSlopeA(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4647
+    .line 4648
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlopeA:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x106
+    const/16 p1, 0x10a
 
-    .line 4648
+    .line 4649
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36495,12 +36495,12 @@
 .method public setEdgeSlopeB(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4658
+    .line 4659
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlopeB:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x107
+    const/16 p1, 0x10b
 
-    .line 4659
+    .line 4660
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36512,7 +36512,7 @@
     .line 1880
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->fdSamplePoints:J
 
-    const/16 p1, 0x120
+    const/16 p1, 0x124
 
     .line 1881
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36526,7 +36526,7 @@
     .line 1855
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->format:I
 
-    const/16 p1, 0x149
+    const/16 p1, 0x14d
 
     .line 1856
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36537,12 +36537,12 @@
 .method public setFormatValue1Str(Ljava/lang/String;)V
     .locals 0
 
-    .line 3844
+    .line 3845
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue1Str:Ljava/lang/String;
 
-    const/16 p1, 0x14a
+    const/16 p1, 0x14e
 
-    .line 3845
+    .line 3846
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36551,12 +36551,12 @@
 .method public setFormatValue2Str(Ljava/lang/String;)V
     .locals 0
 
-    .line 3859
+    .line 3860
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue2Str:Ljava/lang/String;
 
-    const/16 p1, 0x14b
+    const/16 p1, 0x14f
 
-    .line 3860
+    .line 3861
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36565,12 +36565,12 @@
 .method public setFormatValue3DataStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3874
+    .line 3875
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue3DataStr:Ljava/lang/String;
 
-    const/16 p1, 0x14c
+    const/16 p1, 0x150
 
-    .line 3875
+    .line 3876
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36579,12 +36579,12 @@
 .method public setFormatValue3IdStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3884
+    .line 3885
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue3IdStr:Ljava/lang/String;
 
-    const/16 p1, 0x14d
+    const/16 p1, 0x151
 
-    .line 3885
+    .line 3886
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36593,12 +36593,12 @@
 .method public setFormatValue4Str(Ljava/lang/String;)V
     .locals 0
 
-    .line 3899
+    .line 3900
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue4Str:Ljava/lang/String;
 
-    const/16 p1, 0x14e
+    const/16 p1, 0x152
 
-    .line 3900
+    .line 3901
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36607,12 +36607,12 @@
 .method public setFormatValue5MaxStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3929
+    .line 3930
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5MaxStr:Ljava/lang/String;
 
-    const/16 p1, 0x14f
+    const/16 p1, 0x153
 
-    .line 3930
+    .line 3931
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36621,12 +36621,12 @@
 .method public setFormatValue5MinStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3919
+    .line 3920
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5MinStr:Ljava/lang/String;
 
-    const/16 p1, 0x150
+    const/16 p1, 0x154
 
-    .line 3920
+    .line 3921
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36635,12 +36635,12 @@
 .method public setFormatValue5Str(Ljava/lang/String;)V
     .locals 0
 
-    .line 3909
+    .line 3910
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5Str:Ljava/lang/String;
 
-    const/16 p1, 0x151
+    const/16 p1, 0x155
 
-    .line 3910
+    .line 3911
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36649,12 +36649,12 @@
 .method public setFormatValue6BitStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3969
+    .line 3970
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6BitStr:Ljava/lang/String;
 
-    const/16 p1, 0x152
+    const/16 p1, 0x156
 
-    .line 3970
+    .line 3971
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36663,12 +36663,12 @@
 .method public setFormatValue6MaxStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3949
+    .line 3950
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6MaxStr:Ljava/lang/String;
 
-    const/16 p1, 0x153
+    const/16 p1, 0x157
 
-    .line 3950
+    .line 3951
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36677,12 +36677,12 @@
 .method public setFormatValue6RtaStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 3959
+    .line 3960
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6RtaStr:Ljava/lang/String;
 
-    const/16 p1, 0x154
+    const/16 p1, 0x158
 
-    .line 3960
+    .line 3961
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36691,12 +36691,12 @@
 .method public setFormatValue6Str(Ljava/lang/String;)V
     .locals 0
 
-    .line 3939
+    .line 3940
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6Str:Ljava/lang/String;
 
-    const/16 p1, 0x155
+    const/16 p1, 0x159
 
-    .line 3940
+    .line 3941
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36708,7 +36708,7 @@
     .line 1683
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->hold:J
 
-    const/16 p1, 0x173
+    const/16 p1, 0x177
 
     .line 1684
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36722,7 +36722,7 @@
     .line 1653
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->holdOff:J
 
-    const/16 p1, 0x174
+    const/16 p1, 0x178
 
     .line 1654
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36736,7 +36736,7 @@
     .line 1750
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->i2cAddress:I
 
-    const/16 p1, 0x17d
+    const/16 p1, 0x181
 
     .line 1751
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36747,12 +36747,12 @@
 .method public setI2cDataType(I)V
     .locals 0
 
-    .line 4923
+    .line 4924
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->i2cDataType:I
 
-    const/16 p1, 0x17e
+    const/16 p1, 0x182
 
-    .line 4924
+    .line 4925
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36761,12 +36761,12 @@
 .method public setI2sDataType(I)V
     .locals 0
 
-    .line 10242
+    .line 10243
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->i2sDataType:I
 
-    const/16 p1, 0x185
+    const/16 p1, 0x189
 
-    .line 10243
+    .line 10244
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -36775,12 +36775,12 @@
 .method public setIdExtended(Z)V
     .locals 13
 
-    .line 5057
+    .line 5058
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->idExtended:Z
 
-    const/16 v0, 0x193
+    const/16 v0, 0x197
 
-    .line 5058
+    .line 5059
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     const/16 v0, 0x1d
@@ -36789,16 +36789,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 5062
+    .line 5063
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setCanIdBits(I)V
 
     goto :goto_0
 
-    .line 5064
+    .line 5065
     :cond_0
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/TriggerParam;->setCanIdBits(I)V
 
-    .line 5068
+    .line 5069
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3IdStr()Ljava/lang/String;
 
@@ -36818,7 +36818,7 @@
 
     move-result-object p1
 
-    .line 5070
+    .line 5071
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue3IdStr()Ljava/lang/String;
 
     move-result-object v5
@@ -36839,7 +36839,7 @@
 
     const/16 v0, 0x8
 
-    .line 5074
+    .line 5075
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
 
@@ -36857,7 +36857,7 @@
 
     if-eq v5, v0, :cond_9
 
-    .line 5078
+    .line 5079
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanIdType()I
 
     move-result v0
@@ -36873,7 +36873,7 @@
     :goto_1
     if-ge v0, v8, :cond_2
 
-    .line 5080
+    .line 5081
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -36890,7 +36890,7 @@
 
     goto :goto_1
 
-    .line 5082
+    .line 5083
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -36904,12 +36904,12 @@
 
     move-result-object v0
 
-    .line 5084
+    .line 5085
     new-instance v5, Ljava/lang/StringBuffer;
 
     invoke-direct {v5, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5085
+    .line 5086
     invoke-virtual {v5}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v5
@@ -36918,7 +36918,7 @@
 
     move-result-object v5
 
-    .line 5086
+    .line 5087
     invoke-virtual {v5}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v5
@@ -36927,7 +36927,7 @@
 
     move v10, v6
 
-    .line 5087
+    .line 5088
     :goto_2
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -36935,14 +36935,14 @@
 
     if-ge v10, v12, :cond_4
 
-    .line 5088
+    .line 5089
     rem-int/lit8 v12, v10, 0x8
 
     if-nez v12, :cond_3
 
     if-eqz v10, :cond_3
 
-    .line 5089
+    .line 5090
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -36955,7 +36955,7 @@
 
     move-result-object v11
 
-    .line 5091
+    .line 5092
     :cond_3
     new-instance v12, Ljava/lang/StringBuilder;
 
@@ -36975,13 +36975,13 @@
 
     goto :goto_2
 
-    .line 5093
+    .line 5094
     :cond_4
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5094
+    .line 5095
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -37014,7 +37014,7 @@
     :goto_3
     if-ge v0, v2, :cond_6
 
-    .line 5099
+    .line 5100
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -37031,7 +37031,7 @@
 
     goto :goto_3
 
-    .line 5101
+    .line 5102
     :cond_6
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -37045,12 +37045,12 @@
 
     move-result-object v0
 
-    .line 5103
+    .line 5104
     new-instance v5, Ljava/lang/StringBuffer;
 
     invoke-direct {v5, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5104
+    .line 5105
     invoke-virtual {v5}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v5
@@ -37059,7 +37059,7 @@
 
     move-result-object v5
 
-    .line 5105
+    .line 5106
     invoke-virtual {v5}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v5
@@ -37068,7 +37068,7 @@
 
     move v10, v6
 
-    .line 5106
+    .line 5107
     :goto_4
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -37076,14 +37076,14 @@
 
     if-ge v10, v12, :cond_8
 
-    .line 5107
+    .line 5108
     rem-int/lit8 v12, v10, 0x2
 
     if-nez v12, :cond_7
 
     if-eqz v10, :cond_7
 
-    .line 5108
+    .line 5109
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -37096,7 +37096,7 @@
 
     move-result-object v11
 
-    .line 5110
+    .line 5111
     :cond_7
     new-instance v12, Ljava/lang/StringBuilder;
 
@@ -37116,13 +37116,13 @@
 
     goto :goto_4
 
-    .line 5112
+    .line 5113
     :cond_8
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v11}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5113
+    .line 5114
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -37145,7 +37145,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue3IdStr(Ljava/lang/String;)V
 
-    .line 5116
+    .line 5117
     :cond_9
     :goto_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getIdExtended()Z
@@ -37154,12 +37154,12 @@
 
     if-nez v0, :cond_15
 
-    .line 5118
+    .line 5119
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 5120
+    .line 5121
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanIdType()I
 
     move-result v5
@@ -37168,12 +37168,12 @@
 
     if-ne v0, v1, :cond_c
 
-    .line 5123
+    .line 5124
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, p1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5124
+    .line 5125
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object p1
@@ -37182,7 +37182,7 @@
 
     move-result-object p1
 
-    .line 5125
+    .line 5126
     invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object p1
@@ -37190,14 +37190,14 @@
     :goto_6
     if-ge v6, v0, :cond_b
 
-    .line 5127
+    .line 5128
     rem-int/lit8 v1, v6, 0x8
 
     if-nez v1, :cond_a
 
     if-eqz v6, :cond_a
 
-    .line 5128
+    .line 5129
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -37210,7 +37210,7 @@
 
     move-result-object v4
 
-    .line 5130
+    .line 5131
     :cond_a
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -37230,13 +37230,13 @@
 
     goto :goto_6
 
-    .line 5132
+    .line 5133
     :cond_b
     new-instance p1, Ljava/lang/StringBuffer;
 
     invoke-direct {p1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5133
+    .line 5134
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -37261,19 +37261,19 @@
 
     goto/16 :goto_a
 
-    .line 5138
+    .line 5139
     :cond_c
     :try_start_0
     invoke-virtual {p1, v8}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5140
+    .line 5141
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, p1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5141
+    .line 5142
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -37282,14 +37282,14 @@
 
     move-result-object v0
 
-    .line 5142
+    .line 5143
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
     move v1, v6
 
-    .line 5143
+    .line 5144
     :goto_7
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -37297,14 +37297,14 @@
 
     if-ge v1, v2, :cond_e
 
-    .line 5144
+    .line 5145
     rem-int/lit8 v2, v1, 0x8
 
     if-nez v2, :cond_d
 
     if-eqz v1, :cond_d
 
-    .line 5145
+    .line 5146
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -37317,7 +37317,7 @@
 
     move-result-object v4
 
-    .line 5147
+    .line 5148
     :cond_d
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -37337,13 +37337,13 @@
 
     goto :goto_7
 
-    .line 5149
+    .line 5150
     :cond_e
     new-instance p1, Ljava/lang/StringBuffer;
 
     invoke-direct {p1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5150
+    .line 5151
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -37377,7 +37377,7 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 5152
+    .line 5153
     invoke-static {p1}, Lcom/blankj/utilcode/util/GsonUtils;->toJson(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -37393,12 +37393,12 @@
 
     if-ne v0, v1, :cond_12
 
-    .line 5161
+    .line 5162
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, p1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5162
+    .line 5163
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object p1
@@ -37407,7 +37407,7 @@
 
     move-result-object p1
 
-    .line 5163
+    .line 5164
     invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object p1
@@ -37415,14 +37415,14 @@
     :goto_8
     if-ge v6, v0, :cond_11
 
-    .line 5165
+    .line 5166
     rem-int/lit8 v1, v6, 0x2
 
     if-nez v1, :cond_10
 
     if-eqz v6, :cond_10
 
-    .line 5166
+    .line 5167
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -37435,7 +37435,7 @@
 
     move-result-object v4
 
-    .line 5168
+    .line 5169
     :cond_10
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -37455,13 +37455,13 @@
 
     goto :goto_8
 
-    .line 5170
+    .line 5171
     :cond_11
     new-instance p1, Ljava/lang/StringBuffer;
 
     invoke-direct {p1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5171
+    .line 5172
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -37486,18 +37486,18 @@
 
     goto :goto_a
 
-    .line 5173
+    .line 5174
     :cond_12
     invoke-virtual {p1, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5175
+    .line 5176
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, p1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5176
+    .line 5177
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v0
@@ -37506,12 +37506,12 @@
 
     move-result-object v0
 
-    .line 5177
+    .line 5178
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
 
-    .line 5178
+    .line 5179
     :goto_9
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -37519,14 +37519,14 @@
 
     if-ge v6, v1, :cond_14
 
-    .line 5179
+    .line 5180
     rem-int/lit8 v1, v6, 0x2
 
     if-nez v1, :cond_13
 
     if-eqz v6, :cond_13
 
-    .line 5180
+    .line 5181
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -37539,7 +37539,7 @@
 
     move-result-object v4
 
-    .line 5182
+    .line 5183
     :cond_13
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -37559,13 +37559,13 @@
 
     goto :goto_9
 
-    .line 5184
+    .line 5185
     :cond_14
     new-instance p1, Ljava/lang/StringBuffer;
 
     invoke-direct {p1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5185
+    .line 5186
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -37596,12 +37596,12 @@
 .method public setIdLowerLimit(J)V
     .locals 0
 
-    .line 5291
+    .line 5292
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->idLowerLimit:J
 
-    const/16 p1, 0x194
+    const/16 p1, 0x198
 
-    .line 5292
+    .line 5293
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37610,12 +37610,12 @@
 .method public setIdUperLimit(J)V
     .locals 0
 
-    .line 5281
+    .line 5282
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->idUperLimit:J
 
-    const/16 p1, 0x195
+    const/16 p1, 0x199
 
-    .line 5282
+    .line 5283
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37627,7 +37627,7 @@
     .line 1703
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->idelTime:J
 
-    const/16 p1, 0x196
+    const/16 p1, 0x19a
 
     .line 1704
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37638,12 +37638,12 @@
 .method public setIicChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4356
+    .line 4357
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x198
+    const/16 p1, 0x19c
 
-    .line 4357
+    .line 4358
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37652,12 +37652,12 @@
 .method public setIicChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4372
+    .line 4373
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x199
+    const/16 p1, 0x19d
 
-    .line 4373
+    .line 4374
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37669,7 +37669,7 @@
     .line 1107
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelA:J
 
-    const/16 p1, 0x19a
+    const/16 p1, 0x19e
 
     .line 1108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37683,7 +37683,7 @@
     .line 1126
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelB:J
 
-    const/16 p1, 0x19b
+    const/16 p1, 0x19f
 
     .line 1127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37694,12 +37694,12 @@
 .method public setIisChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4407
+    .line 4408
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x19c
+    const/16 p1, 0x1a0
 
-    .line 4408
+    .line 4409
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37708,12 +37708,12 @@
 .method public setIisChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4422
+    .line 4423
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x19d
+    const/16 p1, 0x1a1
 
-    .line 4423
+    .line 4424
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37722,12 +37722,12 @@
 .method public setIisChanC(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4432
+    .line 4433
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x19e
+    const/16 p1, 0x1a2
 
-    .line 4433
+    .line 4434
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37736,12 +37736,12 @@
 .method public setIisDataType(I)V
     .locals 0
 
-    .line 5844
+    .line 5845
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisDataType:I
 
-    const/16 p1, 0x19f
+    const/16 p1, 0x1a3
 
-    .line 5845
+    .line 5846
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37750,12 +37750,12 @@
 .method public setIisMaxDataType(I)V
     .locals 0
 
-    .line 5854
+    .line 5855
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisMaxDataType:I
 
-    const/16 p1, 0x1a0
+    const/16 p1, 0x1a4
 
-    .line 5855
+    .line 5856
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37764,12 +37764,12 @@
 .method public setIisMinDataType(I)V
     .locals 0
 
-    .line 5864
+    .line 5865
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisMinDataType:I
 
-    const/16 p1, 0x1a1
+    const/16 p1, 0x1a5
 
-    .line 5865
+    .line 5866
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37778,12 +37778,12 @@
 .method public setIisSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4636
+    .line 4637
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x1a2
+    const/16 p1, 0x1a6
 
-    .line 4637
+    .line 4638
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37795,7 +37795,7 @@
     .line 1204
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelA:J
 
-    const/16 p1, 0x1a3
+    const/16 p1, 0x1a7
 
     .line 1205
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37809,7 +37809,7 @@
     .line 1223
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelB:J
 
-    const/16 p1, 0x1a4
+    const/16 p1, 0x1a8
 
     .line 1224
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37823,7 +37823,7 @@
     .line 1242
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelC:J
 
-    const/16 p1, 0x1a5
+    const/16 p1, 0x1a9
 
     .line 1243
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37834,12 +37834,12 @@
 .method public setIsNoise(Z)V
     .locals 0
 
-    .line 3773
+    .line 3774
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->isNoise:Z
 
-    const/16 p1, 0x1bb
+    const/16 p1, 0x1bf
 
-    .line 3774
+    .line 3775
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37848,12 +37848,12 @@
 .method public setItemPosition(I)V
     .locals 0
 
-    .line 3757
+    .line 3758
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->itemPosition:I
 
-    const/16 p1, 0x1be
+    const/16 p1, 0x1c2
 
-    .line 3758
+    .line 3759
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37865,7 +37865,7 @@
     .line 993
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->keyNumMax:I
 
-    const/16 p1, 0x1bf
+    const/16 p1, 0x1c3
 
     .line 994
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37904,7 +37904,7 @@
     .line 1014
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgress()V
 
-    const/16 p1, 0x1df
+    const/16 p1, 0x1e3
 
     .line 1015
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37922,7 +37922,7 @@
     .line 1262
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x1e0
+    const/16 p1, 0x1e4
 
     .line 1263
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37939,7 +37939,7 @@
     .line 1365
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressC()V
 
-    const/16 p1, 0x1e1
+    const/16 p1, 0x1e5
 
     .line 1366
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37950,12 +37950,12 @@
 .method public setLinBaud(I)V
     .locals 0
 
-    .line 5497
+    .line 5498
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linBaud:I
 
-    const/16 p1, 0x1e5
+    const/16 p1, 0x1e9
 
-    .line 5498
+    .line 5499
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -37964,15 +37964,15 @@
 .method public setLinByte(I)V
     .locals 10
 
-    .line 5422
+    .line 5423
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linByte:I
 
-    const/16 v0, 0x1e6
+    const/16 v0, 0x1ea
 
-    .line 5423
+    .line 5424
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
-    .line 5427
+    .line 5428
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinDataType()I
 
     move-result v0
@@ -37988,7 +37988,7 @@
     :cond_0
     const/16 v0, 0x8
 
-    .line 5430
+    .line 5431
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue4Str()Ljava/lang/String;
 
@@ -38008,7 +38008,7 @@
 
     move-result-object v1
 
-    .line 5431
+    .line 5432
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -38030,7 +38030,7 @@
 
     if-ge v6, v8, :cond_1
 
-    .line 5435
+    .line 5436
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -38049,7 +38049,7 @@
 
     goto :goto_1
 
-    .line 5437
+    .line 5438
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -38072,7 +38072,7 @@
 
     move-object p1, v3
 
-    .line 5439
+    .line 5440
     :goto_2
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -38080,7 +38080,7 @@
 
     if-ge v4, v6, :cond_3
 
-    .line 5440
+    .line 5441
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -38103,7 +38103,7 @@
 
     goto :goto_2
 
-    .line 5444
+    .line 5445
     :cond_3
     :goto_3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -38112,14 +38112,14 @@
 
     if-ge v5, v1, :cond_5
 
-    .line 5445
+    .line 5446
     rem-int v1, v5, v0
 
     if-nez v1, :cond_4
 
     if-eqz v5, :cond_4
 
-    .line 5446
+    .line 5447
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -38132,7 +38132,7 @@
 
     move-result-object v3
 
-    .line 5448
+    .line 5449
     :cond_4
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -38156,7 +38156,7 @@
 
     goto :goto_3
 
-    .line 5450
+    .line 5451
     :cond_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLinDataType()I
 
@@ -38164,7 +38164,7 @@
 
     if-nez p1, :cond_6
 
-    .line 5451
+    .line 5452
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -38181,7 +38181,7 @@
 
     goto :goto_4
 
-    .line 5454
+    .line 5455
     :cond_6
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -38197,7 +38197,7 @@
 
     move-result-object p1
 
-    .line 5456
+    .line 5457
     :goto_4
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue4Str(Ljava/lang/String;)V
 
@@ -38207,12 +38207,12 @@
 .method public setLinDataType(I)V
     .locals 0
 
-    .line 5471
+    .line 5472
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linDataType:I
 
-    const/16 p1, 0x1e7
+    const/16 p1, 0x1eb
 
-    .line 5472
+    .line 5473
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38221,12 +38221,12 @@
 .method public setLinId(I)V
     .locals 0
 
-    .line 5481
+    .line 5482
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linId:I
 
-    const/16 p1, 0x1e8
+    const/16 p1, 0x1ec
 
-    .line 5482
+    .line 5483
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38238,7 +38238,7 @@
     .line 1963
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->linSamplePosition:J
 
-    const/16 p1, 0x1e9
+    const/16 p1, 0x1ed
 
     .line 1964
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38252,7 +38252,7 @@
     .line 1515
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linesNumber:I
 
-    const/16 p1, 0x1f2
+    const/16 p1, 0x1f6
 
     .line 1516
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38266,7 +38266,7 @@
     .line 1425
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->lowerLimit:J
 
-    const/16 p1, 0x1fa
+    const/16 p1, 0x1fe
 
     .line 1426
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38277,12 +38277,12 @@
 .method public setMilstdDataType(I)V
     .locals 0
 
-    .line 10264
+    .line 10265
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdDataType:I
 
-    const/16 p1, 0x214
+    const/16 p1, 0x218
 
-    .line 10265
+    .line 10266
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38291,12 +38291,12 @@
 .method public setMilstdTrigger_Level_ID(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;)V
     .locals 0
 
-    .line 4797
+    .line 4798
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x215
+    const/16 p1, 0x219
 
-    .line 4798
+    .line 4799
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38308,7 +38308,7 @@
     .line 1344
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelA:J
 
-    const/16 p1, 0x216
+    const/16 p1, 0x21a
 
     .line 1345
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38322,7 +38322,7 @@
     .line 1354
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelB:J
 
-    const/16 p1, 0x217
+    const/16 p1, 0x21b
 
     .line 1355
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38336,7 +38336,7 @@
     .line 1663
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->nMode:I
 
-    const/16 p1, 0x225
+    const/16 p1, 0x229
 
     .line 1664
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38347,12 +38347,12 @@
 .method public setNthSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4616
+    .line 4617
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->nthSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x22d
+    const/16 p1, 0x231
 
-    .line 4617
+    .line 4618
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38361,12 +38361,12 @@
 .method public setOverEvent(Lcom/rigol/scope/cil/ServiceEnum$OverEvent;)V
     .locals 0
 
-    .line 4742
+    .line 4743
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->overEvent:Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
-    const/16 p1, 0x23d
+    const/16 p1, 0x241
 
-    .line 4743
+    .line 4744
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38375,12 +38375,12 @@
 .method public setOverSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4596
+    .line 4597
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->overSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x23e
+    const/16 p1, 0x242
 
-    .line 4597
+    .line 4598
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38392,7 +38392,7 @@
     .line 1643
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->overTime:J
 
-    const/16 p1, 0x23f
+    const/16 p1, 0x243
 
     .line 1644
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38403,12 +38403,12 @@
 .method public setOverTrigger_Level_ID(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;)V
     .locals 0
 
-    .line 4786
+    .line 4787
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->overTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x240
+    const/16 p1, 0x244
 
-    .line 4787
+    .line 4788
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38426,7 +38426,7 @@
     .line 1322
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverValue()J
 
-    const/16 p1, 0x241
+    const/16 p1, 0x245
 
     .line 1323
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38446,7 +38446,7 @@
     .line 1334
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverValue()J
 
-    const/16 p1, 0x242
+    const/16 p1, 0x246
 
     .line 1335
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38457,10 +38457,10 @@
 .method public setPattern(Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;)V
     .locals 2
 
-    .line 4467
+    .line 4468
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->pattern:Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    .line 4468
+    .line 4469
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -38469,7 +38469,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 4469
+    .line 4470
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x0
@@ -38478,7 +38478,7 @@
 
     goto/16 :goto_0
 
-    .line 4470
+    .line 4471
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38488,7 +38488,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 4471
+    .line 4472
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x1
@@ -38497,7 +38497,7 @@
 
     goto/16 :goto_0
 
-    .line 4472
+    .line 4473
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38507,7 +38507,7 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 4473
+    .line 4474
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x2
@@ -38516,7 +38516,7 @@
 
     goto/16 :goto_0
 
-    .line 4474
+    .line 4475
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38526,7 +38526,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 4475
+    .line 4476
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x3
@@ -38535,7 +38535,7 @@
 
     goto/16 :goto_0
 
-    .line 4476
+    .line 4477
     :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38545,7 +38545,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 4477
+    .line 4478
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x4
@@ -38554,7 +38554,7 @@
 
     goto/16 :goto_0
 
-    .line 4478
+    .line 4479
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38564,7 +38564,7 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 4479
+    .line 4480
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x5
@@ -38573,7 +38573,7 @@
 
     goto/16 :goto_0
 
-    .line 4480
+    .line 4481
     :cond_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38583,7 +38583,7 @@
 
     if-ne v0, v1, :cond_6
 
-    .line 4481
+    .line 4482
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x6
@@ -38592,7 +38592,7 @@
 
     goto/16 :goto_0
 
-    .line 4482
+    .line 4483
     :cond_6
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38602,7 +38602,7 @@
 
     if-ne v0, v1, :cond_7
 
-    .line 4483
+    .line 4484
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/4 v1, 0x7
@@ -38611,7 +38611,7 @@
 
     goto/16 :goto_0
 
-    .line 4484
+    .line 4485
     :cond_7
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38621,7 +38621,7 @@
 
     if-ne v0, v1, :cond_8
 
-    .line 4485
+    .line 4486
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x8
@@ -38630,7 +38630,7 @@
 
     goto/16 :goto_0
 
-    .line 4486
+    .line 4487
     :cond_8
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38640,7 +38640,7 @@
 
     if-ne v0, v1, :cond_9
 
-    .line 4487
+    .line 4488
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x9
@@ -38649,7 +38649,7 @@
 
     goto/16 :goto_0
 
-    .line 4488
+    .line 4489
     :cond_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38659,7 +38659,7 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 4489
+    .line 4490
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0xa
@@ -38668,7 +38668,7 @@
 
     goto/16 :goto_0
 
-    .line 4490
+    .line 4491
     :cond_a
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38678,7 +38678,7 @@
 
     if-ne v0, v1, :cond_b
 
-    .line 4491
+    .line 4492
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0xb
@@ -38687,7 +38687,7 @@
 
     goto/16 :goto_0
 
-    .line 4492
+    .line 4493
     :cond_b
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38697,7 +38697,7 @@
 
     if-ne v0, v1, :cond_c
 
-    .line 4493
+    .line 4494
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0xc
@@ -38706,7 +38706,7 @@
 
     goto/16 :goto_0
 
-    .line 4494
+    .line 4495
     :cond_c
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38716,7 +38716,7 @@
 
     if-ne v0, v1, :cond_d
 
-    .line 4495
+    .line 4496
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0xd
@@ -38725,7 +38725,7 @@
 
     goto/16 :goto_0
 
-    .line 4496
+    .line 4497
     :cond_d
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38735,7 +38735,7 @@
 
     if-ne v0, v1, :cond_e
 
-    .line 4497
+    .line 4498
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0xe
@@ -38744,7 +38744,7 @@
 
     goto/16 :goto_0
 
-    .line 4498
+    .line 4499
     :cond_e
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38754,7 +38754,7 @@
 
     if-ne v0, v1, :cond_f
 
-    .line 4499
+    .line 4500
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0xf
@@ -38763,7 +38763,7 @@
 
     goto/16 :goto_0
 
-    .line 4500
+    .line 4501
     :cond_f
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38773,7 +38773,7 @@
 
     if-ne v0, v1, :cond_10
 
-    .line 4501
+    .line 4502
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x10
@@ -38782,7 +38782,7 @@
 
     goto :goto_0
 
-    .line 4502
+    .line 4503
     :cond_10
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38792,7 +38792,7 @@
 
     if-ne v0, v1, :cond_11
 
-    .line 4503
+    .line 4504
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x11
@@ -38801,7 +38801,7 @@
 
     goto :goto_0
 
-    .line 4504
+    .line 4505
     :cond_11
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38811,7 +38811,7 @@
 
     if-ne v0, v1, :cond_12
 
-    .line 4505
+    .line 4506
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x12
@@ -38820,7 +38820,7 @@
 
     goto :goto_0
 
-    .line 4506
+    .line 4507
     :cond_12
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38830,7 +38830,7 @@
 
     if-ne v0, v1, :cond_13
 
-    .line 4507
+    .line 4508
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x13
@@ -38839,7 +38839,7 @@
 
     goto :goto_0
 
-    .line 4508
+    .line 4509
     :cond_13
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38849,7 +38849,7 @@
 
     if-ne v0, v1, :cond_14
 
-    .line 4509
+    .line 4510
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x14
@@ -38858,7 +38858,7 @@
 
     goto :goto_0
 
-    .line 4510
+    .line 4511
     :cond_14
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38868,7 +38868,7 @@
 
     if-ne v0, v1, :cond_15
 
-    .line 4511
+    .line 4512
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x15
@@ -38877,7 +38877,7 @@
 
     goto :goto_0
 
-    .line 4512
+    .line 4513
     :cond_15
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38887,7 +38887,7 @@
 
     if-ne v0, v1, :cond_16
 
-    .line 4513
+    .line 4514
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x16
@@ -38896,7 +38896,7 @@
 
     goto :goto_0
 
-    .line 4514
+    .line 4515
     :cond_16
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -38906,7 +38906,7 @@
 
     if-ne v0, v1, :cond_17
 
-    .line 4515
+    .line 4516
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
     const/16 v1, 0x17
@@ -38915,9 +38915,9 @@
 
     :cond_17
     :goto_0
-    const/16 p1, 0x256
+    const/16 p1, 0x25b
 
-    .line 4517
+    .line 4518
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38926,12 +38926,12 @@
 .method public setPolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
     .locals 0
 
-    .line 4679
+    .line 4680
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->polarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x27c
+    const/16 p1, 0x281
 
-    .line 4680
+    .line 4681
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -38943,7 +38943,7 @@
     .line 1375
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
 
-    const/16 p1, 0x298
+    const/16 p1, 0x29d
 
     .line 1376
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38957,7 +38957,7 @@
     .line 1385
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
 
-    const/16 p1, 0x299
+    const/16 p1, 0x29e
 
     .line 1386
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38971,7 +38971,7 @@
     .line 1395
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
 
-    const/16 p1, 0x29a
+    const/16 p1, 0x29f
 
     .line 1396
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38985,7 +38985,7 @@
     .line 1405
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progressC:I
 
-    const/16 p1, 0x29b
+    const/16 p1, 0x2a0
 
     .line 1406
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38996,12 +38996,12 @@
 .method public setPulsePolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
     .locals 0
 
-    .line 4669
+    .line 4670
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->pulsePolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x2a1
+    const/16 p1, 0x2a6
 
-    .line 4670
+    .line 4671
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39010,12 +39010,12 @@
 .method public setRs232BaudRate(I)V
     .locals 0
 
-    .line 4840
+    .line 4841
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->rs232BaudRate:I
 
-    const/16 p1, 0x2e1
+    const/16 p1, 0x2e6
 
-    .line 4841
+    .line 4842
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39027,7 +39027,7 @@
     .line 1728
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->rs232Data:J
 
-    const/16 p1, 0x2e2
+    const/16 p1, 0x2e7
 
     .line 1729
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39038,12 +39038,12 @@
 .method public setRtaType(I)V
     .locals 0
 
-    .line 5938
+    .line 5939
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->rtaType:I
 
-    const/16 p1, 0x2ef
+    const/16 p1, 0x2f4
 
-    .line 5939
+    .line 5940
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39055,7 +39055,7 @@
     .line 1485
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtLowerLimit:J
 
-    const/16 p1, 0x2f2
+    const/16 p1, 0x2f7
 
     .line 1486
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39066,12 +39066,12 @@
 .method public setRuntPolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
     .locals 0
 
-    .line 4699
+    .line 4700
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x2f3
+    const/16 p1, 0x2f8
 
-    .line 4700
+    .line 4701
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39080,12 +39080,12 @@
 .method public setRuntTrigger_Level_ID(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;)V
     .locals 0
 
-    .line 4775
+    .line 4776
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x2f4
+    const/16 p1, 0x2f9
 
-    .line 4776
+    .line 4777
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39097,7 +39097,7 @@
     .line 1475
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtUperLimit:J
 
-    const/16 p1, 0x2f5
+    const/16 p1, 0x2fa
 
     .line 1476
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39117,7 +39117,7 @@
     .line 1298
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntValue()J
 
-    const/16 p1, 0x2f6
+    const/16 p1, 0x2fb
 
     .line 1299
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39137,7 +39137,7 @@
     .line 1310
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntValue()J
 
-    const/16 p1, 0x2f7
+    const/16 p1, 0x2fc
 
     .line 1311
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39148,12 +39148,12 @@
 .method public setSHEvent(Lcom/rigol/scope/cil/ServiceEnum$SHEvent;)V
     .locals 0
 
-    .line 4808
+    .line 4809
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->sHEvent:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
-    const/16 p1, 0x2fa
+    const/16 p1, 0x2ff
 
-    .line 4809
+    .line 4810
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39165,7 +39165,7 @@
     .line 1865
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->samplePoints:J
 
-    const/16 p1, 0x2fc
+    const/16 p1, 0x301
 
     .line 1866
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39179,7 +39179,7 @@
     .line 1673
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->setup:J
 
-    const/16 p1, 0x325
+    const/16 p1, 0x32b
 
     .line 1674
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39193,7 +39193,7 @@
     .line 1693
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHold:Z
 
-    const/16 p1, 0x327
+    const/16 p1, 0x32d
 
     .line 1694
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39204,18 +39204,18 @@
 .method public setSetupHoldChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4335
+    .line 4336
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 4336
+    .line 4337
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 4337
+    .line 4338
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0x328
+    const/16 p1, 0x32e
 
-    .line 4338
+    .line 4339
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39224,18 +39224,18 @@
 .method public setSetupHoldChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4348
+    .line 4349
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 4349
+    .line 4350
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 4350
+    .line 4351
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x329
+    const/16 p1, 0x32f
 
-    .line 4351
+    .line 4352
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39244,12 +39244,12 @@
 .method public setSetupHoldPolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
     .locals 0
 
-    .line 4709
+    .line 4710
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x32a
+    const/16 p1, 0x330
 
-    .line 4710
+    .line 4711
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39258,12 +39258,12 @@
 .method public setSetupHoldSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4606
+    .line 4607
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x32b
+    const/16 p1, 0x331
 
-    .line 4607
+    .line 4608
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39278,7 +39278,7 @@
     .line 1066
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0x32c
+    const/16 p1, 0x332
 
     .line 1067
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39295,7 +39295,7 @@
     .line 1087
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x32d
+    const/16 p1, 0x333
 
     .line 1088
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39306,12 +39306,12 @@
 .method public setSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4576
+    .line 4577
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->slope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x344
+    const/16 p1, 0x34c
 
-    .line 4577
+    .line 4578
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39323,7 +39323,7 @@
     .line 1445
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopeLowerLimit:J
 
-    const/16 p1, 0x347
+    const/16 p1, 0x34f
 
     .line 1446
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39334,12 +39334,12 @@
 .method public setSlopeTrigger_Level_ID(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;)V
     .locals 0
 
-    .line 4764
+    .line 4765
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopeTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x349
+    const/16 p1, 0x351
 
-    .line 4765
+    .line 4766
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39351,7 +39351,7 @@
     .line 1435
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopeUperLimit:J
 
-    const/16 p1, 0x34a
+    const/16 p1, 0x352
 
     .line 1436
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39371,7 +39371,7 @@
     .line 1274
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateSlopeLevelDifferenceValue()J
 
-    const/16 p1, 0x34b
+    const/16 p1, 0x353
 
     .line 1275
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39391,7 +39391,7 @@
     .line 1286
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateSlopeLevelDifferenceValue()J
 
-    const/16 p1, 0x34c
+    const/16 p1, 0x354
 
     .line 1287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39402,12 +39402,12 @@
 .method public setSpiChanA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4377
+    .line 4378
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35d
+    const/16 p1, 0x366
 
-    .line 4378
+    .line 4379
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39416,12 +39416,12 @@
 .method public setSpiChanB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4392
+    .line 4393
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35e
+    const/16 p1, 0x367
 
-    .line 4393
+    .line 4394
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39430,12 +39430,12 @@
 .method public setSpiChanC(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 4402
+    .line 4403
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35f
+    const/16 p1, 0x368
 
-    .line 4403
+    .line 4404
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39444,12 +39444,12 @@
 .method public setSpiDataType(I)V
     .locals 0
 
-    .line 4944
+    .line 4945
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiDataType:I
 
-    const/16 p1, 0x360
+    const/16 p1, 0x369
 
-    .line 4945
+    .line 4946
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39458,12 +39458,12 @@
 .method public setSpiSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4626
+    .line 4627
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x361
+    const/16 p1, 0x36a
 
-    .line 4627
+    .line 4628
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39475,7 +39475,7 @@
     .line 1535
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiTimeOut:J
 
-    const/16 p1, 0x362
+    const/16 p1, 0x36b
 
     .line 1536
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39489,7 +39489,7 @@
     .line 1145
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelA:J
 
-    const/16 p1, 0x372
+    const/16 p1, 0x37b
 
     .line 1147
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39503,7 +39503,7 @@
     .line 1165
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelB:J
 
-    const/16 p1, 0x373
+    const/16 p1, 0x37c
 
     .line 1166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39517,7 +39517,7 @@
     .line 1185
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelC:J
 
-    const/16 p1, 0x374
+    const/16 p1, 0x37d
 
     .line 1186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39531,7 +39531,7 @@
     .line 1525
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->timeOut:J
 
-    const/16 p1, 0x39d
+    const/16 p1, 0x3a6
 
     .line 1526
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39542,12 +39542,12 @@
 .method public setTimeoutSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
     .locals 0
 
-    .line 4586
+    .line 4587
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->timeoutSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x39f
+    const/16 p1, 0x3a8
 
-    .line 4587
+    .line 4588
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39556,7 +39556,7 @@
 .method public setTriggerBinaryData(Ljava/lang/String;)V
     .locals 3
 
-    .line 11410
+    .line 11411
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -39565,12 +39565,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 11411
+    .line 11412
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue1Str:Ljava/lang/String;
 
     goto/16 :goto_1
 
-    .line 11412
+    .line 11413
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -39580,12 +39580,12 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 11413
+    .line 11414
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue2Str:Ljava/lang/String;
 
     goto/16 :goto_1
 
-    .line 11414
+    .line 11415
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -39595,25 +39595,25 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 11416
+    .line 11417
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCanDataIdType()I
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 11417
+    .line 11418
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue3DataStr:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11421
+    .line 11422
     :cond_2
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue3IdStr:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11423
+    .line 11424
     :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -39623,12 +39623,12 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 11424
+    .line 11425
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue4Str:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11425
+    .line 11426
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -39640,7 +39640,7 @@
 
     if-ne v0, v1, :cond_7
 
-    .line 11427
+    .line 11428
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getI2sDataType()I
 
     move-result v0
@@ -39655,23 +39655,23 @@
 
     goto :goto_0
 
-    .line 11433
+    .line 11434
     :cond_5
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5MaxStr:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11428
+    .line 11429
     :cond_6
     :goto_0
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5Str:Ljava/lang/String;
 
-    .line 11429
+    .line 11430
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue5MinStr:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11435
+    .line 11436
     :cond_7
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -39681,19 +39681,19 @@
 
     if-ne v0, v1, :cond_b
 
-    .line 11437
+    .line 11438
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
     move-result v0
 
     if-nez v0, :cond_8
 
-    .line 11438
+    .line 11439
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6MaxStr:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11441
+    .line 11442
     :cond_8
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -39701,12 +39701,12 @@
 
     if-ne v0, v2, :cond_9
 
-    .line 11442
+    .line 11443
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6Str:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11445
+    .line 11446
     :cond_9
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdDataType()I
 
@@ -39716,12 +39716,12 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 11446
+    .line 11447
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6RtaStr:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 11450
+    .line 11451
     :cond_a
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatBinaryValue6BitStr:Ljava/lang/String;
 
@@ -39733,27 +39733,27 @@
 .method public setTriggerMode(Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;)V
     .locals 3
 
-    .line 3784
+    .line 3785
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    .line 3785
+    .line 3786
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateChanScaleOffset()V
 
-    .line 3786
+    .line 3787
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgress()V
 
-    .line 3787
+    .line 3788
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    .line 3788
+    .line 3789
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 v0, 0x3a6
-
-    .line 3789
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
+    const/16 v0, 0x3af
 
     .line 3790
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
+
+    .line 3791
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -39774,12 +39774,12 @@
 .method public setTrigger_1553_Err(Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;)V
     .locals 0
 
-    .line 5897
+    .line 5898
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
-    const/16 p1, 0x3a9
+    const/16 p1, 0x3b2
 
-    .line 5898
+    .line 5899
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39788,12 +39788,12 @@
 .method public setTrigger_1553_Sync(Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;)V
     .locals 0
 
-    .line 5886
+    .line 5887
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_Sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
 
-    const/16 p1, 0x3aa
+    const/16 p1, 0x3b3
 
-    .line 5887
+    .line 5888
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39802,12 +39802,12 @@
 .method public setTrigger_1553_When(Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;)V
     .locals 0
 
-    .line 5875
+    .line 5876
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
 
-    const/16 p1, 0x3ab
+    const/16 p1, 0x3b4
 
-    .line 5876
+    .line 5877
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39816,12 +39816,12 @@
 .method public setTrigger_Can_Phy(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;)V
     .locals 0
 
-    .line 4955
+    .line 4956
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Can_Phy:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
 
-    const/16 p1, 0x3ac
+    const/16 p1, 0x3b5
 
-    .line 4956
+    .line 4957
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39830,12 +39830,12 @@
 .method public setTrigger_Flex_Baud(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;)V
     .locals 0
 
-    .line 5302
+    .line 5303
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Baud:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
 
-    const/16 p1, 0x3ad
+    const/16 p1, 0x3b6
 
-    .line 5303
+    .line 5304
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39844,12 +39844,12 @@
 .method public setTrigger_Flex_Err(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;)V
     .locals 0
 
-    .line 5368
+    .line 5369
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
-    const/16 p1, 0x3ae
+    const/16 p1, 0x3b7
 
-    .line 5369
+    .line 5370
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39858,12 +39858,12 @@
 .method public setTrigger_Flex_Frame(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;)V
     .locals 0
 
-    .line 5346
+    .line 5347
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Frame:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
-    const/16 p1, 0x3af
+    const/16 p1, 0x3b8
 
-    .line 5347
+    .line 5348
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39872,12 +39872,12 @@
 .method public setTrigger_Flex_Phy(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;)V
     .locals 0
 
-    .line 5313
+    .line 5314
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Phy:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
 
-    const/16 p1, 0x3b0
+    const/16 p1, 0x3b9
 
-    .line 5314
+    .line 5315
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39886,12 +39886,12 @@
 .method public setTrigger_Flex_Pos(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;)V
     .locals 0
 
-    .line 5335
+    .line 5336
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Pos:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
 
-    const/16 p1, 0x3b1
+    const/16 p1, 0x3ba
 
-    .line 5336
+    .line 5337
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39900,12 +39900,12 @@
 .method public setTrigger_Flex_Symbol(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;)V
     .locals 0
 
-    .line 5357
+    .line 5358
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Symbol:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
 
-    const/16 p1, 0x3b2
+    const/16 p1, 0x3bb
 
-    .line 5358
+    .line 5359
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39914,12 +39914,12 @@
 .method public setTrigger_Flex_When(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;)V
     .locals 0
 
-    .line 5324
+    .line 5325
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
-    const/16 p1, 0x3b3
+    const/16 p1, 0x3bc
 
-    .line 5325
+    .line 5326
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39928,12 +39928,12 @@
 .method public setTrigger_I2C_Spec(Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;)V
     .locals 0
 
-    .line 4901
+    .line 4902
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_Spec:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
 
-    const/16 p1, 0x3b4
+    const/16 p1, 0x3bd
 
-    .line 4902
+    .line 4903
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39942,12 +39942,12 @@
 .method public setTrigger_I2C_WR(Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;)V
     .locals 0
 
-    .line 4912
+    .line 4913
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_WR:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
-    const/16 p1, 0x3b5
+    const/16 p1, 0x3be
 
-    .line 4913
+    .line 4914
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39956,12 +39956,12 @@
 .method public setTrigger_I2C_When(Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;)V
     .locals 0
 
-    .line 4890
+    .line 4891
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    const/16 p1, 0x3b6
+    const/16 p1, 0x3bf
 
-    .line 4891
+    .line 4892
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39970,12 +39970,12 @@
 .method public setTrigger_IIS_Ch(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;)V
     .locals 0
 
-    .line 5536
+    .line 5537
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_Ch:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
 
-    const/16 p1, 0x3b7
+    const/16 p1, 0x3c0
 
-    .line 5537
+    .line 5538
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39984,12 +39984,12 @@
 .method public setTrigger_IIS_Spec(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;)V
     .locals 0
 
-    .line 5558
+    .line 5559
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_Spec:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
-    const/16 p1, 0x3b8
+    const/16 p1, 0x3c1
 
-    .line 5559
+    .line 5560
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -39998,12 +39998,12 @@
 .method public setTrigger_IIS_data_cmp(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)V
     .locals 0
 
-    .line 5547
+    .line 5548
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    const/16 p1, 0x3b9
+    const/16 p1, 0x3c2
 
-    .line 5548
+    .line 5549
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40012,12 +40012,12 @@
 .method public setTrigger_IIS_data_cmp_Cyc(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)V
     .locals 0
 
-    .line 5390
+    .line 5391
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp_Cyc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    const/16 p1, 0x3ba
+    const/16 p1, 0x3c3
 
-    .line 5391
+    .line 5392
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40026,12 +40026,12 @@
 .method public setTrigger_IIS_data_cmp_ID(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)V
     .locals 0
 
-    .line 5379
+    .line 5380
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    const/16 p1, 0x3bb
+    const/16 p1, 0x3c4
 
-    .line 5380
+    .line 5381
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40040,12 +40040,12 @@
 .method public setTrigger_Level_ID(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;)V
     .locals 0
 
-    .line 4753
+    .line 4754
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x3bc
+    const/16 p1, 0x3c5
 
-    .line 4754
+    .line 4755
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40054,12 +40054,12 @@
 .method public setTrigger_Lin_Err(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;)V
     .locals 0
 
-    .line 5514
+    .line 5515
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
 
-    const/16 p1, 0x3bd
+    const/16 p1, 0x3c6
 
-    .line 5515
+    .line 5516
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40068,12 +40068,12 @@
 .method public setTrigger_Lin_Ver(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;)V
     .locals 0
 
-    .line 5401
+    .line 5402
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_Ver:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
-    const/16 p1, 0x3be
+    const/16 p1, 0x3c7
 
-    .line 5402
+    .line 5403
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40082,12 +40082,12 @@
 .method public setTrigger_Lin_When(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;)V
     .locals 0
 
-    .line 5525
+    .line 5526
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    const/16 p1, 0x3bf
+    const/16 p1, 0x3c8
 
-    .line 5526
+    .line 5527
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40096,12 +40096,12 @@
 .method public setTrigger_RS232_Parity(Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;)V
     .locals 0
 
-    .line 4879
+    .line 4880
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Parity:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
-    const/16 p1, 0x3c0
+    const/16 p1, 0x3c9
 
-    .line 4880
+    .line 4881
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40110,12 +40110,12 @@
 .method public setTrigger_RS232_Stop(Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;)V
     .locals 0
 
-    .line 4868
+    .line 4869
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Stop:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
 
-    const/16 p1, 0x3c1
+    const/16 p1, 0x3ca
 
-    .line 4869
+    .line 4870
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40124,12 +40124,12 @@
 .method public setTrigger_RS232_When(Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;)V
     .locals 0
 
-    .line 4819
+    .line 4820
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
 
-    const/16 p1, 0x3c2
+    const/16 p1, 0x3cb
 
-    .line 4820
+    .line 4821
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40138,12 +40138,12 @@
 .method public setTrigger_RS232_Width(Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;)V
     .locals 0
 
-    .line 4857
+    .line 4858
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Width:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
-    const/16 p1, 0x3c3
+    const/16 p1, 0x3cc
 
-    .line 4858
+    .line 4859
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40152,12 +40152,12 @@
 .method public setTrigger_Serv_Can_When(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;)V
     .locals 0
 
-    .line 4966
+    .line 4967
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Serv_Can_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    const/16 p1, 0x3c4
+    const/16 p1, 0x3cd
 
-    .line 5006
+    .line 5007
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40166,12 +40166,12 @@
 .method public setTrigger_Spi_CS(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;)V
     .locals 0
 
-    .line 4934
+    .line 4935
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Spi_CS:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
-    const/16 p1, 0x3c5
+    const/16 p1, 0x3ce
 
-    .line 4935
+    .line 4936
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40180,12 +40180,12 @@
 .method public setTrigger_value_cmp(Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;)V
     .locals 0
 
-    .line 5908
+    .line 5909
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_value_cmp:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    const/16 p1, 0x3c6
+    const/16 p1, 0x3cf
 
-    .line 5909
+    .line 5910
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40194,7 +40194,7 @@
 .method public setUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;I)V
     .locals 3
 
-    .line 5993
+    .line 5994
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -40208,7 +40208,7 @@
     :cond_0
     move v0, p2
 
-    .line 5997
+    .line 5998
     :goto_0
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->ext:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -40220,7 +40220,7 @@
 
     move v0, v2
 
-    .line 6001
+    .line 6002
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->d0:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -40233,18 +40233,18 @@
     :cond_2
     move v2, v0
 
-    .line 6005
+    .line 6006
     :goto_1
     iput p2, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
-    .line 6006
+    .line 6007
     iget-object p2, p0, Lcom/rigol/scope/data/TriggerParam;->unit:[Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     aput-object p1, p2, v2
 
-    const/16 p1, 0x3d0
+    const/16 p1, 0x3d9
 
-    .line 6007
+    .line 6008
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40253,12 +40253,12 @@
 .method public setUpType(I)V
     .locals 0
 
-    .line 5928
+    .line 5929
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->upType:I
 
-    const/16 p1, 0x3d4
+    const/16 p1, 0x3dd
 
-    .line 5929
+    .line 5930
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40270,7 +40270,7 @@
     .line 1415
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->uperLimit:J
 
-    const/16 p1, 0x3d8
+    const/16 p1, 0x3e1
 
     .line 1416
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40281,12 +40281,12 @@
 .method public setVideoFormat(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;)V
     .locals 0
 
-    .line 4456
+    .line 4457
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->videoFormat:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    const/16 p1, 0x3f9
+    const/16 p1, 0x403
 
-    .line 4457
+    .line 4458
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40295,12 +40295,12 @@
 .method public setVideoPolarity(Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;)V
     .locals 0
 
-    .line 4689
+    .line 4690
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->videoPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x3fa
+    const/16 p1, 0x404
 
-    .line 4690
+    .line 4691
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40309,12 +40309,12 @@
 .method public setVideoSync(Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;)V
     .locals 0
 
-    .line 4731
+    .line 4732
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->videoSync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
-    const/16 p1, 0x3fb
+    const/16 p1, 0x405
 
-    .line 4732
+    .line 4733
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -40327,15 +40327,15 @@
 
     move/from16 v1, p1
 
-    .line 5569
+    .line 5570
     iput v1, v0, Lcom/rigol/scope/data/TriggerParam;->width:I
 
-    const/16 v1, 0x426
+    const/16 v1, 0x430
 
-    .line 5570
+    .line 5571
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
 
-    .line 5574
+    .line 5575
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5Str()Ljava/lang/String;
 
     move-result-object v1
@@ -40350,22 +40350,22 @@
 
     const-string v4, ""
 
-    .line 5575
+    .line 5576
     invoke-virtual {v1, v3, v4}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5576
+    .line 5577
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v5
 
-    .line 5578
+    .line 5579
     invoke-virtual {v1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v6
 
-    .line 5580
+    .line 5581
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
     move-result v7
@@ -40378,7 +40378,7 @@
 
     if-ne v7, v10, :cond_6
 
-    .line 5581
+    .line 5582
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v7
@@ -40387,7 +40387,7 @@
 
     if-gt v5, v7, :cond_1
 
-    .line 5582
+    .line 5583
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v11
@@ -40407,7 +40407,7 @@
 
     if-ge v6, v12, :cond_0
 
-    .line 5584
+    .line 5585
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -40424,7 +40424,7 @@
 
     goto :goto_0
 
-    .line 5586
+    .line 5587
     :cond_0
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -40443,7 +40443,7 @@
     :cond_1
     if-ge v5, v7, :cond_3
 
-    .line 5587
+    .line 5588
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v11
@@ -40461,7 +40461,7 @@
 
     if-ge v6, v12, :cond_2
 
-    .line 5589
+    .line 5590
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -40478,7 +40478,7 @@
 
     goto :goto_1
 
-    .line 5591
+    .line 5592
     :cond_2
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -40497,7 +40497,7 @@
     :cond_3
     if-lt v5, v7, :cond_5
 
-    .line 5593
+    .line 5594
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v1
@@ -40513,7 +40513,7 @@
     :goto_2
     if-ge v1, v5, :cond_9
 
-    .line 5595
+    .line 5596
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -40542,7 +40542,7 @@
     :goto_3
     if-ge v1, v5, :cond_9
 
-    .line 5599
+    .line 5600
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -40566,7 +40566,7 @@
 
     goto :goto_6
 
-    .line 5606
+    .line 5607
     :cond_6
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -40578,7 +40578,7 @@
 
     move v6, v9
 
-    .line 5607
+    .line 5608
     :goto_4
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -40588,7 +40588,7 @@
 
     if-ge v6, v11, :cond_7
 
-    .line 5608
+    .line 5609
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -40605,7 +40605,7 @@
 
     goto :goto_4
 
-    .line 5610
+    .line 5611
     :cond_7
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -40621,7 +40621,7 @@
 
     goto :goto_6
 
-    .line 5612
+    .line 5613
     :cond_8
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -40634,7 +40634,7 @@
     :goto_5
     if-ge v1, v5, :cond_9
 
-    .line 5613
+    .line 5614
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -40656,7 +40656,7 @@
     :cond_9
     move-object v1, v7
 
-    .line 5620
+    .line 5621
     :goto_6
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
@@ -40671,13 +40671,13 @@
     :cond_a
     const/16 v5, 0x8
 
-    .line 5623
+    .line 5624
     :goto_7
     new-instance v11, Ljava/lang/StringBuffer;
 
     invoke-direct {v11, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5624
+    .line 5625
     invoke-virtual {v11}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v11
@@ -40690,7 +40690,7 @@
 
     move v12, v9
 
-    .line 5625
+    .line 5626
     :goto_8
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -40698,14 +40698,14 @@
 
     if-ge v12, v14, :cond_c
 
-    .line 5626
+    .line 5627
     rem-int v14, v12, v5
 
     if-nez v14, :cond_b
 
     if-eqz v12, :cond_b
 
-    .line 5627
+    .line 5628
     new-instance v14, Ljava/lang/StringBuilder;
 
     invoke-direct {v14}, Ljava/lang/StringBuilder;-><init>()V
@@ -40718,7 +40718,7 @@
 
     move-result-object v13
 
-    .line 5629
+    .line 5630
     :cond_b
     new-instance v14, Ljava/lang/StringBuilder;
 
@@ -40742,13 +40742,13 @@
 
     goto :goto_8
 
-    .line 5631
+    .line 5632
     :cond_c
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v13}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5632
+    .line 5633
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -40757,7 +40757,7 @@
 
     move-result-object v1
 
-    .line 5633
+    .line 5634
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
     move-result v5
@@ -40768,7 +40768,7 @@
 
     if-nez v5, :cond_d
 
-    .line 5634
+    .line 5635
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -40783,7 +40783,7 @@
 
     goto :goto_9
 
-    .line 5636
+    .line 5637
     :cond_d
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -40797,7 +40797,7 @@
 
     move-result-object v1
 
-    .line 5639
+    .line 5640
     :goto_9
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisDataType()I
 
@@ -40811,7 +40811,7 @@
 
     if-ne v5, v10, :cond_f
 
-    .line 5640
+    .line 5641
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerBinaryData()Ljava/lang/String;
 
     move-result-object v5
@@ -40820,22 +40820,22 @@
 
     move-result-object v5
 
-    .line 5641
+    .line 5642
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v16
 
-    .line 5642
+    .line 5643
     rem-int/lit8 v6, v16, 0x4
 
     if-eqz v6, :cond_f
 
-    .line 5643
+    .line 5644
     new-instance v10, Ljava/lang/StringBuffer;
 
     invoke-direct {v10, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5644
+    .line 5645
     invoke-virtual {v5, v9, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v7
@@ -40846,7 +40846,7 @@
 
     if-eqz v7, :cond_e
 
-    .line 5646
+    .line 5647
     invoke-virtual {v10, v2, v15, v8}, Ljava/lang/StringBuffer;->replace(IILjava/lang/String;)Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -40857,13 +40857,13 @@
 
     goto :goto_a
 
-    .line 5648
+    .line 5649
     :cond_e
     invoke-virtual {v5, v9, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 5649
+    .line 5650
     invoke-virtual {v1, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v6
@@ -40890,7 +40890,7 @@
 
     const/4 v6, 0x2
 
-    .line 5650
+    .line 5651
     invoke-static {v5, v6}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
 
     move-result v1
@@ -40907,12 +40907,12 @@
 
     move-result-object v1
 
-    .line 5656
+    .line 5657
     :cond_f
     :goto_a
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5Str(Ljava/lang/String;)V
 
-    .line 5659
+    .line 5660
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MinStr()Ljava/lang/String;
 
     move-result-object v1
@@ -40921,22 +40921,22 @@
 
     move-result-object v1
 
-    .line 5660
+    .line 5661
     invoke-virtual {v1, v3, v4}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5661
+    .line 5662
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v5
 
-    .line 5663
+    .line 5664
     invoke-virtual {v1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v6
 
-    .line 5665
+    .line 5666
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
     move-result v7
@@ -40945,7 +40945,7 @@
 
     if-ne v7, v10, :cond_16
 
-    .line 5666
+    .line 5667
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v7
@@ -40954,7 +40954,7 @@
 
     if-gt v5, v7, :cond_11
 
-    .line 5667
+    .line 5668
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v16
@@ -40974,7 +40974,7 @@
 
     if-ge v6, v13, :cond_10
 
-    .line 5669
+    .line 5670
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -40995,7 +40995,7 @@
 
     goto :goto_b
 
-    .line 5671
+    .line 5672
     :cond_10
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41014,7 +41014,7 @@
     :cond_11
     if-ge v5, v7, :cond_13
 
-    .line 5672
+    .line 5673
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v10
@@ -41032,7 +41032,7 @@
 
     if-ge v6, v13, :cond_12
 
-    .line 5674
+    .line 5675
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -41049,7 +41049,7 @@
 
     goto :goto_c
 
-    .line 5676
+    .line 5677
     :cond_12
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41068,7 +41068,7 @@
     :cond_13
     if-lt v5, v7, :cond_15
 
-    .line 5678
+    .line 5679
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v1
@@ -41084,7 +41084,7 @@
     :goto_d
     if-ge v1, v5, :cond_19
 
-    .line 5680
+    .line 5681
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41115,7 +41115,7 @@
     :goto_e
     if-ge v1, v5, :cond_19
 
-    .line 5684
+    .line 5685
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41139,7 +41139,7 @@
 
     goto :goto_11
 
-    .line 5691
+    .line 5692
     :cond_16
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -41151,7 +41151,7 @@
 
     move v6, v9
 
-    .line 5692
+    .line 5693
     :goto_f
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -41161,7 +41161,7 @@
 
     if-ge v6, v10, :cond_17
 
-    .line 5693
+    .line 5694
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41178,7 +41178,7 @@
 
     goto :goto_f
 
-    .line 5695
+    .line 5696
     :cond_17
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41194,7 +41194,7 @@
 
     goto :goto_11
 
-    .line 5697
+    .line 5698
     :cond_18
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -41207,7 +41207,7 @@
     :goto_10
     if-ge v1, v5, :cond_19
 
-    .line 5698
+    .line 5699
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41229,7 +41229,7 @@
     :cond_19
     move-object v1, v7
 
-    .line 5705
+    .line 5706
     :goto_11
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
@@ -41246,13 +41246,13 @@
     :cond_1a
     const/16 v5, 0x8
 
-    .line 5708
+    .line 5709
     :goto_12
     new-instance v6, Ljava/lang/StringBuffer;
 
     invoke-direct {v6, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5709
+    .line 5710
     invoke-virtual {v6}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v6
@@ -41265,7 +41265,7 @@
 
     move v7, v9
 
-    .line 5710
+    .line 5711
     :goto_13
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -41273,14 +41273,14 @@
 
     if-ge v7, v13, :cond_1c
 
-    .line 5711
+    .line 5712
     rem-int v13, v7, v5
 
     if-nez v13, :cond_1b
 
     if-eqz v7, :cond_1b
 
-    .line 5712
+    .line 5713
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -41293,7 +41293,7 @@
 
     move-result-object v10
 
-    .line 5714
+    .line 5715
     :cond_1b
     new-instance v13, Ljava/lang/StringBuilder;
 
@@ -41317,13 +41317,13 @@
 
     goto :goto_13
 
-    .line 5716
+    .line 5717
     :cond_1c
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v10}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5717
+    .line 5718
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -41332,14 +41332,14 @@
 
     move-result-object v1
 
-    .line 5718
+    .line 5719
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
     move-result v5
 
     if-nez v5, :cond_1d
 
-    .line 5719
+    .line 5720
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -41354,7 +41354,7 @@
 
     goto :goto_14
 
-    .line 5721
+    .line 5722
     :cond_1d
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41368,7 +41368,7 @@
 
     move-result-object v1
 
-    .line 5724
+    .line 5725
     :goto_14
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMinDataType()I
 
@@ -41378,7 +41378,7 @@
 
     if-ne v5, v6, :cond_1f
 
-    .line 5725
+    .line 5726
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerBinaryData()Ljava/lang/String;
 
     move-result-object v5
@@ -41387,22 +41387,22 @@
 
     move-result-object v5
 
-    .line 5726
+    .line 5727
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v6
 
-    .line 5727
+    .line 5728
     rem-int/lit8 v6, v6, 0x4
 
     if-eqz v6, :cond_1f
 
-    .line 5728
+    .line 5729
     new-instance v7, Ljava/lang/StringBuffer;
 
     invoke-direct {v7, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5729
+    .line 5730
     invoke-virtual {v5, v9, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v10
@@ -41413,7 +41413,7 @@
 
     if-eqz v10, :cond_1e
 
-    .line 5731
+    .line 5732
     invoke-virtual {v7, v2, v15, v8}, Ljava/lang/StringBuffer;->replace(IILjava/lang/String;)Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -41424,13 +41424,13 @@
 
     goto :goto_15
 
-    .line 5733
+    .line 5734
     :cond_1e
     invoke-virtual {v5, v9, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 5734
+    .line 5735
     invoke-virtual {v1, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v6
@@ -41461,7 +41461,7 @@
 
     const/4 v6, 0x2
 
-    .line 5735
+    .line 5736
     invoke-static {v5, v6}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
 
     move-result v1
@@ -41478,12 +41478,12 @@
 
     move-result-object v1
 
-    .line 5740
+    .line 5741
     :cond_1f
     :goto_15
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MinStr(Ljava/lang/String;)V
 
-    .line 5743
+    .line 5744
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getFormatValue5MaxStr()Ljava/lang/String;
 
     move-result-object v1
@@ -41492,22 +41492,22 @@
 
     move-result-object v1
 
-    .line 5744
+    .line 5745
     invoke-virtual {v1, v3, v4}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5745
+    .line 5746
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v5
 
-    .line 5747
+    .line 5748
     invoke-virtual {v1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v6
 
-    .line 5749
+    .line 5750
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
     move-result v7
@@ -41516,7 +41516,7 @@
 
     if-ne v7, v10, :cond_26
 
-    .line 5750
+    .line 5751
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v7
@@ -41525,7 +41525,7 @@
 
     if-gt v5, v7, :cond_21
 
-    .line 5751
+    .line 5752
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v13
@@ -41545,7 +41545,7 @@
 
     if-ge v6, v14, :cond_20
 
-    .line 5753
+    .line 5754
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41564,7 +41564,7 @@
 
     goto :goto_16
 
-    .line 5755
+    .line 5756
     :cond_20
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41583,7 +41583,7 @@
     :cond_21
     if-ge v5, v7, :cond_23
 
-    .line 5756
+    .line 5757
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v10
@@ -41601,7 +41601,7 @@
 
     if-ge v6, v13, :cond_22
 
-    .line 5758
+    .line 5759
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -41618,7 +41618,7 @@
 
     goto :goto_17
 
-    .line 5760
+    .line 5761
     :cond_22
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41637,7 +41637,7 @@
     :cond_23
     if-lt v5, v7, :cond_25
 
-    .line 5762
+    .line 5763
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
     move-result v1
@@ -41653,7 +41653,7 @@
     :goto_18
     if-ge v1, v5, :cond_29
 
-    .line 5764
+    .line 5765
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41684,7 +41684,7 @@
     :goto_19
     if-ge v1, v5, :cond_29
 
-    .line 5768
+    .line 5769
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41708,7 +41708,7 @@
 
     goto :goto_1c
 
-    .line 5775
+    .line 5776
     :cond_26
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -41720,7 +41720,7 @@
 
     move v6, v9
 
-    .line 5776
+    .line 5777
     :goto_1a
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -41730,7 +41730,7 @@
 
     if-ge v6, v10, :cond_27
 
-    .line 5777
+    .line 5778
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41747,7 +41747,7 @@
 
     goto :goto_1a
 
-    .line 5779
+    .line 5780
     :cond_27
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41763,7 +41763,7 @@
 
     goto :goto_1c
 
-    .line 5781
+    .line 5782
     :cond_28
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getWidth()I
 
@@ -41776,7 +41776,7 @@
     :goto_1b
     if-ge v1, v5, :cond_29
 
-    .line 5782
+    .line 5783
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -41798,7 +41798,7 @@
     :cond_29
     move-object v1, v7
 
-    .line 5789
+    .line 5790
     :goto_1c
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
@@ -41815,13 +41815,13 @@
     :cond_2a
     const/16 v6, 0x8
 
-    .line 5792
+    .line 5793
     :goto_1d
     new-instance v5, Ljava/lang/StringBuffer;
 
     invoke-direct {v5, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5793
+    .line 5794
     invoke-virtual {v5}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v5
@@ -41834,7 +41834,7 @@
 
     move v7, v9
 
-    .line 5794
+    .line 5795
     :goto_1e
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -41842,14 +41842,14 @@
 
     if-ge v7, v13, :cond_2c
 
-    .line 5795
+    .line 5796
     rem-int v13, v7, v6
 
     if-nez v13, :cond_2b
 
     if-eqz v7, :cond_2b
 
-    .line 5796
+    .line 5797
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -41862,7 +41862,7 @@
 
     move-result-object v10
 
-    .line 5798
+    .line 5799
     :cond_2b
     new-instance v13, Ljava/lang/StringBuilder;
 
@@ -41886,13 +41886,13 @@
 
     goto :goto_1e
 
-    .line 5800
+    .line 5801
     :cond_2c
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1, v10}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5801
+    .line 5802
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->reverse()Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -41901,14 +41901,14 @@
 
     move-result-object v1
 
-    .line 5802
+    .line 5803
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
     move-result v5
 
     if-nez v5, :cond_2d
 
-    .line 5803
+    .line 5804
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -41923,7 +41923,7 @@
 
     goto :goto_1f
 
-    .line 5805
+    .line 5806
     :cond_2d
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -41937,7 +41937,7 @@
 
     move-result-object v1
 
-    .line 5808
+    .line 5809
     :goto_1f
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getIisMaxDataType()I
 
@@ -41947,7 +41947,7 @@
 
     if-ne v5, v6, :cond_2f
 
-    .line 5809
+    .line 5810
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerBinaryData()Ljava/lang/String;
 
     move-result-object v5
@@ -41956,22 +41956,22 @@
 
     move-result-object v3
 
-    .line 5810
+    .line 5811
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
 
-    .line 5811
+    .line 5812
     rem-int/lit8 v4, v4, 0x4
 
     if-eqz v4, :cond_2f
 
-    .line 5812
+    .line 5813
     new-instance v5, Ljava/lang/StringBuffer;
 
     invoke-direct {v5, v1}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 5813
+    .line 5814
     invoke-virtual {v3, v9, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v6
@@ -41982,7 +41982,7 @@
 
     if-eqz v6, :cond_2e
 
-    .line 5815
+    .line 5816
     invoke-virtual {v5, v2, v15, v8}, Ljava/lang/StringBuffer;->replace(IILjava/lang/String;)Ljava/lang/StringBuffer;
 
     move-result-object v1
@@ -41993,13 +41993,13 @@
 
     goto :goto_20
 
-    .line 5817
+    .line 5818
     :cond_2e
     invoke-virtual {v3, v9, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5818
+    .line 5819
     invoke-virtual {v1, v2, v15}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v4
@@ -42022,7 +42022,7 @@
 
     const/4 v4, 0x2
 
-    .line 5819
+    .line 5820
     invoke-static {v3, v4}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
 
     move-result v1
@@ -42039,7 +42039,7 @@
 
     move-result-object v1
 
-    .line 5824
+    .line 5825
     :cond_2f
     :goto_20
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue5MaxStr(Ljava/lang/String;)V
@@ -42050,7 +42050,7 @@
 .method public symbolIDmax(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)Z
     .locals 1
 
-    .line 6076
+    .line 6077
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     if-eq p1, v0, :cond_1
@@ -42080,7 +42080,7 @@
 .method public symbolIDmin(Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;)Z
     .locals 1
 
-    .line 6066
+    .line 6067
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     if-eq p1, v0, :cond_0
@@ -42098,7 +42098,7 @@
 .method public syncInterfaceData(IIJ)V
     .locals 1
 
-    .line 11406
+    .line 11407
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
@@ -42115,20 +42115,20 @@
 .method public updateChanScaleOffset()V
     .locals 4
 
-    .line 6740
+    .line 6741
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
-    .line 6741
+    .line 6742
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan_none:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v1, v0, :cond_0
 
-    .line 6742
+    .line 6743
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 6745
+    .line 6746
     :cond_0
     iget v1, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -42138,7 +42138,7 @@
 
     if-gt v1, v2, :cond_1
 
-    .line 6746
+    .line 6747
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -42149,15 +42149,15 @@
 
     const/16 v3, 0x70f
 
-    .line 6747
+    .line 6748
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v1
 
-    .line 6748
+    .line 6749
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setChanScale(J)V
 
-    .line 6750
+    .line 6751
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -42168,17 +42168,17 @@
 
     const/16 v2, 0x712
 
-    .line 6751
+    .line 6752
     invoke-virtual {v1, v0, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v0
 
-    .line 6752
+    .line 6753
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setChanOffset(J)V
 
     goto :goto_0
 
-    .line 6753
+    .line 6754
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->ext:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -42186,12 +42186,12 @@
 
     const-wide/32 v0, 0x1e8480
 
-    .line 6754
+    .line 6755
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setChanScale(J)V
 
     const-wide/16 v0, 0x0
 
-    .line 6755
+    .line 6756
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setChanOffset(J)V
 
     :cond_2
@@ -42202,24 +42202,24 @@
 .method public updateProgress()V
     .locals 12
 
-    .line 6599
+    .line 6600
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v0
 
-    .line 6600
+    .line 6601
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Delay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v2, v3, :cond_0
 
-    .line 6601
+    .line 6602
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelaylevelA()J
 
     move-result-wide v0
 
-    .line 6606
+    .line 6607
     :cond_0
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42233,7 +42233,7 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 6607
+    .line 6608
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v2
@@ -42258,7 +42258,7 @@
 
     long-to-float v0, v0
 
-    .line 6608
+    .line 6609
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v1
@@ -42283,13 +42283,13 @@
 
     goto :goto_0
 
-    .line 6610
+    .line 6611
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
-    .line 6611
+    .line 6612
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -42300,12 +42300,12 @@
 
     const/16 v9, 0x70f
 
-    .line 6612
+    .line 6613
     invoke-virtual {v3, v8, v9}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v8
 
-    .line 6615
+    .line 6616
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -42316,12 +42316,12 @@
 
     const/16 v10, 0x712
 
-    .line 6616
+    .line 6617
     invoke-virtual {v3, v2, v10}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v2
 
-    .line 6619
+    .line 6620
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getScaleNum()I
 
     move-result v10
@@ -42338,7 +42338,7 @@
 
     long-to-float v0, v0
 
-    .line 6620
+    .line 6621
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getScaleNum()I
 
     move-result v1
@@ -42357,13 +42357,13 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
 
-    .line 6623
+    .line 6624
     :goto_0
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
 
     if-gez v0, :cond_2
 
-    .line 6624
+    .line 6625
     iput v7, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
 
     goto :goto_1
@@ -42373,10 +42373,10 @@
 
     if-le v0, v1, :cond_3
 
-    .line 6626
+    .line 6627
     iput v1, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
 
-    .line 6628
+    .line 6629
     :cond_3
     :goto_1
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
@@ -42389,21 +42389,21 @@
 .method public updateProgressA()V
     .locals 12
 
-    .line 6633
+    .line 6634
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v0, v1, :cond_0
 
-    .line 6634
+    .line 6635
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6635
+    .line 6636
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42411,14 +42411,14 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 6636
+    .line 6637
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6637
+    .line 6638
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42426,14 +42426,14 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 6638
+    .line 6639
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6639
+    .line 6640
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42441,14 +42441,14 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 6640
+    .line 6641
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6641
+    .line 6642
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42456,14 +42456,14 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 6642
+    .line 6643
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelaylevelA()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6643
+    .line 6644
     :cond_4
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42471,7 +42471,7 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 6644
+    .line 6645
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSetupHoldlevelA()J
 
     move-result-wide v0
@@ -42481,7 +42481,7 @@
     :cond_5
     const-wide/16 v0, 0x0
 
-    .line 6647
+    .line 6648
     :goto_0
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42501,7 +42501,7 @@
 
     if-eq v2, v3, :cond_6
 
-    .line 6648
+    .line 6649
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v2
@@ -42526,7 +42526,7 @@
 
     long-to-float v0, v0
 
-    .line 6649
+    .line 6650
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v1
@@ -42551,31 +42551,31 @@
 
     goto :goto_2
 
-    .line 6651
+    .line 6652
     :cond_6
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 6652
+    .line 6653
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Delay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v2, v3, :cond_7
 
-    .line 6653
+    .line 6654
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelayChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
     goto :goto_1
 
-    .line 6657
+    .line 6658
     :cond_7
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSetupHoldChanA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
-    .line 6660
+    .line 6661
     :goto_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -42587,12 +42587,12 @@
 
     const/16 v9, 0x70f
 
-    .line 6661
+    .line 6662
     invoke-virtual {v3, v8, v9}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v8
 
-    .line 6663
+    .line 6664
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -42603,12 +42603,12 @@
 
     const/16 v10, 0x712
 
-    .line 6664
+    .line 6665
     invoke-virtual {v3, v2, v10}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v2
 
-    .line 6666
+    .line 6667
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getScaleNum()I
 
     move-result v10
@@ -42625,7 +42625,7 @@
 
     long-to-float v0, v0
 
-    .line 6667
+    .line 6668
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getScaleNum()I
 
     move-result v1
@@ -42644,13 +42644,13 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
 
-    .line 6670
+    .line 6671
     :goto_2
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
 
     if-gez v0, :cond_8
 
-    .line 6671
+    .line 6672
     iput v7, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
 
     goto :goto_3
@@ -42660,10 +42660,10 @@
 
     if-le v0, v1, :cond_9
 
-    .line 6673
+    .line 6674
     iput v1, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
 
-    .line 6675
+    .line 6676
     :cond_9
     :goto_3
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
@@ -42676,21 +42676,21 @@
 .method public updateProgressB()V
     .locals 12
 
-    .line 6680
+    .line 6681
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v0, v1, :cond_0
 
-    .line 6681
+    .line 6682
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6682
+    .line 6683
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42698,14 +42698,14 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 6683
+    .line 6684
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6684
+    .line 6685
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42713,14 +42713,14 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 6685
+    .line 6686
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6686
+    .line 6687
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42728,14 +42728,14 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 6687
+    .line 6688
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6688
+    .line 6689
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42743,14 +42743,14 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 6689
+    .line 6690
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelaylevelB()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6690
+    .line 6691
     :cond_4
     iget-object v0, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42758,20 +42758,20 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 6691
+    .line 6692
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSetupHoldlevelB()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 6693
+    .line 6694
     :cond_5
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLevelB()J
 
     move-result-wide v0
 
-    .line 6696
+    .line 6697
     :goto_0
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -42791,7 +42791,7 @@
 
     if-eq v2, v3, :cond_6
 
-    .line 6697
+    .line 6698
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v2
@@ -42816,7 +42816,7 @@
 
     long-to-float v0, v0
 
-    .line 6698
+    .line 6699
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v1
@@ -42841,31 +42841,31 @@
 
     goto :goto_2
 
-    .line 6700
+    .line 6701
     :cond_6
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 6701
+    .line 6702
     iget-object v2, p0, Lcom/rigol/scope/data/TriggerParam;->triggerMode:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Delay:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-ne v2, v3, :cond_7
 
-    .line 6702
+    .line 6703
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getDelayChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
     goto :goto_1
 
-    .line 6706
+    .line 6707
     :cond_7
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSetupHoldChanB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
-    .line 6708
+    .line 6709
     :goto_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -42877,12 +42877,12 @@
 
     const/16 v9, 0x70f
 
-    .line 6709
+    .line 6710
     invoke-virtual {v3, v8, v9}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v8
 
-    .line 6711
+    .line 6712
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -42893,12 +42893,12 @@
 
     const/16 v10, 0x712
 
-    .line 6712
+    .line 6713
     invoke-virtual {v3, v2, v10}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
     move-result-wide v2
 
-    .line 6714
+    .line 6715
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getScaleNum()I
 
     move-result v10
@@ -42915,7 +42915,7 @@
 
     long-to-float v0, v0
 
-    .line 6715
+    .line 6716
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getScaleNum()I
 
     move-result v1
@@ -42934,13 +42934,13 @@
 
     iput v0, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
 
-    .line 6718
+    .line 6719
     :goto_2
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
 
     if-gez v0, :cond_8
 
-    .line 6719
+    .line 6720
     iput v7, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
 
     goto :goto_3
@@ -42950,10 +42950,10 @@
 
     if-le v0, v1, :cond_9
 
-    .line 6721
+    .line 6722
     iput v1, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
 
-    .line 6723
+    .line 6724
     :cond_9
     :goto_3
     iget v0, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
@@ -42966,12 +42966,12 @@
 .method public updateProgressC()V
     .locals 6
 
-    .line 6728
+    .line 6729
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getLevelC()J
 
     move-result-wide v0
 
-    .line 6729
+    .line 6730
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v2
@@ -42998,7 +42998,7 @@
 
     long-to-float v0, v0
 
-    .line 6730
+    .line 6731
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v1
@@ -43034,7 +43034,7 @@
 
     move v0, v1
 
-    .line 6736
+    .line 6737
     :cond_1
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->setProgressC(I)V
@@ -43045,12 +43045,12 @@
 .method public updateSlopeLevelDifferenceValue()J
     .locals 4
 
-    .line 6214
+    .line 6215
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
 
     move-result-wide v0
 
-    .line 6215
+    .line 6216
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
 
     move-result-wide v2

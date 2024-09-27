@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0436
+    const v1, 0x7f0a043b
 
     const/4 v2, 0x7
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e0
+    const v1, 0x7f0a05e9
 
     const/16 v2, 0x8
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a3
+    const v1, 0x7f0a07b0
 
     const/16 v2, 0x9
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0466
+    const v1, 0x7f0a046b
 
     const/16 v2, 0xa
 
@@ -273,7 +273,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -345,7 +345,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -465,7 +465,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3eb
+    const/16 v0, 0x3f5
 
     if-ne p2, v0, :cond_1
 
@@ -545,7 +545,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3eb
+    const/16 v0, 0x3f5
 
     if-ne p2, v0, :cond_1
 
@@ -617,7 +617,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1306,7 +1306,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x37
+    const/16 p1, 0x38
 
     .line 144
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1357,7 +1357,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x200
+    const/16 p1, 0x204
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1403,7 +1403,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x233
+    const/16 p1, 0x237
 
     .line 109
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1449,7 +1449,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 135
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1500,7 +1500,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1551,7 +1551,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x315
+    const/16 p1, 0x31a
 
     .line 153
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1576,7 +1576,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x233
+    const/16 v0, 0x237
 
     if-ne v0, p1, :cond_0
 
@@ -1588,7 +1588,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_1
 
@@ -1600,7 +1600,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x200
+    const/16 v0, 0x204
 
     if-ne v0, p1, :cond_2
 
@@ -1612,7 +1612,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_3
 
@@ -1624,7 +1624,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x37
+    const/16 v0, 0x38
 
     if-ne v0, p1, :cond_4
 
@@ -1636,7 +1636,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x315
+    const/16 v0, 0x31a
 
     if-ne v0, p1, :cond_5
 

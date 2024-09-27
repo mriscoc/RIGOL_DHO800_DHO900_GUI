@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e4
+    const v1, 0x7f0a08ff
 
     const/4 v2, 0x4
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b18
+    const v1, 0x7f0a0b35
 
     const/4 v2, 0x6
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a020a
+    const v1, 0x7f0a020e
 
     const/4 v2, 0x7
 
@@ -233,7 +233,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x428
+    const/16 v0, 0x432
 
     if-ne p2, v0, :cond_1
 
@@ -305,7 +305,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -436,7 +436,7 @@
 
     if-eqz v4, :cond_6
 
-    const v5, 0x7f030245
+    const v5, 0x7f030246
 
     .line 173
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
@@ -629,7 +629,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x32f
+    const/16 p1, 0x335
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;->notifyPropertyChanged(I)V
@@ -654,7 +654,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x32f
+    const/16 v0, 0x335
 
     if-ne v0, p1, :cond_0
 

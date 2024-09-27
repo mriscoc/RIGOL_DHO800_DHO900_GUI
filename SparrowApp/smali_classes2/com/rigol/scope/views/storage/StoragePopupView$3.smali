@@ -24,7 +24,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/storage/StoragePopupView;Ljava/lang/Object;)V
     .locals 0
 
-    .line 548
+    .line 556
     iput-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView$3;->this$0:Lcom/rigol/scope/views/storage/StoragePopupView;
 
     iput-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView$3;->val$pathName:Ljava/lang/Object;
@@ -37,7 +37,7 @@
 .method static synthetic lambda$run$0(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
     .locals 2
 
-    .line 554
+    .line 562
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -46,22 +46,22 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 555
+    .line 563
     iget p0, p0, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->result:I
 
     if-nez p0, :cond_0
 
     const p0, 0x7f1007bd
 
-    .line 556
+    .line 564
     invoke-static {p0}, Lcom/rigol/util/ToastUtils;->showLong(I)V
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f1003ce
+    const p0, 0x7f1003cd
 
-    .line 558
+    .line 566
     invoke-static {p0}, Lcom/rigol/util/ToastUtils;->showShort(I)V
 
     :goto_0
@@ -73,10 +73,10 @@
 .method public run()V
     .locals 3
 
-    .line 551
+    .line 559
     invoke-super {p0}, Ljava/lang/Thread;->run()V
 
-    .line 552
+    .line 560
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

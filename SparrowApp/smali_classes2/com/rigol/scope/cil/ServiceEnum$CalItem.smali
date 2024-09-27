@@ -66,7 +66,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5896
+    .line 5897
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v1, "cal_item_all"
@@ -87,7 +87,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_item_all:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5898
+    .line 5899
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v9, "cal_data_line"
@@ -108,7 +108,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_data_line:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5900
+    .line 5901
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v2, "cal_adc_gain"
@@ -129,7 +129,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_adc_gain:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5902
+    .line 5903
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v9, "cal_adc_phase"
@@ -150,7 +150,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_adc_phase:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5904
+    .line 5905
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v2, "cal_vert_1M"
@@ -171,7 +171,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_vert_1M:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5906
+    .line 5907
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v9, "cal_vert_ch1"
@@ -192,7 +192,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_vert_ch1:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5908
+    .line 5909
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v2, "cal_vert_ch2"
@@ -213,7 +213,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_vert_ch2:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5910
+    .line 5911
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v9, "cal_vert_ch3"
@@ -234,7 +234,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_vert_ch3:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5912
+    .line 5913
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v2, "cal_vert_ch4"
@@ -255,7 +255,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_vert_ch4:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5914
+    .line 5915
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v9, "cal_ext"
@@ -276,7 +276,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_ext:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5916
+    .line 5917
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v2, "cal_afe_zero"
@@ -297,7 +297,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_afe_zero:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5918
+    .line 5919
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v9, "cal_ddr"
@@ -318,7 +318,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_ddr:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5920
+    .line 5921
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const-string v2, "cal_la"
@@ -343,7 +343,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
-    .line 5894
+    .line 5895
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->cal_item_all:Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     const/4 v3, 0x0
@@ -437,19 +437,19 @@
         }
     .end annotation
 
-    .line 5923
+    .line 5924
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5924
+    .line 5925
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->value1:I
 
-    .line 5925
+    .line 5926
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->value2:Ljava/lang/String;
 
-    .line 5926
+    .line 5927
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->pic1:Ljava/lang/String;
 
-    .line 5927
+    .line 5928
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->pic2:Ljava/lang/String;
 
     return-void
@@ -458,7 +458,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CalItem;
     .locals 1
 
-    .line 5894
+    .line 5895
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -473,7 +473,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CalItem;
     .locals 1
 
-    .line 5894
+    .line 5895
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalItem;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CalItem;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CalItem;->clone()Ljava/lang/Object;

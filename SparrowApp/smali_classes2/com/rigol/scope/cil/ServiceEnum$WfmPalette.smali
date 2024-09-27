@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3562
+    .line 3563
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
     const-string v1, "Wfm_color"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->Wfm_color:Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
-    .line 3563
+    .line 3564
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
     const-string v9, "Wfm_grade"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
-    .line 3560
+    .line 3561
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->Wfm_color:Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 3566
+    .line 3567
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3567
+    .line 3568
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->value1:I
 
-    .line 3568
+    .line 3569
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->value2:Ljava/lang/String;
 
-    .line 3569
+    .line 3570
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->pic1:Ljava/lang/String;
 
-    .line 3570
+    .line 3571
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
     .locals 1
 
-    .line 3560
+    .line 3561
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
     .locals 1
 
-    .line 3560
+    .line 3561
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WfmPalette;->clone()Ljava/lang/Object;

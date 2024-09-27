@@ -32,7 +32,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0364
+    const v1, 0x7f0a0368
 
     if-ne v0, v1, :cond_0
 
@@ -47,7 +47,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0a0363
+    const v1, 0x7f0a0367
 
     if-ne v0, v1, :cond_1
 
@@ -70,7 +70,7 @@
     .line 37
     invoke-super {p0, p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0a0364
+    const v0, 0x7f0a0368
 
     .line 38
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    const v0, 0x7f0a0363
+    const v0, 0x7f0a0367
 
     .line 43
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -14,39 +14,39 @@
 
 
 # static fields
-.field public static final srl_component_falsify:I = 0x7f101581
+.field public static final srl_component_falsify:I = 0x7f101592
 
-.field public static final srl_content_empty:I = 0x7f101582
+.field public static final srl_content_empty:I = 0x7f101593
 
-.field public static final srl_footer_failed:I = 0x7f101583
+.field public static final srl_footer_failed:I = 0x7f101594
 
-.field public static final srl_footer_finish:I = 0x7f101584
+.field public static final srl_footer_finish:I = 0x7f101595
 
-.field public static final srl_footer_loading:I = 0x7f101585
+.field public static final srl_footer_loading:I = 0x7f101596
 
-.field public static final srl_footer_nothing:I = 0x7f101586
+.field public static final srl_footer_nothing:I = 0x7f101597
 
-.field public static final srl_footer_pulling:I = 0x7f101587
+.field public static final srl_footer_pulling:I = 0x7f101598
 
-.field public static final srl_footer_refreshing:I = 0x7f101588
+.field public static final srl_footer_refreshing:I = 0x7f101599
 
-.field public static final srl_footer_release:I = 0x7f101589
+.field public static final srl_footer_release:I = 0x7f10159a
 
-.field public static final srl_header_failed:I = 0x7f10158a
+.field public static final srl_header_failed:I = 0x7f10159b
 
-.field public static final srl_header_finish:I = 0x7f10158b
+.field public static final srl_header_finish:I = 0x7f10159c
 
-.field public static final srl_header_loading:I = 0x7f10158c
+.field public static final srl_header_loading:I = 0x7f10159d
 
-.field public static final srl_header_pulling:I = 0x7f10158d
+.field public static final srl_header_pulling:I = 0x7f10159e
 
-.field public static final srl_header_refreshing:I = 0x7f10158e
+.field public static final srl_header_refreshing:I = 0x7f10159f
 
-.field public static final srl_header_release:I = 0x7f10158f
+.field public static final srl_header_release:I = 0x7f1015a0
 
-.field public static final srl_header_secondary:I = 0x7f101590
+.field public static final srl_header_secondary:I = 0x7f1015a1
 
-.field public static final srl_header_update:I = 0x7f101591
+.field public static final srl_header_update:I = 0x7f1015a2
 
 
 # direct methods

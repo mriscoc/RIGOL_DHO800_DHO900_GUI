@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9680
+    .line 9684
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v1, "ModShape_Sine"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Sine:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9681
+    .line 9685
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v9, "ModShape_Square"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Square:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9682
+    .line 9686
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v2, "ModShape_Triangle"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Triangle:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9683
+    .line 9687
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v9, "ModShape_Upramp"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Upramp:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9684
+    .line 9688
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v2, "ModShape_Dnramp"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Dnramp:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9685
+    .line 9689
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v9, "ModShape_Noise"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Noise:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9686
+    .line 9690
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const-string v2, "ModShape_Arb"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
-    .line 9678
+    .line 9682
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->ModShape_Sine:Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 9689
+    .line 9693
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9690
+    .line 9694
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->value1:I
 
-    .line 9691
+    .line 9695
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->value2:Ljava/lang/String;
 
-    .line 9692
+    .line 9696
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->pic1:Ljava/lang/String;
 
-    .line 9693
+    .line 9697
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ModShape;
     .locals 1
 
-    .line 9678
+    .line 9682
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ModShape;
     .locals 1
 
-    .line 9678
+    .line 9682
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModShape;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ModShape;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ModShape;->clone()Ljava/lang/Object;

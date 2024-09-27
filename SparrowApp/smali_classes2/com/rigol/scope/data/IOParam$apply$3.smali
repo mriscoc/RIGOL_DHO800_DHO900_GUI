@@ -64,7 +64,7 @@
         }
     .end annotation
 
-    .line 775
+    .line 782
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-direct {p0}, Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;-><init>()V
@@ -91,7 +91,7 @@
     :goto_1
     if-gt v1, v2, :cond_1
 
-    .line 782
+    .line 789
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -112,26 +112,26 @@
 
     move-result-object v3
 
-    .line 783
+    .line 790
     invoke-static {v3}, Lcom/rigol/util/EthernetUtil;->checkConflict(Ljava/lang/String;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 784
+    .line 791
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v0, v3}, Lcom/rigol/scope/data/IOParam;->saveIPAddress(Ljava/lang/String;)V
 
-    .line 785
+    .line 792
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     const-string v1, "255.255.0.0"
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/IOParam;->saveMask(Ljava/lang/String;)V
 
-    .line 786
+    .line 793
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     const-string v1, "169.254.1.1"
@@ -140,7 +140,7 @@
 
     const/4 v0, 0x1
 
-    .line 787
+    .line 794
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
@@ -160,7 +160,7 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 791
+    .line 798
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
@@ -171,7 +171,7 @@
 .method public bridge synthetic doInBackground()Ljava/lang/Object;
     .locals 1
 
-    .line 775
+    .line 782
     invoke-virtual {p0}, Lcom/rigol/scope/data/IOParam$apply$3;->doInBackground()Ljava/lang/Boolean;
 
     move-result-object v0
@@ -184,52 +184,52 @@
 
     if-eqz p1, :cond_0
 
-    .line 795
+    .line 802
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 799
+    .line 806
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
 
     check-cast p1, Landroid/content/Context;
 
-    .line 800
+    .line 807
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getIpAddress()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 801
+    .line 808
     iget-object v1, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/IOParam;->getMask()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 802
+    .line 809
     iget-object v2, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v2}, Lcom/rigol/scope/data/IOParam;->getGateway()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 803
+    .line 810
     iget-object v3, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
     invoke-virtual {v3}, Lcom/rigol/scope/data/IOParam;->getDns()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 798
+    .line 805
     invoke-static {p1, v0, v1, v2, v3}, Lcom/rigol/util/EthernetUtil;->setStaticIp(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 808
+    .line 815
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -239,7 +239,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 809
+    .line 816
     new-instance p1, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;
 
     invoke-direct {p1, p0}, Lcom/rigol/scope/data/IOParam$apply$3$onSuccess$2;-><init>(Lcom/rigol/scope/data/IOParam$apply$3;)V
@@ -252,7 +252,7 @@
 
     goto :goto_0
 
-    .line 824
+    .line 831
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam$apply$3;->this$0:Lcom/rigol/scope/data/IOParam;
 
@@ -267,7 +267,7 @@
 .method public bridge synthetic onSuccess(Ljava/lang/Object;)V
     .locals 0
 
-    .line 775
+    .line 782
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam$apply$3;->onSuccess(Ljava/lang/Boolean;)V

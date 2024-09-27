@@ -694,7 +694,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/data/SearchParam;->pulseMax:J
 
-    const/16 v0, 0x2a0
+    const/16 v0, 0x2a5
 
     .line 431
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -883,7 +883,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/data/SearchParam;->pulseLower:J
 
-    const/16 v0, 0x29f
+    const/16 v0, 0x2a4
 
     .line 394
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1063,7 +1063,7 @@
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/rigol/scope/data/SearchParam;->saveLong(IJ)I
 
-    const/16 p1, 0x29f
+    const/16 p1, 0x2a4
 
     .line 416
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1077,7 +1077,7 @@
     .line 420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setPulseMax(Ljava/lang/Long;)V
 
-    const/16 v0, 0x2a0
+    const/16 v0, 0x2a5
 
     .line 421
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1108,7 +1108,7 @@
     .line 230
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->setPulsePolarty(I)V
 
-    const/16 p1, 0x2a2
+    const/16 p1, 0x2a7
 
     .line 231
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1267,7 +1267,7 @@
     .line 380
     iput-object p1, p0, Lcom/rigol/scope/data/SearchParam;->edgeSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x105
+    const/16 p1, 0x109
 
     .line 381
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1281,7 +1281,7 @@
     .line 338
     iput-object p1, p0, Lcom/rigol/scope/data/SearchParam;->edgeSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x108
+    const/16 p1, 0x10c
 
     .line 339
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1295,7 +1295,7 @@
     .line 255
     iput-boolean p1, p0, Lcom/rigol/scope/data/SearchParam;->enable:Z
 
-    const/16 p1, 0x10a
+    const/16 p1, 0x10e
 
     .line 256
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1318,7 +1318,7 @@
     .line 281
     iput-boolean p1, p0, Lcom/rigol/scope/data/SearchParam;->markTableEn:Z
 
-    const/16 p1, 0x202
+    const/16 p1, 0x206
 
     .line 282
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1341,7 +1341,7 @@
     .line 291
     iput p1, p0, Lcom/rigol/scope/data/SearchParam;->navigation:I
 
-    const/16 p1, 0x228
+    const/16 p1, 0x22c
 
     .line 292
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1364,7 +1364,7 @@
     .line 197
     iput-object p1, p0, Lcom/rigol/scope/data/SearchParam;->polaritySlope:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    const/16 p1, 0x27f
+    const/16 p1, 0x284
 
     .line 198
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1413,7 +1413,7 @@
     .line 223
     iput p1, p0, Lcom/rigol/scope/data/SearchParam;->pulsePolarty:I
 
-    const/16 p1, 0x2a2
+    const/16 p1, 0x2a7
 
     .line 224
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1427,7 +1427,7 @@
     .line 343
     iput-object p1, p0, Lcom/rigol/scope/data/SearchParam;->pulseSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x2a3
+    const/16 p1, 0x2a8
 
     .line 344
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1441,7 +1441,7 @@
     .line 360
     iput-boolean p1, p0, Lcom/rigol/scope/data/SearchParam;->searcceAvailble:Z
 
-    const/16 p1, 0x30a
+    const/16 p1, 0x30f
 
     .line 361
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1455,7 +1455,7 @@
     .line 260
     iput-boolean p1, p0, Lcom/rigol/scope/data/SearchParam;->tableOnOff:Z
 
-    const/16 p1, 0x10a
+    const/16 p1, 0x10e
 
     .line 261
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1469,7 +1469,7 @@
     .line 302
     iput-wide p1, p0, Lcom/rigol/scope/data/SearchParam;->thre:J
 
-    const/16 p1, 0x38e
+    const/16 p1, 0x397
 
     .line 304
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1483,7 +1483,7 @@
     .line 313
     iput p1, p0, Lcom/rigol/scope/data/SearchParam;->threA:I
 
-    const/16 p1, 0x38f
+    const/16 p1, 0x398
 
     .line 314
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1515,7 +1515,7 @@
     .line 323
     iput p1, p0, Lcom/rigol/scope/data/SearchParam;->threB:I
 
-    const/16 p1, 0x390
+    const/16 p1, 0x399
 
     .line 324
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V
@@ -1538,7 +1538,7 @@
     .line 270
     iput-object p1, p0, Lcom/rigol/scope/data/SearchParam;->type:Lcom/rigol/scope/cil/ServiceEnum$enumSearchType;
 
-    const/16 p1, 0x3c7
+    const/16 p1, 0x3d0
 
     .line 271
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SearchParam;->notifyPropertyChanged(I)V

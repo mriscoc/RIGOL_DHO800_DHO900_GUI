@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MaskParam;)V
     .locals 0
 
-    .line 2042
+    .line 2125
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 2046
+    .line 2129
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doMaskScreenShot()V
 
-    .line 2048
+    .line 2131
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskParam;->getErrAction()I
@@ -87,12 +87,12 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 2050
+    .line 2133
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskParam;->readForceStop()V
 
-    .line 2051
+    .line 2134
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskParam;->getForceStop()Z
@@ -101,25 +101,25 @@
 
     if-nez p1, :cond_0
 
-    .line 2052
+    .line 2135
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/MaskParam;->saveOperate(Z)V
 
     goto :goto_0
 
-    .line 2054
+    .line 2137
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/MaskParam;->saveForceStop(Z)V
 
-    .line 2055
+    .line 2138
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/MaskParam;->saveOperate(Z)V
 
-    .line 2056
+    .line 2139
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -136,7 +136,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2042
+    .line 2125
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$150;->onChanged(Ljava/lang/Boolean;)V

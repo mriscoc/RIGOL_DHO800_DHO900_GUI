@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9065
+    .line 9069
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
     const-string v1, "ADC_1"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->ADC_1:Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
-    .line 9066
+    .line 9070
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
     const-string v9, "ADC_2"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
-    .line 9062
+    .line 9066
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->ADC_1:Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 9069
+    .line 9073
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9070
+    .line 9074
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->value1:I
 
-    .line 9071
+    .line 9075
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->value2:Ljava/lang/String;
 
-    .line 9072
+    .line 9076
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->pic1:Ljava/lang/String;
 
-    .line 9073
+    .line 9077
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
     .locals 1
 
-    .line 9062
+    .line 9066
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
     .locals 1
 
-    .line 9062
+    .line 9066
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AdcSerialNumEnum;->clone()Ljava/lang/Object;

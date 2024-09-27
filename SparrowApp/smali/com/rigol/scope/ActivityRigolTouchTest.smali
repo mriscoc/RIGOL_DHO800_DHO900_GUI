@@ -316,7 +316,7 @@
     .line 67
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->setContentView(I)V
 
-    const p1, 0x7f0a0790
+    const p1, 0x7f0a079d
 
     .line 68
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/ActivityRigolTouchTest;->root:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0a08f9
+    const p1, 0x7f0a0914
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -348,7 +348,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/selfCheck/SelfCheckBorderTouchViewNew;->setVisibility(I)V
 
-    const p1, 0x7f0a08fd
+    const p1, 0x7f0a0918
 
     .line 73
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
     .line 74
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0a08fe
+    const p1, 0x7f0a0919
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -378,7 +378,7 @@
     .line 76
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0a0510
+    const p1, 0x7f0a0518
 
     .line 78
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -392,7 +392,7 @@
     .line 79
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0a0a16
+    const p1, 0x7f0a0a31
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0a0a15
+    const p1, 0x7f0a0a30
 
     .line 84
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -448,7 +448,7 @@
     .line 88
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0a06f8
+    const p1, 0x7f0a0705
 
     .line 89
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -462,7 +462,7 @@
     .line 90
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0a0855
+    const p1, 0x7f0a0870
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;
@@ -473,7 +473,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/ActivityRigolTouchTest;->tv_stretch:Landroid/widget/TextView;
 
-    const p1, 0x7f0a0423
+    const p1, 0x7f0a0428
 
     .line 92
     invoke-virtual {p0, p1}, Lcom/rigol/scope/ActivityRigolTouchTest;->findViewById(I)Landroid/view/View;

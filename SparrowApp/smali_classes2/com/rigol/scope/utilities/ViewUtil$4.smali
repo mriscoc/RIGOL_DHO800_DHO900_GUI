@@ -36,7 +36,7 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 4525
+    .line 4557
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->values()[Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     move-result-object v0
@@ -124,7 +124,7 @@
     :try_end_4
     .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
 
-    .line 3704
+    .line 3725
     :catch_4
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
@@ -267,7 +267,7 @@
     :try_end_d
     .catch Ljava/lang/NoSuchFieldError; {:try_start_d .. :try_end_d} :catch_d
 
-    .line 3507
+    .line 3528
     :catch_d
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Function;->values()[Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -562,7 +562,7 @@
     :try_end_20
     .catch Ljava/lang/NoSuchFieldError; {:try_start_20 .. :try_end_20} :catch_20
 
-    .line 2298
+    .line 2320
     :catch_20
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
@@ -599,7 +599,7 @@
     :try_end_22
     .catch Ljava/lang/NoSuchFieldError; {:try_start_22 .. :try_end_22} :catch_22
 
-    .line 2203
+    .line 2225
     :catch_22
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
@@ -664,7 +664,7 @@
     :try_end_26
     .catch Ljava/lang/NoSuchFieldError; {:try_start_26 .. :try_end_26} :catch_26
 
-    .line 2139
+    .line 2161
     :catch_26
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
@@ -687,7 +687,7 @@
     :try_end_27
     .catch Ljava/lang/NoSuchFieldError; {:try_start_27 .. :try_end_27} :catch_27
 
-    .line 2111
+    .line 2133
     :catch_27
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->values()[Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
@@ -724,7 +724,7 @@
     :try_end_29
     .catch Ljava/lang/NoSuchFieldError; {:try_start_29 .. :try_end_29} :catch_29
 
-    .line 1777
+    .line 1799
     :catch_29
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Chan;->values()[Lcom/rigol/scope/cil/ServiceEnum$Chan;
 

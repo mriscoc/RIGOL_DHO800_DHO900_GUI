@@ -7506,7 +7506,7 @@
     .line 1205
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1:J
 
-    const/16 p1, 0x77
+    const/16 p1, 0x79
 
     .line 1206
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7520,7 +7520,7 @@
     .line 1215
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2:J
 
-    const/16 p1, 0x78
+    const/16 p1, 0x7a
 
     .line 1216
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7534,7 +7534,7 @@
     .line 1225
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->btFreq1:J
 
-    const/16 p1, 0x79
+    const/16 p1, 0x7b
 
     .line 1226
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7548,7 +7548,7 @@
     .line 1235
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->btFreq2:J
 
-    const/16 p1, 0x7a
+    const/16 p1, 0x7c
 
     .line 1236
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7594,7 +7594,7 @@
     .line 1014
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->colorGrade:Z
 
-    const/16 p1, 0xb6
+    const/16 p1, 0xb8
 
     .line 1015
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7626,7 +7626,7 @@
     .line 1127
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->diffSmooth:I
 
-    const/16 p1, 0xed
+    const/16 p1, 0xf0
 
     .line 1128
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7640,7 +7640,7 @@
     .line 870
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->expandIndex:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
-    const/16 p1, 0x11b
+    const/16 p1, 0x11f
 
     .line 871
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7657,7 +7657,7 @@
     .line 1262
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x121
+    const/16 v0, 0x125
 
     .line 1263
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7683,7 +7683,7 @@
     .line 1286
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x122
+    const/16 v0, 0x126
 
     .line 1287
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7709,7 +7709,7 @@
     .line 775
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftOffsetStr()V
 
-    const/16 v0, 0x123
+    const/16 v0, 0x127
 
     .line 776
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7735,7 +7735,7 @@
     .line 800
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    const/16 p1, 0x124
+    const/16 p1, 0x128
 
     .line 801
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7749,7 +7749,7 @@
     .line 1307
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftPeakOrderIndex:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
-    const/16 p1, 0x125
+    const/16 p1, 0x129
 
     .line 1308
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7766,7 +7766,7 @@
     .line 787
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftScaleStr()V
 
-    const/16 v0, 0x126
+    const/16 v0, 0x12a
 
     .line 788
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7792,7 +7792,7 @@
     .line 811
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateScaleString()V
 
-    const/16 p1, 0x127
+    const/16 p1, 0x12b
 
     .line 812
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7809,7 +7809,7 @@
     .line 1250
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x128
+    const/16 v0, 0x12c
 
     .line 1251
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7835,7 +7835,7 @@
     .line 1274
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x129
+    const/16 v0, 0x12d
 
     .line 1275
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7858,7 +7858,7 @@
     .line 1397
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftUnitIndex:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    const/16 p1, 0x12a
+    const/16 p1, 0x12e
 
     .line 1398
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7872,7 +7872,7 @@
     .line 1000
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftWindowIndex:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    const/16 p1, 0x12b
+    const/16 p1, 0x12f
 
     .line 1001
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7886,7 +7886,7 @@
     .line 1512
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomCenter:J
 
-    const/16 p1, 0x12c
+    const/16 p1, 0x130
 
     .line 1513
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7900,7 +7900,7 @@
     .line 1502
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomEnd:J
 
-    const/16 p1, 0x12d
+    const/16 p1, 0x131
 
     .line 1503
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7935,7 +7935,7 @@
     .line 1522
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomSpan:J
 
-    const/16 p1, 0x12e
+    const/16 p1, 0x132
 
     .line 1523
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7952,7 +7952,7 @@
     .line 1481
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftZoomFreq()V
 
-    const/16 v0, 0x12f
+    const/16 v0, 0x133
 
     .line 1482
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7975,7 +7975,7 @@
     .line 1419
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftxTypeIndex:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
-    const/16 p1, 0x130
+    const/16 p1, 0x134
 
     .line 1420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -7989,7 +7989,7 @@
     .line 670
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->grids:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    const/16 v0, 0x166
+    const/16 v0, 0x16a
 
     .line 671
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8008,7 +8008,7 @@
     .line 1195
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->hpFreq:J
 
-    const/16 p1, 0x17b
+    const/16 p1, 0x17f
 
     .line 1196
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8022,7 +8022,7 @@
     .line 1137
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->intgBias:J
 
-    const/16 p1, 0x1b5
+    const/16 p1, 0x1b9
 
     .line 1138
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8036,7 +8036,7 @@
     .line 1147
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->intgBiasUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x1b6
+    const/16 p1, 0x1ba
 
     .line 1148
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8050,7 +8050,7 @@
     .line 1024
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->invert:Z
 
-    const/16 p1, 0x1b7
+    const/16 p1, 0x1bb
 
     .line 1025
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8064,7 +8064,7 @@
     .line 1034
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->label:Z
 
-    const/16 v0, 0x1d6
+    const/16 v0, 0x1da
 
     .line 1035
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8087,7 +8087,7 @@
     .line 646
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->labelString:Ljava/lang/String;
 
-    const/16 v0, 0x1d8
+    const/16 v0, 0x1dc
 
     .line 647
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8106,7 +8106,7 @@
     .line 1157
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->lineA:J
 
-    const/16 p1, 0x1f0
+    const/16 p1, 0x1f4
 
     .line 1158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8120,7 +8120,7 @@
     .line 1167
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->lineB:J
 
-    const/16 p1, 0x1f1
+    const/16 p1, 0x1f5
 
     .line 1168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8137,7 +8137,7 @@
     .line 743
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    const/16 v0, 0x1f6
+    const/16 v0, 0x1fa
 
     .line 744
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8178,7 +8178,7 @@
     .line 906
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 p1, 0x1f7
+    const/16 p1, 0x1fb
 
     .line 907
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8192,7 +8192,7 @@
     .line 1185
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->lpFreq:J
 
-    const/16 p1, 0x1fb
+    const/16 p1, 0x1ff
 
     .line 1186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8218,7 +8218,7 @@
     .line 718
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    const/16 v0, 0x230
+    const/16 v0, 0x234
 
     .line 719
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8241,7 +8241,7 @@
     .line 1460
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->offsetString:Ljava/lang/String;
 
-    const/16 p1, 0x231
+    const/16 p1, 0x235
 
     .line 1461
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8267,7 +8267,7 @@
     .line 859
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x238
+    const/16 v0, 0x23c
 
     .line 860
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8286,7 +8286,7 @@
     .line 1424
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->operatorString:Ljava/lang/String;
 
-    const/16 p1, 0x239
+    const/16 p1, 0x23d
 
     .line 1425
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8303,7 +8303,7 @@
     .line 1358
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updatePeakExcursionStr()V
 
-    const/16 p1, 0x25b
+    const/16 p1, 0x260
 
     .line 1359
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8317,7 +8317,7 @@
     .line 1368
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->peakExcursionStr:Ljava/lang/String;
 
-    const/16 p1, 0x25c
+    const/16 p1, 0x261
 
     .line 1369
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8331,7 +8331,7 @@
     .line 1297
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->peakNum:I
 
-    const/16 p1, 0x25e
+    const/16 p1, 0x263
 
     .line 1298
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8345,7 +8345,7 @@
     .line 1045
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->peakSearch:Z
 
-    const/16 v0, 0x260
+    const/16 v0, 0x265
 
     .line 1046
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8371,7 +8371,7 @@
     .line 1318
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updatePeakThresholdStr()V
 
-    const/16 p1, 0x262
+    const/16 p1, 0x267
 
     .line 1319
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8385,7 +8385,7 @@
     .line 1328
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdStr:Ljava/lang/String;
 
-    const/16 p1, 0x263
+    const/16 p1, 0x268
 
     .line 1329
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8405,7 +8405,7 @@
     .line 731
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x2ff
+    const/16 v0, 0x304
 
     .line 732
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8428,7 +8428,7 @@
     .line 1439
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->scaleString:Ljava/lang/String;
 
-    const/16 p1, 0x302
+    const/16 p1, 0x307
 
     .line 1440
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8451,7 +8451,7 @@
     .line 1077
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->sens:I
 
-    const/16 p1, 0x316
+    const/16 p1, 0x31b
 
     .line 1078
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8465,7 +8465,7 @@
     .line 1470
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->showPeakSetting:Z
 
-    const/16 p1, 0x336
+    const/16 p1, 0x33d
 
     .line 1471
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8479,7 +8479,7 @@
     .line 922
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceArithAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x354
+    const/16 p1, 0x35d
 
     .line 923
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8496,7 +8496,7 @@
     .line 940
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceArithBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x355
+    const/16 p1, 0x35e
 
     .line 941
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8513,7 +8513,7 @@
     .line 980
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceFftIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x358
+    const/16 p1, 0x361
 
     .line 981
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8530,7 +8530,7 @@
     .line 885
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x359
+    const/16 p1, 0x362
 
     .line 886
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8550,7 +8550,7 @@
     .line 958
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35a
+    const/16 p1, 0x363
 
     .line 959
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8579,7 +8579,7 @@
     .line 658
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->status:Z
 
-    const/16 v0, 0x382
+    const/16 v0, 0x38b
 
     .line 660
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8602,7 +8602,7 @@
     .line 1087
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1:J
 
-    const/16 p1, 0x391
+    const/16 p1, 0x39a
 
     .line 1088
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8616,7 +8616,7 @@
     .line 1117
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2:J
 
-    const/16 p1, 0x392
+    const/16 p1, 0x39b
 
     .line 1118
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8630,7 +8630,7 @@
     .line 1107
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3:J
 
-    const/16 p1, 0x393
+    const/16 p1, 0x39c
 
     .line 1108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8644,7 +8644,7 @@
     .line 1097
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4:J
 
-    const/16 p1, 0x394
+    const/16 p1, 0x39d
 
     .line 1098
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8679,7 +8679,7 @@
     :cond_0
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->unitIndex:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 v0, 0x3d1
+    const/16 v0, 0x3da
 
     .line 1060
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8719,7 +8719,7 @@
     .line 635
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->waveType:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
-    const/16 v0, 0x403
+    const/16 v0, 0x40d
 
     .line 636
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8738,7 +8738,7 @@
     .line 1449
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->windowTitleString:Ljava/lang/String;
 
-    const/16 v0, 0x42a
+    const/16 v0, 0x434
 
     .line 1450
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
@@ -8757,7 +8757,7 @@
     .line 625
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->zoomEn:Z
 
-    const/16 p1, 0x435
+    const/16 p1, 0x43f
 
     .line 626
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V

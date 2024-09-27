@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/data/StorageSaveParam;)V
     .locals 0
 
-    .line 3801
+    .line 3822
     iput-object p1, p0, Lcom/rigol/scope/utilities/ViewUtil$3;->val$saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -35,22 +35,22 @@
 .method public run()V
     .locals 2
 
-    .line 3804
+    .line 3825
     invoke-super {p0}, Ljava/lang/Thread;->run()V
 
-    .line 3806
+    .line 3827
     :try_start_0
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doScreenShot()V
 
     const-wide/16 v0, 0x12c
 
-    .line 3807
+    .line 3828
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil$3;->sleep(J)V
 
-    .line 3808
+    .line 3829
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doSaveWave()V
 
-    .line 3809
+    .line 3830
     iget-object v0, p0, Lcom/rigol/scope/utilities/ViewUtil$3;->val$saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     const/4 v1, 0x4
@@ -64,7 +64,7 @@
     :catch_0
     move-exception v0
 
-    .line 3811
+    .line 3832
     invoke-virtual {v0}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_0

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c4
+    const v1, 0x7f0a04c9
 
     const/4 v2, 0x7
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01e7
+    const v1, 0x7f0a01ea
 
     const/16 v2, 0x8
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a01e8
+    const v1, 0x7f0a01eb
 
     const/16 v2, 0x9
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06d2
+    const v1, 0x7f0a06df
 
     const/16 v2, 0xa
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05f7
+    const v1, 0x7f0a0600
 
     const/16 v2, 0xb
 
@@ -290,7 +290,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xaf
+    const/16 v0, 0xb1
 
     if-ne p2, v0, :cond_1
 
@@ -322,7 +322,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x400
+    const/16 v0, 0x40a
 
     if-ne p2, v0, :cond_2
 
@@ -354,7 +354,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x326
+    const/16 v0, 0x32c
 
     if-ne p2, v0, :cond_3
 
@@ -386,7 +386,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x255
+    const/16 v0, 0x25a
 
     if-ne p2, v0, :cond_4
 
@@ -458,7 +458,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -530,7 +530,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -602,7 +602,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -716,7 +716,7 @@
     move v8, v7
 
     :goto_1
-    const v13, 0x7f0301cd
+    const v13, 0x7f0301ce
 
     .line 237
     invoke-static {v13, v8}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -852,7 +852,7 @@
     const/4 v13, 0x0
 
     :goto_9
-    const v14, 0x7f0301cf
+    const v14, 0x7f0301d0
 
     .line 284
     invoke-static {v14, v13}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -928,7 +928,7 @@
     const/4 v0, 0x0
 
     :goto_d
-    const v9, 0x7f0301ce
+    const v9, 0x7f0301cf
 
     .line 313
     invoke-static {v9, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1233,7 +1233,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 97
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterStorageLoadBindingImpl;->notifyPropertyChanged(I)V
@@ -1258,7 +1258,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

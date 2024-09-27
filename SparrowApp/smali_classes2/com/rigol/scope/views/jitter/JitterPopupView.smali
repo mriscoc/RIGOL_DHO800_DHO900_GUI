@@ -368,7 +368,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0555
+    const v0, 0x7f0a055e
 
     if-ne p1, v0, :cond_2
 
@@ -380,7 +380,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a0563
+    const v0, 0x7f0a056c
 
     if-ne p1, v0, :cond_3
 
@@ -392,7 +392,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0a0567
+    const v0, 0x7f0a0570
 
     if-ne p1, v0, :cond_4
 
@@ -404,7 +404,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0a0574
+    const v0, 0x7f0a057d
 
     if-ne p1, v0, :cond_5
 
@@ -416,7 +416,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0a057a
+    const v0, 0x7f0a0583
 
     if-ne p1, v0, :cond_6
 
@@ -428,7 +428,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0a0577
+    const v0, 0x7f0a0580
 
     if-ne p1, v0, :cond_7
 
@@ -440,7 +440,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0a055f
+    const v0, 0x7f0a0568
 
     if-ne p1, v0, :cond_8
 
@@ -452,7 +452,7 @@
     goto :goto_0
 
     :cond_8
-    const v0, 0x7f0a054d
+    const v0, 0x7f0a0556
 
     if-ne p1, v0, :cond_9
 
@@ -469,7 +469,7 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 1
 
-    const p1, 0x7f0a054c
+    const p1, 0x7f0a0555
 
     if-ne p2, p1, :cond_0
 
@@ -494,7 +494,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a056d
+    const p1, 0x7f0a0576
 
     if-ne p2, p1, :cond_1
 
@@ -519,7 +519,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a0558
+    const p1, 0x7f0a0561
 
     if-ne p2, p1, :cond_2
 
@@ -544,7 +544,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a0571
+    const p1, 0x7f0a057a
 
     if-ne p2, p1, :cond_3
 
@@ -560,7 +560,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0a055b
+    const p1, 0x7f0a0564
 
     if-ne p2, p1, :cond_4
 
@@ -576,7 +576,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f0a054a
+    const p1, 0x7f0a0553
 
     if-ne p2, p1, :cond_5
 
@@ -610,7 +610,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a0576
+    const v1, 0x7f0a057f
 
     if-ne v0, v1, :cond_2
 
@@ -636,7 +636,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0a0795
+    const v1, 0x7f0a07a2
 
     if-ne v0, v1, :cond_3
 
@@ -656,7 +656,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v1, 0x7f0a055e
+    const v1, 0x7f0a0567
 
     if-ne v0, v1, :cond_5
 
@@ -738,7 +738,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v1, 0x7f0a0565
+    const v1, 0x7f0a056e
 
     if-ne v0, v1, :cond_7
 
@@ -820,7 +820,7 @@
     goto :goto_0
 
     :cond_7
-    const v1, 0x7f0a0561
+    const v1, 0x7f0a056a
 
     if-ne v0, v1, :cond_9
 

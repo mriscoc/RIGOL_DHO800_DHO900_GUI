@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1452
+    .line 1453
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
     const-string v1, "Wave_View_Main"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->Wave_View_Main:Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
-    .line 1453
+    .line 1454
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
     const-string v9, "Wave_View_Zoom"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
-    .line 1450
+    .line 1451
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->Wave_View_Main:Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 1456
+    .line 1457
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1457
+    .line 1458
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->value1:I
 
-    .line 1458
+    .line 1459
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->value2:Ljava/lang/String;
 
-    .line 1459
+    .line 1460
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->pic1:Ljava/lang/String;
 
-    .line 1460
+    .line 1461
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WaveView;
     .locals 1
 
-    .line 1450
+    .line 1451
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WaveView;
     .locals 1
 
-    .line 1450
+    .line 1451
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WaveView;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WaveView;->clone()Ljava/lang/Object;

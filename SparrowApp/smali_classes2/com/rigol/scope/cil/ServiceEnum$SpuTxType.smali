@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8822
+    .line 8826
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v1, "CH_WAVE_MAIN"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->CH_WAVE_MAIN:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8823
+    .line 8827
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v9, "CH_WAVE_ZOOM"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->CH_WAVE_ZOOM:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8824
+    .line 8828
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v2, "LA_WAVE_MAIN"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->LA_WAVE_MAIN:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8825
+    .line 8829
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v9, "LA_WAVE_ZOOM"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->LA_WAVE_ZOOM:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8826
+    .line 8830
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v2, "CH_ROLL_COL"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->CH_ROLL_COL:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8827
+    .line 8831
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v9, "LA_ROLL_COL"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->LA_ROLL_COL:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8828
+    .line 8832
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v2, "CH_TRACE"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->CH_TRACE:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8829
+    .line 8833
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const-string v9, "CH_EYE"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
-    .line 8820
+    .line 8824
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->CH_WAVE_MAIN:Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 8832
+    .line 8836
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8833
+    .line 8837
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->value1:I
 
-    .line 8834
+    .line 8838
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->value2:Ljava/lang/String;
 
-    .line 8835
+    .line 8839
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->pic1:Ljava/lang/String;
 
-    .line 8836
+    .line 8840
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
     .locals 1
 
-    .line 8820
+    .line 8824
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
     .locals 1
 
-    .line 8820
+    .line 8824
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SpuTxType;->clone()Ljava/lang/Object;

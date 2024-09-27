@@ -76,7 +76,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9431
+    .line 9435
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v1, "ADC2_CHIP_TEMP"
@@ -97,7 +97,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->ADC2_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9432
+    .line 9436
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "ADC2_AMBIENT_TEMP"
@@ -118,7 +118,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->ADC2_AMBIENT_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9433
+    .line 9437
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "ADC1_CHIP_TEMP"
@@ -139,7 +139,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->ADC1_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9434
+    .line 9438
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "ADC1_AMBIENT_TEMP"
@@ -160,7 +160,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->ADC1_AMBIENT_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9435
+    .line 9439
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "CH4_CHIP_TEMP"
@@ -181,7 +181,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->CH4_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9436
+    .line 9440
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "CH4_AMBIENT_TEMP"
@@ -202,7 +202,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->CH4_AMBIENT_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9437
+    .line 9441
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "CH1_CHIP_TEMP"
@@ -223,7 +223,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->CH1_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9438
+    .line 9442
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "CH1_AMBIENT_TEMP"
@@ -244,7 +244,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->CH1_AMBIENT_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9439
+    .line 9443
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "CPU_CHIP_TEMP"
@@ -265,7 +265,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->CPU_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9440
+    .line 9444
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "CPU_AMBIENT_TEMP"
@@ -286,7 +286,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->CPU_AMBIENT_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9441
+    .line 9445
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "SPU_CHIP_TEMP"
@@ -307,7 +307,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->SPU_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9442
+    .line 9446
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "SPU_VCCINT"
@@ -328,7 +328,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->SPU_VCCINT:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9443
+    .line 9447
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "SPU_MGTAVIT"
@@ -349,7 +349,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->SPU_MGTAVIT:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9444
+    .line 9448
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "SPU_VCC_DDR"
@@ -370,7 +370,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->SPU_VCC_DDR:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9445
+    .line 9449
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "AFE23_VCC"
@@ -391,7 +391,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->AFE23_VCC:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9446
+    .line 9450
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "AFE01_VCC"
@@ -412,7 +412,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->AFE01_VCC:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9447
+    .line 9451
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v2, "ADC1_VCC"
@@ -433,7 +433,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->ADC1_VCC:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9448
+    .line 9452
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const-string v9, "ADC0_VCC"
@@ -458,7 +458,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
-    .line 9429
+    .line 9433
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->ADC2_CHIP_TEMP:Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     const/4 v3, 0x0
@@ -582,19 +582,19 @@
         }
     .end annotation
 
-    .line 9451
+    .line 9455
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9452
+    .line 9456
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->value1:I
 
-    .line 9453
+    .line 9457
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->value2:Ljava/lang/String;
 
-    .line 9454
+    .line 9458
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->pic1:Ljava/lang/String;
 
-    .line 9455
+    .line 9459
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->pic2:Ljava/lang/String;
 
     return-void
@@ -603,7 +603,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
     .locals 1
 
-    .line 9429
+    .line 9433
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -618,7 +618,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
     .locals 1
 
-    .line 9429
+    .line 9433
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DeviceSelfTestType;->clone()Ljava/lang/Object;

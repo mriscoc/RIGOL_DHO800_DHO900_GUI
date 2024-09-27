@@ -27,7 +27,7 @@
 
 .field private final mCallback106:Landroid/view/View$OnClickListener;
 
-.field private final mCallback87:Landroid/view/View$OnClickListener;
+.field private final mCallback107:Landroid/view/View$OnClickListener;
 
 .field private final mCallback88:Landroid/view/View$OnClickListener;
 
@@ -73,7 +73,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0x32
 
@@ -83,7 +83,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/16 v2, 0x33
 
@@ -92,7 +92,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/16 v2, 0x34
 
@@ -101,7 +101,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0640
+    const v1, 0x7f0a064b
 
     const/16 v2, 0x35
 
@@ -110,7 +110,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0647
+    const v1, 0x7f0a0652
 
     const/16 v2, 0x36
 
@@ -128,7 +128,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07bd
+    const v1, 0x7f0a07ca
 
     const/16 v2, 0x38
 
@@ -137,7 +137,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0389
+    const v1, 0x7f0a038e
 
     const/16 v2, 0x39
 
@@ -146,7 +146,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07ae
+    const v1, 0x7f0a07bb
 
     const/16 v2, 0x3a
 
@@ -155,7 +155,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07af
+    const v1, 0x7f0a07bc
 
     const/16 v2, 0x3b
 
@@ -164,7 +164,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08df
+    const v1, 0x7f0a08fa
 
     const/16 v2, 0x3c
 
@@ -173,7 +173,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e0
+    const v1, 0x7f0a08fb
 
     const/16 v2, 0x3d
 
@@ -182,7 +182,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0488
+    const v1, 0x7f0a048d
 
     const/16 v2, 0x3e
 
@@ -191,7 +191,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0615
+    const v1, 0x7f0a061e
 
     const/16 v2, 0x3f
 
@@ -200,7 +200,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ac5
+    const v1, 0x7f0a0ae2
 
     const/16 v2, 0x40
 
@@ -916,7 +916,7 @@
     .line 206
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x8
+    const/4 v1, 0x7
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -925,7 +925,7 @@
     .line 207
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x9
+    const/16 v1, 0x8
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -934,7 +934,7 @@
     .line 208
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x14
+    const/16 v1, 0x13
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -943,7 +943,7 @@
     .line 209
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x6
+    const/4 v1, 0x5
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -952,79 +952,79 @@
     .line 210
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x7
+    const/16 v1, 0x14
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback107:Landroid/view/View$OnClickListener;
+
+    .line 211
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/4 v1, 0x6
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
     iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback93:Landroid/view/View$OnClickListener;
 
-    .line 211
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/4 v1, 0x4
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback90:Landroid/view/View$OnClickListener;
-
     .line 212
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/4 v1, 0x5
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback91:Landroid/view/View$OnClickListener;
-
-    .line 213
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/16 v1, 0xe
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback100:Landroid/view/View$OnClickListener;
-
-    .line 214
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/16 v1, 0xf
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback101:Landroid/view/View$OnClickListener;
-
-    .line 215
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
     const/4 v1, 0x3
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback89:Landroid/view/View$OnClickListener;
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback90:Landroid/view/View$OnClickListener;
+
+    .line 213
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback91:Landroid/view/View$OnClickListener;
+
+    .line 214
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/16 v1, 0xd
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback100:Landroid/view/View$OnClickListener;
+
+    .line 215
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/16 v1, 0xe
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback101:Landroid/view/View$OnClickListener;
 
     .line 216
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x12
+    const/4 v1, 0x2
+
+    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
+
+    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback89:Landroid/view/View$OnClickListener;
+
+    .line 217
+    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
+
+    const/16 v1, 0x11
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
     iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback104:Landroid/view/View$OnClickListener;
 
-    .line 217
-    new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
-
-    const/4 v1, 0x1
-
-    invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
-
-    iput-object v0, v2, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback87:Landroid/view/View$OnClickListener;
-
     .line 218
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0xd
+    const/16 v1, 0xc
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1033,7 +1033,7 @@
     .line 219
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x13
+    const/16 v1, 0x12
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1042,7 +1042,7 @@
     .line 220
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/4 v1, 0x2
+    const/4 v1, 0x1
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1051,7 +1051,7 @@
     .line 221
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x10
+    const/16 v1, 0xf
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1060,7 +1060,7 @@
     .line 222
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0xa
+    const/16 v1, 0x9
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1069,7 +1069,7 @@
     .line 223
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0x11
+    const/16 v1, 0x10
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1078,7 +1078,7 @@
     .line 224
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0xc
+    const/16 v1, 0xb
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1087,7 +1087,7 @@
     .line 225
     new-instance v0, Lcom/rigol/scope/generated/callback/OnClickListener;
 
-    const/16 v1, 0xb
+    const/16 v1, 0xa
 
     invoke-direct {v0, v2, v1}, Lcom/rigol/scope/generated/callback/OnClickListener;-><init>(Lcom/rigol/scope/generated/callback/OnClickListener$Listener;I)V
 
@@ -1134,7 +1134,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1206,7 +1206,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -1238,7 +1238,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_2
 
@@ -1310,7 +1310,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x5d
+    const/16 v0, 0x5f
 
     if-ne p2, v0, :cond_1
 
@@ -1382,7 +1382,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -1414,7 +1414,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_2
 
@@ -1486,7 +1486,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -1518,7 +1518,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_2
 
@@ -1590,7 +1590,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1694,7 +1694,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x39c
+    const/16 v0, 0x3a5
 
     if-ne p2, v0, :cond_2
 
@@ -1726,7 +1726,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x434
+    const/16 v0, 0x43e
 
     if-ne p2, v0, :cond_3
 
@@ -1758,7 +1758,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3ce
+    const/16 v0, 0x3d7
 
     if-ne p2, v0, :cond_4
 
@@ -1790,7 +1790,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x30
+    const/16 v0, 0x31
 
     if-ne p2, v0, :cond_5
 
@@ -1822,7 +1822,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x3e
+    const/16 v0, 0x40
 
     if-ne p2, v0, :cond_6
 
@@ -1854,7 +1854,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x16e
+    const/16 v0, 0x172
 
     if-ne p2, v0, :cond_7
 
@@ -1886,7 +1886,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x16f
+    const/16 v0, 0x173
 
     if-ne p2, v0, :cond_8
 
@@ -1918,7 +1918,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x206
+    const/16 v0, 0x20a
 
     if-ne p2, v0, :cond_9
 
@@ -1950,7 +1950,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x39d
+    const/16 v0, 0x3a6
 
     if-ne p2, v0, :cond_a
 
@@ -1982,7 +1982,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0xea
+    const/16 v0, 0xed
 
     if-ne p2, v0, :cond_b
 
@@ -2014,7 +2014,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0xef
+    const/16 v0, 0xf3
 
     if-ne p2, v0, :cond_c
 
@@ -2046,7 +2046,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0xe9
+    const/16 v0, 0xec
 
     if-ne p2, v0, :cond_d
 
@@ -2078,7 +2078,7 @@
     throw p1
 
     :cond_d
-    const/16 v0, 0x2fb
+    const/16 v0, 0x300
 
     if-ne p2, v0, :cond_e
 
@@ -2110,7 +2110,7 @@
     throw p1
 
     :cond_e
-    const/16 v0, 0x2fd
+    const/16 v0, 0x302
 
     if-ne p2, v0, :cond_f
 
@@ -2142,7 +2142,7 @@
     throw p1
 
     :cond_f
-    const/16 v0, 0x2df
+    const/16 v0, 0x2e4
 
     if-ne p2, v0, :cond_10
 
@@ -2174,7 +2174,7 @@
     throw p1
 
     :cond_10
-    const/16 v0, 0x42e
+    const/16 v0, 0x438
 
     if-ne p2, v0, :cond_11
 
@@ -2206,7 +2206,7 @@
     throw p1
 
     :cond_11
-    const/16 v0, 0x42d
+    const/16 v0, 0x437
 
     if-ne p2, v0, :cond_12
 
@@ -2238,7 +2238,7 @@
     throw p1
 
     :cond_12
-    const/16 v0, 0x11c
+    const/16 v0, 0x120
 
     if-ne p2, v0, :cond_13
 
@@ -2270,7 +2270,7 @@
     throw p1
 
     :cond_13
-    const/16 v0, 0x135
+    const/16 v0, 0x139
 
     if-ne p2, v0, :cond_14
 
@@ -2302,7 +2302,7 @@
     throw p1
 
     :cond_14
-    const/16 v0, 0x11d
+    const/16 v0, 0x121
 
     if-ne p2, v0, :cond_15
 
@@ -2334,7 +2334,7 @@
     throw p1
 
     :cond_15
-    const/16 v0, 0x1ff
+    const/16 v0, 0x203
 
     if-ne p2, v0, :cond_16
 
@@ -2366,7 +2366,7 @@
     throw p1
 
     :cond_16
-    const/16 v0, 0x2f1
+    const/16 v0, 0x2f6
 
     if-ne p2, v0, :cond_17
 
@@ -2398,7 +2398,7 @@
     throw p1
 
     :cond_17
-    const/16 v0, 0x1fe
+    const/16 v0, 0x202
 
     if-ne p2, v0, :cond_18
 
@@ -2430,7 +2430,7 @@
     throw p1
 
     :cond_18
-    const/16 v0, 0x438
+    const/16 v0, 0x442
 
     if-ne p2, v0, :cond_19
 
@@ -2462,7 +2462,7 @@
     throw p1
 
     :cond_19
-    const/16 v0, 0x437
+    const/16 v0, 0x441
 
     if-ne p2, v0, :cond_1a
 
@@ -2534,7 +2534,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -2566,7 +2566,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_2
 
@@ -2638,7 +2638,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x278
+    const/16 v0, 0x27d
 
     if-ne p2, v0, :cond_1
 
@@ -2670,7 +2670,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_2
 
@@ -2742,7 +2742,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -2814,7 +2814,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -2886,7 +2886,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -2958,7 +2958,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -3008,7 +3008,7 @@
 
     goto/16 :goto_14
 
-    .line 2106
+    .line 2142
     :pswitch_0
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3022,12 +3022,12 @@
     :goto_0
     if-eqz v0, :cond_14
 
-    .line 2117
+    .line 2153
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2304
+    .line 2106
     :pswitch_1
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3041,12 +3041,12 @@
     :goto_1
     if-eqz v0, :cond_14
 
-    .line 2315
+    .line 2117
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2250
+    .line 2304
     :pswitch_2
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3060,12 +3060,12 @@
     :goto_2
     if-eqz v0, :cond_14
 
-    .line 2261
+    .line 2315
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2376
+    .line 2268
     :pswitch_3
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3079,12 +3079,12 @@
     :goto_3
     if-eqz v0, :cond_14
 
-    .line 2387
+    .line 2279
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2340
+    .line 2376
     :pswitch_4
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3098,12 +3098,12 @@
     :goto_4
     if-eqz v0, :cond_14
 
-    .line 2351
+    .line 2387
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2214
+    .line 2340
     :pswitch_5
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3117,12 +3117,12 @@
     :goto_5
     if-eqz v0, :cond_14
 
-    .line 2225
+    .line 2351
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2196
+    .line 2232
     :pswitch_6
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3136,12 +3136,12 @@
     :goto_6
     if-eqz v0, :cond_14
 
-    .line 2207
+    .line 2243
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2286
+    .line 2214
     :pswitch_7
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3155,12 +3155,12 @@
     :goto_7
     if-eqz v0, :cond_14
 
-    .line 2297
+    .line 2225
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2394
+    .line 2286
     :pswitch_8
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3174,12 +3174,12 @@
     :goto_8
     if-eqz v0, :cond_14
 
-    .line 2405
+    .line 2297
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2412
+    .line 2394
     :pswitch_9
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3193,12 +3193,12 @@
     :goto_9
     if-eqz v0, :cond_14
 
-    .line 2423
+    .line 2405
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2358
+    .line 2412
     :pswitch_a
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3212,12 +3212,12 @@
     :goto_a
     if-eqz v0, :cond_14
 
-    .line 2369
+    .line 2423
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2088
+    .line 2358
     :pswitch_b
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3231,12 +3231,12 @@
     :goto_b
     if-eqz v0, :cond_14
 
-    .line 2099
+    .line 2369
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2070
+    .line 2088
     :pswitch_c
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3250,12 +3250,12 @@
     :goto_c
     if-eqz v0, :cond_14
 
-    .line 2081
+    .line 2099
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_14
 
-    .line 2142
+    .line 2070
     :pswitch_d
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3269,12 +3269,12 @@
     :goto_d
     if-eqz v0, :cond_14
 
-    .line 2153
+    .line 2081
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_14
 
-    .line 2124
+    .line 2160
     :pswitch_e
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3288,12 +3288,12 @@
     :goto_e
     if-eqz v0, :cond_14
 
-    .line 2135
+    .line 2171
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_14
 
-    .line 2178
+    .line 2124
     :pswitch_f
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3307,12 +3307,12 @@
     :goto_f
     if-eqz v0, :cond_14
 
-    .line 2189
+    .line 2135
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_14
 
-    .line 2160
+    .line 2196
     :pswitch_10
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3326,12 +3326,12 @@
     :goto_10
     if-eqz v0, :cond_14
 
-    .line 2171
+    .line 2207
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_14
 
-    .line 2232
+    .line 2178
     :pswitch_11
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3345,12 +3345,12 @@
     :goto_11
     if-eqz v0, :cond_14
 
-    .line 2243
+    .line 2189
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_14
 
-    .line 2322
+    .line 2250
     :pswitch_12
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3364,12 +3364,12 @@
     :goto_12
     if-eqz v0, :cond_14
 
-    .line 2333
+    .line 2261
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_14
 
-    .line 2268
+    .line 2322
     :pswitch_13
     iget-object p1, p0, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
@@ -3383,7 +3383,7 @@
     :goto_13
     if-eqz v0, :cond_14
 
-    .line 2279
+    .line 2333
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     :cond_14
@@ -6839,7 +6839,7 @@
     .line 1810
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->avgTimesEditText:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback87:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback88:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6884,28 +6884,28 @@
     .line 1813
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->displaySpinner:Landroid/widget/TextView;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback91:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback92:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1814
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->expandSpinner:Landroid/widget/TextView;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback93:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback94:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1815
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->expandUserEditText:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback94:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback95:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1816
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->highBitSpinner:Landroid/widget/TextView;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback88:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback89:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6931,105 +6931,105 @@
     .line 1818
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mainOffsetEditText:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback98:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback99:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1819
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mainOffsetLeft:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback99:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback100:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1820
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mainOffsetRight:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback100:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback101:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1821
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mainScaleEditText:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback95:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback96:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1822
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mainScaleLeft:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback96:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback97:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1823
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mainScaleRight:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback97:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback98:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1824
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->maxFrameEdit:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback89:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback90:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1825
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->memdepthSpinner:Landroid/widget/TextView;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback92:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback93:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1826
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->timeOutEdit:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback90:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback91:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1827
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->zoomOffsetEditText:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback104:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback105:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1828
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->zoomOffsetLeft:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback105:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback106:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1829
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->zoomOffsetRight:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback106:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback107:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1830
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->zoomScaleEditText:Landroid/widget/EditText;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback101:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback102:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1831
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->zoomScaleLeft:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback102:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback103:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1832
     iget-object v0, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->zoomScaleRight:Landroid/widget/ImageButton;
 
-    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback103:Landroid/view/View$OnClickListener;
+    iget-object v2, v1, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->mCallback104:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -8074,7 +8074,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x38
+    const/16 p1, 0x3a
 
     .line 390
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8125,7 +8125,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3d
+    const/16 p1, 0x3f
 
     .line 372
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8176,7 +8176,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x61
+    const/16 p1, 0x63
 
     .line 363
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8222,7 +8222,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xae
+    const/16 p1, 0xb0
 
     .line 328
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8268,7 +8268,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xb0
+    const/16 p1, 0xb2
 
     .line 336
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8328,7 +8328,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17c
+    const/16 p1, 0x180
 
     .line 317
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8379,7 +8379,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x22c
+    const/16 p1, 0x230
 
     .line 308
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8430,7 +8430,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x22f
+    const/16 p1, 0x233
 
     .line 345
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8481,7 +8481,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 354
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8532,7 +8532,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x25d
+    const/16 p1, 0x262
 
     .line 381
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8583,7 +8583,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3cf
+    const/16 p1, 0x3d8
 
     .line 299
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewHorizontalBindingImpl;->notifyPropertyChanged(I)V
@@ -8608,7 +8608,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x3cf
+    const/16 v0, 0x3d8
 
     if-ne v0, p1, :cond_0
 
@@ -8620,7 +8620,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const/16 v0, 0x22c
+    const/16 v0, 0x230
 
     if-ne v0, p1, :cond_1
 
@@ -8632,7 +8632,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const/16 v0, 0x17c
+    const/16 v0, 0x180
 
     if-ne v0, p1, :cond_2
 
@@ -8644,7 +8644,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x15c
+    const/16 v0, 0x160
 
     if-ne v0, p1, :cond_3
 
@@ -8656,7 +8656,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xae
+    const/16 v0, 0xb0
 
     if-ne v0, p1, :cond_4
 
@@ -8668,7 +8668,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0xb0
+    const/16 v0, 0xb2
 
     if-ne v0, p1, :cond_5
 
@@ -8680,7 +8680,7 @@
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0x22f
+    const/16 v0, 0x233
 
     if-ne v0, p1, :cond_6
 
@@ -8692,7 +8692,7 @@
     goto :goto_0
 
     :cond_6
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_7
 
@@ -8704,7 +8704,7 @@
     goto :goto_0
 
     :cond_7
-    const/16 v0, 0x61
+    const/16 v0, 0x63
 
     if-ne v0, p1, :cond_8
 
@@ -8716,7 +8716,7 @@
     goto :goto_0
 
     :cond_8
-    const/16 v0, 0x3d
+    const/16 v0, 0x3f
 
     if-ne v0, p1, :cond_9
 
@@ -8728,7 +8728,7 @@
     goto :goto_0
 
     :cond_9
-    const/16 v0, 0x25d
+    const/16 v0, 0x262
 
     if-ne v0, p1, :cond_a
 
@@ -8740,7 +8740,7 @@
     goto :goto_0
 
     :cond_a
-    const/16 v0, 0x38
+    const/16 v0, 0x3a
 
     if-ne v0, p1, :cond_b
 

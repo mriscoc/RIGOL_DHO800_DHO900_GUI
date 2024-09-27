@@ -405,7 +405,7 @@
     .line 166
     iput-object p1, p0, Lcom/rigol/scope/data/MappingObject;->pic:Landroid/graphics/drawable/Drawable;
 
-    const/16 p1, 0x278
+    const/16 p1, 0x27d
 
     .line 167
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MappingObject;->notifyPropertyChanged(I)V
@@ -437,7 +437,7 @@
     .line 144
     iput-object p1, p0, Lcom/rigol/scope/data/MappingObject;->str:Ljava/lang/String;
 
-    const/16 p1, 0x388
+    const/16 p1, 0x391
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MappingObject;->notifyPropertyChanged(I)V
@@ -469,7 +469,7 @@
     .line 188
     iput p1, p0, Lcom/rigol/scope/data/MappingObject;->value:I
 
-    const/16 p1, 0x3eb
+    const/16 p1, 0x3f5
 
     .line 189
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MappingObject;->notifyPropertyChanged(I)V

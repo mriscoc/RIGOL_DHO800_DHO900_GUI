@@ -156,11 +156,11 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a055c
+    const p1, 0x7f0a0565
 
     if-eq p2, p1, :cond_1
 
-    const p1, 0x7f0a0572
+    const p1, 0x7f0a057b
 
     if-eq p2, p1, :cond_0
 
@@ -203,15 +203,15 @@
 
     move-result v0
 
-    const v1, 0x7f0a054f
+    const v1, 0x7f0a0558
 
     if-eq v0, v1, :cond_2
 
-    const v1, 0x7f0a0551
+    const v1, 0x7f0a055a
 
     if-eq v0, v1, :cond_1
 
-    const v1, 0x7f0a056b
+    const v1, 0x7f0a0574
 
     if-eq v0, v1, :cond_0
 

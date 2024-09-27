@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
     .locals 0
 
-    .line 6559
+    .line 6696
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$578;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$578;->val$param:Lcom/rigol/scope/data/NavigateParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 6562
+    .line 6699
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$578;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readNavMode()I

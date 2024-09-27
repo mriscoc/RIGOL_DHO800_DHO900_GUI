@@ -62,7 +62,7 @@
 
     iput-object p2, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
-    .line 742
+    .line 753
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,7 +73,7 @@
 .method public onEnd()V
     .locals 1
 
-    .line 793
+    .line 804
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->showMeasureCursor()V
@@ -84,7 +84,7 @@
 .method public onMove(IIII)V
     .locals 7
 
-    .line 749
+    .line 760
     iget-object p1, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->getMeasureSettingParam()Lcom/rigol/scope/data/MeasureSettingParam;
@@ -95,7 +95,7 @@
 
     int-to-double p2, p3
 
-    .line 752
+    .line 763
     iget-object p4, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {p4}, Lcom/rigol/scope/views/window/WindowContent;->getWidth()I
@@ -124,7 +124,7 @@
 
     mul-double/2addr p2, v0
 
-    .line 756
+    .line 767
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getRegionSelect()I
 
     move-result p4
@@ -133,7 +133,7 @@
 
     if-ne p4, v0, :cond_0
 
-    .line 757
+    .line 768
     iget-object p4, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p4}, Lcom/rigol/scope/views/CursorTag;->getValue()D
@@ -148,7 +148,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveCursorA(J)V
 
-    .line 758
+    .line 769
     iget-object p4, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {p4}, Lcom/rigol/scope/views/CursorTag;->getOtherValue()D
@@ -163,7 +163,7 @@
 
     goto/16 :goto_0
 
-    .line 761
+    .line 772
     :cond_0
     iget-object p4, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
@@ -201,7 +201,7 @@
 
     if-gez p4, :cond_2
 
-    .line 762
+    .line 773
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p2
@@ -229,7 +229,7 @@
 
     throw p1
 
-    .line 764
+    .line 775
     :cond_2
     iget-object p4, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
@@ -261,7 +261,7 @@
 
     if-lez p4, :cond_4
 
-    .line 765
+    .line 776
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorAAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p2
@@ -289,7 +289,7 @@
 
     throw p1
 
-    .line 768
+    .line 779
     :cond_4
     iget-object p4, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
@@ -305,7 +305,7 @@
 
     goto :goto_0
 
-    .line 764
+    .line 775
     :cond_5
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -313,7 +313,7 @@
 
     throw p1
 
-    .line 761
+    .line 772
     :cond_6
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -329,7 +329,7 @@
 .method public onStart()V
     .locals 4
 
-    .line 782
+    .line 793
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->getMeasureSettingParam()Lcom/rigol/scope/data/MeasureSettingParam;
@@ -338,7 +338,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 783
+    .line 794
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorA()J
@@ -349,7 +349,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/views/CursorTag;->setValue(D)V
 
-    .line 784
+    .line 795
     iget-object v1, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->$this_apply:Lcom/rigol/scope/views/CursorTag;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getCursorB()J
@@ -360,7 +360,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/views/CursorTag;->setOtherValue(D)V
 
-    .line 786
+    .line 797
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/window/WindowContent$$special$$inlined$apply$lambda$6;->this$0:Lcom/rigol/scope/views/window/WindowContent;
 

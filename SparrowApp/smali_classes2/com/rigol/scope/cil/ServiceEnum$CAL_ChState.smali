@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7158
+    .line 7160
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     const-string v1, "Imp50_100mv"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->Imp50_100mv:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
-    .line 7159
+    .line 7161
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     const-string v9, "Imp50_200mv"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->Imp50_200mv:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
-    .line 7160
+    .line 7162
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     const-string v2, "Imp1M_200mv"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->Imp1M_200mv:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
-    .line 7161
+    .line 7163
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     const-string v9, "ext_trig"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->ext_trig:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
-    .line 7162
+    .line 7164
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     const-string v2, "Imp1M_100mv"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
-    .line 7156
+    .line 7158
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->Imp50_100mv:Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 7165
+    .line 7167
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7166
+    .line 7168
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->value1:I
 
-    .line 7167
+    .line 7169
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->value2:Ljava/lang/String;
 
-    .line 7168
+    .line 7170
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->pic1:Ljava/lang/String;
 
-    .line 7169
+    .line 7171
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
     .locals 1
 
-    .line 7156
+    .line 7158
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
     .locals 1
 
-    .line 7156
+    .line 7158
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CAL_ChState;->clone()Ljava/lang/Object;

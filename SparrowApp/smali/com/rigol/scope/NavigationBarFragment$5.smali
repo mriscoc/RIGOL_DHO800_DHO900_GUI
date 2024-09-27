@@ -54,7 +54,7 @@
 
     const/16 v0, 0xb
 
-    const/16 v1, 0x5753
+    const/16 v1, 0x5755
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 

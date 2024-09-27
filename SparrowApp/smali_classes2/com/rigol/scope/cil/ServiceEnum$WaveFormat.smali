@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6331
+    .line 6332
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     const-string v1, "wfm_byte"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->wfm_byte:Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
-    .line 6332
+    .line 6333
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     const-string v9, "wfm_word"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->wfm_word:Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
-    .line 6333
+    .line 6334
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     const-string v2, "wfm_ascii"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
-    .line 6329
+    .line 6330
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->wfm_byte:Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 6336
+    .line 6337
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6337
+    .line 6338
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->value1:I
 
-    .line 6338
+    .line 6339
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->value2:Ljava/lang/String;
 
-    .line 6339
+    .line 6340
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->pic1:Ljava/lang/String;
 
-    .line 6340
+    .line 6341
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
     .locals 1
 
-    .line 6329
+    .line 6330
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
     .locals 1
 
-    .line 6329
+    .line 6330
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WaveFormat;->clone()Ljava/lang/Object;

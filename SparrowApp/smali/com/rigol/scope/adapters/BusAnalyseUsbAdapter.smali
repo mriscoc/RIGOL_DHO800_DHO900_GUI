@@ -282,7 +282,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030243
+    const v1, 0x7f030244
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$16HEd9g6uwGpZGgiBzNiGUhOddw;
 
@@ -478,7 +478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030241
+    const v1, 0x7f030242
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$8gLeIAZL1wbRFLqGVbNCx154q-M;
 
@@ -496,7 +496,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030240
+    const v1, 0x7f030241
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$GcqN_caPlYpk7Vd1pbQEpVCp1d8;
 
@@ -514,7 +514,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030242
+    const v1, 0x7f030243
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$KSB6JIhEbMDLWgLlWvM1X1gLS7s;
 
@@ -532,7 +532,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03023f
+    const v1, 0x7f030240
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$iwszn45sDyLkokgCgrDjKZPoFyY;
 

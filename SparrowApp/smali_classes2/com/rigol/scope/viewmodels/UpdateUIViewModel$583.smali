@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
     .locals 0
 
-    .line 6599
+    .line 6736
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$583;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$583;->val$param:Lcom/rigol/scope/data/NavigateParam;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 6602
+    .line 6739
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$583;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readNavEnable()Z
@@ -60,7 +60,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 6603
+    .line 6740
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -71,12 +71,12 @@
 
     move-result-object p1
 
-    .line 6604
+    .line 6741
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
     goto :goto_0
 
-    .line 6606
+    .line 6743
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 

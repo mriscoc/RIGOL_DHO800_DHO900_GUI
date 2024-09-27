@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewBusAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/4 v2, 0x2
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewBusAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/4 v2, 0x3
 
@@ -221,7 +221,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2c
+    const/16 v0, 0x2d
 
     if-ne p2, v0, :cond_1
 
@@ -293,7 +293,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -570,7 +570,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x234
+    const/16 p1, 0x238
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewBusAnalyseBindingImpl;->notifyPropertyChanged(I)V
@@ -621,7 +621,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 93
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewBusAnalyseBindingImpl;->notifyPropertyChanged(I)V
@@ -646,7 +646,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 
@@ -658,7 +658,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x3fc
+    const/16 v0, 0x406
 
     if-ne v0, p1, :cond_1
 
@@ -670,7 +670,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x234
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_2
 

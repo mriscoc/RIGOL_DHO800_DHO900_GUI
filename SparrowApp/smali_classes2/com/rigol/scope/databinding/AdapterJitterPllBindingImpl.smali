@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a056c
+    const v1, 0x7f0a0575
 
     const/4 v2, 0x7
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0568
+    const v1, 0x7f0a0571
 
     const/16 v2, 0x8
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0569
+    const v1, 0x7f0a0572
 
     const/16 v2, 0x9
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0550
+    const v1, 0x7f0a0559
 
     const/16 v2, 0xa
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a056a
+    const v1, 0x7f0a0573
 
     const/16 v2, 0xb
 
@@ -290,7 +290,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x27b
+    const/16 v0, 0x280
 
     if-ne p2, v0, :cond_1
 
@@ -322,7 +322,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xd2
+    const/16 v0, 0xd5
 
     if-ne p2, v0, :cond_2
 
@@ -354,7 +354,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0xd9
+    const/16 v0, 0xdc
 
     if-ne p2, v0, :cond_3
 
@@ -386,7 +386,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x1f8
+    const/16 v0, 0x1fc
 
     if-ne p2, v0, :cond_4
 
@@ -458,7 +458,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -530,7 +530,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -1168,7 +1168,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 97
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterJitterPllBindingImpl;->notifyPropertyChanged(I)V
@@ -1193,7 +1193,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

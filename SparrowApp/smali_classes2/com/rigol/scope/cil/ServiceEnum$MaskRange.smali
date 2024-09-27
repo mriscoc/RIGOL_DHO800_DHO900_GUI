@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4895
+    .line 4896
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     const-string v1, "mask_range_screen"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->mask_range_screen:Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
-    .line 4896
+    .line 4897
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     const-string v9, "mask_range_user"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
-    .line 4893
+    .line 4894
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->mask_range_screen:Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 4899
+    .line 4900
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4900
+    .line 4901
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->value1:I
 
-    .line 4901
+    .line 4902
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->value2:Ljava/lang/String;
 
-    .line 4902
+    .line 4903
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->pic1:Ljava/lang/String;
 
-    .line 4903
+    .line 4904
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
     .locals 1
 
-    .line 4893
+    .line 4894
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
     .locals 1
 
-    .line 4893
+    .line 4894
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->clone()Ljava/lang/Object;

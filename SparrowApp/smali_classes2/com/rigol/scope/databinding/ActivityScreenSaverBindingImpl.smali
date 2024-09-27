@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/ActivityScreenSaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a060e
+    const v1, 0x7f0a0617
 
     const/4 v2, 0x4
 
@@ -183,7 +183,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x306
+    const/16 v0, 0x30b
 
     if-ne p2, v0, :cond_1
 
@@ -215,7 +215,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x309
+    const/16 v0, 0x30e
 
     if-ne p2, v0, :cond_2
 
@@ -601,7 +601,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/ActivityScreenSaverBindingImpl;->notifyPropertyChanged(I)V
@@ -626,7 +626,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

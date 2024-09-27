@@ -81,7 +81,7 @@
 .method public final getContentLayout()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0a020a
+    const v0, 0x7f0a020e
 
     .line 43
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/window/Window;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 .method public final getTitleLayout()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0a08e4
+    const v0, 0x7f0a08ff
 
     .line 38
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/window/Window;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0a03c7
+    const v0, 0x7f0a03cc
 
     .line 63
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/window/Window;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    const v0, 0x7f0a05fb
+    const v0, 0x7f0a0604
 
     .line 64
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/window/Window;->findViewById(I)Landroid/view/View;

@@ -157,7 +157,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x10a
+    const/16 v0, 0x10e
 
     if-ne p2, v0, :cond_1
 
@@ -189,7 +189,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x93
+    const/16 v0, 0x95
 
     if-ne p2, v0, :cond_2
 
@@ -221,7 +221,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x35b
+    const/16 v0, 0x364
 
     if-ne p2, v0, :cond_3
 
@@ -871,7 +871,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemRtsaBindingImpl;->notifyPropertyChanged(I)V
@@ -896,7 +896,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

@@ -240,11 +240,11 @@
 
     move-result v0
 
-    const v1, 0x7f0a0269
+    const v1, 0x7f0a026d
 
     if-eq v0, v1, :cond_2
 
-    const p1, 0x7f0a026b
+    const p1, 0x7f0a026f
 
     if-eq v0, p1, :cond_1
 
@@ -1043,7 +1043,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x574c
+    const/16 v0, 0x574e
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -1075,7 +1075,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a026b
+    const v1, 0x7f0a026f
 
     if-ne v0, v1, :cond_0
 
@@ -1106,7 +1106,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0a0260
+    const v1, 0x7f0a0264
 
     if-ne v0, v1, :cond_1
 
@@ -1133,7 +1133,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v1, 0x7f0a0262
+    const v1, 0x7f0a0266
 
     if-ne v0, v1, :cond_2
 
@@ -1160,7 +1160,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0a026d
+    const v1, 0x7f0a0271
 
     if-ne v0, v1, :cond_3
 
@@ -1248,7 +1248,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v1, 0x7f0a0269
+    const v1, 0x7f0a026d
 
     if-ne v0, v1, :cond_4
 
@@ -1275,7 +1275,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v1, 0x7f0a0267
+    const v1, 0x7f0a026b
 
     if-ne v0, v1, :cond_5
 
@@ -1365,7 +1365,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0a0264
+    const v1, 0x7f0a0268
 
     if-ne v0, v1, :cond_6
 
@@ -1502,7 +1502,7 @@
 
     const/4 v3, 0x2
 
-    const v5, 0x7f0a0260
+    const v5, 0x7f0a0264
 
     if-ne v1, v5, :cond_0
 
@@ -1598,7 +1598,7 @@
 
     move-result v1
 
-    const v4, 0x7f0a0262
+    const v4, 0x7f0a0266
 
     if-ne v1, v4, :cond_1
 
@@ -1708,15 +1708,15 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0264
+    const v0, 0x7f0a0268
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0a0267
+    const v0, 0x7f0a026b
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a026d
+    const v0, 0x7f0a0271
 
     if-eq p1, v0, :cond_1
 
@@ -1820,15 +1820,15 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0a0264
+    const v0, 0x7f0a0268
 
     if-eq p2, v0, :cond_3
 
-    const v0, 0x7f0a0267
+    const v0, 0x7f0a026b
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a026d
+    const v0, 0x7f0a0271
 
     if-eq p2, v0, :cond_1
 

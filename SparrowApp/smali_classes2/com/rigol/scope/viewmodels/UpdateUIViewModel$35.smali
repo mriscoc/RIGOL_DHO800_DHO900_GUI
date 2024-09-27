@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 902
+    .line 985
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 905
+    .line 988
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeBiasAttr()V
 
-    .line 906
+    .line 989
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
@@ -71,14 +71,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 907
+    .line 990
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeCurrentBias()J
 
     goto :goto_0
 
-    .line 909
+    .line 992
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -91,7 +91,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 902
+    .line 985
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$35;->onChanged(Ljava/lang/Boolean;)V

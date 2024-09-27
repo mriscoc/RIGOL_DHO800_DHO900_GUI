@@ -206,37 +206,37 @@
 
 .field public static final btn_radio_on_to_off_mtrl_animation:I = 0x7f080409
 
-.field public static final logo:I = 0x7f080597
+.field public static final logo:I = 0x7f080598
 
-.field public static final notification_action_background:I = 0x7f0805b8
+.field public static final notification_action_background:I = 0x7f0805b9
 
-.field public static final notification_bg:I = 0x7f0805b9
+.field public static final notification_bg:I = 0x7f0805ba
 
-.field public static final notification_bg_low:I = 0x7f0805ba
+.field public static final notification_bg_low:I = 0x7f0805bb
 
-.field public static final notification_bg_low_normal:I = 0x7f0805bb
+.field public static final notification_bg_low_normal:I = 0x7f0805bc
 
-.field public static final notification_bg_low_pressed:I = 0x7f0805bc
+.field public static final notification_bg_low_pressed:I = 0x7f0805bd
 
-.field public static final notification_bg_normal:I = 0x7f0805bd
+.field public static final notification_bg_normal:I = 0x7f0805be
 
-.field public static final notification_bg_normal_pressed:I = 0x7f0805be
+.field public static final notification_bg_normal_pressed:I = 0x7f0805bf
 
-.field public static final notification_icon_background:I = 0x7f0805bf
+.field public static final notification_icon_background:I = 0x7f0805c0
 
-.field public static final notification_template_icon_bg:I = 0x7f0805c0
+.field public static final notification_template_icon_bg:I = 0x7f0805c1
 
-.field public static final notification_template_icon_low_bg:I = 0x7f0805c1
+.field public static final notification_template_icon_low_bg:I = 0x7f0805c2
 
-.field public static final notification_tile_bg:I = 0x7f0805c2
+.field public static final notification_tile_bg:I = 0x7f0805c3
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f0805c3
+.field public static final notify_panel_notification_icon_bg:I = 0x7f0805c4
 
-.field public static final tooltip_frame_dark:I = 0x7f080606
+.field public static final tooltip_frame_dark:I = 0x7f08060a
 
-.field public static final tooltip_frame_light:I = 0x7f080607
+.field public static final tooltip_frame_light:I = 0x7f08060b
 
-.field public static final utils_toast_bg:I = 0x7f08063e
+.field public static final utils_toast_bg:I = 0x7f080642
 
 
 # direct methods

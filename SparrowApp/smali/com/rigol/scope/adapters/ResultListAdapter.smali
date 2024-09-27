@@ -99,6 +99,8 @@
 
 .field private sharedParam:Lcom/rigol/scope/data/SharedParam;
 
+.field private final sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
 .field private titlesArray:Landroid/util/SparseArray;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -132,7 +134,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->measureResultViewModel:Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
-    .line 291
+    .line 292
     const-class v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -141,9 +143,11 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
 
+    iput-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
     if-eqz v0, :cond_0
 
-    .line 294
+    .line 295
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/SharedViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -160,11 +164,11 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 299
+    .line 300
     :cond_0
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->loadTitles(Landroid/content/Context;)V
 
-    .line 302
+    .line 303
     iget-object p1, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->delegatesManager:Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     new-instance v0, Lcom/rigol/scope/adapters/ResultListAdapter$MeasureDelegate;
@@ -183,7 +187,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$CursorDelegate;-><init>(I)V
 
-    .line 303
+    .line 304
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -194,7 +198,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$DvmDelegate;-><init>(I)V
 
-    .line 304
+    .line 305
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -205,7 +209,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$CounterDelegate;-><init>(I)V
 
-    .line 305
+    .line 306
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -216,7 +220,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$EyeDelegate;-><init>(I)V
 
-    .line 306
+    .line 307
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -227,7 +231,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$JitterDelegate;-><init>(I)V
 
-    .line 307
+    .line 308
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -238,7 +242,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$HistogramDelegate;-><init>(I)V
 
-    .line 308
+    .line 309
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -249,7 +253,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasHistogramDelegate;-><init>(I)V
 
-    .line 309
+    .line 310
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -260,7 +264,7 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$MaskDelegate;-><init>(I)V
 
-    .line 310
+    .line 311
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     move-result-object p1
@@ -271,10 +275,10 @@
 
     invoke-direct {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter$RtsaMarkerDelegate;-><init>(I)V
 
-    .line 311
+    .line 312
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->addDelegate(Lcom/rigol/scope/adapters/AdapterDelegate;)Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
-    .line 313
+    .line 314
     const-class p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -289,7 +293,7 @@
 
     const/16 v1, 0x3323
 
-    .line 316
+    .line 317
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -313,7 +317,7 @@
 .method private cacheItems()V
     .locals 3
 
-    .line 1000
+    .line 1016
     :try_start_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
@@ -323,7 +327,7 @@
 
     move-result-object v0
 
-    .line 1001
+    .line 1017
     invoke-static {}, Lcom/blankj/utilcode/util/SPUtils;->getInstance()Lcom/blankj/utilcode/util/SPUtils;
 
     move-result-object v1
@@ -339,7 +343,7 @@
     :catch_0
     move-exception v0
 
-    .line 1004
+    .line 1020
     invoke-virtual {v0}, Lorg/json/JSONException;->printStackTrace()V
 
     :goto_0
@@ -349,7 +353,7 @@
 .method private checkCurrentItem()V
     .locals 5
 
-    .line 697
+    .line 713
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
     move-result v0
@@ -358,12 +362,12 @@
 
     if-gtz v0, :cond_0
 
-    .line 699
+    .line 715
     invoke-virtual {p0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
     return-void
 
-    .line 704
+    .line 720
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getCurrentItem()I
 
@@ -375,7 +379,7 @@
 
     goto :goto_0
 
-    .line 709
+    .line 725
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
@@ -383,14 +387,14 @@
 
     if-lt v0, v2, :cond_2
 
-    .line 711
+    .line 727
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
     move-result v0
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 715
+    .line 731
     :cond_2
     :goto_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
@@ -421,33 +425,33 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 717
+    .line 733
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v2
 
     if-eqz v2, :cond_8
 
-    .line 718
+    .line 734
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v3
 
     if-lez v3, :cond_8
 
-    .line 720
+    .line 736
     invoke-interface {v2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/rigol/scope/data/ResultParam;
 
-    .line 723
+    .line 739
     instance-of v3, v3, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-eqz v3, :cond_3
 
-    .line 725
+    .line 741
     invoke-virtual {p0, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
     return-void
@@ -455,7 +459,7 @@
     :cond_3
     add-int/lit8 v3, v0, 0x1
 
-    .line 730
+    .line 746
     :goto_1
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -463,19 +467,19 @@
 
     if-ge v3, v4, :cond_5
 
-    .line 732
+    .line 748
     invoke-interface {v2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/rigol/scope/data/ResultParam;
 
-    .line 733
+    .line 749
     instance-of v4, v4, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-eqz v4, :cond_4
 
-    .line 735
+    .line 751
     invoke-virtual {p0, v3}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
     return-void
@@ -491,19 +495,19 @@
     :goto_2
     if-ltz v0, :cond_7
 
-    .line 742
+    .line 758
     invoke-interface {v2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/rigol/scope/data/ResultParam;
 
-    .line 743
+    .line 759
     instance-of v3, v3, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-eqz v3, :cond_6
 
-    .line 745
+    .line 761
     invoke-virtual {p0, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
     return-void
@@ -513,7 +517,7 @@
 
     goto :goto_2
 
-    .line 750
+    .line 766
     :cond_7
     invoke-virtual {p0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
@@ -524,28 +528,28 @@
 .method private copyParam(Lcom/rigol/scope/data/ResultParam;Lcom/rigol/scope/data/ResultParam;)V
     .locals 2
 
-    .line 1325
+    .line 1341
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/ResultParam;->setMeasType(Lcom/rigol/scope/cil/ServiceEnum$MeasType;)V
 
-    .line 1326
+    .line 1342
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/ResultParam;->setSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1327
+    .line 1343
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/ResultParam;->setSourceB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1328
+    .line 1344
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->titlesArray:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
@@ -562,20 +566,20 @@
 
     if-eqz v0, :cond_0
 
-    .line 1331
+    .line 1347
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/ResultParam;->setTitle(Ljava/lang/String;)V
 
-    .line 1333
+    .line 1349
     :cond_0
     instance-of v0, p2, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-eqz v0, :cond_1
 
-    .line 1335
+    .line 1351
     invoke-virtual {p1}, Lcom/rigol/scope/data/ResultParam;->getStat()I
 
     move-result p1
@@ -595,7 +599,7 @@
 
     return v0
 
-    .line 573
+    .line 589
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
@@ -603,7 +607,7 @@
 
     if-eqz v1, :cond_7
 
-    .line 574
+    .line 590
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -615,7 +619,7 @@
     :cond_1
     move v2, p1
 
-    .line 580
+    .line 596
     :goto_0
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -623,7 +627,7 @@
 
     if-ge v2, v3, :cond_4
 
-    .line 582
+    .line 598
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -634,7 +638,7 @@
 
     goto :goto_1
 
-    .line 588
+    .line 604
     :cond_2
     instance-of v3, v3, Lcom/rigol/scope/data/MeasureResultParam;
 
@@ -654,7 +658,7 @@
     :goto_2
     if-ltz p1, :cond_7
 
-    .line 597
+    .line 613
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -665,7 +669,7 @@
 
     goto :goto_3
 
-    .line 603
+    .line 619
     :cond_5
     instance-of v2, v2, Lcom/rigol/scope/data/MeasureResultParam;
 
@@ -701,7 +705,7 @@
 
     const/4 v0, 0x0
 
-    .line 1580
+    .line 1596
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -709,7 +713,7 @@
 
     if-ge v0, v1, :cond_5
 
-    .line 1582
+    .line 1598
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -720,7 +724,7 @@
 
     goto :goto_1
 
-    .line 1588
+    .line 1604
     :cond_0
     invoke-virtual {v1}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -730,7 +734,7 @@
 
     goto :goto_1
 
-    .line 1594
+    .line 1610
     :cond_1
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Cursor:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -766,7 +770,7 @@
 
     goto :goto_2
 
-    .line 1608
+    .line 1624
     :cond_2
     invoke-virtual {v1}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -776,7 +780,7 @@
 
     goto :goto_1
 
-    .line 1613
+    .line 1629
     :cond_3
     invoke-virtual {v1}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -821,7 +825,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1630
+    .line 1646
     aget-object v0, p2, v0
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -834,7 +838,7 @@
 
     const/4 v1, 0x1
 
-    .line 1631
+    .line 1647
     aget-object v1, p2, v1
 
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -847,7 +851,7 @@
 
     const/4 v2, 0x2
 
-    .line 1632
+    .line 1648
     aget-object p2, p2, v2
 
     invoke-static {p2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -858,7 +862,7 @@
 
     move-result-object p2
 
-    .line 1634
+    .line 1650
     invoke-direct {p0, p1, v0, v1, p2}, Lcom/rigol/scope/adapters/ResultListAdapter;->isInParams(Ljava/util/List;Lcom/rigol/scope/cil/ServiceEnum$MeasType;Lcom/rigol/scope/cil/ServiceEnum$Chan;Lcom/rigol/scope/cil/ServiceEnum$Chan;)I
 
     move-result p1
@@ -873,7 +877,7 @@
 
     new-array v0, v0, [I
 
-    .line 1015
+    .line 1031
     fill-array-data v0, :array_0
 
     invoke-static {p1, v0}, Lcom/rigol/scope/data/MappingObject;->createMappingByValue(Landroid/content/Context;[I)Landroid/util/SparseArray;
@@ -916,7 +920,7 @@
 
     return-object v0
 
-    .line 1518
+    .line 1534
     :cond_0
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Cursor:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -924,14 +928,14 @@
 
     if-eqz p3, :cond_8
 
-    .line 1522
+    .line 1538
     new-instance p0, Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/data/CursorResultParam;-><init>()V
 
     return-object p0
 
-    .line 1525
+    .line 1541
     :cond_1
     sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_DVM:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -939,14 +943,14 @@
 
     if-eqz p2, :cond_8
 
-    .line 1529
+    .line 1545
     new-instance p0, Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/data/DvmResultParam;-><init>()V
 
     return-object p0
 
-    .line 1532
+    .line 1548
     :cond_2
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Counter:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -954,14 +958,14 @@
 
     if-eqz p4, :cond_8
 
-    .line 1536
+    .line 1552
     new-instance p0, Lcom/rigol/scope/data/CounterResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/data/CounterResultParam;-><init>()V
 
     return-object p0
 
-    .line 1539
+    .line 1555
     :cond_3
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_Histogram:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -969,14 +973,14 @@
 
     if-eqz p5, :cond_8
 
-    .line 1543
+    .line 1559
     new-instance p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;-><init>()V
 
     return-object p0
 
-    .line 1546
+    .line 1562
     :cond_4
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Meas_MHistogram:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -984,14 +988,14 @@
 
     if-eqz p6, :cond_8
 
-    .line 1550
+    .line 1566
     new-instance p0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;-><init>()V
 
     return-object p0
 
-    .line 1553
+    .line 1569
     :cond_5
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->EYE_RESULT:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -999,14 +1003,14 @@
 
     if-eqz p7, :cond_8
 
-    .line 1557
+    .line 1573
     new-instance p0, Lcom/rigol/scope/data/EyeResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/data/EyeResultParam;-><init>()V
 
     return-object p0
 
-    .line 1560
+    .line 1576
     :cond_6
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->Jitter_Result:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -1014,7 +1018,7 @@
 
     if-eqz p8, :cond_8
 
-    .line 1564
+    .line 1580
     new-instance p0, Lcom/rigol/scope/data/JitterResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/data/JitterResultParam;-><init>()V
@@ -1024,7 +1028,7 @@
     :cond_7
     if-eqz p1, :cond_8
 
-    .line 1571
+    .line 1587
     new-instance p0, Lcom/rigol/scope/data/MeasureResultParam;
 
     invoke-direct {p0}, Lcom/rigol/scope/data/MeasureResultParam;-><init>()V
@@ -1048,12 +1052,12 @@
         }
     .end annotation
 
-    .line 1438
+    .line 1454
     const-class v0, Lcom/rigol/scope/data/CursorResultParam;
 
     if-ne p0, v0, :cond_0
 
-    .line 1440
+    .line 1456
     const-class v0, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1064,7 +1068,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1443
+    .line 1459
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1079,13 +1083,13 @@
 
     return-object v0
 
-    .line 1450
+    .line 1466
     :cond_0
     const-class v0, Lcom/rigol/scope/data/DvmResultParam;
 
     if-ne p0, v0, :cond_1
 
-    .line 1452
+    .line 1468
     const-class v0, Lcom/rigol/scope/viewmodels/DvmViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1096,7 +1100,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1455
+    .line 1471
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/DvmViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1111,13 +1115,13 @@
 
     return-object v0
 
-    .line 1462
+    .line 1478
     :cond_1
     const-class v0, Lcom/rigol/scope/data/CounterResultParam;
 
     if-ne p0, v0, :cond_2
 
-    .line 1464
+    .line 1480
     const-class v0, Lcom/rigol/scope/viewmodels/CounterViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1128,7 +1132,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1467
+    .line 1483
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CounterViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1143,13 +1147,13 @@
 
     return-object v0
 
-    .line 1474
+    .line 1490
     :cond_2
     const-class v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-ne p0, v0, :cond_3
 
-    .line 1476
+    .line 1492
     const-class v0, Lcom/rigol/scope/viewmodels/HistogramViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1160,7 +1164,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1479
+    .line 1495
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HistogramViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1175,7 +1179,7 @@
 
     return-object v0
 
-    .line 1488
+    .line 1504
     :cond_3
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
@@ -1197,7 +1201,7 @@
     :catch_1
     move-exception p0
 
-    .line 1491
+    .line 1507
     :goto_0
     invoke-virtual {p0}, Ljava/lang/ReflectiveOperationException;->printStackTrace()V
 
@@ -1209,126 +1213,126 @@
 .method private onItemDataChanged(Lcom/rigol/scope/data/ResultParam;[Ljava/lang/String;)V
     .locals 1
 
-    .line 1639
+    .line 1655
     instance-of v0, p1, Lcom/rigol/scope/data/CounterResultParam;
 
     if-eqz v0, :cond_0
 
-    .line 1642
+    .line 1658
     check-cast p1, Lcom/rigol/scope/data/CounterResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/CounterResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1644
+    .line 1660
     :cond_0
     instance-of v0, p1, Lcom/rigol/scope/data/DvmResultParam;
 
     if-eqz v0, :cond_1
 
-    .line 1647
+    .line 1663
     check-cast p1, Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/DvmResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1649
+    .line 1665
     :cond_1
     instance-of v0, p1, Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_2
 
-    .line 1653
+    .line 1669
     check-cast p1, Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->readAbXy()V
 
-    .line 1655
+    .line 1671
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/CursorResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1657
+    .line 1673
     :cond_2
     instance-of v0, p1, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-eqz v0, :cond_3
 
-    .line 1660
+    .line 1676
     check-cast p1, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1662
+    .line 1678
     :cond_3
     instance-of v0, p1, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     if-eqz v0, :cond_4
 
-    .line 1665
+    .line 1681
     check-cast p1, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1667
+    .line 1683
     :cond_4
     instance-of v0, p1, Lcom/rigol/scope/data/EyeResultParam;
 
     if-eqz v0, :cond_5
 
-    .line 1670
+    .line 1686
     check-cast p1, Lcom/rigol/scope/data/EyeResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/EyeResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1672
+    .line 1688
     :cond_5
     instance-of v0, p1, Lcom/rigol/scope/data/JitterResultParam;
 
     if-eqz v0, :cond_6
 
-    .line 1675
+    .line 1691
     check-cast p1, Lcom/rigol/scope/data/JitterResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/JitterResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1677
+    .line 1693
     :cond_6
     instance-of v0, p1, Lcom/rigol/scope/data/MaskResultParam;
 
     if-eqz v0, :cond_7
 
-    .line 1679
+    .line 1695
     check-cast p1, Lcom/rigol/scope/data/MaskResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MaskResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1681
+    .line 1697
     :cond_7
     instance-of v0, p1, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
     if-eqz v0, :cond_8
 
-    .line 1683
+    .line 1699
     check-cast p1, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/RtsaMarkerResultParam;->setData([Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1688
+    .line 1704
     :cond_8
     check-cast p1, Lcom/rigol/scope/data/MeasureResultParam;
 
@@ -1343,13 +1347,13 @@
 
     const/4 v0, 0x0
 
-    .line 1415
+    .line 1431
     :try_start_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v1
 
-    .line 1416
+    .line 1432
     array-length v2, p1
 
     move v3, v0
@@ -1359,7 +1363,7 @@
 
     aget-object v4, p1, v3
 
-    .line 1419
+    .line 1435
     invoke-direct {p0, v1, v4}, Lcom/rigol/scope/adapters/ResultListAdapter;->isInParams(Ljava/util/List;[Ljava/lang/String;)I
 
     move-result v5
@@ -1368,7 +1372,7 @@
 
     if-eq v5, v6, :cond_0
 
-    .line 1425
+    .line 1441
     invoke-interface {v1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -1377,7 +1381,7 @@
 
     invoke-direct {p0, v6, v4}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged(Lcom/rigol/scope/data/ResultParam;[Ljava/lang/String;)V
 
-    .line 1426
+    .line 1442
     invoke-virtual {p0, v5}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyItemChanged(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1390,7 +1394,7 @@
     :catch_0
     move-exception p1
 
-    .line 1431
+    .line 1447
     invoke-virtual {p1}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -1399,7 +1403,7 @@
 
     invoke-static {v1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 1432
+    .line 1448
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_1
@@ -1423,7 +1427,7 @@
 
     if-eqz p1, :cond_8
 
-    .line 1155
+    .line 1171
     :try_start_0
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
@@ -1433,13 +1437,13 @@
 
     goto/16 :goto_4
 
-    .line 1165
+    .line 1181
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v0
 
-    .line 1168
+    .line 1184
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1460,7 +1464,7 @@
 
     check-cast v2, Lcom/rigol/scope/data/ResultParam;
 
-    .line 1172
+    .line 1188
     invoke-virtual {v2}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v4
@@ -1481,7 +1485,7 @@
 
     if-eq v4, v5, :cond_2
 
-    .line 1175
+    .line 1191
     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1490,14 +1494,14 @@
 
     if-eqz v3, :cond_1
 
-    .line 1178
+    .line 1194
     invoke-virtual {v2}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v4
 
     invoke-virtual {v3, v4}, Lcom/rigol/scope/data/ResultParam;->setSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1179
+    .line 1195
     invoke-virtual {v2}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
@@ -1506,7 +1510,7 @@
 
     goto :goto_0
 
-    .line 1185
+    .line 1201
     :cond_2
     invoke-static {p2}, Lcom/rigol/scope/adapters/ResultListAdapter;->newParam(Ljava/lang/Class;)Lcom/rigol/scope/data/ResultParam;
 
@@ -1514,7 +1518,7 @@
 
     if-eqz v4, :cond_1
 
-    .line 1188
+    .line 1204
     invoke-virtual {v4}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v5
@@ -1523,7 +1527,7 @@
 
     if-ne v5, v6, :cond_3
 
-    .line 1190
+    .line 1206
     move-object v5, v4
 
     check-cast v5, Lcom/rigol/scope/data/DvmResultParam;
@@ -1532,7 +1536,7 @@
 
     goto :goto_1
 
-    .line 1192
+    .line 1208
     :cond_3
     invoke-virtual {v4}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -1542,26 +1546,26 @@
 
     if-ne v5, v6, :cond_4
 
-    .line 1194
+    .line 1210
     move-object v5, v4
 
     check-cast v5, Lcom/rigol/scope/data/CounterResultParam;
 
     invoke-virtual {v5}, Lcom/rigol/scope/data/CounterResultParam;->readCounterType()Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
-    .line 1198
+    .line 1214
     :cond_4
     :goto_1
     invoke-direct {p0, v2, v4}, Lcom/rigol/scope/adapters/ResultListAdapter;->copyParam(Lcom/rigol/scope/data/ResultParam;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 1201
+    .line 1217
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v2
 
     invoke-interface {v2, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 1204
+    .line 1220
     iget-object v2, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->measureResultViewModel:Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
     invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/MeasureResultViewModel;->getResultBarStatus()Landroidx/lifecycle/MutableLiveData;
@@ -1574,15 +1578,15 @@
 
     invoke-virtual {v2, v5}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1207
+    .line 1223
     invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/ResultListAdapter;->syncItemAdded(Ljava/lang/Class;)V
 
-    .line 1210
+    .line 1226
     instance-of v2, v4, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-eqz v2, :cond_1
 
-    .line 1212
+    .line 1228
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v2
@@ -1597,7 +1601,7 @@
 
     goto/16 :goto_0
 
-    .line 1218
+    .line 1234
     :cond_5
     const-class v1, Lcom/rigol/scope/data/MeasureResultParam;
 
@@ -1605,7 +1609,7 @@
 
     const/4 v1, 0x0
 
-    .line 1223
+    .line 1239
     :goto_2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -1613,7 +1617,7 @@
 
     if-ge v1, v2, :cond_9
 
-    .line 1225
+    .line 1241
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1624,7 +1628,7 @@
 
     goto :goto_3
 
-    .line 1231
+    .line 1247
     :cond_6
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1632,14 +1636,14 @@
 
     if-ne v4, p2, :cond_7
 
-    .line 1234
+    .line 1250
     invoke-interface {p1, v2}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_7
 
-    .line 1237
+    .line 1253
     invoke-interface {v0, v2}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
     add-int/lit8 v1, v1, -0x1
@@ -1650,15 +1654,15 @@
 
     goto :goto_2
 
-    .line 1157
+    .line 1173
     :cond_8
     :goto_4
     invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/ResultListAdapter;->removeItems(Ljava/lang/Class;)V
 
-    .line 1160
+    .line 1176
     invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/ResultListAdapter;->syncItemRemoved(Ljava/lang/Class;)V
 
-    .line 1246
+    .line 1262
     :cond_9
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->refreshAndCache()V
     :try_end_0
@@ -1669,7 +1673,7 @@
     :catch_0
     move-exception p1
 
-    .line 1249
+    .line 1265
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_5
@@ -1679,7 +1683,7 @@
 .method private queryData(II)[[Ljava/lang/String;
     .locals 1
 
-    .line 1721
+    .line 1737
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1688,7 +1692,7 @@
 
     move-result-object p1
 
-    .line 1728
+    .line 1744
     :try_start_0
     const-class p2, [[Ljava/lang/String;
 
@@ -1705,7 +1709,7 @@
     :catch_0
     move-exception p1
 
-    .line 1731
+    .line 1747
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p1, 0x0
@@ -1730,7 +1734,7 @@
         }
     .end annotation
 
-    .line 1703
+    .line 1719
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1739,7 +1743,7 @@
 
     move-result-object p1
 
-    .line 1709
+    .line 1725
     invoke-static {p1}, Lcom/rigol/scope/utilities/JsonUtil;->getResultParams(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
@@ -1750,16 +1754,16 @@
 .method private refreshAndCache()V
     .locals 6
 
-    .line 619
+    .line 635
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->checkCurrentItem()V
 
-    .line 622
+    .line 638
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
-    .line 625
+    .line 641
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->cacheItems()V
 
-    .line 628
+    .line 644
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->measureResultViewModel:Lcom/rigol/scope/viewmodels/MeasureResultViewModel;
 
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MeasureResultViewModel;->getLiveData()Landroidx/lifecycle/MutableLiveData;
@@ -1772,19 +1776,19 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 631
+    .line 647
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     const/4 v1, 0x1
 
-    .line 672
+    .line 688
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v2
 
     if-eqz v0, :cond_3
 
-    .line 634
+    .line 650
     invoke-virtual {v0}, Lcom/rigol/scope/data/SharedParam;->getShowResultBar()Z
 
     move-result v0
@@ -1793,7 +1797,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 637
+    .line 653
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
@@ -1812,7 +1816,7 @@
 
     goto :goto_2
 
-    .line 643
+    .line 659
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
@@ -1838,7 +1842,7 @@
     :goto_1
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/SharedParam;->setShowResultBar(Z)V
 
-    .line 648
+    .line 664
     :cond_3
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
@@ -1847,17 +1851,17 @@
 
     if-nez v0, :cond_7
 
-    .line 650
+    .line 666
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 651
+    .line 667
     instance-of v1, v0, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_7
 
-    .line 653
+    .line 669
     check-cast v0, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
@@ -1866,14 +1870,14 @@
 
     if-eqz v0, :cond_7
 
-    .line 656
+    .line 672
     invoke-virtual {v0}, Lcom/rigol/scope/WaveformFragment;->getBinding()Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
-    .line 659
+    .line 675
     iget-object v0, v0, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->multiWindow:Lcom/rigol/scope/views/multi/MultiWindow;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/multi/MultiWindow;->getWindows()Ljava/util/List;
@@ -1882,7 +1886,7 @@
 
     if-eqz v0, :cond_7
 
-    .line 662
+    .line 678
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1906,40 +1910,40 @@
     goto :goto_3
 
     :cond_5
-    const v3, 0x7f0a0b0f
+    const v3, 0x7f0a0b2c
 
-    .line 669
+    .line 685
     invoke-virtual {v1, v3}, Lcom/rigol/scope/views/window/Window;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 670
+    .line 686
     instance-of v3, v1, Lcom/rigol/scope/views/window/WindowContent;
 
     const/16 v4, 0x6f
 
     if-eqz v3, :cond_6
 
-    .line 672
+    .line 688
     invoke-virtual {v1, v4, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 673
+    .line 689
     check-cast v1, Lcom/rigol/scope/views/window/WindowContent;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowContent;->hideABxyIndicator()V
 
     goto :goto_3
 
-    .line 675
+    .line 691
     :cond_6
     instance-of v3, v1, Lcom/rigol/scope/views/wave/WaveformLayout;
 
     if-eqz v3, :cond_4
 
-    .line 677
+    .line 693
     invoke-virtual {v1, v4, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 678
+    .line 694
     check-cast v1, Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->getMainView()Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -1948,12 +1952,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 681
+    .line 697
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->hideABxyIndicator()V
 
     goto :goto_3
 
-    .line 692
+    .line 708
     :cond_7
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
@@ -1976,7 +1980,7 @@
         }
     .end annotation
 
-    .line 448
+    .line 451
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v0
@@ -1985,7 +1989,7 @@
 
     move-result-object v0
 
-    .line 449
+    .line 452
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -1994,21 +1998,21 @@
 
     if-eqz v1, :cond_1
 
-    .line 451
+    .line 454
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/rigol/scope/data/ResultParam;
 
-    .line 452
+    .line 455
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
 
     if-ne v1, p1, :cond_0
 
-    .line 454
+    .line 457
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
@@ -2020,7 +2024,7 @@
 .method private setCurrentItem2Delegates(I)V
     .locals 4
 
-    .line 377
+    .line 378
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->delegatesManager:Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/AdapterDelegatesManager;->getDelegates()Landroidx/collection/SparseArrayCompat;
@@ -2031,7 +2035,7 @@
 
     const/4 v1, 0x0
 
-    .line 380
+    .line 381
     :goto_0
     invoke-virtual {v0}, Landroidx/collection/SparseArrayCompat;->size()I
 
@@ -2039,19 +2043,19 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 382
+    .line 383
     invoke-virtual {v0, v1}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/rigol/scope/adapters/AdapterDelegate;
 
-    .line 383
+    .line 384
     instance-of v3, v2, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;
 
     if-eqz v3, :cond_0
 
-    .line 385
+    .line 386
     check-cast v2, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;
 
     invoke-virtual {v2, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->setSelectedPosition(I)V
@@ -2081,7 +2085,7 @@
 
     return-void
 
-    .line 1299
+    .line 1315
     :cond_0
     const-class v0, Lcom/rigol/scope/data/CursorResultParam;
 
@@ -2089,7 +2093,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1301
+    .line 1317
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2106,13 +2110,13 @@
 
     goto :goto_0
 
-    .line 1303
+    .line 1319
     :cond_1
     const-class v0, Lcom/rigol/scope/data/DvmResultParam;
 
     if-ne p1, v0, :cond_2
 
-    .line 1305
+    .line 1321
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2129,13 +2133,13 @@
 
     goto :goto_0
 
-    .line 1307
+    .line 1323
     :cond_2
     const-class v0, Lcom/rigol/scope/data/CounterResultParam;
 
     if-ne p1, v0, :cond_3
 
-    .line 1309
+    .line 1325
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2152,13 +2156,13 @@
 
     goto :goto_0
 
-    .line 1311
+    .line 1327
     :cond_3
     const-class v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-ne p1, v0, :cond_4
 
-    .line 1313
+    .line 1329
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2194,7 +2198,7 @@
 
     return-void
 
-    .line 1266
+    .line 1282
     :cond_0
     const-class v0, Lcom/rigol/scope/data/CursorResultParam;
 
@@ -2202,7 +2206,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1268
+    .line 1284
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2219,13 +2223,13 @@
 
     goto :goto_0
 
-    .line 1270
+    .line 1286
     :cond_1
     const-class v0, Lcom/rigol/scope/data/DvmResultParam;
 
     if-ne p1, v0, :cond_2
 
-    .line 1272
+    .line 1288
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2242,13 +2246,13 @@
 
     goto :goto_0
 
-    .line 1274
+    .line 1290
     :cond_2
     const-class v0, Lcom/rigol/scope/data/CounterResultParam;
 
     if-ne p1, v0, :cond_3
 
-    .line 1276
+    .line 1292
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2265,13 +2269,13 @@
 
     goto :goto_0
 
-    .line 1278
+    .line 1294
     :cond_3
     const-class v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-ne p1, v0, :cond_4
 
-    .line 1280
+    .line 1296
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2288,7 +2292,7 @@
 
     goto :goto_0
 
-    .line 1282
+    .line 1298
     :cond_4
     const-class v0, Lcom/rigol/scope/data/EyeResultParam;
 
@@ -2296,13 +2300,13 @@
 
     goto :goto_0
 
-    .line 1286
+    .line 1302
     :cond_5
     const-class v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     if-ne p1, v0, :cond_6
 
-    .line 1288
+    .line 1304
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -2327,7 +2331,7 @@
 .method public synthetic lambda$new$0$ResultListAdapter(Lcom/rigol/scope/data/SharedParam;)V
     .locals 0
 
-    .line 295
+    .line 296
     iput-object p1, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     return-void
@@ -2336,10 +2340,10 @@
 .method public synthetic lambda$new$1$ResultListAdapter(Ljava/lang/Object;)V
     .locals 0
 
-    .line 319
+    .line 320
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->cacheItems()V
 
-    .line 321
+    .line 322
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
     return-void
@@ -2357,7 +2361,7 @@
         }
     .end annotation
 
-    .line 1346
+    .line 1362
     const-class v0, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-ne p1, v0, :cond_0
@@ -2366,17 +2370,17 @@
 
     const/16 v0, 0x332c
 
-    .line 1348
+    .line 1364
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1351
+    .line 1367
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 1353
+    .line 1369
     :cond_0
     const-class v0, Lcom/rigol/scope/data/CursorResultParam;
 
@@ -2386,17 +2390,17 @@
 
     const/16 v0, 0xd2a
 
-    .line 1355
+    .line 1371
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1357
+    .line 1373
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 1359
+    .line 1375
     :cond_1
     const-class v0, Lcom/rigol/scope/data/DvmResultParam;
 
@@ -2406,17 +2410,17 @@
 
     const/16 v0, 0xf09
 
-    .line 1361
+    .line 1377
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1363
+    .line 1379
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 1365
+    .line 1381
     :cond_2
     const-class v0, Lcom/rigol/scope/data/CounterResultParam;
 
@@ -2426,17 +2430,17 @@
 
     const/16 v0, 0xb08
 
-    .line 1367
+    .line 1383
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1369
+    .line 1385
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1371
+    .line 1387
     :cond_3
     const-class v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
@@ -2446,17 +2450,17 @@
 
     const/16 p1, 0x210e
 
-    .line 1373
+    .line 1389
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1375
+    .line 1391
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1377
+    .line 1393
     :cond_4
     const-class v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
@@ -2464,17 +2468,17 @@
 
     const/16 p1, 0x211e
 
-    .line 1379
+    .line 1395
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1381
+    .line 1397
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1383
+    .line 1399
     :cond_5
     const-class v0, Lcom/rigol/scope/data/EyeResultParam;
 
@@ -2484,17 +2488,17 @@
 
     const/16 v0, 0x1925
 
-    .line 1385
+    .line 1401
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1387
+    .line 1403
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1389
+    .line 1405
     :cond_6
     const-class v0, Lcom/rigol/scope/data/JitterResultParam;
 
@@ -2504,17 +2508,17 @@
 
     const/16 v0, 0x271e
 
-    .line 1391
+    .line 1407
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1393
+    .line 1409
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1395
+    .line 1411
     :cond_7
     const-class v0, Lcom/rigol/scope/data/MaskResultParam;
 
@@ -2524,17 +2528,17 @@
 
     const/16 v0, 0x2d23
 
-    .line 1397
+    .line 1413
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1399
+    .line 1415
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 1402
+    .line 1418
     :cond_8
     const-class v0, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
@@ -2544,12 +2548,12 @@
 
     const/16 v0, 0x1b3f
 
-    .line 1404
+    .line 1420
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryData(II)[[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1406
+    .line 1422
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged([[Ljava/lang/String;)V
 
     :cond_9
@@ -2569,7 +2573,7 @@
         }
     .end annotation
 
-    .line 1076
+    .line 1092
     :try_start_0
     const-class v0, Lcom/rigol/scope/data/MeasureResultParam;
 
@@ -2579,19 +2583,19 @@
 
     const/16 v0, 0x332a
 
-    .line 1078
+    .line 1094
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1080
+    .line 1096
     const-class v0, Lcom/rigol/scope/data/MeasureResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto/16 :goto_0
 
-    .line 1082
+    .line 1098
     :cond_0
     const-class v0, Lcom/rigol/scope/data/CursorResultParam;
 
@@ -2601,19 +2605,19 @@
 
     const/16 v0, 0xd2b
 
-    .line 1084
+    .line 1100
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1086
+    .line 1102
     const-class v0, Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto/16 :goto_0
 
-    .line 1088
+    .line 1104
     :cond_1
     const-class v0, Lcom/rigol/scope/data/DvmResultParam;
 
@@ -2623,19 +2627,19 @@
 
     const/16 v0, 0xf0a
 
-    .line 1090
+    .line 1106
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1092
+    .line 1108
     const-class v0, Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto/16 :goto_0
 
-    .line 1094
+    .line 1110
     :cond_2
     const-class v0, Lcom/rigol/scope/data/CounterResultParam;
 
@@ -2645,19 +2649,19 @@
 
     const/16 v0, 0xb09
 
-    .line 1096
+    .line 1112
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1098
+    .line 1114
     const-class v0, Lcom/rigol/scope/data/CounterResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto/16 :goto_0
 
-    .line 1100
+    .line 1116
     :cond_3
     const-class v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
@@ -2667,19 +2671,19 @@
 
     const/16 p1, 0x210d
 
-    .line 1102
+    .line 1118
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1104
+    .line 1120
     const-class v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 1106
+    .line 1122
     :cond_4
     const-class v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
@@ -2687,19 +2691,19 @@
 
     const/16 p1, 0x211d
 
-    .line 1108
+    .line 1124
     invoke-direct {p0, v1, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1110
+    .line 1126
     const-class v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 1112
+    .line 1128
     :cond_5
     const-class v0, Lcom/rigol/scope/data/EyeResultParam;
 
@@ -2709,19 +2713,19 @@
 
     const/16 v0, 0x1924
 
-    .line 1114
+    .line 1130
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1116
+    .line 1132
     const-class v0, Lcom/rigol/scope/data/EyeResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 1118
+    .line 1134
     :cond_6
     const-class v0, Lcom/rigol/scope/data/JitterResultParam;
 
@@ -2731,19 +2735,19 @@
 
     const/16 v0, 0x271f
 
-    .line 1120
+    .line 1136
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1122
+    .line 1138
     const-class v0, Lcom/rigol/scope/data/JitterResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 1124
+    .line 1140
     :cond_7
     const-class v0, Lcom/rigol/scope/data/MaskResultParam;
 
@@ -2753,19 +2757,19 @@
 
     const/16 v0, 0x2d24
 
-    .line 1126
+    .line 1142
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1128
+    .line 1144
     const-class v0, Lcom/rigol/scope/data/MaskResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 1130
+    .line 1146
     :cond_8
     const-class v0, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
@@ -2775,12 +2779,12 @@
 
     const/16 v0, 0x1b3e
 
-    .line 1132
+    .line 1148
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1134
+    .line 1150
     const-class v0, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onListChanged(Ljava/util/List;Ljava/lang/Class;)V
@@ -2792,7 +2796,7 @@
     :catch_0
     move-exception p1
 
-    .line 1138
+    .line 1154
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
     :cond_9
@@ -2810,7 +2814,7 @@
 
     move-object/from16 v0, p0
 
-    .line 760
+    .line 776
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v1
@@ -2819,7 +2823,7 @@
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/MessageBus;->setUseQueue(Z)V
 
-    .line 763
+    .line 779
     invoke-static {}, Lcom/blankj/utilcode/util/SPUtils;->getInstance()Lcom/blankj/utilcode/util/SPUtils;
 
     move-result-object v1
@@ -2830,7 +2834,7 @@
 
     move-result-object v1
 
-    .line 770
+    .line 786
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -2839,7 +2843,7 @@
 
     return-void
 
-    .line 775
+    .line 791
     :cond_0
     invoke-static {v1}, Lcom/rigol/scope/utilities/JsonUtil;->getResultParams(Ljava/lang/String;)Ljava/util/List;
 
@@ -2847,7 +2851,7 @@
 
     if-eqz v1, :cond_1b
 
-    .line 778
+    .line 794
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
     move-result v3
@@ -2856,7 +2860,7 @@
 
     goto/16 :goto_6
 
-    .line 789
+    .line 805
     :cond_1
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -2866,7 +2870,7 @@
 
     move-result-object v3
 
-    .line 806
+    .line 822
     new-instance v4, Ljava/util/LinkedList;
 
     invoke-direct {v4}, Ljava/util/LinkedList;-><init>()V
@@ -2887,7 +2891,7 @@
 
     move/from16 v21, v20
 
-    .line 807
+    .line 823
     :goto_0
     invoke-interface {v3}, Ljava/util/Queue;->peek()Ljava/lang/Object;
 
@@ -2897,7 +2901,7 @@
 
     if-eqz v5, :cond_12
 
-    .line 809
+    .line 825
     invoke-interface {v3}, Ljava/util/Queue;->poll()Ljava/lang/Object;
 
     move-result-object v5
@@ -2906,7 +2910,7 @@
 
     const-string v6, "28_13098"
 
-    .line 815
+    .line 831
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -2917,14 +2921,14 @@
 
     const/16 v6, 0x332a
 
-    .line 817
+    .line 833
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_2
 
-    .line 821
+    .line 837
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -2943,7 +2947,7 @@
     :cond_3
     const-string v6, "21_3371"
 
-    .line 827
+    .line 843
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -2954,14 +2958,14 @@
 
     const/16 v6, 0xd2b
 
-    .line 829
+    .line 845
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_4
 
-    .line 833
+    .line 849
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -2980,7 +2984,7 @@
     :cond_5
     const-string v6, "30_3850"
 
-    .line 839
+    .line 855
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -2991,14 +2995,14 @@
 
     const/16 v6, 0xf0a
 
-    .line 841
+    .line 857
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_6
 
-    .line 845
+    .line 861
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -3017,7 +3021,7 @@
     :cond_7
     const-string v6, "29_2825"
 
-    .line 851
+    .line 867
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -3028,14 +3032,14 @@
 
     const/16 v6, 0xb09
 
-    .line 853
+    .line 869
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_8
 
-    .line 857
+    .line 873
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -3054,7 +3058,7 @@
     :cond_9
     const-string v6, "34_8461"
 
-    .line 863
+    .line 879
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -3065,14 +3069,14 @@
 
     const/16 v5, 0x210d
 
-    .line 866
+    .line 882
     invoke-direct {v0, v7, v5}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_a
 
-    .line 868
+    .line 884
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -3091,7 +3095,7 @@
     :cond_b
     const-string v6, "34_8477"
 
-    .line 874
+    .line 890
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -3100,14 +3104,14 @@
 
     const/16 v5, 0x211d
 
-    .line 877
+    .line 893
     invoke-direct {v0, v7, v5}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_c
 
-    .line 879
+    .line 895
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -3126,7 +3130,7 @@
     :cond_d
     const-string v6, "51_6436"
 
-    .line 885
+    .line 901
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -3137,14 +3141,14 @@
 
     const/16 v6, 0x1924
 
-    .line 888
+    .line 904
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_e
 
-    .line 890
+    .line 906
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -3163,7 +3167,7 @@
     :cond_f
     const-string v6, "52_10015"
 
-    .line 896
+    .line 912
     invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -3174,14 +3178,14 @@
 
     const/16 v6, 0x271f
 
-    .line 899
+    .line 915
     invoke-direct {v0, v5, v6}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_10
 
-    .line 901
+    .line 917
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v5
@@ -3197,13 +3201,13 @@
 
     goto/16 :goto_0
 
-    .line 909
+    .line 925
     :cond_11
     invoke-interface {v4, v5}, Ljava/util/Queue;->offer(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 920
+    .line 936
     :cond_12
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -3230,7 +3234,7 @@
 
     goto :goto_1
 
-    .line 928
+    .line 944
     :cond_13
     invoke-virtual {v11}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -3268,10 +3272,10 @@
 
     if-eqz v5, :cond_18
 
-    .line 935
+    .line 951
     invoke-direct {v0, v3, v5}, Lcom/rigol/scope/adapters/ResultListAdapter;->copyParam(Lcom/rigol/scope/data/ResultParam;Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 937
+    .line 953
     invoke-virtual {v5}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v6
@@ -3280,7 +3284,7 @@
 
     if-ne v6, v7, :cond_14
 
-    .line 939
+    .line 955
     move-object v3, v5
 
     check-cast v3, Lcom/rigol/scope/data/CursorResultParam;
@@ -3293,7 +3297,7 @@
 
     goto :goto_2
 
-    .line 941
+    .line 957
     :cond_14
     invoke-virtual {v5}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -3303,19 +3307,19 @@
 
     if-ne v6, v7, :cond_15
 
-    .line 943
+    .line 959
     invoke-virtual {v3}, Lcom/rigol/scope/data/ResultParam;->getMode()I
 
     move-result v3
 
-    .line 945
+    .line 961
     invoke-static {v3}, Lcom/rigol/scope/cil/ServiceEnum;->getDvmModeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     move-result-object v3
 
     if-eqz v3, :cond_17
 
-    .line 948
+    .line 964
     move-object v6, v5
 
     check-cast v6, Lcom/rigol/scope/data/DvmResultParam;
@@ -3324,7 +3328,7 @@
 
     goto :goto_2
 
-    .line 951
+    .line 967
     :cond_15
     invoke-virtual {v5}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
@@ -3334,19 +3338,19 @@
 
     if-ne v6, v7, :cond_16
 
-    .line 953
+    .line 969
     invoke-virtual {v3}, Lcom/rigol/scope/data/ResultParam;->getMode()I
 
     move-result v3
 
-    .line 955
+    .line 971
     invoke-static {v3}, Lcom/rigol/scope/cil/ServiceEnum;->getCounterTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     move-result-object v3
 
     if-eqz v3, :cond_17
 
-    .line 958
+    .line 974
     move-object v6, v5
 
     check-cast v6, Lcom/rigol/scope/data/CounterResultParam;
@@ -3355,7 +3359,7 @@
 
     goto :goto_2
 
-    .line 961
+    .line 977
     :cond_16
     instance-of v3, v5, Lcom/rigol/scope/data/MeasureResultParam;
 
@@ -3373,7 +3377,7 @@
     :goto_2
     move v12, v1
 
-    .line 971
+    .line 987
     :goto_3
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
@@ -3406,14 +3410,14 @@
 
     if-eq v1, v2, :cond_1a
 
-    .line 979
+    .line 995
     invoke-virtual {v0, v1}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem(I)V
 
-    .line 983
+    .line 999
     :cond_1a
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
-    .line 986
+    .line 1002
     :goto_5
     invoke-interface {v4}, Ljava/util/Queue;->peek()Ljava/lang/Object;
 
@@ -3421,14 +3425,14 @@
 
     if-eqz v1, :cond_1b
 
-    .line 988
+    .line 1004
     invoke-interface {v4}, Ljava/util/Queue;->poll()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    .line 989
+    .line 1005
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v2
@@ -3445,15 +3449,15 @@
 .method public refreshTitles(Landroid/content/Context;)V
     .locals 3
 
-    .line 1044
+    .line 1060
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->loadTitles(Landroid/content/Context;)V
 
-    .line 1047
+    .line 1063
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object p1
 
-    .line 1048
+    .line 1064
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -3472,7 +3476,7 @@
 
     check-cast v0, Lcom/rigol/scope/data/ResultParam;
 
-    .line 1050
+    .line 1066
     invoke-virtual {v0}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v1
@@ -3481,7 +3485,7 @@
 
     goto :goto_0
 
-    .line 1055
+    .line 1071
     :cond_1
     iget-object v2, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->titlesArray:Landroid/util/SparseArray;
 
@@ -3495,7 +3499,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 1058
+    .line 1074
     invoke-virtual {v1}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v1
@@ -3504,7 +3508,7 @@
 
     goto :goto_0
 
-    .line 1063
+    .line 1079
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->notifyDataSetChanged()V
 
@@ -3512,9 +3516,9 @@
 .end method
 
 .method public remove(I)V
-    .locals 2
+    .locals 3
 
-    .line 467
+    .line 470
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
     move-result v0
@@ -3524,18 +3528,18 @@
     return-void
 
     :cond_0
-    if-ltz p1, :cond_d
+    if-ltz p1, :cond_f
 
-    .line 473
+    .line 476
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
     move-result v0
 
     if-lt p1, v0, :cond_1
 
-    goto/16 :goto_1
+    goto/16 :goto_2
 
-    .line 479
+    .line 482
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
@@ -3551,160 +3555,214 @@
 
     return-void
 
-    .line 489
+    .line 492
     :cond_2
     instance-of v1, v0, Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v1, :cond_3
 
-    .line 491
+    .line 494
     check-cast v0, Lcom/rigol/scope/data/CursorResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->remove()V
 
-    goto :goto_0
+    goto/16 :goto_1
 
-    .line 494
+    .line 497
     :cond_3
     instance-of v1, v0, Lcom/rigol/scope/data/DvmResultParam;
 
     if-eqz v1, :cond_4
 
-    .line 496
+    .line 499
     check-cast v0, Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/DvmResultParam;->remove()V
 
-    goto :goto_0
+    goto/16 :goto_1
 
-    .line 499
+    .line 502
     :cond_4
     instance-of v1, v0, Lcom/rigol/scope/data/CounterResultParam;
 
     if-eqz v1, :cond_5
 
-    .line 501
+    .line 504
     check-cast v0, Lcom/rigol/scope/data/CounterResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/CounterResultParam;->remove()V
 
-    goto :goto_0
+    goto/16 :goto_1
 
-    .line 504
+    .line 507
     :cond_5
     instance-of v1, v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-eqz v1, :cond_6
 
-    .line 506
+    .line 509
     check-cast v0, Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->remove()V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 509
+    .line 512
     :cond_6
     instance-of v1, v0, Lcom/rigol/scope/data/EyeResultParam;
 
     if-eqz v1, :cond_7
 
-    .line 511
+    .line 514
     check-cast v0, Lcom/rigol/scope/data/EyeResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/EyeResultParam;->remove()V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 514
+    .line 517
     :cond_7
     instance-of v1, v0, Lcom/rigol/scope/data/JitterResultParam;
 
     if-eqz v1, :cond_8
 
-    .line 516
+    .line 519
     check-cast v0, Lcom/rigol/scope/data/JitterResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/JitterResultParam;->remove()V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 519
+    .line 522
     :cond_8
     instance-of v1, v0, Lcom/rigol/scope/data/MaskResultParam;
 
     if-eqz v1, :cond_9
 
-    .line 521
+    .line 524
     check-cast v0, Lcom/rigol/scope/data/MaskResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MaskResultParam;->remove()V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 524
+    .line 527
     :cond_9
     instance-of v1, v0, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
     if-eqz v1, :cond_a
 
-    .line 526
+    .line 529
     check-cast v0, Lcom/rigol/scope/data/RtsaMarkerResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/RtsaMarkerResultParam;->remove()V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 529
+    .line 532
     :cond_a
     instance-of v1, v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     if-eqz v1, :cond_b
 
-    .line 531
+    .line 534
     check-cast v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->remove()V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 535
+    .line 538
     :cond_b
     instance-of v1, v0, Lcom/rigol/scope/data/MeasureResultParam;
 
+    if-eqz v1, :cond_e
+
+    const/16 v1, 0x1c
+
+    const/16 v2, 0x332a
+
+    .line 542
+    :try_start_0
+    invoke-direct {p0, v1, v2}, Lcom/rigol/scope/adapters/ResultListAdapter;->queryItems(II)Ljava/util/List;
+
+    move-result-object v1
+
+    .line 544
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    if-gt v1, v2, :cond_d
+
+    .line 546
+    iget-object v1, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
     if-eqz v1, :cond_c
 
-    .line 537
+    iget-object v1, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
+    iget-object v1, v1, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasRemoveMeasureItem:Landroidx/lifecycle/MutableLiveData;
+
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+
+    .line 548
+    :cond_c
+    invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/rigol/scope/utilities/FunctionManager;->restoreSelectedFunction()V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v1
+
+    .line 551
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    .line 553
+    :cond_d
+    :goto_0
     check-cast v0, Lcom/rigol/scope/data/MeasureResultParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureResultParam;->remove()V
 
-    .line 542
-    :cond_c
-    :goto_0
+    .line 558
+    :cond_e
+    :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getCurrentItem()I
 
     move-result v0
 
-    .line 549
+    .line 565
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v0
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    .line 552
+    .line 568
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->refreshAndCache()V
 
-    :cond_d
-    :goto_1
+    :cond_f
+    :goto_2
     return-void
 .end method
 
 .method public removeAll()V
     .locals 4
 
-    .line 404
+    .line 405
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
     move-result v0
@@ -3713,7 +3771,7 @@
 
     return-void
 
-    .line 409
+    .line 410
     :cond_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -3727,7 +3785,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 411
+    .line 412
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -3736,7 +3794,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/FunctionManager;->disable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 412
+    .line 413
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -3745,7 +3803,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/FunctionManager;->disable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 413
+    .line 414
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -3754,7 +3812,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/FunctionManager;->disable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 414
+    .line 415
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -3763,17 +3821,17 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/FunctionManager;->disable(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    .line 415
+    .line 416
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
     move-result-object v0
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 418
+    .line 419
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->resetCurrentItem()V
 
-    .line 421
+    .line 422
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->refreshAndCache()V
 
     return-void
@@ -3791,7 +3849,7 @@
         }
     .end annotation
 
-    .line 430
+    .line 431
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItemCount()I
 
     move-result v0
@@ -3800,8 +3858,24 @@
 
     return-void
 
-    .line 434
+    .line 436
     :cond_0
+    iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, v0, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasRemoveMeasureItem:Landroidx/lifecycle/MutableLiveData;
+
+    const/4 v1, 0x1
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+
+    .line 437
+    :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -3814,13 +3888,13 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 437
+    .line 440
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->removeItems(Ljava/lang/Class;)V
 
-    .line 440
+    .line 443
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->resetCurrentItem()V
 
-    .line 443
+    .line 446
     invoke-direct {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->refreshAndCache()V
 
     return-void
@@ -3829,12 +3903,12 @@
 .method public resetCurrentItem()V
     .locals 1
 
-    .line 394
+    .line 395
     invoke-super {p0}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->resetCurrentItem()V
 
     const/4 v0, -0x1
 
-    .line 395
+    .line 396
     invoke-direct {p0, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem2Delegates(I)V
 
     return-void
@@ -3843,19 +3917,19 @@
 .method public setCurrentItem(I)V
     .locals 3
 
-    .line 329
+    .line 330
     invoke-super {p0, p1}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;->setCurrentItem(I)V
 
     const/4 v0, -0x1
 
     if-ne p1, v0, :cond_0
 
-    .line 334
+    .line 335
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem2Delegates(I)V
 
     return-void
 
-    .line 339
+    .line 340
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/ResultListAdapter;->getItems()Ljava/util/List;
 
@@ -3863,14 +3937,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 340
+    .line 341
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 342
+    .line 343
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -3881,51 +3955,51 @@
 
     return-void
 
-    .line 350
+    .line 351
     :cond_1
     instance-of v1, v0, Lcom/rigol/scope/data/MeasureResultParam;
 
     if-eqz v1, :cond_3
 
-    .line 352
+    .line 353
     iget-object v1, p0, Lcom/rigol/scope/adapters/ResultListAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     if-eqz v1, :cond_2
 
-    .line 354
+    .line 355
     invoke-virtual {v1, p1}, Lcom/rigol/scope/data/SharedParam;->setCurrentResultItem(I)V
 
-    .line 356
+    .line 357
     :cond_2
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter;->setCurrentItem2Delegates(I)V
 
-    .line 359
+    .line 360
     move-object p1, v0
 
     check-cast p1, Lcom/rigol/scope/data/MeasureResultParam;
 
-    .line 360
+    .line 361
     invoke-virtual {v0}, Lcom/rigol/scope/data/ResultParam;->getMeasType()Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
     move-result-object v1
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$MeasType;->value1:I
 
-    .line 361
+    .line 362
     invoke-virtual {v0}, Lcom/rigol/scope/data/ResultParam;->getSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 362
+    .line 363
     invoke-virtual {v0}, Lcom/rigol/scope/data/ResultParam;->getSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 359
+    .line 360
     invoke-static {v1, v2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMeasureItem(III)I
 
     move-result v0

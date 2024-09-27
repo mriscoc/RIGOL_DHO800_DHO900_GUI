@@ -59,7 +59,7 @@
 .method public final run()V
     .locals 3
 
-    .line 250
+    .line 262
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam$thresholdMiddle$1;->this$0:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdMiddleAttr()Lcom/rigol/scope/cil/MessageAttr;

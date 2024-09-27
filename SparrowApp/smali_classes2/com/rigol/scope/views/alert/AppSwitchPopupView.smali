@@ -51,7 +51,7 @@
     .line 120
     iget-object v0, p0, Lcom/rigol/scope/views/alert/AppSwitchPopupView;->context:Landroid/content/Context;
 
-    const v1, 0x7f100baf
+    const v1, 0x7f100bb1
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewAlertBinding;->content:Landroid/widget/TextView;
 
-    const v1, 0x7f100baf
+    const v1, 0x7f100bb1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

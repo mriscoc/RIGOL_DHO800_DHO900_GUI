@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9334
+    .line 9338
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     const-string v1, "Adjacent"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->Adjacent:Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
-    .line 9335
+    .line 9339
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     const-string v9, "Overlay"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->Overlay:Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
-    .line 9336
+    .line 9340
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     const-string v2, "Waterfall"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->Waterfall:Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
-    .line 9337
+    .line 9341
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     const-string v9, "Perspective"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->Perspective:Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
-    .line 9338
+    .line 9342
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     const-string v2, "Mosaic"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
-    .line 9332
+    .line 9336
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->Adjacent:Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 9341
+    .line 9345
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9342
+    .line 9346
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->value1:I
 
-    .line 9343
+    .line 9347
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->value2:Ljava/lang/String;
 
-    .line 9344
+    .line 9348
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->pic1:Ljava/lang/String;
 
-    .line 9345
+    .line 9349
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
     .locals 1
 
-    .line 9332
+    .line 9336
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
     .locals 1
 
-    .line 9332
+    .line 9336
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CondensationTimeDisplayMode;->clone()Ljava/lang/Object;

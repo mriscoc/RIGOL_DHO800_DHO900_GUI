@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1219
+    .line 1302
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 3
 
-    .line 1222
+    .line 1305
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1224
+    .line 1307
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
@@ -71,7 +71,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->setUltraEnable(Z)V
 
-    .line 1226
+    .line 1309
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
@@ -86,7 +86,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->setXyCheckEnable(Z)V
 
-    .line 1227
+    .line 1310
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
@@ -97,7 +97,7 @@
 
     if-ne p1, v0, :cond_4
 
-    .line 1228
+    .line 1311
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -110,7 +110,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1231
+    .line 1314
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -119,7 +119,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 1237
+    .line 1320
     :cond_0
     const-class p1, Lcom/rigol/scope/viewmodels/DecodeViewModel;
 
@@ -133,7 +133,7 @@
 
     return-void
 
-    .line 1241
+    .line 1324
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DecodeViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -147,7 +147,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 1243
+    .line 1326
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -166,7 +166,7 @@
 
     check-cast v0, Lcom/rigol/scope/data/DecodeParam;
 
-    .line 1244
+    .line 1327
     const-class v1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -195,12 +195,12 @@
 
     const/4 v1, 0x0
 
-    .line 1245
+    .line 1328
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/DecodeParam;->saveOnOff(Z)V
 
     goto :goto_0
 
-    .line 1249
+    .line 1332
     :cond_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -214,7 +214,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 1252
+    .line 1335
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -230,7 +230,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1219
+    .line 1302
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$65;->onChanged(Ljava/lang/Boolean;)V

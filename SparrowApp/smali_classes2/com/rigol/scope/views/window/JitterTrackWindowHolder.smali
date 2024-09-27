@@ -101,7 +101,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b30
 
     .line 2764
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;->setId(I)V
@@ -146,14 +146,14 @@
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->setWindowParam(Lcom/rigol/scope/data/WindowParam;)V
 
     .line 2775
-    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterTrackWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterTrackWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     check-cast p2, Landroid/view/View;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/window/WindowContent;->addView(Landroid/view/View;)V
 
     .line 2776
-    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterTrackWindowHolder;->surfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
+    iget-object p2, p0, Lcom/rigol/scope/views/window/JitterTrackWindowHolder;->gridRulerView:Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;
 
     check-cast p2, Landroid/view/View;
 
@@ -489,7 +489,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f030245
+    const v3, 0x7f030246
 
     .line 2827
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_TRACK:Lcom/rigol/scope/cil/ServiceEnum$WindowType;

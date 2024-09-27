@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/ResultsBarFragment;II)V
     .locals 0
 
-    .line 337
+    .line 339
     iput-object p1, p0, Lcom/rigol/scope/ResultsBarFragment$2;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-direct {p0, p2, p3}, Lcom/rigol/scope/views/baseview/BaseSimpleCallback;-><init>(II)V
@@ -35,15 +35,15 @@
 .method public onSwiped(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
     .locals 5
 
-    .line 340
+    .line 342
     invoke-super {p0, p1, p2}, Lcom/rigol/scope/views/baseview/BaseSimpleCallback;->onSwiped(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
 
-    .line 341
+    .line 343
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     move-result p1
 
-    .line 343
+    .line 345
     iget-object p2, p0, Lcom/rigol/scope/ResultsBarFragment$2;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
     invoke-static {p2}, Lcom/rigol/scope/ResultsBarFragment;->access$000(Lcom/rigol/scope/ResultsBarFragment;)Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -76,14 +76,14 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 344
+    .line 346
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p2
 
     iput-boolean v4, p2, Lcom/rigol/scope/utilities/FunctionManager;->maskSwitch:Z
 
-    .line 345
+    .line 347
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p2
@@ -96,7 +96,7 @@
 
     goto :goto_0
 
-    .line 346
+    .line 348
     :cond_0
     iget-object p2, p0, Lcom/rigol/scope/ResultsBarFragment$2;->this$0:Lcom/rigol/scope/ResultsBarFragment;
 
@@ -122,14 +122,14 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 347
+    .line 349
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p2
 
     iput-boolean v4, p2, Lcom/rigol/scope/utilities/FunctionManager;->cursorSwitch:Z
 
-    .line 348
+    .line 350
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p2
@@ -140,7 +140,7 @@
 
     invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 351
+    .line 353
     :cond_1
     :goto_0
     iget-object p2, p0, Lcom/rigol/scope/ResultsBarFragment$2;->this$0:Lcom/rigol/scope/ResultsBarFragment;

@@ -66,7 +66,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6220
+    .line 6221
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v1, "Decode_Parallel"
@@ -87,7 +87,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_Parallel:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6221
+    .line 6222
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v9, "Decode_RS232"
@@ -108,7 +108,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_RS232:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6222
+    .line 6223
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v2, "Decode_I2C"
@@ -129,7 +129,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_I2C:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6223
+    .line 6224
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v9, "Decode_SPI"
@@ -150,7 +150,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_SPI:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6224
+    .line 6225
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v2, "Decode_LIN"
@@ -171,7 +171,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_LIN:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6225
+    .line 6226
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v9, "Decode_CAN"
@@ -192,7 +192,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_CAN:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6226
+    .line 6227
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v2, "Decode_FlexRay"
@@ -213,7 +213,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_FlexRay:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6227
+    .line 6228
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v9, "Decode_I2S"
@@ -234,7 +234,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_I2S:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6228
+    .line 6229
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v2, "Decode_1553B"
@@ -255,7 +255,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_1553B:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6229
+    .line 6230
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v9, "Decode_ARINC429"
@@ -276,7 +276,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_ARINC429:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6230
+    .line 6231
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v2, "Decode_SENT"
@@ -297,7 +297,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_SENT:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6231
+    .line 6232
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v9, "Decode_MOST"
@@ -318,7 +318,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_MOST:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6232
+    .line 6233
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const-string v2, "Decode_USB"
@@ -343,7 +343,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    .line 6218
+    .line 6219
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_Parallel:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     const/4 v3, 0x0
@@ -437,19 +437,19 @@
         }
     .end annotation
 
-    .line 6235
+    .line 6236
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6236
+    .line 6237
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->value1:I
 
-    .line 6237
+    .line 6238
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->value2:Ljava/lang/String;
 
-    .line 6238
+    .line 6239
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->pic1:Ljava/lang/String;
 
-    .line 6239
+    .line 6240
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->pic2:Ljava/lang/String;
 
     return-void
@@ -458,7 +458,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
     .locals 1
 
-    .line 6218
+    .line 6219
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -473,7 +473,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
     .locals 1
 
-    .line 6218
+    .line 6219
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->clone()Ljava/lang/Object;

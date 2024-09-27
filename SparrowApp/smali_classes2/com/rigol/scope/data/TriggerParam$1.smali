@@ -30,7 +30,7 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 4082
+    .line 4083
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v0
@@ -358,7 +358,7 @@
     :try_end_13
     .catch Ljava/lang/NoSuchFieldError; {:try_start_13 .. :try_end_13} :catch_13
 
-    .line 4164
+    .line 4165
     :catch_13
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->values()[Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
@@ -409,7 +409,7 @@
     :try_end_16
     .catch Ljava/lang/NoSuchFieldError; {:try_start_16 .. :try_end_16} :catch_16
 
-    .line 4098
+    .line 4099
     :catch_16
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
@@ -446,7 +446,7 @@
     :try_end_18
     .catch Ljava/lang/NoSuchFieldError; {:try_start_18 .. :try_end_18} :catch_18
 
-    .line 4084
+    .line 4085
     :catch_18
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->values()[Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 

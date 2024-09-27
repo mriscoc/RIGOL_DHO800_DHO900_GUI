@@ -573,6 +573,11 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="title">@string/msg_upa_power_tips</item>
     </style>
+    <style name="App.PopupWindow.smbSetting" parent="@style/App.PopupWindow">
+        <item name="android:layout_width">500.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="title">@string/msg_storage_smb_setting</item>
+    </style>
     <style name="App.RadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/white</item>
@@ -754,7 +759,7 @@
         <item name="gravity">center</item>
     </style>
     <style name="App.Text.ResultItem" parent="@style/App.Text">
-        <item name="android:textSize">16.0sp</item>
+        <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">wrap_content</item>

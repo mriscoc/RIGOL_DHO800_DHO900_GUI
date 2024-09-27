@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6809
+    .line 6811
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     const-string v1, "GPU_PLOT"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->GPU_PLOT:Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
-    .line 6810
+    .line 6812
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     const-string v9, "ADC_CLOCK"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->ADC_CLOCK:Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
-    .line 6811
+    .line 6813
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     const-string v2, "DDR_IO"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->DDR_IO:Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
-    .line 6812
+    .line 6814
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     const-string v9, "ADC_SER"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->ADC_SER:Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
-    .line 6813
+    .line 6815
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     const-string v2, "LogCat"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
-    .line 6807
+    .line 6809
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->GPU_PLOT:Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 6816
+    .line 6818
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6817
+    .line 6819
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->value1:I
 
-    .line 6818
+    .line 6820
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->value2:Ljava/lang/String;
 
-    .line 6819
+    .line 6821
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->pic1:Ljava/lang/String;
 
-    .line 6820
+    .line 6822
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DebugType;
     .locals 1
 
-    .line 6807
+    .line 6809
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DebugType;
     .locals 1
 
-    .line 6807
+    .line 6809
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DebugType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DebugType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DebugType;->clone()Ljava/lang/Object;

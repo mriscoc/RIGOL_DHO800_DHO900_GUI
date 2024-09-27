@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5449
+    .line 5450
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
     const-string v1, "Screen"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->Screen:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
-    .line 5450
+    .line 5451
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
     const-string v9, "Memory"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
-    .line 5447
+    .line 5448
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->Screen:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 5453
+    .line 5454
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5454
+    .line 5455
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->value1:I
 
-    .line 5455
+    .line 5456
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->value2:Ljava/lang/String;
 
-    .line 5456
+    .line 5457
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->pic1:Ljava/lang/String;
 
-    .line 5457
+    .line 5458
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
     .locals 1
 
-    .line 5447
+    .line 5448
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
     .locals 1
 
-    .line 5447
+    .line 5448
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->clone()Ljava/lang/Object;

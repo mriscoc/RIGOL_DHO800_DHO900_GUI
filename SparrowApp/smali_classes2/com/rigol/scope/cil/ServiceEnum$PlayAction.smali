@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4771
+    .line 4772
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
     const-string v1, "Play_start"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->Play_start:Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
-    .line 4772
+    .line 4773
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
     const-string v9, "Play_stop"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
-    .line 4769
+    .line 4770
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->Play_start:Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 4775
+    .line 4776
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4776
+    .line 4777
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->value1:I
 
-    .line 4777
+    .line 4778
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->value2:Ljava/lang/String;
 
-    .line 4778
+    .line 4779
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->pic1:Ljava/lang/String;
 
-    .line 4779
+    .line 4780
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
     .locals 1
 
-    .line 4769
+    .line 4770
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
     .locals 1
 
-    .line 4769
+    .line 4770
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$PlayAction;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$PlayAction;->clone()Ljava/lang/Object;

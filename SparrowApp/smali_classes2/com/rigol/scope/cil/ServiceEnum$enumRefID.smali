@@ -60,7 +60,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3624
+    .line 3625
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v1, "REF1"
@@ -81,7 +81,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF1:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3625
+    .line 3626
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v9, "REF2"
@@ -102,7 +102,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF2:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3626
+    .line 3627
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v2, "REF3"
@@ -123,7 +123,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF3:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3627
+    .line 3628
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v9, "REF4"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF4:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3628
+    .line 3629
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v2, "REF5"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF5:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3629
+    .line 3630
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v9, "REF6"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF6:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3630
+    .line 3631
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v2, "REF7"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF7:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3631
+    .line 3632
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v9, "REF8"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF8:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3632
+    .line 3633
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v2, "REF9"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF9:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3633
+    .line 3634
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const-string v9, "REF10"
@@ -274,7 +274,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
-    .line 3622
+    .line 3623
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->REF1:Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     const/4 v3, 0x0
@@ -350,19 +350,19 @@
         }
     .end annotation
 
-    .line 3636
+    .line 3637
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3637
+    .line 3638
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->value1:I
 
-    .line 3638
+    .line 3639
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->value2:Ljava/lang/String;
 
-    .line 3639
+    .line 3640
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->pic1:Ljava/lang/String;
 
-    .line 3640
+    .line 3641
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->pic2:Ljava/lang/String;
 
     return-void
@@ -371,7 +371,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
     .locals 1
 
-    .line 3622
+    .line 3623
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -386,7 +386,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
     .locals 1
 
-    .line 3622
+    .line 3623
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$enumRefID;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$enumRefID;->clone()Ljava/lang/Object;

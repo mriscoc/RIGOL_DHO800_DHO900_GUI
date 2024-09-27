@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08f7
+    const v1, 0x7f0a0912
 
     const/4 v2, 0x4
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a5b
+    const v1, 0x7f0a0a76
 
     const/4 v2, 0x5
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a5a
+    const v1, 0x7f0a0a75
 
     const/4 v2, 0x7
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a046c
+    const v1, 0x7f0a0471
 
     const/16 v2, 0x9
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a58
+    const v1, 0x7f0a0a73
 
     const/16 v2, 0xb
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a59
+    const v1, 0x7f0a0a74
 
     const/16 v2, 0xc
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a57
+    const v1, 0x7f0a0a72
 
     const/16 v2, 0xd
 
@@ -329,7 +329,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2d
+    const/16 v0, 0x2e
 
     if-ne p2, v0, :cond_1
 
@@ -361,7 +361,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x2e
+    const/16 v0, 0x2f
 
     if-ne p2, v0, :cond_2
 
@@ -393,7 +393,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x2f
+    const/16 v0, 0x30
 
     if-ne p2, v0, :cond_3
 
@@ -479,9 +479,9 @@
 
     cmp-long v6, v21, v4
 
-    const v9, 0x7f0805e4
+    const v9, 0x7f0805e6
 
-    const v10, 0x7f0805e3
+    const v10, 0x7f0805e5
 
     const/high16 v23, -0x40800000    # -1.0f
 
@@ -1158,7 +1158,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->notifyPropertyChanged(I)V
@@ -1183,7 +1183,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

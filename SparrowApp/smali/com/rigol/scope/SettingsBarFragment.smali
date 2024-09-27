@@ -1192,7 +1192,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0698
+    const v1, 0x7f0a06a3
 
     if-eq v0, v1, :cond_0
 
@@ -1200,7 +1200,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a023b
+    const v0, 0x7f0a023f
 
     if-ne p1, v0, :cond_4
 

@@ -2503,7 +2503,7 @@
     .line 140
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpout:J
 
-    const/16 p1, 0x58
+    const/16 p1, 0x5a
 
     .line 141
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2550,7 +2550,7 @@
     .line 212
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
-    const/16 p1, 0x74
+    const/16 p1, 0x76
 
     .line 213
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2579,7 +2579,7 @@
     .line 234
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataGain:I
 
-    const/16 p1, 0x5a
+    const/16 p1, 0x5c
 
     .line 235
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2608,7 +2608,7 @@
     .line 242
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataRange:I
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 243
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2658,7 +2658,7 @@
     .line 226
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataWidth:I
 
-    const/16 p1, 0x74
+    const/16 p1, 0x76
 
     .line 227
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2687,7 +2687,7 @@
     .line 34
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeEnable:Z
 
-    const/16 p1, 0x5d
+    const/16 p1, 0x5f
 
     .line 35
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2730,7 +2730,7 @@
     .line 107
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeImpedace:Z
 
-    const/16 p1, 0x5f
+    const/16 p1, 0x61
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2759,7 +2759,7 @@
     .line 302
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeMinPop:Z
 
-    const/16 p1, 0x60
+    const/16 p1, 0x62
 
     .line 303
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2784,7 +2784,7 @@
     .line 219
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bodePmgmData:Ljava/lang/String;
 
-    const/16 p1, 0x62
+    const/16 p1, 0x64
 
     .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2813,7 +2813,7 @@
     .line 82
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodePointNum:I
 
-    const/16 p1, 0x63
+    const/16 p1, 0x65
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2855,7 +2855,7 @@
     .line 57
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeRunDispType:I
 
-    const/16 p1, 0x64
+    const/16 p1, 0x66
 
     .line 58
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2884,7 +2884,7 @@
     .line 49
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeRunStopEnable:Z
 
-    const/16 p1, 0x65
+    const/16 p1, 0x67
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2913,7 +2913,7 @@
     .line 74
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeSourceIn:I
 
-    const/16 p1, 0x66
+    const/16 p1, 0x68
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2942,7 +2942,7 @@
     .line 65
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeSourceOut:I
 
-    const/16 p1, 0x67
+    const/16 p1, 0x69
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -2971,7 +2971,7 @@
     .line 123
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeStartFreq:J
 
-    const/16 p1, 0x68
+    const/16 p1, 0x6a
 
     .line 124
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3013,7 +3013,7 @@
     .line 131
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreq:J
 
-    const/16 p1, 0x69
+    const/16 p1, 0x6b
 
     .line 132
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3055,7 +3055,7 @@
     .line 90
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeSweepType:I
 
-    const/16 p1, 0x6a
+    const/16 p1, 0x6c
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3084,7 +3084,7 @@
     .line 115
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeVaramp:Z
 
-    const/16 p1, 0x6b
+    const/16 p1, 0x6d
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3109,7 +3109,7 @@
     .line 278
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bode_result:Ljava/lang/String;
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 279
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3142,7 +3142,7 @@
     .line 290
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultDatalist:Ljava/util/ArrayList;
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 291
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3175,7 +3175,7 @@
     .line 284
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 285
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3204,7 +3204,7 @@
     .line 99
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodedispType:I
 
-    const/16 p1, 0x6a
+    const/16 p1, 0x6c
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3242,7 +3242,7 @@
     .line 148
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1:J
 
-    const/16 p1, 0x6d
+    const/16 p1, 0x6f
 
     .line 149
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3284,7 +3284,7 @@
     .line 156
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2:J
 
-    const/16 p1, 0x6e
+    const/16 p1, 0x70
 
     .line 157
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3326,7 +3326,7 @@
     .line 164
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3:J
 
-    const/16 p1, 0x6f
+    const/16 p1, 0x71
 
     .line 165
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3368,7 +3368,7 @@
     .line 172
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4:J
 
-    const/16 p1, 0x70
+    const/16 p1, 0x72
 
     .line 173
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3410,7 +3410,7 @@
     .line 180
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5:J
 
-    const/16 p1, 0x71
+    const/16 p1, 0x73
 
     .line 181
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3452,7 +3452,7 @@
     .line 188
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6:J
 
-    const/16 p1, 0x72
+    const/16 p1, 0x74
 
     .line 189
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3494,7 +3494,7 @@
     .line 196
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7:J
 
-    const/16 p1, 0x73
+    const/16 p1, 0x75
 
     .line 197
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3536,7 +3536,7 @@
     .line 204
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8:J
 
-    const/16 p1, 0x74
+    const/16 p1, 0x76
 
     .line 205
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3578,7 +3578,7 @@
     .line 41
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->firEnable:Z
 
-    const/16 p1, 0x13a
+    const/16 p1, 0x13e
 
     .line 42
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3607,7 +3607,7 @@
     .line 251
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->last_one:D
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 252
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3678,7 +3678,7 @@
     .line 265
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->spacing_heightunit:D
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 266
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3707,7 +3707,7 @@
     .line 271
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_middley:F
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 272
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
@@ -3736,7 +3736,7 @@
     .line 259
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_unit:D
 
-    const/16 p1, 0x5b
+    const/16 p1, 0x5d
 
     .line 260
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V

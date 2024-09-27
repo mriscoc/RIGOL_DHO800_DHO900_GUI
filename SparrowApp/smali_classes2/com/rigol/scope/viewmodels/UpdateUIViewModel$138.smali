@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MaskParam;)V
     .locals 0
 
-    .line 1944
+    .line 2027
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$138;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$138;->val$param:Lcom/rigol/scope/data/MaskParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 1947
+    .line 2030
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$138;->val$param:Lcom/rigol/scope/data/MaskParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskParam;->readEnable()V
 
-    .line 1949
+    .line 2032
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p1
@@ -71,7 +71,7 @@
 
     iput-boolean v0, p1, Lcom/rigol/scope/utilities/FunctionManager;->maskSwitch:Z
 
-    .line 1950
+    .line 2033
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -94,7 +94,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1944
+    .line 2027
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$138;->onChanged(Ljava/lang/Boolean;)V

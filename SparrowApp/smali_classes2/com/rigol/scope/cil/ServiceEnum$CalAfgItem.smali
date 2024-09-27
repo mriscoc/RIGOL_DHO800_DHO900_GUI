@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 10073
+    .line 10077
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const-string v1, "CAL_AFG_FREQ"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->CAL_AFG_FREQ:Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
-    .line 10074
+    .line 10078
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const-string v9, "CAL_AFG_OFFSET"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->CAL_AFG_OFFSET:Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
-    .line 10075
+    .line 10079
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const-string v2, "CAL_AFG_AC_AMPL"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->CAL_AFG_AC_AMPL:Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
-    .line 10076
+    .line 10080
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const-string v9, "CAL_AFG_LOFREQ_FLAT"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->CAL_AFG_LOFREQ_FLAT:Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
-    .line 10077
+    .line 10081
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const-string v2, "CAL_AFG_HIFREQ_FLAT"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->CAL_AFG_HIFREQ_FLAT:Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
-    .line 10078
+    .line 10082
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const-string v9, "CAL_AFG_INNER_LOAD"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
-    .line 10071
+    .line 10075
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->CAL_AFG_FREQ:Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 10081
+    .line 10085
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 10082
+    .line 10086
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->value1:I
 
-    .line 10083
+    .line 10087
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->value2:Ljava/lang/String;
 
-    .line 10084
+    .line 10088
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->pic1:Ljava/lang/String;
 
-    .line 10085
+    .line 10089
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
     .locals 1
 
-    .line 10071
+    .line 10075
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
     .locals 1
 
-    .line 10071
+    .line 10075
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CalAfgItem;->clone()Ljava/lang/Object;

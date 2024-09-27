@@ -253,7 +253,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f100377
+    const v2, 0x7f100376
 
     if-ne v1, p1, :cond_7
 

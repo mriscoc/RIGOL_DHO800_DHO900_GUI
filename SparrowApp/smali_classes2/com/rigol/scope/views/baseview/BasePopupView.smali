@@ -127,7 +127,7 @@
 .method public constructor <init>(I)V
     .locals 1
 
-    .line 228
+    .line 229
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
@@ -142,7 +142,7 @@
 
     const/4 v0, 0x0
 
-    .line 232
+    .line 233
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -155,7 +155,7 @@
 
     const/4 v1, 0x0
 
-    .line 236
+    .line 237
     invoke-direct {p0, p1, v0, v1, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     return-void
@@ -166,7 +166,7 @@
 
     const/4 v0, 0x0
 
-    .line 240
+    .line 241
     invoke-direct {p0, p1, p2, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -177,7 +177,7 @@
 
     const v0, 0x7f110019
 
-    .line 244
+    .line 245
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     return-void
@@ -186,36 +186,36 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 2
 
-    .line 248
+    .line 249
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/PopupWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     const/4 v0, 0x0
 
-    .line 174
+    .line 175
     iput-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->titleView:Landroid/widget/TextView;
 
-    .line 194
+    .line 195
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outsideEnableClickRects:Ljava/util/List;
 
-    .line 199
+    .line 200
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outsideExceptClickRects:Ljava/util/List;
 
-    .line 210
+    .line 211
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->baseListCH:Ljava/util/List;
 
-    .line 214
+    .line 215
     new-instance v0, Lcom/rigol/scope/views/baseview/BasePopupView$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/views/baseview/BasePopupView$1;-><init>(Lcom/rigol/scope/views/baseview/BasePopupView;)V
@@ -226,10 +226,10 @@
 
     new-array v1, v0, [I
 
-    .line 621
+    .line 622
     iput-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outLocationOnScreen:[I
 
-    .line 796
+    .line 798
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
@@ -238,10 +238,10 @@
 
     new-array v1, v0, [I
 
-    .line 797
+    .line 799
     iput-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveLocation:[I
 
-    .line 799
+    .line 801
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
@@ -250,10 +250,10 @@
 
     new-array v1, v0, [I
 
-    .line 800
+    .line 802
     iput-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
 
-    .line 802
+    .line 804
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
@@ -262,23 +262,23 @@
 
     new-array v1, v0, [I
 
-    .line 803
+    .line 805
     iput-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupLocation:[I
 
     new-array v1, v0, [I
 
-    .line 808
+    .line 810
     iput-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
-    .line 251
+    .line 252
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->context:Landroid/content/Context;
 
     const/16 v1, 0x3ed
 
-    .line 254
+    .line 255
     invoke-static {p0, v1}, Landroidx/core/widget/PopupWindowCompat;->setWindowLayoutType(Landroid/widget/PopupWindow;I)V
 
-    .line 257
+    .line 258
     sget-object v1, Lcom/rigol/scope/R$styleable;->BasePopupView:[I
 
     if-nez p4, :cond_0
@@ -290,7 +290,7 @@
 
     move-result-object p1
 
-    .line 260
+    .line 261
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getTitle()I
 
     move-result p2
@@ -303,7 +303,7 @@
 
     iput p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->titleId:I
 
-    .line 261
+    .line 262
     invoke-virtual {p1, p3}, Landroid/content/res/TypedArray;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object p2
@@ -314,47 +314,47 @@
 
     const/4 p3, 0x0
 
-    .line 264
+    .line 265
     invoke-virtual {p1, p3, p2}, Landroid/content/res/TypedArray;->getLayoutDimension(II)I
 
     move-result p2
 
-    .line 266
+    .line 267
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->setWidth(I)V
 
     const/4 p2, -0x2
 
     const/4 p4, 0x1
 
-    .line 269
+    .line 270
     invoke-virtual {p1, p4, p2}, Landroid/content/res/TypedArray;->getLayoutDimension(II)I
 
     move-result p2
 
-    .line 271
+    .line 272
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->setHeight(I)V
 
     const/4 p2, 0x7
 
-    .line 274
+    .line 275
     invoke-virtual {p1, p2, p4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
 
-    .line 276
+    .line 277
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->setOutsideTouchable(Z)V
 
-    .line 279
+    .line 280
     invoke-virtual {p1, v0, p3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
 
-    .line 281
+    .line 282
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->setClippingEnabled(Z)V
 
     const/4 p2, 0x3
 
-    .line 284
+    .line 285
     invoke-virtual {p1, p2, p4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -363,7 +363,7 @@
 
     const/16 p2, 0x8
 
-    .line 287
+    .line 288
     invoke-virtual {p1, p2, p4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -372,7 +372,7 @@
 
     const/4 p2, 0x4
 
-    .line 290
+    .line 291
     invoke-virtual {p1, p2, p4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -381,7 +381,7 @@
 
     const/4 p2, 0x6
 
-    .line 293
+    .line 294
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -392,7 +392,7 @@
 
     const p4, 0x800033
 
-    .line 296
+    .line 297
     invoke-virtual {p1, p2, p4}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
@@ -401,7 +401,7 @@
 
     const/16 p2, 0xa
 
-    .line 297
+    .line 298
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
@@ -410,17 +410,17 @@
 
     const/16 p2, 0xb
 
-    .line 298
+    .line 299
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
 
     iput p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->yoff:I
 
-    .line 299
+    .line 300
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 302
+    .line 303
     const-class p1, Lcom/rigol/scope/viewmodels/DisplayViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -431,7 +431,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 304
+    .line 305
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/DisplayViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -444,10 +444,10 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->displayParam:Lcom/rigol/scope/data/DisplayParam;
 
-    .line 305
+    .line 306
     invoke-direct {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->setBackgroundAlpha()V
 
-    .line 309
+    .line 310
     :cond_1
     const-class p1, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
@@ -459,7 +459,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
-    .line 312
+    .line 313
     const-class p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -470,7 +470,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    .line 313
+    .line 314
     const-class p1, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -481,7 +481,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
-    .line 315
+    .line 316
     const-class p1, Lcom/rigol/scope/viewmodels/OptionViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -502,10 +502,10 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->optionParam:Lcom/rigol/scope/data/OptionParam;
 
-    .line 318
+    .line 319
     invoke-virtual {p0, p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->setOnDismissListener(Landroid/widget/PopupWindow$OnDismissListener;)V
 
-    .line 321
+    .line 322
     invoke-virtual {p0, p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->setTouchInterceptor(Landroid/view/View$OnTouchListener;)V
 
     return-void
@@ -516,7 +516,7 @@
 
     const v0, 0x800003
 
-    .line 558
+    .line 559
     invoke-static {p0, p1, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getOffset(Landroid/view/View;Landroid/view/View;I)[I
 
     move-result-object p0
@@ -531,12 +531,12 @@
 
     new-array v1, v0, [I
 
-    .line 537
+    .line 538
     invoke-virtual {p1, v1}, Landroid/view/View;->getLocationOnScreen([I)V
 
     new-array v2, v0, [I
 
-    .line 540
+    .line 541
     invoke-virtual {p0, v2}, Landroid/view/View;->getLocationOnScreen([I)V
 
     new-array v0, v0, [I
@@ -547,17 +547,17 @@
 
     if-ne p2, v4, :cond_0
 
-    .line 544
+    .line 545
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result p2
 
-    .line 545
+    .line 546
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v4
 
-    .line 546
+    .line 547
     aget v5, v1, v3
 
     aget v6, v2, v3
@@ -572,7 +572,7 @@
 
     goto :goto_0
 
-    .line 548
+    .line 549
     :cond_0
     aget p2, v1, v3
 
@@ -582,20 +582,20 @@
 
     aput p2, v0, v3
 
-    .line 550
+    .line 551
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result p0
 
-    .line 551
+    .line 552
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result p1
 
     const/4 p2, 0x1
 
-    .line 552
+    .line 553
     aget v1, v1, p2
 
     aget v2, v2, p2
@@ -614,24 +614,24 @@
 .method private getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
     .locals 0
 
-    .line 1174
+    .line 1176
     invoke-virtual {p1, p2}, Landroid/view/View;->getLocationOnScreen([I)V
 
     const/4 p4, 0x0
 
-    .line 1175
+    .line 1177
     aget p4, p2, p4
 
     iput p4, p3, Landroid/graphics/Rect;->left:I
 
     const/4 p4, 0x1
 
-    .line 1176
+    .line 1178
     aget p2, p2, p4
 
     iput p2, p3, Landroid/graphics/Rect;->top:I
 
-    .line 1177
+    .line 1179
     iget p2, p3, Landroid/graphics/Rect;->left:I
 
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
@@ -642,7 +642,7 @@
 
     iput p2, p3, Landroid/graphics/Rect;->right:I
 
-    .line 1178
+    .line 1180
     iget p2, p3, Landroid/graphics/Rect;->top:I
 
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
@@ -659,14 +659,14 @@
 .method private setBackgroundAlpha()V
     .locals 2
 
-    .line 464
+    .line 465
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->displayParam:Lcom/rigol/scope/data/DisplayParam;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 469
+    .line 470
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -674,7 +674,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 471
+    .line 472
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->displayParam:Lcom/rigol/scope/data/DisplayParam;
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/DisplayParam;->getWindowTransparency255()F
@@ -696,17 +696,17 @@
 
     if-nez p2, :cond_e
 
-    .line 812
+    .line 814
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
 
-    .line 813
+    .line 815
     instance-of v1, p2, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_d
 
-    .line 815
+    .line 817
     move-object v1, p2
 
     check-cast v1, Lcom/rigol/scope/MainActivity;
@@ -719,7 +719,7 @@
 
     move-result-object v1
 
-    .line 818
+    .line 820
     invoke-virtual {v1}, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -732,7 +732,7 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/rigol/scope/views/baseview/BasePopupView;->getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
 
-    .line 821
+    .line 823
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
 
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
@@ -741,12 +741,12 @@
 
     invoke-direct {p0, p1, v1, v2, v3}, Lcom/rigol/scope/views/baseview/BasePopupView;->getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
 
-    .line 825
+    .line 827
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getWidth()I
 
     move-result v1
 
-    .line 826
+    .line 828
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getHeight()I
 
     move-result v2
@@ -755,18 +755,18 @@
 
     if-gtz v2, :cond_1
 
-    .line 828
+    .line 830
     :cond_0
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v3
 
-    .line 829
+    .line 831
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v4
 
-    .line 830
+    .line 832
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v5
@@ -776,7 +776,7 @@
     :cond_1
     if-gtz v1, :cond_2
 
-    .line 834
+    .line 836
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v1
@@ -798,7 +798,7 @@
 
     goto :goto_0
 
-    .line 839
+    .line 841
     :cond_3
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -806,7 +806,7 @@
 
     goto :goto_1
 
-    .line 837
+    .line 839
     :cond_4
     :goto_0
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -825,7 +825,7 @@
 
     iput v6, v5, Landroid/graphics/Rect;->left:I
 
-    .line 841
+    .line 843
     :goto_1
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -835,14 +835,14 @@
 
     iput v6, v5, Landroid/graphics/Rect;->right:I
 
-    .line 843
+    .line 845
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getHeight()I
 
     move-result v5
 
     if-gtz v5, :cond_5
 
-    .line 844
+    .line 846
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v2
@@ -854,7 +854,7 @@
     :cond_5
     if-ne p3, v3, :cond_6
 
-    .line 847
+    .line 849
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenHeight()I
@@ -873,13 +873,13 @@
 
     goto :goto_2
 
-    .line 849
+    .line 851
     :cond_6
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iput v0, v5, Landroid/graphics/Rect;->top:I
 
-    .line 851
+    .line 853
     :goto_2
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -889,7 +889,7 @@
 
     iput v5, v0, Landroid/graphics/Rect;->bottom:I
 
-    .line 859
+    .line 861
     invoke-virtual {p2}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p2
@@ -902,7 +902,7 @@
 
     if-eq p1, p2, :cond_7
 
-    .line 865
+    .line 867
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->left:I
@@ -915,7 +915,7 @@
 
     sub-int/2addr p4, p2
 
-    .line 866
+    .line 868
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->bottom:I
@@ -935,7 +935,7 @@
 
     if-nez p5, :cond_8
 
-    .line 870
+    .line 872
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenWidth()I
 
     move-result p2
@@ -948,7 +948,7 @@
 
     float-to-int p4, p2
 
-    .line 871
+    .line 873
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenHeight()I
 
     move-result p2
@@ -961,7 +961,7 @@
 
     float-to-int p5, p2
 
-    .line 880
+    .line 882
     :cond_8
     :goto_3
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -976,7 +976,7 @@
 
     if-ge p2, v0, :cond_9
 
-    .line 881
+    .line 883
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->left:I
@@ -990,7 +990,7 @@
 
     goto :goto_5
 
-    .line 882
+    .line 884
     :cond_9
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1004,7 +1004,7 @@
 
     if-le p2, v0, :cond_a
 
-    .line 883
+    .line 885
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->right:I
@@ -1015,7 +1015,7 @@
 
     goto :goto_4
 
-    .line 887
+    .line 889
     :cond_a
     :goto_5
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -1030,7 +1030,7 @@
 
     if-ge p2, v0, :cond_b
 
-    .line 888
+    .line 890
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->top:I
@@ -1044,7 +1044,7 @@
 
     goto :goto_7
 
-    .line 889
+    .line 891
     :cond_b
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1058,7 +1058,7 @@
 
     if-le p2, v0, :cond_c
 
-    .line 890
+    .line 892
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->bottom:I
@@ -1069,7 +1069,7 @@
 
     goto :goto_6
 
-    .line 896
+    .line 898
     :cond_c
     :goto_7
     invoke-virtual {p0, p1, p3, p4, p5}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAtLocation(Landroid/view/View;III)V
@@ -1077,18 +1077,18 @@
     :cond_d
     return-void
 
-    .line 901
+    .line 903
     :cond_e
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
 
-    .line 902
+    .line 904
     instance-of v1, p2, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_18
 
-    .line 904
+    .line 906
     check-cast p2, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {p2}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
@@ -1099,7 +1099,7 @@
 
     move-result-object p2
 
-    .line 907
+    .line 909
     invoke-virtual {p2}, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -1108,7 +1108,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 908
+    .line 910
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveLocation:[I
@@ -1117,7 +1117,7 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 909
+    .line 911
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveLocation:[I
@@ -1128,7 +1128,7 @@
 
     iput v2, v1, Landroid/graphics/Rect;->top:I
 
-    .line 910
+    .line 912
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->left:I
@@ -1145,7 +1145,7 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 911
+    .line 913
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->top:I
@@ -1162,12 +1162,12 @@
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 914
+    .line 916
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 915
+    .line 917
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
@@ -1176,7 +1176,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->left:I
 
-    .line 916
+    .line 918
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
@@ -1185,7 +1185,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->top:I
 
-    .line 917
+    .line 919
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->left:I
@@ -1198,7 +1198,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->right:I
 
-    .line 918
+    .line 920
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->top:I
@@ -1211,7 +1211,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->bottom:I
 
-    .line 922
+    .line 924
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getWidth()I
 
     move-result p2
@@ -1224,25 +1224,25 @@
 
     if-gtz p2, :cond_10
 
-    .line 923
+    .line 925
     :cond_f
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result p2
 
-    .line 924
+    .line 926
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
-    .line 925
+    .line 927
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v2
 
     invoke-virtual {v2, p2, v1}, Landroid/view/View;->measure(II)V
 
-    .line 927
+    .line 929
     :cond_10
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1254,7 +1254,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->left:I
 
-    .line 928
+    .line 930
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
@@ -1265,14 +1265,14 @@
 
     iput v1, p2, Landroid/graphics/Rect;->top:I
 
-    .line 929
+    .line 931
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getWidth()I
 
     move-result p2
 
     if-gtz p2, :cond_11
 
-    .line 930
+    .line 932
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->left:I
@@ -1291,7 +1291,7 @@
 
     goto :goto_8
 
-    .line 932
+    .line 934
     :cond_11
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1305,7 +1305,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->right:I
 
-    .line 934
+    .line 936
     :goto_8
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getHeight()I
 
@@ -1313,7 +1313,7 @@
 
     if-gtz p2, :cond_12
 
-    .line 935
+    .line 937
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->top:I
@@ -1332,7 +1332,7 @@
 
     goto :goto_9
 
-    .line 937
+    .line 939
     :cond_12
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1346,7 +1346,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->bottom:I
 
-    .line 943
+    .line 945
     :goto_9
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1358,7 +1358,7 @@
 
     if-ge p2, v1, :cond_13
 
-    .line 944
+    .line 946
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->left:I
@@ -1380,7 +1380,7 @@
 
     goto :goto_b
 
-    .line 947
+    .line 949
     :cond_13
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1392,7 +1392,7 @@
 
     if-le p2, v1, :cond_14
 
-    .line 948
+    .line 950
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->right:I
@@ -1414,7 +1414,7 @@
     :cond_14
     move p2, v0
 
-    .line 954
+    .line 956
     :goto_b
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1426,7 +1426,7 @@
 
     if-ge v1, v2, :cond_15
 
-    .line 955
+    .line 957
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->bottom:I
@@ -1448,7 +1448,7 @@
 
     goto :goto_d
 
-    .line 956
+    .line 958
     :cond_15
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1460,7 +1460,7 @@
 
     if-le v1, v2, :cond_16
 
-    .line 957
+    .line 959
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->top:I
@@ -1479,7 +1479,7 @@
 
     goto :goto_c
 
-    .line 961
+    .line 963
     :cond_16
     :goto_d
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -1496,7 +1496,7 @@
 
     if-ge v1, v2, :cond_17
 
-    .line 962
+    .line 964
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->top:I
@@ -1518,7 +1518,7 @@
 
     add-int/2addr p5, v0
 
-    .line 965
+    .line 967
     invoke-virtual {p0, p1, p4, p5, p3}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAsDropDown(Landroid/view/View;III)V
 
     :cond_18
@@ -1532,17 +1532,17 @@
 
     if-nez p2, :cond_e
 
-    .line 970
+    .line 972
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
 
-    .line 971
+    .line 973
     instance-of v1, p2, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_d
 
-    .line 973
+    .line 975
     move-object v1, p2
 
     check-cast v1, Lcom/rigol/scope/MainActivity;
@@ -1555,7 +1555,7 @@
 
     move-result-object v1
 
-    .line 976
+    .line 978
     invoke-virtual {v1}, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -1568,7 +1568,7 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/rigol/scope/views/baseview/BasePopupView;->getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
 
-    .line 979
+    .line 981
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
 
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
@@ -1577,12 +1577,12 @@
 
     invoke-direct {p0, p1, v1, v2, v3}, Lcom/rigol/scope/views/baseview/BasePopupView;->getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
 
-    .line 983
+    .line 985
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getWidth()I
 
     move-result v1
 
-    .line 984
+    .line 986
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getHeight()I
 
     move-result v2
@@ -1591,18 +1591,18 @@
 
     if-gtz v2, :cond_1
 
-    .line 986
+    .line 988
     :cond_0
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v3
 
-    .line 987
+    .line 989
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v4
 
-    .line 988
+    .line 990
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v5
@@ -1612,7 +1612,7 @@
     :cond_1
     if-gtz v1, :cond_2
 
-    .line 992
+    .line 994
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v1
@@ -1634,7 +1634,7 @@
 
     goto :goto_0
 
-    .line 997
+    .line 999
     :cond_3
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1642,7 +1642,7 @@
 
     goto :goto_1
 
-    .line 995
+    .line 997
     :cond_4
     :goto_0
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -1661,7 +1661,7 @@
 
     iput v6, v5, Landroid/graphics/Rect;->left:I
 
-    .line 999
+    .line 1001
     :goto_1
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1671,14 +1671,14 @@
 
     iput v6, v5, Landroid/graphics/Rect;->right:I
 
-    .line 1001
+    .line 1003
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getHeight()I
 
     move-result v5
 
     if-gtz v5, :cond_5
 
-    .line 1002
+    .line 1004
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v2
@@ -1690,7 +1690,7 @@
     :cond_5
     if-ne p3, v3, :cond_6
 
-    .line 1005
+    .line 1007
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenHeight()I
@@ -1709,13 +1709,13 @@
 
     goto :goto_2
 
-    .line 1007
+    .line 1009
     :cond_6
     iget-object v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iput v0, v5, Landroid/graphics/Rect;->top:I
 
-    .line 1009
+    .line 1011
     :goto_2
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1725,7 +1725,7 @@
 
     iput v5, v0, Landroid/graphics/Rect;->bottom:I
 
-    .line 1017
+    .line 1019
     invoke-virtual {p2}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p2
@@ -1738,7 +1738,7 @@
 
     if-eq p1, p2, :cond_7
 
-    .line 1023
+    .line 1025
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->left:I
@@ -1751,7 +1751,7 @@
 
     sub-int/2addr p4, p2
 
-    .line 1024
+    .line 1026
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->bottom:I
@@ -1771,7 +1771,7 @@
 
     if-nez p5, :cond_8
 
-    .line 1028
+    .line 1030
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenWidth()I
 
     move-result p2
@@ -1784,7 +1784,7 @@
 
     float-to-int p4, p2
 
-    .line 1029
+    .line 1031
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenHeight()I
 
     move-result p2
@@ -1797,7 +1797,7 @@
 
     float-to-int p5, p2
 
-    .line 1038
+    .line 1040
     :cond_8
     :goto_3
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -1812,7 +1812,7 @@
 
     if-ge p2, v0, :cond_9
 
-    .line 1039
+    .line 1041
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->left:I
@@ -1826,7 +1826,7 @@
 
     goto :goto_5
 
-    .line 1040
+    .line 1042
     :cond_9
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1840,7 +1840,7 @@
 
     if-le p2, v0, :cond_a
 
-    .line 1041
+    .line 1043
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->right:I
@@ -1851,7 +1851,7 @@
 
     goto :goto_4
 
-    .line 1045
+    .line 1047
     :cond_a
     :goto_5
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -1866,7 +1866,7 @@
 
     if-ge p2, v0, :cond_b
 
-    .line 1046
+    .line 1048
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->top:I
@@ -1880,7 +1880,7 @@
 
     goto :goto_7
 
-    .line 1047
+    .line 1049
     :cond_b
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -1894,7 +1894,7 @@
 
     if-le p2, v0, :cond_c
 
-    .line 1048
+    .line 1050
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->bottom:I
@@ -1909,24 +1909,24 @@
     :goto_7
     add-int/lit16 p4, p4, -0x8c
 
-    .line 1054
+    .line 1056
     invoke-virtual {p0, p1, p3, p4, p5}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAtLocation(Landroid/view/View;III)V
 
     :cond_d
     return-void
 
-    .line 1059
+    .line 1061
     :cond_e
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
 
-    .line 1060
+    .line 1062
     instance-of v1, p2, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_18
 
-    .line 1062
+    .line 1064
     check-cast p2, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {p2}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
@@ -1937,7 +1937,7 @@
 
     move-result-object p2
 
-    .line 1065
+    .line 1067
     invoke-virtual {p2}, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -1946,7 +1946,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 1066
+    .line 1068
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveLocation:[I
@@ -1955,7 +1955,7 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 1067
+    .line 1069
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveLocation:[I
@@ -1966,7 +1966,7 @@
 
     iput v2, v1, Landroid/graphics/Rect;->top:I
 
-    .line 1068
+    .line 1070
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->left:I
@@ -1983,7 +1983,7 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 1069
+    .line 1071
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->top:I
@@ -2000,12 +2000,12 @@
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 1072
+    .line 1074
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 1073
+    .line 1075
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
@@ -2014,7 +2014,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->left:I
 
-    .line 1074
+    .line 1076
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorLocation:[I
@@ -2023,7 +2023,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->top:I
 
-    .line 1075
+    .line 1077
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->left:I
@@ -2036,7 +2036,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->right:I
 
-    .line 1076
+    .line 1078
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->top:I
@@ -2049,7 +2049,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->bottom:I
 
-    .line 1080
+    .line 1082
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getWidth()I
 
     move-result p2
@@ -2062,25 +2062,25 @@
 
     if-gtz p2, :cond_10
 
-    .line 1081
+    .line 1083
     :cond_f
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result p2
 
-    .line 1082
+    .line 1084
     invoke-static {v0, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
-    .line 1083
+    .line 1085
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v2
 
     invoke-virtual {v2, p2, v1}, Landroid/view/View;->measure(II)V
 
-    .line 1085
+    .line 1087
     :cond_10
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2092,7 +2092,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->left:I
 
-    .line 1086
+    .line 1088
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
@@ -2103,14 +2103,14 @@
 
     iput v1, p2, Landroid/graphics/Rect;->top:I
 
-    .line 1087
+    .line 1089
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getWidth()I
 
     move-result p2
 
     if-gtz p2, :cond_11
 
-    .line 1088
+    .line 1090
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->left:I
@@ -2129,7 +2129,7 @@
 
     goto :goto_8
 
-    .line 1090
+    .line 1092
     :cond_11
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2143,7 +2143,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->right:I
 
-    .line 1092
+    .line 1094
     :goto_8
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getHeight()I
 
@@ -2151,7 +2151,7 @@
 
     if-gtz p2, :cond_12
 
-    .line 1093
+    .line 1095
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v1, p2, Landroid/graphics/Rect;->top:I
@@ -2170,7 +2170,7 @@
 
     goto :goto_9
 
-    .line 1095
+    .line 1097
     :cond_12
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2184,7 +2184,7 @@
 
     iput v1, p2, Landroid/graphics/Rect;->bottom:I
 
-    .line 1101
+    .line 1103
     :goto_9
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2196,7 +2196,7 @@
 
     if-ge p2, v1, :cond_13
 
-    .line 1102
+    .line 1104
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->left:I
@@ -2218,7 +2218,7 @@
 
     goto :goto_b
 
-    .line 1105
+    .line 1107
     :cond_13
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2230,7 +2230,7 @@
 
     if-le p2, v1, :cond_14
 
-    .line 1106
+    .line 1108
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget p2, p2, Landroid/graphics/Rect;->right:I
@@ -2252,7 +2252,7 @@
     :cond_14
     move p2, v0
 
-    .line 1112
+    .line 1114
     :goto_b
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2264,7 +2264,7 @@
 
     if-ge v1, v2, :cond_15
 
-    .line 1113
+    .line 1115
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->bottom:I
@@ -2286,7 +2286,7 @@
 
     goto :goto_d
 
-    .line 1114
+    .line 1116
     :cond_15
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -2298,7 +2298,7 @@
 
     if-le v1, v2, :cond_16
 
-    .line 1115
+    .line 1117
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->top:I
@@ -2317,7 +2317,7 @@
 
     goto :goto_c
 
-    .line 1119
+    .line 1121
     :cond_16
     :goto_d
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
@@ -2334,7 +2334,7 @@
 
     if-ge v1, v2, :cond_17
 
-    .line 1120
+    .line 1122
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->top:I
@@ -2356,7 +2356,7 @@
 
     add-int/2addr p5, v0
 
-    .line 1123
+    .line 1125
     invoke-virtual {p0, p1, p4, p5, p3}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAsDropDown(Landroid/view/View;III)V
 
     :cond_18
@@ -2368,12 +2368,12 @@
 .method public attachRefView(Landroid/view/View;)V
     .locals 1
 
-    .line 502
+    .line 503
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->onAttachStateChangeListener:Landroid/view/View$OnAttachStateChangeListener;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
-    .line 503
+    .line 504
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->refView:Landroid/view/View;
 
     return-void
@@ -2393,7 +2393,7 @@
         }
     .end annotation
 
-    .line 1219
+    .line 1221
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2404,7 +2404,7 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 1220
+    .line 1222
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -2412,7 +2412,7 @@
 
     if-ge v1, v0, :cond_3
 
-    .line 1221
+    .line 1223
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -2477,7 +2477,7 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 1222
+    .line 1224
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->baseListCH:Ljava/util/List;
 
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2493,7 +2493,7 @@
 
     goto :goto_0
 
-    .line 1226
+    .line 1228
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->baseListCH:Ljava/util/List;
 
@@ -2512,7 +2512,7 @@
     :goto_1
     if-ge v1, v2, :cond_3
 
-    .line 1228
+    .line 1230
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -2577,7 +2577,7 @@
 
     if-eq v0, v3, :cond_2
 
-    .line 1229
+    .line 1231
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->baseListCH:Ljava/util/List;
 
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2593,7 +2593,7 @@
 
     goto :goto_1
 
-    .line 1233
+    .line 1235
     :cond_3
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->baseListCH:Ljava/util/List;
 
@@ -2611,7 +2611,7 @@
 .method public getAnchor()Landroid/view/View;
     .locals 1
 
-    .line 690
+    .line 691
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
     return-object v0
@@ -2628,7 +2628,7 @@
         }
     .end annotation
 
-    .line 678
+    .line 679
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outsideEnableClickRects:Ljava/util/List;
 
     return-object v0
@@ -2645,7 +2645,7 @@
         }
     .end annotation
 
-    .line 682
+    .line 683
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outsideExceptClickRects:Ljava/util/List;
 
     return-object v0
@@ -2662,7 +2662,7 @@
 .method public getXoff()I
     .locals 1
 
-    .line 698
+    .line 699
     iget v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->xoff:I
 
     return v0
@@ -2671,7 +2671,7 @@
 .method public getYoff()I
     .locals 1
 
-    .line 706
+    .line 707
     iget v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->yoff:I
 
     return v0
@@ -2680,7 +2680,7 @@
 .method public synthetic lambda$onPrepare$1$BasePopupView(Ljava/lang/Object;)V
     .locals 0
 
-    .line 455
+    .line 456
     invoke-direct {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->setBackgroundAlpha()V
 
     return-void
@@ -2689,12 +2689,12 @@
 .method public synthetic lambda$setContentView$0$BasePopupView(Landroid/view/View;ILandroid/view/KeyEvent;)Z
     .locals 1
 
-    .line 362
+    .line 363
     invoke-static {p2}, Lcom/rigol/scope/utilities/KeyCodeUtil;->getPanelKey(I)I
 
     move-result p1
 
-    .line 364
+    .line 365
     invoke-virtual {p3}, Landroid/view/KeyEvent;->getAction()I
 
     move-result p2
@@ -2710,19 +2710,19 @@
     :cond_0
     if-lez p1, :cond_2
 
-    .line 369
+    .line 370
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-eqz p1, :cond_2
 
-    .line 370
+    .line 371
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 373
+    .line 374
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->saveTone()V
 
     goto :goto_0
@@ -2730,12 +2730,12 @@
     :cond_1
     if-lez p1, :cond_2
 
-    .line 380
+    .line 381
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-eqz p1, :cond_2
 
-    .line 381
+    .line 382
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyDownData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -2758,7 +2758,7 @@
 
     const-string v1, "notifyDataSetChanged"
 
-    .line 601
+    .line 602
     invoke-static {v1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -2767,7 +2767,7 @@
 .method public onChanged(Landroid/view/KeyEvent;)V
     .locals 0
 
-    .line 1214
+    .line 1216
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
     return-void
@@ -2776,7 +2776,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 77
+    .line 78
     check-cast p1, Landroid/view/KeyEvent;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->onChanged(Landroid/view/KeyEvent;)V
@@ -2787,19 +2787,19 @@
 .method public onDismiss()V
     .locals 1
 
-    .line 615
+    .line 616
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-eqz v0, :cond_0
 
-    .line 616
+    .line 617
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Landroidx/lifecycle/MutableLiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
 
-    .line 618
+    .line 619
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2813,7 +2813,7 @@
 .method public onLocaleChanged()V
     .locals 3
 
-    .line 588
+    .line 589
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->titleView:Landroid/widget/TextView;
 
     if-eqz v0, :cond_0
@@ -2824,7 +2824,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 590
+    .line 591
     :try_start_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
     :try_end_0
@@ -2835,7 +2835,7 @@
     :catch_0
     move-exception v0
 
-    .line 592
+    .line 593
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -2846,7 +2846,7 @@
 .method public onPanelKeyDown(ILandroid/view/KeyEvent;)V
     .locals 2
 
-    .line 579
+    .line 580
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2861,7 +2861,7 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 580
+    .line 581
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -2886,7 +2886,7 @@
 
     new-array p2, p2, [Ljava/lang/Object;
 
-    .line 579
+    .line 580
     invoke-static {p1, p2}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -2895,7 +2895,7 @@
 .method public onPanelKeyUp(ILandroid/view/KeyEvent;)V
     .locals 2
 
-    .line 568
+    .line 569
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2910,7 +2910,7 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 569
+    .line 570
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -2935,7 +2935,7 @@
 
     new-array p2, p2, [Ljava/lang/Object;
 
-    .line 568
+    .line 569
     invoke-static {p1, p2}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -2944,7 +2944,7 @@
 .method protected onPrepare()V
     .locals 3
 
-    .line 436
+    .line 437
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -2955,7 +2955,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 438
+    .line 439
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -2968,7 +2968,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 440
+    .line 441
     invoke-virtual {v0}, Lcom/rigol/scope/data/UtilityParam;->getLockKeyboard()Z
 
     move-result v0
@@ -2977,18 +2977,18 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->setTouchable(Z)V
 
-    .line 445
+    .line 446
     :cond_0
     iget-boolean v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->panelKeyEnabled:Z
 
     if-nez v0, :cond_1
 
-    .line 446
+    .line 447
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-eqz v0, :cond_1
 
-    .line 447
+    .line 448
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -2999,7 +2999,7 @@
 
     invoke-virtual {v0, v1, p0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 452
+    .line 453
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -3009,7 +3009,7 @@
 
     const/16 v2, 0x1317
 
-    .line 454
+    .line 455
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -3031,7 +3031,7 @@
 .method protected onShow()V
     .locals 2
 
-    .line 476
+    .line 477
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v0
@@ -3048,7 +3048,7 @@
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 5
 
-    .line 629
+    .line 630
     instance-of v0, p0, Lcom/rigol/scope/views/LoadingPopupView;
 
     const/4 v1, 0x1
@@ -3075,7 +3075,7 @@
     :cond_1
     return v1
 
-    .line 633
+    .line 634
     :cond_2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getActionMasked()I
 
@@ -3087,19 +3087,19 @@
 
     if-ne v0, v2, :cond_8
 
-    .line 640
+    .line 641
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->setShowingWhenClickDown(Z)V
 
-    .line 643
+    .line 644
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outLocationOnScreen:[I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 644
+    .line 645
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outLocationOnScreen:[I
 
     aget p1, p1, v3
@@ -3112,7 +3112,7 @@
 
     add-float/2addr p1, v0
 
-    .line 645
+    .line 646
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outLocationOnScreen:[I
 
     aget v0, v0, v1
@@ -3125,7 +3125,7 @@
 
     add-float/2addr v0, p2
 
-    .line 648
+    .line 649
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outsideExceptClickRects:Ljava/util/List;
 
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -3150,7 +3150,7 @@
 
     goto :goto_0
 
-    .line 653
+    .line 654
     :cond_4
     iget v4, v2, Landroid/graphics/Rect;->left:I
 
@@ -3186,7 +3186,7 @@
 
     return v3
 
-    .line 660
+    .line 661
     :cond_5
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->outsideEnableClickRects:Ljava/util/List;
 
@@ -3212,7 +3212,7 @@
 
     goto :goto_1
 
-    .line 665
+    .line 666
     :cond_7
     iget v4, v2, Landroid/graphics/Rect;->left:I
 
@@ -3251,7 +3251,7 @@
     :cond_8
     if-ne v0, v1, :cond_9
 
-    .line 672
+    .line 673
     invoke-static {}, Lcom/rigol/scope/data/UtilityParamKt;->saveTone()V
 
     :cond_9
@@ -3261,7 +3261,7 @@
 .method public final setAnchor(Landroid/view/View;)V
     .locals 0
 
-    .line 686
+    .line 687
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
     return-void
@@ -3270,19 +3270,19 @@
 .method public setContentView(Landroid/view/View;)V
     .locals 4
 
-    .line 326
+    .line 327
     invoke-super {p0, p1}, Landroid/widget/PopupWindow;->setContentView(Landroid/view/View;)V
 
     const v0, 0x1030002
 
-    .line 327
+    .line 328
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->setAnimationStyle(I)V
 
     if-eqz p1, :cond_3
 
-    const v0, 0x7f0a08e2
+    const v0, 0x7f0a08fd
 
-    .line 330
+    .line 331
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -3293,34 +3293,34 @@
 
     if-eqz v1, :cond_0
 
-    .line 331
+    .line 332
     iget v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->titleId:I
 
     const/4 v3, -0x1
 
     if-eq v2, v3, :cond_0
 
-    .line 332
+    .line 333
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
     :cond_0
-    const v1, 0x7f0a01f5
+    const v1, 0x7f0a01f8
 
-    .line 336
+    .line 337
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 339
+    .line 340
     new-instance v2, Lcom/rigol/scope/views/baseview/BasePopupView$2;
 
     invoke-direct {v2, p0}, Lcom/rigol/scope/views/baseview/BasePopupView$2;-><init>(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 350
+    .line 351
     :cond_1
     new-instance v1, Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;
 
@@ -3328,14 +3328,14 @@
 
     iput-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupWindowTouchListener:Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;
 
-    .line 351
+    .line 352
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 353
+    .line 354
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupWindowTouchListener:Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
@@ -3343,13 +3343,13 @@
     :cond_2
     const/4 v0, 0x1
 
-    .line 357
+    .line 358
     invoke-virtual {p1, v0}, Landroid/view/View;->setFocusable(Z)V
 
-    .line 358
+    .line 359
     invoke-virtual {p1, v0}, Landroid/view/View;->setFocusableInTouchMode(Z)V
 
-    .line 359
+    .line 360
     new-instance v0, Lcom/rigol/scope/views/baseview/-$$Lambda$BasePopupView$vhVYsnug0oMN1ozZFmlILYXYpoE;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BasePopupView$vhVYsnug0oMN1ozZFmlILYXYpoE;-><init>(Lcom/rigol/scope/views/baseview/BasePopupView;)V
@@ -3363,7 +3363,7 @@
 .method public setXoff(I)V
     .locals 0
 
-    .line 694
+    .line 695
     iput p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->xoff:I
 
     return-void
@@ -3372,7 +3372,7 @@
 .method public setYoff(I)V
     .locals 0
 
-    .line 702
+    .line 703
     iput p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->yoff:I
 
     return-void
@@ -3420,18 +3420,37 @@
 
     move-result-object v3
 
+    const-string v0, "TAG"
+
     if-eqz v3, :cond_1
 
     .line 773
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
 
-    invoke-virtual {v3, v0}, Landroid/view/View;->getLocalVisibleRect(Landroid/graphics/Rect;)Z
+    invoke-virtual {v3, v1}, Landroid/view/View;->getLocalVisibleRect(Landroid/graphics/Rect;)Z
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_1
+    if-eqz v1, :cond_1
 
     .line 774
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "shoResults findAnchor0: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 775
     iget-boolean v4, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->isDropdown:Z
 
     iget v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->gravity:I
@@ -3446,47 +3465,66 @@
 
     return-void
 
-    .line 780
-    :cond_1
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
-
-    if-eqz v0, :cond_2
-
-    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
     .line 781
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
+    :cond_1
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
+    if-eqz v1, :cond_2
 
-    invoke-virtual {v0, v1}, Landroid/view/View;->getLocalVisibleRect(Landroid/graphics/Rect;)Z
+    invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_2
+    if-nez v1, :cond_2
 
     .line 782
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
+
+    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchorRect:Landroid/graphics/Rect;
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->getLocalVisibleRect(Landroid/graphics/Rect;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    .line 783
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "shoResults findAnchor1: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
-    iget-boolean v3, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->isDropdown:Z
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    iget v4, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->gravity:I
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    iget v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->xoff:I
+    move-result-object v1
 
-    iget v6, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->yoff:I
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    move-object v1, p0
+    .line 784
+    iget-object v3, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
-    invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/baseview/BasePopupView;->showR(Landroid/view/View;ZIII)V
+    iget-boolean v4, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->isDropdown:Z
+
+    iget v5, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->gravity:I
+
+    iget v6, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->xoff:I
+
+    iget v7, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->yoff:I
+
+    move-object v2, p0
+
+    invoke-direct/range {v2 .. v7}, Lcom/rigol/scope/views/baseview/BasePopupView;->showR(Landroid/view/View;ZIII)V
 
     return-void
 
-    .line 788
+    .line 790
     :cond_2
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -3496,7 +3534,7 @@
 
     return-void
 
-    .line 792
+    .line 794
     :cond_3
     invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
@@ -3506,7 +3544,7 @@
 
     move-result-object v2
 
-    .line 793
+    .line 795
     iget-boolean v3, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->isDropdown:Z
 
     iget v4, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->gravity:I
@@ -3669,10 +3707,10 @@
 .method public show(Landroid/view/View;)V
     .locals 0
 
-    .line 710
+    .line 711
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->setAnchor(Landroid/view/View;)V
 
-    .line 711
+    .line 712
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
     return-void
@@ -3681,27 +3719,27 @@
 .method public showAsDropDown(Landroid/view/View;III)V
     .locals 2
 
-    .line 396
+    .line 397
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onPrepare()V
 
-    .line 399
+    .line 400
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupWindowTouchListener:Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 400
+    .line 401
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;->setAtLocation(Z)V
 
-    .line 403
+    .line 404
     :cond_0
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/PopupWindow;->showAsDropDown(Landroid/view/View;III)V
 
-    .line 406
+    .line 407
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
-    .line 408
+    .line 409
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onShow()V
 
     return-void
@@ -3710,29 +3748,29 @@
 .method public showAsDropDown(Landroid/view/View;Landroid/view/View;III)V
     .locals 1
 
-    .line 517
+    .line 518
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->attachRefView(Landroid/view/View;)V
 
-    .line 519
+    .line 520
     invoke-static {p1, p2, p5}, Lcom/rigol/scope/views/baseview/BasePopupView;->getOffset(Landroid/view/View;Landroid/view/View;I)[I
 
     move-result-object p2
 
     const/4 v0, 0x0
 
-    .line 520
+    .line 521
     aget v0, p2, v0
 
     add-int/2addr v0, p3
 
     const/4 p3, 0x1
 
-    .line 521
+    .line 522
     aget p2, p2, p3
 
     add-int/2addr p2, p4
 
-    .line 523
+    .line 524
     invoke-static {p0, p1, v0, p2, p5}, Landroidx/core/widget/PopupWindowCompat;->showAsDropDown(Landroid/widget/PopupWindow;Landroid/view/View;III)V
 
     return-void
@@ -3741,30 +3779,30 @@
 .method public showAtLocation(Landroid/view/View;III)V
     .locals 2
 
-    .line 413
+    .line 414
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onPrepare()V
 
-    .line 416
+    .line 417
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupWindowTouchListener:Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x1
 
-    .line 417
+    .line 418
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/DragViewUtil$PopupWindowTouchListener;->setAtLocation(Z)V
 
-    .line 420
+    .line 421
     :cond_0
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/PopupWindow;->showAtLocation(Landroid/view/View;III)V
 
-    .line 423
+    .line 424
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->anchor:Landroid/view/View;
 
-    .line 425
+    .line 426
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onShow()V
 
-    .line 427
+    .line 428
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3777,17 +3815,17 @@
 .method public updateLocation()V
     .locals 4
 
-    .line 1130
+    .line 1132
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 1131
+    .line 1133
     instance-of v1, v0, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_3
 
-    .line 1133
+    .line 1135
     check-cast v0, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
@@ -3798,7 +3836,7 @@
 
     move-result-object v0
 
-    .line 1136
+    .line 1138
     invoke-virtual {v0}, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
@@ -3811,7 +3849,7 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/baseview/BasePopupView;->getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
 
-    .line 1139
+    .line 1141
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v0
@@ -3820,7 +3858,7 @@
 
     return-void
 
-    .line 1143
+    .line 1145
     :cond_0
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupLocation:[I
 
@@ -3830,12 +3868,12 @@
 
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/rigol/scope/views/baseview/BasePopupView;->getRectValue(Landroid/view/View;[ILandroid/graphics/Rect;Ljava/lang/String;)V
 
-    .line 1146
+    .line 1148
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->left:I
 
-    .line 1147
+    .line 1149
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
@@ -3846,14 +3884,14 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 1148
+    .line 1150
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->left:I
 
     goto :goto_0
 
-    .line 1149
+    .line 1151
     :cond_1
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
@@ -3865,7 +3903,7 @@
 
     if-le v1, v2, :cond_2
 
-    .line 1150
+    .line 1152
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->waveRect:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->right:I
@@ -3880,14 +3918,14 @@
 
     sub-int/2addr v0, v1
 
-    .line 1154
+    .line 1156
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->popupRect:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->top:I
 
-    .line 1169
+    .line 1171
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/views/baseview/BasePopupView;->updateLocation(II)V
 
     :cond_3
@@ -3897,7 +3935,7 @@
 .method public updateLocation(II)V
     .locals 2
 
-    .line 1191
+    .line 1193
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
     const/4 v1, 0x0
@@ -3924,7 +3962,7 @@
 
     const/4 v0, -0x1
 
-    .line 1194
+    .line 1196
     invoke-virtual {p0, p1, p2, v0, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->update(IIII)V
 
     return-void
@@ -3933,17 +3971,17 @@
 .method public updateOriginLocation()V
     .locals 7
 
-    .line 481
+    .line 482
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenWidth()I
 
     move-result v0
 
-    .line 482
+    .line 483
     invoke-static {}, Lcom/blankj/utilcode/util/ScreenUtils;->getAppScreenHeight()I
 
     move-result v1
 
-    .line 484
+    .line 485
     iget v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->gravity:I
 
     const/4 v3, 0x1
@@ -3956,7 +3994,7 @@
 
     if-ne v2, v6, :cond_0
 
-    .line 485
+    .line 486
     iget-object v2, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
@@ -3977,7 +4015,7 @@
 
     aput v0, v2, v5
 
-    .line 486
+    .line 487
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
@@ -4005,7 +4043,7 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 488
+    .line 489
     iget-object v1, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
@@ -4026,20 +4064,20 @@
 
     aput v0, v1, v5
 
-    .line 489
+    .line 490
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
     aput v5, v0, v3
 
     goto :goto_0
 
-    .line 491
+    .line 492
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BasePopupView;->originLocation:[I
 
     aput v5, v0, v5
 
-    .line 492
+    .line 493
     aput v5, v0, v3
 
     :goto_0

@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1955
+    .line 1956
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     const-string v1, "Trigger_When_None"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->Trigger_When_None:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    .line 1956
+    .line 1957
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     const-string v9, "Trigger_When_Morethan"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->Trigger_When_Morethan:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    .line 1957
+    .line 1958
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     const-string v2, "Trigger_When_Lessthan"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->Trigger_When_Lessthan:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    .line 1958
+    .line 1959
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     const-string v9, "Trigger_When_MoreLess"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->Trigger_When_MoreLess:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    .line 1959
+    .line 1960
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     const-string v2, "Trigger_When_UnMoreLess"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    .line 1953
+    .line 1954
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->Trigger_When_None:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 1962
+    .line 1963
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1963
+    .line 1964
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->value1:I
 
-    .line 1964
+    .line 1965
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->value2:Ljava/lang/String;
 
-    .line 1965
+    .line 1966
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->pic1:Ljava/lang/String;
 
-    .line 1966
+    .line 1967
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
     .locals 1
 
-    .line 1953
+    .line 1954
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
     .locals 1
 
-    .line 1953
+    .line 1954
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;->clone()Ljava/lang/Object;

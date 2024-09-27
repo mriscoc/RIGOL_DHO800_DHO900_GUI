@@ -228,11 +228,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0739 -> :sswitch_4
-        0x7f0a073c -> :sswitch_3
-        0x7f0a0746 -> :sswitch_2
-        0x7f0a0749 -> :sswitch_1
-        0x7f0a074b -> :sswitch_0
+        0x7f0a0746 -> :sswitch_4
+        0x7f0a0749 -> :sswitch_3
+        0x7f0a0753 -> :sswitch_2
+        0x7f0a0756 -> :sswitch_1
+        0x7f0a0758 -> :sswitch_0
     .end sparse-switch
 .end method
 

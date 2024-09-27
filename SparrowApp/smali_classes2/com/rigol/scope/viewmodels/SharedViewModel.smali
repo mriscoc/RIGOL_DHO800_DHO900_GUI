@@ -24,6 +24,26 @@
     .end annotation
 .end field
 
+.field public final hasChangeMeasureItem:Landroidx/lifecycle/MutableLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/lifecycle/MutableLiveData<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final hasRemoveMeasureItem:Landroidx/lifecycle/MutableLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/lifecycle/MutableLiveData<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
 .field public final hasUpdate:Landroidx/lifecycle/MutableLiveData;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -81,7 +101,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 67
+    .line 75
     new-instance v0, Lcom/rigol/scope/data/SharedParam;
 
     invoke-direct {v0}, Lcom/rigol/scope/data/SharedParam;-><init>()V
@@ -128,6 +148,20 @@
 
     invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
+    iput-object v0, p0, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasChangeMeasureItem:Landroidx/lifecycle/MutableLiveData;
+
+    .line 67
+    new-instance v0, Landroidx/lifecycle/MutableLiveData;
+
+    invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
+
+    iput-object v0, p0, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasRemoveMeasureItem:Landroidx/lifecycle/MutableLiveData;
+
+    .line 71
+    new-instance v0, Landroidx/lifecycle/MutableLiveData;
+
+    invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
+
     iput-object v0, p0, Lcom/rigol/scope/viewmodels/SharedViewModel;->jitterParamState:Landroidx/lifecycle/MutableLiveData;
 
     return-void
@@ -138,10 +172,10 @@
 .method public varargs get([Ljava/lang/Object;)V
     .locals 1
 
-    .line 73
+    .line 81
     invoke-super {p0, p1}, Lcom/rigol/scope/viewmodels/BaseViewModel;->get([Ljava/lang/Object;)V
 
-    .line 74
+    .line 82
     invoke-virtual {p0}, Lcom/rigol/scope/viewmodels/SharedViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -156,7 +190,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/SharedParam;->setShowUsb(Z)V
 
-    .line 75
+    .line 83
     invoke-virtual {p0}, Lcom/rigol/scope/viewmodels/SharedViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object p1

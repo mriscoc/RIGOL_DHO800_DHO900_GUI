@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DvmResultParam;)V
     .locals 0
 
-    .line 6439
+    .line 6576
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/DvmResultParam;
@@ -51,12 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6442
+    .line 6579
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readLimitUpper()J
 
-    .line 6443
+    .line 6580
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readUpperAttr()V
@@ -67,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6439
+    .line 6576
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$565;->onChanged(Ljava/lang/Boolean;)V

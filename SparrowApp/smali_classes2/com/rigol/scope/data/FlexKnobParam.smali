@@ -266,7 +266,7 @@
     goto/16 :goto_1
 
     :pswitch_1
-    const p1, 0x7f100ef9
+    const p1, 0x7f100eff
 
     .line 429
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -281,7 +281,7 @@
     goto/16 :goto_1
 
     :pswitch_2
-    const p1, 0x7f100521
+    const p1, 0x7f100520
 
     .line 478
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -290,7 +290,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f100522
+    const p1, 0x7f100521
 
     .line 479
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -302,7 +302,7 @@
     goto/16 :goto_1
 
     :pswitch_3
-    const p1, 0x7f10052f
+    const p1, 0x7f10052e
 
     .line 471
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -311,7 +311,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f100530
+    const p1, 0x7f10052f
 
     .line 472
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -401,7 +401,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f10051d
+    const v1, 0x7f10051c
 
     .line 439
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -434,7 +434,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f10051e
+    const v1, 0x7f10051d
 
     .line 441
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -466,7 +466,7 @@
 
     if-eqz v1, :cond_2
 
-    const p1, 0x7f10051f
+    const p1, 0x7f10051e
 
     .line 444
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -499,7 +499,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f100520
+    const p1, 0x7f10051f
 
     .line 446
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -844,9 +844,9 @@
     .line 503
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_add:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    const v1, 0x7f10052a
+    const v1, 0x7f100529
 
-    const v2, 0x7f100529
+    const v2, 0x7f100528
 
     if-eq p1, v0, :cond_7
 
@@ -870,7 +870,7 @@
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f10052b
+    const p1, 0x7f10052a
 
     .line 507
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -879,7 +879,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f10052c
+    const p1, 0x7f10052b
 
     .line 508
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1001,7 +1001,7 @@
 
     :cond_6
     :goto_1
-    const p1, 0x7f10052d
+    const p1, 0x7f10052c
 
     .line 510
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1010,7 +1010,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f10052e
+    const p1, 0x7f10052d
 
     .line 511
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2125,7 +2125,7 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/blankj/utilcode/util/SPUtils;->put(Ljava/lang/String;Z)V
 
-    const/16 p1, 0xad
+    const/16 p1, 0xaf
 
     .line 267
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FlexKnobParam;->notifyPropertyChanged(I)V
@@ -2139,7 +2139,7 @@
     .line 254
     iput-object p1, p0, Lcom/rigol/scope/data/FlexKnobParam;->currentMappingObject:Lcom/rigol/scope/data/MappingObject;
 
-    const/16 p1, 0xc0
+    const/16 p1, 0xc3
 
     .line 255
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FlexKnobParam;->notifyPropertyChanged(I)V
@@ -2175,7 +2175,7 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/blankj/utilcode/util/SPUtils;->put(Ljava/lang/String;I)V
 
-    const/16 p1, 0x13d
+    const/16 p1, 0x141
 
     .line 235
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FlexKnobParam;->notifyPropertyChanged(I)V

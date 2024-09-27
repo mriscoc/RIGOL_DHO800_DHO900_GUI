@@ -90,7 +90,7 @@
     .line 394
     iget-object v0, p1, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBinding;->switchButtonImagecolor:Lcom/rigol/scope/views/SwitchButton;
 
-    const v1, 0x7f0301c8
+    const v1, 0x7f0301c9
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
@@ -171,7 +171,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0862
+    const v0, 0x7f0a087d
 
     if-ne p1, v0, :cond_1
 
@@ -183,7 +183,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0a0861
+    const v0, 0x7f0a087c
 
     if-ne p1, v0, :cond_2
 
@@ -200,15 +200,15 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a073a
+    const p1, 0x7f0a0747
 
     if-eq p2, p1, :cond_2
 
-    const p1, 0x7f0a073d
+    const p1, 0x7f0a074a
 
     if-eq p2, p1, :cond_1
 
-    const p1, 0x7f0a0748
+    const p1, 0x7f0a0755
 
     if-eq p2, p1, :cond_0
 

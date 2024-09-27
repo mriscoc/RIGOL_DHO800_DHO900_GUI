@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .line 2095
+    .line 2111
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/BaseAdapter;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
     return-void
@@ -72,14 +72,14 @@
         }
     .end annotation
 
-    .line 2102
+    .line 2118
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBinding;
 
-    .line 2104
+    .line 2120
     iget-object v0, p1, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBinding;->itemTitle:Landroidx/appcompat/widget/AppCompatTextView;
 
     invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -96,7 +96,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatTextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2105
+    .line 2121
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBinding;->itemData:Landroidx/appcompat/widget/AppCompatTextView;
 
     invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -119,7 +119,7 @@
 .method public getParam()Lcom/rigol/scope/data/ResultParam;
     .locals 1
 
-    .line 2126
+    .line 2142
     iget-object v0, p0, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->param:Lcom/rigol/scope/data/ResultParam;
 
     return-object v0
@@ -128,7 +128,7 @@
 .method public setParam(Lcom/rigol/scope/data/ResultParam;)V
     .locals 0
 
-    .line 2131
+    .line 2147
     iput-object p1, p0, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->param:Lcom/rigol/scope/data/ResultParam;
 
     return-void

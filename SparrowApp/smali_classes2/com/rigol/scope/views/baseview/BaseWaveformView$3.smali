@@ -86,9 +86,7 @@
 
     sub-float/2addr p3, p1
 
-    float-to-int p1, p3
-
-    int-to-long p3, p1
+    float-to-long p3, p3
 
     invoke-virtual {p2, p3, p4}, Lcom/rigol/scope/data/VerticalParam;->moveOffset(J)V
 

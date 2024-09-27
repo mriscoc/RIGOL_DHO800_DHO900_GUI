@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a64
+    const v1, 0x7f0a0a7f
 
     const/4 v2, 0x5
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0596
+    const v1, 0x7f0a059f
 
     const/4 v2, 0x6
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0590
+    const v1, 0x7f0a0599
 
     const/4 v2, 0x7
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0583
+    const v1, 0x7f0a058c
 
     const/16 v2, 0x8
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0585
+    const v1, 0x7f0a058e
 
     const/16 v2, 0x9
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0586
+    const v1, 0x7f0a058f
 
     const/16 v2, 0xa
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0588
+    const v1, 0x7f0a0591
 
     const/16 v2, 0xb
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a058a
+    const v1, 0x7f0a0593
 
     const/16 v2, 0xc
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a058c
+    const v1, 0x7f0a0595
 
     const/16 v2, 0xd
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0589
+    const v1, 0x7f0a0592
 
     const/16 v2, 0xe
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0587
+    const v1, 0x7f0a0590
 
     const/16 v2, 0xf
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0584
+    const v1, 0x7f0a058d
 
     const/16 v2, 0x10
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0593
+    const v1, 0x7f0a059c
 
     const/16 v2, 0x11
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a059d
+    const v1, 0x7f0a05a6
 
     const/16 v2, 0x12
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a059c
+    const v1, 0x7f0a05a5
 
     const/16 v2, 0x13
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a058f
+    const v1, 0x7f0a0598
 
     const/16 v2, 0x14
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a059a
+    const v1, 0x7f0a05a3
 
     const/16 v2, 0x15
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a059b
+    const v1, 0x7f0a05a4
 
     const/16 v2, 0x16
 
@@ -189,7 +189,7 @@
     .line 35
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0594
+    const v1, 0x7f0a059d
 
     const/16 v2, 0x17
 
@@ -198,7 +198,7 @@
     .line 36
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0599
+    const v1, 0x7f0a05a2
 
     const/16 v2, 0x18
 
@@ -207,7 +207,7 @@
     .line 37
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a058e
+    const v1, 0x7f0a0597
 
     const/16 v2, 0x19
 
@@ -216,7 +216,7 @@
     .line 38
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0598
+    const v1, 0x7f0a05a1
 
     const/16 v2, 0x1a
 
@@ -225,7 +225,7 @@
     .line 39
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a058b
+    const v1, 0x7f0a0594
 
     const/16 v2, 0x1b
 
@@ -234,7 +234,7 @@
     .line 40
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0991
+    const v1, 0x7f0a09ac
 
     const/16 v2, 0x1c
 
@@ -252,7 +252,7 @@
     .line 42
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a0e
+    const v1, 0x7f0a0a29
 
     const/16 v2, 0x1e
 
@@ -261,7 +261,7 @@
     .line 43
     sget-object v0, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0592
+    const v1, 0x7f0a059b
 
     const/16 v2, 0x1f
 
@@ -580,7 +580,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -652,7 +652,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -988,7 +988,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x56
+    const/16 p1, 0x58
 
     .line 155
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->notifyPropertyChanged(I)V
@@ -1039,7 +1039,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x16d
+    const/16 p1, 0x171
 
     .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FormatTransformKeyBindingImpl;->notifyPropertyChanged(I)V
@@ -1073,7 +1073,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x16d
+    const/16 v0, 0x171
 
     if-ne v0, p1, :cond_0
 
@@ -1085,7 +1085,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_1
 
@@ -1097,7 +1097,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x56
+    const/16 v0, 0x58
 
     if-ne v0, p1, :cond_2
 

@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8945
+    .line 8949
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     const-string v1, "ADC_AI"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->ADC_AI:Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
-    .line 8946
+    .line 8950
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     const-string v9, "ADC_BI"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->ADC_BI:Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
-    .line 8947
+    .line 8951
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     const-string v2, "ADC_CI"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->ADC_CI:Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
-    .line 8948
+    .line 8952
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     const-string v9, "ADC_DI"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
-    .line 8943
+    .line 8947
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->ADC_AI:Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 8951
+    .line 8955
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8952
+    .line 8956
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->value1:I
 
-    .line 8953
+    .line 8957
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->value2:Ljava/lang/String;
 
-    .line 8954
+    .line 8958
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->pic1:Ljava/lang/String;
 
-    .line 8955
+    .line 8959
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
     .locals 1
 
-    .line 8943
+    .line 8947
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
     .locals 1
 
-    .line 8943
+    .line 8947
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AdcInterSwitchEnum;->clone()Ljava/lang/Object;

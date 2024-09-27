@@ -250,7 +250,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f030245
+    const v0, 0x7f030246
 
     .line 1769
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_UPA:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
@@ -319,8 +319,8 @@
 
     :array_0
     .array-data 4
-        0x7f03023a
-        0x7f030237
+        0x7f03023b
+        0x7f030238
         0x7f030035
     .end array-data
 .end method
@@ -424,7 +424,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030245
+    const v2, 0x7f030246
 
     .line 1800
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;

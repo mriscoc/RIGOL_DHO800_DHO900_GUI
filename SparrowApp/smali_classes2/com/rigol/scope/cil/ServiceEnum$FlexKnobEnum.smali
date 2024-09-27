@@ -86,7 +86,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8429
+    .line 8431
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v1, "Intensity"
@@ -107,7 +107,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Intensity:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8430
+    .line 8432
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Cursor"
@@ -128,7 +128,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Cursor:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8431
+    .line 8433
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Math1"
@@ -149,7 +149,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Math1:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8432
+    .line 8434
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Math2"
@@ -170,7 +170,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Math2:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8433
+    .line 8435
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Math3"
@@ -191,7 +191,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Math3:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8434
+    .line 8436
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Math4"
@@ -212,7 +212,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Math4:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8435
+    .line 8437
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "LA"
@@ -233,7 +233,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->LA:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8436
+    .line 8438
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "DG1"
@@ -254,7 +254,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->DG1:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8437
+    .line 8439
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "DG2"
@@ -275,7 +275,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->DG2:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8438
+    .line 8440
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Ref1"
@@ -296,7 +296,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref1:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8439
+    .line 8441
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Ref2"
@@ -317,7 +317,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref2:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8440
+    .line 8442
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Ref3"
@@ -338,7 +338,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref3:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8441
+    .line 8443
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Ref4"
@@ -359,7 +359,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref4:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8442
+    .line 8444
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Ref5"
@@ -380,7 +380,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref5:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8443
+    .line 8445
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Ref6"
@@ -401,7 +401,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref6:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8444
+    .line 8446
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Ref7"
@@ -422,7 +422,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref7:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8445
+    .line 8447
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Ref8"
@@ -443,7 +443,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref8:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8446
+    .line 8448
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Ref9"
@@ -464,7 +464,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref9:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8447
+    .line 8449
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Ref10"
@@ -485,7 +485,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Ref10:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8448
+    .line 8450
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Decoder1"
@@ -506,7 +506,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder1:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8449
+    .line 8451
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Decoder2"
@@ -527,7 +527,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder2:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8450
+    .line 8452
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v9, "Decoder3"
@@ -548,7 +548,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Decoder3:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8451
+    .line 8453
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const-string v2, "Decoder4"
@@ -573,7 +573,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
-    .line 8427
+    .line 8429
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->Intensity:Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     const/4 v3, 0x0
@@ -727,19 +727,19 @@
         }
     .end annotation
 
-    .line 8454
+    .line 8456
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8455
+    .line 8457
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->value1:I
 
-    .line 8456
+    .line 8458
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->value2:Ljava/lang/String;
 
-    .line 8457
+    .line 8459
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->pic1:Ljava/lang/String;
 
-    .line 8458
+    .line 8460
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -748,7 +748,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
     .locals 1
 
-    .line 8427
+    .line 8429
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -763,7 +763,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
     .locals 1
 
-    .line 8427
+    .line 8429
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->clone()Ljava/lang/Object;

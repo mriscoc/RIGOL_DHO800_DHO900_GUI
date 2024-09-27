@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewWaveIntensityBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0afa
+    const v1, 0x7f0a0b17
 
     const/4 v2, 0x3
 
@@ -166,7 +166,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x402
+    const/16 v0, 0x40c
 
     if-ne p2, v0, :cond_1
 
@@ -260,7 +260,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f101379
+    const v4, 0x7f10138a
 
     const/4 v5, 0x1
 
@@ -430,7 +430,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 81
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewWaveIntensityBindingImpl;->notifyPropertyChanged(I)V
@@ -455,7 +455,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_0
 

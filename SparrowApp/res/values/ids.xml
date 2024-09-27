@@ -362,8 +362,11 @@
     <item type="id" name="button_maskLoad" />
     <item type="id" name="button_maskSave" />
     <item type="id" name="button_refresh" />
+    <item type="id" name="button_restart" />
     <item type="id" name="button_save" />
     <item type="id" name="button_send" />
+    <item type="id" name="button_shutdowm" />
+    <item type="id" name="button_sleep" />
     <item type="id" name="bw" />
     <item type="id" name="bw_rectangle" />
     <item type="id" name="by_location_edit_text" />
@@ -452,6 +455,7 @@
     <item type="id" name="confirm" />
     <item type="id" name="confirmButton" />
     <item type="id" name="confirm_button" />
+    <item type="id" name="connect" />
     <item type="id" name="constraintLayout25" />
     <item type="id" name="constraintLayout29" />
     <item type="id" name="constraintLayout3" />
@@ -815,6 +819,7 @@
     <item type="id" name="dialog_button" />
     <item type="id" name="direction_radio_group" />
     <item type="id" name="direction_type" />
+    <item type="id" name="disconnect" />
     <item type="id" name="disk_list_arrow" />
     <item type="id" name="disk_manage" />
     <item type="id" name="dispgrid" />
@@ -1177,6 +1182,9 @@
     <item type="id" name="icon" />
     <item type="id" name="icon_afg" />
     <item type="id" name="icon_group" />
+    <item type="id" name="icon_restart" />
+    <item type="id" name="icon_shutdown" />
+    <item type="id" name="icon_sleep" />
     <item type="id" name="image" />
     <item type="id" name="imageButton_maskXmaskLeft" />
     <item type="id" name="imageButton_maskXmaskRight" />
@@ -1200,6 +1208,7 @@
     <item type="id" name="image_header_switch" />
     <item type="id" name="image_invert" />
     <item type="id" name="image_invert_switch" />
+    <item type="id" name="image_logo" />
     <item type="id" name="img_passwodEye" />
     <item type="id" name="impedance" />
     <item type="id" name="impedance_switch" />
@@ -1461,6 +1470,8 @@
     <item type="id" name="max_title" />
     <item type="id" name="mdns" />
     <item type="id" name="measure_btn" />
+    <item type="id" name="measure_source" />
+    <item type="id" name="measure_source_spinner" />
     <item type="id" name="media_actions" />
     <item type="id" name="medium_radio_button" />
     <item type="id" name="memdepth" />
@@ -1599,6 +1610,8 @@
     <item type="id" name="parentPanel" />
     <item type="id" name="parentView" />
     <item type="id" name="parent_matrix" />
+    <item type="id" name="password_lable" />
+    <item type="id" name="password_spinner" />
     <item type="id" name="paste" />
     <item type="id" name="path_load_name" />
     <item type="id" name="path_name" />
@@ -1836,6 +1849,9 @@
     <item type="id" name="scale_edit_text" />
     <item type="id" name="scale_left" />
     <item type="id" name="scale_right" />
+    <item type="id" name="scree_intensit_layout" />
+    <item type="id" name="scree_intensity" />
+    <item type="id" name="scree_intensity_seekbar" />
     <item type="id" name="screen_layout" />
     <item type="id" name="screen_lock_layout" />
     <item type="id" name="scrollIndicatorDown" />
@@ -1862,6 +1878,8 @@
     <item type="id" name="sensitivity" />
     <item type="id" name="sensitivity_edit_text" />
     <item type="id" name="serchButton" />
+    <item type="id" name="server_path_lable" />
+    <item type="id" name="server_path_spinner" />
     <item type="id" name="settime_layout" />
     <item type="id" name="settingADV" />
     <item type="id" name="settingADV_switchButton" />
@@ -1891,6 +1909,15 @@
     <item type="id" name="small" />
     <item type="id" name="smallLabel" />
     <item type="id" name="small_radio_button" />
+    <item type="id" name="smb_auto_connect_label" />
+    <item type="id" name="smb_auto_connect_switch" />
+    <item type="id" name="smb_connect_state_label" />
+    <item type="id" name="smb_connect_state_value" />
+    <item type="id" name="smb_drive_letter" />
+    <item type="id" name="smb_drive_letter_text" />
+    <item type="id" name="smb_en_label" />
+    <item type="id" name="smb_en_switch" />
+    <item type="id" name="smb_setting" />
     <item type="id" name="smooth" />
     <item type="id" name="smooth_edit_text" />
     <item type="id" name="snackbar_action" />
@@ -2509,6 +2536,8 @@
     <item type="id" name="upper_limit_edit_text" />
     <item type="id" name="upper_limit_value" />
     <item type="id" name="usb" />
+    <item type="id" name="user_name_lable" />
+    <item type="id" name="user_name_spinner" />
     <item type="id" name="util_left" />
     <item type="id" name="util_right" />
     <item type="id" name="utility_quick_title" />

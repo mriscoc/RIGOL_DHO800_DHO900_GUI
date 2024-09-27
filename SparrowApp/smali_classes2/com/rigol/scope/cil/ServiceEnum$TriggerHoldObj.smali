@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1891
+    .line 1892
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
     const-string v1, "Trigger_Hold_Time"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->Trigger_Hold_Time:Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
-    .line 1892
+    .line 1893
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
     const-string v9, "Trigger_Hold_Event"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
-    .line 1889
+    .line 1890
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->Trigger_Hold_Time:Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 1895
+    .line 1896
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1896
+    .line 1897
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->value1:I
 
-    .line 1897
+    .line 1898
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->value2:Ljava/lang/String;
 
-    .line 1898
+    .line 1899
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->pic1:Ljava/lang/String;
 
-    .line 1899
+    .line 1900
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
     .locals 1
 
-    .line 1889
+    .line 1890
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
     .locals 1
 
-    .line 1889
+    .line 1890
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggerHoldObj;->clone()Ljava/lang/Object;

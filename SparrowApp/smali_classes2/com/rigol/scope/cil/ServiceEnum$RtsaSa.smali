@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7829
+    .line 7831
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const-string v1, "RtsaSa_500M"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->RtsaSa_500M:Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
-    .line 7830
+    .line 7832
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const-string v9, "RtsaSa_1G"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->RtsaSa_1G:Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
-    .line 7831
+    .line 7833
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const-string v2, "RtsaSa_2G"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->RtsaSa_2G:Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
-    .line 7832
+    .line 7834
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const-string v9, "RtsaSa_5G"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->RtsaSa_5G:Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
-    .line 7833
+    .line 7835
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const-string v2, "RtsaSa_10G"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->RtsaSa_10G:Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
-    .line 7834
+    .line 7836
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const-string v9, "RtsaSa_Auto"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
-    .line 7827
+    .line 7829
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->RtsaSa_500M:Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 7837
+    .line 7839
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7838
+    .line 7840
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->value1:I
 
-    .line 7839
+    .line 7841
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->value2:Ljava/lang/String;
 
-    .line 7840
+    .line 7842
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->pic1:Ljava/lang/String;
 
-    .line 7841
+    .line 7843
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
     .locals 1
 
-    .line 7827
+    .line 7829
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
     .locals 1
 
-    .line 7827
+    .line 7829
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RtsaSa;->clone()Ljava/lang/Object;

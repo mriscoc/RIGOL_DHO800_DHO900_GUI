@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 118
+    .line 128
     new-instance v0, Lcom/rigol/util/PackageUtil;
 
     invoke-direct {v0}, Lcom/rigol/util/PackageUtil;-><init>()V
@@ -63,12 +63,12 @@
 
     const-string v1, "com.rigol.station.generator"
 
-    .line 124
+    .line 134
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 122
+    .line 132
     invoke-static {v0}, Lkotlin/collections/CollectionsKt;->listOf([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -81,7 +81,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 118
+    .line 128
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -92,12 +92,12 @@
 .method public final getLaunchAppIntent()Landroid/content/Intent;
     .locals 2
 
-    .line 149
+    .line 159
     invoke-virtual {p0}, Lcom/rigol/util/PackageUtil;->getLaunchAppPackageName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 150
+    .line 160
     move-object v1, v0
 
     check-cast v1, Ljava/lang/CharSequence;
@@ -108,7 +108,7 @@
 
     if-nez v1, :cond_0
 
-    .line 151
+    .line 161
     invoke-static {v0}, Lcom/blankj/utilcode/util/IntentUtils;->getLaunchAppIntent(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object v0
@@ -124,7 +124,7 @@
 .method public final getLaunchAppPackageName()Ljava/lang/String;
     .locals 3
 
-    .line 129
+    .line 139
     invoke-static {}, Lcom/blankj/utilcode/util/SPUtils;->getInstance()Lcom/blankj/utilcode/util/SPUtils;
 
     move-result-object v0
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    .line 132
+    .line 142
     move-object v1, v0
 
     check-cast v1, Ljava/lang/CharSequence;
@@ -156,7 +156,7 @@
 
     return-object v0
 
-    .line 137
+    .line 147
     :cond_0
     sget-object v0, Lcom/rigol/util/PackageUtil;->launchWhiteList:Ljava/util/List;
 
@@ -177,7 +177,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 139
+    .line 149
     invoke-static {v1}, Lcom/blankj/utilcode/util/AppUtils;->isAppInstalled(Ljava/lang/String;)Z
 
     move-result v2

@@ -506,7 +506,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a09d5
+    const v0, 0x7f0a09f0
 
     if-ne p1, v0, :cond_0
 
@@ -523,7 +523,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0943
+    const v0, 0x7f0a095e
 
     if-ne p1, v0, :cond_1
 
@@ -640,7 +640,7 @@
 
     const/4 v1, 0x1
 
-    const/16 v2, 0x575e
+    const/16 v2, 0x5760
 
     const/16 v3, 0xb
 
@@ -835,12 +835,12 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_6
-        0x7f0a03aa -> :sswitch_5
-        0x7f0a03ac -> :sswitch_4
-        0x7f0a03ae -> :sswitch_3
-        0x7f0a0690 -> :sswitch_2
-        0x7f0a0801 -> :sswitch_1
-        0x7f0a09ba -> :sswitch_0
+        0x7f0a03af -> :sswitch_5
+        0x7f0a03b1 -> :sswitch_4
+        0x7f0a03b3 -> :sswitch_3
+        0x7f0a069b -> :sswitch_2
+        0x7f0a0813 -> :sswitch_1
+        0x7f0a09d5 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -869,7 +869,7 @@
 
     move-result-object v0
 
-    const/16 v2, 0x574c
+    const/16 v2, 0x574e
 
     const/16 v3, 0xb
 
@@ -882,7 +882,7 @@
 
     move-result-object v2
 
-    const/16 v4, 0x5767
+    const/16 v4, 0x5769
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -893,7 +893,7 @@
 
     if-eqz v3, :cond_5
 
-    const v3, 0x7f03022b
+    const v3, 0x7f03022c
 
     .line 361
     invoke-static {v3}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1159,7 +1159,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f0301f0
+    const v0, 0x7f0301f1
 
     .line 388
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1340,13 +1340,13 @@
     .sparse-switch
         0x7f0a00c3 -> :sswitch_8
         0x7f0a0190 -> :sswitch_7
-        0x7f0a03b1 -> :sswitch_6
-        0x7f0a0690 -> :sswitch_5
-        0x7f0a0801 -> :sswitch_4
-        0x7f0a0943 -> :sswitch_3
-        0x7f0a096c -> :sswitch_2
-        0x7f0a099d -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a03b6 -> :sswitch_6
+        0x7f0a069b -> :sswitch_5
+        0x7f0a0813 -> :sswitch_4
+        0x7f0a095e -> :sswitch_3
+        0x7f0a0987 -> :sswitch_2
+        0x7f0a09b8 -> :sswitch_1
+        0x7f0a09f0 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1386,7 +1386,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v0, 0x7f0301f6
+    const v0, 0x7f0301f7
 
     invoke-static {v0, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -1427,7 +1427,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v0, 0x7f030232
+    const v0, 0x7f030233
 
     invoke-static {v0, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -1675,11 +1675,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a096c
+    const v0, 0x7f0a0987
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a099d
+    const v0, 0x7f0a09b8
 
     if-eq p1, v0, :cond_1
 
@@ -1742,11 +1742,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a096c
+    const v0, 0x7f0a0987
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a099d
+    const v0, 0x7f0a09b8
 
     if-eq p2, v0, :cond_1
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/FftParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/UtilityParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
-        "Ljava/lang/Boolean;",
+        "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
@@ -29,17 +29,13 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/FftParam;
-
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/FftParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 7137
+    .line 7244
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$637;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$637;->val$param:Lcom/rigol/scope/data/FftParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,24 +44,11 @@
 
 
 # virtual methods
-.method public onChanged(Ljava/lang/Boolean;)V
+.method public onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7140
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$637;->val$param:Lcom/rigol/scope/data/FftParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/FftParam;->readAllPreset()V
-
-    return-void
-.end method
-
-.method public bridge synthetic onChanged(Ljava/lang/Object;)V
-    .locals 0
-
-    .line 7137
-    check-cast p1, Ljava/lang/Boolean;
-
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$637;->onChanged(Ljava/lang/Boolean;)V
+    .line 7247
+    invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->quickAction()V
 
     return-void
 .end method

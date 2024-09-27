@@ -14,13 +14,13 @@
 
 
 # static fields
-.field public static final utvBottomIconView:I = 0x7f0a0a97
+.field public static final utvBottomIconView:I = 0x7f0a0ab4
 
-.field public static final utvLeftIconView:I = 0x7f0a0a98
+.field public static final utvLeftIconView:I = 0x7f0a0ab5
 
-.field public static final utvRightIconView:I = 0x7f0a0a99
+.field public static final utvRightIconView:I = 0x7f0a0ab6
 
-.field public static final utvTopIconView:I = 0x7f0a0a9a
+.field public static final utvTopIconView:I = 0x7f0a0ab7
 
 
 # direct methods

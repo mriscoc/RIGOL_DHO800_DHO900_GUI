@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8262
+    .line 8264
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     const-string v1, "CLOCK_RISE"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->CLOCK_RISE:Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
-    .line 8263
+    .line 8265
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     const-string v9, "CLOCK_FALL"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->CLOCK_FALL:Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
-    .line 8264
+    .line 8266
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     const-string v2, "CLOCK_BOTH"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
-    .line 8260
+    .line 8262
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->CLOCK_RISE:Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 8267
+    .line 8269
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8268
+    .line 8270
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->value1:I
 
-    .line 8269
+    .line 8271
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->value2:Ljava/lang/String;
 
-    .line 8270
+    .line 8272
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->pic1:Ljava/lang/String;
 
-    .line 8271
+    .line 8273
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
     .locals 1
 
-    .line 8260
+    .line 8262
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
     .locals 1
 
-    .line 8260
+    .line 8262
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ClockSlope;->clone()Ljava/lang/Object;

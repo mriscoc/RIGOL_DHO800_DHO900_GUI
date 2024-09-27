@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0991
+    const v1, 0x7f0a09ac
 
     const/4 v2, 0x5
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a14
+    const v1, 0x7f0a0a2f
 
     const/4 v2, 0x6
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04d1
 
     const/4 v2, 0x7
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c7
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0x8
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04d2
 
     const/16 v2, 0x9
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a0e
+    const v1, 0x7f0a0a29
 
     const/16 v2, 0xa
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a09b7
+    const v1, 0x7f0a09d2
 
     const/16 v2, 0xb
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0647
+    const v1, 0x7f0a0652
 
     const/16 v2, 0xc
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0490
+    const v1, 0x7f0a0495
 
     const/16 v2, 0xd
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ac5
+    const v1, 0x7f0a0ae2
 
     const/16 v2, 0xe
 
@@ -325,7 +325,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3a6
+    const/16 v0, 0x3af
 
     if-ne p2, v0, :cond_1
 
@@ -357,7 +357,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x225
+    const/16 v0, 0x229
 
     if-ne p2, v0, :cond_2
 
@@ -429,7 +429,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -501,7 +501,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -573,7 +573,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -645,7 +645,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x388
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -879,7 +879,7 @@
     move/from16 v4, v17
 
     :goto_7
-    const v5, 0x7f030233
+    const v5, 0x7f030234
 
     .line 321
     invoke-static {v5, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1206,7 +1206,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x251
 
     .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->notifyPropertyChanged(I)V
@@ -1257,7 +1257,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x389
+    const/16 p1, 0x392
 
     .line 142
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->notifyPropertyChanged(I)V
@@ -1308,7 +1308,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x38a
+    const/16 p1, 0x393
 
     .line 124
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->notifyPropertyChanged(I)V
@@ -1359,7 +1359,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x38b
+    const/16 p1, 0x394
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewTriggerBindingImpl;->notifyPropertyChanged(I)V
@@ -1384,7 +1384,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x38b
+    const/16 v0, 0x394
 
     if-ne v0, p1, :cond_0
 
@@ -1396,7 +1396,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x38a
+    const/16 v0, 0x393
 
     if-ne v0, p1, :cond_1
 
@@ -1408,7 +1408,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x24d
+    const/16 v0, 0x251
 
     if-ne v0, p1, :cond_2
 
@@ -1420,7 +1420,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x389
+    const/16 v0, 0x392
 
     if-ne v0, p1, :cond_3
 
@@ -1432,7 +1432,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xb0
+    const/16 v0, 0xb2
 
     if-ne v0, p1, :cond_4
 

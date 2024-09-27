@@ -220,7 +220,7 @@
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/databinding/ActivityScreenSaverBinding;->setParam(Lcom/rigol/scope/data/UtilityParam;)V
 
-    const p1, 0x7f080599
+    const p1, 0x7f08059a
 
     .line 59
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getDrawable(I)Landroid/graphics/drawable/Drawable;

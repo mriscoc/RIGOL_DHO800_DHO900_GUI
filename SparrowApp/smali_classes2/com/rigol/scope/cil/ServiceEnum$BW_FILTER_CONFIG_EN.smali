@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7629
+    .line 7631
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     const-string v1, "BW_FILTER_CONFIG_A_EN"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->BW_FILTER_CONFIG_A_EN:Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
-    .line 7630
+    .line 7632
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     const-string v9, "BW_FILTER_CONFIG_B_EN"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->BW_FILTER_CONFIG_B_EN:Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
-    .line 7631
+    .line 7633
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     const-string v2, "BW_FILTER_CONFIG_AB_EN"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
-    .line 7627
+    .line 7629
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->BW_FILTER_CONFIG_A_EN:Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 7634
+    .line 7636
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7635
+    .line 7637
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->value1:I
 
-    .line 7636
+    .line 7638
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->value2:Ljava/lang/String;
 
-    .line 7637
+    .line 7639
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->pic1:Ljava/lang/String;
 
-    .line 7638
+    .line 7640
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
     .locals 1
 
-    .line 7627
+    .line 7629
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
     .locals 1
 
-    .line 7627
+    .line 7629
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BW_FILTER_CONFIG_EN;->clone()Ljava/lang/Object;

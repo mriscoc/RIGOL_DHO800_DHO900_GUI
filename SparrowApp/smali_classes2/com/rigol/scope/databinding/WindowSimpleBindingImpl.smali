@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e4
+    const v1, 0x7f0a08ff
 
     const/4 v2, 0x1
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e2
+    const v1, 0x7f0a08fd
 
     const/4 v2, 0x2
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b18
+    const v1, 0x7f0a0b35
 
     const/4 v2, 0x3
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b15
+    const v1, 0x7f0a0b32
 
     const/4 v2, 0x4
 
@@ -61,7 +61,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b0e
+    const v1, 0x7f0a0b2b
 
     const/4 v2, 0x5
 
@@ -70,7 +70,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a020a
+    const v1, 0x7f0a020e
 
     const/4 v2, 0x6
 
@@ -79,7 +79,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c7
+    const v1, 0x7f0a03cc
 
     const/4 v2, 0x7
 
@@ -88,7 +88,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05fb
+    const v1, 0x7f0a0604
 
     const/16 v2, 0x8
 
@@ -97,7 +97,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0851
+    const v1, 0x7f0a086c
 
     const/16 v2, 0x9
 
@@ -106,7 +106,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0aef
+    const v1, 0x7f0a0b0c
 
     const/16 v2, 0xa
 

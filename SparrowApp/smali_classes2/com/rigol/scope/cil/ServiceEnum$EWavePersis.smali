@@ -58,7 +58,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4988
+    .line 4989
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v1, "PERSIS_IS_NONE"
@@ -79,7 +79,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_NONE:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4989
+    .line 4990
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v9, "PERSIS_IS_100MS"
@@ -100,7 +100,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_100MS:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4990
+    .line 4991
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v2, "PERSIS_IS_200MS"
@@ -121,7 +121,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_200MS:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4991
+    .line 4992
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v9, "PERSIS_IS_500MS"
@@ -142,7 +142,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_500MS:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4992
+    .line 4993
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v2, "PERSIS_IS_1S"
@@ -163,7 +163,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_1S:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4993
+    .line 4994
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v9, "PERSIS_IS_2S"
@@ -184,7 +184,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_2S:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4994
+    .line 4995
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v2, "PERSIS_IS_5S"
@@ -205,7 +205,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_5S:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4995
+    .line 4996
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v9, "PERSIS_IS_10S"
@@ -226,7 +226,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_10S:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4996
+    .line 4997
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const-string v2, "PERSIS_IS_INFINITE"
@@ -251,7 +251,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    .line 4986
+    .line 4987
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->PERSIS_IS_NONE:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     const/4 v3, 0x0
@@ -321,19 +321,19 @@
         }
     .end annotation
 
-    .line 4999
+    .line 5000
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5000
+    .line 5001
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->value1:I
 
-    .line 5001
+    .line 5002
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->value2:Ljava/lang/String;
 
-    .line 5002
+    .line 5003
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->pic1:Ljava/lang/String;
 
-    .line 5003
+    .line 5004
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->pic2:Ljava/lang/String;
 
     return-void
@@ -342,7 +342,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
     .locals 1
 
-    .line 4986
+    .line 4987
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -357,7 +357,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
     .locals 1
 
-    .line 4986
+    .line 4987
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;->clone()Ljava/lang/Object;

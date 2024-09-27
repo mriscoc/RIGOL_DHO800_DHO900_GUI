@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5950
+    .line 5951
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const-string v1, "cal_path_50_x2"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->cal_path_50_x2:Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
-    .line 5951
+    .line 5952
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const-string v9, "cal_path_50_x20"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->cal_path_50_x20:Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
-    .line 5952
+    .line 5953
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const-string v2, "cal_path_1m_x1"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->cal_path_1m_x1:Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
-    .line 5953
+    .line 5954
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const-string v9, "cal_path_1m_x7"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->cal_path_1m_x7:Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
-    .line 5954
+    .line 5955
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const-string v2, "cal_path_50_x2_sga1"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->cal_path_50_x2_sga1:Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
-    .line 5955
+    .line 5956
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const-string v9, "cal_path_50_x20_sga1"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
-    .line 5948
+    .line 5949
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->cal_path_50_x2:Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 5958
+    .line 5959
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5959
+    .line 5960
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->value1:I
 
-    .line 5960
+    .line 5961
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->value2:Ljava/lang/String;
 
-    .line 5961
+    .line 5962
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->pic1:Ljava/lang/String;
 
-    .line 5962
+    .line 5963
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CalPath;
     .locals 1
 
-    .line 5948
+    .line 5949
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CalPath;
     .locals 1
 
-    .line 5948
+    .line 5949
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalPath;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CalPath;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CalPath;->clone()Ljava/lang/Object;

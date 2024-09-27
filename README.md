@@ -7,10 +7,34 @@ Latest version can be found at: https://www.patreon.com/mriscoc/shop/rigol-dho80
 
 https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/assets/2745567/0a0c265d-227d-4bdb-8d57-0fc6eb009ae3
 
-First make a backup of the original internal µSD card just in case, then uninstall/remove the stock Sparrow application, Install the new apk using ADB:
-```shell
-adb install -g -r "Sparrow.apk"
+### Installing SparrowExt.apk manually
+First make a backup of the original internal µSD card just in case,
+then uninstall/remove the stock Sparrow application, Install the new apk using ADB.
+Open a terminal (CMD) window inside of the folder where the SparrowExt.apk is
+Execute the following commands, replacing ###.###.###.### with the IP
+of the device.
+```cmd
+adb connect ###.###.###.###:55555
+adb root
+adb shell
+
+::####################################################################################
+::# Uninstall old version
+::####################################################################################
+am force-stop com.rigol.launcher
+am force-stop com.rigol.scope
+pm uninstall com.rigol.scope
+exit
+
+::####################################################################################
+::# Scope APK install
+::####################################################################################
+adb push SparrowExt.apk /mnt/tmp/app/SparrowExt.apk
+adb shell
+pm install -g -r /mnt/tmp/app/SparrowExt.apk
+reboot
 ```
+
 More information: [How to install the new Sparrow extended UI?](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/discussions/4)
 
 ## FFT Avg

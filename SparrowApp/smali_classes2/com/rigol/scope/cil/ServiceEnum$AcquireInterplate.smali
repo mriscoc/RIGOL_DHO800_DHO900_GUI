@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1341
+    .line 1343
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     const-string v1, "Acquire_Auto"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->Acquire_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
-    .line 1342
+    .line 1344
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     const-string v9, "Acquire_Line"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->Acquire_Line:Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
-    .line 1343
+    .line 1345
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     const-string v2, "Acquire_Sinc"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->Acquire_Sinc:Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
-    .line 1344
+    .line 1346
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     const-string v9, "Acquire_SH"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
-    .line 1339
+    .line 1341
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->Acquire_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 1347
+    .line 1349
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1348
+    .line 1350
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->value1:I
 
-    .line 1349
+    .line 1351
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->value2:Ljava/lang/String;
 
-    .line 1350
+    .line 1352
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->pic1:Ljava/lang/String;
 
-    .line 1351
+    .line 1353
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
     .locals 1
 
-    .line 1339
+    .line 1341
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
     .locals 1
 
-    .line 1339
+    .line 1341
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AcquireInterplate;->clone()Ljava/lang/Object;

@@ -455,7 +455,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x321
+    const/16 v0, 0x323
 
     if-ne p2, v0, :cond_1
 
@@ -487,7 +487,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x322
+    const/16 v0, 0x324
 
     if-ne p2, v0, :cond_2
 
@@ -519,7 +519,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x31d
+    const/16 v0, 0x31f
 
     if-ne p2, v0, :cond_3
 
@@ -551,7 +551,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x31e
+    const/16 v0, 0x320
 
     if-ne p2, v0, :cond_4
 
@@ -583,7 +583,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x324
+    const/16 v0, 0x326
 
     if-ne p2, v0, :cond_5
 
@@ -615,7 +615,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x320
+    const/16 v0, 0x322
 
     if-ne p2, v0, :cond_6
 
@@ -647,7 +647,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x323
+    const/16 v0, 0x325
 
     if-ne p2, v0, :cond_7
 
@@ -679,7 +679,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x31f
+    const/16 v0, 0x321
 
     if-ne p2, v0, :cond_8
 
@@ -711,7 +711,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x31c
+    const/16 v0, 0x31e
 
     if-ne p2, v0, :cond_9
 
@@ -783,7 +783,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -855,7 +855,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -927,7 +927,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -999,7 +999,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1888,7 +1888,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 123
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeSentBindingImpl;->notifyPropertyChanged(I)V
@@ -1913,7 +1913,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 

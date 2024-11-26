@@ -154,7 +154,7 @@
 
     invoke-virtual {v0, v2}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    const v0, 0x7f1011c3
+    const v0, 0x7f1011c5
 
     .line 109
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
@@ -232,7 +232,7 @@
 
     if-eqz p2, :cond_2
 
-    const p1, 0x7f1007c6
+    const p1, 0x7f1007c7
 
     .line 53
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -314,7 +314,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f1007c7
+    const p1, 0x7f1007c8
 
     .line 69
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V

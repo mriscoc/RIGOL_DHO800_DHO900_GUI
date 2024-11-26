@@ -327,7 +327,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x118
+    const/16 v0, 0x119
 
     if-ne p2, v0, :cond_1
 
@@ -359,7 +359,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x117
+    const/16 v0, 0x118
 
     if-ne p2, v0, :cond_2
 
@@ -431,7 +431,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -809,7 +809,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyse100basetBindingImpl;->notifyPropertyChanged(I)V
@@ -834,7 +834,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 

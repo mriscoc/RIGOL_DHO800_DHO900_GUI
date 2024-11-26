@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 10044
+    .line 10046
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     const-string v1, "NO_CAL"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->NO_CAL:Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
-    .line 10045
+    .line 10047
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     const-string v9, "CAL_START"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->CAL_START:Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
-    .line 10046
+    .line 10048
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     const-string v2, "CALING"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->CALING:Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
-    .line 10047
+    .line 10049
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     const-string v9, "CAL_END"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
-    .line 10042
+    .line 10044
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->NO_CAL:Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 10050
+    .line 10052
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 10051
+    .line 10053
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->value1:I
 
-    .line 10052
+    .line 10054
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->value2:Ljava/lang/String;
 
-    .line 10053
+    .line 10055
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->pic1:Ljava/lang/String;
 
-    .line 10054
+    .line 10056
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
     .locals 1
 
-    .line 10042
+    .line 10044
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
     .locals 1
 
-    .line 10042
+    .line 10044
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$LaProbeCal;->clone()Ljava/lang/Object;

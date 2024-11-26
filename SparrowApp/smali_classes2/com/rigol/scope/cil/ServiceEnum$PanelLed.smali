@@ -80,7 +80,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5679
+    .line 5681
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v1, "CH1_YELLOW"
@@ -101,7 +101,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->CH1_YELLOW:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5680
+    .line 5682
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "CH2_BLUE"
@@ -122,7 +122,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->CH2_BLUE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5681
+    .line 5683
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "CH3_PINK"
@@ -143,7 +143,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->CH3_PINK:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5682
+    .line 5684
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "CH4_DBLU2"
@@ -164,7 +164,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->CH4_DBLU2:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5683
+    .line 5685
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "RUN_GREEN"
@@ -185,7 +185,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->RUN_GREEN:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5684
+    .line 5686
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "STOP_RED"
@@ -206,7 +206,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->STOP_RED:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5685
+    .line 5687
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "SINGLE_RED"
@@ -227,7 +227,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SINGLE_RED:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5686
+    .line 5688
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "SINGLE_ORANG"
@@ -248,7 +248,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SINGLE_ORANG:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5687
+    .line 5689
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "LA_LED_WHITE"
@@ -269,7 +269,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->LA_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5688
+    .line 5690
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "G1_LED_WHITE"
@@ -290,7 +290,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->G1_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5689
+    .line 5691
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "G2_LED_WHITE"
@@ -311,7 +311,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->G2_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5690
+    .line 5692
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "TOUCH_LED_WHITE"
@@ -332,7 +332,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5691
+    .line 5693
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "A_UP_AND_DOWN_LED_WHITE"
@@ -353,7 +353,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->A_UP_AND_DOWN_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5692
+    .line 5694
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "B_LEFT_AND_RIGHT_LED_WHITE"
@@ -374,7 +374,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->B_LEFT_AND_RIGHT_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5693
+    .line 5695
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "SLOP1_LED_WHITE"
@@ -395,7 +395,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP1_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5694
+    .line 5696
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "SLOP2_LED_WHITE"
@@ -416,7 +416,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP2_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5695
+    .line 5697
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "A_LEFT_AND_RIGHT_LED_WHITE"
@@ -437,7 +437,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->A_LEFT_AND_RIGHT_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5696
+    .line 5698
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "B_UP_AND_DOWN_LED_WHITE"
@@ -458,7 +458,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->B_UP_AND_DOWN_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5697
+    .line 5699
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v2, "INTEN_LED_WHITE"
@@ -479,7 +479,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->INTEN_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5698
+    .line 5700
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const-string v9, "ALL_LEDS"
@@ -504,7 +504,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
-    .line 5676
+    .line 5678
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->CH1_YELLOW:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     const/4 v3, 0x0
@@ -640,19 +640,19 @@
         }
     .end annotation
 
-    .line 5701
+    .line 5703
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5702
+    .line 5704
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
 
-    .line 5703
+    .line 5705
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value2:Ljava/lang/String;
 
-    .line 5704
+    .line 5706
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->pic1:Ljava/lang/String;
 
-    .line 5705
+    .line 5707
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->pic2:Ljava/lang/String;
 
     return-void
@@ -661,7 +661,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
     .locals 1
 
-    .line 5676
+    .line 5678
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -676,7 +676,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
     .locals 1
 
-    .line 5676
+    .line 5678
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->clone()Ljava/lang/Object;

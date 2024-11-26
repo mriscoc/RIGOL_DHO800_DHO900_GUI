@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2327
+    .line 2329
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const-string v1, "cmp_eq"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->cmp_eq:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    .line 2328
+    .line 2330
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const-string v9, "cmp_neq"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->cmp_neq:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    .line 2329
+    .line 2331
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const-string v2, "cmp_gt"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->cmp_gt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    .line 2330
+    .line 2332
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const-string v9, "cmp_lt"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->cmp_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    .line 2331
+    .line 2333
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const-string v2, "cmp_in"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->cmp_in:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    .line 2332
+    .line 2334
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const-string v9, "cmp_out"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    .line 2325
+    .line 2327
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->cmp_eq:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 2335
+    .line 2337
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2336
+    .line 2338
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->value1:I
 
-    .line 2337
+    .line 2339
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->value2:Ljava/lang/String;
 
-    .line 2338
+    .line 2340
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->pic1:Ljava/lang/String;
 
-    .line 2339
+    .line 2341
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
     .locals 1
 
-    .line 2325
+    .line 2327
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
     .locals 1
 
-    .line 2325
+    .line 2327
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;->clone()Ljava/lang/Object;

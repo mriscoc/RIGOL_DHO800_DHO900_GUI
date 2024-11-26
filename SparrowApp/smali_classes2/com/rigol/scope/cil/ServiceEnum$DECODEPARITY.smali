@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7468
+    .line 7470
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     const-string v1, "PARITY_NONE"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->PARITY_NONE:Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
-    .line 7469
+    .line 7471
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     const-string v9, "PARITY_ODD"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->PARITY_ODD:Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
-    .line 7470
+    .line 7472
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     const-string v2, "PARITY_EVEN"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
-    .line 7466
+    .line 7468
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->PARITY_NONE:Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 7473
+    .line 7475
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7474
+    .line 7476
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->value1:I
 
-    .line 7475
+    .line 7477
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->value2:Ljava/lang/String;
 
-    .line 7476
+    .line 7478
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->pic1:Ljava/lang/String;
 
-    .line 7477
+    .line 7479
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
     .locals 1
 
-    .line 7466
+    .line 7468
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
     .locals 1
 
-    .line 7466
+    .line 7468
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DECODEPARITY;->clone()Ljava/lang/Object;

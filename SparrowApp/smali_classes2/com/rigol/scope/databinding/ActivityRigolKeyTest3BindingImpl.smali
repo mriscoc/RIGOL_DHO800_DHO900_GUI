@@ -1032,7 +1032,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x238
+    const/16 p1, 0x239
 
     .line 178
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/ActivityRigolKeyTest3BindingImpl;->notifyPropertyChanged(I)V
@@ -1057,7 +1057,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x238
+    const/16 v0, 0x239
 
     if-ne v0, p1, :cond_0
 

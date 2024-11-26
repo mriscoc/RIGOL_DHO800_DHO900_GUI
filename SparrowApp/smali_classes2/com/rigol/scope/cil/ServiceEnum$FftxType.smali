@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3878
+    .line 3880
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     const-string v1, "fft_span_center"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->fft_span_center:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
-    .line 3879
+    .line 3881
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     const-string v9, "fft_start_end"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
-    .line 3876
+    .line 3878
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->fft_span_center:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 3882
+    .line 3884
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3883
+    .line 3885
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->value1:I
 
-    .line 3884
+    .line 3886
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->value2:Ljava/lang/String;
 
-    .line 3885
+    .line 3887
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->pic1:Ljava/lang/String;
 
-    .line 3886
+    .line 3888
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FftxType;
     .locals 1
 
-    .line 3876
+    .line 3878
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FftxType;
     .locals 1
 
-    .line 3876
+    .line 3878
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FftxType;->clone()Ljava/lang/Object;

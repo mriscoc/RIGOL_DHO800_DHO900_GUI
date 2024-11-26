@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6299
+    .line 6301
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     const-string v1, "wfm_normal"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->wfm_normal:Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
-    .line 6300
+    .line 6302
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     const-string v9, "wfm_maximum"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->wfm_maximum:Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
-    .line 6301
+    .line 6303
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     const-string v2, "wfm_raw"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->wfm_raw:Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
-    .line 6302
+    .line 6304
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     const-string v9, "wfm_trace"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
-    .line 6297
+    .line 6299
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->wfm_normal:Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 6305
+    .line 6307
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6306
+    .line 6308
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->value1:I
 
-    .line 6307
+    .line 6309
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->value2:Ljava/lang/String;
 
-    .line 6308
+    .line 6310
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->pic1:Ljava/lang/String;
 
-    .line 6309
+    .line 6311
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
     .locals 1
 
-    .line 6297
+    .line 6299
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
     .locals 1
 
-    .line 6297
+    .line 6299
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WaveMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WaveMode;->clone()Ljava/lang/Object;

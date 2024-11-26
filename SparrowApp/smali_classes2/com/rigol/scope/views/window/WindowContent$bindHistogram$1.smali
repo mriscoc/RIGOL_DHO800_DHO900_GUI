@@ -68,19 +68,19 @@
 .method public onPropertyChanged(Landroidx/databinding/Observable;I)V
     .locals 5
 
-    const/16 p1, 0x3aa
+    const/16 p1, 0x3ac
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x78
+    const/16 p1, 0x79
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x1e1
+    const/16 p1, 0x1e2
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x2e2
+    const/16 p1, 0x2e4
 
     if-ne p2, p1, :cond_5
 
@@ -182,7 +182,7 @@
     invoke-virtual {p1, v0, v2, v3, v1}, Lcom/rigol/scope/views/histogram/HistogramRectView;->setRectPosition(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)V
 
     :cond_5
-    const/16 p1, 0x10e
+    const/16 p1, 0x10f
 
     if-ne p2, p1, :cond_7
 

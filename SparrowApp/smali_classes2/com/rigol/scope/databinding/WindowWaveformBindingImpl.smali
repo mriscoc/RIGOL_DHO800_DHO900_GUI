@@ -233,7 +233,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x432
+    const/16 v0, 0x434
 
     if-ne p2, v0, :cond_1
 
@@ -305,7 +305,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -629,7 +629,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x335
+    const/16 p1, 0x337
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/WindowWaveformBindingImpl;->notifyPropertyChanged(I)V
@@ -654,7 +654,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x335
+    const/16 v0, 0x337
 
     if-ne v0, p1, :cond_0
 

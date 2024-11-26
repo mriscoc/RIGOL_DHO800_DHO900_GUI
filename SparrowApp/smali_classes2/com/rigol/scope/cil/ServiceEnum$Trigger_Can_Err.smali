@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2932
+    .line 2934
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     const-string v1, "trig_can_err_bitfilled"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->trig_can_err_bitfilled:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
-    .line 2933
+    .line 2935
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     const-string v9, "trig_can_err_crc"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->trig_can_err_crc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
-    .line 2934
+    .line 2936
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     const-string v2, "trig_can_err_form"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->trig_can_err_form:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
-    .line 2935
+    .line 2937
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     const-string v9, "trig_can_err_ack"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->trig_can_err_ack:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
-    .line 2936
+    .line 2938
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     const-string v2, "trig_can_err_any"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
-    .line 2930
+    .line 2932
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->trig_can_err_bitfilled:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 2939
+    .line 2941
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2940
+    .line 2942
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->value1:I
 
-    .line 2941
+    .line 2943
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->value2:Ljava/lang/String;
 
-    .line 2942
+    .line 2944
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->pic1:Ljava/lang/String;
 
-    .line 2943
+    .line 2945
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
     .locals 1
 
-    .line 2930
+    .line 2932
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
     .locals 1
 
-    .line 2930
+    .line 2932
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Err;->clone()Ljava/lang/Object;

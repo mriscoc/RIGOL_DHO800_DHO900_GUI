@@ -46,10 +46,10 @@
         }
     .end annotation
 
-    .line 70
+    .line 78
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/adapters/MultiItemTypeAdapter;-><init>(Landroid/content/Context;Ljava/util/List;)V
 
-    .line 71
+    .line 79
     const-class p1, Lcom/rigol/scope/viewmodels/AfgViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -62,7 +62,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 74
+    .line 82
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/AfgViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -88,10 +88,10 @@
 .method public synthetic lambda$new$0$AfgAwgViewPagerAdapter(Lcom/rigol/scope/views/baseview/BasePopupView;Lcom/rigol/scope/data/AfgParam;)V
     .locals 2
 
-    .line 76
+    .line 84
     iput-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 77
+    .line 85
     new-instance v0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     const v1, 0x7f0d0024
@@ -100,7 +100,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter;->afgBasicDelegate:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
-    .line 78
+    .line 86
     new-instance v0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;
 
     const v1, 0x7f0d0025
@@ -109,7 +109,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter;->awgBasicDelegate:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;
 
-    .line 79
+    .line 87
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter;->delegatesManager:Lcom/rigol/scope/adapters/AdapterDelegatesManager;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter;->afgBasicDelegate:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;

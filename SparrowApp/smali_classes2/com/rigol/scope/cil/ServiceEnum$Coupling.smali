@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 991
+    .line 993
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const-string v1, "DC"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->DC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 992
+    .line 994
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const-string v9, "AC"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->AC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 993
+    .line 995
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const-string v2, "GND"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->GND:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 994
+    .line 996
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const-string v9, "LF"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->LF:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 995
+    .line 997
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const-string v2, "HF"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->HF:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 996
+    .line 998
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const-string v9, "NOISE"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 989
+    .line 991
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->DC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 999
+    .line 1001
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1000
+    .line 1002
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->value1:I
 
-    .line 1001
+    .line 1003
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->value2:Ljava/lang/String;
 
-    .line 1002
+    .line 1004
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->pic1:Ljava/lang/String;
 
-    .line 1003
+    .line 1005
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Coupling;
     .locals 1
 
-    .line 989
+    .line 991
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Coupling;
     .locals 1
 
-    .line 989
+    .line 991
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Coupling;->clone()Ljava/lang/Object;

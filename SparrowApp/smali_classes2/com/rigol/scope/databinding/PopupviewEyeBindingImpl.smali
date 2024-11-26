@@ -625,7 +625,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -697,7 +697,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -769,7 +769,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -841,7 +841,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -913,7 +913,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1033,7 +1033,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1113,7 +1113,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1193,7 +1193,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1273,7 +1273,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1353,7 +1353,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1433,7 +1433,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1513,7 +1513,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1593,7 +1593,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1673,7 +1673,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1753,7 +1753,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1833,7 +1833,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1913,7 +1913,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_1
 
@@ -1985,7 +1985,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -2057,7 +2057,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -2129,7 +2129,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -4161,7 +4161,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xbc
+    const/16 p1, 0xbd
 
     .line 210
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4212,7 +4212,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x122
+    const/16 p1, 0x123
 
     .line 262
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4263,7 +4263,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x165
+    const/16 p1, 0x166
 
     .line 181
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4314,7 +4314,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x166
+    const/16 p1, 0x167
 
     .line 244
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4365,7 +4365,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x168
+    const/16 p1, 0x169
 
     .line 253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4411,7 +4411,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x237
+    const/16 p1, 0x238
 
     .line 201
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4457,7 +4457,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x238
+    const/16 p1, 0x239
 
     .line 235
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4503,7 +4503,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x23a
+    const/16 p1, 0x23b
 
     .line 218
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4554,7 +4554,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 227
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4605,7 +4605,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x27f
+    const/16 p1, 0x280
 
     .line 190
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewEyeBindingImpl;->notifyPropertyChanged(I)V
@@ -4630,7 +4630,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x165
+    const/16 v0, 0x166
 
     if-ne v0, p1, :cond_0
 
@@ -4642,7 +4642,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const/16 v0, 0x27f
+    const/16 v0, 0x280
 
     if-ne v0, p1, :cond_1
 
@@ -4654,7 +4654,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x406
+    const/16 v0, 0x408
 
     if-ne v0, p1, :cond_2
 
@@ -4666,7 +4666,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x237
+    const/16 v0, 0x238
 
     if-ne v0, p1, :cond_3
 
@@ -4678,7 +4678,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xbc
+    const/16 v0, 0xbd
 
     if-ne v0, p1, :cond_4
 
@@ -4690,7 +4690,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x23a
+    const/16 v0, 0x23b
 
     if-ne v0, p1, :cond_5
 
@@ -4702,7 +4702,7 @@
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_6
 
@@ -4714,7 +4714,7 @@
     goto :goto_0
 
     :cond_6
-    const/16 v0, 0x238
+    const/16 v0, 0x239
 
     if-ne v0, p1, :cond_7
 
@@ -4726,7 +4726,7 @@
     goto :goto_0
 
     :cond_7
-    const/16 v0, 0x166
+    const/16 v0, 0x167
 
     if-ne v0, p1, :cond_8
 
@@ -4738,7 +4738,7 @@
     goto :goto_0
 
     :cond_8
-    const/16 v0, 0x168
+    const/16 v0, 0x169
 
     if-ne v0, p1, :cond_9
 
@@ -4750,7 +4750,7 @@
     goto :goto_0
 
     :cond_9
-    const/16 v0, 0x122
+    const/16 v0, 0x123
 
     if-ne v0, p1, :cond_a
 

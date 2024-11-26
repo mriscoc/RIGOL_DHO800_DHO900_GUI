@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8036
+    .line 8038
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     const-string v1, "CONST_CR"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CRType;->CONST_CR:Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
-    .line 8037
+    .line 8039
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     const-string v9, "PLL_CR"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CRType;->PLL_CR:Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
-    .line 8038
+    .line 8040
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     const-string v2, "PARA_CR"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
-    .line 8034
+    .line 8036
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CRType;->CONST_CR:Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 8041
+    .line 8043
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8042
+    .line 8044
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CRType;->value1:I
 
-    .line 8043
+    .line 8045
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CRType;->value2:Ljava/lang/String;
 
-    .line 8044
+    .line 8046
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CRType;->pic1:Ljava/lang/String;
 
-    .line 8045
+    .line 8047
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CRType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CRType;
     .locals 1
 
-    .line 8034
+    .line 8036
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CRType;
     .locals 1
 
-    .line 8034
+    .line 8036
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CRType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CRType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CRType;->clone()Ljava/lang/Object;

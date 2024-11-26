@@ -98,7 +98,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1026
+    .line 1028
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v1, "BW_FULL"
@@ -119,7 +119,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_FULL:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1027
+    .line 1029
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_OFF"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_OFF:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1028
+    .line 1030
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_20M"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_20M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1029
+    .line 1031
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_25M"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_25M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1030
+    .line 1032
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_50M"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_50M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1031
+    .line 1033
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_70M"
@@ -224,7 +224,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_70M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1032
+    .line 1034
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_100M"
@@ -245,7 +245,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_100M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1033
+    .line 1035
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_125M"
@@ -266,7 +266,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_125M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1034
+    .line 1036
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_150M"
@@ -287,7 +287,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_150M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1035
+    .line 1037
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_200M"
@@ -308,7 +308,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_200M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1036
+    .line 1038
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_250M"
@@ -329,7 +329,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_250M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1037
+    .line 1039
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_300M"
@@ -350,7 +350,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_300M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1038
+    .line 1040
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_350M"
@@ -371,7 +371,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_350M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1039
+    .line 1041
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_400M"
@@ -392,7 +392,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_400M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1040
+    .line 1042
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_500M"
@@ -413,7 +413,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_500M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1041
+    .line 1043
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_600M"
@@ -434,7 +434,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_600M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1042
+    .line 1044
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_750M"
@@ -455,7 +455,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_750M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1043
+    .line 1045
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_800M"
@@ -476,7 +476,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_800M:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1044
+    .line 1046
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_1G"
@@ -497,7 +497,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_1G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1045
+    .line 1047
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_2G"
@@ -518,7 +518,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_2G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1046
+    .line 1048
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_3G"
@@ -539,7 +539,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_3G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1047
+    .line 1049
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_4G"
@@ -560,7 +560,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_4G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1048
+    .line 1050
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_5G"
@@ -581,7 +581,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_5G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1049
+    .line 1051
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_6G"
@@ -602,7 +602,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_6G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1050
+    .line 1052
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_7G"
@@ -623,7 +623,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_7G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1051
+    .line 1053
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_8G"
@@ -644,7 +644,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_8G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1052
+    .line 1054
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_9G"
@@ -665,7 +665,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_9G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1053
+    .line 1055
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v9, "BW_10G"
@@ -686,7 +686,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_10G:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1054
+    .line 1056
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const-string v2, "BW_20G"
@@ -711,7 +711,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 1024
+    .line 1026
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_FULL:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const/4 v3, 0x0
@@ -901,19 +901,19 @@
         }
     .end annotation
 
-    .line 1057
+    .line 1059
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1058
+    .line 1060
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->value1:I
 
-    .line 1059
+    .line 1061
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->value2:Ljava/lang/String;
 
-    .line 1060
+    .line 1062
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->pic1:Ljava/lang/String;
 
-    .line 1061
+    .line 1063
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->pic2:Ljava/lang/String;
 
     return-void
@@ -922,7 +922,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
     .locals 1
 
-    .line 1024
+    .line 1026
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -937,7 +937,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
     .locals 1
 
-    .line 1024
+    .line 1026
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->clone()Ljava/lang/Object;

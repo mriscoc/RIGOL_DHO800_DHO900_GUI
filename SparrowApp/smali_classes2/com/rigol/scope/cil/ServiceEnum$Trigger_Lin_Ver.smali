@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2799
+    .line 2801
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     const-string v1, "trig_lin_ver_1x"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->trig_lin_ver_1x:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
-    .line 2800
+    .line 2802
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     const-string v9, "trig_lin_ver_2x"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->trig_lin_ver_2x:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
-    .line 2801
+    .line 2803
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     const-string v2, "trig_lin_ver_any"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
-    .line 2797
+    .line 2799
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->trig_lin_ver_1x:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2804
+    .line 2806
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2805
+    .line 2807
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->value1:I
 
-    .line 2806
+    .line 2808
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->value2:Ljava/lang/String;
 
-    .line 2807
+    .line 2809
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->pic1:Ljava/lang/String;
 
-    .line 2808
+    .line 2810
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
     .locals 1
 
-    .line 2797
+    .line 2799
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
     .locals 1
 
-    .line 2797
+    .line 2799
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;->clone()Ljava/lang/Object;

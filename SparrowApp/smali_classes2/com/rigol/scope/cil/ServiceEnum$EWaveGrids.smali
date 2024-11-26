@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5027
+    .line 5029
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     const-string v1, "GRID_IS_FULL"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 5028
+    .line 5030
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     const-string v9, "GRID_IS_HALF"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_HALF:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 5029
+    .line 5031
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     const-string v2, "GRID_IS_NONE"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_NONE:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 5030
+    .line 5032
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     const-string v9, "GRID_IS_IRE"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 5025
+    .line 5027
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 5033
+    .line 5035
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5034
+    .line 5036
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->value1:I
 
-    .line 5035
+    .line 5037
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->value2:Ljava/lang/String;
 
-    .line 5036
+    .line 5038
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->pic1:Ljava/lang/String;
 
-    .line 5037
+    .line 5039
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
     .locals 1
 
-    .line 5025
+    .line 5027
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
     .locals 1
 
-    .line 5025
+    .line 5027
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->clone()Ljava/lang/Object;

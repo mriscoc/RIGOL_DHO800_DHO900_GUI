@@ -102,7 +102,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1118
+    .line 1120
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v1, "Probe_X0001"
@@ -123,7 +123,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X0001:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1120
+    .line 1122
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_X0002"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X0002:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1122
+    .line 1124
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_X0005"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X0005:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1124
+    .line 1126
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_X001"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X001:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1126
+    .line 1128
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_X002"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X002:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1128
+    .line 1130
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_X005"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X005:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1130
+    .line 1132
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_X01"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X01:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1132
+    .line 1134
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_X02"
@@ -270,7 +270,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X02:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1134
+    .line 1136
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_X05"
@@ -291,7 +291,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X05:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1136
+    .line 1138
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_X1"
@@ -312,7 +312,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X1:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1138
+    .line 1140
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_X2"
@@ -333,7 +333,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X2:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1140
+    .line 1142
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_X5"
@@ -354,7 +354,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X5:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1142
+    .line 1144
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_1X"
@@ -375,7 +375,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_1X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1144
+    .line 1146
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_2X"
@@ -396,7 +396,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_2X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1146
+    .line 1148
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_5X"
@@ -417,7 +417,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_5X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1148
+    .line 1150
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_10X"
@@ -438,7 +438,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_10X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1150
+    .line 1152
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_15X"
@@ -459,7 +459,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_15X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1152
+    .line 1154
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_20X"
@@ -480,7 +480,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_20X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1154
+    .line 1156
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_50X"
@@ -501,7 +501,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_50X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1156
+    .line 1158
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_100X"
@@ -522,7 +522,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_100X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1158
+    .line 1160
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_150X"
@@ -543,7 +543,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_150X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1160
+    .line 1162
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_200X"
@@ -564,7 +564,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_200X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1162
+    .line 1164
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_500X"
@@ -585,7 +585,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_500X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1164
+    .line 1166
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_1000X"
@@ -606,7 +606,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_1000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1166
+    .line 1168
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_1500X"
@@ -627,7 +627,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_1500X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1168
+    .line 1170
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_2000X"
@@ -648,7 +648,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_2000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1170
+    .line 1172
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_5000X"
@@ -669,7 +669,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_5000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1172
+    .line 1174
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_10000X"
@@ -690,7 +690,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_10000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1174
+    .line 1176
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_15000X"
@@ -711,7 +711,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_15000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1176
+    .line 1178
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v9, "Probe_20000X"
@@ -732,7 +732,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_20000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1178
+    .line 1180
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const-string v2, "Probe_50000X"
@@ -757,7 +757,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 1115
+    .line 1117
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_X0001:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     const/4 v3, 0x0
@@ -959,19 +959,19 @@
         }
     .end annotation
 
-    .line 1181
+    .line 1183
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1182
+    .line 1184
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
 
-    .line 1183
+    .line 1185
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value2:Ljava/lang/String;
 
-    .line 1184
+    .line 1186
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->pic1:Ljava/lang/String;
 
-    .line 1185
+    .line 1187
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->pic2:Ljava/lang/String;
 
     return-void
@@ -980,7 +980,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
     .locals 1
 
-    .line 1115
+    .line 1117
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -995,7 +995,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
     .locals 1
 
-    .line 1115
+    .line 1117
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->clone()Ljava/lang/Object;

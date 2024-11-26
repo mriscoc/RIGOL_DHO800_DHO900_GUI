@@ -403,7 +403,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -475,7 +475,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -547,7 +547,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x142
+    const/16 v0, 0x143
 
     if-ne p2, v0, :cond_1
 
@@ -579,7 +579,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x146
+    const/16 v0, 0x147
 
     if-ne p2, v0, :cond_2
 
@@ -611,7 +611,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x147
+    const/16 v0, 0x148
 
     if-ne p2, v0, :cond_3
 
@@ -643,7 +643,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x145
+    const/16 v0, 0x146
 
     if-ne p2, v0, :cond_4
 
@@ -675,7 +675,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x144
+    const/16 v0, 0x145
 
     if-ne p2, v0, :cond_5
 
@@ -707,7 +707,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x143
+    const/16 v0, 0x144
 
     if-ne p2, v0, :cond_6
 
@@ -779,7 +779,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -851,7 +851,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1670,7 +1670,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xab
+    const/16 p1, 0xac
 
     .line 121
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeFlexrayBindingImpl;->notifyPropertyChanged(I)V
@@ -1721,7 +1721,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xad
+    const/16 p1, 0xae
 
     .line 139
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeFlexrayBindingImpl;->notifyPropertyChanged(I)V
@@ -1772,7 +1772,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 130
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeFlexrayBindingImpl;->notifyPropertyChanged(I)V
@@ -1797,7 +1797,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0xab
+    const/16 v0, 0xac
 
     if-ne v0, p1, :cond_0
 
@@ -1809,7 +1809,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_1
 
@@ -1821,7 +1821,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xad
+    const/16 v0, 0xae
 
     if-ne v0, p1, :cond_2
 

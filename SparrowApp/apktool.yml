@@ -1,5 +1,5 @@
 version: 2.9.3
-apkFileName: Sparrow.apk
+apkFileName: Sparrow_orig_00.01.04.apk
 isFrameworkApk: false
 usesFramework:
   ids:
@@ -13,7 +13,7 @@ packageInfo:
   renameManifestPackage: null
 versionInfo:
   versionCode: 1008000
-  versionName: 00.01.03.01.06
+  versionName: 00.01.04.00.02
 resourcesAreCompressed: false
 sharedLibrary: false
 sparseResources: false

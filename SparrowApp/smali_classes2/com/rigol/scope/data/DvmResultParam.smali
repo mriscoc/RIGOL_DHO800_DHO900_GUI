@@ -727,7 +727,7 @@
     .line 134
     iput-boolean p1, p0, Lcom/rigol/scope/data/DvmResultParam;->beeper:Z
 
-    const/16 p1, 0x57
+    const/16 p1, 0x58
 
     .line 135
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V
@@ -784,7 +784,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->setMode(I)V
 
-    const/16 p1, 0xfb
+    const/16 p1, 0xfc
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V
@@ -807,7 +807,7 @@
     .line 164
     iput-wide p1, p0, Lcom/rigol/scope/data/DvmResultParam;->limitLower:J
 
-    const/16 p1, 0x1e6
+    const/16 p1, 0x1e7
 
     .line 165
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V
@@ -821,7 +821,7 @@
     .line 144
     iput p1, p0, Lcom/rigol/scope/data/DvmResultParam;->limitType:I
 
-    const/16 p1, 0x1e7
+    const/16 p1, 0x1e8
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V
@@ -835,7 +835,7 @@
     .line 154
     iput-wide p1, p0, Lcom/rigol/scope/data/DvmResultParam;->limitUpper:J
 
-    const/16 p1, 0x1e8
+    const/16 p1, 0x1e9
 
     .line 155
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V

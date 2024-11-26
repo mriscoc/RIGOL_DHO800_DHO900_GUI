@@ -267,7 +267,7 @@
 
     if-eqz p0, :cond_1
 
-    .line 4775
+    .line 4783
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -276,7 +276,7 @@
 
     const-string v0, "0.0.0.0"
 
-    .line 4783
+    .line 4791
     invoke-virtual {p0, v0}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
     move-result v0
@@ -290,7 +290,7 @@
     :cond_0
     const-string v0, "^(1\\d{2}|2[0-4]\\d|25[0-5]|[1-9]\\d|[1-9])\\.(1\\d{2}|2[0-4]\\d|25[0-5]|[1-9]\\d|\\d)\\.(1\\d{2}|2[0-4]\\d|25[0-5]|[1-9]\\d|\\d)\\.(1\\d{2}|2[0-4]\\d|25[0-5]|[1-9]\\d|\\d)$"
 
-    .line 4787
+    .line 4795
     invoke-virtual {p0, v0}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     move-result p0
@@ -369,7 +369,7 @@
 .method public static checkModel()Z
     .locals 2
 
-    .line 5006
+    .line 5014
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -378,7 +378,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 5007
+    .line 5015
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -410,7 +410,7 @@
 .method public static checkModelEDU()Z
     .locals 2
 
-    .line 5026
+    .line 5034
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -419,7 +419,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 5027
+    .line 5035
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -451,7 +451,7 @@
 .method public static checkModelS()Z
     .locals 2
 
-    .line 5017
+    .line 5025
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -460,7 +460,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 5018
+    .line 5026
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -503,12 +503,12 @@
         }
     .end annotation
 
-    .line 4844
+    .line 4852
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4845
+    .line 4853
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isDoubleChan()Z
 
     move-result v1
@@ -517,7 +517,7 @@
 
     const/4 v1, 0x0
 
-    .line 4846
+    .line 4854
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -525,7 +525,7 @@
 
     if-ge v1, v2, :cond_3
 
-    .line 4847
+    .line 4855
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -582,7 +582,7 @@
 
     goto :goto_1
 
-    .line 4850
+    .line 4858
     :cond_0
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -598,7 +598,7 @@
 
     goto :goto_0
 
-    .line 4854
+    .line 4862
     :cond_2
     invoke-interface {v0, p0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -620,7 +620,7 @@
         }
     .end annotation
 
-    .line 4989
+    .line 4997
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -629,12 +629,12 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 4990
+    .line 4998
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4991
+    .line 4999
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -651,7 +651,7 @@
 
     const/4 v0, 0x0
 
-    .line 4992
+    .line 5000
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -659,7 +659,7 @@
 
     if-ge v0, v2, :cond_3
 
-    .line 4993
+    .line 5001
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -696,7 +696,7 @@
 
     if-eqz v2, :cond_1
 
-    .line 4994
+    .line 5002
     :cond_0
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -711,7 +711,7 @@
 
     goto :goto_0
 
-    .line 4998
+    .line 5006
     :cond_2
     invoke-interface {v1, p0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -722,7 +722,7 @@
 .method public static convert(Ljava/lang/String;ILjava/lang/String;Ljava/text/DecimalFormat;)Ljava/lang/String;
     .locals 2
 
-    .line 4748
+    .line 4756
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -740,7 +740,7 @@
     :cond_0
     if-lez p1, :cond_1
 
-    .line 4753
+    .line 4761
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -758,7 +758,7 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4757
+    .line 4765
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -773,13 +773,13 @@
 
     move-result-object p1
 
-    .line 4759
+    .line 4767
     :try_start_0
     new-instance v0, Ljava/math/BigDecimal;
 
     invoke-direct {v0, p1}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
 
-    .line 4760
+    .line 4768
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -803,7 +803,7 @@
     :catch_0
     move-exception p1
 
-    .line 4762
+    .line 4770
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_2
@@ -1344,12 +1344,12 @@
         }
     .end annotation
 
-    .line 4799
+    .line 4807
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4800
+    .line 4808
     const-class v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1360,10 +1360,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 4803
+    .line 4811
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 4804
+    .line 4812
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -1379,7 +1379,7 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4812
+    .line 4820
     :goto_0
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isDoubleChan()Z
 
@@ -1391,7 +1391,7 @@
 
     if-eqz v2, :cond_5
 
-    .line 4813
+    .line 4821
     :goto_1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -1399,7 +1399,7 @@
 
     if-ge v3, v2, :cond_8
 
-    .line 4814
+    .line 4822
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1454,7 +1454,7 @@
 
     goto :goto_2
 
-    .line 4822
+    .line 4830
     :cond_1
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1466,7 +1466,7 @@
 
     goto :goto_3
 
-    .line 4816
+    .line 4824
     :cond_2
     :goto_2
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1493,7 +1493,7 @@
 
     if-ne v2, v5, :cond_3
 
-    .line 4817
+    .line 4825
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1504,7 +1504,7 @@
 
     goto :goto_3
 
-    .line 4818
+    .line 4826
     :cond_3
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1528,7 +1528,7 @@
 
     if-ne v2, v5, :cond_4
 
-    .line 4819
+    .line 4827
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1543,7 +1543,7 @@
 
     goto/16 :goto_1
 
-    .line 4827
+    .line 4835
     :cond_5
     :goto_4
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1552,7 +1552,7 @@
 
     if-ge v3, v1, :cond_8
 
-    .line 4829
+    .line 4837
     const-class v1, Lcom/rigol/scope/viewmodels/LaViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1593,7 +1593,7 @@
 
     if-eqz v1, :cond_6
 
-    .line 4830
+    .line 4838
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -1604,7 +1604,7 @@
 
     goto :goto_5
 
-    .line 4831
+    .line 4839
     :cond_6
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1622,7 +1622,7 @@
 
     if-nez v1, :cond_7
 
-    .line 4832
+    .line 4840
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -1999,7 +1999,7 @@
         }
     .end annotation
 
-    .line 4387
+    .line 4395
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -2008,7 +2008,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 4394
+    .line 4402
     array-length v2, p1
 
     if-lez v2, :cond_0
@@ -2019,7 +2019,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 4395
+    .line 4403
     aget-object p1, p1, v1
 
     check-cast p1, Ljava/lang/Integer;
@@ -2036,7 +2036,7 @@
     :goto_0
     const/4 v2, 0x0
 
-    .line 4398
+    .line 4406
     :try_start_0
     new-instance v3, Ljava/io/FileReader;
 
@@ -2045,7 +2045,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_5
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4399
+    .line 4407
     :try_start_1
     sget-object v4, Lorg/apache/commons/csv/CSVFormat;->DEFAULT:Lorg/apache/commons/csv/CSVFormat;
 
@@ -2056,7 +2056,7 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4403
+    .line 4411
     :try_start_2
     invoke-virtual {v4}, Lorg/apache/commons/csv/CSVParser;->iterator()Ljava/util/Iterator;
 
@@ -2089,7 +2089,7 @@
 
     if-lt v6, p1, :cond_3
 
-    .line 4430
+    .line 4438
     :try_start_3
     invoke-virtual {v3}, Ljava/io/FileReader;->close()V
     :try_end_3
@@ -2100,13 +2100,13 @@
     :catch_0
     move-exception p0
 
-    .line 4432
+    .line 4440
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_2
     if-eqz v4, :cond_2
 
-    .line 4438
+    .line 4446
     :try_start_4
     invoke-virtual {v4}, Lorg/apache/commons/csv/CSVParser;->close()V
     :try_end_4
@@ -2117,14 +2117,14 @@
     :catch_1
     move-exception p0
 
-    .line 4440
+    .line 4448
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_2
     :goto_3
     return-object v0
 
-    .line 4414
+    .line 4422
     :cond_3
     :try_start_5
     invoke-virtual {v7}, Lorg/apache/commons/csv/CSVRecord;->size()I
@@ -2135,7 +2135,7 @@
 
     move v9, v1
 
-    .line 4415
+    .line 4423
     :goto_4
     invoke-virtual {v7}, Lorg/apache/commons/csv/CSVRecord;->size()I
 
@@ -2143,7 +2143,7 @@
 
     if-ge v9, v10, :cond_4
 
-    .line 4416
+    .line 4424
     invoke-virtual {v7, v9}, Lorg/apache/commons/csv/CSVRecord;->get(I)Ljava/lang/String;
 
     move-result-object v10
@@ -2154,7 +2154,7 @@
 
     goto :goto_4
 
-    .line 4418
+    .line 4426
     :cond_4
     invoke-virtual {v0, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_5
@@ -2165,7 +2165,7 @@
 
     goto :goto_1
 
-    .line 4430
+    .line 4438
     :cond_5
     :try_start_6
     invoke-virtual {v3}, Ljava/io/FileReader;->close()V
@@ -2177,13 +2177,13 @@
     :catch_2
     move-exception p0
 
-    .line 4432
+    .line 4440
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_5
     if-eqz v4, :cond_6
 
-    .line 4438
+    .line 4446
     :try_start_7
     invoke-virtual {v4}, Lorg/apache/commons/csv/CSVParser;->close()V
     :try_end_7
@@ -2194,7 +2194,7 @@
     :catch_3
     move-exception p0
 
-    .line 4440
+    .line 4448
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_6
@@ -2236,14 +2236,14 @@
 
     aput-object p0, v0, v1
 
-    .line 4425
+    .line 4433
     invoke-static {p1, v0}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
     if-eqz v3, :cond_7
 
-    .line 4430
+    .line 4438
     :try_start_9
     invoke-virtual {v3}, Ljava/io/FileReader;->close()V
     :try_end_9
@@ -2254,14 +2254,14 @@
     :catch_7
     move-exception p0
 
-    .line 4432
+    .line 4440
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
     :goto_8
     if-eqz v4, :cond_8
 
-    .line 4438
+    .line 4446
     :try_start_a
     invoke-virtual {v4}, Lorg/apache/commons/csv/CSVParser;->close()V
     :try_end_a
@@ -2272,7 +2272,7 @@
     :catch_8
     move-exception p0
 
-    .line 4440
+    .line 4448
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_8
@@ -2288,7 +2288,7 @@
     :goto_b
     if-eqz v2, :cond_9
 
-    .line 4430
+    .line 4438
     :try_start_b
     invoke-virtual {v2}, Ljava/io/FileReader;->close()V
     :try_end_b
@@ -2299,14 +2299,14 @@
     :catch_9
     move-exception p1
 
-    .line 4432
+    .line 4440
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_9
     :goto_c
     if-eqz v4, :cond_a
 
-    .line 4438
+    .line 4446
     :try_start_c
     invoke-virtual {v4}, Lorg/apache/commons/csv/CSVParser;->close()V
     :try_end_c
@@ -2317,10 +2317,10 @@
     :catch_a
     move-exception p1
 
-    .line 4440
+    .line 4448
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 4443
+    .line 4451
     :cond_a
     :goto_d
     throw p0
@@ -2339,7 +2339,7 @@
 
     goto/16 :goto_3
 
-    .line 4337
+    .line 4345
     :cond_0
     array-length v1, p0
 
@@ -2354,7 +2354,7 @@
 
     if-eqz v4, :cond_7
 
-    .line 4339
+    .line 4347
     array-length v5, v4
 
     const/4 v6, 0x1
@@ -2363,20 +2363,20 @@
 
     goto :goto_2
 
-    .line 4348
+    .line 4356
     :cond_1
     aget-object v5, v4, v2
 
     if-eqz v5, :cond_7
 
-    .line 4351
+    .line 4359
     array-length v7, v5
 
     if-ge v7, v6, :cond_2
 
     goto :goto_2
 
-    .line 4355
+    .line 4363
     :cond_2
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_RS232:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
@@ -2388,7 +2388,7 @@
 
     goto :goto_1
 
-    .line 4370
+    .line 4378
     :cond_3
     iget v6, p2, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->value1:I
 
@@ -2406,7 +2406,7 @@
 
     return-object v4
 
-    .line 4357
+    .line 4365
     :cond_4
     :goto_1
     array-length v6, v5
@@ -2417,7 +2417,7 @@
 
     goto :goto_2
 
-    .line 4362
+    .line 4370
     :cond_5
     array-length v6, p3
 
@@ -2441,7 +2441,7 @@
 
     goto :goto_2
 
-    .line 4366
+    .line 4374
     :cond_6
     iget v6, p2, Lcom/rigol/scope/cil/ServiceEnum$WaveView;->value1:I
 
@@ -2636,7 +2636,7 @@
 .end method
 
 .method public static getDepthSpinnerList()Ljava/util/List;
-    .locals 12
+    .locals 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -2728,814 +2728,846 @@
 
     invoke-virtual {v7, v2, v8}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
-    move-result v2
+    move-result v7
 
     .line 3911
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
-    move-result-object v7
+    move-result-object v8
 
-    const/16 v8, 0x233a
+    const/16 v9, 0x233a
 
-    const/16 v9, 0xa
+    const/16 v10, 0xa
 
-    invoke-virtual {v7, v9, v8}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
+    invoke-virtual {v8, v10, v9}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
-    move-result v7
+    move-result v8
 
     .line 3912
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
-    move-result-object v8
+    move-result-object v9
 
-    const/16 v10, 0x3c
+    const/16 v11, 0x3c
 
-    const/16 v11, 0x2901
+    const/16 v12, 0x2901
 
-    invoke-virtual {v8, v10, v11}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
+    invoke-virtual {v9, v11, v12}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
-    move-result v8
+    move-result v9
 
     .line 3913
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
+    move-result-object v11
+
+    const/16 v12, 0x2308
+
+    invoke-virtual {v11, v10, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
+
+    .line 3916
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
     move-result-object v10
 
-    const/16 v11, 0x2308
+    const/16 v11, 0x5746
 
-    invoke-virtual {v10, v9, v11}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
+    invoke-virtual {v10, v2, v11}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
-    .line 3949
-    sget-object v9, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    move-result-object v2
 
-    iget v9, v9, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    const-string v10, "DHO824"
 
-    .line 3950
+    .line 3918
+    invoke-virtual {v2, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v10
+
+    if-nez v10, :cond_2
+
+    const-string v10, "HDO824"
+
+    invoke-virtual {v2, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    :cond_2
+    const/4 v6, 0x1
+
+    .line 3957
+    :cond_3
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 3958
     sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_HDO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     iget v10, v10, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
 
-    if-ne v2, v10, :cond_15
+    if-ne v7, v10, :cond_17
 
-    if-eqz v6, :cond_b
+    if-eqz v6, :cond_d
 
-    .line 3952
+    .line 3960
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
-
-    if-ne v1, v6, :cond_3
-
-    .line 3953
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    .line 3954
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
-
-    if-ne v7, v6, :cond_2
-
-    .line 3955
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    goto/16 :goto_0
-
-    .line 3956
-    :cond_2
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
-
-    if-ne v7, v6, :cond_17
-
-    .line 3957
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    goto/16 :goto_0
-
-    .line 3959
-    :cond_3
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_2000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne v1, v6, :cond_5
 
-    .line 3960
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_200M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
     .line 3961
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 3962
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_4
+    if-ne v8, v6, :cond_4
 
-    .line 3962
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3963
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3963
+    .line 3964
     :cond_4
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 3964
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3965
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3966
+    .line 3967
     :cond_5
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_4000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_2000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne v1, v6, :cond_7
 
-    .line 3967
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
     .line 3968
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_200M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 3969
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_6
+    if-ne v8, v6, :cond_6
 
-    .line 3969
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3970
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3970
+    .line 3971
     :cond_6
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 3971
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3972
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3973
+    .line 3974
     :cond_7
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_4000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne v1, v6, :cond_9
 
-    .line 3974
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
     .line 3975
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 3976
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_8
+    if-ne v8, v6, :cond_8
 
-    .line 3976
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3977
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3977
+    .line 3978
     :cond_8
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 3978
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3979
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3980
+    .line 3981
     :cond_9
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    if-ne v1, v6, :cond_17
-
-    .line 3981
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    if-ne v1, v6, :cond_b
 
     .line 3982
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 3983
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_a
+    if-ne v8, v6, :cond_a
 
-    .line 3983
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3984
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3984
+    .line 3985
     :cond_a
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 3985
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3986
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3990
+    .line 3988
     :cond_b
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    if-ne v1, v6, :cond_d
+    if-ne v1, v6, :cond_19
 
-    .line 3991
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3989
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    .line 3992
+    .line 3990
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_c
+    if-ne v8, v6, :cond_c
 
-    .line 3993
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3991
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3994
+    .line 3992
     :cond_c
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 3995
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 3993
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 3997
+    .line 3998
     :cond_d
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_2000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne v1, v6, :cond_f
 
-    .line 3998
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
     .line 3999
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4000
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_e
+    if-ne v8, v6, :cond_e
 
-    .line 4000
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4001
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 4001
+    .line 4002
     :cond_e
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 4002
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4003
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 4004
+    .line 4005
     :cond_f
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_4000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_2000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne v1, v6, :cond_11
 
-    .line 4005
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
     .line 4006
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4007
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_10
+    if-ne v8, v6, :cond_10
 
-    .line 4007
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4008
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto/16 :goto_0
 
-    .line 4008
+    .line 4009
     :cond_10
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 4009
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4010
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    goto :goto_0
+    goto/16 :goto_0
 
-    .line 4011
+    .line 4012
     :cond_11
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_4000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
     if-ne v1, v6, :cond_13
 
-    .line 4012
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
     .line 4013
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_250M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4014
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_12
-
-    .line 4014
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    goto :goto_0
+    if-ne v8, v6, :cond_12
 
     .line 4015
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_125M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    goto/16 :goto_0
+
+    .line 4016
     :cond_12
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 4016
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_5M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4017
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto :goto_0
 
-    .line 4018
+    .line 4019
     :cond_13
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    if-ne v1, v6, :cond_17
-
-    .line 4019
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    if-ne v1, v6, :cond_15
 
     .line 4020
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4021
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_14
+    if-ne v8, v6, :cond_14
 
-    .line 4021
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4022
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto :goto_0
 
-    .line 4022
+    .line 4023
     :cond_14
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v6, :cond_17
+    if-ne v8, v6, :cond_19
 
-    .line 4023
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4024
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_5M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto :goto_0
 
-    .line 4027
+    .line 4026
     :cond_15
-    sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_DSO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
-
-    iget v10, v10, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
-
-    if-ne v2, v10, :cond_16
-
-    .line 4028
-    sget-object v9, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v9, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    if-eqz v6, :cond_17
-
-    .line 4031
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_70000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    if-ne v1, v6, :cond_17
+    if-ne v1, v6, :cond_19
 
-    .line 4032
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4027
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_50M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4028
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
+
+    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
+
+    if-ne v8, v6, :cond_16
+
+    .line 4029
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    goto :goto_0
+
+    .line 4030
+    :cond_16
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
+
+    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
+
+    if-ne v8, v6, :cond_19
+
+    .line 4031
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto :goto_0
 
     .line 4035
-    :cond_16
+    :cond_17
+    sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_DSO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
+
+    iget v10, v10, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
+
+    if-ne v7, v10, :cond_18
+
+    .line 4036
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    if-eqz v6, :cond_19
+
+    .line 4039
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_70000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+
+    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
+
+    if-ne v1, v6, :cond_19
+
+    .line 4040
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_2G:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    goto :goto_0
+
+    .line 4043
+    :cond_18
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_MSO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
 
-    if-ne v2, v6, :cond_17
+    if-ne v7, v6, :cond_19
 
-    .line 4036
+    .line 4044
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_8000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    if-ne v1, v6, :cond_17
+    if-ne v1, v6, :cond_19
 
-    .line 4037
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4045
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_500M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    .line 4041
-    :cond_17
+    .line 4049
+    :cond_19
     :goto_0
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_HDO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
 
-    if-ne v2, v6, :cond_1b
+    if-ne v7, v6, :cond_1d
 
-    if-eqz v8, :cond_1b
+    if-eqz v9, :cond_1d
 
-    .line 4043
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+    .line 4051
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_800:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
-    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
+    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
 
-    if-ne v1, v2, :cond_19
+    if-ne v1, v6, :cond_1b
 
-    .line 4045
+    .line 4053
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    .line 4046
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
-
-    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
-
-    if-ne v7, v1, :cond_18
-
-    .line 4047
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    goto :goto_1
-
-    .line 4048
-    :cond_18
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
-
-    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
-
-    if-ne v7, v1, :cond_1b
-
-    .line 4049
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    goto :goto_1
-
-    .line 4052
-    :cond_19
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
-
-    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
-
-    if-ne v1, v2, :cond_1b
+    iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     .line 4054
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v9, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    .line 4055
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v1, :cond_1a
+    if-ne v8, v1, :cond_1a
 
-    .line 4056
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    .line 4055
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
     goto :goto_1
 
-    .line 4057
+    .line 4056
     :cond_1a
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    if-ne v7, v1, :cond_1b
+    if-ne v8, v1, :cond_1d
 
-    .line 4058
+    .line 4057
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v9, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    goto :goto_1
+
+    .line 4060
+    :cond_1b
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_900:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
+
+    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
+
+    if-ne v1, v6, :cond_1d
 
     .line 4062
-    :cond_1b
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_25M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4063
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->DUAL_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
+
+    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
+
+    if-ne v8, v1, :cond_1c
+
+    .line 4064
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    goto :goto_1
+
+    .line 4065
+    :cond_1c
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->QUAD_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
+
+    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
+
+    if-ne v8, v1, :cond_1d
+
+    .line 4066
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    .line 4070
+    :cond_1d
     :goto_1
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    :cond_1c
+    :cond_1e
     :goto_2
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
-    move-result v2
+    move-result v3
 
-    if-eqz v2, :cond_22
+    if-eqz v3, :cond_24
 
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    move-result-object v2
+    move-result-object v3
 
-    check-cast v2, Lcom/rigol/scope/data/MappingObject;
+    check-cast v3, Lcom/rigol/scope/data/MappingObject;
 
-    .line 4063
-    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
+    .line 4071
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    if-eq v5, v3, :cond_21
+    if-eq v5, v6, :cond_23
 
-    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_SCAN:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_SCAN:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    if-ne v5, v3, :cond_1d
+    if-ne v5, v6, :cond_1f
 
     goto/16 :goto_3
 
-    .line 4069
-    :cond_1d
-    invoke-virtual {v4}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
-
-    move-result-object v3
-
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_HighResolution:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
-
-    if-ne v3, v6, :cond_1e
-
-    .line 4070
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    if-gt v3, v9, :cond_1c
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    if-le v3, v6, :cond_1c
-
-    .line 4071
-    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    goto :goto_2
-
-    .line 4073
-    :cond_1e
-    invoke-virtual {v4}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
-
-    move-result-object v3
-
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Average:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
-
-    if-ne v3, v6, :cond_20
-
-    .line 4074
-    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->SINGLE_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
-
-    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
-
-    if-ne v7, v3, :cond_1f
-
-    .line 4075
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    if-le v3, v6, :cond_1c
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    if-gt v3, v9, :cond_1c
-
-    .line 4076
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    if-gt v3, v6, :cond_1c
-
     .line 4077
-    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    :cond_1f
+    invoke-virtual {v4}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
+
+    move-result-object v6
+
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_HighResolution:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
+
+    if-ne v6, v7, :cond_20
+
+    .line 4078
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    if-gt v6, v2, :cond_1e
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    if-le v6, v7, :cond_1e
+
+    .line 4079
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
+
+    .line 4081
+    :cond_20
+    invoke-virtual {v4}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
+
+    move-result-object v6
+
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Average:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
+
+    if-ne v6, v7, :cond_22
 
     .line 4082
-    :cond_1f
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->SINGLE_SAMPLE_MODE:Lcom/rigol/scope/cil/ServiceEnum$SampleMode;
 
-    move-result v3
+    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$SampleMode;->value1:I
 
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
-
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
-
-    if-le v3, v6, :cond_1c
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    if-gt v3, v9, :cond_1c
+    if-ne v8, v6, :cond_21
 
     .line 4083
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
-    move-result v3
+    move-result v6
 
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    if-gt v3, v6, :cond_1c
+    if-le v6, v7, :cond_1e
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    if-gt v6, v2, :cond_1e
 
     .line 4084
-    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_10M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    if-gt v6, v7, :cond_1e
+
+    .line 4085
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
 
-    .line 4089
-    :cond_20
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v3
-
-    if-gt v3, v9, :cond_1c
-
     .line 4090
-    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    goto/16 :goto_2
-
-    .line 4065
     :cond_21
-    :goto_3
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
-    move-result v3
+    move-result v6
 
-    if-gt v3, v9, :cond_1c
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_Auto:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    move-result v3
+    if-le v6, v7, :cond_1e
 
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    move-result v6
 
-    if-lt v3, v6, :cond_1c
+    if-gt v6, v2, :cond_1e
 
-    .line 4066
-    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+    .line 4091
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
-    move-result v3
+    move-result v6
 
-    sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
 
-    iget v6, v6, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
 
-    if-gt v3, v6, :cond_1c
+    if-gt v6, v7, :cond_1e
 
-    .line 4067
-    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    .line 4092
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_2
+
+    .line 4097
+    :cond_22
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    if-gt v6, v2, :cond_1e
+
+    .line 4098
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_2
 
-    :cond_22
+    .line 4073
+    :cond_23
+    :goto_3
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    if-gt v6, v2, :cond_1e
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_1M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    if-lt v6, v7, :cond_1e
+
+    .line 4074
+    invoke-virtual {v3}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v6
+
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->Acquire_Depth_100M:Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;
+
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireDepth;->value1:I
+
+    if-gt v6, v7, :cond_1e
+
+    .line 4075
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto/16 :goto_2
+
+    :cond_24
     return-object v0
 .end method
 
@@ -3883,7 +3915,7 @@
 
     if-eqz p0, :cond_8
 
-    .line 4485
+    .line 4493
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -3894,7 +3926,7 @@
 
     goto :goto_2
 
-    .line 4489
+    .line 4497
     :cond_0
     invoke-virtual {p0, p1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
@@ -3913,7 +3945,7 @@
 
     if-lez v0, :cond_5
 
-    .line 4498
+    .line 4506
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v0
@@ -3924,7 +3956,7 @@
 
     return p3
 
-    .line 4506
+    .line 4514
     :cond_1
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
@@ -3934,7 +3966,7 @@
 
     invoke-virtual {p0, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 4507
+    .line 4515
     invoke-virtual {p0, p1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v0
@@ -3951,7 +3983,7 @@
 
     if-gez v0, :cond_4
 
-    .line 4517
+    .line 4525
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v0
@@ -3962,7 +3994,7 @@
 
     return p4
 
-    .line 4525
+    .line 4533
     :cond_3
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
@@ -3972,14 +4004,14 @@
 
     invoke-virtual {p0, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 4526
+    .line 4534
     invoke-virtual {p0, p1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v0
 
     goto :goto_1
 
-    .line 4534
+    .line 4542
     :cond_4
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
@@ -3989,7 +4021,7 @@
 
     invoke-virtual {p0, p1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 4538
+    .line 4546
     :cond_5
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
@@ -4001,7 +4033,7 @@
 
     return p4
 
-    .line 4543
+    .line 4551
     :cond_6
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
@@ -4013,7 +4045,7 @@
 
     return p3
 
-    .line 4552
+    .line 4560
     :cond_7
     invoke-virtual {p0}, Landroid/graphics/Paint;->getTextSize()F
 
@@ -4031,23 +4063,23 @@
 .method public static getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
     .locals 2
 
-    .line 4949
+    .line 4957
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->flexKnobParamViewModel:Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     if-nez v0, :cond_1
 
-    .line 4950
+    .line 4958
     const-class v0, Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     monitor-enter v0
 
-    .line 4951
+    .line 4959
     :try_start_0
     sget-object v1, Lcom/rigol/scope/utilities/ViewUtil;->flexKnobParamViewModel:Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     if-nez v1, :cond_0
 
-    .line 4952
+    .line 4960
     const-class v1, Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -4058,7 +4090,7 @@
 
     sput-object v1, Lcom/rigol/scope/utilities/ViewUtil;->flexKnobParamViewModel:Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
-    .line 4954
+    .line 4962
     :cond_0
     monitor-exit v0
 
@@ -4073,7 +4105,7 @@
 
     throw v1
 
-    .line 4956
+    .line 4964
     :cond_1
     :goto_0
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->flexKnobParamViewModel:Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
@@ -5501,7 +5533,7 @@
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_fft:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    const-string v4, "0.###"
+    const-string v4, "0.##"
 
     const/4 v5, 0x0
 
@@ -6063,12 +6095,12 @@
 .method public static getNetworkInfo(Landroid/content/Context;Lcom/rigol/scope/data/IOParam;)V
     .locals 2
 
-    .line 4589
+    .line 4597
     invoke-static {p0}, Lcom/rigol/util/EthernetUtil;->getIpAddress(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4590
+    .line 4598
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -6077,85 +6109,85 @@
 
     const/4 v0, 0x1
 
-    .line 4591
+    .line 4599
     invoke-static {v0}, Lcom/blankj/utilcode/util/NetworkUtils;->getIPAddress(Z)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4593
+    .line 4601
     :cond_0
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/IOParam;->saveIPAddress(Ljava/lang/String;)V
 
-    .line 4596
+    .line 4604
     invoke-static {p0}, Lcom/rigol/util/EthernetUtil;->getSubMask(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4597
+    .line 4605
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4598
+    .line 4606
     invoke-static {}, Lcom/blankj/utilcode/util/NetworkUtils;->getNetMaskByWifi()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4600
+    .line 4608
     :cond_1
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/IOParam;->saveMask(Ljava/lang/String;)V
 
-    .line 4603
+    .line 4611
     invoke-static {p0}, Lcom/rigol/util/EthernetUtil;->getDefaultGateway(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4604
+    .line 4612
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 4605
+    .line 4613
     invoke-static {}, Lcom/blankj/utilcode/util/NetworkUtils;->getGatewayByWifi()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4607
+    .line 4615
     :cond_2
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/IOParam;->saveGateWay(Ljava/lang/String;)V
 
-    .line 4610
+    .line 4618
     invoke-static {p0}, Lcom/rigol/util/EthernetUtil;->getDns(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/IOParam;->saveDNS(Ljava/lang/String;)V
 
-    .line 4613
+    .line 4621
     invoke-static {p0}, Lcom/rigol/util/EthernetUtil;->getEthernetConnectState(Landroid/content/Context;)I
 
     move-result v0
 
-    .line 4614
+    .line 4622
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getNetworkStatus(I)Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     move-result-object v0
 
-    .line 4615
+    .line 4623
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/IOParam;->saveStatus(Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;)V
 
-    .line 4618
+    .line 4626
     invoke-static {p0}, Lcom/rigol/util/EthernetUtil;->getVisaAddress(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/IOParam;->setVisaAddress(Ljava/lang/String;)V
 
-    .line 4621
+    .line 4629
     invoke-static {}, Lcom/blankj/utilcode/util/DeviceUtils;->getMacAddress()Ljava/lang/String;
 
     move-result-object p0
@@ -6166,7 +6198,7 @@
 
     move-result-object p0
 
-    .line 4622
+    .line 4630
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -6175,24 +6207,24 @@
 
     const-string p0, "/sys/class/net/eth0/address"
 
-    .line 4623
+    .line 4631
     invoke-static {p0}, Lcom/blankj/utilcode/util/FileIOUtils;->readFile2String(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4624
+    .line 4632
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_4
 
-    .line 4625
+    .line 4633
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/IOParam;->saveMacAddress(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 4628
+    .line 4636
     :cond_3
     invoke-virtual {p1, p0}, Lcom/rigol/scope/data/IOParam;->saveMacAddress(Ljava/lang/String;)V
 
@@ -6218,18 +6250,18 @@
 
     if-eq p0, v0, :cond_1
 
-    .line 4584
+    .line 4592
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_INIT:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     return-object p0
 
-    .line 4580
+    .line 4588
     :cond_0
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_CONNECTED:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     return-object p0
 
-    .line 4577
+    .line 4585
     :cond_1
     sget-object p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_UNLINK:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
@@ -6239,7 +6271,7 @@
 .method public static getNetworkStatusColor(Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;)I
     .locals 1
 
-    .line 4557
+    .line 4565
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil$4;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$tagNET_STATUS_EN:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->ordinal()I
@@ -6270,7 +6302,7 @@
 
     const p0, 0x7f060185
 
-    .line 4569
+    .line 4577
     invoke-static {p0}, Lcom/rigol/scope/utilities/ContextUtil;->getColor(I)I
 
     move-result p0
@@ -6280,7 +6312,7 @@
     :cond_0
     const p0, 0x7f0600cf
 
-    .line 4567
+    .line 4575
     invoke-static {p0}, Lcom/rigol/scope/utilities/ContextUtil;->getColor(I)I
 
     move-result p0
@@ -6290,7 +6322,7 @@
     :cond_1
     const p0, 0x7f060080
 
-    .line 4562
+    .line 4570
     invoke-static {p0}, Lcom/rigol/scope/utilities/ContextUtil;->getColor(I)I
 
     move-result p0
@@ -7741,7 +7773,7 @@
 .method public static getTouchLock()Z
     .locals 1
 
-    .line 4985
+    .line 4993
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -9497,23 +9529,23 @@
 .method public static getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
     .locals 2
 
-    .line 4960
+    .line 4968
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     if-nez v0, :cond_1
 
-    .line 4961
+    .line 4969
     const-class v0, Lcom/rigol/scope/viewmodels/ViewStateViewModel;
 
     monitor-enter v0
 
-    .line 4962
+    .line 4970
     :try_start_0
     sget-object v1, Lcom/rigol/scope/utilities/ViewUtil;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     if-nez v1, :cond_0
 
-    .line 4963
+    .line 4971
     const-class v1, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -9524,7 +9556,7 @@
 
     sput-object v1, Lcom/rigol/scope/utilities/ViewUtil;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
-    .line 4965
+    .line 4973
     :cond_0
     monitor-exit v0
 
@@ -9539,7 +9571,7 @@
 
     throw v1
 
-    .line 4967
+    .line 4975
     :cond_1
     :goto_0
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
@@ -9550,23 +9582,23 @@
 .method public static getViewStateViewModel()Lcom/rigol/scope/viewmodels/ViewStateViewModel;
     .locals 2
 
-    .line 4937
+    .line 4945
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->viewStateViewModel:Lcom/rigol/scope/viewmodels/ViewStateViewModel;
 
     if-nez v0, :cond_1
 
-    .line 4938
+    .line 4946
     const-class v0, Lcom/rigol/scope/viewmodels/ViewStateViewModel;
 
     monitor-enter v0
 
-    .line 4939
+    .line 4947
     :try_start_0
     sget-object v1, Lcom/rigol/scope/utilities/ViewUtil;->viewStateViewModel:Lcom/rigol/scope/viewmodels/ViewStateViewModel;
 
     if-nez v1, :cond_0
 
-    .line 4940
+    .line 4948
     const-class v1, Lcom/rigol/scope/viewmodels/ViewStateViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -9577,7 +9609,7 @@
 
     sput-object v1, Lcom/rigol/scope/utilities/ViewUtil;->viewStateViewModel:Lcom/rigol/scope/viewmodels/ViewStateViewModel;
 
-    .line 4942
+    .line 4950
     :cond_0
     monitor-exit v0
 
@@ -9592,7 +9624,7 @@
 
     throw v1
 
-    .line 4945
+    .line 4953
     :cond_1
     :goto_0
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->viewStateViewModel:Lcom/rigol/scope/viewmodels/ViewStateViewModel;
@@ -9611,7 +9643,7 @@
 
     goto :goto_1
 
-    .line 4461
+    .line 4469
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -9625,7 +9657,7 @@
 
     return-object v0
 
-    .line 4467
+    .line 4475
     :cond_1
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -9649,13 +9681,13 @@
 
     goto :goto_0
 
-    .line 4473
+    .line 4481
     :cond_3
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v2
 
-    .line 4475
+    .line 4483
     invoke-virtual {v2}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
 
     move-result v2
@@ -9830,7 +9862,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011ca
+    const v1, 0x7f1011cc
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -9868,7 +9900,7 @@
 
     return v0
 
-    .line 4166
+    .line 4174
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -9884,7 +9916,7 @@
 
     return v0
 
-    .line 4169
+    .line 4177
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -9894,7 +9926,7 @@
 
     if-eq v1, v2, :cond_3
 
-    .line 4170
+    .line 4178
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v1
@@ -9903,7 +9935,7 @@
 
     if-eq v1, v2, :cond_3
 
-    .line 4171
+    .line 4179
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object v1
@@ -9912,7 +9944,7 @@
 
     if-eq v1, v2, :cond_3
 
-    .line 4172
+    .line 4180
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p0
@@ -9938,7 +9970,7 @@
 
     monitor-enter v0
 
-    .line 4686
+    .line 4694
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -10036,12 +10068,12 @@
 
     move-result-object p1
 
-    .line 4714
+    .line 4722
     new-instance p2, Ljava/io/File;
 
     invoke-direct {p2, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4715
+    .line 4723
     invoke-virtual {p2}, Ljava/io/File;->exists()Z
 
     move-result p0
@@ -10050,7 +10082,7 @@
 
     if-nez p0, :cond_0
 
-    .line 4717
+    .line 4725
     :try_start_1
     invoke-virtual {p2}, Ljava/io/File;->createNewFile()Z
 
@@ -10061,7 +10093,7 @@
 
     if-nez p0, :cond_0
 
-    .line 4719
+    .line 4727
     monitor-exit v0
 
     return-void
@@ -10069,7 +10101,7 @@
     :catch_0
     move-exception p0
 
-    .line 4722
+    .line 4730
     :try_start_2
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
     :try_end_2
@@ -10078,7 +10110,7 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4728
+    .line 4736
     :try_start_3
     new-instance p3, Ljava/io/FileOutputStream;
 
@@ -10088,7 +10120,7 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_4
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 4729
+    .line 4737
     :try_start_4
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
 
@@ -10096,14 +10128,14 @@
 
     invoke-virtual {p3, p0}, Ljava/io/FileOutputStream;->write([B)V
 
-    .line 4730
+    .line 4738
     invoke-virtual {p3}, Ljava/io/FileOutputStream;->close()V
     :try_end_4
     .catch Ljava/io/FileNotFoundException; {:try_start_4 .. :try_end_4} :catch_3
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_2
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 4738
+    .line 4746
     :try_start_5
     invoke-virtual {p3}, Ljava/io/FileOutputStream;->close()V
     :try_end_5
@@ -10115,7 +10147,7 @@
     :catch_1
     move-exception p0
 
-    .line 4740
+    .line 4748
     :goto_0
     :try_start_6
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
@@ -10150,7 +10182,7 @@
 
     move-object p0, p1
 
-    .line 4734
+    .line 4742
     :goto_1
     :try_start_7
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
@@ -10159,7 +10191,7 @@
 
     if-eqz p3, :cond_1
 
-    .line 4738
+    .line 4746
     :try_start_8
     invoke-virtual {p3}, Ljava/io/FileOutputStream;->close()V
     :try_end_8
@@ -10180,7 +10212,7 @@
 
     move-object p0, p1
 
-    .line 4732
+    .line 4740
     :goto_2
     :try_start_9
     invoke-virtual {p0}, Ljava/io/FileNotFoundException;->printStackTrace()V
@@ -10189,7 +10221,7 @@
 
     if-eqz p3, :cond_1
 
-    .line 4738
+    .line 4746
     :try_start_a
     invoke-virtual {p3}, Ljava/io/FileOutputStream;->close()V
     :try_end_a
@@ -10203,7 +10235,7 @@
 
     goto :goto_0
 
-    .line 4744
+    .line 4752
     :cond_1
     :goto_3
     monitor-exit v0
@@ -10216,7 +10248,7 @@
     :goto_4
     if-eqz p3, :cond_2
 
-    .line 4738
+    .line 4746
     :try_start_b
     invoke-virtual {p3}, Ljava/io/FileOutputStream;->close()V
     :try_end_b
@@ -10228,11 +10260,11 @@
     :catch_8
     move-exception p1
 
-    .line 4740
+    .line 4748
     :try_start_c
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 4743
+    .line 4751
     :cond_2
     :goto_5
     throw p0
@@ -10401,7 +10433,7 @@
 .method public static isCalibrationStarted()Z
     .locals 1
 
-    .line 4634
+    .line 4642
     const-class v0, Lcom/rigol/scope/viewmodels/CalibrationViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10412,7 +10444,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 4636
+    .line 4644
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CalibrationViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -10425,7 +10457,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 4638
+    .line 4646
     invoke-virtual {v0}, Lcom/rigol/scope/data/CalibrationParam;->isStarted()Z
 
     move-result v0
@@ -10441,7 +10473,7 @@
 .method public static isDoubleChan()Z
     .locals 5
 
-    .line 4866
+    .line 4874
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10450,7 +10482,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 4867
+    .line 4875
     const-class v1, Lcom/rigol/scope/viewmodels/LaViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10463,10 +10495,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 4871
+    .line 4879
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 4872
+    .line 4880
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -10485,7 +10517,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 4877
+    .line 4885
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/LaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -10510,7 +10542,7 @@
 
     return v1
 
-    .line 4885
+    .line 4893
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/UtilityParam;->readChNum()I
 
@@ -10549,7 +10581,7 @@
 .method public static isDoubleChanDecod()Z
     .locals 4
 
-    .line 4920
+    .line 4928
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10560,10 +10592,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 4923
+    .line 4931
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 4924
+    .line 4932
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -10586,7 +10618,7 @@
 
     return v1
 
-    .line 4929
+    .line 4937
     :cond_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/UtilityParam;->readChNum()I
 
@@ -10615,7 +10647,7 @@
 .method public static isDoubleChanS()Z
     .locals 3
 
-    .line 4894
+    .line 4902
     const-class v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10624,7 +10656,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    .line 4895
+    .line 4903
     const-class v1, Lcom/rigol/scope/viewmodels/LaViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10637,10 +10669,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 4899
+    .line 4907
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 4900
+    .line 4908
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -10659,7 +10691,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 4905
+    .line 4913
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/LaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -10684,7 +10716,7 @@
 
     return v1
 
-    .line 4913
+    .line 4921
     :cond_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/UtilityParam;->readChNum()I
 
@@ -10742,7 +10774,7 @@
 
     const-string v1, ""
 
-    .line 4679
+    .line 4687
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -10755,7 +10787,7 @@
 
     const-string v0, "image"
 
-    .line 4680
+    .line 4688
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p0
@@ -10809,7 +10841,7 @@
 .method public static isPassFailRunning()Z
     .locals 4
 
-    .line 4661
+    .line 4669
     const-class v0, Lcom/rigol/scope/viewmodels/MaskViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10818,7 +10850,7 @@
 
     check-cast v0, Lcom/rigol/scope/viewmodels/MaskViewModel;
 
-    .line 4662
+    .line 4670
     const-class v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10833,7 +10865,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 4664
+    .line 4672
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MaskViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -10844,7 +10876,7 @@
 
     check-cast v0, Lcom/rigol/scope/data/MaskParam;
 
-    .line 4665
+    .line 4673
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -10859,7 +10891,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 4669
+    .line 4677
     invoke-virtual {v0}, Lcom/rigol/scope/data/MaskParam;->isEnable()Z
 
     move-result v3
@@ -10872,7 +10904,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 4670
+    .line 4678
     invoke-virtual {v1}, Lcom/rigol/scope/data/UtilityParam;->getQuickOper()Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
     move-result-object v0
@@ -10881,7 +10913,7 @@
 
     if-ne v0, v3, :cond_0
 
-    .line 4671
+    .line 4679
     invoke-virtual {v1}, Lcom/rigol/scope/data/UtilityParam;->getStatReset()Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
     move-result-object v0
@@ -10900,7 +10932,7 @@
 .method public static isRecording()Z
     .locals 3
 
-    .line 4646
+    .line 4654
     const-class v0, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -10913,7 +10945,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 4648
+    .line 4656
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -10926,14 +10958,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 4650
+    .line 4658
     invoke-virtual {v0}, Lcom/rigol/scope/data/WaveRecordParam;->readState()Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 4653
+    .line 4661
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Play_ing:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     if-eq v0, v2, :cond_0
@@ -10985,7 +11017,7 @@
 .method public static keepMaxNumberOfDigits(Ljava/lang/String;I)Ljava/lang/String;
     .locals 1
 
-    .line 4176
+    .line 4184
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -11005,7 +11037,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4180
+    .line 4188
     invoke-virtual {p0, v0, p1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
@@ -11123,48 +11155,48 @@
 .method static synthetic lambda$setTouchDelegateDelay$10(Landroid/view/View;ILandroid/view/ViewGroup;)V
     .locals 2
 
-    .line 4202
+    .line 4210
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    .line 4203
+    .line 4211
     invoke-virtual {p0, v0}, Landroid/view/View;->getHitRect(Landroid/graphics/Rect;)V
 
-    .line 4204
+    .line 4212
     iget v1, v0, Landroid/graphics/Rect;->left:I
 
     sub-int/2addr v1, p1
 
     iput v1, v0, Landroid/graphics/Rect;->left:I
 
-    .line 4205
+    .line 4213
     iget v1, v0, Landroid/graphics/Rect;->top:I
 
     sub-int/2addr v1, p1
 
     iput v1, v0, Landroid/graphics/Rect;->top:I
 
-    .line 4206
+    .line 4214
     iget v1, v0, Landroid/graphics/Rect;->right:I
 
     add-int/2addr v1, p1
 
     iput v1, v0, Landroid/graphics/Rect;->right:I
 
-    .line 4207
+    .line 4215
     iget v1, v0, Landroid/graphics/Rect;->bottom:I
 
     add-int/2addr v1, p1
 
     iput v1, v0, Landroid/graphics/Rect;->bottom:I
 
-    .line 4208
+    .line 4216
     new-instance p1, Landroid/view/TouchDelegate;
 
     invoke-direct {p1, v0, p0}, Landroid/view/TouchDelegate;-><init>(Landroid/graphics/Rect;Landroid/view/View;)V
 
-    .line 4209
+    .line 4217
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->setTouchDelegate(Landroid/view/TouchDelegate;)V
 
     return-void
@@ -11868,7 +11900,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f100376
+    const v1, 0x7f100377
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -12156,36 +12188,36 @@
         }
     .end annotation
 
-    .line 4971
+    .line 4979
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->controlEvent:Lcom/rigol/scope/utilities/ControlEvent;
 
     if-nez v0, :cond_1
 
-    .line 4972
+    .line 4980
     const-class v1, Lcom/rigol/scope/utilities/ControlEvent;
 
     monitor-enter v1
 
-    .line 4973
+    .line 4981
     :try_start_0
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->controlEvent:Lcom/rigol/scope/utilities/ControlEvent;
 
     if-nez v0, :cond_0
 
-    .line 4974
+    .line 4982
     new-instance v0, Lcom/rigol/scope/utilities/ControlEvent;
 
     invoke-direct {v0}, Lcom/rigol/scope/utilities/ControlEvent;-><init>()V
 
     sput-object v0, Lcom/rigol/scope/utilities/ViewUtil;->controlEvent:Lcom/rigol/scope/utilities/ControlEvent;
 
-    .line 4976
+    .line 4984
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4977
+    .line 4985
     sget-object v0, Lcom/rigol/scope/utilities/ViewUtil;->controlEvent:Lcom/rigol/scope/utilities/ControlEvent;
 
     invoke-virtual {v0, p0, p1}, Lcom/rigol/scope/utilities/ControlEvent;->onMessage(FF)V
@@ -12195,7 +12227,7 @@
     :catchall_0
     move-exception p0
 
-    .line 4976
+    .line 4984
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -12203,7 +12235,7 @@
 
     throw p0
 
-    .line 4979
+    .line 4987
     :cond_1
     invoke-virtual {v0, p0, p1}, Lcom/rigol/scope/utilities/ControlEvent;->onMessage(FF)V
 
@@ -12676,7 +12708,7 @@
 
     const/4 v0, 0x0
 
-    .line 4184
+    .line 4192
     invoke-static {p0, p1, p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setTouchDelegateDelay(Landroid/view/View;Landroid/view/ViewGroup;II)V
 
     return-void
@@ -12691,7 +12723,7 @@
 
     goto :goto_0
 
-    .line 4200
+    .line 4208
     :cond_0
     new-instance v0, Lcom/rigol/scope/utilities/-$$Lambda$ViewUtil$dFMHMdEleSJJGvKQynvadU_smUU;
 
@@ -14096,7 +14128,7 @@
 
     return v0
 
-    .line 4136
+    .line 4144
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -14114,7 +14146,7 @@
 
     return v3
 
-    .line 4139
+    .line 4147
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -14124,7 +14156,7 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 4140
+    .line 4148
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14141,7 +14173,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4141
+    .line 4149
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14150,7 +14182,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4142
+    .line 4150
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14159,7 +14191,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4143
+    .line 4151
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14168,7 +14200,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4144
+    .line 4152
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14177,7 +14209,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4145
+    .line 4153
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14186,7 +14218,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4146
+    .line 4154
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14195,7 +14227,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4147
+    .line 4155
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14204,7 +14236,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4148
+    .line 4156
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14213,7 +14245,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4149
+    .line 4157
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14222,7 +14254,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4150
+    .line 4158
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14231,7 +14263,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4151
+    .line 4159
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14240,7 +14272,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4152
+    .line 4160
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14249,7 +14281,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4153
+    .line 4161
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14258,7 +14290,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4154
+    .line 4162
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14267,7 +14299,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4155
+    .line 4163
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14276,7 +14308,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4156
+    .line 4164
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -14285,7 +14317,7 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 4158
+    .line 4166
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v1
@@ -14321,13 +14353,13 @@
 
     return v0
 
-    .line 4124
+    .line 4132
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p0
 
-    .line 4125
+    .line 4133
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Over:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     if-eq p0, v1, :cond_1
@@ -14354,7 +14386,7 @@
 .method public static subNumber(Ljava/lang/String;I)Ljava/lang/String;
     .locals 5
 
-    .line 4222
+    .line 4230
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -14363,7 +14395,7 @@
 
     return-object p0
 
-    .line 4227
+    .line 4235
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -14376,12 +14408,12 @@
     :cond_1
     const-string v0, "-"
 
-    .line 4234
+    .line 4242
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
 
-    .line 4238
+    .line 4246
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -14402,24 +14434,24 @@
 
     move-result-object v2
 
-    .line 4239
+    .line 4247
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v2
 
-    .line 4240
+    .line 4248
     invoke-virtual {v2, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v2
 
-    .line 4243
+    .line 4251
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v3
 
     if-eqz v3, :cond_4
 
-    .line 4244
+    .line 4252
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->start()I
 
     move-result v3
@@ -14432,7 +14464,7 @@
 
     move-result-object v2
 
-    .line 4246
+    .line 4254
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -14441,31 +14473,31 @@
 
     const-string v3, "[a-zA-Z]+"
 
-    .line 4248
+    .line 4256
     invoke-static {v3}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v3
 
-    .line 4249
+    .line 4257
     invoke-virtual {v3, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v3
 
     const/4 v4, 0x0
 
-    .line 4250
+    .line 4258
     invoke-virtual {v2, v4, p1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4254
+    .line 4262
     invoke-virtual {v3}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 4256
+    .line 4264
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -14493,7 +14525,7 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    .line 4265
+    .line 4273
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -14518,7 +14550,7 @@
 .method public static switchToast(IZ)V
     .locals 2
 
-    .line 4108
+    .line 4116
     invoke-static {p0}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -14527,14 +14559,14 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f100187
+    const p1, 0x7f100188
 
-    .line 4110
+    .line 4118
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4111
+    .line 4119
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -14554,14 +14586,14 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f100186
+    const p1, 0x7f100187
 
-    .line 4113
+    .line 4121
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4114
+    .line 4122
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

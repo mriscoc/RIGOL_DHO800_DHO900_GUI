@@ -41,7 +41,7 @@
     .line 137
     iget-object v0, p0, Lcom/rigol/scope/views/alert/ShutDownPoupView;->context:Landroid/content/Context;
 
-    const v1, 0x7f100c92
+    const v1, 0x7f100c94
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -52,7 +52,7 @@
     .line 138
     iget-object v0, p0, Lcom/rigol/scope/views/alert/ShutDownPoupView;->context:Landroid/content/Context;
 
-    const v1, 0x7f100bb4
+    const v1, 0x7f100bb6
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewAlertBinding;->title:Landroid/widget/TextView;
 
-    const v1, 0x7f100c92
+    const v1, 0x7f100c94
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -139,7 +139,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewAlertBinding;->content:Landroid/widget/TextView;
 
-    const v1, 0x7f100bb4
+    const v1, 0x7f100bb6
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

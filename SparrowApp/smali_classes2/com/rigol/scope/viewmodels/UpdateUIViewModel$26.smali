@@ -63,7 +63,7 @@
 
     move-result p1
 
-    const v0, 0x7f100f27
+    const v0, 0x7f100f29
 
     invoke-static {v0, p1}, Lcom/rigol/scope/utilities/ViewUtil;->switchToast(IZ)V
 

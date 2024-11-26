@@ -3086,21 +3086,21 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f100f32
+    const v0, 0x7f100f34
 
     .line 808
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f100f2b
+    const v1, 0x7f100f2d
 
     .line 809
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f100f2a
+    const v2, 0x7f100f2c
 
     .line 810
     invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;

@@ -599,7 +599,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2f6
+    const/16 v0, 0x2f8
 
     if-ne p2, v0, :cond_1
 
@@ -671,7 +671,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x95
+    const/16 v0, 0x96
 
     if-ne p2, v0, :cond_1
 
@@ -703,7 +703,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x382
+    const/16 v0, 0x384
 
     if-ne p2, v0, :cond_2
 
@@ -735,7 +735,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x110
+    const/16 v0, 0x111
 
     if-ne p2, v0, :cond_3
 
@@ -767,7 +767,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x364
+    const/16 v0, 0x366
 
     if-ne p2, v0, :cond_4
 
@@ -799,7 +799,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x2ac
+    const/16 v0, 0x2ae
 
     if-ne p2, v0, :cond_5
 
@@ -831,7 +831,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x3c
+    const/16 v0, 0x3d
 
     if-ne p2, v0, :cond_6
 
@@ -863,7 +863,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x431
+    const/16 v0, 0x433
 
     if-ne p2, v0, :cond_7
 
@@ -895,7 +895,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x3d9
+    const/16 v0, 0x3db
 
     if-ne p2, v0, :cond_8
 
@@ -927,7 +927,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x2cd
+    const/16 v0, 0x2cf
 
     if-ne p2, v0, :cond_9
 
@@ -959,7 +959,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x306
+    const/16 v0, 0x308
 
     if-ne p2, v0, :cond_a
 
@@ -991,7 +991,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x37e
+    const/16 v0, 0x380
 
     if-ne p2, v0, :cond_b
 
@@ -1023,7 +1023,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x26b
+    const/16 v0, 0x26c
 
     if-ne p2, v0, :cond_c
 
@@ -2828,7 +2828,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17a
+    const/16 p1, 0x17b
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->notifyPropertyChanged(I)V
@@ -2879,7 +2879,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 150
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->notifyPropertyChanged(I)V
@@ -2904,7 +2904,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 
@@ -2916,7 +2916,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x17a
+    const/16 v0, 0x17b
 
     if-ne v0, p1, :cond_1
 

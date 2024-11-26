@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9949
+    .line 9951
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
     const-string v1, "DISP_WAVE"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->DISP_WAVE:Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
-    .line 9950
+    .line 9952
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
     const-string v9, "DISP_TABLE"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
-    .line 9947
+    .line 9949
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->DISP_WAVE:Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 9953
+    .line 9955
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9954
+    .line 9956
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->value1:I
 
-    .line 9955
+    .line 9957
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->value2:Ljava/lang/String;
 
-    .line 9956
+    .line 9958
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->pic1:Ljava/lang/String;
 
-    .line 9957
+    .line 9959
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
     .locals 1
 
-    .line 9947
+    .line 9949
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
     .locals 1
 
-    .line 9947
+    .line 9949
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BodeDispType;->clone()Ljava/lang/Object;

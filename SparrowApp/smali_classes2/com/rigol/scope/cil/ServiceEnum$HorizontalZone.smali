@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1273
+    .line 1275
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
     const-string v1, "horizontal_time_zone"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->horizontal_time_zone:Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
-    .line 1274
+    .line 1276
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
     const-string v9, "horizontal_freq_zone"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
-    .line 1271
+    .line 1273
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->horizontal_time_zone:Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 1277
+    .line 1279
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1278
+    .line 1280
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->value1:I
 
-    .line 1279
+    .line 1281
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->value2:Ljava/lang/String;
 
-    .line 1280
+    .line 1282
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->pic1:Ljava/lang/String;
 
-    .line 1281
+    .line 1283
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
     .locals 1
 
-    .line 1271
+    .line 1273
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
     .locals 1
 
-    .line 1271
+    .line 1273
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HorizontalZone;->clone()Ljava/lang/Object;

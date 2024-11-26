@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7024
+    .line 7026
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     const-string v1, "FPGA_TopBase_Auto"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->FPGA_TopBase_Auto:Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
-    .line 7025
+    .line 7027
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     const-string v9, "FPGA_TopBase_Hist"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->FPGA_TopBase_Hist:Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
-    .line 7026
+    .line 7028
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     const-string v2, "FPGA_TopBase_MaxMin"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
-    .line 7022
+    .line 7024
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->FPGA_TopBase_Auto:Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 7029
+    .line 7031
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7030
+    .line 7032
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->value1:I
 
-    .line 7031
+    .line 7033
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->value2:Ljava/lang/String;
 
-    .line 7032
+    .line 7034
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->pic1:Ljava/lang/String;
 
-    .line 7033
+    .line 7035
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
     .locals 1
 
-    .line 7022
+    .line 7024
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
     .locals 1
 
-    .line 7022
+    .line 7024
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FPGATopBaseMethod;->clone()Ljava/lang/Object;

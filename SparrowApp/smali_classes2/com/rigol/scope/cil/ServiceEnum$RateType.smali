@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8003
+    .line 8005
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     const-string v1, "Clock_Auto"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RateType;->Clock_Auto:Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
-    .line 8005
+    .line 8007
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     const-string v9, "Clock_Semi"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RateType;->Clock_Semi:Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
-    .line 8006
+    .line 8008
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     const-string v2, "Clock_Manu"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
-    .line 8000
+    .line 8002
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RateType;->Clock_Auto:Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 8009
+    .line 8011
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8010
+    .line 8012
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RateType;->value1:I
 
-    .line 8011
+    .line 8013
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RateType;->value2:Ljava/lang/String;
 
-    .line 8012
+    .line 8014
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RateType;->pic1:Ljava/lang/String;
 
-    .line 8013
+    .line 8015
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RateType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RateType;
     .locals 1
 
-    .line 8000
+    .line 8002
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RateType;
     .locals 1
 
-    .line 8000
+    .line 8002
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RateType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RateType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RateType;->clone()Ljava/lang/Object;

@@ -366,7 +366,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x257
+    const/16 v0, 0x258
 
     if-ne v0, p1, :cond_0
 

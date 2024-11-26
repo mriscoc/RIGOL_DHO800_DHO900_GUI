@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1484
+    .line 1486
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     const-string v1, "Horizontal_Expand_Center"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->Horizontal_Expand_Center:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    .line 1485
+    .line 1487
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     const-string v9, "Horizontal_Expand_LB"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->Horizontal_Expand_LB:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    .line 1486
+    .line 1488
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     const-string v2, "Horizontal_Expand_RB"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->Horizontal_Expand_RB:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    .line 1487
+    .line 1489
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     const-string v9, "Horizontal_Expand_Trig"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->Horizontal_Expand_Trig:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    .line 1488
+    .line 1490
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     const-string v2, "Horizontal_Expand_User"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
-    .line 1482
+    .line 1484
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->Horizontal_Expand_Center:Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 1491
+    .line 1493
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1492
+    .line 1494
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->value1:I
 
-    .line 1493
+    .line 1495
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->value2:Ljava/lang/String;
 
-    .line 1494
+    .line 1496
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->pic1:Ljava/lang/String;
 
-    .line 1495
+    .line 1497
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
     .locals 1
 
-    .line 1482
+    .line 1484
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
     .locals 1
 
-    .line 1482
+    .line 1484
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HorizontalExpand;->clone()Ljava/lang/Object;

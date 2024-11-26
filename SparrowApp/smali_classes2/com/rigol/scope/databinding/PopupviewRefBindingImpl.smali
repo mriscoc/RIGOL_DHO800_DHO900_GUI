@@ -502,7 +502,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2c8
+    const/16 v0, 0x2ca
 
     if-ne p2, v0, :cond_1
 
@@ -534,7 +534,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne p2, v0, :cond_2
 
@@ -566,7 +566,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x33a
+    const/16 v0, 0x33c
 
     if-ne p2, v0, :cond_3
 
@@ -638,7 +638,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x37f
+    const/16 v0, 0x381
 
     if-ne p2, v0, :cond_1
 
@@ -670,7 +670,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3fa
+    const/16 v0, 0x3fc
 
     if-ne p2, v0, :cond_2
 
@@ -702,7 +702,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x3d9
+    const/16 v0, 0x3db
 
     if-ne p2, v0, :cond_3
 
@@ -734,7 +734,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3f9
+    const/16 v0, 0x3fb
 
     if-ne p2, v0, :cond_4
 
@@ -766,7 +766,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x1da
+    const/16 v0, 0x1db
 
     if-ne p2, v0, :cond_5
 
@@ -798,7 +798,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x2ca
+    const/16 v0, 0x2cc
 
     if-ne p2, v0, :cond_6
 
@@ -870,7 +870,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x239
+    const/16 v0, 0x23a
 
     if-ne p2, v0, :cond_1
 
@@ -902,7 +902,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x37f
+    const/16 v0, 0x381
 
     if-ne p2, v0, :cond_2
 
@@ -2192,7 +2192,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewRefBindingImpl;->notifyPropertyChanged(I)V
@@ -2217,7 +2217,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 

@@ -91,27 +91,27 @@
 .method public constructor <init>(ILcom/rigol/scope/views/baseview/BasePopupView;Lcom/rigol/scope/data/AfgParam;)V
     .locals 0
 
-    .line 620
+    .line 710
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapterDelegate;-><init>(I)V
 
-    .line 608
+    .line 698
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
-    .line 616
+    .line 706
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
-    .line 621
+    .line 711
     iput-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
-    .line 622
+    .line 712
     iput-object p3, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     return-void
@@ -120,7 +120,7 @@
 .method static synthetic access$100(Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;)Ljava/util/List;
     .locals 0
 
-    .line 602
+    .line 692
     iget-object p0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     return-object p0
@@ -129,7 +129,7 @@
 .method private getIsMove()Z
     .locals 1
 
-    .line 1084
+    .line 1174
     iget-boolean v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->isMove:Z
 
     return v0
@@ -140,7 +140,7 @@
 
     if-nez p1, :cond_0
 
-    .line 1067
+    .line 1157
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     const/4 v0, 0x3
@@ -156,21 +156,21 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1070
+    .line 1160
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     const/4 v1, 0x2
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/utilities/AorBManager;->set_RadioButton(II)V
 
-    .line 1071
+    .line 1161
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/utilities/AorBManager;->set_RadioButton(II)V
 
     goto :goto_0
 
-    .line 1073
+    .line 1163
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -189,7 +189,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 602
+    .line 692
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -210,7 +210,7 @@
         }
     .end annotation
 
-    .line 843
+    .line 933
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -237,7 +237,7 @@
 .method public synthetic lambda$onBindViewHolder$10$AfgAwgViewPagerAdapter$AwgBasicDelegate(Landroid/view/KeyEvent;)V
     .locals 11
 
-    .line 902
+    .line 992
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -250,7 +250,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 903
+    .line 993
     iget-object v1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     iget-object v3, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->clickedView:Landroid/view/View;
@@ -284,7 +284,7 @@
 .method public synthetic lambda$onBindViewHolder$8$AfgAwgViewPagerAdapter$AwgBasicDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
-    .line 904
+    .line 994
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
     return-void
@@ -293,7 +293,7 @@
 .method public synthetic lambda$onBindViewHolder$9$AfgAwgViewPagerAdapter$AwgBasicDelegate(ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 905
+    .line 995
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
@@ -308,16 +308,16 @@
 .method public synthetic lambda$onClick$0$AfgAwgViewPagerAdapter$AwgBasicDelegate(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 632
+    .line 722
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 633
+    .line 723
     iput-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 634
+    .line 724
     iput-object p3, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->mappingObjects:Ljava/util/List;
 
-    .line 635
+    .line 725
     iput-object p4, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->clickedView:Landroid/view/View;
 
     return-void
@@ -326,7 +326,7 @@
 .method public synthetic lambda$onClick$1$AfgAwgViewPagerAdapter$AwgBasicDelegate(Ljava/util/List;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 639
+    .line 729
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -341,7 +341,7 @@
 
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/AfgParam;->saveAfgWaveModType(I)V
 
-    .line 640
+    .line 730
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -360,16 +360,16 @@
 .method public synthetic lambda$onClick$2$AfgAwgViewPagerAdapter$AwgBasicDelegate(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 647
+    .line 737
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 648
+    .line 738
     iput-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 649
+    .line 739
     iput-object p3, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->mappingObjects:Ljava/util/List;
 
-    .line 650
+    .line 740
     iput-object p4, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->clickedView:Landroid/view/View;
 
     return-void
@@ -378,7 +378,7 @@
 .method public synthetic lambda$onClick$3$AfgAwgViewPagerAdapter$AwgBasicDelegate(Ljava/util/List;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 654
+    .line 744
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -399,16 +399,16 @@
 .method public synthetic lambda$onClick$4$AfgAwgViewPagerAdapter$AwgBasicDelegate(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 802
+    .line 892
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 803
+    .line 893
     iput-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 804
+    .line 894
     iput-object p3, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->mappingObjects:Ljava/util/List;
 
-    .line 805
+    .line 895
     iput-object p4, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->clickedView:Landroid/view/View;
 
     return-void
@@ -427,7 +427,7 @@
 
     aput-object p5, p2, p3
 
-    .line 808
+    .line 898
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -448,7 +448,7 @@
 
     invoke-static {p2}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
-    .line 809
+    .line 899
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -469,16 +469,16 @@
 .method public synthetic lambda$onClick$6$AfgAwgViewPagerAdapter$AwgBasicDelegate(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 817
+    .line 907
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 818
+    .line 908
     iput-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 819
+    .line 909
     iput-object p3, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->mappingObjects:Ljava/util/List;
 
-    .line 820
+    .line 910
     iput-object p4, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->clickedView:Landroid/view/View;
 
     return-void
@@ -497,7 +497,7 @@
 
     aput-object p5, p2, p3
 
-    .line 823
+    .line 913
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -518,7 +518,7 @@
 
     invoke-static {p2}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
-    .line 824
+    .line 914
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-interface {p1, p4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -539,7 +539,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 602
+    .line 692
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -562,7 +562,7 @@
         }
     .end annotation
 
-    .line 848
+    .line 938
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -571,82 +571,82 @@
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
-    .line 849
+    .line 939
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 850
+    .line 940
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->sourceTypeSpinner:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 851
+    .line 941
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->waveTypeSpinner:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 852
+    .line 942
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->basicAmpEdit:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 853
+    .line 943
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->rangeEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 854
+    .line 944
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->rangeDepthEdit:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 855
+    .line 945
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->phaseEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 856
+    .line 946
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->phaseDepthEdit:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 857
+    .line 947
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->waveTypefmSpinner:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 858
+    .line 948
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->waveTypepmSpinner:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 859
+    .line 949
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 862
+    .line 952
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -669,7 +669,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 864
+    .line 954
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -686,7 +686,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 865
+    .line 955
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -703,7 +703,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 866
+    .line 956
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -720,7 +720,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 867
+    .line 957
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -737,7 +737,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 868
+    .line 958
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -754,7 +754,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 869
+    .line 959
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -775,7 +775,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 870
+    .line 960
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -794,7 +794,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 871
+    .line 961
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->list_aorbParam:Ljava/util/List;
 
     new-instance p2, Lcom/rigol/scope/data/AorBParam;
@@ -813,7 +813,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 872
+    .line 962
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
@@ -822,7 +822,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 873
+    .line 963
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
@@ -831,7 +831,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 874
+    .line 964
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
@@ -840,7 +840,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 875
+    .line 965
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
@@ -849,7 +849,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 876
+    .line 966
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
@@ -858,7 +858,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 877
+    .line 967
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->listViewText:Ljava/util/List;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
@@ -867,21 +867,21 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 880
+    .line 970
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/databinding/AdapterAwgBinding;->setParam(Lcom/rigol/scope/data/AfgParam;)V
 
-    .line 881
+    .line 971
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->adapterAfgBinding:Lcom/rigol/scope/databinding/AdapterAwgBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterAwgBinding;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 882
+    .line 972
     new-instance p1, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate$7;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
@@ -908,7 +908,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
-    .line 894
+    .line 984
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {p2}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -929,7 +929,7 @@
 
     invoke-virtual {p1, p2, p3, v0, v1}, Lcom/rigol/scope/utilities/AorBManager;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
 
-    .line 895
+    .line 985
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
@@ -950,7 +950,7 @@
 
     invoke-virtual {p1, p2, p3, v0, v1}, Lcom/rigol/scope/utilities/AorBManager;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
 
-    .line 897
+    .line 987
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     const/4 p2, 0x3
@@ -959,7 +959,7 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/utilities/AorBManager;->set_RadioButton(II)V
 
-    .line 898
+    .line 988
     const-class p1, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -972,7 +972,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 900
+    .line 990
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -989,7 +989,7 @@
 
     invoke-virtual {p1, p2, p3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 911
+    .line 1001
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1005,7 +1005,7 @@
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 835
+    .line 925
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -1014,7 +1014,7 @@
 
     return-void
 
-    .line 838
+    .line 928
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1026,7 +1026,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 14
 
-    .line 627
+    .line 717
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v0
@@ -1037,13 +1037,13 @@
 
     goto/16 :goto_0
 
-    .line 814
+    .line 904
     :sswitch_0
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 815
+    .line 905
     iget-object v1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1062,13 +1062,13 @@
 
     goto/16 :goto_0
 
-    .line 799
+    .line 889
     :sswitch_1
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 800
+    .line 890
     iget-object v1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1087,13 +1087,13 @@
 
     goto/16 :goto_0
 
-    .line 644
+    .line 734
     :sswitch_2
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 645
+    .line 735
     iget-object v1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1115,12 +1115,12 @@
     :sswitch_3
     const v0, 0x7f030022
 
-    .line 629
+    .line 719
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    .line 630
+    .line 720
     iget-object v1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1139,7 +1139,7 @@
 
     goto/16 :goto_0
 
-    .line 705
+    .line 795
     :sswitch_4
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -1153,7 +1153,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 706
+    .line 796
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1162,14 +1162,14 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 707
+    .line 797
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfgFreqUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v3
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 708
+    .line 798
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_pm_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1180,7 +1180,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 709
+    .line 799
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_pm_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1191,7 +1191,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 710
+    .line 800
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_pm_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1202,7 +1202,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 711
+    .line 801
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_fm_freq()J
 
     move-result-wide v10
@@ -1213,12 +1213,12 @@
 
     move-object v2, p1
 
-    .line 706
+    .line 796
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_0
 
-    .line 682
+    .line 772
     :sswitch_5
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -1232,7 +1232,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 683
+    .line 773
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1243,7 +1243,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 685
+    .line 775
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_range_depthAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1258,7 +1258,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 686
+    .line 776
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_range_depthAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1271,7 +1271,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 687
+    .line 777
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_range_depthAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1284,7 +1284,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 688
+    .line 778
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_am_depth()J
 
     move-result-wide v12
@@ -1303,12 +1303,12 @@
 
     move-object v12, v0
 
-    .line 683
+    .line 773
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_0
 
-    .line 753
+    .line 843
     :sswitch_6
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -1322,7 +1322,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 754
+    .line 844
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1331,14 +1331,14 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 755
+    .line 845
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfgFreqUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v3
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 756
+    .line 846
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_pm_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1349,7 +1349,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 757
+    .line 847
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_pm_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1360,7 +1360,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 758
+    .line 848
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_pm_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1371,7 +1371,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 759
+    .line 849
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_pm_freq()J
 
     move-result-wide v10
@@ -1382,12 +1382,12 @@
 
     move-object v2, p1
 
-    .line 754
+    .line 844
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_0
 
-    .line 776
+    .line 866
     :sswitch_7
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -1401,7 +1401,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 777
+    .line 867
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1412,7 +1412,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 779
+    .line 869
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_mod_pm_devAtty()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1423,7 +1423,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 780
+    .line 870
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_mod_pm_devAtty()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1434,7 +1434,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 781
+    .line 871
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_mod_pm_devAtty()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1445,7 +1445,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 782
+    .line 872
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_pm_dev()J
 
     move-result-wide v10
@@ -1456,12 +1456,12 @@
 
     move-object v2, p1
 
-    .line 777
+    .line 867
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_0
 
-    .line 659
+    .line 749
     :sswitch_8
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -1475,7 +1475,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 660
+    .line 750
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1484,14 +1484,14 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 661
+    .line 751
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfgFreqUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v3
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 662
+    .line 752
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_am_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1502,7 +1502,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 663
+    .line 753
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_am_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1513,7 +1513,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 664
+    .line 754
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_am_freqAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1524,7 +1524,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 665
+    .line 755
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_am_freq()J
 
     move-result-wide v10
@@ -1535,18 +1535,18 @@
 
     move-object v2, p1
 
-    .line 660
+    .line 750
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto :goto_0
 
-    .line 728
+    .line 818
     :sswitch_9
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->readWaveModFmDeviationAttr()V
 
-    .line 729
+    .line 819
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
@@ -1559,7 +1559,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 730
+    .line 820
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->popupView:Lcom/rigol/scope/views/baseview/BasePopupView;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/baseview/BasePopupView;->getAnchor()Landroid/view/View;
@@ -1570,7 +1570,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 732
+    .line 822
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_fm_devAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1581,7 +1581,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 733
+    .line 823
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_fm_devAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1592,7 +1592,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 734
+    .line 824
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_fm_devAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1603,7 +1603,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    .line 735
+    .line 825
     invoke-virtual {v0}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_fm_deviation()J
 
     move-result-wide v10
@@ -1614,7 +1614,7 @@
 
     move-object v2, p1
 
-    .line 730
+    .line 820
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     :cond_0
@@ -1641,7 +1641,7 @@
 .method public onResetDefault(I)V
     .locals 2
 
-    .line 991
+    .line 1081
     invoke-direct {p0}, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->getIsMove()Z
 
     move-result v0
@@ -1663,7 +1663,7 @@
 
     goto :goto_0
 
-    .line 1027
+    .line 1117
     :sswitch_0
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1679,7 +1679,7 @@
 
     goto :goto_0
 
-    .line 1003
+    .line 1093
     :sswitch_1
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1695,7 +1695,7 @@
 
     goto :goto_0
 
-    .line 1042
+    .line 1132
     :sswitch_2
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1711,7 +1711,7 @@
 
     goto :goto_0
 
-    .line 1049
+    .line 1139
     :sswitch_3
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1727,7 +1727,7 @@
 
     goto :goto_0
 
-    .line 999
+    .line 1089
     :sswitch_4
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1743,13 +1743,13 @@
 
     goto :goto_0
 
-    .line 1032
+    .line 1122
     :sswitch_5
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->readWaveModFmDeviationAttr()V
 
-    .line 1035
+    .line 1125
     iget-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->getAfg_wave_fm_devAttr()Lcom/rigol/scope/cil/MessageAttr;
@@ -1780,7 +1780,7 @@
 .method public onViewIdCallback(Landroid/view/KeyEvent;IZ)V
     .locals 8
 
-    .line 916
+    .line 1006
     invoke-direct {p0}, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->getIsMove()Z
 
     move-result v0
@@ -1802,7 +1802,7 @@
 
     goto/16 :goto_0
 
-    .line 952
+    .line 1042
     :sswitch_0
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1830,7 +1830,7 @@
 
     goto/16 :goto_0
 
-    .line 928
+    .line 1018
     :sswitch_1
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1858,7 +1858,7 @@
 
     goto/16 :goto_0
 
-    .line 967
+    .line 1057
     :sswitch_2
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1886,7 +1886,7 @@
 
     goto :goto_0
 
-    .line 974
+    .line 1064
     :sswitch_3
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1914,7 +1914,7 @@
 
     goto :goto_0
 
-    .line 924
+    .line 1014
     :sswitch_4
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
@@ -1942,13 +1942,13 @@
 
     goto :goto_0
 
-    .line 957
+    .line 1047
     :sswitch_5
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/AfgParam;->readWaveModFmDeviationAttr()V
 
-    .line 960
+    .line 1050
     iget-object p2, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/AfgParam;->getWave_mod_fm_deviation()J
@@ -1991,7 +1991,7 @@
 .method public setIsMove(Z)V
     .locals 0
 
-    .line 1080
+    .line 1170
     iput-boolean p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AwgBasicDelegate;->isMove:Z
 
     return-void

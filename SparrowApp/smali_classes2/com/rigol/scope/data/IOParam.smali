@@ -1785,7 +1785,7 @@
     .line 124
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setValid(Z)V
 
-    const/16 p1, 0x3d
+    const/16 p1, 0x3e
 
     .line 126
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -1819,7 +1819,7 @@
     .line 112
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setValid(Z)V
 
-    const/16 p1, 0xd4
+    const/16 p1, 0xd5
 
     .line 114
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -1854,7 +1854,7 @@
     :cond_0
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->dns:Ljava/lang/String;
 
-    const/16 p1, 0xf4
+    const/16 p1, 0xf5
 
     .line 265
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -1916,7 +1916,7 @@
     .line 243
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->gateway:Ljava/lang/String;
 
-    const/16 p1, 0x161
+    const/16 p1, 0x162
 
     .line 244
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -1982,7 +1982,7 @@
     .line 354
     iput p1, p0, Lcom/rigol/scope/data/IOParam;->gpib:I
 
-    const/16 p1, 0x163
+    const/16 p1, 0x164
 
     .line 355
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2030,7 +2030,7 @@
     .line 365
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->gpibStr:Ljava/lang/String;
 
-    const/16 p1, 0x164
+    const/16 p1, 0x165
 
     .line 366
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2055,7 +2055,7 @@
     .line 330
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->hostName:Ljava/lang/String;
 
-    const/16 p1, 0x17e
+    const/16 p1, 0x17f
 
     .line 331
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2107,7 +2107,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->ipAddress:Ljava/lang/String;
 
-    const/16 p1, 0x1be
+    const/16 p1, 0x1bf
 
     .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2248,7 +2248,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->macAddress:Ljava/lang/String;
 
-    const/16 p1, 0x200
+    const/16 p1, 0x201
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2273,7 +2273,7 @@
     .line 389
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->manufacturer:Ljava/lang/String;
 
-    const/16 p1, 0x205
+    const/16 p1, 0x206
 
     .line 390
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2316,7 +2316,7 @@
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->mask:Ljava/lang/String;
 
     :goto_0
-    const/16 p1, 0x208
+    const/16 p1, 0x209
 
     .line 228
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2382,7 +2382,7 @@
     .line 318
     iput-boolean p1, p0, Lcom/rigol/scope/data/IOParam;->mdns:Z
 
-    const/16 p1, 0x20d
+    const/16 p1, 0x20e
 
     .line 319
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2411,7 +2411,7 @@
     .line 101
     iput p1, p0, Lcom/rigol/scope/data/IOParam;->select:I
 
-    const/16 p1, 0x311
+    const/16 p1, 0x313
 
     .line 102
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2436,7 +2436,7 @@
     .line 378
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->serviceName:Ljava/lang/String;
 
-    const/16 p1, 0x329
+    const/16 p1, 0x32b
 
     .line 379
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2470,7 +2470,7 @@
     .line 136
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setValid(Z)V
 
-    const/16 p1, 0x389
+    const/16 p1, 0x38b
 
     .line 138
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2495,7 +2495,7 @@
     .line 86
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->status:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    const/16 p1, 0x38b
+    const/16 p1, 0x38d
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2524,7 +2524,7 @@
     .line 169
     iput-boolean p1, p0, Lcom/rigol/scope/data/IOParam;->valid:Z
 
-    const/16 p1, 0x3f4
+    const/16 p1, 0x3f6
 
     .line 170
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2549,7 +2549,7 @@
     .line 74
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->visaAddress:Ljava/lang/String;
 
-    const/16 p1, 0x408
+    const/16 p1, 0x40a
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V

@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3530
+    .line 3532
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     const-string v1, "trig_1553_err_sync"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->trig_1553_err_sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
-    .line 3531
+    .line 3533
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     const-string v9, "trig_1553_err_check"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->trig_1553_err_check:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
-    .line 3532
+    .line 3534
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     const-string v2, "trig_1553_err_manchester"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->trig_1553_err_manchester:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
-    .line 3533
+    .line 3535
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     const-string v9, "trig_1553_err_trans_data_interval"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
-    .line 3528
+    .line 3530
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->trig_1553_err_sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 3536
+    .line 3538
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3537
+    .line 3539
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->value1:I
 
-    .line 3538
+    .line 3540
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->value2:Ljava/lang/String;
 
-    .line 3539
+    .line 3541
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->pic1:Ljava/lang/String;
 
-    .line 3540
+    .line 3542
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
     .locals 1
 
-    .line 3528
+    .line 3530
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
     .locals 1
 
-    .line 3528
+    .line 3530
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;->clone()Ljava/lang/Object;

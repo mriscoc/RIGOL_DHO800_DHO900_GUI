@@ -72,17 +72,29 @@
 
 # virtual methods
 .method public final onChanged(Ljava/lang/Object;)V
-    .locals 1
+    .locals 2
 
     .line 942
-    instance-of v0, p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
+    instance-of v0, p1, Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
     .line 944
     iget-object v0, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;->this$0:Lcom/rigol/scope/views/grid/WaveformGridRulderView;
 
-    check-cast p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
+    check-cast p1, Ljava/lang/Number;
+
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+
+    move-result p1
+
+    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getEWaveGridsFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
+
+    move-result-object p1
+
+    const-string v1, "ServiceEnum.getEWaveGridsFromValue1(t)"
+
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 

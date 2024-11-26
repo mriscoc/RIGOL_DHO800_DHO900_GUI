@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7797
+    .line 7799
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     const-string v1, "Timer_Player"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->Timer_Player:Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
-    .line 7799
+    .line 7801
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     const-string v9, "Timer_Config"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->Timer_Config:Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
-    .line 7801
+    .line 7803
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     const-string v2, "Timer_Once"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
-    .line 7794
+    .line 7796
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->Timer_Player:Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 7804
+    .line 7806
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7805
+    .line 7807
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->value1:I
 
-    .line 7806
+    .line 7808
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->value2:Ljava/lang/String;
 
-    .line 7807
+    .line 7809
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->pic1:Ljava/lang/String;
 
-    .line 7808
+    .line 7810
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
     .locals 1
 
-    .line 7794
+    .line 7796
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
     .locals 1
 
-    .line 7794
+    .line 7796
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EngineTimer;->clone()Ljava/lang/Object;

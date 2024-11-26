@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2730
+    .line 2732
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v1, "trig_lin_sync"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2731
+    .line 2733
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v9, "trig_lin_id"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2732
+    .line 2734
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v2, "trig_lin_data"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2733
+    .line 2735
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v9, "trig_lin_id_data"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_id_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2734
+    .line 2736
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v2, "trig_lin_sleep"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_sleep:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2735
+    .line 2737
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v9, "trig_lin_wakeup"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_wakeup:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2736
+    .line 2738
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const-string v2, "trig_lin_err"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    .line 2728
+    .line 2730
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->trig_lin_sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 2739
+    .line 2741
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2740
+    .line 2742
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->value1:I
 
-    .line 2741
+    .line 2743
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->value2:Ljava/lang/String;
 
-    .line 2742
+    .line 2744
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->pic1:Ljava/lang/String;
 
-    .line 2743
+    .line 2745
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
     .locals 1
 
-    .line 2728
+    .line 2730
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
     .locals 1
 
-    .line 2728
+    .line 2730
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;->clone()Ljava/lang/Object;

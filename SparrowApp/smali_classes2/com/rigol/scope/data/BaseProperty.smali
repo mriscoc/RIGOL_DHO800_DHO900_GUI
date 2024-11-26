@@ -1106,7 +1106,7 @@
     .line 96
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BaseProperty;->onSet(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     .line 100
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BaseProperty;->notifyPropertyChanged(I)V

@@ -174,7 +174,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5060
+    .line 5062
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v1, "scpi_event_ch1_overload"
@@ -195,7 +195,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch1_overload:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5061
+    .line 5063
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ch2_overload"
@@ -216,7 +216,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch2_overload:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5062
+    .line 5064
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ch3_overload"
@@ -237,7 +237,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch3_overload:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5063
+    .line 5065
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ch4_overload"
@@ -258,7 +258,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch4_overload:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5064
+    .line 5066
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ext_overload"
@@ -279,7 +279,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ext_overload:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5065
+    .line 5067
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ch1_fault"
@@ -300,7 +300,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch1_fault:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5066
+    .line 5068
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ch2_fault"
@@ -321,7 +321,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch2_fault:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5067
+    .line 5069
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ch3_fault"
@@ -342,7 +342,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch3_fault:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5068
+    .line 5070
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ch4_fault"
@@ -363,7 +363,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch4_fault:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5069
+    .line 5071
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ext_fault"
@@ -384,7 +384,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ext_fault:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5070
+    .line 5072
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_mask_complete"
@@ -405,7 +405,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_mask_complete:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5071
+    .line 5073
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_mask_fail"
@@ -426,7 +426,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_mask_fail:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5072
+    .line 5074
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_mask_started"
@@ -447,7 +447,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_mask_started:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5073
+    .line 5075
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_io_complete"
@@ -468,7 +468,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_io_complete:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5074
+    .line 5076
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_io_fail"
@@ -489,7 +489,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_io_fail:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5075
+    .line 5077
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_calibrating"
@@ -510,7 +510,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_calibrating:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5076
+    .line 5078
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_setting"
@@ -531,7 +531,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_setting:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5077
+    .line 5079
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ranging"
@@ -552,7 +552,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ranging:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5078
+    .line 5080
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_sweeping"
@@ -573,7 +573,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_sweeping:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5079
+    .line 5081
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_measuring"
@@ -594,7 +594,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_measuring:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5080
+    .line 5082
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_waitingfortrigger"
@@ -615,7 +615,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_waitingfortrigger:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5081
+    .line 5083
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_waitingforarm"
@@ -636,7 +636,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_waitingforarm:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5082
+    .line 5084
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_correcting"
@@ -657,7 +657,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_correcting:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5083
+    .line 5085
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_inst_summary"
@@ -678,7 +678,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_inst_summary:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5084
+    .line 5086
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_command_warnning"
@@ -699,7 +699,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_command_warnning:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5085
+    .line 5087
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_operation_complete"
@@ -720,7 +720,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_operation_complete:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5086
+    .line 5088
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_request_control"
@@ -741,7 +741,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_request_control:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5087
+    .line 5089
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_query_error"
@@ -762,7 +762,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_query_error:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5088
+    .line 5090
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_device_depend_error"
@@ -783,7 +783,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_device_depend_error:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5089
+    .line 5091
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_execution_error"
@@ -804,7 +804,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_execution_error:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5090
+    .line 5092
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_command_error"
@@ -825,7 +825,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_command_error:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5091
+    .line 5093
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_user_request"
@@ -846,7 +846,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_user_request:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5092
+    .line 5094
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_power_on"
@@ -867,7 +867,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_power_on:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5093
+    .line 5095
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_voltage"
@@ -888,7 +888,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_voltage:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5094
+    .line 5096
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_current"
@@ -909,7 +909,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_current:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5095
+    .line 5097
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_time"
@@ -930,7 +930,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_time:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5096
+    .line 5098
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_power"
@@ -951,7 +951,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_power:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5097
+    .line 5099
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_temperature"
@@ -972,7 +972,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_temperature:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5098
+    .line 5100
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_frequency"
@@ -993,7 +993,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_frequency:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5099
+    .line 5101
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_phase"
@@ -1014,7 +1014,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_phase:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5100
+    .line 5102
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_modulation"
@@ -1035,7 +1035,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_modulation:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5101
+    .line 5103
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_calibration"
@@ -1056,7 +1056,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_calibration:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5102
+    .line 5104
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_cdyno_summary"
@@ -1077,7 +1077,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_cdyno_summary:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5103
+    .line 5105
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_reserve1"
@@ -1098,7 +1098,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_reserve1:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5104
+    .line 5106
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_reserve2"
@@ -1119,7 +1119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_reserve2:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5105
+    .line 5107
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_reserve3"
@@ -1140,7 +1140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_reserve3:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5106
+    .line 5108
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_instrument"
@@ -1161,7 +1161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_instrument:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5107
+    .line 5109
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_ques_cmdwarning"
@@ -1182,7 +1182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_cmdwarning:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5108
+    .line 5110
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_ques_notused"
@@ -1203,7 +1203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ques_notused:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5109
+    .line 5111
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_calibrating"
@@ -1224,7 +1224,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_calibrating:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5110
+    .line 5112
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_setting"
@@ -1245,7 +1245,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_setting:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5111
+    .line 5113
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_ranging"
@@ -1266,7 +1266,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_ranging:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5112
+    .line 5114
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_sweoping"
@@ -1287,7 +1287,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_sweoping:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5113
+    .line 5115
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_measuring"
@@ -1308,7 +1308,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_measuring:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5114
+    .line 5116
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_waiting_triger"
@@ -1329,7 +1329,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_waiting_triger:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5115
+    .line 5117
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_waiting_arm"
@@ -1350,7 +1350,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_waiting_arm:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5116
+    .line 5118
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_correcting"
@@ -1371,7 +1371,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_correcting:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5117
+    .line 5119
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_reserve1"
@@ -1392,7 +1392,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_reserve1:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5118
+    .line 5120
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_cdyno_summary"
@@ -1413,7 +1413,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_cdyno_summary:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5119
+    .line 5121
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_reserve2"
@@ -1434,7 +1434,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_reserve2:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5120
+    .line 5122
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_reserve3"
@@ -1455,7 +1455,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_reserve3:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5121
+    .line 5123
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_reserve4"
@@ -1476,7 +1476,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_reserve4:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5122
+    .line 5124
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_instrument"
@@ -1497,7 +1497,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_instrument:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5123
+    .line 5125
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_oper_program_running"
@@ -1518,7 +1518,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_program_running:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5124
+    .line 5126
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_oper_notused"
@@ -1539,7 +1539,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_oper_notused:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5125
+    .line 5127
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v9, "scpi_event_error_queue"
@@ -1560,7 +1560,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_error_queue:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5126
+    .line 5128
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const-string v2, "scpi_event_output_queue"
@@ -1585,7 +1585,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
-    .line 5058
+    .line 5060
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->scpi_event_ch1_overload:Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     const/4 v3, 0x0
@@ -2003,19 +2003,19 @@
         }
     .end annotation
 
-    .line 5129
+    .line 5131
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5130
+    .line 5132
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->value1:I
 
-    .line 5131
+    .line 5133
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->value2:Ljava/lang/String;
 
-    .line 5132
+    .line 5134
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->pic1:Ljava/lang/String;
 
-    .line 5133
+    .line 5135
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->pic2:Ljava/lang/String;
 
     return-void
@@ -2024,7 +2024,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
     .locals 1
 
-    .line 5058
+    .line 5060
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -2039,7 +2039,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
     .locals 1
 
-    .line 5058
+    .line 5060
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$scpiEvent;->clone()Ljava/lang/Object;

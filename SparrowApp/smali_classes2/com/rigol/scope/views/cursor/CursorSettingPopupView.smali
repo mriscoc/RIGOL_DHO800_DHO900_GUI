@@ -6224,7 +6224,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0xcc
+    const/16 v1, 0xcd
 
     .line 1117
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -6232,7 +6232,7 @@
     .line 1119
     iget-object v0, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
-    const/16 v1, 0x406
+    const/16 v1, 0x408
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
 

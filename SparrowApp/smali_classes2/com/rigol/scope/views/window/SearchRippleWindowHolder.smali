@@ -299,7 +299,7 @@
     .line 1880
     iget-object p2, p1, Lcom/rigol/scope/databinding/WindowSimpleBinding;->title:Landroid/widget/TextView;
 
-    const v0, 0x7f101123
+    const v0, 0x7f101125
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 

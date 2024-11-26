@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2153
+    .line 2155
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     const-string v1, "Trigger_logic_and"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->Trigger_logic_and:Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
-    .line 2154
+    .line 2156
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     const-string v9, "Trigger_logic_or"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->Trigger_logic_or:Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
-    .line 2155
+    .line 2157
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     const-string v2, "Trigger_logic_nand"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->Trigger_logic_nand:Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
-    .line 2156
+    .line 2158
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     const-string v9, "Trigger_logic_nor"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
-    .line 2151
+    .line 2153
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->Trigger_logic_and:Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 2159
+    .line 2161
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2160
+    .line 2162
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->value1:I
 
-    .line 2161
+    .line 2163
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->value2:Ljava/lang/String;
 
-    .line 2162
+    .line 2164
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->pic1:Ljava/lang/String;
 
-    .line 2163
+    .line 2165
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
     .locals 1
 
-    .line 2151
+    .line 2153
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
     .locals 1
 
-    .line 2151
+    .line 2153
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggerLogicOperator;->clone()Ljava/lang/Object;

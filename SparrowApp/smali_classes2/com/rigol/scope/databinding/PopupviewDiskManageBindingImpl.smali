@@ -574,7 +574,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xf1
+    const/16 v0, 0xf2
 
     if-ne p2, v0, :cond_1
 
@@ -606,7 +606,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xbd
+    const/16 v0, 0xbe
 
     if-ne p2, v0, :cond_2
 
@@ -638,7 +638,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x388
+    const/16 v0, 0x38a
 
     if-ne p2, v0, :cond_3
 
@@ -670,7 +670,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x318
+    const/16 v0, 0x31a
 
     if-ne p2, v0, :cond_4
 
@@ -702,7 +702,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x319
+    const/16 v0, 0x31b
 
     if-ne p2, v0, :cond_5
 
@@ -734,7 +734,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x259
+    const/16 v0, 0x25a
 
     if-ne p2, v0, :cond_6
 
@@ -886,7 +886,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x349
+    const/16 v0, 0x34b
 
     if-ne p2, v0, :cond_1
 
@@ -918,7 +918,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x341
+    const/16 v0, 0x343
 
     if-ne p2, v0, :cond_2
 
@@ -3089,7 +3089,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xb2
+    const/16 p1, 0xb3
 
     .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->notifyPropertyChanged(I)V
@@ -3140,7 +3140,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xf1
+    const/16 p1, 0xf2
 
     .line 176
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->notifyPropertyChanged(I)V
@@ -3191,7 +3191,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1f8
+    const/16 p1, 0x1f9
 
     .line 193
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->notifyPropertyChanged(I)V
@@ -3242,7 +3242,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x334
+    const/16 p1, 0x336
 
     .line 202
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->notifyPropertyChanged(I)V
@@ -3267,7 +3267,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0xf1
+    const/16 v0, 0xf2
 
     if-ne v0, p1, :cond_0
 
@@ -3279,7 +3279,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0xb2
+    const/16 v0, 0xb3
 
     if-ne v0, p1, :cond_1
 
@@ -3291,7 +3291,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x1f8
+    const/16 v0, 0x1f9
 
     if-ne v0, p1, :cond_2
 
@@ -3303,7 +3303,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x334
+    const/16 v0, 0x336
 
     if-ne v0, p1, :cond_3
 

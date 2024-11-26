@@ -62,7 +62,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6463
+    .line 6465
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v1, "jitter_Tj"
@@ -83,7 +83,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Tj:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6464
+    .line 6466
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v9, "jitter_Rj"
@@ -104,7 +104,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Rj:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6465
+    .line 6467
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v2, "jitter_Dj"
@@ -125,7 +125,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Dj:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6466
+    .line 6468
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v9, "jitter_Pj"
@@ -146,7 +146,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Pj:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6467
+    .line 6469
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v2, "jitter_Ddj"
@@ -167,7 +167,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Ddj:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6468
+    .line 6470
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v9, "jitter_DCD"
@@ -188,7 +188,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_DCD:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6469
+    .line 6471
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v2, "jitter_ISI"
@@ -209,7 +209,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_ISI:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6470
+    .line 6472
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v9, "jitter_BitRate"
@@ -230,7 +230,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_BitRate:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6471
+    .line 6473
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v2, "jitter_Tie_pkpk"
@@ -251,7 +251,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Tie_pkpk:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6472
+    .line 6474
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v9, "jitter_Tie_stdev"
@@ -272,7 +272,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Tie_stdev:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6473
+    .line 6475
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const-string v2, "Jitter_Meas_Count"
@@ -297,7 +297,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
-    .line 6461
+    .line 6463
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->jitter_Tj:Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     const/4 v3, 0x0
@@ -379,19 +379,19 @@
         }
     .end annotation
 
-    .line 6476
+    .line 6478
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6477
+    .line 6479
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->value1:I
 
-    .line 6478
+    .line 6480
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->value2:Ljava/lang/String;
 
-    .line 6479
+    .line 6481
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->pic1:Ljava/lang/String;
 
-    .line 6480
+    .line 6482
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->pic2:Ljava/lang/String;
 
     return-void
@@ -400,7 +400,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
     .locals 1
 
-    .line 6461
+    .line 6463
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -415,7 +415,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
     .locals 1
 
-    .line 6461
+    .line 6463
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$jitterResult;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$jitterResult;->clone()Ljava/lang/Object;

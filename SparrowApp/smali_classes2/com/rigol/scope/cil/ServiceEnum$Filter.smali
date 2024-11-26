@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1084
+    .line 1086
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     const-string v1, "Filter_lp"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Filter;->Filter_lp:Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
-    .line 1085
+    .line 1087
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     const-string v9, "Filter_hp"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->Filter_hp:Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
-    .line 1086
+    .line 1088
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     const-string v2, "Filter_bp"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->Filter_bp:Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
-    .line 1087
+    .line 1089
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     const-string v9, "Filter_bt"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
-    .line 1082
+    .line 1084
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Filter;->Filter_lp:Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 1090
+    .line 1092
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1091
+    .line 1093
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->value1:I
 
-    .line 1092
+    .line 1094
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->value2:Ljava/lang/String;
 
-    .line 1093
+    .line 1095
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->pic1:Ljava/lang/String;
 
-    .line 1094
+    .line 1096
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Filter;
     .locals 1
 
-    .line 1082
+    .line 1084
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Filter;
     .locals 1
 
-    .line 1082
+    .line 1084
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Filter;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Filter;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Filter;->clone()Ljava/lang/Object;

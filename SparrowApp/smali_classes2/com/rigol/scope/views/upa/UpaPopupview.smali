@@ -985,7 +985,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f100376
+    const p1, 0x7f100377
 
     .line 291
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V

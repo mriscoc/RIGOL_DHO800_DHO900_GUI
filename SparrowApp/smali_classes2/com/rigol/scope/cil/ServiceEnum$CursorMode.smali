@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4333
+    .line 4335
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const-string v1, "cursor_mode_off"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_off:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    .line 4334
+    .line 4336
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const-string v9, "cursor_mode_manual"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_manual:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    .line 4335
+    .line 4337
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const-string v2, "cursor_mode_track"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_track:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    .line 4336
+    .line 4338
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const-string v9, "cursor_mode_auto"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_auto:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    .line 4337
+    .line 4339
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const-string v2, "cursor_mode_xy"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_xy:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    .line 4338
+    .line 4340
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const-string v9, "cursor_mode_meas"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
-    .line 4331
+    .line 4333
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_off:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 4341
+    .line 4343
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4342
+    .line 4344
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->value1:I
 
-    .line 4343
+    .line 4345
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->value2:Ljava/lang/String;
 
-    .line 4344
+    .line 4346
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->pic1:Ljava/lang/String;
 
-    .line 4345
+    .line 4347
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
     .locals 1
 
-    .line 4331
+    .line 4333
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
     .locals 1
 
-    .line 4331
+    .line 4333
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->clone()Ljava/lang/Object;

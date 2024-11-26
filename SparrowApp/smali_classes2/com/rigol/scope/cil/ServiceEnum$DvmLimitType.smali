@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9404
+    .line 9406
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
     const-string v1, "IN_LIMIT"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->IN_LIMIT:Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
-    .line 9405
+    .line 9407
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
     const-string v9, "OUT_LIMIT"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
-    .line 9402
+    .line 9404
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->IN_LIMIT:Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 9408
+    .line 9410
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9409
+    .line 9411
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->value1:I
 
-    .line 9410
+    .line 9412
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->value2:Ljava/lang/String;
 
-    .line 9411
+    .line 9413
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->pic1:Ljava/lang/String;
 
-    .line 9412
+    .line 9414
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
     .locals 1
 
-    .line 9402
+    .line 9404
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
     .locals 1
 
-    .line 9402
+    .line 9404
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DvmLimitType;->clone()Ljava/lang/Object;

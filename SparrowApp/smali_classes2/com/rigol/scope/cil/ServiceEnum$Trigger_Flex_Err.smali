@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3203
+    .line 3205
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     const-string v1, "trig_flex_err_head_crc"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->trig_flex_err_head_crc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
-    .line 3204
+    .line 3206
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     const-string v9, "trig_flex_err_tail_crc"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->trig_flex_err_tail_crc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
-    .line 3205
+    .line 3207
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     const-string v2, "trig_flex_err_decode"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->trig_flex_err_decode:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
-    .line 3206
+    .line 3208
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     const-string v9, "trig_flex_err_any"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
-    .line 3201
+    .line 3203
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->trig_flex_err_head_crc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 3209
+    .line 3211
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3210
+    .line 3212
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->value1:I
 
-    .line 3211
+    .line 3213
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->value2:Ljava/lang/String;
 
-    .line 3212
+    .line 3214
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->pic1:Ljava/lang/String;
 
-    .line 3213
+    .line 3215
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
     .locals 1
 
-    .line 3201
+    .line 3203
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
     .locals 1
 
-    .line 3201
+    .line 3203
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;->clone()Ljava/lang/Object;

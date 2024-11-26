@@ -64,7 +64,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8983
+    .line 8985
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v1, "ADC_SWITCH_ON_CH1"
@@ -85,7 +85,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH1:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8985
+    .line 8987
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v9, "ADC_SWITCH_ON_CH2"
@@ -106,7 +106,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH2:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8987
+    .line 8989
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v2, "ADC_SWITCH_ON_CH3"
@@ -127,7 +127,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH3:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8989
+    .line 8991
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v9, "ADC_SWITCH_ON_CH4"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH4:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8991
+    .line 8993
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v2, "ADC_SWITCH_ON_CH12"
@@ -169,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH12:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8993
+    .line 8995
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v9, "ADC_SWITCH_ON_CH13"
@@ -190,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH13:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8995
+    .line 8997
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v2, "ADC_SWITCH_ON_CH14"
@@ -211,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH14:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8997
+    .line 8999
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v9, "ADC_SWITCH_ON_CH23"
@@ -232,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH23:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8999
+    .line 9001
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v2, "ADC_SWITCH_ON_CH24"
@@ -253,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH24:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 9001
+    .line 9003
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v9, "ADC_SWITCH_ON_CH34"
@@ -274,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH34:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 9003
+    .line 9005
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v2, "ADC_SWITCH_ON_CH1234"
@@ -295,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH1234:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 9005
+    .line 9007
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const-string v9, "ADC_CHAN_MODE_NUM"
@@ -320,7 +320,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
-    .line 8980
+    .line 8982
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->ADC_SWITCH_ON_CH1:Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     const/4 v3, 0x0
@@ -408,19 +408,19 @@
         }
     .end annotation
 
-    .line 9008
+    .line 9010
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9009
+    .line 9011
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->value1:I
 
-    .line 9010
+    .line 9012
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->value2:Ljava/lang/String;
 
-    .line 9011
+    .line 9013
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->pic1:Ljava/lang/String;
 
-    .line 9012
+    .line 9014
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -429,7 +429,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
     .locals 1
 
-    .line 8980
+    .line 8982
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -444,7 +444,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
     .locals 1
 
-    .line 8980
+    .line 8982
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AdcChanInputModeEnum;->clone()Ljava/lang/Object;

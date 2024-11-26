@@ -1618,7 +1618,7 @@
     .line 438
     invoke-virtual {p0}, Lcom/rigol/scope/data/JitterParam;->updateCheckState()V
 
-    const/16 v0, 0x56
+    const/16 v0, 0x57
 
     .line 439
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1649,7 +1649,7 @@
     .line 335
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->dampFactor:I
 
-    const/16 p1, 0xd5
+    const/16 p1, 0xd6
 
     .line 336
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1663,7 +1663,7 @@
     .line 298
     iput-wide p1, p0, Lcom/rigol/scope/data/JitterParam;->dataRate:J
 
-    const/16 p1, 0xdc
+    const/16 p1, 0xdd
 
     .line 299
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1677,7 +1677,7 @@
     .line 185
     iput-boolean p1, p0, Lcom/rigol/scope/data/JitterParam;->enabled:Z
 
-    const/16 v0, 0x10f
+    const/16 v0, 0x110
 
     .line 186
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1733,7 +1733,7 @@
     .line 347
     iput-object p1, p0, Lcom/rigol/scope/data/JitterParam;->externalClock:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x123
+    const/16 p1, 0x124
 
     .line 348
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1747,7 +1747,7 @@
     .line 226
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->highThres:I
 
-    const/16 p1, 0x174
+    const/16 p1, 0x175
 
     .line 227
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1788,7 +1788,7 @@
     .line 421
     invoke-virtual {p0}, Lcom/rigol/scope/data/JitterParam;->updateCheckState()V
 
-    const/16 v0, 0x176
+    const/16 v0, 0x177
 
     .line 422
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1819,7 +1819,7 @@
     .line 323
     iput-wide p1, p0, Lcom/rigol/scope/data/JitterParam;->loopBw:J
 
-    const/16 p1, 0x1fc
+    const/16 p1, 0x1fd
 
     .line 324
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1833,7 +1833,7 @@
     .line 250
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->lowThres:I
 
-    const/16 p1, 0x1fd
+    const/16 p1, 0x1fe
 
     .line 251
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1856,7 +1856,7 @@
     .line 238
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->midThres:I
 
-    const/16 p1, 0x217
+    const/16 p1, 0x218
 
     .line 239
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1879,7 +1879,7 @@
     .line 371
     iput-boolean p1, p0, Lcom/rigol/scope/data/JitterParam;->persistance:Z
 
-    const/16 p1, 0x26c
+    const/16 p1, 0x26d
 
     .line 372
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1908,7 +1908,7 @@
     .line 311
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->pllOrder:I
 
-    const/16 p1, 0x280
+    const/16 p1, 0x281
 
     .line 312
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1922,7 +1922,7 @@
     .line 262
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->recoveryType:I
 
-    const/16 p1, 0x2c4
+    const/16 p1, 0x2c6
 
     .line 263
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1936,7 +1936,7 @@
     .line 359
     iput-boolean p1, p0, Lcom/rigol/scope/data/JitterParam;->result:Z
 
-    const/16 p1, 0x2e1
+    const/16 p1, 0x2e3
 
     .line 360
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1950,7 +1950,7 @@
     .line 454
     iput-boolean p1, p0, Lcom/rigol/scope/data/JitterParam;->smooth:Z
 
-    const/16 p1, 0x356
+    const/16 p1, 0x358
 
     .line 455
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -1964,7 +1964,7 @@
     .line 213
     iput-object p1, p0, Lcom/rigol/scope/data/JitterParam;->source:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 v0, 0x358
+    const/16 v0, 0x35a
 
     .line 214
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -2001,7 +2001,7 @@
     .line 403
     invoke-virtual {p0}, Lcom/rigol/scope/data/JitterParam;->updateCheckState()V
 
-    const/16 v0, 0x365
+    const/16 v0, 0x367
 
     .line 404
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -2032,7 +2032,7 @@
     .line 274
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->tieSlope:I
 
-    const/16 p1, 0x3a3
+    const/16 p1, 0x3a5
 
     .line 275
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -2064,7 +2064,7 @@
     .line 385
     invoke-virtual {p0}, Lcom/rigol/scope/data/JitterParam;->updateCheckState()V
 
-    const/16 v0, 0x3ad
+    const/16 v0, 0x3af
 
     .line 386
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V
@@ -2095,7 +2095,7 @@
     .line 286
     iput p1, p0, Lcom/rigol/scope/data/JitterParam;->type:I
 
-    const/16 p1, 0x3d0
+    const/16 p1, 0x3d2
 
     .line 287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/JitterParam;->notifyPropertyChanged(I)V

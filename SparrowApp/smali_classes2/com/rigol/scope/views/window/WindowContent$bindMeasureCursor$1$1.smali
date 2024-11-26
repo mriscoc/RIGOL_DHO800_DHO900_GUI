@@ -70,7 +70,7 @@
 
     const/4 p1, 0x2
 
-    const/16 v0, 0x2dc
+    const/16 v0, 0x2de
 
     if-ne p2, v0, :cond_1
 
@@ -120,7 +120,7 @@
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->showMeasureCursor()V
 
     :cond_1
-    const/16 v0, 0xc6
+    const/16 v0, 0xc7
 
     if-ne p2, v0, :cond_2
 
@@ -149,7 +149,7 @@
     invoke-virtual {v0}, Lcom/rigol/scope/views/window/WindowContent;->showMeasureCursor()V
 
     :cond_2
-    const/16 v0, 0xc8
+    const/16 v0, 0xc9
 
     if-ne p2, v0, :cond_3
 
@@ -178,7 +178,7 @@
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowContent;->showMeasureCursor()V
 
     :cond_3
-    const/16 p1, 0x2dd
+    const/16 p1, 0x2df
 
     if-ne p2, p1, :cond_8
 

@@ -1219,7 +1219,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x2ca
+    const/16 v1, 0x2cc
 
     .line 466
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V

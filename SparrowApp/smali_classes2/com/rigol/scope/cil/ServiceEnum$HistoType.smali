@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4620
+    .line 4622
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     const-string v1, "histoHori"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->histoHori:Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
-    .line 4621
+    .line 4623
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     const-string v9, "histoVert"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->histoVert:Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
-    .line 4622
+    .line 4624
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     const-string v2, "histoMeas"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->histoMeas:Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
-    .line 4623
+    .line 4625
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     const-string v9, "histoJitter"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
-    .line 4618
+    .line 4620
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->histoHori:Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 4626
+    .line 4628
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4627
+    .line 4629
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->value1:I
 
-    .line 4628
+    .line 4630
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->value2:Ljava/lang/String;
 
-    .line 4629
+    .line 4631
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->pic1:Ljava/lang/String;
 
-    .line 4630
+    .line 4632
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HistoType;
     .locals 1
 
-    .line 4618
+    .line 4620
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HistoType;
     .locals 1
 
-    .line 4618
+    .line 4620
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HistoType;->clone()Ljava/lang/Object;

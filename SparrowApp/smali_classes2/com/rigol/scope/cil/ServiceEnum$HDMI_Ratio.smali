@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8227
+    .line 8229
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v1, "HDMI_1920x1080"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1920x1080:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8228
+    .line 8230
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v9, "HDMI_1600x900"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1600x900:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8229
+    .line 8231
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v2, "HDMI_1280x1024"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1280x1024:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8230
+    .line 8232
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v9, "HDMI_1280x720"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1280x720:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8231
+    .line 8233
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v2, "HDMI_1024x768"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1024x768:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8232
+    .line 8234
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v9, "HDMI_800x600"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_800x600:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8233
+    .line 8235
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v2, "HDMI_720x480"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_720x480:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8234
+    .line 8236
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const-string v9, "HDMI_640x480"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    .line 8225
+    .line 8227
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->HDMI_1920x1080:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 8237
+    .line 8239
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8238
+    .line 8240
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->value1:I
 
-    .line 8239
+    .line 8241
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->value2:Ljava/lang/String;
 
-    .line 8240
+    .line 8242
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->pic1:Ljava/lang/String;
 
-    .line 8241
+    .line 8243
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
     .locals 1
 
-    .line 8225
+    .line 8227
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
     .locals 1
 
-    .line 8225
+    .line 8227
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;->clone()Ljava/lang/Object;

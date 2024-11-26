@@ -12955,7 +12955,7 @@
     goto :goto_76
 
     :cond_176
-    const v3, 0x7f100f35
+    const v3, 0x7f100f37
 
     .line 1527
     invoke-static {v3}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -15214,7 +15214,7 @@
     goto :goto_a2
 
     :cond_1ee
-    const v2, 0x7f100f35
+    const v2, 0x7f100f37
 
     .line 1504
     invoke-static {v2}, Lcom/rigol/util/ToastUtils;->showShort(I)V

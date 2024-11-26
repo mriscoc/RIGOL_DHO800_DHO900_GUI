@@ -60,7 +60,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7429
+    .line 7431
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v1, "Uart_DataWid_0"
@@ -81,7 +81,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_0:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7430
+    .line 7432
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v9, "Uart_DataWid_1"
@@ -102,7 +102,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_1:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7431
+    .line 7433
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v2, "Uart_DataWid_2"
@@ -123,7 +123,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_2:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7432
+    .line 7434
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v9, "Uart_DataWid_3"
@@ -144,7 +144,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_3:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7433
+    .line 7435
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v2, "Uart_DataWid_4"
@@ -165,7 +165,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_4:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7434
+    .line 7436
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v9, "Uart_DataWid_5"
@@ -186,7 +186,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_5:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7435
+    .line 7437
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v2, "Uart_DataWid_6"
@@ -207,7 +207,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_6:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7436
+    .line 7438
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v9, "Uart_DataWid_7"
@@ -228,7 +228,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_7:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7437
+    .line 7439
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v2, "Uart_DataWid_8"
@@ -249,7 +249,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_8:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7438
+    .line 7440
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const-string v9, "Uart_DataWid_9"
@@ -274,7 +274,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
-    .line 7427
+    .line 7429
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->Uart_DataWid_0:Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     const/4 v3, 0x0
@@ -350,19 +350,19 @@
         }
     .end annotation
 
-    .line 7441
+    .line 7443
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7442
+    .line 7444
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->value1:I
 
-    .line 7443
+    .line 7445
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->value2:Ljava/lang/String;
 
-    .line 7444
+    .line 7446
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->pic1:Ljava/lang/String;
 
-    .line 7445
+    .line 7447
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->pic2:Ljava/lang/String;
 
     return-void
@@ -371,7 +371,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
     .locals 1
 
-    .line 7427
+    .line 7429
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -386,7 +386,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
     .locals 1
 
-    .line 7427
+    .line 7429
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$UartDataWid;->clone()Ljava/lang/Object;

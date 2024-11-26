@@ -44,7 +44,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewRemindBinding;->title:Landroid/widget/TextView;
 
-    const v1, 0x7f100bb7
+    const v1, 0x7f100bb9
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -53,7 +53,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewRemindBinding;->content:Landroid/widget/TextView;
 
-    const v1, 0x7f100bb6
+    const v1, 0x7f100bb8
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -89,7 +89,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewRemindBinding;->title:Landroid/widget/TextView;
 
-    const v1, 0x7f100bb7
+    const v1, 0x7f100bb9
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -106,7 +106,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewRemindBinding;->content:Landroid/widget/TextView;
 
-    const v1, 0x7f100bb6
+    const v1, 0x7f100bb8
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

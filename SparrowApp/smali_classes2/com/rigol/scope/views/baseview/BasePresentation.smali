@@ -82,7 +82,7 @@
 
     :cond_2
     :goto_0
-    const p1, 0x7f100376
+    const p1, 0x7f100377
 
     .line 68
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V

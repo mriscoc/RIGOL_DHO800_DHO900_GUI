@@ -45,7 +45,7 @@
     .line 267
     iget-object v0, p0, Lcom/rigol/scope/views/alert/DefaultPopupView;->context:Landroid/content/Context;
 
-    const v1, 0x7f101111
+    const v1, 0x7f101113
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -56,7 +56,7 @@
     .line 268
     iget-object v0, p0, Lcom/rigol/scope/views/alert/DefaultPopupView;->context:Landroid/content/Context;
 
-    const v1, 0x7f10074d
+    const v1, 0x7f10074e
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -100,7 +100,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewAlertBinding;->title:Landroid/widget/TextView;
 
-    const v1, 0x7f1011c9
+    const v1, 0x7f1011cb
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -111,7 +111,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewAlertBinding;->content:Landroid/widget/TextView;
 
-    const v1, 0x7f10074d
+    const v1, 0x7f10074e
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

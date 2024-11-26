@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8483
+    .line 8485
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
     const-string v1, "FOR_EYE"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->FOR_EYE:Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
-    .line 8484
+    .line 8486
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
     const-string v9, "FOR_JIT"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
-    .line 8481
+    .line 8483
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->FOR_EYE:Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
     const/4 v3, 0x0
@@ -118,19 +118,19 @@
         }
     .end annotation
 
-    .line 8487
+    .line 8489
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8488
+    .line 8490
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->value1:I
 
-    .line 8489
+    .line 8491
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->value2:Ljava/lang/String;
 
-    .line 8490
+    .line 8492
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->pic1:Ljava/lang/String;
 
-    .line 8491
+    .line 8493
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->pic2:Ljava/lang/String;
 
     return-void
@@ -139,7 +139,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
     .locals 1
 
-    .line 8481
+    .line 8483
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -154,7 +154,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
     .locals 1
 
-    .line 8481
+    .line 8483
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TclockFor;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TclockFor;->clone()Ljava/lang/Object;

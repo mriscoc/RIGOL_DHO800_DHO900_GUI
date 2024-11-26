@@ -498,7 +498,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x185
+    const/16 v0, 0x186
 
     if-ne p2, v0, :cond_1
 
@@ -530,7 +530,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x186
+    const/16 v0, 0x187
 
     if-ne p2, v0, :cond_2
 
@@ -562,7 +562,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x36c
+    const/16 v0, 0x36e
 
     if-ne p2, v0, :cond_3
 
@@ -594,7 +594,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x188
+    const/16 v0, 0x189
 
     if-ne p2, v0, :cond_4
 
@@ -626,7 +626,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x187
+    const/16 v0, 0x188
 
     if-ne p2, v0, :cond_5
 
@@ -658,7 +658,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x183
+    const/16 v0, 0x184
 
     if-ne p2, v0, :cond_6
 
@@ -690,7 +690,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x184
+    const/16 v0, 0x185
 
     if-ne p2, v0, :cond_7
 
@@ -762,7 +762,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -834,7 +834,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1890,7 +1890,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 150
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeI2cBindingImpl;->notifyPropertyChanged(I)V
@@ -1941,7 +1941,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x2fd
+    const/16 p1, 0x2ff
 
     .line 138
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeI2cBindingImpl;->notifyPropertyChanged(I)V
@@ -1992,7 +1992,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x2fe
+    const/16 p1, 0x300
 
     .line 129
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeI2cBindingImpl;->notifyPropertyChanged(I)V
@@ -2017,7 +2017,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x2fe
+    const/16 v0, 0x300
 
     if-ne v0, p1, :cond_0
 
@@ -2029,7 +2029,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x2fd
+    const/16 v0, 0x2ff
 
     if-ne v0, p1, :cond_1
 
@@ -2041,7 +2041,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xab
+    const/16 v0, 0xac
 
     if-ne v0, p1, :cond_2
 
@@ -2053,7 +2053,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_3
 
@@ -2065,7 +2065,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xad
+    const/16 v0, 0xae
 
     if-ne v0, p1, :cond_4
 

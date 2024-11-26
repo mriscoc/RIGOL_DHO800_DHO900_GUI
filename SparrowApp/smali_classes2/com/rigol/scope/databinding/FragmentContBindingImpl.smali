@@ -1318,7 +1318,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1e2
+    const/16 p1, 0x1e3
 
     .line 117
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FragmentContBindingImpl;->notifyPropertyChanged(I)V
@@ -1364,7 +1364,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x214
+    const/16 p1, 0x215
 
     .line 125
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FragmentContBindingImpl;->notifyPropertyChanged(I)V
@@ -1389,7 +1389,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x1e2
+    const/16 v0, 0x1e3
 
     if-ne v0, p1, :cond_0
 
@@ -1401,7 +1401,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x214
+    const/16 v0, 0x215
 
     if-ne v0, p1, :cond_1
 

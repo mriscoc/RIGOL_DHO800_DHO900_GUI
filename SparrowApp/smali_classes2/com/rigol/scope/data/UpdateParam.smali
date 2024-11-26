@@ -160,7 +160,7 @@
     .line 28
     iput-boolean p1, p0, Lcom/rigol/scope/data/UpdateParam;->isDownload:Z
 
-    const/16 p1, 0xf7
+    const/16 p1, 0xf8
 
     .line 29
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpdateParam;->notifyPropertyChanged(I)V
@@ -174,7 +174,7 @@
     .line 56
     iput p1, p0, Lcom/rigol/scope/data/UpdateParam;->errorCode:I
 
-    const/16 p1, 0x115
+    const/16 p1, 0x116
 
     .line 57
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpdateParam;->notifyPropertyChanged(I)V
@@ -192,7 +192,7 @@
     .line 63
     iput-object p1, p0, Lcom/rigol/scope/data/UpdateParam;->errorMessage:Ljava/lang/String;
 
-    const/16 p1, 0x116
+    const/16 p1, 0x117
 
     .line 64
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpdateParam;->notifyPropertyChanged(I)V
@@ -206,7 +206,7 @@
     .line 35
     iput-boolean p1, p0, Lcom/rigol/scope/data/UpdateParam;->isInstall:Z
 
-    const/16 p1, 0x1b4
+    const/16 p1, 0x1b5
 
     .line 36
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpdateParam;->notifyPropertyChanged(I)V
@@ -224,7 +224,7 @@
     .line 49
     iput-object p1, p0, Lcom/rigol/scope/data/UpdateParam;->message:Ljava/lang/String;
 
-    const/16 p1, 0x215
+    const/16 p1, 0x216
 
     .line 50
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpdateParam;->notifyPropertyChanged(I)V
@@ -238,7 +238,7 @@
     .line 42
     iput p1, p0, Lcom/rigol/scope/data/UpdateParam;->progress:I
 
-    const/16 p1, 0x29d
+    const/16 p1, 0x29f
 
     .line 43
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpdateParam;->notifyPropertyChanged(I)V

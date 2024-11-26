@@ -872,6 +872,8 @@
 
 .field public static final MSG_AFG_ARB_SOURCE_PATH:I = 0x13d
 
+.field public static final MSG_AFG_ATTR_STEP_POS:I = 0x15d
+
 .field public static final MSG_AFG_BASIC_AMP:I = 0x14c
 
 .field public static final MSG_AFG_BASIC_FREQ:I = 0x14a
@@ -906,7 +908,7 @@
 
 .field public static final MSG_AFG_MOD_OUTPUT_ENABLE:I = 0x13e
 
-.field public static final MSG_AFG_MOD_PIC:I = 0x15e
+.field public static final MSG_AFG_MOD_PIC:I = 0x15f
 
 .field public static final MSG_AFG_MOD_PM_DEV:I = 0x15a
 
@@ -990,7 +992,7 @@
 
 .field public static final MSG_AFG_WAVE_FUNCTION:I = 0x101
 
-.field public static final MSG_AFG_WAVE_FUNCTION1:I = 0x15d
+.field public static final MSG_AFG_WAVE_FUNCTION1:I = 0x15e
 
 .field public static final MSG_AFG_WAVE_MOD_AM_DEPTH:I = 0x133
 
@@ -2039,6 +2041,8 @@
 .field public static final MSG_CHAN_PROBE_INFO_TITLE:I = 0x714
 
 .field public static final MSG_CHAN_PROBE_MODEL:I = 0x715
+
+.field public static final MSG_CHAN_PROBE_UNIT:I = 0x751
 
 .field public static final MSG_CHAN_SCALE_REAL:I = 0x70f
 

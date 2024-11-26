@@ -1053,7 +1053,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3cd
+    const/16 v0, 0x3cf
 
     if-ne p2, v0, :cond_1
 
@@ -1085,7 +1085,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x151
+    const/16 v0, 0x152
 
     if-ne p2, v0, :cond_2
 
@@ -1117,7 +1117,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0xd8
+    const/16 v0, 0xd9
 
     if-ne p2, v0, :cond_3
 
@@ -1149,7 +1149,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x150
+    const/16 v0, 0x151
 
     if-ne p2, v0, :cond_4
 
@@ -1181,7 +1181,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x197
+    const/16 v0, 0x198
 
     if-ne p2, v0, :cond_5
 
@@ -1213,7 +1213,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x301
+    const/16 v0, 0x303
 
     if-ne p2, v0, :cond_6
 
@@ -1245,7 +1245,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x124
+    const/16 v0, 0x125
 
     if-ne p2, v0, :cond_7
 
@@ -1277,7 +1277,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x8b
+    const/16 v0, 0x8c
 
     if-ne p2, v0, :cond_8
 
@@ -1309,7 +1309,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x3b5
+    const/16 v0, 0x3b7
 
     if-ne p2, v0, :cond_9
 
@@ -1341,7 +1341,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x87
+    const/16 v0, 0x88
 
     if-ne p2, v0, :cond_a
 
@@ -1373,7 +1373,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x1e3
+    const/16 v0, 0x1e4
 
     if-ne p2, v0, :cond_b
 
@@ -1405,7 +1405,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x97
+    const/16 v0, 0x98
 
     if-ne p2, v0, :cond_c
 
@@ -1437,7 +1437,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x1bf
+    const/16 v0, 0x1c0
 
     if-ne p2, v0, :cond_d
 
@@ -1629,7 +1629,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1701,7 +1701,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1773,7 +1773,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -3360,7 +3360,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 212
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterTriggerCanBindingImpl;->notifyPropertyChanged(I)V
@@ -3412,7 +3412,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0xe2
+    const/16 v0, 0xe3
 
     if-ne v0, p1, :cond_0
 
@@ -3424,7 +3424,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_1
 
@@ -3436,7 +3436,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x392
+    const/16 v0, 0x394
 
     if-ne v0, p1, :cond_2
 
@@ -3448,7 +3448,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0xe3
+    const/16 v0, 0xe4
 
     if-ne v0, p1, :cond_3
 
@@ -3460,7 +3460,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xd9
+    const/16 v0, 0xda
 
     if-ne v0, p1, :cond_4
 
@@ -3472,7 +3472,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x394
+    const/16 v0, 0x396
 
     if-ne v0, p1, :cond_5
 
@@ -3484,7 +3484,7 @@
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0x393
+    const/16 v0, 0x395
 
     if-ne v0, p1, :cond_6
 

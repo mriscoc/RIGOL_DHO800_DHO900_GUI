@@ -35,7 +35,7 @@
 .method public onPropertyChanged(Landroidx/databinding/Observable;I)V
     .locals 1
 
-    const/16 p1, 0x1d4
+    const/16 p1, 0x1d5
 
     if-ne p2, p1, :cond_1
 

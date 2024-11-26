@@ -11,7 +11,7 @@
         0x3
     }
     d1 = {
-        "\u00006\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\"\u000e\u0010\u0000\u001a\u00020\u0001X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0002\u001a\u00020\u0003X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0006\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0008\u001a\u00020\tX\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\n\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000b\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000c\u001a\u00020\u0003X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\r\u001a\u00020\u0003X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000e\u001a\u00020\u000fX\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0010\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0011\u001a\u00020\u0012X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0013\u001a\u00020\u0014X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0015"
+        "\u00008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\"\u000e\u0010\u0000\u001a\u00020\u0001X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0002\u001a\u00020\u0003X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0006\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0008\u001a\u00020\tX\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\n\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000b\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000c\u001a\u00020\u0003X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\r\u001a\u00020\u0003X\u0082T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000e\u001a\u00020\u000fX\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0010\u001a\u00020\u0011X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0012\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0013\u001a\u00020\u0014X\u0082\u0004\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0015\u001a\u00020\u0011X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0016"
     }
     d2 = {
         "DEFAULT_BANDWIDTH",
@@ -30,11 +30,12 @@
         "DEFAULT_POSITION",
         "DEFAULT_PROBE_RATIO",
         "Lcom/rigol/scope/cil/ServiceEnum$ProbeX;",
+        "DEFAULT_PROBE_RATIO_UNIT",
+        "Lcom/rigol/scope/cil/ServiceEnum$Unit;",
         "DEFAULT_SCALE",
         "DEFAULT_STATUS",
         "Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;",
         "DEFAULT_UNIT",
-        "Lcom/rigol/scope/cil/ServiceEnum$Unit;",
         "app_release"
     }
     k = 0x2
@@ -67,6 +68,8 @@
 
 .field private static final DEFAULT_PROBE_RATIO:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
+.field private static final DEFAULT_PROBE_RATIO_UNIT:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
 .field private static final DEFAULT_SCALE:J
 
 .field private static final DEFAULT_STATUS:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -78,32 +81,32 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 22
+    .line 23
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_STATUS:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    .line 27
+    .line 28
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->DC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_COUPING:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 32
+    .line 33
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->BW_OFF:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_BANDWIDTH:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 37
+    .line 38
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_1X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_PROBE_RATIO:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 42
+    .line 43
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_1M:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_IMPEDANCE:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
-    .line 57
+    .line 58
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_UNIT:Lcom/rigol/scope/cil/ServiceEnum$Unit;
@@ -112,7 +115,7 @@
 
     int-to-double v0, v0
 
-    .line 62
+    .line 63
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     iget v2, v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->scale:I
@@ -130,6 +133,11 @@
     double-to-long v0, v0
 
     sput-wide v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_SCALE:J
+
+    .line 88
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    sput-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_PROBE_RATIO_UNIT:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-void
 .end method
@@ -166,6 +174,15 @@
 
     .line 1
     sget-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_PROBE_RATIO:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    return-object v0
+.end method
+
+.method public static final synthetic access$getDEFAULT_PROBE_RATIO_UNIT$p()Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/rigol/scope/data/VerticalParamKt;->DEFAULT_PROBE_RATIO_UNIT:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
 .end method

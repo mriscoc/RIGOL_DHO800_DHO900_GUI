@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8514
+    .line 8516
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     const-string v1, "CLK_TIE"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->CLK_TIE:Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
-    .line 8515
+    .line 8517
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     const-string v9, "DAT_TIE"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->DAT_TIE:Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
-    .line 8516
+    .line 8518
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     const-string v2, "CYC_CYC"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->CYC_CYC:Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
-    .line 8517
+    .line 8519
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     const-string v9, "POS_POS"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->POS_POS:Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
-    .line 8518
+    .line 8520
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     const-string v2, "NEG_NEG"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
-    .line 8512
+    .line 8514
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->CLK_TIE:Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 8521
+    .line 8523
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8522
+    .line 8524
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->value1:I
 
-    .line 8523
+    .line 8525
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->value2:Ljava/lang/String;
 
-    .line 8524
+    .line 8526
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->pic1:Ljava/lang/String;
 
-    .line 8525
+    .line 8527
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
     .locals 1
 
-    .line 8512
+    .line 8514
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
     .locals 1
 
-    .line 8512
+    .line 8514
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TJITTER_TYPE;->clone()Ljava/lang/Object;

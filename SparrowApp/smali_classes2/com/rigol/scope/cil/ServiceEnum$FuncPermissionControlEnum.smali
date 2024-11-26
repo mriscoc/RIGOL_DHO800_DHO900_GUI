@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9153
+    .line 9155
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     const-string v1, "FUNC_PERMISSION_USER"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->FUNC_PERMISSION_USER:Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
-    .line 9154
+    .line 9156
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     const-string v9, "FUNC_PERMISSION_PRIVIATE"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->FUNC_PERMISSION_PRIVIATE:Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
-    .line 9155
+    .line 9157
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     const-string v2, "FUNC_PERMISSION_ROOT"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
-    .line 9151
+    .line 9153
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->FUNC_PERMISSION_USER:Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9158
+    .line 9160
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9159
+    .line 9161
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->value1:I
 
-    .line 9160
+    .line 9162
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->value2:Ljava/lang/String;
 
-    .line 9161
+    .line 9163
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->pic1:Ljava/lang/String;
 
-    .line 9162
+    .line 9164
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
     .locals 1
 
-    .line 9151
+    .line 9153
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
     .locals 1
 
-    .line 9151
+    .line 9153
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FuncPermissionControlEnum;->clone()Ljava/lang/Object;

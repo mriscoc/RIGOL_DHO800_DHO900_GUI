@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3430
+    .line 3432
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     const-string v1, "trig_i2c_Width_1"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->trig_i2c_Width_1:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
-    .line 3431
+    .line 3433
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     const-string v9, "trig_i2c_Width_2"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->trig_i2c_Width_2:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
-    .line 3432
+    .line 3434
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     const-string v2, "trig_i2c_Width_3"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->trig_i2c_Width_3:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
-    .line 3433
+    .line 3435
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     const-string v9, "trig_i2c_Width_4"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->trig_i2c_Width_4:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
-    .line 3434
+    .line 3436
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     const-string v2, "trig_i2c_Width_5"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
-    .line 3428
+    .line 3430
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->trig_i2c_Width_1:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 3437
+    .line 3439
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3438
+    .line 3440
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->value1:I
 
-    .line 3439
+    .line 3441
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->value2:Ljava/lang/String;
 
-    .line 3440
+    .line 3442
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->pic1:Ljava/lang/String;
 
-    .line 3441
+    .line 3443
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
     .locals 1
 
-    .line 3428
+    .line 3430
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
     .locals 1
 
-    .line 3428
+    .line 3430
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Width;->clone()Ljava/lang/Object;

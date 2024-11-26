@@ -781,7 +781,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x63
+    const/16 p1, 0x64
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->notifyPropertyChanged(I)V
@@ -836,7 +836,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v1, 0x251
+    const/16 v1, 0x252
 
     if-ne v1, p1, :cond_1
 
@@ -860,7 +860,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v1, 0x63
+    const/16 v1, 0x64
 
     if-ne v1, p1, :cond_3
 

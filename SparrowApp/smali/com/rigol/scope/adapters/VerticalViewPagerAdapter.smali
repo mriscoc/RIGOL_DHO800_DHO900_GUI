@@ -176,7 +176,7 @@
 .method private change(Landroid/view/View;Z)V
     .locals 2
 
-    .line 454
+    .line 455
     invoke-virtual {p1}, Landroid/view/View;->isPressed()Z
 
     move-result v0
@@ -185,7 +185,7 @@
 
     return-void
 
-    .line 457
+    .line 458
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getItems()Ljava/util/List;
 
@@ -205,7 +205,7 @@
 
     return-void
 
-    .line 461
+    .line 462
     :cond_1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -215,7 +215,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 464
+    .line 465
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -238,7 +238,7 @@
 
     goto :goto_0
 
-    .line 467
+    .line 468
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -248,7 +248,7 @@
 
     goto :goto_1
 
-    .line 465
+    .line 466
     :cond_3
     :goto_0
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
@@ -257,7 +257,7 @@
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveStatus(Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;)V
 
-    .line 469
+    .line 470
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getCurrentItem()I
 
@@ -267,7 +267,7 @@
 
     goto :goto_3
 
-    .line 470
+    .line 471
     :cond_4
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -277,14 +277,14 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 471
+    .line 472
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveInvert(Z)V
 
     goto :goto_3
 
-    .line 472
+    .line 473
     :cond_5
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -296,20 +296,20 @@
 
     if-eqz p2, :cond_6
 
-    .line 474
+    .line 475
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->DC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/VerticalParam;->saveCoupling(Lcom/rigol/scope/cil/ServiceEnum$Coupling;)V
 
-    .line 476
+    .line 477
     :cond_6
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-eqz p2, :cond_7
 
-    .line 477
+    .line 478
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_50:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     goto :goto_2
@@ -317,13 +317,13 @@
     :cond_7
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_1M:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
-    .line 476
+    .line 477
     :goto_2
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveImpedance(Lcom/rigol/scope/cil/ServiceEnum$Impedance;)V
 
     goto :goto_3
 
-    .line 478
+    .line 479
     :cond_8
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -333,14 +333,14 @@
 
     if-ne v0, v1, :cond_9
 
-    .line 479
+    .line 480
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveFine(Z)V
 
     goto :goto_3
 
-    .line 480
+    .line 481
     :cond_9
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -350,7 +350,7 @@
 
     if-ne p1, v0, :cond_a
 
-    .line 481
+    .line 482
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveShowLabel(Z)V
@@ -865,26 +865,13 @@
     if-ne v0, v1, :cond_e
 
     .line 328
-    const-class p1, Lcom/rigol/scope/viewmodels/SharedViewModel;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
 
-    check-cast p1, Lcom/rigol/scope/viewmodels/SharedViewModel;
+    const-class v0, Lcom/rigol/scope/views/measure/MeasurePopupView;
 
-    if-eqz p1, :cond_20
-
-    .line 329
-    iget-object p1, p1, Lcom/rigol/scope/viewmodels/SharedViewModel;->hasChangeMeasureItem:Landroidx/lifecycle/MutableLiveData;
-
-    const/4 v0, 0x0
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->show(Ljava/lang/Class;)V
 
     goto/16 :goto_2
 
@@ -893,19 +880,33 @@
 
     if-ne v0, v1, :cond_f
 
-    .line 333
+    .line 332
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->readProbeDetail()Ljava/lang/String;
 
-    const v0, 0x7f03008d
+    .line 335
+    iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
-    .line 337
-    invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
 
-    .line 338
+    iget-object v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    const v1, 0x7f03008d
+
+    .line 336
+    invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
+
+    move-result-object v1
+
+    .line 337
+    invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getList(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;
+
+    move-result-object v0
+
+    .line 339
     iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->anchor:Landroid/view/View;
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$VerticalViewPagerAdapter$3BNL60tnUpuBjTm1Qu4Y04NTRgU;
@@ -925,12 +926,12 @@
 
     if-ne v0, v1, :cond_10
 
-    .line 355
+    .line 351
     instance-of v0, p1, Landroid/widget/TextView;
 
     if-eqz v0, :cond_20
 
-    .line 356
+    .line 352
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->context:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->anchor:Landroid/view/View;
@@ -950,7 +951,7 @@
 
     if-ne v0, p1, :cond_11
 
-    .line 364
+    .line 360
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/VerticalParam;->scaleLarger(I)V
@@ -962,7 +963,7 @@
 
     if-ne v0, p1, :cond_12
 
-    .line 366
+    .line 362
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/VerticalParam;->scaleSmaller(I)V
@@ -974,14 +975,14 @@
 
     if-ne v0, p1, :cond_13
 
-    .line 368
+    .line 364
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/VerticalParam;->offsetSmaller(I)J
 
     move-result-wide v0
 
-    .line 369
+    .line 365
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->moveOffset(J)V
@@ -993,14 +994,14 @@
 
     if-ne v0, p1, :cond_14
 
-    .line 371
+    .line 367
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/VerticalParam;->offsetLarger(I)J
 
     move-result-wide v0
 
-    .line 372
+    .line 368
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->moveOffset(J)V
@@ -1012,7 +1013,7 @@
 
     if-ne v0, p1, :cond_15
 
-    .line 374
+    .line 370
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/VerticalParam;->positionSmaller(I)J
@@ -1028,7 +1029,7 @@
 
     if-ne v0, p1, :cond_16
 
-    .line 376
+    .line 372
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/data/VerticalParam;->positionLarger(I)J
@@ -1044,7 +1045,7 @@
 
     if-ne v0, p1, :cond_19
 
-    .line 378
+    .line 374
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -1055,7 +1056,7 @@
 
     if-eq p1, v0, :cond_20
 
-    .line 379
+    .line 375
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
@@ -1078,7 +1079,7 @@
 
     goto :goto_1
 
-    .line 384
+    .line 380
     :cond_17
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -1088,7 +1089,7 @@
 
     goto/16 :goto_2
 
-    .line 380
+    .line 376
     :cond_18
     :goto_1
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
@@ -1101,7 +1102,7 @@
 
     if-eq p1, v0, :cond_20
 
-    .line 381
+    .line 377
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->GND:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
@@ -1115,7 +1116,7 @@
 
     if-ne v0, p1, :cond_1c
 
-    .line 388
+    .line 384
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -1126,7 +1127,7 @@
 
     if-eq p1, v0, :cond_20
 
-    .line 390
+    .line 386
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getImpedance()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
@@ -1137,7 +1138,7 @@
 
     if-eq p1, v0, :cond_20
 
-    .line 391
+    .line 387
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
@@ -1148,7 +1149,7 @@
 
     if-ne p1, v0, :cond_1a
 
-    .line 392
+    .line 388
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->AC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
@@ -1157,7 +1158,7 @@
 
     goto :goto_2
 
-    .line 394
+    .line 390
     :cond_1a
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -1169,7 +1170,7 @@
 
     if-ne p1, v0, :cond_1b
 
-    .line 396
+    .line 392
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->AC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
@@ -1178,7 +1179,7 @@
 
     goto :goto_2
 
-    .line 398
+    .line 394
     :cond_1b
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -1200,6 +1201,31 @@
 
     if-ne v0, p1, :cond_1e
 
+    .line 407
+    iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
+
+    if-eq p1, v0, :cond_20
+
+    .line 408
+    iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_1M:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/VerticalParam;->saveImpedance(Lcom/rigol/scope/cil/ServiceEnum$Impedance;)V
+
+    goto :goto_2
+
+    :cond_1e
+    const p1, 0x7f0a0550
+
+    if-ne v0, p1, :cond_1f
+
     .line 411
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -1220,37 +1246,12 @@
 
     goto :goto_2
 
-    :cond_1e
-    const p1, 0x7f0a0550
-
-    if-ne v0, p1, :cond_1f
-
-    .line 415
-    iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
-
-    if-eq p1, v0, :cond_20
-
-    .line 416
-    iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_1M:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/VerticalParam;->saveImpedance(Lcom/rigol/scope/cil/ServiceEnum$Impedance;)V
-
-    goto :goto_2
-
     :cond_1f
     const p1, 0x7f0a054f
 
     if-ne v0, p1, :cond_20
 
-    .line 418
+    .line 414
     sget p1, Lcom/rigol/scope/utilities/ViewUtil;->serialize:I
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
@@ -1259,7 +1260,7 @@
 
     if-eq p1, v0, :cond_20
 
-    .line 419
+    .line 415
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -1441,7 +1442,7 @@
 .method private offsetDown()V
     .locals 3
 
-    .line 608
+    .line 609
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     const/4 v1, 0x1
@@ -1450,7 +1451,7 @@
 
     move-result-wide v0
 
-    .line 609
+    .line 610
     iget-object v2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v2, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->moveOffset(J)V
@@ -1461,7 +1462,7 @@
 .method private offsetUp()V
     .locals 3
 
-    .line 603
+    .line 604
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     const/4 v1, 0x1
@@ -1470,7 +1471,7 @@
 
     move-result-wide v0
 
-    .line 604
+    .line 605
     iget-object v2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v2, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->moveOffset(J)V
@@ -1481,7 +1482,7 @@
 .method private positionDown()V
     .locals 3
 
-    .line 599
+    .line 600
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     const/4 v1, 0x1
@@ -1498,7 +1499,7 @@
 .method private positionUp()V
     .locals 3
 
-    .line 595
+    .line 596
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     const/4 v1, 0x1
@@ -1515,7 +1516,7 @@
 .method private selectBandWidthLimit(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 437
+    .line 438
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -1526,12 +1527,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 438
+    .line 439
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-eqz v0, :cond_0
 
-    .line 439
+    .line 440
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBandwidth(Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;)V
 
     :cond_0
@@ -1541,14 +1542,14 @@
 .method private selectCoupling(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 444
+    .line 445
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-eqz v0, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 445
+    .line 446
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -1559,7 +1560,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 447
+    .line 448
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveCoupling(Lcom/rigol/scope/cil/ServiceEnum$Coupling;)V
@@ -1568,10 +1569,42 @@
     return-void
 .end method
 
+.method private selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 670
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p1
+
+    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getProbeXFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    .line 673
+    iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioEnable()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 674
+    iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
+
+    :cond_0
+    return-void
+.end method
+
 .method private selectUnit(Lcom/rigol/scope/data/MappingObject;)V
     .locals 2
 
-    .line 426
+    .line 422
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -1580,14 +1613,37 @@
 
     move-result-object p1
 
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_1
 
-    .line 427
+    .line 423
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
-    .line 428
+    .line 424
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_A:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    if-ne p1, v0, :cond_0
+
+    .line 425
+    iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveProbeRatioUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
+
+    goto :goto_0
+
+    .line 427
+    :cond_0
+    iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveProbeRatioUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
+
+    .line 429
+    :goto_0
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->triggerViewModel:Lcom/rigol/scope/viewmodels/TriggerViewModel;
 
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/TriggerViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -1600,19 +1656,19 @@
 
     check-cast v0, Lcom/rigol/scope/data/TriggerParam;
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
-    .line 430
+    .line 431
     iget v1, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
     invoke-virtual {v0, p1, v1}, Lcom/rigol/scope/data/TriggerParam;->setUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;I)V
 
-    .line 431
+    .line 432
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    :cond_0
+    :cond_1
     return-void
 .end method
 
@@ -1826,7 +1882,7 @@
 
     move-object/from16 v7, p0
 
-    .line 486
+    .line 487
     invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
@@ -1835,12 +1891,12 @@
 
     check-cast v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;
 
-    .line 487
+    .line 488
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 489
+    .line 490
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v10, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->scaleEditText:Landroid/widget/EditText;
@@ -1859,7 +1915,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 490
+    .line 491
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->offsetEditText:Landroid/widget/EditText;
@@ -1880,7 +1936,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 491
+    .line 492
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v10, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->positionEditText:Landroid/widget/EditText;
@@ -1895,7 +1951,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 492
+    .line 493
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->delayEditText:Landroid/widget/EditText;
@@ -1912,7 +1968,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 494
+    .line 495
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v10, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->unitSpinner:Landroid/widget/TextView;
@@ -1927,7 +1983,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 495
+    .line 496
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->couplingSpinner:Landroid/widget/TextView;
@@ -1944,7 +2000,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 496
+    .line 497
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v10, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->bandwidthLimitSpinner:Landroid/widget/TextView;
@@ -1957,7 +2013,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 498
+    .line 499
     iget-object v0, v7, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->mapList:Ljava/util/Map;
 
     invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1966,7 +2022,7 @@
 
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 500
+    .line 501
     new-instance v9, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;
 
     iget-object v2, v7, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->context:Landroid/content/Context;
@@ -1983,7 +2039,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;-><init>(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;Landroid/content/Context;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSetTextById;Lcom/rigol/scope/utilities/AorBManager$OnTextReset;I)V
 
-    .line 514
+    .line 515
     iget-object v0, v7, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->context:Landroid/content/Context;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->scaleEditText:Landroid/widget/EditText;
@@ -1994,7 +2050,7 @@
 
     invoke-virtual {v9, v0, v1, v2, v3}, Lcom/rigol/scope/utilities/AorBManager;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
 
-    .line 516
+    .line 517
     iget-object v0, v7, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->context:Landroid/content/Context;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->offsetEditText:Landroid/widget/EditText;
@@ -2003,7 +2059,7 @@
 
     invoke-virtual {v9, v0, v1, v2, v3}, Lcom/rigol/scope/utilities/AorBManager;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
 
-    .line 518
+    .line 519
     iget-object v0, v7, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->mapManager:Ljava/util/Map;
 
     invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2012,12 +2068,152 @@
 
     invoke-interface {v0, v1, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 519
+    .line 520
     iget-object v0, v7, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->adapterInitArr:[Z
 
     aput-boolean v2, v0, p2
 
     return-object v9
+.end method
+
+.method public getList(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/rigol/scope/data/MappingObject;",
+            ">;",
+            "Ljava/lang/String;",
+            ")",
+            "Ljava/util/List<",
+            "Lcom/rigol/scope/data/MappingObject;",
+            ">;"
+        }
+    .end annotation
+
+    .line 645
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 646
+    iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    move-result-object v1
+
+    .line 647
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/data/MappingObject;
+
+    .line 649
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    if-ne v1, v3, :cond_0
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v3
+
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_10X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    iget v4, v4, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+
+    if-le v3, v4, :cond_0
+
+    goto :goto_0
+
+    .line 653
+    :cond_0
+    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 654
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    const-string v5, ""
+
+    if-eqz v4, :cond_1
+
+    .line 655
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v3
+
+    goto :goto_1
+
+    .line 656
+    :cond_1
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    .line 657
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 660
+    :cond_2
+    :goto_1
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Lcom/rigol/scope/data/MappingObject;->setStr(Ljava/lang/String;)V
+
+    .line 663
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_3
+    return-object v0
 .end method
 
 .method public synthetic lambda$click$11$VerticalViewPagerAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
@@ -2077,17 +2273,22 @@
 .method public synthetic lambda$click$15$VerticalViewPagerAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 340
+    .line 341
     iput-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 341
+    .line 342
     iput-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 342
+    .line 343
     iput-object p3, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->mappingObjects:Ljava/util/List;
 
-    .line 343
+    .line 344
     iput-object p4, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->clickedView:Landroid/view/View;
+
+    .line 345
+    iget-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/VerticalParam;->setPopupSpinner(Lcom/rigol/scope/views/spinner/PopupSpinner;)V
 
     return-void
 .end method
@@ -2095,39 +2296,16 @@
 .method public synthetic lambda$click$16$VerticalViewPagerAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 346
-    invoke-virtual {p4}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+    .line 348
+    invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
 
-    move-result p1
-
-    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getProbeXFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_0
-
-    .line 349
-    iget-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioEnable()Z
-
-    move-result p2
-
-    if-eqz p2, :cond_0
-
-    .line 350
-    iget-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/VerticalParam;->saveProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
-
-    :cond_0
     return-void
 .end method
 
 .method public synthetic lambda$click$17$VerticalViewPagerAdapter(Ljava/lang/String;)V
     .locals 1
 
-    .line 360
+    .line 356
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveLabel(Ljava/lang/String;)V
@@ -2188,7 +2366,7 @@
 .method public synthetic lambda$setCurrentItemForce$18$VerticalViewPagerAdapter(I)V
     .locals 1
 
-    .line 531
+    .line 532
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->mapManager:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2413,7 +2591,7 @@
 .method public onResetDefault(I)V
     .locals 3
 
-    .line 614
+    .line 615
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-nez v0, :cond_0
@@ -2425,7 +2603,7 @@
 
     goto :goto_0
 
-    .line 617
+    .line 618
     :sswitch_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2439,7 +2617,7 @@
 
     goto :goto_0
 
-    .line 623
+    .line 624
     :sswitch_1
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getPositionAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2453,7 +2631,7 @@
 
     goto :goto_0
 
-    .line 620
+    .line 621
     :sswitch_2
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2467,7 +2645,7 @@
 
     goto :goto_0
 
-    .line 626
+    .line 627
     :sswitch_3
     new-instance p1, Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2475,25 +2653,25 @@
 
     const v0, -0x5f5e100
 
-    .line 627
+    .line 628
     invoke-virtual {p1, v0}, Lcom/rigol/scope/cil/MessageAttr;->setMinValue(I)V
 
     const v0, 0x5f5e100
 
-    .line 628
+    .line 629
     invoke-virtual {p1, v0}, Lcom/rigol/scope/cil/MessageAttr;->setMaxValue(I)V
 
     const/4 v0, 0x0
 
-    .line 629
+    .line 630
     invoke-virtual {p1, v0}, Lcom/rigol/scope/cil/MessageAttr;->setDefValue(I)V
 
     const-wide/16 v0, 0x2710
 
-    .line 630
+    .line 631
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/MessageAttr;->setStepValue(J)V
 
-    .line 631
+    .line 632
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->getLongDef(Lcom/rigol/scope/cil/MessageAttr;)J
@@ -2519,7 +2697,7 @@
 .method public onViewIdCallback(Landroid/view/KeyEvent;IZ)V
     .locals 6
 
-    .line 556
+    .line 557
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->mapBindings:Ljava/util/Map;
 
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getCurrentItem()I
@@ -2536,7 +2714,7 @@
 
     check-cast v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;
 
-    .line 557
+    .line 558
     iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-eqz v1, :cond_4
@@ -2545,7 +2723,7 @@
 
     goto :goto_0
 
-    .line 559
+    .line 560
     :cond_0
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBinding;->displaySwitch:Lcom/rigol/scope/views/SwitchButton;
 
@@ -2564,14 +2742,14 @@
 
     if-eqz p3, :cond_1
 
-    .line 563
+    .line 564
     iget-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/VerticalParam;->scaleSmaller(I)V
 
     goto :goto_0
 
-    .line 565
+    .line 566
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -2582,12 +2760,12 @@
     :sswitch_1
     if-eqz p3, :cond_2
 
-    .line 577
+    .line 578
     invoke-direct {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->positionUp()V
 
     goto :goto_0
 
-    .line 579
+    .line 580
     :cond_2
     invoke-direct {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->positionDown()V
 
@@ -2596,18 +2774,18 @@
     :sswitch_2
     if-eqz p3, :cond_3
 
-    .line 570
+    .line 571
     invoke-direct {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->offsetUp()V
 
     goto :goto_0
 
-    .line 572
+    .line 573
     :cond_3
     invoke-direct {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->offsetDown()V
 
     goto :goto_0
 
-    .line 583
+    .line 584
     :sswitch_3
     new-instance v3, Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2615,25 +2793,25 @@
 
     const p2, -0x5f5e100
 
-    .line 584
+    .line 585
     invoke-virtual {v3, p2}, Lcom/rigol/scope/cil/MessageAttr;->setMinValue(I)V
 
     const p2, 0x5f5e100
 
-    .line 585
+    .line 586
     invoke-virtual {v3, p2}, Lcom/rigol/scope/cil/MessageAttr;->setMaxValue(I)V
 
     const/4 p2, 0x0
 
-    .line 586
+    .line 587
     invoke-virtual {v3, p2}, Lcom/rigol/scope/cil/MessageAttr;->setDefValue(I)V
 
     const-wide/16 v0, 0x2710
 
-    .line 587
+    .line 588
     invoke-virtual {v3, v0, v1}, Lcom/rigol/scope/cil/MessageAttr;->setStepValue(J)V
 
-    .line 588
+    .line 589
     iget-object p2, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getChanDelay()J
@@ -2679,10 +2857,10 @@
 .method public setCurrentItem(I)V
     .locals 1
 
-    .line 547
+    .line 548
     invoke-super {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapter;->setCurrentItem(I)V
 
-    .line 548
+    .line 549
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getItems()Ljava/util/List;
 
     move-result-object v0
@@ -2693,7 +2871,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 550
+    .line 551
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->turnActive()V
 
     :cond_0
@@ -2703,13 +2881,13 @@
 .method public setCurrentItemForce(I)V
     .locals 4
 
-    .line 525
+    .line 526
     iput p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->currentItem:I
 
-    .line 526
+    .line 527
     invoke-super {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapter;->setCurrentItem(I)V
 
-    .line 527
+    .line 528
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->adapterInitArr:[Z
 
     aget-boolean v0, v0, p1
@@ -2728,7 +2906,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 528
+    .line 529
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->mapManager:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2745,7 +2923,7 @@
 
     goto :goto_0
 
-    .line 531
+    .line 532
     :cond_0
     new-instance v0, Landroid/os/Handler;
 
@@ -2759,7 +2937,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 534
+    .line 535
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getItems()Ljava/util/List;
 
@@ -2771,7 +2949,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
-    .line 535
+    .line 536
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     move-result-object p1
@@ -2780,7 +2958,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 536
+    .line 537
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -2789,7 +2967,7 @@
 
     goto :goto_1
 
-    .line 537
+    .line 538
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -2811,7 +2989,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 538
+    .line 539
     :cond_2
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2821,7 +2999,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->setLight(Lcom/rigol/scope/utilities/AorBManager;)V
 
-    .line 539
+    .line 540
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -2832,7 +3010,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 540
+    .line 541
     iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;

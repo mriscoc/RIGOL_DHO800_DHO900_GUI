@@ -64,7 +64,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9101
+    .line 9103
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v1, "FEM_ERR_NONE"
@@ -85,7 +85,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_NONE:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9103
+    .line 9105
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v9, "FEM_ERR_LOGGER_DISCONNECT"
@@ -106,7 +106,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_LOGGER_DISCONNECT:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9105
+    .line 9107
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v2, "FEM_ERR_LOGGER_TIMEOUT"
@@ -127,7 +127,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_LOGGER_TIMEOUT:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9107
+    .line 9109
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v9, "FEM_ERR_QUEUE_FULL"
@@ -148,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_QUEUE_FULL:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9109
+    .line 9111
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v2, "FEM_ERR_QUEUE_EMPTY"
@@ -169,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_QUEUE_EMPTY:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9111
+    .line 9113
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v9, "FEM_ERR_QUEUEE_INTERNALERROR"
@@ -190,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_QUEUEE_INTERNALERROR:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9113
+    .line 9115
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v2, "FEM_ERR_EXCUTE_TIMEOUT"
@@ -211,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_EXCUTE_TIMEOUT:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9115
+    .line 9117
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v9, "FEM_ERR_EXCUTE_ERRPTR"
@@ -232,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_EXCUTE_ERRPTR:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9117
+    .line 9119
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v2, "FEM_ERR_EXCUTE_NULLPTR"
@@ -253,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_EXCUTE_NULLPTR:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9119
+    .line 9121
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v9, "FEM_ERR_EXCUTE_TIMEOUT_ERR"
@@ -274,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_EXCUTE_TIMEOUT_ERR:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9121
+    .line 9123
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v2, "FEM_ERR_PARAMS_TOOMANY"
@@ -295,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_PARAMS_TOOMANY:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9123
+    .line 9125
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const-string v9, "FEM_ERR_FUNCTION_NOTEXIST"
@@ -320,7 +320,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
-    .line 9098
+    .line 9100
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->FEM_ERR_NONE:Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     const/4 v3, 0x0
@@ -408,19 +408,19 @@
         }
     .end annotation
 
-    .line 9126
+    .line 9128
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9127
+    .line 9129
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->value1:I
 
-    .line 9128
+    .line 9130
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->value2:Ljava/lang/String;
 
-    .line 9129
+    .line 9131
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->pic1:Ljava/lang/String;
 
-    .line 9130
+    .line 9132
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->pic2:Ljava/lang/String;
 
     return-void
@@ -429,7 +429,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
     .locals 1
 
-    .line 9098
+    .line 9100
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -444,7 +444,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
     .locals 1
 
-    .line 9098
+    .line 9100
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FEMStatus;->clone()Ljava/lang/Object;

@@ -62,7 +62,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8581
+    .line 8583
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v1, "DRV_OK"
@@ -83,7 +83,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_OK:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8582
+    .line 8584
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v9, "DRV_INIT_ERROR"
@@ -104,7 +104,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_INIT_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8583
+    .line 8585
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v2, "DRV_PARAM_ERROR"
@@ -125,7 +125,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_PARAM_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8584
+    .line 8586
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v9, "DRV_TRACE_ERROR"
@@ -146,7 +146,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_TRACE_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8586
+    .line 8588
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v2, "DRV_SAME_PARAM"
@@ -167,7 +167,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_SAME_PARAM:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8587
+    .line 8589
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v9, "DRV_READ_ERROR"
@@ -188,7 +188,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_READ_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8588
+    .line 8590
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v2, "DRV_FEM_ERROR"
@@ -209,7 +209,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_FEM_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8589
+    .line 8591
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v9, "DRV_WPU_ZOOM_ERROR"
@@ -230,7 +230,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_WPU_ZOOM_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8590
+    .line 8592
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v2, "DRV_NO_SIGNAL"
@@ -251,7 +251,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_NO_SIGNAL:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8592
+    .line 8594
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v9, "DRV_CAL_ERROR"
@@ -272,7 +272,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_CAL_ERROR:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8594
+    .line 8596
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const-string v2, "DRV_SCAN_PLAY"
@@ -297,7 +297,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
-    .line 8579
+    .line 8581
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->DRV_OK:Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     const/4 v3, 0x0
@@ -379,19 +379,19 @@
         }
     .end annotation
 
-    .line 8597
+    .line 8599
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8598
+    .line 8600
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->value1:I
 
-    .line 8599
+    .line 8601
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->value2:Ljava/lang/String;
 
-    .line 8600
+    .line 8602
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->pic1:Ljava/lang/String;
 
-    .line 8601
+    .line 8603
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->pic2:Ljava/lang/String;
 
     return-void
@@ -400,7 +400,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
     .locals 1
 
-    .line 8579
+    .line 8581
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -415,7 +415,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
     .locals 1
 
-    .line 8579
+    .line 8581
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DrvStatus;->clone()Ljava/lang/Object;

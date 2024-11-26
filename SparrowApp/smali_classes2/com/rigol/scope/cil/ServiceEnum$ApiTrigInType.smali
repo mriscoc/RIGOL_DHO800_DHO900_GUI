@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9784
+    .line 9786
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
     const-string v1, "RISING"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->RISING:Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
-    .line 9785
+    .line 9787
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
     const-string v9, "FALLING"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
-    .line 9782
+    .line 9784
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->RISING:Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 9788
+    .line 9790
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9789
+    .line 9791
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->value1:I
 
-    .line 9790
+    .line 9792
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->value2:Ljava/lang/String;
 
-    .line 9791
+    .line 9793
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->pic1:Ljava/lang/String;
 
-    .line 9792
+    .line 9794
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
     .locals 1
 
-    .line 9782
+    .line 9784
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
     .locals 1
 
-    .line 9782
+    .line 9784
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ApiTrigInType;->clone()Ljava/lang/Object;

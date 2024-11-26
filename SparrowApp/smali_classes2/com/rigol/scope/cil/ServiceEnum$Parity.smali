@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3793
+    .line 3795
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
     const-string v1, "even"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Parity;->even:Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
-    .line 3794
+    .line 3796
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
     const-string v9, "odd"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
-    .line 3791
+    .line 3793
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Parity;->even:Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 3797
+    .line 3799
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3798
+    .line 3800
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Parity;->value1:I
 
-    .line 3799
+    .line 3801
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Parity;->value2:Ljava/lang/String;
 
-    .line 3800
+    .line 3802
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Parity;->pic1:Ljava/lang/String;
 
-    .line 3801
+    .line 3803
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Parity;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Parity;
     .locals 1
 
-    .line 3791
+    .line 3793
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Parity;
     .locals 1
 
-    .line 3791
+    .line 3793
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Parity;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Parity;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Parity;->clone()Ljava/lang/Object;

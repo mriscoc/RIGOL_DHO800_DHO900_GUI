@@ -107,8 +107,8 @@
     </style>
     <style name="App.Image" parent="@style/None" />
     <style name="App.Image.ResultItem" parent="@style/App.Image">
-        <item name="android:layout_width">25.0dip</item>
-        <item name="android:layout_height">25.0dip</item>
+        <item name="android:layout_width">20.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
         <item name="android:contentDescription">@string/app_name</item>
         <item name="android:layout_marginStart">5.0dip</item>
     </style>
@@ -784,13 +784,14 @@
         <item name="drawableTint">@android:color/white</item>
     </style>
     <style name="App.Title.ResultItem" parent="@style/App.Title">
-        <item name="android:textSize">16.0sp</item>
+        <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">25.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
         <item name="android:maxLines">1</item>
-        <item name="android:paddingStart">5.0dip</item>
-        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:paddingStart">1.0dip</item>
+        <item name="android:paddingEnd">1.0dip</item>
+        <item name="android:layout_marginStart">5.0dip</item>
     </style>
     <style name="App.Window" parent="@style/None" />
     <style name="App.Window.Waveform" parent="@style/App.Window" />
@@ -2523,10 +2524,10 @@
     <style name="ResultItemTitleLayout">
         <item name="android:paddingTop">5.0dip</item>
         <item name="android:paddingBottom">2.0dip</item>
-        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingStart">0.0dip</item>
-        <item name="android:layout_marginEnd">1.0dip</item>
+        <item name="android:paddingEnd">5.0dip</item>
     </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
         <item name="android:textAlignment">viewStart</item>

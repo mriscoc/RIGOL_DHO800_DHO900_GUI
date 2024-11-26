@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3366
+    .line 3368
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     const-string v1, "trig_i2c_write"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->trig_i2c_write:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
-    .line 3367
+    .line 3369
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     const-string v9, "trig_i2c_read"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->trig_i2c_read:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
-    .line 3368
+    .line 3370
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     const-string v2, "trig_i2c_any"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
-    .line 3364
+    .line 3366
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->trig_i2c_write:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 3371
+    .line 3373
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3372
+    .line 3374
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->value1:I
 
-    .line 3373
+    .line 3375
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->value2:Ljava/lang/String;
 
-    .line 3374
+    .line 3376
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->pic1:Ljava/lang/String;
 
-    .line 3375
+    .line 3377
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
     .locals 1
 
-    .line 3364
+    .line 3366
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
     .locals 1
 
-    .line 3364
+    .line 3366
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;->clone()Ljava/lang/Object;

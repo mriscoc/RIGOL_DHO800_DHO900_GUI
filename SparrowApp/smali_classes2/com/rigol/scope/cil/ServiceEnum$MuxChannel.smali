@@ -66,7 +66,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5636
+    .line 5638
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v1, "CH1_AFE"
@@ -87,7 +87,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH1_AFE:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5637
+    .line 5639
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v9, "CH2_AFE"
@@ -108,7 +108,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH2_AFE:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5638
+    .line 5640
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v2, "CH3_AFE"
@@ -129,7 +129,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH3_AFE:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5639
+    .line 5641
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v9, "CH4_AFE"
@@ -150,7 +150,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH4_AFE:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5640
+    .line 5642
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v2, "CH1_ADC"
@@ -171,7 +171,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH1_ADC:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5641
+    .line 5643
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v9, "CH2_ADC"
@@ -192,7 +192,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH2_ADC:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5642
+    .line 5644
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v2, "CH3_ADC"
@@ -213,7 +213,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH3_ADC:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5643
+    .line 5645
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v9, "CH4_ADC"
@@ -234,7 +234,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH4_ADC:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5644
+    .line 5646
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v2, "PLL_ADC"
@@ -255,7 +255,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->PLL_ADC:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5645
+    .line 5647
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v9, "PLL_CAL"
@@ -276,7 +276,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->PLL_CAL:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5646
+    .line 5648
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v2, "DAC_AFE"
@@ -297,7 +297,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->DAC_AFE:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5647
+    .line 5649
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v9, "DAC_EXT"
@@ -318,7 +318,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->DAC_EXT:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5648
+    .line 5650
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const-string v2, "ZBD"
@@ -343,7 +343,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
-    .line 5633
+    .line 5635
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->CH1_AFE:Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     const/4 v3, 0x0
@@ -437,19 +437,19 @@
         }
     .end annotation
 
-    .line 5651
+    .line 5653
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5652
+    .line 5654
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->value1:I
 
-    .line 5653
+    .line 5655
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->value2:Ljava/lang/String;
 
-    .line 5654
+    .line 5656
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->pic1:Ljava/lang/String;
 
-    .line 5655
+    .line 5657
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->pic2:Ljava/lang/String;
 
     return-void
@@ -458,7 +458,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
     .locals 1
 
-    .line 5633
+    .line 5635
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -473,7 +473,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
     .locals 1
 
-    .line 5633
+    .line 5635
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MuxChannel;->clone()Ljava/lang/Object;

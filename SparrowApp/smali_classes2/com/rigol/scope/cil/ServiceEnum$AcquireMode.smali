@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1304
+    .line 1306
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v1, "Acquire_Normal"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Normal:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1305
+    .line 1307
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v9, "Acquire_Peak"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Peak:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1306
+    .line 1308
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v2, "Acquire_Average"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Average:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1307
+    .line 1309
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v9, "Acquire_HighResolution"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_HighResolution:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1308
+    .line 1310
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v2, "Acquire_Envelope"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Envelope:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1309
+    .line 1311
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v9, "Acquire_RMS"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_RMS:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1310
+    .line 1312
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v2, "Acquire_Equ"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Equ:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1311
+    .line 1313
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const-string v9, "Acquire_Ultra"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    .line 1302
+    .line 1304
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Normal:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 1314
+    .line 1316
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1315
+    .line 1317
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->value1:I
 
-    .line 1316
+    .line 1318
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->value2:Ljava/lang/String;
 
-    .line 1317
+    .line 1319
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->pic1:Ljava/lang/String;
 
-    .line 1318
+    .line 1320
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
     .locals 1
 
-    .line 1302
+    .line 1304
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
     .locals 1
 
-    .line 1302
+    .line 1304
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->clone()Ljava/lang/Object;

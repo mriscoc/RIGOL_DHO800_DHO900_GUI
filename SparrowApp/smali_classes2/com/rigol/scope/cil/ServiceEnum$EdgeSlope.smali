@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1923
+    .line 1925
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     const-string v1, "Trigger_Edge_Rising"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    .line 1924
+    .line 1926
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     const-string v9, "Trigger_Edge_Falling"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    .line 1925
+    .line 1927
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     const-string v2, "Trigger_Edge_Alternating"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Alternating:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    .line 1926
+    .line 1928
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     const-string v9, "Trigger_Edge_Any"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    .line 1921
+    .line 1923
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 1929
+    .line 1931
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1930
+    .line 1932
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    .line 1931
+    .line 1933
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value2:Ljava/lang/String;
 
-    .line 1932
+    .line 1934
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->pic1:Ljava/lang/String;
 
-    .line 1933
+    .line 1935
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
     .locals 1
 
-    .line 1921
+    .line 1923
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
     .locals 1
 
-    .line 1921
+    .line 1923
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->clone()Ljava/lang/Object;

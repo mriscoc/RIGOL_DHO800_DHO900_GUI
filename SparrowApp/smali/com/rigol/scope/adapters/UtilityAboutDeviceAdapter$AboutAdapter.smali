@@ -52,10 +52,10 @@
         }
     .end annotation
 
-    .line 240
+    .line 242
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 241
+    .line 243
     iput-object p1, p0, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->list:Ljava/util/List;
 
     return-void
@@ -66,7 +66,7 @@
 .method public getItemCount()I
     .locals 1
 
-    .line 288
+    .line 290
     iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->list:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -79,7 +79,7 @@
 .method public bridge synthetic onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
     .locals 0
 
-    .line 235
+    .line 237
     check-cast p1, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->onBindViewHolder(Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;I)V
@@ -90,7 +90,7 @@
 .method public onBindViewHolder(Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;I)V
     .locals 2
 
-    .line 263
+    .line 265
     iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->list:Ljava/util/List;
 
     invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -101,36 +101,36 @@
 
     const-string v0, "&"
 
-    .line 264
+    .line 266
     invoke-virtual {p2, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 266
+    .line 268
     invoke-virtual {p2, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p2
 
-    .line 270
+    .line 272
     array-length v0, p2
 
     if-lez v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 272
+    .line 274
     aget-object v0, p2, v0
 
-    .line 274
+    .line 276
     iget-object v1, p1, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;->binding:Lcom/rigol/scope/databinding/AdapterUtilityInformationBinding;
 
     iget-object v1, v1, Lcom/rigol/scope/databinding/AdapterUtilityInformationBinding;->informationTitle:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 276
+    .line 278
     :cond_0
     array-length v0, p2
 
@@ -138,10 +138,10 @@
 
     if-le v0, v1, :cond_1
 
-    .line 278
+    .line 280
     aget-object p2, p2, v1
 
-    .line 280
+    .line 282
     iget-object p1, p1, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;->binding:Lcom/rigol/scope/databinding/AdapterUtilityInformationBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterUtilityInformationBinding;->informationContent:Landroid/widget/TextView;
@@ -155,7 +155,7 @@
 .method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
     .locals 0
 
-    .line 235
+    .line 237
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;
 
     move-result-object p1
@@ -166,7 +166,7 @@
 .method public onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;
     .locals 0
 
-    .line 255
+    .line 257
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -179,7 +179,7 @@
 
     move-result-object p1
 
-    .line 256
+    .line 258
     new-instance p2, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;
 
     invoke-direct {p2, p1}, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter$DetialViewHolder;-><init>(Lcom/rigol/scope/databinding/AdapterUtilityInformationBinding;)V
@@ -198,10 +198,10 @@
         }
     .end annotation
 
-    .line 246
+    .line 248
     iput-object p1, p0, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->list:Ljava/util/List;
 
-    .line 247
+    .line 249
     invoke-virtual {p0}, Lcom/rigol/scope/adapters/UtilityAboutDeviceAdapter$AboutAdapter;->notifyDataSetChanged()V
 
     return-void

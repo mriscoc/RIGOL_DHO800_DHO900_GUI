@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6364
+    .line 6366
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const-string v1, "fft_rectangle"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_rectangle:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 6365
+    .line 6367
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const-string v9, "fft_blackman"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_blackman:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 6366
+    .line 6368
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const-string v2, "fft_hanning"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_hanning:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 6367
+    .line 6369
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const-string v9, "fft_hamming"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_hamming:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 6368
+    .line 6370
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const-string v2, "fft_flattop"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_flattop:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 6369
+    .line 6371
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const-string v9, "fft_triangle"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 6362
+    .line 6364
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_rectangle:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 6372
+    .line 6374
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6373
+    .line 6375
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->value1:I
 
-    .line 6374
+    .line 6376
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->value2:Ljava/lang/String;
 
-    .line 6375
+    .line 6377
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->pic1:Ljava/lang/String;
 
-    .line 6376
+    .line 6378
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
     .locals 1
 
-    .line 6362
+    .line 6364
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
     .locals 1
 
-    .line 6362
+    .line 6364
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->clone()Ljava/lang/Object;

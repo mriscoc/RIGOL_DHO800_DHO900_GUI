@@ -70,7 +70,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1783
+    .line 1785
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v1, "Trigger_Mux_A"
@@ -91,7 +91,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_A:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1784
+    .line 1786
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_A_or_B"
@@ -112,7 +112,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_A_or_B:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1785
+    .line 1787
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_A_and_B"
@@ -133,7 +133,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_A_and_B:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1786
+    .line 1788
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_ABR"
@@ -154,7 +154,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_ABR:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1787
+    .line 1789
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_Uart"
@@ -175,7 +175,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Uart:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1788
+    .line 1790
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_I2S"
@@ -196,7 +196,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_I2S:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1789
+    .line 1791
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_Lin"
@@ -217,7 +217,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Lin:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1790
+    .line 1792
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_Can"
@@ -238,7 +238,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Can:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1791
+    .line 1793
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_Flexray"
@@ -259,7 +259,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Flexray:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1792
+    .line 1794
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_Arinc429"
@@ -280,7 +280,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Arinc429:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1793
+    .line 1795
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_Mil1553b"
@@ -301,7 +301,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Mil1553b:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1794
+    .line 1796
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_Sent"
@@ -322,7 +322,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_Sent:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1795
+    .line 1797
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_SPI"
@@ -343,7 +343,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_SPI:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1796
+    .line 1798
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v9, "Trigger_Mux_I2C"
@@ -364,7 +364,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_I2C:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1797
+    .line 1799
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const-string v2, "Trigger_Mux_Video"
@@ -389,7 +389,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
-    .line 1781
+    .line 1783
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->Trigger_Mux_A:Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     const/4 v3, 0x0
@@ -495,19 +495,19 @@
         }
     .end annotation
 
-    .line 1800
+    .line 1802
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1801
+    .line 1803
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->value1:I
 
-    .line 1802
+    .line 1804
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->value2:Ljava/lang/String;
 
-    .line 1803
+    .line 1805
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->pic1:Ljava/lang/String;
 
-    .line 1804
+    .line 1806
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->pic2:Ljava/lang/String;
 
     return-void
@@ -516,7 +516,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
     .locals 1
 
-    .line 1781
+    .line 1783
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -531,7 +531,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
     .locals 1
 
-    .line 1781
+    .line 1783
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$TriggeMuxType;->clone()Ljava/lang/Object;

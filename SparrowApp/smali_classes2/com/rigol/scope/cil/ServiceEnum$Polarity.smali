@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7600
+    .line 7602
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
     const-string v1, "Polarity_Negtive"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->Polarity_Negtive:Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
-    .line 7601
+    .line 7603
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
     const-string v9, "Polarity_Positive"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
-    .line 7598
+    .line 7600
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->Polarity_Negtive:Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 7604
+    .line 7606
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7605
+    .line 7607
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->value1:I
 
-    .line 7606
+    .line 7608
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->value2:Ljava/lang/String;
 
-    .line 7607
+    .line 7609
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->pic1:Ljava/lang/String;
 
-    .line 7608
+    .line 7610
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Polarity;
     .locals 1
 
-    .line 7598
+    .line 7600
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Polarity;
     .locals 1
 
-    .line 7598
+    .line 7600
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Polarity;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Polarity;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Polarity;->clone()Ljava/lang/Object;

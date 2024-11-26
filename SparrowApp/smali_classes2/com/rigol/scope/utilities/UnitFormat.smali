@@ -296,7 +296,7 @@
 
     sget-object v1, Ljava/math/RoundingMode;->UP:Ljava/math/RoundingMode;
 
-    const/4 v2, 0x2
+    const/4 v2, 0x3
 
     invoke-virtual {v0, v2, v1}, Ljava/math/BigDecimal;->setScale(ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
 

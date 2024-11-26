@@ -51,7 +51,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f1007bd
+    const p0, 0x7f1007be
 
     .line 564
     invoke-static {p0}, Lcom/rigol/util/ToastUtils;->showLong(I)V
@@ -59,7 +59,7 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f1003cd
+    const p0, 0x7f1003ce
 
     .line 566
     invoke-static {p0}, Lcom/rigol/util/ToastUtils;->showShort(I)V

@@ -66,7 +66,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3030
+    .line 3032
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v1, "trig_can_when_sof"
@@ -87,7 +87,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_sof:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3031
+    .line 3033
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v9, "trig_can_when_eof"
@@ -108,7 +108,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_eof:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3032
+    .line 3034
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v2, "trig_can_when_remote_id"
@@ -129,7 +129,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_remote_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3033
+    .line 3035
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v9, "trig_can_when_overload"
@@ -150,7 +150,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_overload:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3034
+    .line 3036
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v2, "trig_can_when_frame_id"
@@ -171,7 +171,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_frame_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3035
+    .line 3037
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v9, "trig_can_when_frame_data"
@@ -192,7 +192,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_frame_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3036
+    .line 3038
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v2, "trig_can_when_frame_data_id"
@@ -213,7 +213,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_frame_data_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3037
+    .line 3039
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v9, "trig_can_when_frame_error"
@@ -234,7 +234,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_frame_error:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3038
+    .line 3040
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v2, "trig_can_when_bit_error"
@@ -255,7 +255,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_bit_error:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3039
+    .line 3041
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v9, "trig_can_when_answer_error"
@@ -276,7 +276,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_answer_error:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3040
+    .line 3042
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v2, "trig_can_when_check_error"
@@ -297,7 +297,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_check_error:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3041
+    .line 3043
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v9, "trig_can_when_format_error"
@@ -318,7 +318,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_format_error:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3042
+    .line 3044
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const-string v2, "trig_can_when_random_error"
@@ -343,7 +343,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    .line 3028
+    .line 3030
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->trig_can_when_sof:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     const/4 v3, 0x0
@@ -437,19 +437,19 @@
         }
     .end annotation
 
-    .line 3045
+    .line 3047
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3046
+    .line 3048
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->value1:I
 
-    .line 3047
+    .line 3049
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->value2:Ljava/lang/String;
 
-    .line 3048
+    .line 3050
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->pic1:Ljava/lang/String;
 
-    .line 3049
+    .line 3051
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->pic2:Ljava/lang/String;
 
     return-void
@@ -458,7 +458,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
     .locals 1
 
-    .line 3028
+    .line 3030
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -473,7 +473,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
     .locals 1
 
-    .line 3028
+    .line 3030
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;->clone()Ljava/lang/Object;

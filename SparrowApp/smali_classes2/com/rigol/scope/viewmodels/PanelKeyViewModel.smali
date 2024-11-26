@@ -1925,7 +1925,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->saveFine(Z)V
 
-    const v0, 0x7f100f27
+    const v0, 0x7f100f29
 
     .line 967
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isFine()Z
@@ -5030,7 +5030,7 @@
 
     const/16 v8, 0x20
 
-    const v9, 0x7f100376
+    const v9, 0x7f100377
 
     const/4 v10, 0x0
 
@@ -6702,7 +6702,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1007b4
+    const v3, 0x7f1007b5
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6758,7 +6758,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1007b3
+    const v3, 0x7f1007b4
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6886,7 +6886,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f10074b
+    const v4, 0x7f10074c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6909,7 +6909,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f10078d
+    const v2, 0x7f10078e
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7094,7 +7094,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f100378
+    const v4, 0x7f100379
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -8422,7 +8422,7 @@
 
     move-result-object p3
 
-    const p5, 0x7f100763
+    const p5, 0x7f100764
 
     invoke-virtual {p3, p5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -8450,7 +8450,7 @@
 
     packed-switch p1, :pswitch_data_3
 
-    const p3, 0x7f100376
+    const p3, 0x7f100377
 
     packed-switch p1, :pswitch_data_4
 
@@ -8460,7 +8460,7 @@
     :pswitch_8
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->toggleFine()V
 
-    const p1, 0x7f100cdb
+    const p1, 0x7f100cdd
 
     .line 363
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getFine()Z
@@ -9120,7 +9120,7 @@
 
     move-result v0
 
-    const v1, 0x7f100376
+    const v1, 0x7f100377
 
     packed-switch v0, :pswitch_data_0
 
@@ -9767,7 +9767,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f100376
+    const p3, 0x7f100377
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

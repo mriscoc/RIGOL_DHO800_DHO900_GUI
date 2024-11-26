@@ -329,7 +329,7 @@
 
     invoke-static {p1, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    const/16 p1, 0x48
+    const/16 p1, 0x49
 
     .line 70
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -343,7 +343,7 @@
     .line 59
     iput-wide p1, p0, Lcom/rigol/scope/data/KeyboardParam;->defaultValue:D
 
-    const/16 p1, 0xdf
+    const/16 p1, 0xe0
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -357,7 +357,7 @@
     .line 45
     iput-wide p1, p0, Lcom/rigol/scope/data/KeyboardParam;->maxValue:D
 
-    const/16 p1, 0x20c
+    const/16 p1, 0x20d
 
     .line 46
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -371,7 +371,7 @@
     .line 52
     iput-wide p1, p0, Lcom/rigol/scope/data/KeyboardParam;->minValue:D
 
-    const/16 p1, 0x21d
+    const/16 p1, 0x21e
 
     .line 53
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/KeyboardParam;->notifyPropertyChanged(I)V
@@ -395,7 +395,7 @@
 .method public final setUnitSi()V
     .locals 7
 
-    .line 150
+    .line 151
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     sget-object v1, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
@@ -421,7 +421,7 @@
     :pswitch_0
     goto/16 :goto_0
 
-    .line 205
+    .line 206
     :pswitch_1
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -429,21 +429,21 @@
 
     invoke-virtual {v0, v5, v1}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 206
+    .line 207
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v1, Lcom/rigol/scope/utilities/UnitFormat$SI;->MEGA:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v1}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 207
+    .line 208
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v1, Lcom/rigol/scope/utilities/UnitFormat$SI;->KILO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v1}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 208
+    .line 209
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v1, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -452,7 +452,7 @@
 
     goto/16 :goto_0
 
-    .line 201
+    .line 202
     :pswitch_2
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -462,7 +462,7 @@
 
     goto/16 :goto_0
 
-    .line 195
+    .line 196
     :pswitch_3
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -470,28 +470,28 @@
 
     invoke-virtual {v0, v5, v6}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 196
+    .line 197
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->MEGA:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v5}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 197
+    .line 198
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v4, Lcom/rigol/scope/utilities/UnitFormat$SI;->KILO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v4}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 198
+    .line 199
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v3, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v2, v3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 199
+    .line 200
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -500,7 +500,7 @@
 
     goto/16 :goto_0
 
-    .line 188
+    .line 189
     :pswitch_4
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -508,28 +508,28 @@
 
     invoke-virtual {v0, v5, v6}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 189
+    .line 190
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v5}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 190
+    .line 191
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v4, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v4}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 191
+    .line 192
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v3, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v2, v3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 192
+    .line 193
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->PICO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -538,7 +538,7 @@
 
     goto/16 :goto_0
 
-    .line 181
+    .line 182
     :pswitch_5
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -546,28 +546,28 @@
 
     invoke-virtual {v0, v5, v6}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 182
+    .line 183
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->KILO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v5}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 183
+    .line 184
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v4, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v4}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 184
+    .line 185
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v3, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v2, v3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 185
+    .line 186
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -576,7 +576,7 @@
 
     goto/16 :goto_0
 
-    .line 173
+    .line 174
     :pswitch_6
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -584,28 +584,28 @@
 
     invoke-virtual {v0, v5, v6}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 174
+    .line 175
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v5}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 175
+    .line 176
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v4, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v4}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 176
+    .line 177
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v3, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v2, v3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 177
+    .line 178
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -614,7 +614,7 @@
 
     goto :goto_0
 
-    .line 168
+    .line 169
     :pswitch_7
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -622,7 +622,7 @@
 
     invoke-virtual {v0, v5, v1}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 169
+    .line 170
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v1, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -631,7 +631,7 @@
 
     goto :goto_0
 
-    .line 159
+    .line 160
     :pswitch_8
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -639,28 +639,28 @@
 
     invoke-virtual {v0, v5, v6}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 160
+    .line 161
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v5}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 161
+    .line 162
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v4, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v4}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 162
+    .line 163
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v3, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v2, v3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 163
+    .line 164
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -669,7 +669,7 @@
 
     goto :goto_0
 
-    .line 152
+    .line 153
     :pswitch_9
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
@@ -677,28 +677,28 @@
 
     invoke-virtual {v0, v5, v6}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 153
+    .line 154
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->KILO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v4, v5}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 154
+    .line 155
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v4, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v3, v4}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 155
+    .line 156
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v3, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-virtual {v0, v2, v3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
 
-    .line 156
+    .line 157
     iget-object v0, p0, Lcom/rigol/scope/data/KeyboardParam;->unitSiList:Landroidx/collection/SparseArrayCompat;
 
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
@@ -715,6 +715,7 @@
         :pswitch_9
         :pswitch_8
         :pswitch_8
+        :pswitch_7
         :pswitch_7
         :pswitch_7
         :pswitch_7
@@ -780,7 +781,7 @@
 
     goto :goto_0
 
-    .line 142
+    .line 143
     :pswitch_0
     sget-object p1, Lcom/rigol/scope/utilities/UnitFormat$SI;->MILLI:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
@@ -846,6 +847,7 @@
 
     :pswitch_data_1
     .packed-switch 0x13
+        :pswitch_0
         :pswitch_0
         :pswitch_0
         :pswitch_0

@@ -62,7 +62,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4062
+    .line 4064
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v1, "NET_STATUS_UNLINK"
@@ -83,7 +83,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_UNLINK:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4064
+    .line 4066
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v9, "NET_STATUS_CONNECTED"
@@ -104,7 +104,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_CONNECTED:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4066
+    .line 4068
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v2, "NET_STATUS_INIT"
@@ -125,7 +125,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_INIT:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4068
+    .line 4070
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v9, "NET_STATUS_UNBOUND"
@@ -146,7 +146,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_UNBOUND:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4070
+    .line 4072
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v2, "NET_STATUS_IPCONFLICT"
@@ -167,7 +167,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_IPCONFLICT:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4072
+    .line 4074
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v9, "NET_STATUS_BUSY"
@@ -188,7 +188,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_BUSY:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4074
+    .line 4076
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v2, "NET_STATUS_CONFIGURED"
@@ -209,7 +209,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_CONFIGURED:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4076
+    .line 4078
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v9, "NET_STATUS_DHCP_FAILED"
@@ -230,7 +230,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_DHCP_FAILED:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4078
+    .line 4080
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v2, "NET_STATUS_INVALID_IP"
@@ -251,7 +251,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_INVALID_IP:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4080
+    .line 4082
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v9, "NET_STATUS_IP_LOSE"
@@ -272,7 +272,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_IP_LOSE:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4081
+    .line 4083
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const-string v2, "NET_STATUS_SET_MAC"
@@ -297,7 +297,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    .line 4059
+    .line 4061
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_UNLINK:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     const/4 v3, 0x0
@@ -379,19 +379,19 @@
         }
     .end annotation
 
-    .line 4084
+    .line 4086
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4085
+    .line 4087
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->value1:I
 
-    .line 4086
+    .line 4088
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->value2:Ljava/lang/String;
 
-    .line 4087
+    .line 4089
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->pic1:Ljava/lang/String;
 
-    .line 4088
+    .line 4090
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->pic2:Ljava/lang/String;
 
     return-void
@@ -400,7 +400,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
     .locals 1
 
-    .line 4059
+    .line 4061
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -415,7 +415,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
     .locals 1
 
-    .line 4059
+    .line 4061
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->clone()Ljava/lang/Object;

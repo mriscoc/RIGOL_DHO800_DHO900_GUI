@@ -278,7 +278,7 @@
     .line 92
     iget-object v0, p0, Lcom/rigol/scope/views/CustomTimePickerAlertDialog;->context:Landroid/content/Context;
 
-    const v2, 0x7f100c97
+    const v2, 0x7f100c99
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

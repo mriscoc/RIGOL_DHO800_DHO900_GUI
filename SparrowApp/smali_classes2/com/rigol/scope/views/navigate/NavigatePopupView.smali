@@ -2112,7 +2112,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x3a7
+    const/16 v1, 0x3a9
 
     .line 594
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -2120,21 +2120,21 @@
     .line 595
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v1, 0x325
+    const/16 v1, 0x327
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
 
     .line 596
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v1, 0x15b
+    const/16 v1, 0x15c
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
 
     .line 597
     iget-object v0, p0, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateParam:Lcom/rigol/scope/data/NavigateParam;
 
-    const/16 v1, 0x15c
+    const/16 v1, 0x15d
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
 

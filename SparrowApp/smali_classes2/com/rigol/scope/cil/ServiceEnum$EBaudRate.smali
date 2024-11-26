@@ -130,7 +130,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2556
+    .line 2558
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v1, "BaudRate_50"
@@ -151,7 +151,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_50:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2557
+    .line 2559
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_75"
@@ -172,7 +172,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_75:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2558
+    .line 2560
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_110"
@@ -193,7 +193,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_110:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2559
+    .line 2561
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_134"
@@ -214,7 +214,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_134:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2560
+    .line 2562
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_150"
@@ -235,7 +235,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_150:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2561
+    .line 2563
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_300"
@@ -256,7 +256,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_300:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2562
+    .line 2564
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_600"
@@ -277,7 +277,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_600:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2563
+    .line 2565
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_1000"
@@ -298,7 +298,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_1000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2564
+    .line 2566
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_1200"
@@ -319,7 +319,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_1200:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2565
+    .line 2567
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_1800"
@@ -340,7 +340,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_1800:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2566
+    .line 2568
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_2000"
@@ -361,7 +361,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_2000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2567
+    .line 2569
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_2400"
@@ -382,7 +382,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_2400:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2568
+    .line 2570
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_4800"
@@ -403,7 +403,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_4800:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2569
+    .line 2571
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_9600"
@@ -424,7 +424,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_9600:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2570
+    .line 2572
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_10000"
@@ -445,7 +445,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_10000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2571
+    .line 2573
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_20000"
@@ -466,7 +466,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_20000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2572
+    .line 2574
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_19200"
@@ -487,7 +487,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_19200:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2573
+    .line 2575
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_33300"
@@ -508,7 +508,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_33300:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2574
+    .line 2576
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_38400"
@@ -529,7 +529,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_38400:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2575
+    .line 2577
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_50000"
@@ -550,7 +550,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_50000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2576
+    .line 2578
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_57600"
@@ -571,7 +571,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_57600:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2577
+    .line 2579
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_62500"
@@ -592,7 +592,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_62500:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2578
+    .line 2580
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_83300"
@@ -613,7 +613,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_83300:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2579
+    .line 2581
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_100000"
@@ -634,7 +634,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_100000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2580
+    .line 2582
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_115200"
@@ -655,7 +655,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_115200:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2581
+    .line 2583
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_125000"
@@ -676,7 +676,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_125000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2582
+    .line 2584
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_230400"
@@ -697,7 +697,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_230400:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2583
+    .line 2585
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_250000"
@@ -718,7 +718,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_250000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2584
+    .line 2586
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_460800"
@@ -739,7 +739,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_460800:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2585
+    .line 2587
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_500000"
@@ -760,7 +760,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_500000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2586
+    .line 2588
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_800000"
@@ -781,7 +781,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_800000:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2587
+    .line 2589
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_921600"
@@ -802,7 +802,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_921600:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2588
+    .line 2590
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_1Mbps"
@@ -823,7 +823,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_1Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2589
+    .line 2591
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_2Mbps"
@@ -844,7 +844,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_2Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2590
+    .line 2592
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_3Mbps"
@@ -865,7 +865,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_3Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2591
+    .line 2593
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_4Mbps"
@@ -886,7 +886,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_4Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2592
+    .line 2594
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_5Mbps"
@@ -907,7 +907,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_5Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2593
+    .line 2595
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_6Mbps"
@@ -928,7 +928,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_6Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2594
+    .line 2596
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_7Mbps"
@@ -949,7 +949,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_7Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2595
+    .line 2597
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_8Mbps"
@@ -970,7 +970,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_8Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2596
+    .line 2598
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_9Mbps"
@@ -991,7 +991,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_9Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2597
+    .line 2599
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_10Mbps"
@@ -1012,7 +1012,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_10Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2598
+    .line 2600
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_20Mbps"
@@ -1033,7 +1033,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_20Mbps:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2599
+    .line 2601
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v9, "BaudRate_Is_User"
@@ -1054,7 +1054,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_Is_User:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2600
+    .line 2602
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const-string v2, "BaudRate_All"
@@ -1079,7 +1079,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    .line 2554
+    .line 2556
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->BaudRate_50:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     const/4 v3, 0x0
@@ -1365,19 +1365,19 @@
         }
     .end annotation
 
-    .line 2603
+    .line 2605
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2604
+    .line 2606
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->value1:I
 
-    .line 2605
+    .line 2607
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->value2:Ljava/lang/String;
 
-    .line 2606
+    .line 2608
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->pic1:Ljava/lang/String;
 
-    .line 2607
+    .line 2609
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->pic2:Ljava/lang/String;
 
     return-void
@@ -1386,7 +1386,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
     .locals 1
 
-    .line 2554
+    .line 2556
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -1401,7 +1401,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
     .locals 1
 
-    .line 2554
+    .line 2556
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;->clone()Ljava/lang/Object;

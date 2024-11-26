@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3909
+    .line 3911
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     const-string v1, "vert_expand_gnd"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_gnd:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
-    .line 3910
+    .line 3912
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     const-string v9, "vert_expand_center"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
-    .line 3907
+    .line 3909
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_gnd:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 3913
+    .line 3915
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3914
+    .line 3916
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->value1:I
 
-    .line 3915
+    .line 3917
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->value2:Ljava/lang/String;
 
-    .line 3916
+    .line 3918
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->pic1:Ljava/lang/String;
 
-    .line 3917
+    .line 3919
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
     .locals 1
 
-    .line 3907
+    .line 3909
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
     .locals 1
 
-    .line 3907
+    .line 3909
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->clone()Ljava/lang/Object;

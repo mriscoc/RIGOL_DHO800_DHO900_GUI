@@ -546,7 +546,7 @@
     .line 282
     iget-object v0, p0, Lcom/rigol/scope/views/analyse/AnalyseEthResultPopupView;->param:Lcom/rigol/scope/views/busAnalyse/BusAnalyseParam;
 
-    const v1, 0x7f100e95
+    const v1, 0x7f100e97
 
     if-eqz v0, :cond_2
 
@@ -572,12 +572,12 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f100e94
+    const v1, 0x7f100e96
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f100e96
+    const v1, 0x7f100e98
 
     :cond_2
     :goto_0

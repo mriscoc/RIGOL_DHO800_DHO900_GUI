@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4175
+    .line 4177
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const-string v1, "STAT_MAX"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$StatType;->STAT_MAX:Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
-    .line 4176
+    .line 4178
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const-string v9, "STAT_MIN"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->STAT_MIN:Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
-    .line 4177
+    .line 4179
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const-string v2, "STAT_CURR"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->STAT_CURR:Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
-    .line 4178
+    .line 4180
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const-string v9, "STAT_AVER"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->STAT_AVER:Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
-    .line 4179
+    .line 4181
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const-string v2, "STAT_DEV"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->STAT_DEV:Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
-    .line 4180
+    .line 4182
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const-string v9, "STAT_CNT"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
-    .line 4173
+    .line 4175
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$StatType;->STAT_MAX:Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 4183
+    .line 4185
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4184
+    .line 4186
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->value1:I
 
-    .line 4185
+    .line 4187
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->value2:Ljava/lang/String;
 
-    .line 4186
+    .line 4188
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->pic1:Ljava/lang/String;
 
-    .line 4187
+    .line 4189
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$StatType;
     .locals 1
 
-    .line 4173
+    .line 4175
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$StatType;
     .locals 1
 
-    .line 4173
+    .line 4175
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StatType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$StatType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$StatType;->clone()Ljava/lang/Object;

@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2218
+    .line 2220
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     const-string v1, "trig_video_any_line"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->trig_video_any_line:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
-    .line 2219
+    .line 2221
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     const-string v9, "trig_video_x_line"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->trig_video_x_line:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
-    .line 2220
+    .line 2222
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     const-string v2, "trig_video_odd"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->trig_video_odd:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
-    .line 2221
+    .line 2223
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     const-string v9, "trig_video_even"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
-    .line 2216
+    .line 2218
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->trig_video_any_line:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 2224
+    .line 2226
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2225
+    .line 2227
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->value1:I
 
-    .line 2226
+    .line 2228
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->value2:Ljava/lang/String;
 
-    .line 2227
+    .line 2229
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->pic1:Ljava/lang/String;
 
-    .line 2228
+    .line 2230
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
     .locals 1
 
-    .line 2216
+    .line 2218
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
     .locals 1
 
-    .line 2216
+    .line 2218
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;->clone()Ljava/lang/Object;

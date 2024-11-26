@@ -883,7 +883,7 @@
     .line 362
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam$Param;->label:Ljava/lang/String;
 
-    const/16 p1, 0x1da
+    const/16 p1, 0x1db
 
     .line 363
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -908,7 +908,7 @@
     .line 386
     iput-boolean p1, p0, Lcom/rigol/scope/data/RefParam$Param;->onOff:Z
 
-    const/16 p1, 0x239
+    const/16 p1, 0x23a
 
     .line 387
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -933,7 +933,7 @@
     .line 374
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam$Param;->refColor:Lcom/rigol/scope/cil/ServiceEnum$RefColor;
 
-    const/16 p1, 0x2ca
+    const/16 p1, 0x2cc
 
     .line 375
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -978,7 +978,7 @@
     .line 309
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam$Param;->srcChan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x37f
+    const/16 p1, 0x381
 
     .line 310
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -1003,7 +1003,7 @@
     .line 352
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam$Param;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3d9
+    const/16 p1, 0x3db
 
     .line 353
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -1017,7 +1017,7 @@
     .line 342
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam$Param;->unitStr:Ljava/lang/String;
 
-    const/16 p1, 0x3dc
+    const/16 p1, 0x3de
 
     .line 343
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -1031,7 +1031,7 @@
     .line 331
     iput-wide p1, p0, Lcom/rigol/scope/data/RefParam$Param;->verOffset:J
 
-    const/16 p1, 0x3f9
+    const/16 p1, 0x3fb
 
     .line 332
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V
@@ -1065,7 +1065,7 @@
     .line 320
     iput-wide p1, p0, Lcom/rigol/scope/data/RefParam$Param;->verScale:J
 
-    const/16 p1, 0x3fa
+    const/16 p1, 0x3fc
 
     .line 321
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam$Param;->notifyPropertyChanged(I)V

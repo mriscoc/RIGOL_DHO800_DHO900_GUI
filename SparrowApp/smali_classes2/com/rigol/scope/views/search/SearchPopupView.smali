@@ -836,7 +836,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f100376
+    const p1, 0x7f100377
 
     .line 351
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -1117,7 +1117,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011bf
+    const v0, 0x7f1011c1
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

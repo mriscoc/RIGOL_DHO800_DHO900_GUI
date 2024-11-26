@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2394
+    .line 2396
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     const-string v1, "RS232_Err_Check"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->RS232_Err_Check:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
-    .line 2395
+    .line 2397
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     const-string v9, "RS232_Err_Stop"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->RS232_Err_Stop:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
-    .line 2396
+    .line 2398
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     const-string v2, "RS232_Err_All"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
-    .line 2392
+    .line 2394
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->RS232_Err_Check:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2399
+    .line 2401
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2400
+    .line 2402
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->value1:I
 
-    .line 2401
+    .line 2403
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->value2:Ljava/lang/String;
 
-    .line 2402
+    .line 2404
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->pic1:Ljava/lang/String;
 
-    .line 2403
+    .line 2405
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
     .locals 1
 
-    .line 2392
+    .line 2394
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
     .locals 1
 
-    .line 2392
+    .line 2394
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Error;->clone()Ljava/lang/Object;

@@ -136,7 +136,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6097
+    .line 6099
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v1, "FUN_MEASURE"
@@ -157,7 +157,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6099
+    .line 6101
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_HISTOGRAM"
@@ -178,7 +178,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6101
+    .line 6103
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_CURSOR"
@@ -199,7 +199,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_CURSOR:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6103
+    .line 6105
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_RESULT_TABLE"
@@ -220,7 +220,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_RESULT_TABLE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6105
+    .line 6107
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_MULTI_WINDOW"
@@ -241,7 +241,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MULTI_WINDOW:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6107
+    .line 6109
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_MATH"
@@ -262,7 +262,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MATH:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6109
+    .line 6111
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_REF"
@@ -283,7 +283,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_REF:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6111
+    .line 6113
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_FFT"
@@ -304,7 +304,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_FFT:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6113
+    .line 6115
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_COUNTER"
@@ -325,7 +325,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_COUNTER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6115
+    .line 6117
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_DVM"
@@ -346,7 +346,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_DVM:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6117
+    .line 6119
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_EYE"
@@ -367,7 +367,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_EYE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6119
+    .line 6121
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_JITTER"
@@ -388,7 +388,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_JITTER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6121
+    .line 6123
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_DECODE"
@@ -409,7 +409,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6123
+    .line 6125
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_BODE"
@@ -430,7 +430,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_BODE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6125
+    .line 6127
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_UPA"
@@ -451,7 +451,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_UPA:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6127
+    .line 6129
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_BUS_ANALYSE"
@@ -472,7 +472,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_BUS_ANALYSE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6129
+    .line 6131
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_MASK"
@@ -493,7 +493,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MASK:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6131
+    .line 6133
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_SEARCH"
@@ -514,7 +514,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_SEARCH:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6133
+    .line 6135
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_ZONE_TRIGGER"
@@ -535,7 +535,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_ZONE_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6135
+    .line 6137
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_RECORD"
@@ -556,7 +556,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_RECORD:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6137
+    .line 6139
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_AUTO"
@@ -577,7 +577,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_AUTO:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6139
+    .line 6141
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_DISPLAY"
@@ -598,7 +598,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_DISPLAY:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6141
+    .line 6143
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_NOTE"
@@ -619,7 +619,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_NOTE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6143
+    .line 6145
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_QUICK"
@@ -640,7 +640,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_QUICK:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6145
+    .line 6147
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_SHARE"
@@ -661,7 +661,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_SHARE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6147
+    .line 6149
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_STORAGE"
@@ -682,7 +682,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_STORAGE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6149
+    .line 6151
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_HELP"
@@ -703,7 +703,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_HELP:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6151
+    .line 6153
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_UPDATE"
@@ -724,7 +724,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_UPDATE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6153
+    .line 6155
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_UTILITY"
@@ -745,7 +745,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_UTILITY:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6155
+    .line 6157
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_BACK"
@@ -766,7 +766,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_BACK:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6157
+    .line 6159
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_RESTART"
@@ -787,7 +787,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_RESTART:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6159
+    .line 6161
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_SHUTDOWN"
@@ -808,7 +808,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_SHUTDOWN:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6161
+    .line 6163
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_RUN_STOP"
@@ -829,7 +829,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_RUN_STOP:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6163
+    .line 6165
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_SINGLE"
@@ -850,7 +850,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_SINGLE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6165
+    .line 6167
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_FORCE"
@@ -871,7 +871,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_FORCE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6167
+    .line 6169
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_TRIGGER"
@@ -892,7 +892,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6169
+    .line 6171
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_ACQUIRE"
@@ -913,7 +913,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_ACQUIRE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6171
+    .line 6173
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_DEFAULT"
@@ -934,7 +934,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_DEFAULT:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6173
+    .line 6175
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_HORIZONTAL"
@@ -955,7 +955,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_HORIZONTAL:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6175
+    .line 6177
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_VERTICAL"
@@ -976,7 +976,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_VERTICAL:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6177
+    .line 6179
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_CLEAR"
@@ -997,7 +997,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_CLEAR:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6179
+    .line 6181
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_WAVE_INTENSITY"
@@ -1018,7 +1018,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_WAVE_INTENSITY:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6181
+    .line 6183
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_NEXT_PAGE"
@@ -1039,7 +1039,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_NEXT_PAGE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6183
+    .line 6185
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_PREVIOUS_PAGE"
@@ -1060,7 +1060,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_PREVIOUS_PAGE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6185
+    .line 6187
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_ZOOM"
@@ -1081,7 +1081,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_ZOOM:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6187
+    .line 6189
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_XY"
@@ -1102,7 +1102,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_XY:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6189
+    .line 6191
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v2, "FUN_FLEX_KNOB"
@@ -1123,7 +1123,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_FLEX_KNOB:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6191
+    .line 6193
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const-string v9, "FUN_NAVIGATE"
@@ -1148,7 +1148,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Function;
 
-    .line 6094
+    .line 6096
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     const/4 v3, 0x0
@@ -1452,19 +1452,19 @@
         }
     .end annotation
 
-    .line 6194
+    .line 6196
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6195
+    .line 6197
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Function;->value1:I
 
-    .line 6196
+    .line 6198
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Function;->value2:Ljava/lang/String;
 
-    .line 6197
+    .line 6199
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Function;->pic1:Ljava/lang/String;
 
-    .line 6198
+    .line 6200
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Function;->pic2:Ljava/lang/String;
 
     return-void
@@ -1473,7 +1473,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Function;
     .locals 1
 
-    .line 6094
+    .line 6096
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -1488,7 +1488,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Function;
     .locals 1
 
-    .line 6094
+    .line 6096
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Function;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Function;->clone()Ljava/lang/Object;

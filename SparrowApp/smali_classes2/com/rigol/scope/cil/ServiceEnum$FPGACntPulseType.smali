@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6956
+    .line 6958
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
     const-string v1, "FPGA_Cnt_Pulse_N"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->FPGA_Cnt_Pulse_N:Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
-    .line 6957
+    .line 6959
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
     const-string v9, "FPGA_Cnt_Pulse_P"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
-    .line 6954
+    .line 6956
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->FPGA_Cnt_Pulse_N:Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 6960
+    .line 6962
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6961
+    .line 6963
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->value1:I
 
-    .line 6962
+    .line 6964
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->value2:Ljava/lang/String;
 
-    .line 6963
+    .line 6965
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->pic1:Ljava/lang/String;
 
-    .line 6964
+    .line 6966
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
     .locals 1
 
-    .line 6954
+    .line 6956
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
     .locals 1
 
-    .line 6954
+    .line 6956
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FPGACntPulseType;->clone()Ljava/lang/Object;

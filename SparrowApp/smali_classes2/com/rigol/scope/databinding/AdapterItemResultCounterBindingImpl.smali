@@ -286,7 +286,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x20f
+    const/16 v0, 0x210
 
     if-ne p2, v0, :cond_1
 
@@ -318,7 +318,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3a9
+    const/16 v0, 0x3ab
 
     if-ne p2, v0, :cond_2
 
@@ -350,7 +350,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x35c
+    const/16 v0, 0x35e
 
     if-ne p2, v0, :cond_3
 
@@ -382,7 +382,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_4
 
@@ -414,7 +414,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0xbf
+    const/16 v0, 0xc0
 
     if-ne p2, v0, :cond_5
 
@@ -446,7 +446,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0xbe
+    const/16 v0, 0xbf
 
     if-ne p2, v0, :cond_6
 
@@ -478,7 +478,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x20c
+    const/16 v0, 0x20d
 
     if-ne p2, v0, :cond_7
 
@@ -510,7 +510,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x21d
+    const/16 v0, 0x21e
 
     if-ne p2, v0, :cond_8
 
@@ -542,7 +542,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x41
+    const/16 v0, 0x42
 
     if-ne p2, v0, :cond_9
 
@@ -614,7 +614,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1243,7 +1243,7 @@
 
     move-result-object v0
 
-    const v11, 0x7f10144a
+    const v11, 0x7f10144c
 
     invoke-virtual {v0, v11}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1606,7 +1606,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 101
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;->notifyPropertyChanged(I)V
@@ -1631,7 +1631,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 

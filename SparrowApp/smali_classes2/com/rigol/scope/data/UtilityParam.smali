@@ -360,7 +360,7 @@
     .line 393
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
-    const-string v0, "2024/08/01 10:15:55"
+    const-string v0, "2024/10/30 11:25:15"
 
     .line 404
     iput-object v0, p0, Lcom/rigol/scope/data/UtilityParam;->miscBuild:Ljava/lang/String;
@@ -2159,7 +2159,7 @@
     .line 273
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->auxOut:Z
 
-    const/16 p1, 0x3e
+    const/16 p1, 0x3f
 
     .line 274
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2188,7 +2188,7 @@
     .line 240
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->beeper:Z
 
-    const/16 p1, 0x57
+    const/16 p1, 0x58
 
     .line 241
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2237,7 +2237,7 @@
     .line 330
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->date:Ljava/lang/String;
 
-    const/16 p1, 0xdd
+    const/16 p1, 0xde
 
     .line 331
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2266,7 +2266,7 @@
     .line 229
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->displayBrightness:I
 
-    const/16 p1, 0xf2
+    const/16 p1, 0xf3
 
     .line 230
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2291,7 +2291,7 @@
     .line 396
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->hardVersion:Ljava/lang/String;
 
-    const/16 p1, 0x16d
+    const/16 p1, 0x16e
 
     .line 397
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2316,7 +2316,7 @@
     .line 482
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->hdmiRatio:Lcom/rigol/scope/cil/ServiceEnum$HDMI_Ratio;
 
-    const/16 p1, 0x16f
+    const/16 p1, 0x170
 
     .line 483
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2345,7 +2345,7 @@
     .line 130
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->language:I
 
-    const/16 p1, 0x1dd
+    const/16 p1, 0x1de
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2407,7 +2407,7 @@
     .line 352
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->lockKeyboard:Z
 
-    const/16 p1, 0x1f9
+    const/16 p1, 0x1fa
 
     .line 353
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2432,7 +2432,7 @@
     .line 436
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->measSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x20e
+    const/16 p1, 0x20f
 
     .line 437
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2457,7 +2457,7 @@
     .line 407
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->miscBuild:Ljava/lang/String;
 
-    const/16 p1, 0x21e
+    const/16 p1, 0x21f
 
     .line 408
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2482,7 +2482,7 @@
     .line 363
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->model:Ljava/lang/String;
 
-    const/16 p1, 0x225
+    const/16 p1, 0x226
 
     .line 364
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2511,7 +2511,7 @@
     .line 284
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->powerOnSet:Z
 
-    const/16 p1, 0x28a
+    const/16 p1, 0x28b
 
     .line 285
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2540,7 +2540,7 @@
     .line 262
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->powerStatus:Z
 
-    const/16 p1, 0x28b
+    const/16 p1, 0x28c
 
     .line 263
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2569,7 +2569,7 @@
     .line 159
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->projectMode:Z
 
-    const/16 p1, 0x2a3
+    const/16 p1, 0x2a5
 
     .line 160
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2605,7 +2605,7 @@
     .line 419
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->quickOper:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
-    const/16 p1, 0x2aa
+    const/16 p1, 0x2ac
 
     .line 420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2659,7 +2659,7 @@
     .line 471
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->refClock:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    const/16 p1, 0x2c9
+    const/16 p1, 0x2cb
 
     .line 472
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2688,7 +2688,7 @@
     .line 460
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->saveGroup:I
 
-    const/16 p1, 0x303
+    const/16 p1, 0x305
 
     .line 461
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2713,7 +2713,7 @@
     .line 183
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenPicture:Ljava/lang/String;
 
-    const/16 p1, 0x30a
+    const/16 p1, 0x30c
 
     .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2742,7 +2742,7 @@
     .line 219
     iput p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenSelect:I
 
-    const/16 p1, 0x30b
+    const/16 p1, 0x30d
 
     .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2822,7 +2822,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->setScreenTimeStr(Ljava/lang/String;)V
 
-    const/16 p1, 0x30c
+    const/16 p1, 0x30e
 
     .line 201
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2847,7 +2847,7 @@
     .line 208
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenTimeStr:Ljava/lang/String;
 
-    const/16 p1, 0x30d
+    const/16 p1, 0x30f
 
     .line 209
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2872,7 +2872,7 @@
     .line 171
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->screenWord:Ljava/lang/String;
 
-    const/16 p1, 0x30e
+    const/16 p1, 0x310
 
     .line 172
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2904,7 +2904,7 @@
     .line 374
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->serial:Ljava/lang/String;
 
-    const/16 p1, 0x326
+    const/16 p1, 0x328
 
     .line 375
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2942,7 +2942,7 @@
     .line 295
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->showTime:Z
 
-    const/16 p1, 0x347
+    const/16 p1, 0x349
 
     .line 296
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2971,7 +2971,7 @@
     .line 302
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->showzoom:Z
 
-    const/16 p1, 0x34b
+    const/16 p1, 0x34d
 
     .line 303
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -2996,7 +2996,7 @@
     .line 385
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->softVersion:Ljava/lang/String;
 
-    const/16 p1, 0x357
+    const/16 p1, 0x359
 
     .line 386
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -3021,7 +3021,7 @@
     .line 448
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->statReset:Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;
 
-    const/16 p1, 0x387
+    const/16 p1, 0x389
 
     .line 449
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -3046,7 +3046,7 @@
     .line 313
     iput-object p1, p0, Lcom/rigol/scope/data/UtilityParam;->time:Ljava/lang/String;
 
-    const/16 p1, 0x3a4
+    const/16 p1, 0x3a6
 
     .line 314
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -3075,7 +3075,7 @@
     .line 341
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->verticalExpand:Z
 
-    const/16 p1, 0x3ff
+    const/16 p1, 0x401
 
     .line 342
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -3104,7 +3104,7 @@
     .line 251
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->vibration:Z
 
-    const/16 p1, 0x402
+    const/16 p1, 0x404
 
     .line 252
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V
@@ -3133,7 +3133,7 @@
     .line 493
     iput-boolean p1, p0, Lcom/rigol/scope/data/UtilityParam;->zbdLed:Z
 
-    const/16 p1, 0x43d
+    const/16 p1, 0x43f
 
     .line 494
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UtilityParam;->notifyPropertyChanged(I)V

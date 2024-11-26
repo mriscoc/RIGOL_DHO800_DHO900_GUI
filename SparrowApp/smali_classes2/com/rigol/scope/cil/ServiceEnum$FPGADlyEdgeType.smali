@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6894
+    .line 6896
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
     const-string v1, "FPGA_Dly_fall"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->FPGA_Dly_fall:Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
-    .line 6895
+    .line 6897
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
     const-string v9, "FPGA_Dly_Rise"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
-    .line 6892
+    .line 6894
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->FPGA_Dly_fall:Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 6898
+    .line 6900
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6899
+    .line 6901
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->value1:I
 
-    .line 6900
+    .line 6902
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->value2:Ljava/lang/String;
 
-    .line 6901
+    .line 6903
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->pic1:Ljava/lang/String;
 
-    .line 6902
+    .line 6904
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
     .locals 1
 
-    .line 6892
+    .line 6894
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
     .locals 1
 
-    .line 6892
+    .line 6894
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$FPGADlyEdgeType;->clone()Ljava/lang/Object;

@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8068
+    .line 8070
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
     const-string v1, "ONE_ORDER"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->ONE_ORDER:Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
-    .line 8069
+    .line 8071
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
     const-string v9, "TWO_ORDER"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
-    .line 8066
+    .line 8068
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->ONE_ORDER:Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 8072
+    .line 8074
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8073
+    .line 8075
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->value1:I
 
-    .line 8074
+    .line 8076
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->value2:Ljava/lang/String;
 
-    .line 8075
+    .line 8077
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->pic1:Ljava/lang/String;
 
-    .line 8076
+    .line 8078
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
     .locals 1
 
-    .line 8066
+    .line 8068
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
     .locals 1
 
-    .line 8066
+    .line 8068
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$PLLorder;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$PLLorder;->clone()Ljava/lang/Object;

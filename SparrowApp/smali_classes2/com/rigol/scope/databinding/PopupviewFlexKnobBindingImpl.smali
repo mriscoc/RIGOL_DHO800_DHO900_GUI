@@ -342,7 +342,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0xaf
+    const/16 v0, 0xb0
 
     if-ne p2, v0, :cond_1
 
@@ -374,7 +374,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xc3
+    const/16 v0, 0xc4
 
     if-ne p2, v0, :cond_2
 
@@ -446,7 +446,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x27d
+    const/16 v0, 0x27e
 
     if-ne p2, v0, :cond_1
 
@@ -478,7 +478,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f7
 
     if-ne p2, v0, :cond_2
 
@@ -1210,7 +1210,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xb0
+    const/16 p1, 0xb1
 
     .line 126
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->notifyPropertyChanged(I)V
@@ -1261,7 +1261,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewFlexKnobBindingImpl;->notifyPropertyChanged(I)V
@@ -1307,7 +1307,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_1
 
@@ -1319,7 +1319,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0xb0
+    const/16 v0, 0xb1
 
     if-ne v0, p1, :cond_2
 

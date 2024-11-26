@@ -295,7 +295,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xb2
+    const/16 p1, 0xb3
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewProbeBindingImpl;->notifyPropertyChanged(I)V
@@ -320,7 +320,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0xb2
+    const/16 v0, 0xb3
 
     if-ne v0, p1, :cond_0
 

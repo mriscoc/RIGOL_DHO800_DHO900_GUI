@@ -365,7 +365,7 @@
 
     move-object/from16 v2, p0
 
-    .line 1797
+    .line 1816
     iput-wide v0, v2, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
     .line 142
@@ -924,10 +924,10 @@
 
     if-nez p2, :cond_0
 
-    .line 489
+    .line 495
     monitor-enter p0
 
-    .line 490
+    .line 496
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
@@ -937,7 +937,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    .line 491
+    .line 497
     monitor-exit p0
 
     return p1
@@ -952,24 +952,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3a5
+    const/16 v0, 0x3a7
 
     if-ne p2, v0, :cond_1
 
-    .line 495
+    .line 501
     monitor-enter p0
 
-    .line 496
+    .line 502
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x20000000
+    const-wide/32 v2, 0x40000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    .line 497
+    .line 503
     monitor-exit p0
 
     return p1
@@ -1024,7 +1024,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1ae
+    const/16 v0, 0x1af
 
     if-ne p2, v0, :cond_1
 
@@ -1056,7 +1056,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xc0
+    const/16 v0, 0xc1
 
     if-ne p2, v0, :cond_2
 
@@ -1088,7 +1088,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x38b
+    const/16 v0, 0x38d
 
     if-ne p2, v0, :cond_3
 
@@ -1120,7 +1120,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3d9
+    const/16 v0, 0x3db
 
     if-ne p2, v0, :cond_4
 
@@ -1152,7 +1152,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x1da
+    const/16 v0, 0x1db
 
     if-ne p2, v0, :cond_5
 
@@ -1184,7 +1184,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x33a
+    const/16 v0, 0x33c
 
     if-ne p2, v0, :cond_6
 
@@ -1216,7 +1216,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x299
+    const/16 v0, 0x29a
 
     if-ne p2, v0, :cond_7
 
@@ -1248,7 +1248,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x295
+    const/16 v0, 0x296
 
     if-ne p2, v0, :cond_8
 
@@ -1280,7 +1280,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x29c
+    const/16 v0, 0x29e
 
     if-ne p2, v0, :cond_9
 
@@ -1312,7 +1312,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x298
+    const/16 v0, 0x299
 
     if-ne p2, v0, :cond_a
 
@@ -1344,7 +1344,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x1af
+    const/16 v0, 0x29b
 
     if-ne p2, v0, :cond_b
 
@@ -1376,7 +1376,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x1bb
+    const/16 v0, 0x1b0
 
     if-ne p2, v0, :cond_c
 
@@ -1408,7 +1408,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x139
+    const/16 v0, 0x1bc
 
     if-ne p2, v0, :cond_d
 
@@ -1440,7 +1440,7 @@
     throw p1
 
     :cond_d
-    const/16 v0, 0x304
+    const/16 v0, 0x13a
 
     if-ne p2, v0, :cond_e
 
@@ -1472,7 +1472,7 @@
     throw p1
 
     :cond_e
-    const/16 v0, 0x46
+    const/16 v0, 0x306
 
     if-ne p2, v0, :cond_f
 
@@ -1504,7 +1504,7 @@
     throw p1
 
     :cond_f
-    const/16 v0, 0xa2
+    const/16 v0, 0x47
 
     if-ne p2, v0, :cond_10
 
@@ -1536,7 +1536,7 @@
     throw p1
 
     :cond_10
-    const/16 v0, 0x285
+    const/16 v0, 0xa3
 
     if-ne p2, v0, :cond_11
 
@@ -1568,7 +1568,7 @@
     throw p1
 
     :cond_11
-    const/16 v0, 0x234
+    const/16 v0, 0x286
 
     if-ne p2, v0, :cond_12
 
@@ -1600,6 +1600,38 @@
     throw p1
 
     :cond_12
+    const/16 v0, 0x235
+
+    if-ne p2, v0, :cond_13
+
+    .line 471
+    monitor-enter p0
+
+    .line 472
+    :try_start_13
+    iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
+
+    const-wide/32 v2, 0x10000000
+
+    or-long/2addr v0, v2
+
+    iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
+
+    .line 473
+    monitor-exit p0
+
+    return p1
+
+    :catchall_13
+    move-exception p1
+
+    monitor-exit p0
+    :try_end_13
+    .catchall {:try_start_13 .. :try_end_13} :catchall_13
+
+    throw p1
+
+    :cond_13
     const/4 p1, 0x0
 
     return p1
@@ -1612,10 +1644,10 @@
 
     if-nez p2, :cond_0
 
-    .line 474
+    .line 480
     monitor-enter p0
 
-    .line 475
+    .line 481
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
@@ -1625,7 +1657,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    .line 476
+    .line 482
     monitor-exit p0
 
     return p1
@@ -1640,24 +1672,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
-    .line 480
+    .line 486
     monitor-enter p0
 
-    .line 481
+    .line 487
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x10000000
+    const-wide/32 v2, 0x20000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    .line 482
+    .line 488
     monitor-exit p0
 
     return p1
@@ -1712,7 +1744,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1784,7 +1816,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1856,7 +1888,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1906,7 +1938,7 @@
 
     goto/16 :goto_1a
 
-    .line 1689
+    .line 1708
     :pswitch_0
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1920,12 +1952,12 @@
     :goto_0
     if-eqz v0, :cond_1a
 
-    .line 1700
+    .line 1719
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1383
+    .line 1402
     :pswitch_1
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1939,12 +1971,12 @@
     :goto_1
     if-eqz v0, :cond_1a
 
-    .line 1394
+    .line 1413
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1329
+    .line 1348
     :pswitch_2
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1958,12 +1990,12 @@
     :goto_2
     if-eqz v0, :cond_1a
 
-    .line 1340
+    .line 1359
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1491
+    .line 1510
     :pswitch_3
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1977,12 +2009,12 @@
     :goto_3
     if-eqz v0, :cond_1a
 
-    .line 1502
+    .line 1521
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1419
+    .line 1438
     :pswitch_4
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -1996,12 +2028,12 @@
     :goto_4
     if-eqz v0, :cond_1a
 
-    .line 1430
+    .line 1449
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1617
+    .line 1636
     :pswitch_5
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2015,12 +2047,12 @@
     :goto_5
     if-eqz v0, :cond_1a
 
-    .line 1628
+    .line 1647
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1527
+    .line 1546
     :pswitch_6
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2034,12 +2066,12 @@
     :goto_6
     if-eqz v0, :cond_1a
 
-    .line 1538
+    .line 1557
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1761
+    .line 1780
     :pswitch_7
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2053,12 +2085,12 @@
     :goto_7
     if-eqz v0, :cond_1a
 
-    .line 1772
+    .line 1791
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1671
+    .line 1690
     :pswitch_8
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2072,12 +2104,12 @@
     :goto_8
     if-eqz v0, :cond_1a
 
-    .line 1682
+    .line 1701
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1725
+    .line 1744
     :pswitch_9
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2091,12 +2123,12 @@
     :goto_9
     if-eqz v0, :cond_1a
 
-    .line 1736
+    .line 1755
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1563
+    .line 1582
     :pswitch_a
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2110,12 +2142,12 @@
     :goto_a
     if-eqz v0, :cond_1a
 
-    .line 1574
+    .line 1593
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1779
+    .line 1798
     :pswitch_b
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2129,12 +2161,12 @@
     :goto_b
     if-eqz v0, :cond_1a
 
-    .line 1790
+    .line 1809
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1653
+    .line 1672
     :pswitch_c
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2148,12 +2180,12 @@
     :goto_c
     if-eqz v0, :cond_1a
 
-    .line 1664
+    .line 1683
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1365
+    .line 1384
     :pswitch_d
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2167,12 +2199,12 @@
     :goto_d
     if-eqz v0, :cond_1a
 
-    .line 1376
+    .line 1395
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1347
+    .line 1366
     :pswitch_e
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2186,12 +2218,12 @@
     :goto_e
     if-eqz v0, :cond_1a
 
-    .line 1358
+    .line 1377
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1473
+    .line 1492
     :pswitch_f
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2205,12 +2237,12 @@
     :goto_f
     if-eqz v0, :cond_1a
 
-    .line 1484
+    .line 1503
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1437
+    .line 1456
     :pswitch_10
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2224,12 +2256,12 @@
     :goto_10
     if-eqz v0, :cond_1a
 
-    .line 1448
+    .line 1467
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1599
+    .line 1618
     :pswitch_11
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2243,12 +2275,12 @@
     :goto_11
     if-eqz v0, :cond_1a
 
-    .line 1610
+    .line 1629
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1545
+    .line 1564
     :pswitch_12
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2262,12 +2294,12 @@
     :goto_12
     if-eqz v0, :cond_1a
 
-    .line 1556
+    .line 1575
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto/16 :goto_1a
 
-    .line 1743
+    .line 1762
     :pswitch_13
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2281,12 +2313,12 @@
     :goto_13
     if-eqz v0, :cond_1a
 
-    .line 1754
+    .line 1773
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_1a
 
-    .line 1401
+    .line 1420
     :pswitch_14
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2300,12 +2332,12 @@
     :goto_14
     if-eqz v0, :cond_1a
 
-    .line 1412
+    .line 1431
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_1a
 
-    .line 1455
+    .line 1474
     :pswitch_15
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2319,12 +2351,12 @@
     :goto_15
     if-eqz v0, :cond_1a
 
-    .line 1466
+    .line 1485
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_1a
 
-    .line 1509
+    .line 1528
     :pswitch_16
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2338,12 +2370,12 @@
     :goto_16
     if-eqz v0, :cond_1a
 
-    .line 1520
+    .line 1539
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_1a
 
-    .line 1581
+    .line 1600
     :pswitch_17
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2357,12 +2389,12 @@
     :goto_17
     if-eqz v0, :cond_1a
 
-    .line 1592
+    .line 1611
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_1a
 
-    .line 1635
+    .line 1654
     :pswitch_18
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2376,12 +2408,12 @@
     :goto_18
     if-eqz v0, :cond_1a
 
-    .line 1646
+    .line 1665
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     goto :goto_1a
 
-    .line 1707
+    .line 1726
     :pswitch_19
     iget-object p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2395,7 +2427,7 @@
     :goto_19
     if-eqz v0, :cond_1a
 
-    .line 1718
+    .line 1737
     invoke-interface {p1, p2}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     :cond_1a
@@ -2438,33 +2470,33 @@
 
     move-object/from16 v1, p0
 
-    .line 506
+    .line 512
     monitor-enter p0
 
-    .line 507
+    .line 513
     :try_start_0
     iget-wide v2, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
     const-wide/16 v4, 0x0
 
-    .line 508
+    .line 514
     iput-wide v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mDirtyFlags:J
 
-    .line 509
+    .line 515
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 536
+    .line 543
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mParam:Lcom/rigol/scope/data/VerticalParam;
 
-    .line 541
+    .line 549
     iget-object v6, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mOnClickListener:Landroid/view/View$OnClickListener;
 
-    .line 580
+    .line 589
     iget-object v6, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mHorizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
-    const-wide/32 v7, 0x40000000
+    const-wide v7, 0x80000000L
 
     and-long v9, v2, v7
 
@@ -2472,10 +2504,10 @@
 
     if-eqz v9, :cond_4
 
-    .line 586
+    .line 595
     sget v13, Lcom/rigol/scope/utilities/ViewUtil;->serialize:I
 
-    .line 590
+    .line 599
     sget-object v14, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->SERIES_1000:Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;
 
     iget v14, v14, Lcom/rigol/scope/cil/ServiceEnum$ProductSeries;->value1:I
@@ -2494,12 +2526,12 @@
 
     if-eqz v13, :cond_1
 
-    const-wide/high16 v14, 0x10000000000000L
+    const-wide/high16 v14, 0x20000000000000L
 
     goto :goto_1
 
     :cond_1
-    const-wide/high16 v14, 0x8000000000000L
+    const-wide/high16 v14, 0x10000000000000L
 
     :goto_1
     or-long/2addr v2, v14
@@ -2519,41 +2551,41 @@
     const/4 v9, 0x0
 
     :goto_3
-    const-wide/32 v13, 0x5fffff9f
+    const-wide v13, 0xbfffff9fL
 
     and-long/2addr v13, v2
 
     cmp-long v13, v13, v4
 
-    const-wide/high16 v14, 0x40000000000000L
+    const-wide/high16 v14, 0x80000000000000L
 
-    const-wide/32 v16, 0x40001408
+    const-wide v16, 0x80001408L    # 1.061000429E-314
 
-    const-wide/32 v18, 0x40000a0c
+    const-wide v18, 0x80000a0cL    # 1.060999166E-314
 
-    const-wide v20, 0x200000000L
+    const-wide v20, 0x400000000L
 
-    const-wide/32 v22, 0x40400008
+    const-wide v22, 0x80800008L
 
-    const-wide/32 v24, 0x40000808    # 5.304999635E-315
+    const-wide v24, 0x80000808L
 
-    const-wide v26, 0x100000000000L
+    const-wide v26, 0x200000000000L
 
-    const-wide/32 v28, 0x40101008
+    const-wide v28, 0x80201008L
 
-    const-wide/32 v30, 0x40000c08
+    const-wide v30, 0x80000c08L    # 1.060999417E-314
 
-    const-wide/32 v32, 0x40001008
+    const-wide v32, 0x80001008L    # 1.060999923E-314
 
-    const-wide/high16 v34, 0x400000000000000L
+    const-wide/high16 v34, 0x800000000000000L
 
-    const-wide/32 v36, 0x40000408
+    const-wide v36, 0x80000408L
 
     const/16 v38, 0x0
 
     const/16 v39, 0x0
 
-    if-eqz v13, :cond_4e
+    if-eqz v13, :cond_4f
 
     and-long v40, v2, v22
 
@@ -2563,7 +2595,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 611
+    .line 620
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getFine()Z
 
     move-result v13
@@ -2574,7 +2606,7 @@
     const/4 v13, 0x0
 
     :goto_4
-    const-wide/32 v40, 0x40001c08
+    const-wide v40, 0x80001c08L
 
     and-long v40, v2, v40
 
@@ -2584,7 +2616,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 618
+    .line 627
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getImpedance()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     move-result-object v40
@@ -2603,7 +2635,7 @@
 
     if-eqz v41, :cond_b
 
-    .line 624
+    .line 633
     sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_1M:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     if-ne v10, v7, :cond_7
@@ -2620,12 +2652,12 @@
 
     if-eqz v7, :cond_8
 
-    const-wide v43, 0x4000000000L
+    const-wide v43, 0x8000000000L
 
     goto :goto_7
 
     :cond_8
-    const-wide v43, 0x2000000000L
+    const-wide v43, 0x4000000000L
 
     :goto_7
     or-long v2, v2, v43
@@ -2651,7 +2683,7 @@
 
     if-eqz v8, :cond_e
 
-    .line 641
+    .line 650
     sget-object v12, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_50:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     if-eq v10, v12, :cond_c
@@ -2673,7 +2705,7 @@
     goto :goto_b
 
     :cond_d
-    const-wide/high16 v43, 0x20000000000000L
+    const-wide/high16 v43, 0x40000000000000L
 
     or-long v2, v2, v43
 
@@ -2690,7 +2722,7 @@
 
     if-eqz v8, :cond_18
 
-    .line 654
+    .line 663
     sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_50:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     if-ne v10, v8, :cond_10
@@ -2711,20 +2743,20 @@
 
     if-eqz v8, :cond_11
 
+    const-wide v43, 0x200000000L
+
+    or-long v2, v2, v43
+
+    const-wide/high16 v43, 0x2000000000000L
+
+    goto :goto_d
+
+    :cond_11
     const-wide v43, 0x100000000L
 
     or-long v2, v2, v43
 
     const-wide/high16 v43, 0x1000000000000L
-
-    goto :goto_d
-
-    :cond_11
-    const-wide v43, 0x80000000L
-
-    or-long v2, v2, v43
-
-    const-wide v43, 0x800000000000L
 
     :goto_d
     or-long v2, v2, v43
@@ -2738,7 +2770,7 @@
 
     if-eqz v8, :cond_13
 
-    const-wide v43, 0x400000000L
+    const-wide v43, 0x800000000L
 
     or-long v2, v2, v43
 
@@ -2755,7 +2787,7 @@
 
     if-eqz v10, :cond_17
 
-    .line 677
+    .line 686
     iget-object v10, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance50:Landroid/widget/ImageView;
 
     invoke-virtual {v10}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -2818,7 +2850,7 @@
 
     if-eqz v0, :cond_1a
 
-    .line 687
+    .line 696
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v15
@@ -2831,7 +2863,7 @@
     :goto_12
     if-eqz v15, :cond_1b
 
-    .line 693
+    .line 702
     iget v11, v15, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->value1:I
 
     goto :goto_13
@@ -2842,19 +2874,19 @@
     :goto_13
     const v4, 0x7f030085
 
-    .line 698
+    .line 707
     invoke-static {v4, v11}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v4
 
     const/4 v5, 0x2
 
-    .line 699
+    .line 708
     invoke-virtual {v1, v5, v4}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
     if-eqz v4, :cond_1c
 
-    .line 704
+    .line 713
     invoke-virtual {v4}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v4
@@ -2873,7 +2905,7 @@
 
     if-eqz v5, :cond_25
 
-    .line 709
+    .line 718
     sget-object v11, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->GND:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-object/from16 v48, v4
@@ -2887,7 +2919,7 @@
     :cond_1d
     const/4 v11, 0x0
 
-    .line 711
+    .line 720
     :goto_15
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->GND:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
@@ -2905,12 +2937,12 @@
 
     if-eqz v11, :cond_1f
 
-    const-wide v49, 0x1000000000L
+    const-wide v49, 0x2000000000L
 
     goto :goto_17
 
     :cond_1f
-    const-wide v49, 0x800000000L
+    const-wide v49, 0x1000000000L
 
     :goto_17
     or-long v2, v2, v49
@@ -2926,12 +2958,12 @@
 
     if-eqz v4, :cond_21
 
-    const-wide v49, 0x10000000000L
+    const-wide v49, 0x20000000000L
 
     goto :goto_18
 
     :cond_21
-    const-wide v49, 0x8000000000L
+    const-wide v49, 0x10000000000L
 
     :goto_18
     or-long v2, v2, v49
@@ -2977,7 +3009,7 @@
     const/16 v40, 0x0
 
     :goto_1c
-    const-wide/32 v48, 0x40008008
+    const-wide v48, 0x80008008L
 
     and-long v48, v2, v48
 
@@ -2989,7 +3021,7 @@
 
     if-eqz v0, :cond_27
 
-    .line 740
+    .line 749
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getShowLabel()Z
 
     move-result v11
@@ -3008,7 +3040,7 @@
 
     if-eqz v0, :cond_28
 
-    .line 747
+    .line 756
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     move-result-object v49
@@ -3030,7 +3062,7 @@
 
     move-object/from16 v4, v39
 
-    .line 752
+    .line 761
     :goto_1e
     sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
@@ -3053,7 +3085,7 @@
     goto :goto_20
 
     :cond_2a
-    const-wide v51, 0x80000000000L
+    const-wide v51, 0x100000000000L
 
     or-long v2, v2, v51
 
@@ -3069,12 +3101,12 @@
 
     if-eqz v5, :cond_2c
 
-    const-wide/high16 v51, 0x4000000000000L
+    const-wide/high16 v51, 0x8000000000000L
 
     goto :goto_21
 
     :cond_2c
-    const-wide/high16 v51, 0x2000000000000L
+    const-wide/high16 v51, 0x4000000000000L
 
     :goto_21
     or-long v2, v2, v51
@@ -3088,7 +3120,7 @@
 
     if-eqz v5, :cond_2e
 
-    .line 773
+    .line 782
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->isDoubleChan()Z
 
     move-result v51
@@ -3102,13 +3134,13 @@
     :cond_2e
     const/16 v51, 0x0
 
-    .line 775
+    .line 784
     :goto_22
     invoke-static {v5}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v52
 
-    .line 779
+    .line 788
     invoke-static/range {v51 .. v51}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v53
@@ -3127,7 +3159,7 @@
 
     if-eqz v48, :cond_31
 
-    .line 784
+    .line 793
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     if-ne v4, v2, :cond_30
@@ -3144,7 +3176,7 @@
 
     xor-int/2addr v2, v3
 
-    .line 792
+    .line 801
     invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v3
@@ -3206,7 +3238,7 @@
     const/16 v52, 0x0
 
     :goto_25
-    const-wide/32 v55, 0x44002008
+    const-wide v55, 0x88002008L
 
     and-long v55, v2, v55
 
@@ -3218,7 +3250,7 @@
 
     if-eqz v0, :cond_33
 
-    .line 799
+    .line 808
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getPosition()J
 
     move-result-wide v56
@@ -3241,28 +3273,37 @@
     move-wide/from16 v4, v46
 
     :goto_26
-    const-wide/32 v58, 0x42000008
+    const-wide v58, 0x80180089L
 
     and-long v58, v2, v58
 
     cmp-long v58, v58, v46
 
-    if-eqz v58, :cond_35
+    if-eqz v58, :cond_38
 
     if-eqz v0, :cond_34
 
-    .line 806
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getChanDelay()J
+    .line 815
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    move-result-wide v58
+    move-result-object v58
 
-    move-wide/from16 v74, v58
+    .line 817
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    move-result-object v59
+
+    move-object/from16 v74, v58
 
     move/from16 v58, v7
 
+    move-object/from16 v7, v74
+
+    move-object/from16 v75, v59
+
     move/from16 v59, v8
 
-    move-wide/from16 v7, v74
+    move-object/from16 v8, v75
 
     goto :goto_27
 
@@ -3271,19 +3312,126 @@
 
     move/from16 v59, v8
 
+    move-object/from16 v7, v39
+
+    move-object v8, v7
+
+    :goto_27
+    if-eqz v7, :cond_35
+
+    .line 823
+    iget-object v7, v7, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    goto :goto_28
+
+    :cond_35
+    move-object/from16 v7, v39
+
+    :goto_28
+    if-eqz v8, :cond_36
+
+    .line 827
+    iget v8, v8, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+
+    move-object/from16 v60, v10
+
+    goto :goto_29
+
+    :cond_36
+    move-object/from16 v60, v10
+
+    const/4 v8, 0x0
+
+    :goto_29
+    const v10, 0x7f03008d
+
+    .line 832
+    invoke-static {v10, v8}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+
+    move-result-object v8
+
+    const/4 v10, 0x0
+
+    .line 833
+    invoke-virtual {v1, v10, v8}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
+
+    if-eqz v8, :cond_37
+
+    .line 838
+    invoke-virtual {v8}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
+
+    move-result-object v8
+
+    goto :goto_2a
+
+    :cond_37
+    move-object/from16 v8, v39
+
+    .line 843
+    :goto_2a
+    new-instance v10, Ljava/lang/StringBuilder;
+
+    invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v10, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v10, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    goto :goto_2b
+
+    :cond_38
+    move/from16 v58, v7
+
+    move/from16 v59, v8
+
+    move-object/from16 v60, v10
+
+    move-object/from16 v7, v39
+
+    :goto_2b
+    const-wide v61, 0x84000008L
+
+    and-long v61, v2, v61
+
+    const-wide/16 v46, 0x0
+
+    cmp-long v8, v61, v46
+
+    if-eqz v8, :cond_3a
+
+    if-eqz v0, :cond_39
+
+    .line 849
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getChanDelay()J
+
+    move-result-wide v61
+
+    move-object v10, v7
+
+    move-wide/from16 v7, v61
+
+    goto :goto_2c
+
+    :cond_39
+    move-object v10, v7
+
     const-wide/16 v7, 0x0
 
-    .line 811
-    :goto_27
-    sget-object v60, Lcom/rigol/scope/utilities/UnitFormat$SI;->FEMTO:Lcom/rigol/scope/utilities/UnitFormat$SI;
+    .line 854
+    :goto_2c
+    sget-object v61, Lcom/rigol/scope/utilities/UnitFormat$SI;->FEMTO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    move-object/from16 v61, v10
+    move-object/from16 v62, v10
 
-    invoke-static/range {v60 .. v60}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
+    invoke-static/range {v61 .. v61}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v10
 
-    move/from16 v60, v11
+    move/from16 v61, v11
 
     sget-object v11, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
@@ -3291,21 +3439,17 @@
 
     move-result-object v7
 
-    goto :goto_28
+    goto :goto_2d
 
-    :cond_35
-    move/from16 v58, v7
+    :cond_3a
+    move-object/from16 v62, v7
 
-    move/from16 v59, v8
-
-    move-object/from16 v61, v10
-
-    move/from16 v60, v11
+    move/from16 v61, v11
 
     move-object/from16 v7, v39
 
-    :goto_28
-    const-wide/32 v10, 0x40802008
+    :goto_2d
+    const-wide v10, 0x81002008L
 
     and-long/2addr v10, v2
 
@@ -3313,248 +3457,178 @@
 
     cmp-long v8, v10, v46
 
-    if-eqz v8, :cond_36
+    if-eqz v8, :cond_3b
 
-    if-eqz v0, :cond_36
+    if-eqz v0, :cond_3b
 
-    .line 817
+    .line 860
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v10
 
-    goto :goto_29
+    goto :goto_2e
 
-    :cond_36
+    :cond_3b
     move-wide/from16 v10, v46
 
-    :goto_29
-    const-wide/32 v62, 0x51000018
+    :goto_2e
+    const-wide v63, 0xa2000018L
 
-    and-long v62, v2, v62
+    and-long v63, v2, v63
 
-    cmp-long v62, v62, v46
+    cmp-long v63, v63, v46
 
-    if-eqz v62, :cond_39
+    if-eqz v63, :cond_3e
 
-    if-eqz v0, :cond_37
+    if-eqz v0, :cond_3c
 
-    .line 824
+    .line 867
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getBandLimit()Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    move-result-object v62
+    move-result-object v63
 
-    move-object/from16 v74, v62
+    move-object/from16 v74, v63
 
-    move-object/from16 v62, v7
+    move-object/from16 v63, v7
 
     move-object/from16 v7, v74
 
-    goto :goto_2a
+    goto :goto_2f
 
-    :cond_37
-    move-object/from16 v62, v7
+    :cond_3c
+    move-object/from16 v63, v7
 
     move-object/from16 v7, v39
 
-    :goto_2a
-    if-eqz v7, :cond_38
+    :goto_2f
+    if-eqz v7, :cond_3d
 
-    .line 830
+    .line 873
     iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->value1:I
 
-    move/from16 v63, v12
+    move/from16 v64, v12
 
-    goto :goto_2b
+    goto :goto_30
 
-    :cond_38
-    move/from16 v63, v12
+    :cond_3d
+    move/from16 v64, v12
 
     const/4 v7, 0x0
 
-    :goto_2b
+    :goto_30
     const v12, 0x7f030084
 
-    .line 835
+    .line 878
     invoke-static {v12, v7}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v7
 
     const/4 v12, 0x4
 
-    .line 836
+    .line 879
     invoke-virtual {v1, v12, v7}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    if-eqz v7, :cond_3a
+    if-eqz v7, :cond_3f
 
-    .line 841
+    .line 884
     invoke-virtual {v7}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v7
 
-    goto :goto_2c
-
-    :cond_39
-    move-object/from16 v62, v7
-
-    move/from16 v63, v12
-
-    :cond_3a
-    move-object/from16 v7, v39
-
-    :goto_2c
-    const-wide/32 v64, 0x40080089
-
-    and-long v64, v2, v64
-
-    const-wide/16 v46, 0x0
-
-    cmp-long v12, v64, v46
-
-    if-eqz v12, :cond_3d
-
-    if-eqz v0, :cond_3b
-
-    .line 848
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
-
-    move-result-object v12
-
-    goto :goto_2d
-
-    :cond_3b
-    move-object/from16 v12, v39
-
-    :goto_2d
-    if-eqz v12, :cond_3c
-
-    .line 854
-    iget v12, v12, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
-
-    move-object/from16 v64, v7
-
-    goto :goto_2e
-
-    :cond_3c
-    move-object/from16 v64, v7
-
-    const/4 v12, 0x0
-
-    :goto_2e
-    const v7, 0x7f03008d
-
-    .line 859
-    invoke-static {v7, v12}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
-
-    move-result-object v7
-
-    const/4 v12, 0x0
-
-    .line 860
-    invoke-virtual {v1, v12, v7}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
-
-    if-eqz v7, :cond_3e
-
-    .line 865
-    invoke-virtual {v7}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
-
-    move-result-object v7
-
-    goto :goto_2f
-
-    :cond_3d
-    move-object/from16 v64, v7
-
-    const/4 v12, 0x0
+    goto :goto_31
 
     :cond_3e
+    move-object/from16 v63, v7
+
+    move/from16 v64, v12
+
+    :cond_3f
     move-object/from16 v7, v39
 
-    :goto_2f
-    const-wide/32 v65, 0x4c80210a
+    :goto_31
+    const-wide v65, 0x9900210aL
 
     and-long v65, v2, v65
 
     const-wide/16 v46, 0x0
 
-    cmp-long v41, v65, v46
+    cmp-long v12, v65, v46
 
-    if-eqz v41, :cond_45
+    if-eqz v12, :cond_46
 
-    if-eqz v0, :cond_3f
+    if-eqz v0, :cond_40
 
-    .line 872
+    .line 891
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    move-result-object v41
+    move-result-object v12
 
-    move-object/from16 v12, v41
+    goto :goto_32
 
-    goto :goto_30
-
-    :cond_3f
+    :cond_40
     move-object/from16 v12, v39
 
-    :goto_30
-    const-wide/32 v65, 0x4000210a
+    :goto_32
+    const-wide v65, 0x8000210aL
 
     and-long v65, v2, v65
 
     cmp-long v65, v65, v46
 
-    if-eqz v65, :cond_41
+    if-eqz v65, :cond_42
 
     move-object/from16 v65, v7
 
-    if-eqz v12, :cond_40
+    if-eqz v12, :cond_41
 
-    .line 879
+    .line 898
     iget v7, v12, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
     move/from16 v66, v13
 
-    goto :goto_31
+    goto :goto_33
 
-    :cond_40
+    :cond_41
     move/from16 v66, v13
 
     const/4 v7, 0x0
 
-    :goto_31
+    :goto_33
     const v13, 0x7f030090
 
-    .line 884
+    .line 903
     invoke-static {v13, v7}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v7
 
     const/4 v13, 0x1
 
-    .line 885
+    .line 904
     invoke-virtual {v1, v13, v7}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    if-eqz v7, :cond_42
+    if-eqz v7, :cond_43
 
-    .line 890
+    .line 909
     invoke-virtual {v7}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v7
 
-    goto :goto_32
+    goto :goto_34
 
-    :cond_41
+    :cond_42
     move-object/from16 v65, v7
 
     move/from16 v66, v13
 
     const/4 v13, 0x1
 
-    :cond_42
+    :cond_43
     move-object/from16 v7, v39
 
-    :goto_32
-    if-eqz v55, :cond_43
+    :goto_34
+    if-eqz v55, :cond_44
 
-    .line 896
+    .line 915
     sget-object v45, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static/range {v45 .. v45}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
@@ -3565,15 +3639,15 @@
 
     move-result-object v4
 
-    goto :goto_33
+    goto :goto_35
 
-    :cond_43
+    :cond_44
     move-object/from16 v4, v39
 
-    :goto_33
-    if-eqz v8, :cond_44
+    :goto_35
+    if-eqz v8, :cond_45
 
-    .line 901
+    .line 920
     sget-object v5, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static {v5}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
@@ -3584,14 +3658,14 @@
 
     move-result-object v5
 
-    goto :goto_34
-
-    :cond_44
-    move-object/from16 v5, v39
-
-    goto :goto_34
+    goto :goto_36
 
     :cond_45
+    move-object/from16 v5, v39
+
+    goto :goto_36
+
+    :cond_46
     move-object/from16 v65, v7
 
     move/from16 v66, v13
@@ -3604,8 +3678,8 @@
 
     move-object v12, v7
 
-    :goto_34
-    const-wide/32 v10, 0x40070008
+    :goto_36
+    const-wide v10, 0x80070008L
 
     and-long/2addr v10, v2
 
@@ -3613,42 +3687,42 @@
 
     cmp-long v8, v10, v45
 
-    if-eqz v8, :cond_48
+    if-eqz v8, :cond_49
 
-    if-eqz v0, :cond_46
+    if-eqz v0, :cond_47
 
-    .line 908
+    .line 927
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioEnable()Z
 
     move-result v10
 
-    goto :goto_35
+    goto :goto_37
 
-    :cond_46
+    :cond_47
     const/4 v10, 0x0
 
-    :goto_35
-    if-eqz v8, :cond_49
+    :goto_37
+    if-eqz v8, :cond_4a
 
-    if-eqz v10, :cond_47
+    if-eqz v10, :cond_48
 
     or-long v2, v2, v34
 
-    goto :goto_36
+    goto :goto_38
 
-    :cond_47
-    const-wide/high16 v67, 0x200000000000000L
+    :cond_48
+    const-wide/high16 v67, 0x400000000000000L
 
     or-long v2, v2, v67
 
-    goto :goto_36
-
-    :cond_48
-    const/4 v10, 0x0
+    goto :goto_38
 
     :cond_49
-    :goto_36
-    const-wide/32 v67, 0x40200008
+    const/4 v10, 0x0
+
+    :cond_4a
+    :goto_38
+    const-wide v67, 0x80400008L
 
     and-long v67, v2, v67
 
@@ -3656,53 +3730,53 @@
 
     cmp-long v8, v67, v45
 
-    if-eqz v8, :cond_4a
+    if-eqz v8, :cond_4b
 
-    if-eqz v0, :cond_4a
+    if-eqz v0, :cond_4b
 
-    .line 923
+    .line 942
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getInvert()Z
 
     move-result v8
 
-    goto :goto_37
+    goto :goto_39
 
-    :cond_4a
+    :cond_4b
     const/4 v8, 0x0
 
-    :goto_37
-    const-wide/32 v67, 0x40004008
+    :goto_39
+    const-wide v67, 0x80004008L
 
     and-long v67, v2, v67
 
     cmp-long v11, v67, v45
 
-    if-eqz v11, :cond_4b
+    if-eqz v11, :cond_4c
 
-    if-eqz v0, :cond_4b
+    if-eqz v0, :cond_4c
 
-    .line 930
+    .line 949
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getLabel()Ljava/lang/String;
 
     move-result-object v11
 
-    goto :goto_38
+    goto :goto_3a
 
-    :cond_4b
+    :cond_4c
     move-object/from16 v11, v39
 
-    :goto_38
-    const-wide/32 v67, 0x48002008
+    :goto_3a
+    const-wide v67, 0x90002008L
 
     and-long v67, v2, v67
 
     cmp-long v13, v67, v45
 
-    if-eqz v13, :cond_4d
+    if-eqz v13, :cond_4e
 
-    if-eqz v0, :cond_4c
+    if-eqz v0, :cond_4d
 
-    .line 937
+    .line 956
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getOffset()J
 
     move-result-wide v67
@@ -3713,15 +3787,15 @@
 
     move-wide/from16 v67, v74
 
-    goto :goto_39
+    goto :goto_3b
 
-    :cond_4c
+    :cond_4d
     move-wide/from16 v67, v2
 
     const-wide/16 v2, 0x0
 
-    .line 942
-    :goto_39
+    .line 961
+    :goto_3b
     sget-object v13, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static {v13}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
@@ -3740,13 +3814,11 @@
 
     move/from16 v12, v59
 
-    move/from16 v70, v60
+    move/from16 v70, v61
 
-    move-object/from16 v60, v61
+    move-object/from16 v45, v62
 
-    move-object/from16 v13, v64
-
-    move-object/from16 v45, v65
+    move-object/from16 v13, v65
 
     move-object/from16 v40, v5
 
@@ -3764,7 +3836,7 @@
 
     move/from16 v57, v51
 
-    move-object/from16 v14, v62
+    move-object/from16 v14, v63
 
     move-object/from16 v48, v4
 
@@ -3780,9 +3852,9 @@
 
     move-wide/from16 v2, v67
 
-    goto :goto_3a
+    goto :goto_3c
 
-    :cond_4d
+    :cond_4e
     move-wide/from16 v67, v2
 
     move-object/from16 v69, v7
@@ -3793,13 +3865,11 @@
 
     move/from16 v12, v59
 
-    move/from16 v70, v60
+    move/from16 v70, v61
 
-    move-object/from16 v60, v61
+    move-object/from16 v45, v62
 
-    move-object/from16 v13, v64
-
-    move-object/from16 v45, v65
+    move-object/from16 v13, v65
 
     move-object/from16 v40, v5
 
@@ -3817,7 +3887,7 @@
 
     move/from16 v57, v51
 
-    move-object/from16 v14, v62
+    move-object/from16 v14, v63
 
     move-object/from16 v48, v4
 
@@ -3831,7 +3901,7 @@
 
     move/from16 v15, v53
 
-    :goto_3a
+    :goto_3c
     move/from16 v53, v8
 
     move/from16 v8, v52
@@ -3840,9 +3910,9 @@
 
     move/from16 v11, v66
 
-    goto :goto_3b
+    goto :goto_3d
 
-    :cond_4e
+    :cond_4f
     move/from16 v4, v38
 
     move v10, v4
@@ -3893,69 +3963,69 @@
 
     const/16 v59, 0x0
 
-    const/16 v63, 0x0
+    const/16 v64, 0x0
 
     const/16 v70, 0x0
 
     const/16 v71, 0x0
 
-    :goto_3b
-    const-wide/32 v61, 0x60000020
+    :goto_3d
+    const-wide v61, 0xc0000020L
 
-    and-long v64, v2, v61
+    and-long v65, v2, v61
 
     const-wide/16 v46, 0x0
 
-    cmp-long v64, v64, v46
+    cmp-long v63, v65, v46
 
-    if-eqz v64, :cond_51
+    if-eqz v63, :cond_52
 
-    if-eqz v6, :cond_4f
+    if-eqz v6, :cond_50
 
-    .line 951
+    .line 970
     invoke-virtual {v6}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v6
 
-    move/from16 v64, v11
+    move/from16 v63, v11
 
-    goto :goto_3c
+    goto :goto_3e
 
-    :cond_4f
-    move/from16 v64, v11
+    :cond_50
+    move/from16 v63, v11
 
     move-object/from16 v6, v39
 
-    .line 956
-    :goto_3c
+    .line 975
+    :goto_3e
     sget-object v11, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    if-eq v6, v11, :cond_50
+    if-eq v6, v11, :cond_51
 
     const/4 v6, 0x1
 
-    goto :goto_3d
+    goto :goto_3f
 
-    :cond_50
+    :cond_51
     const/4 v6, 0x0
 
-    .line 960
-    :goto_3d
+    .line 979
+    :goto_3f
     invoke-static {v6}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v11
 
-    goto :goto_3e
+    goto :goto_40
 
-    :cond_51
-    move/from16 v64, v11
+    :cond_52
+    move/from16 v63, v11
 
     move/from16 v11, v38
 
     const/4 v6, 0x0
 
-    :goto_3e
-    const-wide v65, 0x440000200000000L
+    :goto_40
+    const-wide v65, 0x880000400000000L
 
     and-long v65, v2, v65
 
@@ -3963,61 +4033,61 @@
 
     cmp-long v65, v65, v46
 
-    const-wide v66, 0x20000000000L
+    const-wide v66, 0x40000000000L
 
-    if-eqz v65, :cond_65
+    if-eqz v65, :cond_66
 
     and-long v20, v2, v20
 
     cmp-long v20, v20, v46
 
-    if-eqz v20, :cond_57
+    if-eqz v20, :cond_58
 
-    if-eqz v0, :cond_52
+    if-eqz v0, :cond_53
 
-    .line 971
+    .line 990
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v54
 
-    :cond_52
+    :cond_53
     move/from16 v21, v6
 
     move-object/from16 v6, v54
 
     move/from16 v54, v11
 
-    .line 976
+    .line 995
     sget-object v11, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->AC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    if-ne v6, v11, :cond_53
+    if-ne v6, v11, :cond_54
 
     const/4 v6, 0x1
 
-    goto :goto_3f
-
-    :cond_53
-    const/4 v6, 0x0
-
-    :goto_3f
-    if-eqz v20, :cond_55
-
-    if-eqz v6, :cond_54
-
-    const-wide/high16 v72, 0x100000000000000L
-
-    goto :goto_40
+    goto :goto_41
 
     :cond_54
-    const-wide/high16 v72, 0x80000000000000L
+    const/4 v6, 0x0
 
-    :goto_40
-    or-long v2, v2, v72
+    :goto_41
+    if-eqz v20, :cond_56
+
+    if-eqz v6, :cond_55
+
+    const-wide/high16 v72, 0x200000000000000L
+
+    goto :goto_42
 
     :cond_55
-    if-eqz v6, :cond_56
+    const-wide/high16 v72, 0x100000000000000L
 
-    .line 988
+    :goto_42
+    or-long v2, v2, v72
+
+    :cond_56
+    if-eqz v6, :cond_57
+
+    .line 1007
     iget-object v6, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance1:Landroid/widget/ImageView;
 
     invoke-virtual {v6}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -4026,9 +4096,9 @@
 
     const v11, 0x7f080451
 
-    goto :goto_41
+    goto :goto_43
 
-    :cond_56
+    :cond_57
     iget-object v6, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance1:Landroid/widget/ImageView;
 
     invoke-virtual {v6}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -4037,22 +4107,22 @@
 
     const v11, 0x7f080453
 
-    :goto_41
+    :goto_43
     invoke-static {v6, v11}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v6
 
-    goto :goto_42
+    goto :goto_44
 
-    :cond_57
+    :cond_58
     move/from16 v21, v6
 
     move/from16 v54, v11
 
     move-object/from16 v6, v39
 
-    :goto_42
-    const-wide/high16 v43, 0x40000000000000L
+    :goto_44
+    const-wide/high16 v43, 0x80000000000000L
 
     and-long v43, v2, v43
 
@@ -4060,119 +4130,119 @@
 
     cmp-long v11, v43, v46
 
-    if-eqz v11, :cond_5e
+    if-eqz v11, :cond_5f
 
-    if-eqz v0, :cond_58
+    if-eqz v0, :cond_59
 
-    .line 994
+    .line 1013
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     move-result-object v56
 
-    :cond_58
+    :cond_59
     move-object/from16 v20, v6
 
     move-object/from16 v11, v56
 
-    .line 999
+    .line 1018
     sget-object v6, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    if-eq v11, v6, :cond_59
+    if-eq v11, v6, :cond_5a
 
     const/4 v6, 0x1
 
-    goto :goto_43
+    goto :goto_45
 
-    :cond_59
+    :cond_5a
     const/4 v6, 0x0
 
-    :goto_43
+    :goto_45
     and-long v43, v2, v28
 
     cmp-long v11, v43, v46
 
-    if-eqz v11, :cond_5b
+    if-eqz v11, :cond_5c
 
-    if-eqz v6, :cond_5a
+    if-eqz v6, :cond_5b
 
     or-long v2, v2, v26
 
-    goto :goto_44
+    goto :goto_46
 
-    :cond_5a
-    const-wide v43, 0x80000000000L
+    :cond_5b
+    const-wide v43, 0x100000000000L
 
     or-long v2, v2, v43
 
-    :cond_5b
-    :goto_44
+    :cond_5c
+    :goto_46
     and-long v43, v2, v32
 
     cmp-long v11, v43, v46
 
-    if-eqz v11, :cond_5d
+    if-eqz v11, :cond_5e
 
-    if-eqz v6, :cond_5c
+    if-eqz v6, :cond_5d
 
-    const-wide/high16 v43, 0x4000000000000L
+    const-wide/high16 v43, 0x8000000000000L
 
-    goto :goto_45
-
-    :cond_5c
-    const-wide/high16 v43, 0x2000000000000L
-
-    :goto_45
-    or-long v2, v2, v43
+    goto :goto_47
 
     :cond_5d
-    move/from16 v57, v6
+    const-wide/high16 v43, 0x4000000000000L
 
-    goto :goto_46
+    :goto_47
+    or-long v2, v2, v43
 
     :cond_5e
+    move/from16 v57, v6
+
+    goto :goto_48
+
+    :cond_5f
     move-object/from16 v20, v6
 
-    :goto_46
+    :goto_48
     and-long v43, v2, v34
 
     const-wide/16 v46, 0x0
 
     cmp-long v6, v43, v46
 
-    if-eqz v6, :cond_64
+    if-eqz v6, :cond_65
 
-    if-eqz v0, :cond_5f
+    if-eqz v0, :cond_60
 
-    .line 1021
+    .line 1040
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
 
     move-result v6
 
-    goto :goto_47
+    goto :goto_49
 
-    :cond_5f
+    :cond_60
     const/4 v6, 0x0
 
-    :goto_47
+    :goto_49
     and-long v43, v2, v66
 
     cmp-long v11, v43, v46
 
-    if-eqz v11, :cond_61
+    if-eqz v11, :cond_62
 
-    if-eqz v6, :cond_60
+    if-eqz v6, :cond_61
 
-    const-wide v43, 0x400000000000L
+    const-wide v43, 0x800000000000L
 
-    goto :goto_48
-
-    :cond_60
-    const-wide v43, 0x200000000000L
-
-    :goto_48
-    or-long v2, v2, v43
+    goto :goto_4a
 
     :cond_61
+    const-wide v43, 0x400000000000L
+
+    :goto_4a
+    or-long v2, v2, v43
+
+    :cond_62
     xor-int/lit8 v11, v6, 0x1
 
     and-long v43, v2, v34
@@ -4181,21 +4251,21 @@
 
     cmp-long v43, v43, v46
 
-    if-eqz v43, :cond_63
+    if-eqz v43, :cond_64
 
-    if-eqz v11, :cond_62
+    if-eqz v11, :cond_63
 
-    const-wide v43, 0x40000000000L
+    const-wide v43, 0x80000000000L
 
     or-long v2, v2, v43
 
-    goto :goto_49
-
-    :cond_62
-    or-long v2, v2, v66
+    goto :goto_4b
 
     :cond_63
-    :goto_49
+    or-long v2, v2, v66
+
+    :cond_64
+    :goto_4b
     move-object/from16 v43, v20
 
     move/from16 v20, v11
@@ -4204,28 +4274,28 @@
 
     move/from16 v6, v57
 
-    goto :goto_4b
-
-    :cond_64
-    move-object/from16 v43, v20
-
-    goto :goto_4a
+    goto :goto_4d
 
     :cond_65
+    move-object/from16 v43, v20
+
+    goto :goto_4c
+
+    :cond_66
     move/from16 v21, v6
 
     move/from16 v54, v11
 
     move-object/from16 v43, v39
 
-    :goto_4a
+    :goto_4c
     move/from16 v6, v57
 
     const/4 v11, 0x0
 
     const/16 v20, 0x0
 
-    :goto_4b
+    :goto_4d
     and-long v30, v2, v30
 
     const-wide/16 v46, 0x0
@@ -4234,11 +4304,11 @@
 
     move/from16 v31, v12
 
-    if-eqz v30, :cond_67
+    if-eqz v30, :cond_68
 
-    if-eqz v12, :cond_66
+    if-eqz v12, :cond_67
 
-    .line 1049
+    .line 1068
     iget-object v12, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance1:Landroid/widget/ImageView;
 
     invoke-virtual {v12}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -4255,41 +4325,41 @@
 
     move-object/from16 v43, v12
 
-    goto :goto_4c
-
-    :cond_66
-    move-object/from16 v44, v14
-
-    :goto_4c
-    move-object/from16 v12, v43
-
-    goto :goto_4d
+    goto :goto_4e
 
     :cond_67
     move-object/from16 v44, v14
 
+    :goto_4e
+    move-object/from16 v12, v43
+
+    goto :goto_4f
+
+    :cond_68
+    move-object/from16 v44, v14
+
     move-object/from16 v12, v39
 
-    :goto_4d
+    :goto_4f
     and-long v16, v2, v16
 
     const-wide/16 v46, 0x0
 
     cmp-long v14, v16, v46
 
-    if-eqz v14, :cond_69
+    if-eqz v14, :cond_6a
 
-    if-eqz v63, :cond_68
+    if-eqz v64, :cond_69
 
     move/from16 v16, v6
 
-    goto :goto_4e
+    goto :goto_50
 
-    :cond_68
+    :cond_69
     const/16 v16, 0x0
 
-    .line 1058
-    :goto_4e
+    .line 1077
+    :goto_50
     invoke-static/range {v16 .. v16}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v17
@@ -4306,9 +4376,9 @@
 
     move/from16 v12, v75
 
-    goto :goto_4f
+    goto :goto_51
 
-    :cond_69
+    :cond_6a
     move-object/from16 v17, v7
 
     move-object/from16 v16, v12
@@ -4317,163 +4387,163 @@
 
     const/4 v12, 0x0
 
-    :goto_4f
-    const-wide v56, 0x500000000000L
+    :goto_51
+    const-wide v56, 0xa00000000000L
 
     and-long v56, v2, v56
 
     cmp-long v43, v56, v46
 
-    if-eqz v43, :cond_6e
+    if-eqz v43, :cond_6f
 
     and-long v26, v2, v26
 
     cmp-long v26, v26, v46
 
-    if-eqz v26, :cond_6a
+    if-eqz v26, :cond_6b
 
-    if-eqz v0, :cond_6a
+    if-eqz v0, :cond_6b
 
-    .line 1069
+    .line 1088
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getImpedanceEnable()Z
 
     move-result v26
 
-    goto :goto_50
+    goto :goto_52
 
-    :cond_6a
+    :cond_6b
     const/16 v26, 0x0
 
-    :goto_50
-    const-wide v56, 0x400000000000L
+    :goto_52
+    const-wide v56, 0x800000000000L
 
     and-long v56, v2, v56
 
     cmp-long v27, v56, v46
 
-    if-eqz v27, :cond_6c
+    if-eqz v27, :cond_6d
 
-    if-eqz v0, :cond_6b
+    if-eqz v0, :cond_6c
 
-    .line 1076
+    .line 1095
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
     move-result-object v39
 
-    :cond_6b
+    :cond_6c
     move/from16 v27, v12
 
     move-object/from16 v0, v39
 
-    .line 1081
+    .line 1100
     sget-object v12, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_BNC:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
-    if-eq v0, v12, :cond_6d
+    if-eq v0, v12, :cond_6e
 
     const/4 v0, 0x1
 
-    goto :goto_51
-
-    :cond_6c
-    move/from16 v27, v12
+    goto :goto_53
 
     :cond_6d
-    const/4 v0, 0x0
-
-    goto :goto_51
+    move/from16 v27, v12
 
     :cond_6e
+    const/4 v0, 0x0
+
+    goto :goto_53
+
+    :cond_6f
     move/from16 v27, v12
 
     const/4 v0, 0x0
 
     const/16 v26, 0x0
 
-    :goto_51
+    :goto_53
     and-long v28, v2, v28
 
     const-wide/16 v46, 0x0
 
     cmp-long v12, v28, v46
 
-    if-eqz v12, :cond_70
+    if-eqz v12, :cond_71
 
-    if-eqz v6, :cond_6f
+    if-eqz v6, :cond_70
 
-    goto :goto_52
+    goto :goto_54
 
-    :cond_6f
+    :cond_70
     const/16 v26, 0x0
 
-    :goto_52
+    :goto_54
     move/from16 v74, v26
 
     move/from16 v26, v0
 
     move/from16 v0, v74
 
-    goto :goto_53
+    goto :goto_55
 
-    :cond_70
+    :cond_71
     move/from16 v26, v0
 
     const/4 v0, 0x0
 
-    :goto_53
+    :goto_55
     and-long v28, v2, v66
 
     cmp-long v28, v28, v46
 
-    if-eqz v28, :cond_71
+    if-eqz v28, :cond_72
 
-    if-eqz v11, :cond_71
+    if-eqz v11, :cond_72
 
-    goto :goto_54
+    goto :goto_56
 
-    :cond_71
+    :cond_72
     const/16 v26, 0x0
 
-    :goto_54
+    :goto_56
     and-long v28, v2, v34
 
     cmp-long v11, v28, v46
 
-    if-eqz v11, :cond_73
+    if-eqz v11, :cond_74
 
-    if-eqz v20, :cond_72
+    if-eqz v20, :cond_73
 
     const/4 v11, 0x1
 
-    goto :goto_55
-
-    :cond_72
-    move/from16 v11, v26
-
-    goto :goto_55
+    goto :goto_57
 
     :cond_73
+    move/from16 v11, v26
+
+    goto :goto_57
+
+    :cond_74
     const/4 v11, 0x0
 
-    :goto_55
-    const-wide/32 v28, 0x40070008
+    :goto_57
+    const-wide v28, 0x80070008L
 
     and-long v28, v2, v28
 
     cmp-long v20, v28, v46
 
-    if-eqz v20, :cond_75
+    if-eqz v20, :cond_76
 
-    if-eqz v49, :cond_74
+    if-eqz v49, :cond_75
 
     move/from16 v41, v11
 
-    goto :goto_56
+    goto :goto_58
 
-    :cond_74
+    :cond_75
     const/16 v41, 0x0
 
-    .line 1109
-    :goto_56
+    .line 1128
+    :goto_58
     invoke-static/range {v41 .. v41}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v38
@@ -4482,25 +4552,25 @@
 
     move/from16 v26, v41
 
-    goto :goto_57
+    goto :goto_59
 
-    :cond_75
+    :cond_76
     move/from16 v11, v38
 
     const/16 v26, 0x0
 
-    :goto_57
-    const-wide/32 v28, 0x40000000
+    :goto_59
+    const-wide v28, 0x80000000L
 
     and-long v28, v2, v28
 
     cmp-long v28, v28, v46
 
-    if-eqz v28, :cond_76
+    if-eqz v28, :cond_77
 
     move/from16 v28, v11
 
-    .line 1115
+    .line 1134
     iget-object v11, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->acButton:Landroid/widget/Button;
 
     move/from16 v29, v0
@@ -4509,199 +4579,199 @@
 
     invoke-virtual {v11, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1116
+    .line 1135
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->acquireBtn:Landroid/widget/Button;
 
     iget-object v11, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback14:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v11}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1117
+    .line 1136
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->bandwidthLimitSpinner:Landroid/widget/TextView;
 
     iget-object v11, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback20:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1118
+    .line 1137
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->couplingSpinner:Landroid/widget/TextView;
 
     iget-object v11, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback16:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1119
+    .line 1138
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->delayEditText:Landroid/widget/EditText;
 
     iget-object v11, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback21:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v11}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1120
+    .line 1139
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->gudButton:Landroid/widget/Button;
 
     iget-object v11, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback6:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v11}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1121
+    .line 1140
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedance:Landroid/widget/TextView;
 
     invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 1122
+    .line 1141
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedanceSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v9}, Lcom/rigol/scope/views/SwitchButton;->setVisibility(I)V
 
-    .line 1123
+    .line 1142
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance1:Landroid/widget/ImageView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback5:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1124
+    .line 1143
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance50:Landroid/widget/ImageView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback4:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1125
+    .line 1144
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivLineImpedance1:Landroid/widget/ImageView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback9:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1126
+    .line 1145
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivLineImpedance50:Landroid/widget/ImageView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback8:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1127
+    .line 1146
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback11:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1128
+    .line 1147
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView35:Landroid/widget/TextView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback22:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1129
+    .line 1148
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView39:Landroid/widget/TextView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback26:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1130
+    .line 1149
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->measureBtn:Landroid/widget/Button;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback15:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1131
+    .line 1150
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetEditText:Landroid/widget/EditText;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback27:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1132
+    .line 1151
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetLeft:Landroid/widget/ImageButton;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback28:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1133
+    .line 1152
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetRight:Landroid/widget/ImageButton;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback29:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1134
+    .line 1153
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionEditText:Landroid/widget/EditText;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback23:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1135
+    .line 1154
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionLeft:Landroid/widget/ImageButton;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback24:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1136
+    .line 1155
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionRight:Landroid/widget/ImageButton;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback25:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1137
+    .line 1156
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->probeSettingBtn:Landroid/widget/Button;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback12:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1138
+    .line 1157
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleEditText:Landroid/widget/EditText;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback17:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1139
+    .line 1158
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleLeft:Landroid/widget/ImageButton;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback18:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1140
+    .line 1159
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleRight:Landroid/widget/ImageButton;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback19:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1141
+    .line 1160
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->triggerBtn:Landroid/widget/Button;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback13:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1142
+    .line 1161
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->unitSpinner:Landroid/widget/TextView;
 
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mCallback10:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v9}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    goto :goto_58
+    goto :goto_5a
 
-    :cond_76
+    :cond_77
     move/from16 v29, v0
 
     move/from16 v28, v11
 
-    :goto_58
+    :goto_5a
     and-long v32, v2, v32
 
     const-wide/16 v34, 0x0
@@ -4710,283 +4780,283 @@
 
     const/16 v9, 0xb
 
-    if-eqz v0, :cond_78
+    if-eqz v0, :cond_79
 
-    .line 1146
+    .line 1165
     invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->getBuildSdkInt()I
 
     move-result v0
 
-    if-lt v0, v9, :cond_77
+    if-lt v0, v9, :cond_78
 
-    .line 1148
+    .line 1167
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->bandwidthLimitSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v10}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 1149
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->delayEditText:Landroid/widget/EditText;
-
-    invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
-
-    .line 1150
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->fineSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
-
-    .line 1151
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedance:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1152
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedanceSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v4}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
-
-    .line 1153
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
-
-    .line 1154
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
-
-    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/baseview/BaseEditText;->setAlpha(F)V
-
-    .line 1155
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
-
-    .line 1156
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView10:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1157
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView13:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1158
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView23:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1159
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView25:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1160
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView27:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1161
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView31:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1162
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView33:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1163
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView35:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1164
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView39:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 1165
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetEditText:Landroid/widget/EditText;
-
-    invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
-
-    .line 1166
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetLeft:Landroid/widget/ImageButton;
-
-    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
-
-    .line 1167
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetRight:Landroid/widget/ImageButton;
-
-    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
-
     .line 1168
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionEditText:Landroid/widget/EditText;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->delayEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
 
     .line 1169
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionLeft:Landroid/widget/ImageButton;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->fineSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
 
     .line 1170
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionRight:Landroid/widget/ImageButton;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedance:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
     .line 1171
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleEditText:Landroid/widget/EditText;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedanceSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
+    invoke-virtual {v0, v4}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
 
     .line 1172
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleLeft:Landroid/widget/ImageButton;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
 
     .line 1173
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleRight:Landroid/widget/ImageButton;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
-    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/baseview/BaseEditText;->setAlpha(F)V
 
     .line 1174
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->unitSpinner:Landroid/widget/TextView;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {v0, v15}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
+
+    .line 1175
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView10:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1176
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView13:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1177
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView23:Landroid/widget/TextView;
 
     invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
 
     .line 1178
-    :cond_77
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView25:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1179
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView27:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1180
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView31:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1181
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView33:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1182
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView35:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1183
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView39:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1184
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
+
+    .line 1185
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetLeft:Landroid/widget/ImageButton;
+
+    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+
+    .line 1186
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetRight:Landroid/widget/ImageButton;
+
+    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+
+    .line 1187
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
+
+    .line 1188
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionLeft:Landroid/widget/ImageButton;
+
+    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+
+    .line 1189
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionRight:Landroid/widget/ImageButton;
+
+    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+
+    .line 1190
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v15}, Landroid/widget/EditText;->setAlpha(F)V
+
+    .line 1191
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleLeft:Landroid/widget/ImageButton;
+
+    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+
+    .line 1192
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleRight:Landroid/widget/ImageButton;
+
+    invoke-virtual {v0, v15}, Landroid/widget/ImageButton;->setAlpha(F)V
+
+    .line 1193
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->unitSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1197
+    :cond_78
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->bandwidthLimitSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1179
+    .line 1198
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->delayEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v6}, Landroid/widget/EditText;->setEnabled(Z)V
 
-    .line 1180
+    .line 1199
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->displaySwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0, v6}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    .line 1181
+    .line 1200
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->fineSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v6}, Lcom/rigol/scope/views/SwitchButton;->setEnabled(Z)V
 
-    .line 1182
+    .line 1201
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedanceSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v8}, Lcom/rigol/scope/views/SwitchButton;->setEnabled(Z)V
 
-    .line 1183
+    .line 1202
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v6}, Lcom/rigol/scope/views/SwitchButton;->setEnabled(Z)V
 
-    .line 1184
+    .line 1203
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {v0, v6}, Lcom/rigol/scope/views/baseview/BaseEditText;->setEnabled(Z)V
 
-    .line 1185
+    .line 1204
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v6}, Lcom/rigol/scope/views/SwitchButton;->setEnabled(Z)V
 
-    .line 1186
+    .line 1205
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView10:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1187
+    .line 1206
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView13:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1188
+    .line 1207
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView23:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1189
+    .line 1208
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView25:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1190
+    .line 1209
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView27:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1191
+    .line 1210
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView31:Landroid/widget/TextView;
 
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1192
+    .line 1211
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView35:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1193
+    .line 1212
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView39:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1194
+    .line 1213
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v6}, Landroid/widget/EditText;->setEnabled(Z)V
 
-    .line 1195
+    .line 1214
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetLeft:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 1196
+    .line 1215
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetRight:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 1197
+    .line 1216
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v6}, Landroid/widget/EditText;->setEnabled(Z)V
 
-    .line 1198
+    .line 1217
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionLeft:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 1199
+    .line 1218
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionRight:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 1200
+    .line 1219
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v6}, Landroid/widget/EditText;->setEnabled(Z)V
 
-    .line 1201
+    .line 1220
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleLeft:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 1202
+    .line 1221
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleRight:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 1203
+    .line 1222
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->unitSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    :cond_78
-    const-wide/32 v4, 0x51000018
+    :cond_79
+    const-wide v4, 0xa2000018L
 
     and-long/2addr v4, v2
 
@@ -4994,143 +5064,104 @@
 
     cmp-long v0, v4, v10
 
-    if-eqz v0, :cond_79
+    if-eqz v0, :cond_7a
 
-    .line 1208
+    .line 1227
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->bandwidthLimitSpinner:Landroid/widget/TextView;
 
     invoke-static {v0, v13}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_79
-    if-eqz v14, :cond_7b
+    :cond_7a
+    if-eqz v14, :cond_7c
 
-    .line 1212
+    .line 1231
     invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->getBuildSdkInt()I
 
     move-result v0
 
-    if-lt v0, v9, :cond_7a
+    if-lt v0, v9, :cond_7b
 
-    .line 1214
+    .line 1233
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->couplingSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 1215
+    .line 1234
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView19:Landroid/widget/TextView;
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 1219
-    :cond_7a
+    .line 1238
+    :cond_7b
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->couplingSpinner:Landroid/widget/TextView;
 
     move/from16 v4, v27
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1220
+    .line 1239
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView19:Landroid/widget/TextView;
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    :cond_7b
+    :cond_7c
     and-long v4, v2, v18
 
     const-wide/16 v6, 0x0
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_7c
+    if-eqz v0, :cond_7d
 
-    .line 1225
+    .line 1244
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->couplingSpinner:Landroid/widget/TextView;
 
     move-object/from16 v4, v17
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_7c
-    const-wide/32 v4, 0x42000008
+    :cond_7d
+    const-wide v4, 0x84000008L
 
     and-long/2addr v4, v2
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_7d
+    if-eqz v0, :cond_7e
 
-    .line 1230
+    .line 1249
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->delayEditText:Landroid/widget/EditText;
 
     move-object/from16 v4, v44
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_7d
+    :cond_7e
     and-long v4, v2, v22
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_7e
+    if-eqz v0, :cond_7f
 
-    .line 1235
+    .line 1254
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->fineSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    move/from16 v4, v64
+    move/from16 v4, v63
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_7e
-    if-eqz v12, :cond_7f
+    :cond_7f
+    if-eqz v12, :cond_80
 
-    .line 1240
+    .line 1259
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedance:Landroid/widget/TextView;
 
     move/from16 v4, v29
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    :cond_7f
-    and-long v4, v2, v36
-
-    const-wide/16 v6, 0x0
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_80
-
-    .line 1245
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedanceSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    move/from16 v4, v31
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
-
-    .line 1246
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance50:Landroid/widget/ImageView;
-
-    move-object/from16 v4, v60
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/ImageViewBindingAdapter;->setImageDrawable(Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;)V
-
-    .line 1247
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivLineImpedance1:Landroid/widget/ImageView;
-
-    move/from16 v4, v59
-
-    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    .line 1248
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivLineImpedance50:Landroid/widget/ImageView;
-
-    move/from16 v14, v58
-
-    invoke-virtual {v0, v14}, Landroid/widget/ImageView;->setVisibility(I)V
-
     :cond_80
-    const-wide/32 v4, 0x40200008
-
-    and-long/2addr v4, v2
+    and-long v4, v2, v36
 
     const-wide/16 v6, 0x0
 
@@ -5138,25 +5169,36 @@
 
     if-eqz v0, :cond_81
 
-    .line 1253
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 1264
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->impedanceSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    move/from16 v8, v53
+    move/from16 v4, v31
 
-    invoke-static {v0, v8}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_81
-    if-eqz v30, :cond_82
+    .line 1265
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance50:Landroid/widget/ImageView;
 
-    .line 1258
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance1:Landroid/widget/ImageView;
-
-    move-object/from16 v4, v16
+    move-object/from16 v4, v60
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/ImageViewBindingAdapter;->setImageDrawable(Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;)V
 
-    :cond_82
-    const-wide/32 v4, 0x40004008
+    .line 1266
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivLineImpedance1:Landroid/widget/ImageView;
+
+    move/from16 v4, v59
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 1267
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivLineImpedance50:Landroid/widget/ImageView;
+
+    move/from16 v14, v58
+
+    invoke-virtual {v0, v14}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    :cond_81
+    const-wide v4, 0x80400008L
 
     and-long/2addr v4, v2
 
@@ -5164,70 +5206,82 @@
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_83
+    if-eqz v0, :cond_82
 
-    .line 1263
+    .line 1272
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    move/from16 v8, v53
+
+    invoke-static {v0, v8}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+
+    :cond_82
+    if-eqz v30, :cond_83
+
+    .line 1277
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->ivImpedance1:Landroid/widget/ImageView;
+
+    move-object/from16 v4, v16
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/ImageViewBindingAdapter;->setImageDrawable(Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;)V
+
+    :cond_83
+    const-wide v4, 0x80004008L
+
+    and-long/2addr v4, v2
+
+    const-wide/16 v6, 0x0
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_84
+
+    .line 1282
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     move-object/from16 v11, v52
 
     invoke-static {v0, v11}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_83
-    const-wide/32 v4, 0x40008008
+    :cond_84
+    const-wide v4, 0x80008008L
 
     and-long/2addr v4, v2
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_84
+    if-eqz v0, :cond_85
 
-    .line 1268
+    .line 1287
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move/from16 v4, v70
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_84
+    :cond_85
     and-long v4, v2, v24
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_85
+    if-eqz v0, :cond_86
 
-    .line 1273
+    .line 1292
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView3:Landroid/widget/ImageView;
 
     move/from16 v4, v51
 
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 1274
+    .line 1293
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->mboundView4:Landroid/widget/ImageView;
 
     move/from16 v4, v71
 
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    :cond_85
-    const-wide/32 v4, 0x48002008
-
-    and-long/2addr v4, v2
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_86
-
-    .line 1279
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetEditText:Landroid/widget/EditText;
-
-    move-object/from16 v4, v50
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-
     :cond_86
-    const-wide/32 v4, 0x44002008
+    const-wide v4, 0x90002008L
 
     and-long/2addr v4, v2
 
@@ -5235,40 +5289,56 @@
 
     if-eqz v0, :cond_87
 
-    .line 1284
+    .line 1298
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->offsetEditText:Landroid/widget/EditText;
+
+    move-object/from16 v4, v50
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_87
+    const-wide v4, 0x88002008L
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_88
+
+    .line 1303
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->positionEditText:Landroid/widget/EditText;
 
     move-object/from16 v4, v48
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_87
-    if-eqz v20, :cond_89
+    :cond_88
+    if-eqz v20, :cond_8a
 
-    .line 1288
+    .line 1307
     invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->getBuildSdkInt()I
 
     move-result v0
 
-    if-lt v0, v9, :cond_88
+    if-lt v0, v9, :cond_89
 
-    .line 1290
+    .line 1309
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->probeSettingBtn:Landroid/widget/Button;
 
     move/from16 v4, v28
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setAlpha(F)V
 
-    .line 1294
-    :cond_88
+    .line 1313
+    :cond_89
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->probeSettingBtn:Landroid/widget/Button;
 
     move/from16 v4, v26
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
-    :cond_89
-    const-wide/32 v4, 0x40080089
+    :cond_8a
+    const-wide v4, 0x80180089L
 
     and-long/2addr v4, v2
 
@@ -5276,62 +5346,62 @@
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_8a
+    if-eqz v0, :cond_8b
 
-    .line 1299
+    .line 1318
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->probeSettingBtn:Landroid/widget/Button;
 
     move-object/from16 v4, v45
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_8a
-    const-wide/32 v4, 0x40802008
+    :cond_8b
+    const-wide v4, 0x81002008L
 
     and-long/2addr v4, v2
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_8b
+    if-eqz v0, :cond_8c
 
-    .line 1304
+    .line 1323
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->scaleEditText:Landroid/widget/EditText;
 
     move-object/from16 v5, v40
 
     invoke-static {v0, v5}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_8b
+    :cond_8c
     and-long v4, v2, v61
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_8d
+    if-eqz v0, :cond_8e
 
-    .line 1308
+    .line 1327
     invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->getBuildSdkInt()I
 
     move-result v0
 
-    if-lt v0, v9, :cond_8c
+    if-lt v0, v9, :cond_8d
 
-    .line 1310
+    .line 1329
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->triggerBtn:Landroid/widget/Button;
 
     move/from16 v11, v54
 
     invoke-virtual {v0, v11}, Landroid/widget/Button;->setAlpha(F)V
 
-    .line 1314
-    :cond_8c
+    .line 1333
+    :cond_8d
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->triggerBtn:Landroid/widget/Button;
 
     move/from16 v6, v21
 
     invoke-virtual {v0, v6}, Landroid/widget/Button;->setEnabled(Z)V
 
-    :cond_8d
-    const-wide/32 v4, 0x4000210a
+    :cond_8e
+    const-wide v4, 0x8000210aL
 
     and-long/2addr v2, v4
 
@@ -5339,22 +5409,22 @@
 
     cmp-long v0, v2, v4
 
-    if-eqz v0, :cond_8e
+    if-eqz v0, :cond_8f
 
-    .line 1319
+    .line 1338
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->unitSpinner:Landroid/widget/TextView;
 
     move-object/from16 v7, v69
 
     invoke-static {v0, v7}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_8e
+    :cond_8f
     return-void
 
     :catchall_0
     move-exception v0
 
-    .line 509
+    .line 515
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -5410,7 +5480,7 @@
     .line 231
     monitor-enter p0
 
-    const-wide/32 v0, 0x40000000
+    const-wide v0, 0x80000000L
 
     .line 232
     :try_start_0
@@ -5557,7 +5627,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17d
+    const/16 p1, 0x17e
 
     .line 288
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->notifyPropertyChanged(I)V
@@ -5603,7 +5673,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x238
+    const/16 p1, 0x239
 
     .line 279
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->notifyPropertyChanged(I)V
@@ -5654,7 +5724,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 271
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemPopupviewVerticalBindingImpl;->notifyPropertyChanged(I)V
@@ -5679,7 +5749,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 
@@ -5691,7 +5761,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x238
+    const/16 v0, 0x239
 
     if-ne v0, p1, :cond_1
 
@@ -5703,7 +5773,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x17d
+    const/16 v0, 0x17e
 
     if-ne v0, p1, :cond_2
 

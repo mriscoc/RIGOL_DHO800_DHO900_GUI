@@ -294,7 +294,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x5f
+    const/16 v0, 0x60
 
     if-ne p2, v0, :cond_1
 
@@ -326,7 +326,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x67
+    const/16 v0, 0x68
 
     if-ne p2, v0, :cond_2
 
@@ -358,7 +358,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x68
+    const/16 v0, 0x69
 
     if-ne p2, v0, :cond_3
 
@@ -390,7 +390,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x6c
+    const/16 v0, 0x6d
 
     if-ne p2, v0, :cond_4
 
@@ -422,7 +422,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x6e
+    const/16 v0, 0x6f
 
     if-ne p2, v0, :cond_5
 
@@ -454,7 +454,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x69
+    const/16 v0, 0x6a
 
     if-ne p2, v0, :cond_6
 
@@ -486,7 +486,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x13e
+    const/16 v0, 0x13f
 
     if-ne p2, v0, :cond_7
 
@@ -1666,7 +1666,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x257
+    const/16 p1, 0x258
 
     .line 101
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeBasicSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -1691,7 +1691,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x257
+    const/16 v0, 0x258
 
     if-ne v0, p1, :cond_0
 

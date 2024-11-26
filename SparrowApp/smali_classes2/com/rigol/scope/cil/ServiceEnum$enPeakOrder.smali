@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6432
+    .line 6434
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     const-string v1, "fft_peak_AmpOrder"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->fft_peak_AmpOrder:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
-    .line 6433
+    .line 6435
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     const-string v9, "fft_peak_FreqOrder"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
-    .line 6430
+    .line 6432
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->fft_peak_AmpOrder:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 6436
+    .line 6438
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6437
+    .line 6439
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->value1:I
 
-    .line 6438
+    .line 6440
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->value2:Ljava/lang/String;
 
-    .line 6439
+    .line 6441
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->pic1:Ljava/lang/String;
 
-    .line 6440
+    .line 6442
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
     .locals 1
 
-    .line 6430
+    .line 6432
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
     .locals 1
 
-    .line 6430
+    .line 6432
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->clone()Ljava/lang/Object;

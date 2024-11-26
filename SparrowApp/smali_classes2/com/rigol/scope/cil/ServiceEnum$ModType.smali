@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9621
+    .line 9623
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     const-string v1, "Mod_AM"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ModType;->Mod_AM:Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
-    .line 9622
+    .line 9624
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     const-string v9, "Mod_FM"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModType;->Mod_FM:Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
-    .line 9623
+    .line 9625
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     const-string v2, "Mod_PM"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
-    .line 9619
+    .line 9621
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ModType;->Mod_AM:Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9626
+    .line 9628
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9627
+    .line 9629
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ModType;->value1:I
 
-    .line 9628
+    .line 9630
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ModType;->value2:Ljava/lang/String;
 
-    .line 9629
+    .line 9631
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ModType;->pic1:Ljava/lang/String;
 
-    .line 9630
+    .line 9632
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ModType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ModType;
     .locals 1
 
-    .line 9619
+    .line 9621
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ModType;
     .locals 1
 
-    .line 9619
+    .line 9621
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ModType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ModType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ModType;->clone()Ljava/lang/Object;

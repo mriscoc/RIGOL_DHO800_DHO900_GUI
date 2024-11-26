@@ -680,7 +680,7 @@
 
     check-cast v1, Lcom/rigol/scope/views/LoadingPopupView;
 
-    const v2, 0x7f1011c3
+    const v2, 0x7f1011c5
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
 
@@ -1002,7 +1002,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    const p1, 0x7f1011c3
+    const p1, 0x7f1011c5
 
     .line 786
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
@@ -1200,7 +1200,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011bd
+    const p2, 0x7f1011bf
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1288,7 +1288,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101190    # 1.9150002E38f
+    const p2, 0x7f101192    # 1.9150006E38f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1344,7 +1344,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f10118f    # 1.915E38f
+    const p2, 0x7f101191    # 1.9150004E38f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1382,7 +1382,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011bd
+    const p2, 0x7f1011bf
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

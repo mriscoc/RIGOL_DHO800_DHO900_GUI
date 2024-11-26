@@ -36,7 +36,7 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 4557
+    .line 4565
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->values()[Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     move-result-object v0

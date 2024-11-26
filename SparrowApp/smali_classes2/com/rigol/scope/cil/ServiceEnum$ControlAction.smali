@@ -76,7 +76,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1519
+    .line 1521
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v1, "Control_Init"
@@ -97,7 +97,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Init:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1521
+    .line 1523
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Stop"
@@ -118,7 +118,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Stop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1523
+    .line 1525
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Run"
@@ -139,7 +139,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Run:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1525
+    .line 1527
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Single"
@@ -160,7 +160,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Single:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1527
+    .line 1529
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Play"
@@ -181,7 +181,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Play:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1529
+    .line 1531
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Play_Last"
@@ -202,7 +202,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Play_Last:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1531
+    .line 1533
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Play_Run"
@@ -223,7 +223,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Play_Run:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1533
+    .line 1535
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Auto_Run"
@@ -244,7 +244,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Auto_Run:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1535
+    .line 1537
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Scan_Play"
@@ -265,7 +265,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Scan_Play:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1537
+    .line 1539
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Scan_Single"
@@ -286,7 +286,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Scan_Single:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1539
+    .line 1541
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Play_Loop"
@@ -307,7 +307,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Play_Loop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1541
+    .line 1543
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Record"
@@ -328,7 +328,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Record:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1543
+    .line 1545
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Record_Loop"
@@ -349,7 +349,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Record_Loop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1545
+    .line 1547
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Record_Play"
@@ -370,7 +370,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Record_Play:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1547
+    .line 1549
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Record_Play_Single"
@@ -391,7 +391,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Record_Play_Single:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1549
+    .line 1551
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Import"
@@ -412,7 +412,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Import:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1551
+    .line 1553
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v2, "Control_Import_Play"
@@ -433,7 +433,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Import_Play:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1553
+    .line 1555
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const-string v9, "Control_Prepare_Param"
@@ -458,7 +458,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1516
+    .line 1518
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Init:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     const/4 v3, 0x0
@@ -582,19 +582,19 @@
         }
     .end annotation
 
-    .line 1556
+    .line 1558
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1557
+    .line 1559
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->value1:I
 
-    .line 1558
+    .line 1560
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->value2:Ljava/lang/String;
 
-    .line 1559
+    .line 1561
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->pic1:Ljava/lang/String;
 
-    .line 1560
+    .line 1562
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->pic2:Ljava/lang/String;
 
     return-void
@@ -603,7 +603,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
     .locals 1
 
-    .line 1516
+    .line 1518
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -618,7 +618,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
     .locals 1
 
-    .line 1516
+    .line 1518
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->clone()Ljava/lang/Object;

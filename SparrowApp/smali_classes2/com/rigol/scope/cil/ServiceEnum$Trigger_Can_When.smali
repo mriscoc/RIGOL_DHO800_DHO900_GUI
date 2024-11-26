@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2831
+    .line 2833
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     const-string v1, "trig_can_field"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->trig_can_field:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
-    .line 2832
+    .line 2834
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     const-string v9, "trig_can_frame"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->trig_can_frame:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
-    .line 2833
+    .line 2835
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     const-string v2, "trig_can_err"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
-    .line 2829
+    .line 2831
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->trig_can_field:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2836
+    .line 2838
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2837
+    .line 2839
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->value1:I
 
-    .line 2838
+    .line 2840
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->value2:Ljava/lang/String;
 
-    .line 2839
+    .line 2841
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->pic1:Ljava/lang/String;
 
-    .line 2840
+    .line 2842
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
     .locals 1
 
-    .line 2829
+    .line 2831
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
     .locals 1
 
-    .line 2829
+    .line 2831
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_When;->clone()Ljava/lang/Object;

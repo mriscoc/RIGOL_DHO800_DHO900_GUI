@@ -76,7 +76,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3982
+    .line 3984
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v1, "E_CFG_MANU"
@@ -97,7 +97,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MANU:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3983
+    .line 3985
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_MODEL"
@@ -118,7 +118,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MODEL:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3984
+    .line 3986
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_BAND"
@@ -139,7 +139,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_BAND:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3985
+    .line 3987
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_SN"
@@ -160,7 +160,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_SN:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3986
+    .line 3988
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_MODUELS"
@@ -181,7 +181,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MODUELS:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3987
+    .line 3989
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_MODEL_RAW"
@@ -202,7 +202,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MODEL_RAW:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3988
+    .line 3990
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_BAND_RAW"
@@ -223,7 +223,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_BAND_RAW:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3989
+    .line 3991
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_SN_RAW"
@@ -244,7 +244,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_SN_RAW:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3990
+    .line 3992
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_MODUELS_RAW"
@@ -265,7 +265,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MODUELS_RAW:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3991
+    .line 3993
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_MAC"
@@ -286,7 +286,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MAC:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3992
+    .line 3994
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_BUILD_TIME"
@@ -307,7 +307,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_BUILD_TIME:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3993
+    .line 3995
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_PROG_VER"
@@ -328,7 +328,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_PROG_VER:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3994
+    .line 3996
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_FIRM_VER"
@@ -349,7 +349,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_FIRM_VER:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3995
+    .line 3997
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_CPLD_VER"
@@ -370,7 +370,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_CPLD_VER:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3996
+    .line 3998
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_MCU_VER"
@@ -391,7 +391,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MCU_VER:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3997
+    .line 3999
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_BOOT_VER"
@@ -412,7 +412,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_BOOT_VER:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3998
+    .line 4000
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v2, "E_CFG_BOARD_VER"
@@ -433,7 +433,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_BOARD_VER:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3999
+    .line 4001
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const-string v9, "E_CFG_README"
@@ -458,7 +458,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
-    .line 3980
+    .line 3982
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->E_CFG_MANU:Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     const/4 v3, 0x0
@@ -582,19 +582,19 @@
         }
     .end annotation
 
-    .line 4002
+    .line 4004
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4003
+    .line 4005
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->value1:I
 
-    .line 4004
+    .line 4006
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->value2:Ljava/lang/String;
 
-    .line 4005
+    .line 4007
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->pic1:Ljava/lang/String;
 
-    .line 4006
+    .line 4008
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->pic2:Ljava/lang/String;
 
     return-void
@@ -603,7 +603,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
     .locals 1
 
-    .line 3980
+    .line 3982
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -618,7 +618,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
     .locals 1
 
-    .line 3980
+    .line 3982
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$enVendorID;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$enVendorID;->clone()Ljava/lang/Object;

@@ -720,7 +720,7 @@
 
     invoke-virtual {p4, v0}, Lcom/rigol/scope/data/UtilityParam;->saveProjectMode(Z)V
 
-    const v0, 0x7f100c7f
+    const v0, 0x7f100c81
 
     .line 267
     invoke-virtual {p4}, Lcom/rigol/scope/data/UtilityParam;->getProjectMode()Z

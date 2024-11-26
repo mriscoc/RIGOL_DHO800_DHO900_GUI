@@ -425,7 +425,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x32a
+    const/16 v0, 0x32c
 
     if-ne p2, v0, :cond_1
 
@@ -457,7 +457,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x40e
+    const/16 v0, 0x410
 
     if-ne p2, v0, :cond_2
 
@@ -617,7 +617,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x410
+    const/16 v0, 0x412
 
     if-ne p2, v0, :cond_7
 
@@ -649,7 +649,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x411
+    const/16 v0, 0x413
 
     if-ne p2, v0, :cond_8
 
@@ -681,7 +681,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x412
+    const/16 v0, 0x414
 
     if-ne p2, v0, :cond_9
 
@@ -713,7 +713,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x40f
+    const/16 v0, 0x411
 
     if-ne p2, v0, :cond_a
 
@@ -745,7 +745,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x415
+    const/16 v0, 0x417
 
     if-ne p2, v0, :cond_b
 
@@ -777,7 +777,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x414
+    const/16 v0, 0x416
 
     if-ne p2, v0, :cond_c
 
@@ -809,7 +809,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x413
+    const/16 v0, 0x415
 
     if-ne p2, v0, :cond_d
 
@@ -881,7 +881,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x27d
+    const/16 v0, 0x27e
 
     if-ne p2, v0, :cond_1
 
@@ -953,7 +953,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1025,7 +1025,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1097,7 +1097,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1169,7 +1169,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -3595,7 +3595,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterAwgBindingImpl;->notifyPropertyChanged(I)V
@@ -3620,7 +3620,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 

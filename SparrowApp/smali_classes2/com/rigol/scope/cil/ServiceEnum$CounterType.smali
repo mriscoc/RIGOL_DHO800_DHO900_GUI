@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4494
+    .line 4496
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     const-string v1, "FREQ"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->FREQ:Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
-    .line 4495
+    .line 4497
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     const-string v9, "PERIOD"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->PERIOD:Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
-    .line 4496
+    .line 4498
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     const-string v2, "TOTALIZE"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
-    .line 4492
+    .line 4494
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->FREQ:Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 4499
+    .line 4501
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4500
+    .line 4502
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->value1:I
 
-    .line 4501
+    .line 4503
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->value2:Ljava/lang/String;
 
-    .line 4502
+    .line 4504
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->pic1:Ljava/lang/String;
 
-    .line 4503
+    .line 4505
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CounterType;
     .locals 1
 
-    .line 4492
+    .line 4494
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CounterType;
     .locals 1
 
-    .line 4492
+    .line 4494
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CounterType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CounterType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CounterType;->clone()Ljava/lang/Object;

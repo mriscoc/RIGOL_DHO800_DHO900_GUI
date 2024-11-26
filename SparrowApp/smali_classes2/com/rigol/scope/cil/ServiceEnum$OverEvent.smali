@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2087
+    .line 2089
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     const-string v1, "Trigger_over_enter"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->Trigger_over_enter:Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
-    .line 2088
+    .line 2090
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     const-string v9, "Trigger_over_exit"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->Trigger_over_exit:Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
-    .line 2089
+    .line 2091
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     const-string v2, "Trigger_over_time"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
-    .line 2085
+    .line 2087
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->Trigger_over_enter:Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2092
+    .line 2094
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2093
+    .line 2095
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->value1:I
 
-    .line 2094
+    .line 2096
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->value2:Ljava/lang/String;
 
-    .line 2095
+    .line 2097
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->pic1:Ljava/lang/String;
 
-    .line 2096
+    .line 2098
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
     .locals 1
 
-    .line 2085
+    .line 2087
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
     .locals 1
 
-    .line 2085
+    .line 2087
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$OverEvent;->clone()Ljava/lang/Object;

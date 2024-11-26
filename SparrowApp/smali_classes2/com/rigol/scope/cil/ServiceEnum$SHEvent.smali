@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2055
+    .line 2057
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     const-string v1, "Trigger_SH_setup"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_setup:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
-    .line 2056
+    .line 2058
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     const-string v9, "Trigger_SH_hold"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_hold:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
-    .line 2057
+    .line 2059
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     const-string v2, "Trigger_SH_setup_hold"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
-    .line 2053
+    .line 2055
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->Trigger_SH_setup:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 2060
+    .line 2062
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2061
+    .line 2063
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->value1:I
 
-    .line 2062
+    .line 2064
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->value2:Ljava/lang/String;
 
-    .line 2063
+    .line 2065
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->pic1:Ljava/lang/String;
 
-    .line 2064
+    .line 2066
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
     .locals 1
 
-    .line 2053
+    .line 2055
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
     .locals 1
 
-    .line 2053
+    .line 2055
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SHEvent;->clone()Ljava/lang/Object;

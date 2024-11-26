@@ -414,7 +414,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1f1
+    const/16 v0, 0x1f2
 
     if-ne p2, v0, :cond_1
 
@@ -446,7 +446,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x1f2
+    const/16 v0, 0x1f3
 
     if-ne p2, v0, :cond_2
 
@@ -478,7 +478,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x1f3
+    const/16 v0, 0x1f4
 
     if-ne p2, v0, :cond_3
 
@@ -510,7 +510,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x1ee
+    const/16 v0, 0x1ef
 
     if-ne p2, v0, :cond_4
 
@@ -542,7 +542,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x1ef
+    const/16 v0, 0x1f0
 
     if-ne p2, v0, :cond_5
 
@@ -614,7 +614,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -686,7 +686,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -758,7 +758,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -830,7 +830,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -902,7 +902,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1957,7 +1957,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;->notifyPropertyChanged(I)V
@@ -2008,7 +2008,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x255
+    const/16 p1, 0x256
 
     .line 141
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;->notifyPropertyChanged(I)V
@@ -2059,7 +2059,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x256
+    const/16 p1, 0x257
 
     .line 150
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;->notifyPropertyChanged(I)V
@@ -2084,7 +2084,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x3f7
+    const/16 v0, 0x3f9
 
     if-ne v0, p1, :cond_0
 
@@ -2096,7 +2096,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x255
+    const/16 v0, 0x256
 
     if-ne v0, p1, :cond_1
 
@@ -2108,7 +2108,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x256
+    const/16 v0, 0x257
 
     if-ne v0, p1, :cond_2
 
@@ -2120,7 +2120,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_3
 
@@ -2132,7 +2132,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x3f8
+    const/16 v0, 0x3fa
 
     if-ne v0, p1, :cond_4
 
@@ -2144,7 +2144,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x3f6
+    const/16 v0, 0x3f8
 
     if-ne v0, p1, :cond_5
 
@@ -2194,7 +2194,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3f6
+    const/16 p1, 0x3f8
 
     .line 177
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;->notifyPropertyChanged(I)V
@@ -2245,7 +2245,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3f7
+    const/16 p1, 0x3f9
 
     .line 132
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;->notifyPropertyChanged(I)V
@@ -2296,7 +2296,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3f8
+    const/16 p1, 0x3fa
 
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeLinBindingImpl;->notifyPropertyChanged(I)V

@@ -72,7 +72,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2251
+    .line 2253
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v1, "Video_Stardard_NTSC"
@@ -93,7 +93,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_NTSC:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2252
+    .line 2254
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_PAL"
@@ -114,7 +114,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_PAL:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2253
+    .line 2255
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_480P_60Hz"
@@ -135,7 +135,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_480P_60Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2254
+    .line 2256
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_576P_60Hz"
@@ -156,7 +156,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_576P_60Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2255
+    .line 2257
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_720P_60Hz"
@@ -177,7 +177,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_720P_60Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2256
+    .line 2258
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_720P_50Hz"
@@ -198,7 +198,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_720P_50Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2257
+    .line 2259
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_720P_30Hz"
@@ -219,7 +219,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_720P_30Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2258
+    .line 2260
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_720P_25Hz"
@@ -240,7 +240,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_720P_25Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2259
+    .line 2261
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_720P_24Hz"
@@ -261,7 +261,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_720P_24Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2260
+    .line 2262
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_1080P_60Hz"
@@ -282,7 +282,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_1080P_60Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2261
+    .line 2263
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_1080P_50Hz"
@@ -303,7 +303,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_1080P_50Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2262
+    .line 2264
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_1080P_30Hz"
@@ -324,7 +324,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_1080P_30Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2263
+    .line 2265
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_1080P_25Hz"
@@ -345,7 +345,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_1080P_25Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2264
+    .line 2266
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_1080P_24Hz"
@@ -366,7 +366,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_1080P_24Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2265
+    .line 2267
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v2, "Video_Stardard_1080i_60Hz"
@@ -387,7 +387,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_1080i_60Hz:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2266
+    .line 2268
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const-string v9, "Video_Stardard_1080i_50Hz"
@@ -412,7 +412,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    .line 2249
+    .line 2251
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->Video_Stardard_NTSC:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     const/4 v3, 0x0
@@ -524,19 +524,19 @@
         }
     .end annotation
 
-    .line 2269
+    .line 2271
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2270
+    .line 2272
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->value1:I
 
-    .line 2271
+    .line 2273
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->value2:Ljava/lang/String;
 
-    .line 2272
+    .line 2274
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->pic1:Ljava/lang/String;
 
-    .line 2273
+    .line 2275
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->pic2:Ljava/lang/String;
 
     return-void
@@ -545,7 +545,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
     .locals 1
 
-    .line 2249
+    .line 2251
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -560,7 +560,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
     .locals 1
 
-    .line 2249
+    .line 2251
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;->clone()Ljava/lang/Object;

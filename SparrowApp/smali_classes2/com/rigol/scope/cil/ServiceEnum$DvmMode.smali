@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4588
+    .line 4590
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     const-string v1, "DVM_AC_RMS"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->DVM_AC_RMS:Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
-    .line 4589
+    .line 4591
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     const-string v9, "DVM_DC"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->DVM_DC:Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
-    .line 4590
+    .line 4592
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     const-string v2, "DVM_DC_RMS"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
-    .line 4586
+    .line 4588
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->DVM_AC_RMS:Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 4593
+    .line 4595
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4594
+    .line 4596
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->value1:I
 
-    .line 4595
+    .line 4597
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->value2:Ljava/lang/String;
 
-    .line 4596
+    .line 4598
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->pic1:Ljava/lang/String;
 
-    .line 4597
+    .line 4599
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
     .locals 1
 
-    .line 4586
+    .line 4588
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
     .locals 1
 
-    .line 4586
+    .line 4588
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->clone()Ljava/lang/Object;

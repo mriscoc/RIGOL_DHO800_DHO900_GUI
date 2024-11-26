@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4029
+    .line 4031
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     const-string v1, "REF_10MHz_OFF"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->REF_10MHz_OFF:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    .line 4030
+    .line 4032
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     const-string v9, "REF_10MHz_IN"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->REF_10MHz_IN:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    .line 4031
+    .line 4033
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     const-string v2, "REF_10MHz_OUT"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
-    .line 4027
+    .line 4029
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->REF_10MHz_OFF:Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 4034
+    .line 4036
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4035
+    .line 4037
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->value1:I
 
-    .line 4036
+    .line 4038
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->value2:Ljava/lang/String;
 
-    .line 4037
+    .line 4039
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->pic1:Ljava/lang/String;
 
-    .line 4038
+    .line 4040
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RefClock;
     .locals 1
 
-    .line 4027
+    .line 4029
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RefClock;
     .locals 1
 
-    .line 4027
+    .line 4029
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RefClock;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RefClock;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RefClock;->clone()Ljava/lang/Object;

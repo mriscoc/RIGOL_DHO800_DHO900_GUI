@@ -261,7 +261,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -333,7 +333,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -405,7 +405,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -477,7 +477,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x10e
+    const/16 v0, 0x10f
 
     if-ne p2, v0, :cond_1
 
@@ -509,7 +509,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x10c
+    const/16 v0, 0x10d
 
     if-ne p2, v0, :cond_2
 
@@ -541,7 +541,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x109
+    const/16 v0, 0x10a
 
     if-ne p2, v0, :cond_3
 
@@ -573,7 +573,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x397
+    const/16 v0, 0x399
 
     if-ne p2, v0, :cond_4
 
@@ -1448,7 +1448,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x101
+    const/16 p1, 0x102
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;->notifyPropertyChanged(I)V
@@ -1499,7 +1499,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x104
+    const/16 p1, 0x105
 
     .line 122
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;->notifyPropertyChanged(I)V
@@ -1550,7 +1550,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x108
+    const/16 p1, 0x109
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;->notifyPropertyChanged(I)V
@@ -1601,7 +1601,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;->notifyPropertyChanged(I)V
@@ -1626,7 +1626,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x101
+    const/16 v0, 0x102
 
     if-ne v0, p1, :cond_0
 
@@ -1638,7 +1638,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_1
 
@@ -1650,7 +1650,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x104
+    const/16 v0, 0x105
 
     if-ne v0, p1, :cond_2
 
@@ -1662,7 +1662,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x108
+    const/16 v0, 0x109
 
     if-ne v0, p1, :cond_3
 

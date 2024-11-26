@@ -70,7 +70,7 @@
     .line 1674
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/TriggerLevelTagA;->setTagHeight(I)V
 
-    const p1, 0x7f1019a2
+    const p1, 0x7f1019a4
 
     .line 1677
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;

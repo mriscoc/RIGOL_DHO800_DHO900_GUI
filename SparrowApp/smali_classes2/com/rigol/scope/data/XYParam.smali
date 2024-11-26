@@ -321,7 +321,7 @@
     move-result v15
 
     .line 67
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan3:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan_none:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 

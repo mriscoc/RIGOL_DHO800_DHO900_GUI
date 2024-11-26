@@ -90,7 +90,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 3824
+    .line 3826
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v1, "operator_add"
@@ -111,7 +111,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_add:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3825
+    .line 3827
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_sub"
@@ -132,7 +132,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_sub:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3826
+    .line 3828
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_mul"
@@ -153,7 +153,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_mul:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3827
+    .line 3829
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_div"
@@ -174,7 +174,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_div:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3828
+    .line 3830
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_and"
@@ -195,7 +195,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_and:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3829
+    .line 3831
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_or"
@@ -216,7 +216,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_or:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3830
+    .line 3832
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_xor"
@@ -237,7 +237,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_xor:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3831
+    .line 3833
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_not"
@@ -258,7 +258,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_not:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3832
+    .line 3834
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_fft"
@@ -279,7 +279,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_fft:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3833
+    .line 3835
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_intg"
@@ -300,7 +300,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_intg:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3834
+    .line 3836
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_diff"
@@ -321,7 +321,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_diff:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3835
+    .line 3837
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_root"
@@ -342,7 +342,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_root:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3836
+    .line 3838
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_lg"
@@ -363,7 +363,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_lg:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3837
+    .line 3839
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_ln"
@@ -384,7 +384,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_ln:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3838
+    .line 3840
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_exp"
@@ -405,7 +405,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_exp:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3839
+    .line 3841
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_abs"
@@ -426,7 +426,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_abs:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3840
+    .line 3842
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_lp"
@@ -447,7 +447,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_lp:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3841
+    .line 3843
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_hp"
@@ -468,7 +468,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_hp:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3842
+    .line 3844
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_bp"
@@ -489,7 +489,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_bp:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3843
+    .line 3845
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_bt"
@@ -510,7 +510,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_bt:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3844
+    .line 3846
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_ax_b"
@@ -531,7 +531,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_ax_b:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3845
+    .line 3847
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_trend"
@@ -552,7 +552,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_trend:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3846
+    .line 3848
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_max"
@@ -573,7 +573,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_max:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3847
+    .line 3849
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v9, "operator_min"
@@ -594,7 +594,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_min:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3848
+    .line 3850
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const-string v2, "operator_envelope"
@@ -619,7 +619,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 3822
+    .line 3824
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_add:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     const/4 v3, 0x0
@@ -785,19 +785,19 @@
         }
     .end annotation
 
-    .line 3851
+    .line 3853
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3852
+    .line 3854
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->value1:I
 
-    .line 3853
+    .line 3855
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->value2:Ljava/lang/String;
 
-    .line 3854
+    .line 3856
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->pic1:Ljava/lang/String;
 
-    .line 3855
+    .line 3857
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->pic2:Ljava/lang/String;
 
     return-void
@@ -806,7 +806,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
     .locals 1
 
-    .line 3822
+    .line 3824
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -821,7 +821,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
     .locals 1
 
-    .line 3822
+    .line 3824
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->clone()Ljava/lang/Object;

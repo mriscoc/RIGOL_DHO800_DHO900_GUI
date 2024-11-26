@@ -1932,7 +1932,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011bf
+    const v1, 0x7f1011c1
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2526,7 +2526,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1011c0
+    const v2, 0x7f1011c2
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2847,7 +2847,7 @@
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    const v1, 0x7f1011c0
+    const v1, 0x7f1011c2
 
     .line 892
     invoke-static {v1}, Lcom/blankj/utilcode/util/StringUtils;->getString(I)Ljava/lang/String;
@@ -2921,7 +2921,7 @@
     .line 542
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoConnect:Z
 
-    const/16 p1, 0x39
+    const/16 p1, 0x3a
 
     .line 543
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -2935,7 +2935,7 @@
     .line 312
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoName:Z
 
-    const/16 p1, 0x3b
+    const/16 p1, 0x3c
 
     .line 313
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -2949,7 +2949,7 @@
     .line 290
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->bodeFileType:I
 
-    const/16 v0, 0x60
+    const/16 v0, 0x61
 
     .line 291
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -2971,7 +2971,7 @@
     .line 465
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
-    const/16 p1, 0x98
+    const/16 p1, 0x99
 
     .line 466
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -2988,7 +2988,7 @@
     .line 476
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
-    const/16 p1, 0x9a
+    const/16 p1, 0x9b
 
     .line 477
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3005,7 +3005,7 @@
     .line 487
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
-    const/16 p1, 0x9c
+    const/16 p1, 0x9d
 
     .line 488
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3022,7 +3022,7 @@
     .line 498
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
-    const/16 p1, 0x9e
+    const/16 p1, 0x9f
 
     .line 499
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3062,7 +3062,7 @@
     .line 250
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->choose:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    const/16 p1, 0xb1
+    const/16 p1, 0xb2
 
     .line 251
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3076,7 +3076,7 @@
     .line 554
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
-    const/16 p1, 0xbb
+    const/16 p1, 0xbc
 
     .line 555
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3099,7 +3099,7 @@
     .line 260
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileName:Ljava/lang/String;
 
-    const/16 p1, 0x135
+    const/16 p1, 0x136
 
     .line 261
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3122,7 +3122,7 @@
     .line 286
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileType:I
 
-    const/16 p1, 0x136
+    const/16 p1, 0x137
 
     .line 287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3145,7 +3145,7 @@
     .line 342
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageColor:Z
 
-    const/16 p1, 0x1aa
+    const/16 p1, 0x1ab
 
     .line 343
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3159,7 +3159,7 @@
     .line 372
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageFileType:I
 
-    const/16 v0, 0x1ab
+    const/16 v0, 0x1ac
 
     .line 373
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3176,7 +3176,7 @@
     .line 352
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageHeader:Z
 
-    const/16 p1, 0x1ac
+    const/16 p1, 0x1ad
 
     .line 353
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3190,7 +3190,7 @@
     .line 332
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageInvert:Z
 
-    const/16 p1, 0x1ad
+    const/16 p1, 0x1ae
 
     .line 333
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3204,7 +3204,7 @@
     .line 302
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->loadfileType:I
 
-    const/16 p1, 0x1f7
+    const/16 p1, 0x1f8
 
     .line 303
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3218,7 +3218,7 @@
     .line 590
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->password:Ljava/lang/String;
 
-    const/16 p1, 0x258
+    const/16 p1, 0x259
 
     .line 591
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3239,7 +3239,7 @@
     .line 271
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->pathName:Ljava/lang/String;
 
-    const/16 p1, 0x25a
+    const/16 p1, 0x25b
 
     .line 272
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3253,7 +3253,7 @@
     .line 322
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
-    const/16 p1, 0x28d
+    const/16 p1, 0x28e
 
     .line 323
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3267,7 +3267,7 @@
     .line 413
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->progress:I
 
-    const/16 p1, 0x29d
+    const/16 p1, 0x29f
 
     .line 414
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3359,7 +3359,7 @@
     .line 566
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->serverPath:Ljava/lang/String;
 
-    const/16 p1, 0x327
+    const/16 p1, 0x329
 
     .line 567
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3373,7 +3373,7 @@
     .line 394
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->setupFileType:I
 
-    const/16 v0, 0x32c
+    const/16 v0, 0x32e
 
     .line 395
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3390,7 +3390,7 @@
     .line 530
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->smbEn:Z
 
-    const/16 p1, 0x355
+    const/16 p1, 0x357
 
     .line 531
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3404,7 +3404,7 @@
     .line 578
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->userName:Ljava/lang/String;
 
-    const/16 p1, 0x3f2
+    const/16 p1, 0x3f4
 
     .line 579
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3418,7 +3418,7 @@
     .line 362
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveDepth:I
 
-    const/16 p1, 0x409
+    const/16 p1, 0x40b
 
     .line 363
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
@@ -3432,7 +3432,7 @@
     .line 383
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveFileType:I
 
-    const/16 v0, 0x40a
+    const/16 v0, 0x40c
 
     .line 384
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V

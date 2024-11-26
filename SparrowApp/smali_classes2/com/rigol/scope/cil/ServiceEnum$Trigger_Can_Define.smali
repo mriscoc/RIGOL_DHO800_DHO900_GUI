@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7903
+    .line 7905
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     const-string v1, "trig_can_define_data"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->trig_can_define_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
-    .line 7904
+    .line 7906
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     const-string v9, "trig_can_define_id"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->trig_can_define_id:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
-    .line 7905
+    .line 7907
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     const-string v2, "trig_can_define_false"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->trig_can_define_false:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
-    .line 7906
+    .line 7908
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     const-string v9, "trig_can_define_true"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
-    .line 7901
+    .line 7903
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->trig_can_define_data:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 7909
+    .line 7911
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7910
+    .line 7912
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->value1:I
 
-    .line 7911
+    .line 7913
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->value2:Ljava/lang/String;
 
-    .line 7912
+    .line 7914
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->pic1:Ljava/lang/String;
 
-    .line 7913
+    .line 7915
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
     .locals 1
 
-    .line 7901
+    .line 7903
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
     .locals 1
 
-    .line 7901
+    .line 7903
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Define;->clone()Ljava/lang/Object;

@@ -768,7 +768,7 @@
     .line 290
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->setFrameMode(I)V
 
-    const/16 v0, 0x15b
+    const/16 v0, 0x15c
 
     .line 291
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -790,7 +790,7 @@
     .line 334
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/NavigateParam;->setFrameDisplayFrame(J)V
 
-    const/16 v0, 0x15a
+    const/16 v0, 0x15b
 
     .line 335
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -818,7 +818,7 @@
     .line 278
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->setFrameSpeed(I)V
 
-    const/16 v0, 0x15c
+    const/16 v0, 0x15d
 
     .line 279
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -893,7 +893,7 @@
     .line 266
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->setSerchType(I)V
 
-    const/16 v0, 0x325
+    const/16 v0, 0x327
 
     .line 267
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -927,7 +927,7 @@
     .line 304
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/NavigateParam;->setFrameStartFrame(J)V
 
-    const/16 v0, 0x15d
+    const/16 v0, 0x15e
 
     .line 305
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -946,7 +946,7 @@
     .line 192
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->setTimeSpeed(I)V
 
-    const/16 v0, 0x3a7
+    const/16 v0, 0x3a9
 
     .line 193
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -978,7 +978,7 @@
     .line 127
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->currentPage:I
 
-    const/16 p1, 0xc4
+    const/16 p1, 0xc5
 
     .line 128
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -996,7 +996,7 @@
     .line 53
     iput-object p1, p0, Lcom/rigol/scope/data/NavigateParam;->endFrameAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 p1, 0x111
+    const/16 p1, 0x112
 
     .line 54
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1023,7 +1023,7 @@
     .line 119
     iput-wide p1, p0, Lcom/rigol/scope/data/NavigateParam;->frameDisplayFrame:J
 
-    const/16 p1, 0x15a
+    const/16 p1, 0x15b
 
     .line 120
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1037,7 +1037,7 @@
     .line 103
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->frameMode:I
 
-    const/16 p1, 0x15b
+    const/16 p1, 0x15c
 
     .line 104
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1051,7 +1051,7 @@
     .line 95
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->frameSpeed:I
 
-    const/16 p1, 0x15c
+    const/16 p1, 0x15d
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1065,7 +1065,7 @@
     .line 111
     iput-wide p1, p0, Lcom/rigol/scope/data/NavigateParam;->frameStartFrame:J
 
-    const/16 p1, 0x15d
+    const/16 p1, 0x15e
 
     .line 112
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1079,7 +1079,7 @@
     .line 71
     iput-boolean p1, p0, Lcom/rigol/scope/data/NavigateParam;->ifPlaying:Z
 
-    const/16 p1, 0x19b
+    const/16 p1, 0x19c
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1093,7 +1093,7 @@
     .line 135
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->maxPage:I
 
-    const/16 p1, 0x20b
+    const/16 p1, 0x20c
 
     .line 136
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1107,7 +1107,7 @@
     .line 64
     iput-boolean p1, p0, Lcom/rigol/scope/data/NavigateParam;->navEnable:Z
 
-    const/16 p1, 0x22b
+    const/16 p1, 0x22c
 
     .line 65
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1121,7 +1121,7 @@
     .line 149
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->readNavMode:I
 
-    const/16 p1, 0x2ad
+    const/16 p1, 0x2af
 
     .line 150
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1135,7 +1135,7 @@
     .line 142
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->readRunStop:I
 
-    const/16 p1, 0x2ae
+    const/16 p1, 0x2b0
 
     .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1149,7 +1149,7 @@
     .line 157
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->selectMode:I
 
-    const/16 p1, 0x315
+    const/16 p1, 0x317
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1163,7 +1163,7 @@
     .line 87
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->serchType:I
 
-    const/16 p1, 0x325
+    const/16 p1, 0x327
 
     .line 88
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V
@@ -1177,7 +1177,7 @@
     .line 79
     iput p1, p0, Lcom/rigol/scope/data/NavigateParam;->timeSpeed:I
 
-    const/16 p1, 0x3a7
+    const/16 p1, 0x3a9
 
     .line 80
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/NavigateParam;->notifyPropertyChanged(I)V

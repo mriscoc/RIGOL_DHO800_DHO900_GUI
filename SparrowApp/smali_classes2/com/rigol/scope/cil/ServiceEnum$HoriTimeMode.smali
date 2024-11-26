@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1374
+    .line 1376
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     const-string v1, "Horizontal_YT"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_YT:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1375
+    .line 1377
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     const-string v9, "Horizontal_XY"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_XY:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1376
+    .line 1378
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     const-string v2, "Horizontal_ROLL"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1377
+    .line 1379
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     const-string v9, "Horizontal_SCAN"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1372
+    .line 1374
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_YT:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 1380
+    .line 1382
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1381
+    .line 1383
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->value1:I
 
-    .line 1382
+    .line 1384
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->value2:Ljava/lang/String;
 
-    .line 1383
+    .line 1385
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->pic1:Ljava/lang/String;
 
-    .line 1384
+    .line 1386
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
     .locals 1
 
-    .line 1372
+    .line 1374
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
     .locals 1
 
-    .line 1372
+    .line 1374
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->clone()Ljava/lang/Object;

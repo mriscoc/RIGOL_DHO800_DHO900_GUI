@@ -74,7 +74,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8780
+    .line 8782
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v1, "ADC_MODE_ABCD"
@@ -95,7 +95,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_ABCD:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8781
+    .line 8783
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_EXT_THA_B"
@@ -116,7 +116,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_EXT_THA_B:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8782
+    .line 8784
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_EXT_THA_A"
@@ -137,7 +137,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_EXT_THA_A:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8783
+    .line 8785
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_CHABCD"
@@ -158,7 +158,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_CHABCD:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8784
+    .line 8786
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_AC"
@@ -179,7 +179,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_AC:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8785
+    .line 8787
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_BC"
@@ -200,7 +200,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_BC:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8786
+    .line 8788
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_AD"
@@ -221,7 +221,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_AD:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8787
+    .line 8789
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_BD"
@@ -242,7 +242,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_BD:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8788
+    .line 8790
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_A"
@@ -263,7 +263,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_A:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8789
+    .line 8791
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_B"
@@ -284,7 +284,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_B:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8790
+    .line 8792
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_C"
@@ -305,7 +305,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_C:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8791
+    .line 8793
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_D"
@@ -326,7 +326,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_D:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8792
+    .line 8794
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_COM_A"
@@ -347,7 +347,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_COM_A:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8793
+    .line 8795
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_COM_B"
@@ -368,7 +368,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_COM_B:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8794
+    .line 8796
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_COM_C"
@@ -389,7 +389,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_COM_C:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8795
+    .line 8797
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v9, "ADC_MODE_COM_D"
@@ -410,7 +410,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_COM_D:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8796
+    .line 8798
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const-string v2, "ADC_MODE_END"
@@ -435,7 +435,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
-    .line 8778
+    .line 8780
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->ADC_MODE_ABCD:Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     const/4 v3, 0x0
@@ -553,19 +553,19 @@
         }
     .end annotation
 
-    .line 8799
+    .line 8801
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8800
+    .line 8802
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->value1:I
 
-    .line 8801
+    .line 8803
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->value2:Ljava/lang/String;
 
-    .line 8802
+    .line 8804
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->pic1:Ljava/lang/String;
 
-    .line 8803
+    .line 8805
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -574,7 +574,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
     .locals 1
 
-    .line 8778
+    .line 8780
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -589,7 +589,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
     .locals 1
 
-    .line 8778
+    .line 8780
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SaoLaCoreMode;->clone()Ljava/lang/Object;

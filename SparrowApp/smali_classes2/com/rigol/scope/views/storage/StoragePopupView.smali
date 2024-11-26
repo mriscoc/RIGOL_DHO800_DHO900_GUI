@@ -2115,7 +2115,7 @@
 
     if-gez p2, :cond_0
 
-    const p1, 0x7f1007bf
+    const p1, 0x7f1007c0
 
     .line 530
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V

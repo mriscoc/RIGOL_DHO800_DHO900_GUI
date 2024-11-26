@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1208
+    .line 1210
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     const-string v1, "Small"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
-    .line 1209
+    .line 1211
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     const-string v9, "Medium"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Medium:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
-    .line 1210
+    .line 1212
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     const-string v2, "Large"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
-    .line 1206
+    .line 1208
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 1213
+    .line 1215
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1214
+    .line 1216
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->value1:I
 
-    .line 1215
+    .line 1217
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->value2:Ljava/lang/String;
 
-    .line 1216
+    .line 1218
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->pic1:Ljava/lang/String;
 
-    .line 1217
+    .line 1219
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$LaScale;
     .locals 1
 
-    .line 1206
+    .line 1208
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$LaScale;
     .locals 1
 
-    .line 1206
+    .line 1208
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$LaScale;->clone()Ljava/lang/Object;

@@ -448,7 +448,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -520,7 +520,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -592,7 +592,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3a5
+    const/16 v0, 0x3a7
 
     if-ne p2, v0, :cond_1
 
@@ -664,7 +664,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x25d
+    const/16 v0, 0x25e
 
     if-ne p2, v0, :cond_1
 
@@ -696,7 +696,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x263
+    const/16 v0, 0x264
 
     if-ne p2, v0, :cond_2
 
@@ -728,7 +728,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x268
+    const/16 v0, 0x269
 
     if-ne p2, v0, :cond_3
 
@@ -760,7 +760,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x25f
+    const/16 v0, 0x260
 
     if-ne p2, v0, :cond_4
 
@@ -792,7 +792,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x266
+    const/16 v0, 0x267
 
     if-ne p2, v0, :cond_5
 
@@ -824,7 +824,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x264
+    const/16 v0, 0x265
 
     if-ne p2, v0, :cond_6
 
@@ -1648,7 +1648,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17a
+    const/16 p1, 0x17b
 
     .line 157
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->notifyPropertyChanged(I)V
@@ -1699,7 +1699,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 148
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->notifyPropertyChanged(I)V
@@ -1748,7 +1748,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v1, 0x251
+    const/16 v1, 0x252
 
     if-ne v1, p1, :cond_2
 
@@ -1760,7 +1760,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v1, 0x17a
+    const/16 v1, 0x17b
 
     if-ne v1, p1, :cond_3
 

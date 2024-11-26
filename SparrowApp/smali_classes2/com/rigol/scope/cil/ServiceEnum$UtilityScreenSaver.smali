@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5513
+    .line 5515
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     const-string v1, "SCR_OFF"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->SCR_OFF:Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
-    .line 5514
+    .line 5516
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     const-string v9, "SCR_PICTURE"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->SCR_PICTURE:Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
-    .line 5515
+    .line 5517
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     const-string v2, "SCR_TEXT"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
-    .line 5511
+    .line 5513
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->SCR_OFF:Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 5518
+    .line 5520
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5519
+    .line 5521
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->value1:I
 
-    .line 5520
+    .line 5522
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->value2:Ljava/lang/String;
 
-    .line 5521
+    .line 5523
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->pic1:Ljava/lang/String;
 
-    .line 5522
+    .line 5524
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
     .locals 1
 
-    .line 5511
+    .line 5513
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
     .locals 1
 
-    .line 5511
+    .line 5513
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$UtilityScreenSaver;->clone()Ljava/lang/Object;

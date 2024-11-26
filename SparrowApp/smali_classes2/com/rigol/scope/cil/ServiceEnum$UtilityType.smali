@@ -68,7 +68,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5545
+    .line 5547
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v1, "Utility_IO"
@@ -89,7 +89,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_IO:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5546
+    .line 5548
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_Setup"
@@ -110,7 +110,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Setup:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5547
+    .line 5549
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v2, "Utility_About"
@@ -131,7 +131,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_About:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5548
+    .line 5550
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_Other"
@@ -152,7 +152,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Other:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5549
+    .line 5551
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v2, "Utility_Auto_Config"
@@ -173,7 +173,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Auto_Config:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5550
+    .line 5552
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_SelfCal"
@@ -194,7 +194,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_SelfCal:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5551
+    .line 5553
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v2, "Utility_Option"
@@ -215,7 +215,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Option:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5552
+    .line 5554
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_Quick_Settings"
@@ -236,7 +236,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Quick_Settings:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5553
+    .line 5555
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v2, "Utility_Screen_Saver"
@@ -257,7 +257,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Screen_Saver:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5554
+    .line 5556
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_Self_Check"
@@ -278,7 +278,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Self_Check:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5555
+    .line 5557
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v2, "Utility_Email"
@@ -299,7 +299,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Email:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5556
+    .line 5558
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_Printer"
@@ -320,7 +320,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Printer:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5557
+    .line 5559
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v2, "Utility_Debug"
@@ -341,7 +341,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_Debug:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5558
+    .line 5560
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const-string v9, "Utility_PMU"
@@ -366,7 +366,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
-    .line 5543
+    .line 5545
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->Utility_IO:Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     const/4 v3, 0x0
@@ -466,19 +466,19 @@
         }
     .end annotation
 
-    .line 5561
+    .line 5563
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5562
+    .line 5564
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->value1:I
 
-    .line 5563
+    .line 5565
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->value2:Ljava/lang/String;
 
-    .line 5564
+    .line 5566
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->pic1:Ljava/lang/String;
 
-    .line 5565
+    .line 5567
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->pic2:Ljava/lang/String;
 
     return-void
@@ -487,7 +487,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
     .locals 1
 
-    .line 5543
+    .line 5545
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -502,7 +502,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
     .locals 1
 
-    .line 5543
+    .line 5545
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$UtilityType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$UtilityType;->clone()Ljava/lang/Object;

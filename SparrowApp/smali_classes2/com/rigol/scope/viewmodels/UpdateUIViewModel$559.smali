@@ -74,7 +74,7 @@
 
     move-result p1
 
-    const v0, 0x7f1011bf
+    const v0, 0x7f1011c1
 
     if-eqz p1, :cond_9
 

@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9916
+    .line 9918
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     const-string v1, "SAVE_BMP"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->SAVE_BMP:Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
-    .line 9917
+    .line 9919
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     const-string v9, "SAVE_PNG"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->SAVE_PNG:Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
-    .line 9918
+    .line 9920
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     const-string v2, "SAVE_CSV"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->SAVE_CSV:Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
-    .line 9919
+    .line 9921
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     const-string v9, "SAVE_HTML"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
-    .line 9914
+    .line 9916
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->SAVE_BMP:Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 9922
+    .line 9924
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9923
+    .line 9925
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->value1:I
 
-    .line 9924
+    .line 9926
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->value2:Ljava/lang/String;
 
-    .line 9925
+    .line 9927
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->pic1:Ljava/lang/String;
 
-    .line 9926
+    .line 9928
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
     .locals 1
 
-    .line 9914
+    .line 9916
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
     .locals 1
 
-    .line 9914
+    .line 9916
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BodeFileType;->clone()Ljava/lang/Object;

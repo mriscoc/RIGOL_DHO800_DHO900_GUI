@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7568
+    .line 7570
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     const-string v1, "FLEX_BP"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->FLEX_BP:Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
-    .line 7569
+    .line 7571
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     const-string v9, "FLEX_BM"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->FLEX_BM:Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
-    .line 7570
+    .line 7572
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     const-string v2, "FLEX_TX_RX"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
-    .line 7566
+    .line 7568
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->FLEX_BP:Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 7573
+    .line 7575
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7574
+    .line 7576
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->value1:I
 
-    .line 7575
+    .line 7577
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->value2:Ljava/lang/String;
 
-    .line 7576
+    .line 7578
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->pic1:Ljava/lang/String;
 
-    .line 7577
+    .line 7579
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
     .locals 1
 
-    .line 7566
+    .line 7568
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
     .locals 1
 
-    .line 7566
+    .line 7568
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SIGTYPE;->clone()Ljava/lang/Object;

@@ -1980,7 +1980,7 @@
     .line 177
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->bottom:I
 
-    const/16 p1, 0x78
+    const/16 p1, 0x79
 
     .line 178
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -1998,7 +1998,7 @@
     .line 126
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x97
+    const/16 p1, 0x98
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2309,7 +2309,7 @@
     .line 227
     iput-boolean p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->enable:Z
 
-    const/16 p1, 0x10e
+    const/16 p1, 0x10f
 
     .line 229
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2323,7 +2323,7 @@
     .line 137
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->height:I
 
-    const/16 p1, 0x170
+    const/16 p1, 0x171
 
     .line 138
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2346,7 +2346,7 @@
     .line 147
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->left:I
 
-    const/16 p1, 0x1e1
+    const/16 p1, 0x1e2
 
     .line 148
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2414,7 +2414,7 @@
     .line 217
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realBottom:J
 
-    const/16 p1, 0x2af
+    const/16 p1, 0x2b1
 
     .line 218
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2428,7 +2428,7 @@
     .line 187
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realLeft:J
 
-    const/16 p1, 0x2b0
+    const/16 p1, 0x2b2
 
     .line 188
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2442,7 +2442,7 @@
     .line 197
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realRight:J
 
-    const/16 p1, 0x2b1
+    const/16 p1, 0x2b3
 
     .line 198
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2456,7 +2456,7 @@
     .line 207
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realTop:J
 
-    const/16 p1, 0x2b3
+    const/16 p1, 0x2b5
 
     .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2470,7 +2470,7 @@
     .line 157
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->right:I
 
-    const/16 p1, 0x2e2
+    const/16 p1, 0x2e4
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2502,7 +2502,7 @@
     .line 167
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->top:I
 
-    const/16 p1, 0x3aa
+    const/16 p1, 0x3ac
 
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2516,7 +2516,7 @@
     .line 114
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->type:Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
-    const/16 p1, 0x3d0
+    const/16 p1, 0x3d2
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2534,7 +2534,7 @@
     .line 238
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->verUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3fb
+    const/16 p1, 0x3fd
 
     .line 239
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V

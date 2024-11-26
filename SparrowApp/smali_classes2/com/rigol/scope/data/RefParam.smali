@@ -623,7 +623,7 @@
     .line 118
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam;->param:Lcom/rigol/scope/data/RefParam$Param;
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 119
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -637,7 +637,7 @@
     .line 173
     iput p1, p0, Lcom/rigol/scope/data/RefParam;->refChan:I
 
-    const/16 v0, 0x2c8
+    const/16 v0, 0x2ca
 
     .line 174
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -686,7 +686,7 @@
     .line 162
     iput-boolean p1, p0, Lcom/rigol/scope/data/RefParam;->showLabel:Z
 
-    const/16 v0, 0x33a
+    const/16 v0, 0x33c
 
     .line 163
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V

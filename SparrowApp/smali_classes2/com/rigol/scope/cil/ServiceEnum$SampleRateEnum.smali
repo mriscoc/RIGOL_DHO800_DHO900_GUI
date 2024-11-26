@@ -124,7 +124,7 @@
 .method static constructor <clinit>()V
     .locals 17
 
-    .line 8676
+    .line 8678
     new-instance v8, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v1, "SAMPLE_RATE_2K"
@@ -145,7 +145,7 @@
 
     sput-object v8, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2K:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8677
+    .line 8679
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_2d5K"
@@ -166,7 +166,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2d5K:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8678
+    .line 8680
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_125K"
@@ -187,7 +187,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_125K:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8679
+    .line 8681
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_200K"
@@ -208,7 +208,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_200K:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8680
+    .line 8682
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_500K"
@@ -229,7 +229,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_500K:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8681
+    .line 8683
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_1M"
@@ -250,7 +250,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_1M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8682
+    .line 8684
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_1d25M"
@@ -271,7 +271,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_1d25M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8683
+    .line 8685
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_2M"
@@ -292,7 +292,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8684
+    .line 8686
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_2d5M"
@@ -313,7 +313,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2d5M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8685
+    .line 8687
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_5M"
@@ -334,7 +334,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_5M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8686
+    .line 8688
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_6d25M"
@@ -355,7 +355,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_6d25M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8687
+    .line 8689
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_10M"
@@ -376,7 +376,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_10M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8688
+    .line 8690
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_12d5M"
@@ -397,7 +397,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_12d5M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8689
+    .line 8691
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_20M"
@@ -418,7 +418,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_20M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8690
+    .line 8692
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_25M"
@@ -439,7 +439,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_25M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8691
+    .line 8693
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_31d25M"
@@ -460,7 +460,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_31d25M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8692
+    .line 8694
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_50M"
@@ -481,7 +481,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_50M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8693
+    .line 8695
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_62d5M"
@@ -502,7 +502,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_62d5M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8694
+    .line 8696
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_78d125M"
@@ -523,7 +523,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_78d125M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8695
+    .line 8697
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_100M"
@@ -544,7 +544,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_100M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8696
+    .line 8698
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_125M"
@@ -565,7 +565,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_125M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8697
+    .line 8699
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_156d25M"
@@ -586,7 +586,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_156d25M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8698
+    .line 8700
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_200M"
@@ -607,7 +607,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_200M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8699
+    .line 8701
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_250M"
@@ -628,7 +628,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_250M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8700
+    .line 8702
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_312d5M"
@@ -649,7 +649,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_312d5M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8701
+    .line 8703
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_400M"
@@ -670,7 +670,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_400M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8702
+    .line 8704
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_500M"
@@ -691,7 +691,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_500M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8703
+    .line 8705
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_625M"
@@ -712,7 +712,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_625M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8704
+    .line 8706
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_800M"
@@ -733,7 +733,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_800M:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8705
+    .line 8707
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_1G"
@@ -754,7 +754,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_1G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8706
+    .line 8708
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_1d25G"
@@ -775,7 +775,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_1d25G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8707
+    .line 8709
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_1d6G"
@@ -796,7 +796,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_1d6G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8708
+    .line 8710
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_2G"
@@ -817,7 +817,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8709
+    .line 8711
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_2d5G"
@@ -838,7 +838,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2d5G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8710
+    .line 8712
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_4G"
@@ -859,7 +859,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_4G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8711
+    .line 8713
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_5G"
@@ -880,7 +880,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_5G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8712
+    .line 8714
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_8G"
@@ -901,7 +901,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_8G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8713
+    .line 8715
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_10G"
@@ -922,7 +922,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_10G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8714
+    .line 8716
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_20G"
@@ -943,7 +943,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_20G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8715
+    .line 8717
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_40G"
@@ -964,7 +964,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_40G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8716
+    .line 8718
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v2, "SAMPLE_RATE_80G"
@@ -985,7 +985,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_80G:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8717
+    .line 8719
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const-string v10, "SAMPLE_RATE_100G"
@@ -1010,7 +1010,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
-    .line 8674
+    .line 8676
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->SAMPLE_RATE_2K:Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     const/4 v3, 0x0
@@ -1278,19 +1278,19 @@
         }
     .end annotation
 
-    .line 8720
+    .line 8722
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8721
+    .line 8723
     iput-wide p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->value1:J
 
-    .line 8722
+    .line 8724
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->value2:Ljava/lang/String;
 
-    .line 8723
+    .line 8725
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->pic1:Ljava/lang/String;
 
-    .line 8724
+    .line 8726
     iput-object p7, p0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -1299,7 +1299,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
     .locals 1
 
-    .line 8674
+    .line 8676
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -1314,7 +1314,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
     .locals 1
 
-    .line 8674
+    .line 8676
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SampleRateEnum;->clone()Ljava/lang/Object;

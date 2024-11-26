@@ -50,7 +50,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7500
+    .line 7502
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     const-string v1, "PACKAGEEND_NUL"
@@ -71,7 +71,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->PACKAGEEND_NUL:Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
-    .line 7501
+    .line 7503
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     const-string v9, "PACKAGEEND_LF"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->PACKAGEEND_LF:Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
-    .line 7502
+    .line 7504
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     const-string v2, "PACKAGEEND_CR"
@@ -113,7 +113,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->PACKAGEEND_CR:Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
-    .line 7503
+    .line 7505
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     const-string v9, "PACKAGEEND_SP"
@@ -134,7 +134,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->PACKAGEEND_SP:Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
-    .line 7504
+    .line 7506
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     const-string v2, "PACKAGEEND_FFH"
@@ -159,7 +159,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
-    .line 7498
+    .line 7500
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->PACKAGEEND_NUL:Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     const/4 v3, 0x0
@@ -205,19 +205,19 @@
         }
     .end annotation
 
-    .line 7507
+    .line 7509
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7508
+    .line 7510
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->value1:I
 
-    .line 7509
+    .line 7511
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->value2:Ljava/lang/String;
 
-    .line 7510
+    .line 7512
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->pic1:Ljava/lang/String;
 
-    .line 7511
+    .line 7513
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->pic2:Ljava/lang/String;
 
     return-void
@@ -226,7 +226,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
     .locals 1
 
-    .line 7498
+    .line 7500
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -241,7 +241,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
     .locals 1
 
-    .line 7498
+    .line 7500
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$PACKAGEEND;->clone()Ljava/lang/Object;

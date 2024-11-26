@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 4463
+    .line 4465
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
     const-string v1, "counter_freq"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->counter_freq:Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
-    .line 4464
+    .line 4466
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
     const-string v9, "counter_event"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
-    .line 4461
+    .line 4463
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->counter_freq:Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 4467
+    .line 4469
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 4468
+    .line 4470
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->value1:I
 
-    .line 4469
+    .line 4471
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->value2:Ljava/lang/String;
 
-    .line 4470
+    .line 4472
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->pic1:Ljava/lang/String;
 
-    .line 4471
+    .line 4473
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
     .locals 1
 
-    .line 4461
+    .line 4463
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
     .locals 1
 
-    .line 4461
+    .line 4463
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CounterMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CounterMode;->clone()Ljava/lang/Object;

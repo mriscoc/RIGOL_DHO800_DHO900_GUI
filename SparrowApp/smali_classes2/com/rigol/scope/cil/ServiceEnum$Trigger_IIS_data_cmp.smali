@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2630
+    .line 2632
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v1, "trig_iis_data_eq"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_eq:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2631
+    .line 2633
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v9, "trig_iis_data_neq"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_neq:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2632
+    .line 2634
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v2, "trig_iis_data_mt"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_mt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2633
+    .line 2635
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v9, "trig_iis_data_lt"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_lt:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2634
+    .line 2636
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v2, "trig_iis_data_in"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_in:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2635
+    .line 2637
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v9, "trig_iis_data_out"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_out:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2636
+    .line 2638
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const-string v2, "trig_iis_data_cross"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    .line 2628
+    .line 2630
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->trig_iis_data_eq:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 2639
+    .line 2641
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2640
+    .line 2642
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->value1:I
 
-    .line 2641
+    .line 2643
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->value2:Ljava/lang/String;
 
-    .line 2642
+    .line 2644
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->pic1:Ljava/lang/String;
 
-    .line 2643
+    .line 2645
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
     .locals 1
 
-    .line 2628
+    .line 2630
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
     .locals 1
 
-    .line 2628
+    .line 2630
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;->clone()Ljava/lang/Object;

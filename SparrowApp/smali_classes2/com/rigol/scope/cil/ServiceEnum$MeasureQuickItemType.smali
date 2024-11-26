@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6649
+    .line 6651
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const-string v1, "INDICATOR"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->INDICATOR:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
-    .line 6650
+    .line 6652
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const-string v9, "RESET"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->RESET:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
-    .line 6651
+    .line 6653
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const-string v2, "REMOVE"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->REMOVE:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
-    .line 6652
+    .line 6654
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const-string v9, "SETTING"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->SETTING:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
-    .line 6653
+    .line 6655
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const-string v2, "REMOVE_ALL"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->REMOVE_ALL:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
-    .line 6654
+    .line 6656
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const-string v9, "CHANGE_ITEM"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
-    .line 6647
+    .line 6649
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->INDICATOR:Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 6657
+    .line 6659
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6658
+    .line 6660
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->value1:I
 
-    .line 6659
+    .line 6661
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->value2:Ljava/lang/String;
 
-    .line 6660
+    .line 6662
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->pic1:Ljava/lang/String;
 
-    .line 6661
+    .line 6663
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
     .locals 1
 
-    .line 6647
+    .line 6649
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
     .locals 1
 
-    .line 6647
+    .line 6649
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$MeasureQuickItemType;->clone()Ljava/lang/Object;

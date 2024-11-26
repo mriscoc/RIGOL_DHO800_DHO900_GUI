@@ -65,6 +65,8 @@
 
 .field public static final enum Unit_VAR:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
+.field public static final enum Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
 .field public static final enum Unit_VdivS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
 .field public static final enum Unit_VmulS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
@@ -78,6 +80,8 @@
 .field public static final enum Unit_WdivS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
 .field public static final enum Unit_WmulS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+.field public static final enum Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
 .field public static final enum Unit_bps:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
@@ -1075,7 +1079,49 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_range:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 v1, 0x2d
+    .line 962
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    const-string v9, "Unit_X"
+
+    const/16 v10, 0x2d
+
+    const/16 v11, 0x2d
+
+    const-string v12, "X"
+
+    const-string v13, ""
+
+    const-string v14, ""
+
+    move-object v8, v0
+
+    invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$Unit;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    .line 963
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    const-string v2, "Unit_VdivA"
+
+    const/16 v3, 0x2e
+
+    const/16 v4, 0x2e
+
+    const-string v5, "V/A"
+
+    const-string v6, ""
+
+    const-string v7, ""
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$Unit;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    const/16 v1, 0x2f
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
@@ -1344,7 +1390,19 @@
 
     aput-object v2, v1, v3
 
-    const/16 v2, 0x2c
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_range:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    const/16 v3, 0x2c
+
+    aput-object v2, v1, v3
+
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    const/16 v3, 0x2d
+
+    aput-object v2, v1, v3
+
+    const/16 v2, 0x2e
 
     aput-object v0, v1, v2
 
@@ -1365,19 +1423,19 @@
         }
     .end annotation
 
-    .line 964
+    .line 966
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 965
+    .line 967
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
-    .line 966
+    .line 968
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
 
-    .line 967
+    .line 969
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->pic1:Ljava/lang/String;
 
-    .line 968
+    .line 970
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->pic2:Ljava/lang/String;
 
     return-void

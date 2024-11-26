@@ -989,7 +989,7 @@
 
     add-int/lit8 v0, v0, -0x2a
 
-    const v1, 0x7f100726
+    const v1, 0x7f100727
 
     if-eqz v0, :cond_3
 
@@ -1008,17 +1008,17 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f100729
+    const v1, 0x7f10072a
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f100728
+    const v1, 0x7f100729
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f100727
+    const v1, 0x7f100728
 
     .line 2335
     :cond_3

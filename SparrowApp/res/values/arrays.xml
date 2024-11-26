@@ -409,60 +409,60 @@
         <item>{v: 4, si: horizontal_115}</item>
     </string-array>
     <string-array name="msg_afg_mod_pic">
-        <item>{v: 0, pi: adf_am19, si: afg_153}</item>
-        <item>{v: 1, pi: adf_am14, si: afg_154}</item>
-        <item>{v: 2, pi: adf_am15, si: afg_155}</item>
-        <item>{v: 3, pi: adf_am16, si: afg_156}</item>
-        <item>{v: 4, pi: adf_am17, si: afg_157}</item>
-        <item>{v: 5, pi: adf_am18, si: afg_158}</item>
-        <item>{v: 6, pi: adf_am7, si: afg_159}</item>
-        <item>{v: 7, pi: adf_am8, si: afg_160}</item>
-        <item>{v: 8, pi: adf_am3, si: afg_161}</item>
-        <item>{v: 9, pi: adf_am4, si: afg_162}</item>
-        <item>{v: 10, pi: adf_am5, si: afg_163}</item>
-        <item>{v: 11, pi: adf_am6, si: afg_164}</item>
-        <item>{v: 12, pi: adf_am13, si: afg_165}</item>
-        <item>{v: 13, pi: adf_am2, si: afg_166}</item>
-        <item>{v: 14, pi: adf_am9, si: afg_167}</item>
-        <item>{v: 15, pi: adf_am10, si: afg_168}</item>
-        <item>{v: 16, pi: adf_am11, si: afg_169}</item>
-        <item>{v: 17, pi: adf_am12, si: afg_170}</item>
-        <item>{v: 18, pi: afg_fm18, si: afg_171}</item>
-        <item>{v: 19, pi: afg_fm13, si: afg_172}</item>
-        <item>{v: 20, pi: afg_fm14, si: afg_173}</item>
-        <item>{v: 21, pi: afg_fm15, si: afg_174}</item>
-        <item>{v: 22, pi: afg_fm16, si: afg_175}</item>
-        <item>{v: 23, pi: afg_fm17, si: afg_176}</item>
-        <item>{v: 24, pi: afg_fm6, si: afg_177}</item>
-        <item>{v: 25, pi: afg_fm1, si: afg_178}</item>
-        <item>{v: 26, pi: afg_fm2, si: afg_179}</item>
-        <item>{v: 27, pi: afg_fm3, si: afg_180}</item>
-        <item>{v: 28, pi: afg_fm4, si: afg_181}</item>
-        <item>{v: 29, pi: afg_fm5, si: afg_182}</item>
-        <item>{v: 30, pi: afg_fm12, si: afg_183}</item>
-        <item>{v: 31, pi: afg_fm7, si: afg_184}</item>
-        <item>{v: 32, pi: afg_fm8, si: afg_185}</item>
-        <item>{v: 33, pi: afg_fm9, si: afg_186}</item>
-        <item>{v: 34, pi: afg_fm10, si: afg_187}</item>
-        <item>{v: 35, pi: afg_fm11, si: afg_188}</item>
-        <item>{v: 36, pi: afg_pm18, si: afg_189}</item>
-        <item>{v: 37, pi: afg_pm13, si: afg_190}</item>
-        <item>{v: 38, pi: afg_pm14, si: afg_191}</item>
-        <item>{v: 39, pi: afg_pm15, si: afg_192}</item>
-        <item>{v: 40, pi: afg_pm16, si: afg_193}</item>
-        <item>{v: 41, pi: afg_pm17, si: afg_194}</item>
-        <item>{v: 42, pi: afg_pm6, si: afg_195}</item>
-        <item>{v: 43, pi: afg_pm1, si: afg_196}</item>
-        <item>{v: 44, pi: afg_pm2, si: afg_197}</item>
-        <item>{v: 45, pi: afg_pm3, si: afg_198}</item>
-        <item>{v: 46, pi: afg_pm4, si: afg_199}</item>
-        <item>{v: 47, pi: afg_pm5, si: afg_200}</item>
-        <item>{v: 48, pi: afg_pm12, si: afg_201}</item>
-        <item>{v: 49, pi: afg_pm7, si: afg_202}</item>
-        <item>{v: 50, pi: afg_pm8, si: afg_203}</item>
-        <item>{v: 51, pi: afg_pm9, si: afg_204}</item>
-        <item>{v: 52, pi: afg_pm10, si: afg_205}</item>
-        <item>{v: 53, pi: afg_pm11, si: afg_206}</item>
+        <item>{v: 0, pi: adf_am19, si: afg_154}</item>
+        <item>{v: 1, pi: adf_am14, si: afg_155}</item>
+        <item>{v: 2, pi: adf_am15, si: afg_156}</item>
+        <item>{v: 3, pi: adf_am16, si: afg_157}</item>
+        <item>{v: 4, pi: adf_am17, si: afg_158}</item>
+        <item>{v: 5, pi: adf_am18, si: afg_159}</item>
+        <item>{v: 6, pi: adf_am7, si: afg_160}</item>
+        <item>{v: 7, pi: adf_am8, si: afg_161}</item>
+        <item>{v: 8, pi: adf_am3, si: afg_162}</item>
+        <item>{v: 9, pi: adf_am4, si: afg_163}</item>
+        <item>{v: 10, pi: adf_am5, si: afg_164}</item>
+        <item>{v: 11, pi: adf_am6, si: afg_165}</item>
+        <item>{v: 12, pi: adf_am13, si: afg_166}</item>
+        <item>{v: 13, pi: adf_am2, si: afg_167}</item>
+        <item>{v: 14, pi: adf_am9, si: afg_168}</item>
+        <item>{v: 15, pi: adf_am10, si: afg_169}</item>
+        <item>{v: 16, pi: adf_am11, si: afg_170}</item>
+        <item>{v: 17, pi: adf_am12, si: afg_171}</item>
+        <item>{v: 18, pi: afg_fm18, si: afg_172}</item>
+        <item>{v: 19, pi: afg_fm13, si: afg_173}</item>
+        <item>{v: 20, pi: afg_fm14, si: afg_174}</item>
+        <item>{v: 21, pi: afg_fm15, si: afg_175}</item>
+        <item>{v: 22, pi: afg_fm16, si: afg_176}</item>
+        <item>{v: 23, pi: afg_fm17, si: afg_177}</item>
+        <item>{v: 24, pi: afg_fm6, si: afg_178}</item>
+        <item>{v: 25, pi: afg_fm1, si: afg_179}</item>
+        <item>{v: 26, pi: afg_fm2, si: afg_180}</item>
+        <item>{v: 27, pi: afg_fm3, si: afg_181}</item>
+        <item>{v: 28, pi: afg_fm4, si: afg_182}</item>
+        <item>{v: 29, pi: afg_fm5, si: afg_183}</item>
+        <item>{v: 30, pi: afg_fm12, si: afg_184}</item>
+        <item>{v: 31, pi: afg_fm7, si: afg_185}</item>
+        <item>{v: 32, pi: afg_fm8, si: afg_186}</item>
+        <item>{v: 33, pi: afg_fm9, si: afg_187}</item>
+        <item>{v: 34, pi: afg_fm10, si: afg_188}</item>
+        <item>{v: 35, pi: afg_fm11, si: afg_189}</item>
+        <item>{v: 36, pi: afg_pm18, si: afg_190}</item>
+        <item>{v: 37, pi: afg_pm13, si: afg_191}</item>
+        <item>{v: 38, pi: afg_pm14, si: afg_192}</item>
+        <item>{v: 39, pi: afg_pm15, si: afg_193}</item>
+        <item>{v: 40, pi: afg_pm16, si: afg_194}</item>
+        <item>{v: 41, pi: afg_pm17, si: afg_195}</item>
+        <item>{v: 42, pi: afg_pm6, si: afg_196}</item>
+        <item>{v: 43, pi: afg_pm1, si: afg_197}</item>
+        <item>{v: 44, pi: afg_pm2, si: afg_198}</item>
+        <item>{v: 45, pi: afg_pm3, si: afg_199}</item>
+        <item>{v: 46, pi: afg_pm4, si: afg_200}</item>
+        <item>{v: 47, pi: afg_pm5, si: afg_201}</item>
+        <item>{v: 48, pi: afg_pm12, si: afg_202}</item>
+        <item>{v: 49, pi: afg_pm7, si: afg_203}</item>
+        <item>{v: 50, pi: afg_pm8, si: afg_204}</item>
+        <item>{v: 51, pi: afg_pm9, si: afg_205}</item>
+        <item>{v: 52, pi: afg_pm10, si: afg_206}</item>
+        <item>{v: 53, pi: afg_pm11, si: afg_207}</item>
     </string-array>
     <string-array name="msg_afg_mode_function">
         <item>{v: 0, si: afg_2}</item>
@@ -477,12 +477,12 @@
         <item>{v: 6, pi: afg_arb, si: afg_11}</item>
     </string-array>
     <string-array name="msg_afg_wave_function1">
-        <item>{v: 0, pi: afg_5, si: afg_145}</item>
-        <item>{v: 1, pi: afg_6, si: afg_146}</item>
-        <item>{v: 2, pi: afg_7, si: afg_147}</item>
-        <item>{v: 4, pi: afg_9, si: afg_149}</item>
-        <item>{v: 5, pi: afg_11, si: afg_150}</item>
-        <item>{v: 6, pi: afg_10, si: afg_151}</item>
+        <item>{v: 0, pi: afg_5, si: afg_146}</item>
+        <item>{v: 1, pi: afg_6, si: afg_147}</item>
+        <item>{v: 2, pi: afg_7, si: afg_148}</item>
+        <item>{v: 4, pi: afg_9, si: afg_150}</item>
+        <item>{v: 5, pi: afg_11, si: afg_151}</item>
+        <item>{v: 6, pi: afg_10, si: afg_152}</item>
     </string-array>
     <string-array name="msg_afg_wave_mod_am_shape">
         <item>{v: 0, si: afg_79}</item>

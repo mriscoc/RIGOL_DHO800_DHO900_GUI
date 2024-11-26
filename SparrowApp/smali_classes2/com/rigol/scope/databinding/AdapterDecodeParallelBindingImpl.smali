@@ -651,7 +651,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x248
+    const/16 v0, 0x249
 
     if-ne p2, v0, :cond_1
 
@@ -683,7 +683,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x24b
+    const/16 v0, 0x24c
 
     if-ne p2, v0, :cond_2
 
@@ -715,7 +715,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x249
+    const/16 v0, 0x24a
 
     if-ne p2, v0, :cond_3
 
@@ -747,7 +747,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x247
+    const/16 v0, 0x248
 
     if-ne p2, v0, :cond_4
 
@@ -779,7 +779,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x7e
+    const/16 v0, 0x7f
 
     if-ne p2, v0, :cond_5
 
@@ -811,7 +811,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x24d
+    const/16 v0, 0x24e
 
     if-ne p2, v0, :cond_6
 
@@ -843,7 +843,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x24e
+    const/16 v0, 0x24f
 
     if-ne p2, v0, :cond_7
 
@@ -875,7 +875,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x281
+    const/16 v0, 0x282
 
     if-ne p2, v0, :cond_8
 
@@ -907,7 +907,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x7f
+    const/16 v0, 0x80
 
     if-ne p2, v0, :cond_9
 
@@ -939,7 +939,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x7d
+    const/16 v0, 0x7e
 
     if-ne p2, v0, :cond_a
 
@@ -971,7 +971,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x22e
+    const/16 v0, 0x22f
 
     if-ne p2, v0, :cond_b
 
@@ -1003,7 +1003,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x2de
+    const/16 v0, 0x2e0
 
     if-ne p2, v0, :cond_c
 
@@ -4108,7 +4108,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeParallelBindingImpl;->notifyPropertyChanged(I)V
@@ -4133,7 +4133,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_0
 

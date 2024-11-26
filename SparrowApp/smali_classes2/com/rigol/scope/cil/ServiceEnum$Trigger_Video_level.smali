@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2296
+    .line 2298
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
     const-string v1, "trig_video_bi"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->trig_video_bi:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
-    .line 2297
+    .line 2299
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
     const-string v9, "trig_video_tri"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
-    .line 2294
+    .line 2296
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->trig_video_bi:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 2300
+    .line 2302
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2301
+    .line 2303
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->value1:I
 
-    .line 2302
+    .line 2304
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->value2:Ljava/lang/String;
 
-    .line 2303
+    .line 2305
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->pic1:Ljava/lang/String;
 
-    .line 2304
+    .line 2306
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
     .locals 1
 
-    .line 2294
+    .line 2296
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
     .locals 1
 
-    .line 2294
+    .line 2296
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_level;->clone()Ljava/lang/Object;

@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7694
+    .line 7696
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
     const-string v1, "BUS_OFF"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->BUS_OFF:Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
-    .line 7695
+    .line 7697
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
     const-string v9, "BUS_ON"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
-    .line 7692
+    .line 7694
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->BUS_OFF:Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 7698
+    .line 7700
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7699
+    .line 7701
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->value1:I
 
-    .line 7700
+    .line 7702
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->value2:Ljava/lang/String;
 
-    .line 7701
+    .line 7703
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->pic1:Ljava/lang/String;
 
-    .line 7702
+    .line 7704
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
     .locals 1
 
-    .line 7692
+    .line 7694
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
     .locals 1
 
-    .line 7692
+    .line 7694
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$Bus_Status;->clone()Ljava/lang/Object;

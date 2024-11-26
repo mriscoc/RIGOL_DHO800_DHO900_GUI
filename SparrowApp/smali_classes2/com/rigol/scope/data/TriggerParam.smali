@@ -34667,7 +34667,7 @@
     .line 5949
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->bitType:I
 
-    const/16 p1, 0x59
+    const/16 p1, 0x5a
 
     .line 5950
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34681,7 +34681,7 @@
     .line 1776
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->byteLength:I
 
-    const/16 v0, 0x84
+    const/16 v0, 0x85
 
     .line 1777
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34920,7 +34920,7 @@
     .line 5027
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canBaud:I
 
-    const/16 p1, 0x87
+    const/16 p1, 0x88
 
     .line 5028
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34934,7 +34934,7 @@
     .line 10254
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canDataIdType:I
 
-    const/16 p1, 0x88
+    const/16 p1, 0x89
 
     .line 10255
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34948,7 +34948,7 @@
     .line 1938
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canDataType:I
 
-    const/16 p1, 0x89
+    const/16 p1, 0x8a
 
     .line 1939
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -34993,7 +34993,7 @@
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setKeyNumMax(I)V
 
     :goto_0
-    const/16 p1, 0x8a
+    const/16 p1, 0x8b
 
     .line 5240
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35007,7 +35007,7 @@
     .line 5037
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canFdBaud:I
 
-    const/16 p1, 0x8b
+    const/16 p1, 0x8c
 
     .line 5038
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35021,7 +35021,7 @@
     .line 1958
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canIdBits:I
 
-    const/16 p1, 0x8c
+    const/16 p1, 0x8d
 
     .line 1959
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35035,7 +35035,7 @@
     .line 1948
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->canIdType:I
 
-    const/16 p1, 0x8d
+    const/16 p1, 0x8e
 
     .line 1949
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35055,7 +35055,7 @@
     .line 3806
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgress()V
 
-    const/16 v0, 0x97
+    const/16 v0, 0x98
 
     .line 3807
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35090,7 +35090,7 @@
     .line 4288
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0xa0
+    const/16 p1, 0xa1
 
     .line 4289
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35104,7 +35104,7 @@
     .line 4299
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0xa1
+    const/16 p1, 0xa2
 
     .line 4300
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35141,7 +35141,7 @@
     .line 4556
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanDurationPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    const/16 p1, 0xa3
+    const/16 p1, 0xa4
 
     .line 4557
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35164,7 +35164,7 @@
     .line 4546
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->chanPattern:[Lcom/rigol/scope/cil/ServiceEnum$TriggerPattern;
 
-    const/16 p1, 0xa5
+    const/16 p1, 0xa6
 
     .line 4547
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35187,7 +35187,7 @@
     .line 3733
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->channel:I
 
-    const/16 p1, 0xaa
+    const/16 p1, 0xab
 
     .line 3734
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35201,7 +35201,7 @@
     .line 3743
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->channelB:I
 
-    const/16 p1, 0xac
+    const/16 p1, 0xad
 
     .line 3744
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35215,7 +35215,7 @@
     .line 3753
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->channelC:I
 
-    const/16 p1, 0xae
+    const/16 p1, 0xaf
 
     .line 3754
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35229,7 +35229,7 @@
     .line 5272
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->compareLowerLimit:J
 
-    const/16 p1, 0xb9
+    const/16 p1, 0xba
 
     .line 5273
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35243,7 +35243,7 @@
     .line 5261
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->compareUperLimit:J
 
-    const/16 p1, 0xba
+    const/16 p1, 0xbb
 
     .line 5262
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35257,7 +35257,7 @@
     .line 4444
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    const/16 v0, 0xc0
+    const/16 v0, 0xc1
 
     .line 4445
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35291,7 +35291,7 @@
     .line 1835
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->setFormatValue1Str(Ljava/lang/String;)V
 
-    const/16 p1, 0xd6
+    const/16 p1, 0xd7
 
     .line 1836
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35305,7 +35305,7 @@
     .line 1545
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->dataBits:I
 
-    const/16 p1, 0xd7
+    const/16 p1, 0xd8
 
     .line 1546
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -35894,7 +35894,7 @@
     .line 1885
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->dataByte:I
 
-    const/16 p1, 0xd8
+    const/16 p1, 0xd9
 
     .line 1886
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36155,7 +36155,7 @@
     .line 5250
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->Define:Z
 
-    const/16 p1, 0xe0
+    const/16 p1, 0xe1
 
     .line 5251
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36175,7 +36175,7 @@
     .line 4312
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0xe4
+    const/16 p1, 0xe5
 
     .line 4313
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36195,7 +36195,7 @@
     .line 4325
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0xe5
+    const/16 p1, 0xe6
 
     .line 4326
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36209,7 +36209,7 @@
     .line 1505
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->delayLowerLimit:J
 
-    const/16 p1, 0xe6
+    const/16 p1, 0xe7
 
     .line 1506
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36223,7 +36223,7 @@
     .line 1495
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->delayUperLimit:J
 
-    const/16 p1, 0xe7
+    const/16 p1, 0xe8
 
     .line 1496
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36240,7 +36240,7 @@
     .line 1026
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0xe8
+    const/16 p1, 0xe9
 
     .line 1027
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36257,7 +36257,7 @@
     .line 1046
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0xe9
+    const/16 p1, 0xea
 
     .line 1047
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36283,7 +36283,7 @@
     .line 1465
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->durationLowerLimit:J
 
-    const/16 p1, 0xf8
+    const/16 p1, 0xf9
 
     .line 1466
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36372,7 +36372,7 @@
 
     :cond_3
     :goto_0
-    const/16 p1, 0xf9
+    const/16 p1, 0xfa
 
     .line 4537
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36386,7 +36386,7 @@
     .line 1455
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->durationUperLimit:J
 
-    const/16 p1, 0xfa
+    const/16 p1, 0xfb
 
     .line 1456
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36400,7 +36400,7 @@
     .line 4831
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRate:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    const/16 p1, 0xfc
+    const/16 p1, 0xfd
 
     .line 4832
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36414,7 +36414,7 @@
     .line 5017
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRateCan:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    const/16 p1, 0xfd
+    const/16 p1, 0xfe
 
     .line 5018
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36428,7 +36428,7 @@
     .line 5413
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eBaudRateLin:Lcom/rigol/scope/cil/ServiceEnum$EBaudRate;
 
-    const/16 p1, 0xfe
+    const/16 p1, 0xff
 
     .line 5414
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36442,7 +36442,7 @@
     .line 4721
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->eMoreThan:Lcom/rigol/scope/cil/ServiceEnum$EMoreThan;
 
-    const/16 p1, 0xff
+    const/16 p1, 0x100
 
     .line 4722
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36456,7 +36456,7 @@
     .line 1713
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeNumber:I
 
-    const/16 p1, 0x105
+    const/16 p1, 0x106
 
     .line 1714
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36470,7 +36470,7 @@
     .line 4567
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x109
+    const/16 p1, 0x10a
 
     .line 4568
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36484,7 +36484,7 @@
     .line 4648
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlopeA:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x10a
+    const/16 p1, 0x10b
 
     .line 4649
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36498,7 +36498,7 @@
     .line 4659
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->edgeSlopeB:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x10b
+    const/16 p1, 0x10c
 
     .line 4660
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36512,7 +36512,7 @@
     .line 1880
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->fdSamplePoints:J
 
-    const/16 p1, 0x124
+    const/16 p1, 0x125
 
     .line 1881
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36526,7 +36526,7 @@
     .line 1855
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->format:I
 
-    const/16 p1, 0x14d
+    const/16 p1, 0x14e
 
     .line 1856
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36540,7 +36540,7 @@
     .line 3845
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue1Str:Ljava/lang/String;
 
-    const/16 p1, 0x14e
+    const/16 p1, 0x14f
 
     .line 3846
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36554,7 +36554,7 @@
     .line 3860
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue2Str:Ljava/lang/String;
 
-    const/16 p1, 0x14f
+    const/16 p1, 0x150
 
     .line 3861
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36568,7 +36568,7 @@
     .line 3875
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue3DataStr:Ljava/lang/String;
 
-    const/16 p1, 0x150
+    const/16 p1, 0x151
 
     .line 3876
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36582,7 +36582,7 @@
     .line 3885
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue3IdStr:Ljava/lang/String;
 
-    const/16 p1, 0x151
+    const/16 p1, 0x152
 
     .line 3886
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36596,7 +36596,7 @@
     .line 3900
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue4Str:Ljava/lang/String;
 
-    const/16 p1, 0x152
+    const/16 p1, 0x153
 
     .line 3901
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36610,7 +36610,7 @@
     .line 3930
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5MaxStr:Ljava/lang/String;
 
-    const/16 p1, 0x153
+    const/16 p1, 0x154
 
     .line 3931
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36624,7 +36624,7 @@
     .line 3920
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5MinStr:Ljava/lang/String;
 
-    const/16 p1, 0x154
+    const/16 p1, 0x155
 
     .line 3921
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36638,7 +36638,7 @@
     .line 3910
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue5Str:Ljava/lang/String;
 
-    const/16 p1, 0x155
+    const/16 p1, 0x156
 
     .line 3911
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36652,7 +36652,7 @@
     .line 3970
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6BitStr:Ljava/lang/String;
 
-    const/16 p1, 0x156
+    const/16 p1, 0x157
 
     .line 3971
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36666,7 +36666,7 @@
     .line 3950
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6MaxStr:Ljava/lang/String;
 
-    const/16 p1, 0x157
+    const/16 p1, 0x158
 
     .line 3951
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36680,7 +36680,7 @@
     .line 3960
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6RtaStr:Ljava/lang/String;
 
-    const/16 p1, 0x158
+    const/16 p1, 0x159
 
     .line 3961
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36694,7 +36694,7 @@
     .line 3940
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->formatValue6Str:Ljava/lang/String;
 
-    const/16 p1, 0x159
+    const/16 p1, 0x15a
 
     .line 3941
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36708,7 +36708,7 @@
     .line 1683
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->hold:J
 
-    const/16 p1, 0x177
+    const/16 p1, 0x178
 
     .line 1684
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36722,7 +36722,7 @@
     .line 1653
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->holdOff:J
 
-    const/16 p1, 0x178
+    const/16 p1, 0x179
 
     .line 1654
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36736,7 +36736,7 @@
     .line 1750
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->i2cAddress:I
 
-    const/16 p1, 0x181
+    const/16 p1, 0x182
 
     .line 1751
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36750,7 +36750,7 @@
     .line 4924
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->i2cDataType:I
 
-    const/16 p1, 0x182
+    const/16 p1, 0x183
 
     .line 4925
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36764,7 +36764,7 @@
     .line 10243
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->i2sDataType:I
 
-    const/16 p1, 0x189
+    const/16 p1, 0x18a
 
     .line 10244
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -36778,7 +36778,7 @@
     .line 5058
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->idExtended:Z
 
-    const/16 v0, 0x197
+    const/16 v0, 0x198
 
     .line 5059
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37599,7 +37599,7 @@
     .line 5292
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->idLowerLimit:J
 
-    const/16 p1, 0x198
+    const/16 p1, 0x199
 
     .line 5293
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37613,7 +37613,7 @@
     .line 5282
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->idUperLimit:J
 
-    const/16 p1, 0x199
+    const/16 p1, 0x19a
 
     .line 5283
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37627,7 +37627,7 @@
     .line 1703
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->idelTime:J
 
-    const/16 p1, 0x19a
+    const/16 p1, 0x19b
 
     .line 1704
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37641,7 +37641,7 @@
     .line 4357
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x19c
+    const/16 p1, 0x19d
 
     .line 4358
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37655,7 +37655,7 @@
     .line 4373
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iicChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x19d
+    const/16 p1, 0x19e
 
     .line 4374
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37669,7 +37669,7 @@
     .line 1107
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelA:J
 
-    const/16 p1, 0x19e
+    const/16 p1, 0x19f
 
     .line 1108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37683,7 +37683,7 @@
     .line 1126
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iiclevelB:J
 
-    const/16 p1, 0x19f
+    const/16 p1, 0x1a0
 
     .line 1127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37697,7 +37697,7 @@
     .line 4408
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x1a0
+    const/16 p1, 0x1a1
 
     .line 4409
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37711,7 +37711,7 @@
     .line 4423
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x1a1
+    const/16 p1, 0x1a2
 
     .line 4424
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37725,7 +37725,7 @@
     .line 4433
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x1a2
+    const/16 p1, 0x1a3
 
     .line 4434
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37739,7 +37739,7 @@
     .line 5845
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisDataType:I
 
-    const/16 p1, 0x1a3
+    const/16 p1, 0x1a4
 
     .line 5846
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37753,7 +37753,7 @@
     .line 5855
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisMaxDataType:I
 
-    const/16 p1, 0x1a4
+    const/16 p1, 0x1a5
 
     .line 5856
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37767,7 +37767,7 @@
     .line 5865
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisMinDataType:I
 
-    const/16 p1, 0x1a5
+    const/16 p1, 0x1a6
 
     .line 5866
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37781,7 +37781,7 @@
     .line 4637
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->iisSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x1a6
+    const/16 p1, 0x1a7
 
     .line 4638
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37795,7 +37795,7 @@
     .line 1204
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelA:J
 
-    const/16 p1, 0x1a7
+    const/16 p1, 0x1a8
 
     .line 1205
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37809,7 +37809,7 @@
     .line 1223
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelB:J
 
-    const/16 p1, 0x1a8
+    const/16 p1, 0x1a9
 
     .line 1224
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37823,7 +37823,7 @@
     .line 1242
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->iislevelC:J
 
-    const/16 p1, 0x1a9
+    const/16 p1, 0x1aa
 
     .line 1243
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37837,7 +37837,7 @@
     .line 3774
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->isNoise:Z
 
-    const/16 p1, 0x1bf
+    const/16 p1, 0x1c0
 
     .line 3775
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37851,7 +37851,7 @@
     .line 3758
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->itemPosition:I
 
-    const/16 p1, 0x1c2
+    const/16 p1, 0x1c3
 
     .line 3759
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37865,7 +37865,7 @@
     .line 993
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->keyNumMax:I
 
-    const/16 p1, 0x1c3
+    const/16 p1, 0x1c4
 
     .line 994
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37904,7 +37904,7 @@
     .line 1014
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgress()V
 
-    const/16 p1, 0x1e3
+    const/16 p1, 0x1e4
 
     .line 1015
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37922,7 +37922,7 @@
     .line 1262
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x1e4
+    const/16 p1, 0x1e5
 
     .line 1263
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37939,7 +37939,7 @@
     .line 1365
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressC()V
 
-    const/16 p1, 0x1e5
+    const/16 p1, 0x1e6
 
     .line 1366
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37953,7 +37953,7 @@
     .line 5498
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linBaud:I
 
-    const/16 p1, 0x1e9
+    const/16 p1, 0x1ea
 
     .line 5499
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -37967,7 +37967,7 @@
     .line 5423
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linByte:I
 
-    const/16 v0, 0x1ea
+    const/16 v0, 0x1eb
 
     .line 5424
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38210,7 +38210,7 @@
     .line 5472
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linDataType:I
 
-    const/16 p1, 0x1eb
+    const/16 p1, 0x1ec
 
     .line 5473
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38224,7 +38224,7 @@
     .line 5482
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linId:I
 
-    const/16 p1, 0x1ec
+    const/16 p1, 0x1ed
 
     .line 5483
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38238,7 +38238,7 @@
     .line 1963
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->linSamplePosition:J
 
-    const/16 p1, 0x1ed
+    const/16 p1, 0x1ee
 
     .line 1964
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38252,7 +38252,7 @@
     .line 1515
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->linesNumber:I
 
-    const/16 p1, 0x1f6
+    const/16 p1, 0x1f7
 
     .line 1516
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38266,7 +38266,7 @@
     .line 1425
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->lowerLimit:J
 
-    const/16 p1, 0x1fe
+    const/16 p1, 0x1ff
 
     .line 1426
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38280,7 +38280,7 @@
     .line 10265
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdDataType:I
 
-    const/16 p1, 0x218
+    const/16 p1, 0x219
 
     .line 10266
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38294,7 +38294,7 @@
     .line 4798
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x219
+    const/16 p1, 0x21a
 
     .line 4799
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38308,7 +38308,7 @@
     .line 1344
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelA:J
 
-    const/16 p1, 0x21a
+    const/16 p1, 0x21b
 
     .line 1345
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38322,7 +38322,7 @@
     .line 1354
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->milstdlevelB:J
 
-    const/16 p1, 0x21b
+    const/16 p1, 0x21c
 
     .line 1355
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38336,7 +38336,7 @@
     .line 1663
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->nMode:I
 
-    const/16 p1, 0x229
+    const/16 p1, 0x22a
 
     .line 1664
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38350,7 +38350,7 @@
     .line 4617
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->nthSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x231
+    const/16 p1, 0x232
 
     .line 4618
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38364,7 +38364,7 @@
     .line 4743
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->overEvent:Lcom/rigol/scope/cil/ServiceEnum$OverEvent;
 
-    const/16 p1, 0x241
+    const/16 p1, 0x242
 
     .line 4744
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38378,7 +38378,7 @@
     .line 4597
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->overSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x242
+    const/16 p1, 0x243
 
     .line 4598
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38392,7 +38392,7 @@
     .line 1643
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->overTime:J
 
-    const/16 p1, 0x243
+    const/16 p1, 0x244
 
     .line 1644
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38406,7 +38406,7 @@
     .line 4787
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->overTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x244
+    const/16 p1, 0x245
 
     .line 4788
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38426,7 +38426,7 @@
     .line 1322
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverValue()J
 
-    const/16 p1, 0x245
+    const/16 p1, 0x246
 
     .line 1323
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38446,7 +38446,7 @@
     .line 1334
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getOverValue()J
 
-    const/16 p1, 0x246
+    const/16 p1, 0x247
 
     .line 1335
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38915,7 +38915,7 @@
 
     :cond_17
     :goto_0
-    const/16 p1, 0x25b
+    const/16 p1, 0x25c
 
     .line 4518
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38929,7 +38929,7 @@
     .line 4680
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->polarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x281
+    const/16 p1, 0x282
 
     .line 4681
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38943,7 +38943,7 @@
     .line 1375
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progress:I
 
-    const/16 p1, 0x29d
+    const/16 p1, 0x29f
 
     .line 1376
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38957,7 +38957,7 @@
     .line 1385
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progressA:I
 
-    const/16 p1, 0x29e
+    const/16 p1, 0x2a0
 
     .line 1386
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38971,7 +38971,7 @@
     .line 1395
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progressB:I
 
-    const/16 p1, 0x29f
+    const/16 p1, 0x2a1
 
     .line 1396
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38985,7 +38985,7 @@
     .line 1405
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->progressC:I
 
-    const/16 p1, 0x2a0
+    const/16 p1, 0x2a2
 
     .line 1406
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -38999,7 +38999,7 @@
     .line 4670
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->pulsePolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x2a6
+    const/16 p1, 0x2a8
 
     .line 4671
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39013,7 +39013,7 @@
     .line 4841
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->rs232BaudRate:I
 
-    const/16 p1, 0x2e6
+    const/16 p1, 0x2e8
 
     .line 4842
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39027,7 +39027,7 @@
     .line 1728
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->rs232Data:J
 
-    const/16 p1, 0x2e7
+    const/16 p1, 0x2e9
 
     .line 1729
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39041,7 +39041,7 @@
     .line 5939
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->rtaType:I
 
-    const/16 p1, 0x2f4
+    const/16 p1, 0x2f6
 
     .line 5940
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39055,7 +39055,7 @@
     .line 1485
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtLowerLimit:J
 
-    const/16 p1, 0x2f7
+    const/16 p1, 0x2f9
 
     .line 1486
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39069,7 +39069,7 @@
     .line 4700
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x2f8
+    const/16 p1, 0x2fa
 
     .line 4701
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39083,7 +39083,7 @@
     .line 4776
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x2f9
+    const/16 p1, 0x2fb
 
     .line 4777
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39097,7 +39097,7 @@
     .line 1475
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->runtUperLimit:J
 
-    const/16 p1, 0x2fa
+    const/16 p1, 0x2fc
 
     .line 1476
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39117,7 +39117,7 @@
     .line 1298
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntValue()J
 
-    const/16 p1, 0x2fb
+    const/16 p1, 0x2fd
 
     .line 1299
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39137,7 +39137,7 @@
     .line 1310
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->getRuntValue()J
 
-    const/16 p1, 0x2fc
+    const/16 p1, 0x2fe
 
     .line 1311
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39151,7 +39151,7 @@
     .line 4809
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->sHEvent:Lcom/rigol/scope/cil/ServiceEnum$SHEvent;
 
-    const/16 p1, 0x2ff
+    const/16 p1, 0x301
 
     .line 4810
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39165,7 +39165,7 @@
     .line 1865
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->samplePoints:J
 
-    const/16 p1, 0x301
+    const/16 p1, 0x303
 
     .line 1866
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39179,7 +39179,7 @@
     .line 1673
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->setup:J
 
-    const/16 p1, 0x32b
+    const/16 p1, 0x32d
 
     .line 1674
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39193,7 +39193,7 @@
     .line 1693
     iput-boolean p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHold:Z
 
-    const/16 p1, 0x32d
+    const/16 p1, 0x32f
 
     .line 1694
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39213,7 +39213,7 @@
     .line 4338
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0x32e
+    const/16 p1, 0x330
 
     .line 4339
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39233,7 +39233,7 @@
     .line 4351
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x32f
+    const/16 p1, 0x331
 
     .line 4352
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39247,7 +39247,7 @@
     .line 4710
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x330
+    const/16 p1, 0x332
 
     .line 4711
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39261,7 +39261,7 @@
     .line 4607
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->setupHoldSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x331
+    const/16 p1, 0x333
 
     .line 4608
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39278,7 +39278,7 @@
     .line 1066
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressA()V
 
-    const/16 p1, 0x332
+    const/16 p1, 0x334
 
     .line 1067
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39295,7 +39295,7 @@
     .line 1087
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 p1, 0x333
+    const/16 p1, 0x335
 
     .line 1088
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39309,7 +39309,7 @@
     .line 4577
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->slope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x34c
+    const/16 p1, 0x34e
 
     .line 4578
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39323,7 +39323,7 @@
     .line 1445
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopeLowerLimit:J
 
-    const/16 p1, 0x34f
+    const/16 p1, 0x351
 
     .line 1446
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39337,7 +39337,7 @@
     .line 4765
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopeTrigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x351
+    const/16 p1, 0x353
 
     .line 4766
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39351,7 +39351,7 @@
     .line 1435
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->slopeUperLimit:J
 
-    const/16 p1, 0x352
+    const/16 p1, 0x354
 
     .line 1436
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39371,7 +39371,7 @@
     .line 1274
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateSlopeLevelDifferenceValue()J
 
-    const/16 p1, 0x353
+    const/16 p1, 0x355
 
     .line 1275
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39391,7 +39391,7 @@
     .line 1286
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateSlopeLevelDifferenceValue()J
 
-    const/16 p1, 0x354
+    const/16 p1, 0x356
 
     .line 1287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39405,7 +39405,7 @@
     .line 4378
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x366
+    const/16 p1, 0x368
 
     .line 4379
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39419,7 +39419,7 @@
     .line 4393
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x367
+    const/16 p1, 0x369
 
     .line 4394
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39433,7 +39433,7 @@
     .line 4403
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiChanC:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x368
+    const/16 p1, 0x36a
 
     .line 4404
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39447,7 +39447,7 @@
     .line 4945
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiDataType:I
 
-    const/16 p1, 0x369
+    const/16 p1, 0x36b
 
     .line 4946
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39461,7 +39461,7 @@
     .line 4627
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x36a
+    const/16 p1, 0x36c
 
     .line 4628
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39475,7 +39475,7 @@
     .line 1535
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spiTimeOut:J
 
-    const/16 p1, 0x36b
+    const/16 p1, 0x36d
 
     .line 1536
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39489,7 +39489,7 @@
     .line 1145
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelA:J
 
-    const/16 p1, 0x37b
+    const/16 p1, 0x37d
 
     .line 1147
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39503,7 +39503,7 @@
     .line 1165
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelB:J
 
-    const/16 p1, 0x37c
+    const/16 p1, 0x37e
 
     .line 1166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39517,7 +39517,7 @@
     .line 1185
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->spilevelC:J
 
-    const/16 p1, 0x37d
+    const/16 p1, 0x37f
 
     .line 1186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39531,7 +39531,7 @@
     .line 1525
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->timeOut:J
 
-    const/16 p1, 0x3a6
+    const/16 p1, 0x3a8
 
     .line 1526
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39545,7 +39545,7 @@
     .line 4587
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->timeoutSlope:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    const/16 p1, 0x3a8
+    const/16 p1, 0x3aa
 
     .line 4588
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39748,7 +39748,7 @@
     .line 3789
     invoke-virtual {p0}, Lcom/rigol/scope/data/TriggerParam;->updateProgressB()V
 
-    const/16 v0, 0x3af
+    const/16 v0, 0x3b1
 
     .line 3790
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39777,7 +39777,7 @@
     .line 5898
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Err;
 
-    const/16 p1, 0x3b2
+    const/16 p1, 0x3b4
 
     .line 5899
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39791,7 +39791,7 @@
     .line 5887
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_Sync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_Sync;
 
-    const/16 p1, 0x3b3
+    const/16 p1, 0x3b5
 
     .line 5888
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39805,7 +39805,7 @@
     .line 5876
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_1553_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_1553_When;
 
-    const/16 p1, 0x3b4
+    const/16 p1, 0x3b6
 
     .line 5877
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39819,7 +39819,7 @@
     .line 4956
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Can_Phy:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Can_Phy;
 
-    const/16 p1, 0x3b5
+    const/16 p1, 0x3b7
 
     .line 4957
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39833,7 +39833,7 @@
     .line 5303
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Baud:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Baud;
 
-    const/16 p1, 0x3b6
+    const/16 p1, 0x3b8
 
     .line 5304
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39847,7 +39847,7 @@
     .line 5369
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Err;
 
-    const/16 p1, 0x3b7
+    const/16 p1, 0x3b9
 
     .line 5370
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39861,7 +39861,7 @@
     .line 5347
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Frame:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Frame;
 
-    const/16 p1, 0x3b8
+    const/16 p1, 0x3ba
 
     .line 5348
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39875,7 +39875,7 @@
     .line 5314
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Phy:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Phy;
 
-    const/16 p1, 0x3b9
+    const/16 p1, 0x3bb
 
     .line 5315
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39889,7 +39889,7 @@
     .line 5336
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Pos:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Pos;
 
-    const/16 p1, 0x3ba
+    const/16 p1, 0x3bc
 
     .line 5337
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39903,7 +39903,7 @@
     .line 5358
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_Symbol:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_Symbol;
 
-    const/16 p1, 0x3bb
+    const/16 p1, 0x3bd
 
     .line 5359
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39917,7 +39917,7 @@
     .line 5325
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Flex_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
-    const/16 p1, 0x3bc
+    const/16 p1, 0x3be
 
     .line 5326
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39931,7 +39931,7 @@
     .line 4902
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_Spec:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_Spec;
 
-    const/16 p1, 0x3bd
+    const/16 p1, 0x3bf
 
     .line 4903
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39945,7 +39945,7 @@
     .line 4913
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_WR:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_WR;
 
-    const/16 p1, 0x3be
+    const/16 p1, 0x3c0
 
     .line 4914
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39959,7 +39959,7 @@
     .line 4891
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_I2C_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;
 
-    const/16 p1, 0x3bf
+    const/16 p1, 0x3c1
 
     .line 4892
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39973,7 +39973,7 @@
     .line 5537
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_Ch:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Ch;
 
-    const/16 p1, 0x3c0
+    const/16 p1, 0x3c2
 
     .line 5538
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -39987,7 +39987,7 @@
     .line 5559
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_Spec:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_Spec;
 
-    const/16 p1, 0x3c1
+    const/16 p1, 0x3c3
 
     .line 5560
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40001,7 +40001,7 @@
     .line 5548
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    const/16 p1, 0x3c2
+    const/16 p1, 0x3c4
 
     .line 5549
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40015,7 +40015,7 @@
     .line 5391
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp_Cyc:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    const/16 p1, 0x3c3
+    const/16 p1, 0x3c5
 
     .line 5392
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40029,7 +40029,7 @@
     .line 5380
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_IIS_data_cmp_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_IIS_data_cmp;
 
-    const/16 p1, 0x3c4
+    const/16 p1, 0x3c6
 
     .line 5381
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40043,7 +40043,7 @@
     .line 4754
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Level_ID:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
-    const/16 p1, 0x3c5
+    const/16 p1, 0x3c7
 
     .line 4755
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40057,7 +40057,7 @@
     .line 5515
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_Err:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Err;
 
-    const/16 p1, 0x3c6
+    const/16 p1, 0x3c8
 
     .line 5516
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40071,7 +40071,7 @@
     .line 5402
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_Ver:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_Ver;
 
-    const/16 p1, 0x3c7
+    const/16 p1, 0x3c9
 
     .line 5403
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40085,7 +40085,7 @@
     .line 5526
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Lin_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Lin_When;
 
-    const/16 p1, 0x3c8
+    const/16 p1, 0x3ca
 
     .line 5527
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40099,7 +40099,7 @@
     .line 4880
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Parity:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;
 
-    const/16 p1, 0x3c9
+    const/16 p1, 0x3cb
 
     .line 4881
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40113,7 +40113,7 @@
     .line 4869
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Stop:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Stop;
 
-    const/16 p1, 0x3ca
+    const/16 p1, 0x3cc
 
     .line 4870
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40127,7 +40127,7 @@
     .line 4820
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;
 
-    const/16 p1, 0x3cb
+    const/16 p1, 0x3cd
 
     .line 4821
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40141,7 +40141,7 @@
     .line 4858
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_RS232_Width:Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Width;
 
-    const/16 p1, 0x3cc
+    const/16 p1, 0x3ce
 
     .line 4859
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40155,7 +40155,7 @@
     .line 4967
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Serv_Can_When:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Serv_Can_When;
 
-    const/16 p1, 0x3cd
+    const/16 p1, 0x3cf
 
     .line 5007
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40169,7 +40169,7 @@
     .line 4935
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_Spi_CS:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
-    const/16 p1, 0x3ce
+    const/16 p1, 0x3d0
 
     .line 4936
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40183,7 +40183,7 @@
     .line 5909
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->trigger_value_cmp:Lcom/rigol/scope/cil/ServiceEnum$Trigger_value_cmp;
 
-    const/16 p1, 0x3cf
+    const/16 p1, 0x3d1
 
     .line 5910
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40242,7 +40242,7 @@
 
     aput-object p1, p2, v2
 
-    const/16 p1, 0x3d9
+    const/16 p1, 0x3db
 
     .line 6008
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40256,7 +40256,7 @@
     .line 5929
     iput p1, p0, Lcom/rigol/scope/data/TriggerParam;->upType:I
 
-    const/16 p1, 0x3dd
+    const/16 p1, 0x3df
 
     .line 5930
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40270,7 +40270,7 @@
     .line 1415
     iput-wide p1, p0, Lcom/rigol/scope/data/TriggerParam;->uperLimit:J
 
-    const/16 p1, 0x3e1
+    const/16 p1, 0x3e3
 
     .line 1416
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40284,7 +40284,7 @@
     .line 4457
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->videoFormat:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Format;
 
-    const/16 p1, 0x403
+    const/16 p1, 0x405
 
     .line 4458
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40298,7 +40298,7 @@
     .line 4690
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->videoPolarity:Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;
 
-    const/16 p1, 0x404
+    const/16 p1, 0x406
 
     .line 4691
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40312,7 +40312,7 @@
     .line 4732
     iput-object p1, p0, Lcom/rigol/scope/data/TriggerParam;->videoSync:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Video_Sync;
 
-    const/16 p1, 0x405
+    const/16 p1, 0x407
 
     .line 4733
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V
@@ -40330,7 +40330,7 @@
     .line 5570
     iput v1, v0, Lcom/rigol/scope/data/TriggerParam;->width:I
 
-    const/16 v1, 0x430
+    const/16 v1, 0x432
 
     .line 5571
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/TriggerParam;->notifyPropertyChanged(I)V

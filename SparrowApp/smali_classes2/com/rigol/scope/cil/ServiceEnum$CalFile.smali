@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6052
+    .line 6054
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v1, "cal_file_adc"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_adc:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6054
+    .line 6056
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v9, "cal_file_lsb"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_lsb:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6056
+    .line 6058
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v2, "cal_file_afe_zero"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_afe_zero:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6058
+    .line 6060
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v9, "cal_file_afe_bandwidth"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_afe_bandwidth:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6060
+    .line 6062
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v2, "cal_file_vertical"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_vertical:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6062
+    .line 6064
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v9, "cal_file_ext"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_ext:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6064
+    .line 6066
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v2, "cal_file_ddr"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_ddr:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6066
+    .line 6068
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const-string v9, "cal_file_afg"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
-    .line 6049
+    .line 6051
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->cal_file_adc:Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 6069
+    .line 6071
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6070
+    .line 6072
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->value1:I
 
-    .line 6071
+    .line 6073
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->value2:Ljava/lang/String;
 
-    .line 6072
+    .line 6074
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->pic1:Ljava/lang/String;
 
-    .line 6073
+    .line 6075
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CalFile;
     .locals 1
 
-    .line 6049
+    .line 6051
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CalFile;
     .locals 1
 
-    .line 6049
+    .line 6051
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalFile;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CalFile;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CalFile;->clone()Ljava/lang/Object;

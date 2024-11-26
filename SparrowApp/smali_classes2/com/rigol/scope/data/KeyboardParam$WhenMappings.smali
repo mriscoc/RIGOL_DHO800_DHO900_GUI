@@ -314,13 +314,25 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_Vrms:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
     move-result v1
 
     const/16 v24, 0x18
+
+    aput v24, v0, v1
+
+    sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$0:[I
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_Vrms:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
+
+    move-result v1
+
+    const/16 v24, 0x19
 
     aput v24, v0, v1
 
@@ -384,7 +396,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_db:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -394,7 +406,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dbV:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_db:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -404,7 +416,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dbm:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dbV:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -414,7 +426,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_Vrms:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dbm:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -424,7 +436,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dBmV:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_Vrms:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -434,7 +446,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dBuV:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dBmV:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -444,7 +456,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VmulS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_dBuV:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -454,7 +466,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VmulS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -464,7 +476,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -474,7 +486,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_hz:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -484,7 +496,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_degree:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_hz:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -494,7 +506,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_percent:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_degree:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -504,7 +516,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_oum:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_percent:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -514,7 +526,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_number:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_oum:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -524,7 +536,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_decimal:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_number:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -534,7 +546,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_bps:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_decimal:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
@@ -544,13 +556,25 @@
 
     sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_SaS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_bps:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
 
     move-result v1
 
     aput v23, v0, v1
+
+    sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_SaS:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0x17
+
+    aput v2, v0, v1
 
     return-void
 .end method

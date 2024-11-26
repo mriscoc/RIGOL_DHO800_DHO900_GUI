@@ -421,7 +421,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f100726
+    const v2, 0x7f100727
 
     add-int/2addr v2, v0
 
@@ -437,7 +437,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x3a9
+    const/16 v2, 0x3ab
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -450,7 +450,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x3d0
+    const/16 v2, 0x3d2
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -463,7 +463,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x14d
+    const/16 v2, 0x14e
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -476,7 +476,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x11c
+    const/16 v2, 0x11d
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -489,7 +489,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x11d
+    const/16 v2, 0x11e
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 

@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 2022
+    .line 2024
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     const-string v1, "Trigger_window_enter"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->Trigger_window_enter:Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
-    .line 2023
+    .line 2025
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     const-string v9, "Trigger_window_exit"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->Trigger_window_exit:Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
-    .line 2024
+    .line 2026
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     const-string v2, "Trigger_window_in_width"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->Trigger_window_in_width:Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
-    .line 2025
+    .line 2027
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     const-string v9, "Trigger_window_out_width"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
-    .line 2020
+    .line 2022
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->Trigger_window_enter:Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 2028
+    .line 2030
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2029
+    .line 2031
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->value1:I
 
-    .line 2030
+    .line 2032
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->value2:Ljava/lang/String;
 
-    .line 2031
+    .line 2033
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->pic1:Ljava/lang/String;
 
-    .line 2032
+    .line 2034
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
     .locals 1
 
-    .line 2020
+    .line 2022
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
     .locals 1
 
-    .line 2020
+    .line 2022
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WindowEvent;->clone()Ljava/lang/Object;

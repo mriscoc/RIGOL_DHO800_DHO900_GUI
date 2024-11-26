@@ -91,7 +91,7 @@
 
     move-result v0
 
-    mul-int/lit8 v0, v0, 0x5a
+    mul-int/lit8 v0, v0, 0x5b
 
     invoke-interface {v1}, Ljava/util/List;->size()I
 

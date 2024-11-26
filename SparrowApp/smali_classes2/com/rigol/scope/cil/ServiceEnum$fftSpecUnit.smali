@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6399
+    .line 6401
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     const-string v1, "fft_spec_rms"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->fft_spec_rms:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    .line 6400
+    .line 6402
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     const-string v9, "fft_spec_db"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->fft_spec_db:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    .line 6401
+    .line 6403
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     const-string v2, "fft_spec_dbm"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->fft_spec_dbm:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    .line 6402
+    .line 6404
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     const-string v9, "fft_spec_phase"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    .line 6397
+    .line 6399
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->fft_spec_rms:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 6405
+    .line 6407
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6406
+    .line 6408
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->value1:I
 
-    .line 6407
+    .line 6409
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->value2:Ljava/lang/String;
 
-    .line 6408
+    .line 6410
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->pic1:Ljava/lang/String;
 
-    .line 6409
+    .line 6411
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
     .locals 1
 
-    .line 6397
+    .line 6399
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
     .locals 1
 
-    .line 6397
+    .line 6399
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->clone()Ljava/lang/Object;

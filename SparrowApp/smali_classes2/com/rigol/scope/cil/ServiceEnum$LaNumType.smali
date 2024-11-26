@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5280
+    .line 5282
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
     const-string v1, "LA_BIN_Val"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->LA_BIN_Val:Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
-    .line 5281
+    .line 5283
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
     const-string v9, "LA_HEX_Val"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
-    .line 5278
+    .line 5280
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->LA_BIN_Val:Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 5284
+    .line 5286
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5285
+    .line 5287
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->value1:I
 
-    .line 5286
+    .line 5288
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->value2:Ljava/lang/String;
 
-    .line 5287
+    .line 5289
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->pic1:Ljava/lang/String;
 
-    .line 5288
+    .line 5290
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
     .locals 1
 
-    .line 5278
+    .line 5280
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
     .locals 1
 
-    .line 5278
+    .line 5280
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$LaNumType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$LaNumType;->clone()Ljava/lang/Object;

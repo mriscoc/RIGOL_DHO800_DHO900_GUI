@@ -435,7 +435,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -507,7 +507,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -579,7 +579,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -651,7 +651,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x35c
+    const/16 v0, 0x35e
 
     if-ne p2, v0, :cond_1
 
@@ -683,7 +683,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0xfb
+    const/16 v0, 0xfc
 
     if-ne p2, v0, :cond_2
 
@@ -715,7 +715,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x57
+    const/16 v0, 0x58
 
     if-ne p2, v0, :cond_3
 
@@ -747,7 +747,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x1e7
+    const/16 v0, 0x1e8
 
     if-ne p2, v0, :cond_4
 
@@ -779,7 +779,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x1e8
+    const/16 v0, 0x1e9
 
     if-ne p2, v0, :cond_5
 
@@ -811,7 +811,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x1e6
+    const/16 v0, 0x1e7
 
     if-ne p2, v0, :cond_6
 
@@ -883,7 +883,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x393
 
     if-ne p2, v0, :cond_1
 
@@ -1915,7 +1915,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0xde
+    const/16 p1, 0xdf
 
     .line 171
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultDvmBindingImpl;->notifyPropertyChanged(I)V
@@ -1961,7 +1961,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x238
+    const/16 p1, 0x239
 
     .line 162
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultDvmBindingImpl;->notifyPropertyChanged(I)V
@@ -2012,7 +2012,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x251
+    const/16 p1, 0x252
 
     .line 154
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewResultDvmBindingImpl;->notifyPropertyChanged(I)V
@@ -2061,7 +2061,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x251
+    const/16 v0, 0x252
 
     if-ne v0, p1, :cond_2
 
@@ -2073,7 +2073,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x238
+    const/16 v0, 0x239
 
     if-ne v0, p1, :cond_3
 
@@ -2085,7 +2085,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0xde
+    const/16 v0, 0xdf
 
     if-ne v0, p1, :cond_4
 

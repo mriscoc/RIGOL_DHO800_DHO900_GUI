@@ -408,7 +408,7 @@
 
     iput v0, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth_source:I
 
-    const/16 v0, 0x119
+    const/16 v0, 0x11a
 
     .line 177
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
@@ -496,7 +496,7 @@
     .line 387
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_clk:I
 
-    const/16 v0, 0x117
+    const/16 v0, 0x118
 
     .line 388
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
@@ -515,7 +515,7 @@
     .line 374
     iput-boolean p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth100_clk_trigger:Z
 
-    const/16 v0, 0x118
+    const/16 v0, 0x119
 
     .line 375
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
@@ -762,7 +762,7 @@
     .line 169
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth_source:I
 
-    const/16 v0, 0x119
+    const/16 v0, 0x11a
 
     .line 170
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V
@@ -781,7 +781,7 @@
     .line 156
     iput p1, p0, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->eth_type:I
 
-    const/16 v0, 0x11a
+    const/16 v0, 0x11b
 
     .line 157
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/busAnalyse/BusAnalyseEthParam;->notifyPropertyChanged(I)V

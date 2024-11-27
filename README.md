@@ -9,6 +9,8 @@ For **00.01.04** firmware: https://www.patreon.com/mriscoc/shop/rigol-dho800-900
   
 https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/assets/2745567/0a0c265d-227d-4bdb-8d57-0fc6eb009ae3
 
+Telegram DHO800/900 channel: https://t.me/S2084K/2
+
 ### Installing SparrowExt.apk manually
 First make a backup of the original internal µSD card just in case,
 then uninstall/remove the stock Sparrow application, Install the new apk using ADB.

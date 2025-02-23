@@ -50,7 +50,7 @@ reboot
 More information: [How to install the new Sparrow extended UI?](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/discussions/4)
 
 ## FFT Avg
-Tnstallable APK for the FFTAvg utility which allows to get a better FFT plot with configurable frame average and peak detection.
+Installable APK for the FFTAvg utility which allows to get a better FFT plot with configurable frame average and peak detection.
 
 ![](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/blob/master/img/fftavg.gif?raw=true)
 

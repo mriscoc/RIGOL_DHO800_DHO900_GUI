@@ -18,36 +18,7 @@ Telegram DHO800/900 channel: https://t.me/S2084K/2
 
 ### Installing Sparrow Extended manually
 First **make a backup** of the original internal µSD card just in case,
-then uninstall/remove the stock Sparrow application, Install the new apk using ADB.
-Open a terminal (CMD) window inside of the folder where the SparrowExt.apk is
-Execute the following commands, replacing ###.###.###.### with the IP
-of the device.
-
-Get ADB from here: https://developer.android.com/tools/releases/platform-tools
-
-```cmd
-adb connect ###.###.###.###:55555
-adb root
-adb shell
-
-::####################################################################################
-::# Uninstall old version
-::####################################################################################
-am force-stop com.rigol.launcher
-am force-stop com.rigol.scope
-pm uninstall com.rigol.scope
-exit
-
-::####################################################################################
-::# Scope APK install
-::####################################################################################
-adb push SparrowExt.apk /mnt/tmp/app/SparrowExt.apk
-adb shell
-pm install -g -r /mnt/tmp/app/SparrowExt.apk
-reboot
-```
-
-More information: [How to install the new Sparrow extended UI?](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/discussions/4)
+then follow this guide: [How to install the new Sparrow extended UI?](https://github.com/mriscoc/RIGOL_DHO800_DHO900_GUI/discussions/4)
 
 ## FFT Avg
 Installable APK for the FFTAvg utility which allows to get a better FFT plot with configurable frame average and peak detection.

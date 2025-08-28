@@ -2,7 +2,7 @@
 Sparrow Android GUI project for Rigol DHO800 and DHO900 series Oscilloscopes
 
 > [!NOTE]
-> DHO Actions must be started after the DHO Sparrow application is loaded to be able to connect to it, if the application closes and restarts, you must force a reconnect by pressing and holding the close icon [X] in the upper right corner of the DHO Actions screen and start it from the DHO Sparrow application.
+> DHO Actions must be started after the Oscilloscope application is loaded to be able to connect to it, if the Oscilloscope application closes and restarts, you must force a reconnect by pressing and holding the close icon [X] in the upper right corner of the DHO Actions screen and start it from the DHO Sparrow application.
 
 ## Extended GUI
 
